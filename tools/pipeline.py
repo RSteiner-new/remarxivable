@@ -60,10 +60,11 @@ def load_json_tolerant(path):
     # strip markdown fences
     txt = re.sub(r"^```(?:json)?\s*", "", txt)
     txt = re.sub(r"\s*```\s*$", "", txt)
-    try:
-        return json.loads(txt)
-    except json.JSONDecodeError:
-        pass
+    for strict in (True, False):  # strict=False tolerates raw line breaks inside strings (seen in DataCite abstracts)
+        try:
+            return json.loads(txt, strict=strict)
+        except json.JSONDecodeError:
+            pass
     # cut to the outermost bracket pair
     starts = [i for i in (txt.find("["), txt.find("{")) if i >= 0]
     if starts:
@@ -71,7 +72,7 @@ def load_json_tolerant(path):
         e = max(txt.rfind("]"), txt.rfind("}"))
         cand = txt[s : e + 1]
         cand = re.sub(r",(\s*[\]}])", r"\1", cand)  # trailing commas
-        return json.loads(cand)
+        return json.loads(cand, strict=False)
     raise SystemExit(f"could not parse JSON in {path}")
 
 
