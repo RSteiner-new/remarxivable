@@ -12,9 +12,12 @@ Sub-commands (all write JSON, all print a short human-readable summary):
            Fill in abstracts/comments/subjects from per-paper files DIR/<id>.json
            (transcriptions of https://arxiv.org/abs/<id>). Updates papers.json in place.
 
-  build    --papers papers.json --scores scores.json --index index.json --out SITEDIR [--top 30]
-           Validate scores, rank, and write SITEDIR/data/<date>.json plus an updated
-           SITEDIR/data/index.json (newest first). scores.json maps id -> {score, venue, reason}.
+  build    --papers papers.json --scores scores.json --index index.json --out SITEDIR [--top 30] [--surveys 3]
+           Validate scores, select the top N by score, and write SITEDIR/data/<date>.json plus an updated
+           SITEDIR/data/index.json (newest first). scores.json maps id -> {score, venue, reason, survey, interest}.
+           Scores are used only for the selection: the published file lists the N papers in a date-seeded
+           random order and carries no score, rank or verdict. Papers flagged survey:true go to a separate
+           'surveys' list (at most --surveys of them, by descending interest) instead of the main list.
 
   check    --file SITEDIR/data/<date>.json
            Validate a built day file.
@@ -238,6 +241,10 @@ def cmd_listing(a):
     if a.primary_only:
         papers = [p for p in papers if p["primary"] == "math.CO"]
     out = {"date": a.date, "source": f"https://arxiv.org/catchup/math.CO/{a.date}", "papers": papers}
+    if a.expect_new is not None:
+        out["listed_new"] = a.expect_new
+    if a.expect_cross is not None:
+        out["listed_cross"] = a.expect_cross
     json.dump(out, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     missing = [p["id"] for p in papers if len(p["abstract"]) < 40]
     n_new = sum(1 for p in papers if p["type"] == "new")
@@ -344,13 +351,13 @@ def norm_check(c):
 
 
 def cmd_build(a):
+    """Select the day's top N by score, publish them WITHOUT scores in a date-seeded random order,
+    and add a separate section of up to --surveys survey/expository papers (chosen by 'interest')."""
+    import random
     data = json.load(open(a.papers, encoding="utf-8"))
     scores = load_scores(a.scores)
-    checks = {}
-    if a.checks and os.path.exists(a.checks):
-        checks = {k: v for k, v in load_scores(a.checks).items() if k}
     problems = []
-    ranked, excluded = [], []
+    ranked, surveys = [], []
     for p in data["papers"]:
         s = scores.get(p["id"])
         if not isinstance(s, dict):
@@ -364,19 +371,15 @@ def cmd_build(a):
         if not 1 <= sc <= 100:
             problems.append(f"score out of range for {p['id']}: {sc}")
             continue
-        q = dict(p)
-        q["score"] = sc
-        q["tier"] = tier_for(sc)
-        q["venue"] = clean_text(s.get("venue") or s.get("journal") or "")
-        q["reason"] = clean_text(s.get("reason") or s.get("rationale") or "")
-        q["abs"] = f"https://arxiv.org/abs/{p['id']}"
-        q["pdf"] = f"https://arxiv.org/pdf/{p['id']}"
-        chk = norm_check(checks.get(p["id"]) or s.get("check"))
-        q["check"] = chk
-        if chk["status"] == "gap":
-            excluded.append({"id": p["id"], "title": p["title"], "score": sc, "note": chk["note"]})
-            continue
-        ranked.append(q)
+        is_survey = str(s.get("survey", "")).strip().lower() in ("1", "true", "yes", "y", "survey", "expository")
+        if is_survey:
+            try:
+                interest = int(round(float(s.get("interest", sc))))
+            except (TypeError, ValueError):
+                interest = sc
+            surveys.append((interest, sc, p))
+        else:
+            ranked.append((sc, p))
     if problems:
         print("PROBLEMS:\n  " + "\n  ".join(problems))
         if not a.force:
@@ -384,12 +387,23 @@ def cmd_build(a):
     extra = set(scores) - {p["id"] for p in data["papers"]}
     if extra:
         print(f"note: {len(extra)} scored ids are not in the listing and were ignored: {' '.join(sorted(x for x in extra if x))}")
-    ranked.sort(key=lambda q: (-q["score"], 0 if q["type"] == "new" else 1, q["id"]))
-    for i, q in enumerate(ranked, 1):
-        q["rank"] = i
-    top = ranked[: a.top]
+    # selection by score (ties: new before cross, then id) -- the scores themselves are not published
+    ranked.sort(key=lambda r: (-r[0], 0 if r[1]["type"] == "new" else 1, r[1]["id"]))
+    top = [p for _, p in ranked[: a.top]]
+    rng = random.Random(f"remarxivable:{data['date']}:{a.seed}")
+    rng.shuffle(top)
+    surveys.sort(key=lambda r: (-r[0], -r[1], r[2]["id"]))
+    picked_surveys = [p for _, _, p in surveys[: a.surveys]]
+
+    def public(p):
+        q = {k: p[k] for k in ("id", "type", "title", "authors", "categories", "primary", "comments", "abstract") if k in p}
+        if p.get("msc"):
+            q["msc"] = p["msc"]
+        q["abs"] = f"https://arxiv.org/abs/{p['id']}"
+        q["pdf"] = f"https://arxiv.org/pdf/{p['id']}"
+        return q
+
     n_new = sum(1 for p in data["papers"] if p["type"] == "new")
-    n_checked = sum(1 for q in ranked if q["check"]["status"] in ("ok", "concerns")) + len(excluded)
     day = {
         "date": data["date"],
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -398,20 +412,37 @@ def cmd_build(a):
         "screened": len(data["papers"]),
         "screened_new": n_new,
         "screened_cross": len(data["papers"]) - n_new,
-        "scored": len(ranked) + len(excluded),
-        "checked": n_checked,
-        "checked_shown": sum(1 for q in top if q["check"]["status"] in ("ok", "concerns")),
-        "excluded": len(excluded),
+        "scored": len(ranked) + len(surveys),
         "shown": len(top),
-        "papers": top,
+        "order": "random",
+        "papers": [public(p) for p in top],
+        "surveys": [public(p) for p in picked_surveys],
     }
-    if excluded:
-        print("EXCLUDED after full-text check (not published on the page):")
-        for e in excluded:
-            print(f"  {e['id']} (score {e['score']}) {e['title'][:70]} — {e['note']}")
+    # coverage note: the arXiv page may list more entries than could be retrieved (very large post-holiday listings)
+    listed_new, listed_cross = data.get("listed_new"), data.get("listed_cross")
+    if listed_new is not None:
+        day["listed_new"] = listed_new
+    if listed_cross is not None:
+        day["listed_cross"] = listed_cross
+    gaps = []
+    if isinstance(listed_new, int) and listed_new > n_new:
+        gaps.append(f"{listed_new - n_new} of the {listed_new} new submissions")
+    if isinstance(listed_cross, int) and listed_cross > day["screened_cross"]:
+        gaps.append(f"{listed_cross - day['screened_cross']} of the {listed_cross} cross-lists")
+    if getattr(a, "note", None):
+        day["note"] = clean_text(a.note)
+    elif gaps:
+        day["note"] = ("arXiv listed more papers that day than could be retrieved: " + " and ".join(gaps) +
+                       " (at the end of the listing page) could not be read and are not included.")
     os.makedirs(os.path.join(a.out, "data"), exist_ok=True)
     day_path = os.path.join(a.out, "data", f"{data['date']}.json")
     json.dump(day, open(day_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # private record of the selection (NOT for publishing): scores of the shown papers, for later audits
+    if a.private:
+        os.makedirs(os.path.dirname(os.path.abspath(a.private)), exist_ok=True)
+        priv = {"date": data["date"], "top": [{"id": p["id"], "score": sc} for sc, p in ranked[: a.top]],
+                "surveys": [{"id": p["id"], "interest": i, "score": sc} for i, sc, p in surveys[: a.surveys]]}
+        json.dump(priv, open(a.private, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # index
     index = {"days": []}
     if a.index and os.path.exists(a.index):
@@ -420,16 +451,18 @@ def cmd_build(a):
         except SystemExit:
             print("warning: could not parse existing index.json, starting fresh")
     days = [d for d in index.get("days", []) if d.get("date") != data["date"]]
-    days.append({"date": data["date"], "screened": day["screened"], "shown": day["shown"], "status": day["status"],
-                 "checked": day["checked"], "generated_at": day["generated_at"]})
+    days.append({"date": data["date"], "screened": day["screened"], "shown": day["shown"], "surveys": len(picked_surveys),
+                 "status": day["status"], "generated_at": day["generated_at"]})
     days.sort(key=lambda d: d["date"], reverse=True)
     index = {"site": "remarxivable", "category": "math.CO", "updated_at": day["generated_at"], "days": days}
     idx_path = os.path.join(a.out, "data", "index.json")
     json.dump(index, open(idx_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"wrote {day_path} ({day['shown']} of {day['screened']} papers, status {day['status']}, "
-          f"{day['checked']} full texts checked, {day['excluded']} excluded) and {idx_path} ({len(days)} days)")
-    for q in top[:5]:
-        print(f"  #{q['rank']:>2} {q['score']:>3} {q['tier']:<12} {q['id']}  [{q['check']['status']}] {q['title'][:70]}")
+    print(f"wrote {day_path} ({day['shown']} of {day['screened']} papers in random order, {len(picked_surveys)} survey(s), "
+          f"status {day['status']}) and {idx_path} ({len(days)} days)")
+    cut = ranked[a.top - 1][0] if len(ranked) >= a.top else (ranked[-1][0] if ranked else None)
+    print(f"  selection cut-off score: {cut}; highest score: {ranked[0][0] if ranked else None} (scores are not published)")
+    for i, sc, p in surveys[: a.surveys]:
+        print(f"  survey (interest {i}): {p['id']}  {p['title'][:70]}")
 
 
 def cmd_candidates(a):
@@ -459,13 +492,15 @@ def cmd_check(a):
     d = json.load(open(a.file, encoding="utf-8"))
     assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", d["date"]), "bad date"
     assert isinstance(d["papers"], list) and d["papers"], "no papers"
-    last = 101
-    for p in d["papers"]:
-        for k in ("id", "title", "authors", "abstract", "score", "tier", "reason", "abs", "rank"):
+    for p in d["papers"] + d.get("surveys", []):
+        for k in ("id", "title", "authors", "abstract", "abs", "pdf"):
             assert k in p, f"{p.get('id')} missing {k}"
-        assert 1 <= p["score"] <= last, "not sorted"
-        last = p["score"]
-    print(f"ok: {d['date']} {d['shown']}/{d['screened']} papers, top score {d['papers'][0]['score']}")
+        for k in ("score", "tier", "venue", "reason", "rank", "check"):
+            assert k not in p, f"{p.get('id')} leaks private field {k}"
+    ids = [p["id"] for p in d["papers"]]
+    assert len(ids) == len(set(ids)), "duplicate ids"
+    assert not (set(ids) & {p["id"] for p in d.get("surveys", [])}), "a survey is also in the main list"
+    print(f"ok: {d['date']} {d['shown']}/{d['screened']} papers, {len(d.get('surveys', []))} survey(s), no scores published")
 
 
 HTML_SKELETON_HEAD = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
@@ -553,6 +588,10 @@ def main():
     s.add_argument("--checks", default=None, help="JSON mapping id -> {status: ok|concerns|gap|unchecked, note, pages}")
     s.add_argument("--status", default="final", choices=["provisional", "final"], help="provisional = full-text checks still to come")
     s.add_argument("--index", default=None); s.add_argument("--out", required=True); s.add_argument("--top", type=int, default=TOP_DEFAULT)
+    s.add_argument("--note", default=None, help="one sentence shown on the page for this day (overrides the automatic coverage note)")
+    s.add_argument("--surveys", type=int, default=3, help="maximum number of survey/expository papers in the separate section")
+    s.add_argument("--seed", default="v1", help="extra seed for the date-based random order (keep fixed so the order is stable)")
+    s.add_argument("--private", default=None, help="optional path for a private record of the selection scores (never publish it)")
     s.add_argument("--force", action="store_true"); s.set_defaults(fn=cmd_build)
     s = sub.add_parser("candidates"); s.add_argument("--papers", required=True); s.add_argument("--scores", required=True)
     s.add_argument("--checks", default=None); s.add_argument("--top", type=int, default=TOP_DEFAULT); s.add_argument("--margin", type=int, default=6)

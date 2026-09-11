@@ -1,23 +1,23 @@
 {
  "site": "remarxivable",
  "category": "math.CO",
- "updated_at": "2026-09-11T14:15:10Z",
+ "updated_at": "2026-09-11T15:26:08Z",
  "days": [
   {
    "date": "2026-09-11",
    "screened": 56,
    "shown": 30,
+   "surveys": 1,
    "status": "final",
-   "checked": 30,
-   "generated_at": "2026-09-11T13:28:59Z"
+   "generated_at": "2026-09-11T15:26:08Z"
   },
   {
    "date": "2026-09-10",
    "screened": 46,
    "shown": 30,
+   "surveys": 1,
    "status": "final",
-   "checked": 6,
-   "generated_at": "2026-09-11T14:15:10Z"
+   "generated_at": "2026-09-11T15:26:08Z"
   }
  ]
 }
