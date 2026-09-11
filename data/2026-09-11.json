@@ -1,14 +1,14 @@
 {
  "date": "2026-09-11",
- "generated_at": "2026-09-11T12:42:47Z",
- "status": "provisional",
+ "generated_at": "2026-09-11T13:28:59Z",
+ "status": "final",
  "source": "https://arxiv.org/catchup/math.CO/2026-09-11",
  "screened": 56,
  "screened_new": 32,
  "screened_cross": 24,
  "scored": 56,
- "checked": 24,
- "checked_shown": 24,
+ "checked": 30,
+ "checked_shown": 30,
  "excluded": 0,
  "shown": 30,
  "papers": [
@@ -701,9 +701,9 @@
    "abs": "https://arxiv.org/abs/2609.11534",
    "pdf": "https://arxiv.org/pdf/2609.11534",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "20 pages with complete proofs; the transfer theorems are explicitly conditional on Kriesell's conjecture for finite graphs, as the abstract states, and the spanning-tree corollary is unconditional.",
+    "pages": 20
    },
    "rank": 25
   },
@@ -729,9 +729,9 @@
    "abs": "https://arxiv.org/abs/2609.11832",
    "pdf": "https://arxiv.org/pdf/2609.11832",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "8 pages with complete proofs (a direct argument for distinct palettes and a Local Lemma argument for degree ≥ 6); the regular cases d = 3, 4, 5 are left open.",
+    "pages": 8
    },
    "rank": 26
   },
@@ -766,9 +766,9 @@
    "abs": "https://arxiv.org/abs/2609.10625",
    "pdf": "https://arxiv.org/pdf/2609.10625",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "13 pages with complete proofs of both parity cases via a reflection reduction, a unimodular cyclic basis and Fibonacci polynomials over F_2; the authors note the initial proof was found with AI assistance and then simplified.",
+    "pages": 13
    },
    "rank": 27
   },
@@ -793,9 +793,9 @@
    "abs": "https://arxiv.org/abs/2609.11358",
    "pdf": "https://arxiv.org/pdf/2609.11358",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "About 28 pages; the strip theorems are proved in full for the stated ranges, while a further reduction (Theorem 7.3) is explicitly conditional on a new conjecture stated in the paper.",
+    "pages": 28
    },
    "rank": 28
   },
@@ -819,9 +819,9 @@
    "abs": "https://arxiv.org/abs/2609.11729",
    "pdf": "https://arxiv.org/pdf/2609.11729",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "15 pages; the valency bound is proved analytically and the classification is a computer-assisted exclusion of about a million parameter arrays with code published, relying on cited uniqueness theorems for the three survivors.",
+    "pages": 15
    },
    "rank": 29
   },
@@ -846,9 +846,9 @@
    "abs": "https://arxiv.org/abs/2609.10609",
    "pdf": "https://arxiv.org/pdf/2609.10609",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "12 pages with complete proofs of real stability, simple negative zeros and gamma-positivity, using a cited Jacobi interlacing theorem and lattice-path reflection.",
+    "pages": 12
    },
    "rank": 30
   }

@@ -1,14 +1,14 @@
 {
  "date": "2026-09-10",
- "generated_at": "2026-09-11T09:39:54Z",
+ "generated_at": "2026-09-11T14:15:10Z",
  "status": "final",
  "source": "https://arxiv.org/catchup/math.CO/2026-09-10",
  "screened": 46,
  "screened_new": 30,
  "screened_cross": 16,
  "scored": 46,
- "checked": 0,
- "checked_shown": 0,
+ "checked": 6,
+ "checked_shown": 6,
  "excluded": 0,
  "shown": 30,
  "papers": [
@@ -33,9 +33,9 @@
    "abs": "https://arxiv.org/abs/2609.10513",
    "pdf": "https://arxiv.org/pdf/2609.10513",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "15 pages; the counterexamples are explicit Cayley sums of rectangular prisms with exact coefficient computations, relying on the Haase–Paffenholz–Piechnik–Santos triangulation theorem; a side question is deferred to a future version.",
+    "pages": 15
    },
    "rank": 1
   },
@@ -65,9 +65,9 @@
    "abs": "https://arxiv.org/abs/2609.10402",
    "pdf": "https://arxiv.org/pdf/2609.10402",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "16 pages with complete proofs of the topological FLM inequality (Morse-theoretic Hessian bound) and its corollaries; LLM assistance in proof discovery disclosed, proofs subsequently simplified by the authors.",
+    "pages": 16
    },
    "rank": 2
   },
@@ -93,9 +93,9 @@
    "abs": "https://arxiv.org/abs/2609.09715",
    "pdf": "https://arxiv.org/pdf/2609.09715",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "About 25 pages; a vertex-cover reduction with two constructions, analysed by structural cases (3-connected, 2-connected via Tutte decomposition, general connected); the screen read through Section 5 and found full proofs.",
+    "pages": 25
    },
    "rank": 3
   },
@@ -121,9 +121,9 @@
    "abs": "https://arxiv.org/abs/2609.10406",
    "pdf": "https://arxiv.org/pdf/2609.10406",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "About 30 pages with complete proofs, including an 11-page key lemma; the structural theorem builds on Korhonen's induced grid minor theorem and gives explicit though unoptimised bounds.",
+    "pages": 30
    },
    "rank": 4
   },
@@ -149,9 +149,9 @@
    "abs": "https://arxiv.org/abs/2609.10255",
    "pdf": "https://arxiv.org/pdf/2609.10255",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "7 pages; the main theorem has a complete proof by splitting off and sampling with a nested-family bound, and Karger's tree-packing bound is cited for the complementary statement; AI assistance in proof discovery disclosed, verified by the authors.",
+    "pages": 7
    },
    "rank": 5
   },
@@ -178,9 +178,9 @@
    "abs": "https://arxiv.org/abs/2609.10023",
    "pdf": "https://arxiv.org/pdf/2609.10023",
    "check": {
-    "status": "unchecked",
-    "note": "",
-    "pages": null
+    "status": "ok",
+    "note": "17 pages with complete proofs of the overlap-Helly theorems via a version of Gale's HEX lemma and Gromov's overlap theorem; several open problems are posed, one answered in a subsequent paper.",
+    "pages": 17
    },
    "rank": 6
   },
