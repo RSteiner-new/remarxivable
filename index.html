@@ -1,0 +1,530 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>remarxivable</title>
+<meta name="description" content="A weekday ranking of the 30 most notable new combinatorics preprints on arXiv (math.CO), scored by estimated journal level.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --bg-raised: #fbfbfc;
+    --ink: #191d26;
+    --ink-2: #3a4150;
+    --muted: #5c6470;
+    --faint: #8b9199;
+    --rule: #d9dce2;
+    --rule-strong: #b9bec8;
+    --accent: #9b2a22;
+    --accent-ink: #7f2019;
+    --accent-soft: rgba(155, 42, 34, 0.09);
+    --amber: #b7791f;
+    --amber-soft: rgba(183, 121, 31, 0.12);
+    --slate: #3f5f8a;
+    --slate-soft: rgba(63, 95, 138, 0.12);
+    --grey-soft: rgba(92, 100, 112, 0.12);
+    --link: #2b4f7e;
+    --focus: #2b4f7e;
+    --serif: "STIX Two Text", "STIX Two", "Times New Roman", Georgia, serif;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131720;
+      --bg-raised: #1a1f2a;
+      --ink: #e8e6e1;
+      --ink-2: #c9c8c2;
+      --muted: #9aa0aa;
+      --faint: #6f7681;
+      --rule: #2a303c;
+      --rule-strong: #3b4350;
+      --accent: #e06a5f;
+      --accent-ink: #f08a80;
+      --accent-soft: rgba(224, 106, 95, 0.14);
+      --amber: #d9a441;
+      --amber-soft: rgba(217, 164, 65, 0.14);
+      --slate: #7ea3d6;
+      --slate-soft: rgba(126, 163, 214, 0.14);
+      --grey-soft: rgba(154, 160, 170, 0.14);
+      --link: #8fb4e6;
+      --focus: #8fb4e6;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131720;
+    --bg-raised: #1a1f2a;
+    --ink: #e8e6e1;
+    --ink-2: #c9c8c2;
+    --muted: #9aa0aa;
+    --faint: #6f7681;
+    --rule: #2a303c;
+    --rule-strong: #3b4350;
+    --accent: #e06a5f;
+    --accent-ink: #f08a80;
+    --accent-soft: rgba(224, 106, 95, 0.14);
+    --amber: #d9a441;
+    --amber-soft: rgba(217, 164, 65, 0.14);
+    --slate: #7ea3d6;
+    --slate-soft: rgba(126, 163, 214, 0.14);
+    --grey-soft: rgba(154, 160, 170, 0.14);
+    --link: #8fb4e6;
+    --focus: #8fb4e6;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    padding-block: 0 48px;
+    padding-inline: clamp(16px, 4vw, 40px);
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+  button, select, input { font: inherit; color: inherit; }
+  .wrap { max-width: 980px; margin-inline: auto; }
+
+  /* masthead */
+  .masthead {
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px 24px;
+    padding-block: 22px 14px;
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  .wordmark {
+    font-family: var(--serif); font-weight: 500; font-size: clamp(30px, 4.6vw, 40px); letter-spacing: -0.01em;
+    color: var(--ink); line-height: 1; margin: 0;
+  }
+  .wordmark a { color: inherit; }
+  .wordmark a:hover { text-decoration: none; }
+  .wordmark em { font-style: normal; color: var(--accent); }
+  .tagline { font-size: 13px; color: var(--muted); margin: 6px 0 0; letter-spacing: 0.01em; }
+  .daynav { display: flex; align-items: center; gap: 6px; }
+  .daynav button, .daynav select {
+    background: var(--bg-raised); border: 1px solid var(--rule-strong); border-radius: 4px;
+    padding: 6px 10px; cursor: pointer; line-height: 1.2;
+  }
+  .daynav select { font-family: var(--mono); font-size: 13.5px; padding-right: 28px; min-width: 190px; }
+  .daynav button { font-family: var(--mono); font-size: 14px; padding-inline: 11px; }
+  .daynav button:disabled { opacity: 0.35; cursor: default; }
+  .daynav button:not(:disabled):hover { border-color: var(--muted); }
+
+  /* strip */
+  .strip {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px;
+    padding-block: 12px; border-bottom: 1px solid var(--rule);
+    font-size: 13.5px; color: var(--muted);
+  }
+  .strip .stats { display: flex; flex-wrap: wrap; gap: 4px 0; }
+  .strip .stats span + span::before { content: "·"; margin-inline: 8px; color: var(--faint); }
+  .strip b { color: var(--ink); font-weight: 500; }
+  .strip .stats .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+  .controls label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; }
+  .controls input[type="checkbox"] { accent-color: var(--accent); width: 15px; height: 15px; margin: 0; }
+  .controls input[type="search"] {
+    background: var(--bg-raised); border: 1px solid var(--rule-strong); border-radius: 4px;
+    padding: 5px 9px; width: 190px; max-width: 100%;
+  }
+  .controls input[type="search"]::placeholder { color: var(--faint); }
+
+  /* ranking */
+  .ranking { list-style: none; margin: 0; padding: 0; }
+  .entry {
+    display: grid; grid-template-columns: 78px minmax(0, 1fr); column-gap: 22px;
+    padding-block: 22px 24px; border-bottom: 1px solid var(--rule);
+  }
+  .entry:last-child { border-bottom: 1px solid var(--rule-strong); }
+  .entry[hidden] { display: none; }
+  .gutter { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding-top: 5px; }
+  .rank { font-family: var(--sans); font-weight: 600; font-size: 22px; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+  .rank::before { content: "#"; font-weight: 400; font-size: 14px; color: var(--faint); margin-right: 1px; }
+  .score { display: flex; flex-direction: column; gap: 5px; margin-top: 4px; }
+  .score .val { font-family: var(--mono); font-weight: 500; font-size: 26px; line-height: 1; font-variant-numeric: tabular-nums; color: var(--tier-color, var(--ink)); }
+  .score .val small { font-size: 11px; color: var(--faint); font-weight: 400; margin-left: 2px; }
+  .meter { width: 64px; height: 4px; background: var(--rule); border-radius: 2px; overflow: hidden; }
+  .meter i { display: block; height: 100%; width: 0; background: var(--tier-color, var(--muted)); border-radius: 2px; }
+
+  .body { min-width: 0; }
+  .title { font-family: var(--serif); font-weight: 500; font-size: 21px; line-height: 1.3; margin: 0 0 6px; text-wrap: balance; letter-spacing: -0.005em; }
+  .title a { color: var(--ink); }
+  .title a:hover { color: var(--link); text-decoration: none; }
+  .authors { font-family: var(--serif); font-size: 15.5px; color: var(--ink-2); margin: 0 0 8px; line-height: 1.45; }
+  .meta {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 0;
+    font-family: var(--mono); font-size: 12.5px; color: var(--muted); margin: 0 0 12px; line-height: 1.5;
+  }
+  .meta > span + span::before { content: "·"; margin-inline: 8px; color: var(--faint); }
+  .meta .id a { color: var(--muted); }
+  .meta .id a:hover { color: var(--link); }
+  .cat { color: var(--ink-2); }
+  .cross { color: var(--slate); }
+  .comments { font-family: var(--sans); font-size: 12.5px; color: var(--muted); }
+
+  .verdict {
+    display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; align-items: baseline;
+    margin: 0 0 12px; padding: 9px 12px 10px; border-left: 3px solid var(--tier-color, var(--rule-strong));
+    background: var(--tier-soft, var(--grey-soft)); border-radius: 0 4px 4px 0;
+    font-size: 13.5px; line-height: 1.5;
+  }
+  .verdict .tier { font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; font-size: 11.5px; color: var(--tier-color, var(--ink-2)); align-self: baseline; padding-top: 2px; white-space: nowrap; }
+  .verdict .venue { color: var(--ink-2); }
+  .verdict .venue::before { content: "≈ "; color: var(--faint); }
+  .verdict .reason { grid-column: 1 / -1; color: var(--ink-2); }
+  .verdict .check { grid-column: 1 / -1; color: var(--muted); font-size: 12.5px; display: flex; gap: 8px; align-items: baseline; }
+  .verdict .check .mark { font-family: var(--mono); font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--rule-strong); color: var(--ink-2); }
+  .verdict .check.ok .mark { border-color: transparent; background: var(--slate-soft); color: var(--slate); }
+  .verdict .check.concerns .mark { border-color: transparent; background: var(--amber-soft); color: var(--amber); }
+  .verdict .check.unchecked .mark { color: var(--faint); }
+  .notice { margin: 12px 0 0; padding: 8px 12px; border-radius: 4px; background: var(--amber-soft); color: var(--ink-2); font-size: 13px; }
+  .notice[hidden] { display: none; }
+
+  .abstract { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink); max-width: 72ch; margin: 0; hyphens: auto; }
+  .abstract p { margin: 0 0 0.6em; }
+  .abstract p:last-child { margin-bottom: 0; }
+  .abstract mjx-container { font-size: 105%; }
+  .abstract mjx-container[display="true"] { margin: 0.5em 0; overflow-x: auto; overflow-y: hidden; }
+  body.compact .abstract:not(.open) {
+    display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer;
+  }
+  .more { display: none; margin-top: 4px; background: none; border: 0; padding: 0; color: var(--link); font-size: 13px; cursor: pointer; }
+  body.compact .more { display: inline-block; }
+
+  /* legend + notes */
+  .about { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px 40px; padding-block: 30px 10px; }
+  .about h2 { font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+  .about p { margin: 0 0 10px; color: var(--ink-2); font-size: 14px; max-width: 62ch; }
+  .legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  .legend li { display: grid; grid-template-columns: 56px 92px minmax(0, 1fr); gap: 10px; align-items: baseline; font-size: 13px; color: var(--ink-2); }
+  .legend .range { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+  .legend .name { font-weight: 600; font-size: 11.5px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .empty { padding-block: 60px; text-align: center; color: var(--muted); font-size: 15px; }
+  .empty b { color: var(--ink); font-weight: 500; }
+  footer { border-top: 1px solid var(--rule); margin-top: 20px; padding-top: 14px; font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; }
+
+  @media (max-width: 560px) {
+    .entry { grid-template-columns: minmax(0, 1fr); row-gap: 10px; }
+    .gutter { flex-direction: row; align-items: baseline; gap: 14px; padding-top: 0; }
+    .score { flex-direction: row; align-items: center; gap: 10px; margin-top: 0; }
+    .score .val { font-size: 20px; }
+    .title { font-size: 19px; }
+    .daynav { width: 100%; }
+    .daynav select { flex: 1; min-width: 0; }
+    .legend li { grid-template-columns: 52px minmax(0, 1fr); }
+    .legend li .desc { grid-column: 1 / -1; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .meter i { transition: width 500ms ease-out; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <h1 class="wordmark"><a href="#" id="home">rem<em>arxiv</em>able</a></h1>
+      <p class="tagline">The day's most notable new combinatorics preprints (math.CO), ranked by estimated journal level. Updated every weekday morning.</p>
+    </div>
+    <nav class="daynav" aria-label="Choose a listing day">
+      <button type="button" id="older" title="Older listing" aria-label="Older listing">‹</button>
+      <select id="day-select" aria-label="Listing day"></select>
+      <button type="button" id="newer" title="Newer listing" aria-label="Newer listing">›</button>
+    </nav>
+  </header>
+
+  <section class="strip" id="strip" aria-live="polite">
+    <div class="stats" id="stats"><span>Loading the latest listing…</span></div>
+    <div class="controls">
+      <input type="search" id="filter" placeholder="Filter by word, author, ID" aria-label="Filter the list">
+      <label><input type="checkbox" id="compact"> Compact abstracts</label>
+    </div>
+  </section>
+
+  <p class="notice" id="notice" hidden></p>
+  <ol class="ranking" id="ranking"></ol>
+  <div class="empty" id="empty" hidden></div>
+
+  <section class="about">
+    <div>
+      <h2>How the score works</h2>
+      <p>Every paper on the day's arXiv <a href="https://arxiv.org/list/math.CO/new" target="_blank" rel="noopener">math.CO listing</a> (new submissions and cross-lists) is read from its abstract and given a score from 1 to 100: an estimate of the level of journal the result belongs in, weighing the strength of the result against prior work, whether it settles a known problem, and how wide an audience will care — with extra weight on structural, extremal and probabilistic graph theory. Only the 30 highest-scoring papers are shown.</p>
+      <p>The full text of each paper in contention for the list is then screened: is the main theorem stated and proved in full, do the claims match the abstract, are there gaps or unresolved dependencies? Papers where the screen finds a real gap are left off the list; the others carry a short note. The morning list is first published from the abstracts and marked provisional until the full-text screen has run.</p>
+      <p>Scores and screens are produced automatically by a language model. They are a reading aid, not peer review, and they will sometimes be wrong. Follow the links for the papers themselves.</p>
+    </div>
+    <div>
+      <h2>Score bands</h2>
+      <ul class="legend" id="legend"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <span id="source-line">Source: arXiv math.CO listing.</span>
+    <span>Not affiliated with arXiv. Titles and abstracts belong to their authors.</span>
+  </footer>
+</div>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["$", "$"], ["\\(", "\\)"]],
+      displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    svg: { fontCache: "global" },
+    options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code", "select", "input", "button"] },
+    startup: { typeset: false }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js" async></script>
+
+<script>
+(function () {
+  "use strict";
+  var TIERS = [
+    { min: 90, name: "Landmark", color: "var(--accent)", soft: "var(--accent-soft)", desc: "Annals · JAMS · Inventiones · Acta. Settles a famous problem or brings a transformative method." },
+    { min: 80, name: "Major", color: "var(--accent)", soft: "var(--accent-soft)", desc: "Duke · Advances · GAFA · JEMS · the best of Combinatorica. A major advance on a well-known problem." },
+    { min: 70, name: "Strong", color: "var(--amber)", soft: "var(--amber-soft)", desc: "Combinatorica · JCTB · RSA · IMRN · Trans. AMS. A clear improvement on a problem of wide interest." },
+    { min: 60, name: "Solid", color: "var(--slate)", soft: "var(--slate-soft)", desc: "JCTA · EJC · SIAM J. Discrete Math · JGT · CPC · EuJC. A solid contribution for specialists." },
+    { min: 45, name: "Specialized", color: "var(--muted)", soft: "var(--grey-soft)", desc: "Discrete Math. · Graphs & Combin. · DAM · AJC. Incremental or narrowly specialized." },
+    { min: 30, name: "Incremental", color: "var(--faint)", soft: "var(--grey-soft)", desc: "Small generalizations, routine computations, very narrow scope." },
+    { min: 1, name: "Limited", color: "var(--faint)", soft: "var(--grey-soft)", desc: "Hard to assess from the abstract, mainly expository, or marginal to combinatorics." }
+  ];
+  function tierFor(score) {
+    for (var i = 0; i < TIERS.length; i++) if (score >= TIERS[i].min) return TIERS[i];
+    return TIERS[TIERS.length - 1];
+  }
+
+  var $ = function (id) { return document.getElementById(id); };
+  var ranking = $("ranking"), stats = $("stats"), select = $("day-select"), older = $("older"), newer = $("newer");
+  var emptyBox = $("empty"), filter = $("filter"), compact = $("compact"), sourceLine = $("source-line"), notice = $("notice");
+  var days = [], current = null, currentData = null;
+
+  // legend
+  var legend = $("legend");
+  TIERS.forEach(function (t, i) {
+    var li = document.createElement("li");
+    var hi = i === 0 ? 100 : TIERS[i - 1].min - 1;
+    li.innerHTML = '<span class="range"></span><span class="name"></span><span class="desc"></span>';
+    li.querySelector(".range").textContent = t.min + "–" + hi;
+    li.querySelector(".name").textContent = t.name;
+    li.querySelector(".name").style.color = t.color;
+    li.querySelector(".desc").textContent = t.desc;
+    legend.appendChild(li);
+  });
+
+  // preferences (per viewer, best effort)
+  function pref(key, val) {
+    try {
+      if (val === undefined) return localStorage.getItem(key);
+      localStorage.setItem(key, val);
+    } catch (e) { return null; }
+  }
+  if (pref("remarxivable.compact") === "1") { compact.checked = true; document.body.classList.add("compact"); }
+  compact.addEventListener("change", function () {
+    document.body.classList.toggle("compact", compact.checked);
+    pref("remarxivable.compact", compact.checked ? "1" : "0");
+  });
+
+  function fmtDate(iso, style) {
+    var p = iso.split("-").map(Number);
+    var d = new Date(Date.UTC(p[0], p[1] - 1, p[2]));
+    var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], daysLong = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var monthsLong = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    if (style === "long") return daysLong[d.getUTCDay()] + " " + p[2] + " " + monthsLong[p[1] - 1] + " " + p[0];
+    return days[d.getUTCDay()] + " " + String(p[2]).padStart(2, "0") + " " + months[p[1] - 1] + " " + p[0];
+  }
+  function fmtTime(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return "";
+    try {
+      return d.toLocaleString("en-GB", { timeZone: "Europe/Zurich", hour: "2-digit", minute: "2-digit" }) + " Zurich time";
+    } catch (e) { return d.toISOString().slice(11, 16) + " UTC"; }
+  }
+
+  function el(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text !== undefined) e.textContent = text;
+    return e;
+  }
+
+  function render(data) {
+    currentData = data;
+    ranking.textContent = "";
+    if (window.MathJax && MathJax.typesetClear) { try { MathJax.typesetClear(); } catch (e) {} }
+    var papers = data.papers || [];
+    var nNew = data.screened_new, nCross = data.screened_cross;
+    stats.textContent = "";
+    var s1 = el("span"); s1.appendChild(el("b", null, fmtDate(data.date, "long")));
+    var s2 = el("span"); s2.innerHTML = '<span class="num"></span> papers screened';
+    s2.querySelector(".num").textContent = data.screened;
+    if (typeof nNew === "number") {
+      var parts = " (" + nNew + " new";
+      if (typeof nCross === "number") parts += ", " + nCross + " cross-listed";
+      s2.appendChild(document.createTextNode(parts + ")"));
+    }
+    var s3 = el("span", null, "top " + papers.length + " shown");
+    stats.appendChild(s1); stats.appendChild(s2); stats.appendChild(s3);
+    if (typeof data.checked === "number" && data.checked > 0) {
+      var s4 = el("span", null, data.checked + " full text" + (data.checked === 1 ? "" : "s") + " screened" + (data.excluded ? ", " + data.excluded + " left off after screening" : ""));
+      stats.appendChild(s4);
+    }
+    if (data.generated_at) stats.appendChild(el("span", null, "updated " + fmtTime(data.generated_at)));
+    if (data.status === "provisional") {
+      notice.hidden = false;
+      notice.textContent = "Provisional ranking from the abstracts. The full-text screen is still running and the list is refreshed when it finishes.";
+    } else { notice.hidden = true; }
+    sourceLine.textContent = "";
+    var src = el("a", null, "arXiv math.CO listing for " + fmtDate(data.date));
+    src.href = data.source || ("https://arxiv.org/catchup/math.CO/" + data.date + "?abs=True");
+    src.target = "_blank"; src.rel = "noopener";
+    sourceLine.appendChild(document.createTextNode("Source: ")); sourceLine.appendChild(src);
+    sourceLine.appendChild(document.createTextNode(". Scores are automated estimates."));
+
+    papers.forEach(function (p) {
+      var t = tierFor(p.score);
+      var li = el("li", "entry");
+      li.style.setProperty("--tier-color", t.color);
+      li.style.setProperty("--tier-soft", t.soft);
+      li.dataset.search = [p.title, (p.authors || []).join(" "), p.id, p.abstract, p.reason, p.venue].join(" ").toLowerCase();
+
+      var g = el("div", "gutter");
+      g.appendChild(el("div", "rank", String(p.rank)));
+      var sc = el("div", "score");
+      var val = el("div", "val", String(p.score)); val.appendChild(el("small", null, "/100")); val.title = "Score " + p.score + " of 100";
+      var meter = el("div", "meter"); var fill = document.createElement("i"); meter.appendChild(fill); meter.setAttribute("aria-hidden", "true");
+      sc.appendChild(val); sc.appendChild(meter); g.appendChild(sc);
+      requestAnimationFrame(function () { fill.style.width = p.score + "%"; });
+
+      var b = el("div", "body");
+      var h = el("h3", "title"); var a = el("a", null, p.title); a.href = p.abs || ("https://arxiv.org/abs/" + p.id); a.target = "_blank"; a.rel = "noopener"; h.appendChild(a); b.appendChild(h);
+      b.appendChild(el("p", "authors", (p.authors || []).join(", ")));
+
+      var meta = el("p", "meta");
+      var idSpan = el("span", "id"); var idA = el("a", null, "arXiv:" + p.id); idA.href = p.abs || ("https://arxiv.org/abs/" + p.id); idA.target = "_blank"; idA.rel = "noopener"; idSpan.appendChild(idA); meta.appendChild(idSpan);
+      var pdfSpan = el("span"); var pdfA = el("a", null, "pdf"); pdfA.href = p.pdf || ("https://arxiv.org/pdf/" + p.id); pdfA.target = "_blank"; pdfA.rel = "noopener"; pdfSpan.appendChild(pdfA); meta.appendChild(pdfSpan);
+      var cats = p.categories || [];
+      if (p.type === "cross" && p.primary && p.primary !== "math.CO") {
+        meta.appendChild(el("span", "cross", "cross-list from " + p.primary));
+        var others = cats.filter(function (c) { return c !== p.primary; });
+        if (others.length) meta.appendChild(el("span", "cat", others.join(" ")));
+      } else if (cats.length) {
+        meta.appendChild(el("span", "cat", cats.join(" ")));
+      }
+      if (p.comments) meta.appendChild(el("span", "comments", p.comments));
+      b.appendChild(meta);
+
+      var v = el("div", "verdict");
+      v.appendChild(el("span", "tier", t.name));
+      v.appendChild(el("span", "venue", p.venue || ""));
+      if (p.reason) v.appendChild(el("span", "reason", p.reason));
+      var chk = p.check || {};
+      var st = chk.status === "ok" || chk.status === "concerns" ? chk.status : "unchecked";
+      var c = el("span", "check " + st);
+      var labels = { ok: "full text screened", concerns: "screened, with a caveat", unchecked: "full text not screened" };
+      c.appendChild(el("span", "mark", labels[st]));
+      var noteText = chk.note || (st === "unchecked" ? "The full text has not been screened for this paper." : "");
+      if (chk.pages && st !== "unchecked") noteText = chk.pages + " pp. " + noteText;
+      if (noteText) c.appendChild(el("span", "note", noteText));
+      v.appendChild(c);
+      b.appendChild(v);
+
+      var ab = el("div", "abstract");
+      String(p.abstract || "").split(/\n\s*\n/).forEach(function (para) { if (para.trim()) ab.appendChild(el("p", null, para.trim())); });
+      b.appendChild(ab);
+      var more = el("button", "more", "Show full abstract"); more.type = "button";
+      more.addEventListener("click", function () { ab.classList.toggle("open"); more.textContent = ab.classList.contains("open") ? "Collapse abstract" : "Show full abstract"; });
+      ab.addEventListener("click", function () { if (document.body.classList.contains("compact") && !ab.classList.contains("open")) more.click(); });
+      b.appendChild(more);
+
+      li.appendChild(g); li.appendChild(b);
+      ranking.appendChild(li);
+    });
+    applyFilter();
+    typeset();
+  }
+
+  function typeset() {
+    if (!window.MathJax || !MathJax.typesetPromise) {
+      if (window.MathJax && MathJax.startup && MathJax.startup.promise) { MathJax.startup.promise.then(typeset); }
+      else { setTimeout(typeset, 400); }
+      return;
+    }
+    MathJax.typesetPromise([ranking]).catch(function () {});
+  }
+
+  function applyFilter() {
+    var q = filter.value.trim().toLowerCase();
+    var shown = 0;
+    Array.prototype.forEach.call(ranking.children, function (li) {
+      var ok = !q || li.dataset.search.indexOf(q) !== -1;
+      li.hidden = !ok; if (ok) shown++;
+    });
+    if (currentData && currentData.papers && currentData.papers.length && shown === 0) {
+      emptyBox.hidden = false; emptyBox.textContent = "No paper in this list matches “" + q + "”.";
+    } else if (currentData && currentData.papers && currentData.papers.length) { emptyBox.hidden = true; }
+  }
+  filter.addEventListener("input", applyFilter);
+
+  function showEmpty(msg, detail) {
+    ranking.textContent = ""; stats.textContent = "";
+    emptyBox.hidden = false; emptyBox.textContent = "";
+    emptyBox.appendChild(el("b", null, msg));
+    if (detail) { emptyBox.appendChild(document.createElement("br")); emptyBox.appendChild(document.createTextNode(detail)); }
+  }
+
+  function setNav() {
+    var i = days.indexOf(current);
+    older.disabled = i < 0 || i >= days.length - 1;
+    newer.disabled = i <= 0;
+    select.value = current;
+  }
+
+  function load(date, push) {
+    if (!date) return;
+    current = date; setNav();
+    if (push !== false) { try { history.replaceState(null, "", "#" + date); } catch (e) {} }
+    stats.textContent = ""; stats.appendChild(el("span", null, "Loading " + fmtDate(date) + "…"));
+    fetch("data/" + date + ".json", { cache: "no-cache" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function (d) { emptyBox.hidden = true; render(d); }).catch(function (e) {
+      showEmpty("The listing for " + fmtDate(date) + " could not be loaded.", "(" + e.message + ") Try another day from the menu above.");
+    });
+  }
+
+  select.addEventListener("change", function () { load(select.value); });
+  older.addEventListener("click", function () { var i = days.indexOf(current); if (i < days.length - 1) load(days[i + 1]); });
+  newer.addEventListener("click", function () { var i = days.indexOf(current); if (i > 0) load(days[i - 1]); });
+  $("home").addEventListener("click", function (ev) { ev.preventDefault(); if (days.length) load(days[0]); });
+  window.addEventListener("hashchange", function () { var h = location.hash.slice(1); if (/^\d{4}-\d{2}-\d{2}$/.test(h) && days.indexOf(h) !== -1 && h !== current) load(h, false); });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.target && /INPUT|SELECT|TEXTAREA/.test(ev.target.tagName)) return;
+    if (ev.key === "ArrowLeft") older.click(); else if (ev.key === "ArrowRight") newer.click();
+  });
+
+  fetch("data/index.json", { cache: "no-cache" }).then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function (idx) {
+    days = (idx.days || []).map(function (d) { return d.date; }).sort().reverse();
+    select.textContent = "";
+    days.forEach(function (d) { var o = document.createElement("option"); o.value = d; o.textContent = fmtDate(d); select.appendChild(o); });
+    if (!days.length) { showEmpty("No listing has been published yet.", "The first ranking appears after the next weekday update."); older.disabled = newer.disabled = true; return; }
+    var h = location.hash.slice(1);
+    load(days.indexOf(h) !== -1 ? h : days[0]);
+  }).catch(function (e) {
+    showEmpty("The list of available days could not be loaded.", "(" + e.message + ")");
+  });
+})();
+</script>
+
+</body></html>

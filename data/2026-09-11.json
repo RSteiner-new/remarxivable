@@ -1,0 +1,856 @@
+{
+ "date": "2026-09-11",
+ "generated_at": "2026-09-11T12:42:47Z",
+ "status": "provisional",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-11",
+ "screened": 56,
+ "screened_new": 32,
+ "screened_cross": 24,
+ "scored": 56,
+ "checked": 24,
+ "checked_shown": 24,
+ "excluded": 0,
+ "shown": 30,
+ "papers": [
+  {
+   "id": "2609.11802",
+   "type": "new",
+   "title": "The uniform Turán density of the tetrahedron",
+   "authors": [
+    "Matija Bucić"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the uniform Turán density of $K_4^{(3)}$ is equal to $1/2$. This answers a question of Erdős and Sós from the founding 1982 paper on this topic.",
+   "score": 92,
+   "tier": "Landmark",
+   "venue": "Annals / JAMS level",
+   "reason": "Determines the uniform Turán density of the tetrahedron K_4^(3) as 1/2, answering the question of Erdős and Sós from their founding 1982 paper on uniform Turán densities.",
+   "abs": "https://arxiv.org/abs/2609.11802",
+   "pdf": "https://arxiv.org/pdf/2609.11802",
+   "check": {
+    "status": "ok",
+    "note": "Complete: Lamaison's palette reduction plus an exact sum-of-squares positivity certificate (certificate and verifier supplied); the same result was obtained independently in [18].",
+    "pages": 16
+   },
+   "rank": 1
+  },
+  {
+   "id": "2609.11742",
+   "type": "new",
+   "title": "A Proof of Füredi's Conjecture",
+   "authors": [
+    "Zihao Huang",
+    "Suijie Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove Füredi's conjecture on strong Bollobás $t$-systems. For every nonnegative integer $t$, a family of $m\\ge2$ pairs of finite sets $(A_i,B_i)$ satisfying $|A_i\\cap B_i|\\le t$ and $|A_i\\cap B_j|>t$ for all $i\\ne j$ satisfies \\[ \\sum_i\\binom{|A_i|+|B_i|-2t}{|A_i|-t}^{-1}\\le1. \\] We first prove a weighted inequality for subspace pairs satisfying the symmetric cross-intersection condition over any field. It follows from a local inequality for graded exterior ideals, proved by induction with projections and colon ideals.",
+   "msc": "05D05, 15A75",
+   "score": 84,
+   "tier": "Major",
+   "venue": "Advances / Combinatorica level",
+   "reason": "Proves Füredi's 1984 conjecture on strong Bollobás t-systems, a weighted Bollobás inequality, via a local inequality for graded exterior ideals over any field.",
+   "abs": "https://arxiv.org/abs/2609.11742",
+   "pdf": "https://arxiv.org/pdf/2609.11742",
+   "check": {
+    "status": "concerns",
+    "note": "Complete proof: reduction to a subspace inequality and a local inequality for graded exterior ideals over any field; short for a 40-year-old conjecture, and the authors disclose AI-drafted arguments that they say they verified.",
+    "pages": 8
+   },
+   "rank": 2
+  },
+  {
+   "id": "2609.11189",
+   "type": "new",
+   "title": "Vector Balancing via Directional Total Variation",
+   "authors": [
+    "Shengtao Guo",
+    "Ethan X. Fang",
+    "Junwei Lu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.FA"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages, no figures",
+   "abstract": "Our main result is a $3\\sqrt{2π}$ bound for the Komlós signing problem: every finite family of real vectors of Euclidean norm at most one admits a signed sum of $\\ell_\\infty$-norm less than this constant, independently of the dimension and the family size. For any $κ\\ge0$, if a bounded open convex set supports a probability density with directional total variation at most $κ$ in every unit direction, then its open-set Banaszczyk transform supports another such density with the same $κ$, provided the translation vector $v$ satisfies $κ\\|v\\|_2\\le1/3$. As a consequence, every finite set system in which each element belongs to at most $t$ sets, where $t\\ge1$ is an integer, admits a two-coloring whose imbalance in each set is less than $3\\sqrt{2πt}$. This gives the square-root dependence predicted by the Beck-Fiala conjecture. The proof was discovered by the Odin Automatic AI Research Agent.",
+   "score": 80,
+   "tier": "Major",
+   "venue": "Annals level if it holds up",
+   "reason": "Claims a dimension-free constant 3√(2π) for the Komlós signing problem and √t discrepancy for Beck–Fiala via a total-variation-preserving Banaszczyk transform; the full-text screen found complete proofs but no independent verification yet.",
+   "abs": "https://arxiv.org/abs/2609.11189",
+   "pdf": "https://arxiv.org/pdf/2609.11189",
+   "check": {
+    "status": "concerns",
+    "note": "Existential argument with all lemmas proved in the paper; no gap found by the screen, but the proof was constructed by an AI agent (disclosed) and would settle the Komlós conjecture, so it awaits expert verification.",
+    "pages": 18
+   },
+   "rank": 3
+  },
+  {
+   "id": "2609.10916",
+   "type": "cross",
+   "title": "Almost Linear Universal Point Sets for Planar Graphs",
+   "authors": [
+    "Taylor Gordon"
+   ],
+   "categories": [
+    "cs.CG",
+    "math.CO"
+   ],
+   "primary": "cs.CG",
+   "comments": "12 pages, 2 figures. Lean formalization of the earlier construction: this https URL",
+   "abstract": "A point set is universal for planar graphs on $n$ vertices if every such graph has a straight-line drawing without crossings whose vertices belong to the set. We construct universal point sets of size $n^{1+o(1)}$, improving the previous quadratic upper bound. Our construction uses the reduction of Bannister, Cheng, Devanny, and Eppstein from universal point sets to superpatterns for $213$-avoiding permutations. We represent these permutations by ordered rooted forests and construct a small family of intervals containing every such forest. The result follows from a straightforward bound on the size of the family of intervals. GPT-6 Astra assisted in developing the construction and proof.",
+   "score": 80,
+   "tier": "Major",
+   "venue": "Combinatorica / JCTB level",
+   "reason": "Universal point sets of size n^{1+o(1)} for planar graphs, breaking the long-standing quadratic upper bound through near-linear superpatterns for 213-avoiding permutations.",
+   "abs": "https://arxiv.org/abs/2609.10916",
+   "pdf": "https://arxiv.org/pdf/2609.10916",
+   "check": {
+    "status": "ok",
+    "note": "12-page construction with complete proofs; a Lean 4 formalization of an earlier version of the interval construction certifies the same n^{1+o(1)} superpattern bound; AI assistance disclosed.",
+    "pages": 12
+   },
+   "rank": 4
+  },
+  {
+   "id": "2609.11049",
+   "type": "cross",
+   "title": "A deterministic $(1+\\varepsilon)^n$ approximation for the permanent of a nonnegative matrix",
+   "authors": [
+    "Dingding Dong",
+    "Vishesh Jain"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "For every fixed $0<\\varepsilon\\le1$, we give a deterministic strongly polynomial algorithm that, given a nonnegative matrix $A\\in\\mathbb{R}_{\\ge0}^{n\\times n}$, returns $Q$ satisfying $\\operatorname{per} A\\le Q\\le(1+\\varepsilon)^n\\operatorname{per} A$.",
+   "score": 78,
+   "tier": "Strong",
+   "venue": "STOC/FOCS; Combinatorica level",
+   "reason": "A deterministic strongly polynomial (1+ε)^n approximation of the permanent of nonnegative matrices for every fixed ε, far beyond previous deterministic guarantees.",
+   "abs": "https://arxiv.org/abs/2609.11049",
+   "pdf": "https://arxiv.org/pdf/2609.11049",
+   "check": {
+    "status": "ok",
+    "note": "28 pages with complete proofs of the entropy interpolation, the convex polynomial approximation and the algorithm, including numerical precision; independent concurrent exp(o(n)) result of Kudria–Luo–Majid acknowledged.",
+    "pages": 28
+   },
+   "rank": 5
+  },
+  {
+   "id": "2609.11285",
+   "type": "cross",
+   "title": "Max Independent Set Remains NP-hard when Excluding a Planar Induced Minor",
+   "authors": [
+    "Édouard Bonnet",
+    "Yeonsu Chang"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "8 pages, 6 figures",
+   "abstract": "We show that there is a fixed planar graph $H$, namely the $5 \\times 5$ grid, such that Max Independent Set remains NP-hard in $H$-induced-minor-free graphs. This refutes the Dallard--Milanič--Štorgel conjecture and a weakening of it by Gartland and Lokshtanov, and by Korhonen.",
+   "msc": "68Q25",
+   "score": 78,
+   "tier": "Strong",
+   "venue": "Combinatorica / SODA-STOC level",
+   "reason": "Max Independent Set stays NP-hard on graphs excluding the 5×5 grid as an induced minor, refuting the Dallard–Milanič–Štorgel conjecture and its weakenings by Gartland–Lokshtanov and Korhonen.",
+   "abs": "https://arxiv.org/abs/2609.11285",
+   "pdf": "https://arxiv.org/pdf/2609.11285",
+   "check": {
+    "status": "ok",
+    "note": "8-page NP-hardness reduction given in full; the refutations are conditional on P ≠ NP as usual; the authors note the reduction was suggested by an AI system.",
+    "pages": 8
+   },
+   "rank": 6
+  },
+  {
+   "id": "2609.11006",
+   "type": "new",
+   "title": "Counting Near-Spanning Matchings in Latin Squares and Steiner Triple Systems",
+   "authors": [
+    "Yantao Tang",
+    "Yi Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "Montgomery recently proved that for sufficiently large $n$, every Latin square of order $n$ has a partial transversal with $n-1$ cells, and every Steiner triple system of order $n$ has a matching with $\\lfloor n/3\\rfloor-1$ edges, thus confirming the Ryser--Brualdi--Stein conjecture for even $n$ and the conjecture of Brouwer. We prove sharp enumerative refinements of these results: there is an absolute constant $c>0$ such that, for sufficiently large $n$, 1) every Latin square of order $n$ has $ \\left((1\\pm n^{-c})\\frac{n}{\\mathrm {e}^2}\\right)^n$ partial transversals with $n-1$ cells; 2) every Steiner triple system of order $n$ has $ \\left((1\\pm n^{-c})\\frac{n}{2\\mathrm {e}^2}\\right)^{\\lfloor n/3\\rfloor}$ matchings with $\\lfloor n/3\\rfloor-1$ edges. The first estimate confirms predictions of Montgomery and Kelly.",
+   "msc": "05A16, 05B15, 05B07, 05D15",
+   "score": 74,
+   "tier": "Strong",
+   "venue": "Combinatorica / JCTB level",
+   "reason": "Sharp counts of (n−1)-cell partial transversals in Latin squares and near-perfect matchings in Steiner triple systems, refining Montgomery's theorems and confirming predictions of Montgomery and Kelly.",
+   "abs": "https://arxiv.org/abs/2609.11006",
+   "pdf": "https://arxiv.org/pdf/2609.11006",
+   "check": {
+    "status": "ok",
+    "note": "18 pages plus appendix with complete proofs; builds on Montgomery's absorption framework and Luria's entropy method, with two technical facts cited from the literature.",
+    "pages": 18
+   },
+   "rank": 7
+  },
+  {
+   "id": "2609.10978",
+   "type": "new",
+   "title": "Fractional DP-colorings of $d$-degenerate locally sparse graphs",
+   "authors": [
+    "Abhishek Dhawan",
+    "Huy Nguyen",
+    "Rohan A. Rathi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages plus references",
+   "abstract": "Bernshteyn, Kostochka, and Zhu (2020) introduced the notion of fractional DP-coloring, which generalizes both fractional coloring and fractional list coloring. Among several foundational results, they proved that every $d$-degenerate bipartite graph $G$ satisfies $χ_f^{\\mathrm{DP}} \\le (1 + o(1))\\frac{d}{\\log d}$, and that this bound is optimal---a stark contrast to ordinary fractional coloring. In this paper, we extend this upper bound to all $d$-degenerate triangle-free graphs, proving that $χ_f^{\\mathrm{DP}} \\le (4 + o(1))\\frac{d}{\\log d}$. This generalizes a recent result of Martinsson and Steiner (2025) for ordinary fractional coloring.\n We derive this result as a corollary of a more general upper bound concerning locally sparse graph orderings. Specifically, a $d$-degenerate graph $G$ is left $k$-locally-sparse if it admits a degeneracy ordering in which, for every vertex $v$, the subgraph induced by its back-neighbors contains at most $k$ edges. We show that if a $d$-degenerate graph $G$ is left $\\frac{d^2}{f}$-locally-sparse, then \\[ χ_f^{\\mathrm{DP}}(G) \\le (8 + o(1))\\frac{d}{\\log f}. \\] This immediately yields an identical upper bound on the ordinary fractional chromatic number $χ_f(G)$, improving upon the leading constants of previously known bounds.\n Additionally, we establish the asymptotic sharpness of this result up to the leading constant. For any $1 \\ll f \\le d^2$, we construct $d$-degenerate graphs that are left $\\frac{d^2}{f}$-locally-sparse and satisfy $χ_f(G) \\ge (1 - o(1))\\frac{d}{\\log f}$.\n Finally, as applications of our main theorem, we obtain improved upper bounds on the fractional DP-chromatic number of $d$-degenerate $K_{1,t,t}$-free graphs, as well as $K_{t,t,t}$-free graphs with maximum degree $Δ$. Notably, these bounds improve upon existing results even in the setting of ordinary fractional coloring.",
+   "score": 68,
+   "tier": "Solid",
+   "venue": "CPC / JGT level",
+   "reason": "Fractional DP-chromatic number at most (4+o(1)) d/log d for d-degenerate triangle-free graphs, generalizing Martinsson–Steiner, with a locally sparse version that is sharp up to constants.",
+   "abs": "https://arxiv.org/abs/2609.10978",
+   "pdf": "https://arxiv.org/pdf/2609.10978",
+   "check": {
+    "status": "ok",
+    "note": "16 pages with complete proofs of the upper bound and the matching lower-bound construction; the lower bound relies on a recent result of Allen, Dhawan and Noel.",
+    "pages": 16
+   },
+   "rank": 8
+  },
+  {
+   "id": "2609.10987",
+   "type": "new",
+   "title": "Erdős-Sós for digraphs",
+   "authors": [
+    "Dhruv Mubayi",
+    "Jacques Verstraete"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages, Eulerian digraph, oriented tree, directed path, extremal graph theory, permutation prefix, Erdős--Sós theorem",
+   "abstract": "It is shown that every Eulerian digraph on $n$ vertices with more than $(t-1)n$ arcs contains every oriented tree with $t$ edges. The digraphs have no loops or repeated arcs, but opposite arcs are permitted. The bound is sharp for each fixed oriented tree, as witnessed by disjoint unions of complete bidirected graphs. Previously, such tight bounds were not known, even just for directed paths. This can be considered as a directed analog of the recently proved Erdős-Sós conjecture. The result was proved by GPT-6 Astra.",
+   "score": 68,
+   "tier": "Solid",
+   "venue": "JCTB / Combinatorica level",
+   "reason": "Every Eulerian digraph with more than (t−1)n arcs contains every oriented tree with t edges, a sharp directed Erdős–Sós theorem; the authors credit the proof to an AI system.",
+   "abs": "https://arxiv.org/abs/2609.10987",
+   "pdf": "https://arxiv.org/pdf/2609.10987",
+   "check": {
+    "status": "concerns",
+    "note": "10 pages with proofs written out; the authors state that all proofs were found by an AI system, that they checked the one-page path case and edited the presentation; the tree argument follows the method of the recent Erdős–Sós proof.",
+    "pages": 10
+   },
+   "rank": 9
+  },
+  {
+   "id": "2609.10660",
+   "type": "new",
+   "title": "The maximum spectral radius of outerplanar and planar $k$-uniform hypergraphs",
+   "authors": [
+    "Pei Liu",
+    "Suil O"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "50 pages",
+   "abstract": "For an integer $k\\ge3$, a $k$-angulation is a simple $2$-connected outerplane graph whose interior faces are bounded by $k$-cycles, and a closed $k$-angulation is a simple $2$-connected plane graph all of whose faces, the outer face included, are bounded by $k$-cycles; the face hypergraph of either is the $k$-uniform hypergraph whose edges are the vertex sets of those faces. For $k=3$ these are the outerplanar and planar hypergraphs of Ellingham, Lu and Wang, who determined the outerplanar extremal hypergraph for large $n$ and conjectured the planar one. In this paper, we determine the extremal hypergraphs in both classes for every $k$. In the outerplanar case, for all sufficiently large admissible $n$, it is the fan, in which a single vertex lies on every face, and the maximum equals $(4f)^{1/k}(1+o(1))$ with $f=(n-2)/(k-2)$. In the planar problem the maximum has order $n^{1/3}$ when $k=3$ and order $n^{2/k}$ when $k\\ge4$. For $k\\ge4$ the extremal hypergraphs are the face hypergraphs of the balanced theta graphs, in which two vertices are joined by internally disjoint paths and every face is a $k$-cycle through both: for $k=4$, where the closed $4$-angulations are the quadrangulations of the sphere, this holds for every $n\\ge5$, the extremal hypergraph being $\\mathcal{H}(K_{2,n-2})$, and for $k\\ge5$ for all sufficiently large admissible $n$. For $k\\ge6$ the extremal hypergraph is not unique: when the number of faces is even there are exactly $\\lfloor(k-2)/2\\rfloor$ of them up to isomorphism. For $k=3$ two vertices of a plane triangulation lie on at most two common faces, the balanced theta graphs are unavailable, and the extremal hypergraph is instead, for all sufficiently large $n$, the face hypergraph of $K_2+P_{n-2}$; this confirms a conjecture of Ellingham, Lu and Wang.",
+   "msc": "05C65, 05C50, 05C10",
+   "score": 62,
+   "tier": "Solid",
+   "venue": "JCTB / EJC level",
+   "reason": "Determines the extremal outerplanar and planar k-uniform hypergraphs for spectral radius for every k, confirming a conjecture of Ellingham, Lu and Wang.",
+   "abs": "https://arxiv.org/abs/2609.10660",
+   "pdf": "https://arxiv.org/pdf/2609.10660",
+   "check": {
+    "status": "ok",
+    "note": "50-page paper; the screen read Sections 1–5 (stability, the outerplanar theorem and the k=3 planar case) with full proofs; Section 6 with the k≥4 planar theorems lies beyond the portion read.",
+    "pages": 50
+   },
+   "rank": 10
+  },
+  {
+   "id": "2609.11919",
+   "type": "cross",
+   "title": "Unfriendly partitions of locally finite Borel graphs",
+   "authors": [
+    "José de Jesús Pelayo-Gómez"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "13 pages",
+   "abstract": "We answer in the negative the question of Thomas, recorded by Conley, Conley--Marks--Unger, and Conley--Tamuz, of whether every locally finite Borel graph admits a Borel unfriendly partition. Our counterexample has unbounded degree and is closed on a zero-dimensional Polish space; its connectedness relation is hyperfinite, and its components are bipartite and one-ended. Every unfriendly colouring is proper. Together with a parity obstruction, this rigidity rules out Baire measurable colourings that are unfriendly on a comeager set, and measurable colourings that are unfriendly almost everywhere for a quasi-invariant probability of finite average degree. In the positive direction, a Borel graph of maximum degree at most four admits a Borel unfriendly colouring whenever each component contains a cycle or a vertex of degree at most two. This reduces the Borel problem in maximum degree three to cubic forests and, with a theorem of Conley--Marks--Unger, gives Baire measurable unfriendly colourings for all Borel graphs of maximum degree at most four.",
+   "msc": "03E15, 05C15, 28A05, 54H05",
+   "score": 62,
+   "tier": "Solid",
+   "venue": "Trans. AMS / EJC level",
+   "reason": "A locally finite Borel graph with no Borel unfriendly partition, answering a question of Thomas in the negative, with positive results up to maximum degree four.",
+   "abs": "https://arxiv.org/abs/2609.11919",
+   "pdf": "https://arxiv.org/pdf/2609.11919",
+   "check": {
+    "status": "ok",
+    "note": "13 pages; the counterexample is an explicit closed graph with full proofs of Theorems A–C and Corollary D; AI tools used for checking computations and references (disclosed).",
+    "pages": 13
+   },
+   "rank": 11
+  },
+  {
+   "id": "2609.11437",
+   "type": "new",
+   "title": "Rainbow connecting $2$-colorings of super-Dirac graphs",
+   "authors": [
+    "János Barát",
+    "Simona Boyadzhiyska",
+    "Andrea Freschi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "Let $G$ be a graph with minimum degree $δ(G)\\ge|V(G)|/2$. Can we color the edges of $G$ with red and blue so that every pair of non-adjacent vertices is connected by a path consisting of exactly one red edge and one blue edge? We provide an affirmative answer to this question for a class of graphs that are ``close'' to a complete balanced bipartite graph or the disjoint union of two cliques of the same order. Surprisingly, our methods extend to a much broader class of graphs with minimum degree slightly above $|V(G)|/2$. Furthermore, we answer an asymptotic version of this question in full, proving that every graph $G$ satisfying $δ(G)\\ge(|V(G)|-1)/2$ has a $2$-edge-coloring such that almost all pairs of vertices are connected by a rainbow path. In addition, we propose a number of related open problems.",
+   "msc": "05C15, 05C40",
+   "score": 61,
+   "tier": "Solid",
+   "venue": "EJC / JGT level",
+   "reason": "Rainbow-connecting red–blue colourings of graphs near the Dirac threshold, with an asymptotic version solved in full for minimum degree (n−1)/2.",
+   "abs": "https://arxiv.org/abs/2609.11437",
+   "pdf": "https://arxiv.org/pdf/2609.11437",
+   "check": {
+    "status": "ok",
+    "note": "13 pages with complete proofs of all four theorems; the authors note the constants are not optimized and state the general Dirac-graph question as open.",
+    "pages": 13
+   },
+   "rank": 12
+  },
+  {
+   "id": "2609.11691",
+   "type": "new",
+   "title": "Asymptotic $q,t$-Fuss--Catalan numbers for type $B$",
+   "authors": [
+    "Alexei Oblomkov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "54 pages, comments are welcome",
+   "abstract": "Let $W=W(B_n)$ act diagonally on $\\mathfrak{h}\\oplus\\mathfrak{h}^*$, let $S=\\mathbb{C}[\\mathfrak{h}\\oplus\\mathfrak{h}^*]$, let $J\\subset S$ be the ideal generated by the $W$-alternating polynomials and $\\mathfrak{m}_S$ is the maximal ideal of the origin. For sufficiently large $m$ we compute $q,t$-Fuss-Catalan polynomial $Cat^{(m)}(B_n;q,t):=Hilb(\\frac{J^m}{\\mathfrak{m}_S J^m})_{det-part}$ and imply $Cat^{(m)}(B_n;1,1)=\\binom{n(m+1)}{n}$. For proofs, we work with the $Γ$-equivariant Hilbert scheme $Y_n=nΓ$-$Hilb(\\mathbb{C}^2)$, $Γ=μ_2$ and Haiman-type Koszul complex that defines the punctual locus of $Y_n$. Our formula for $Cat^{(m)}(B_n;q,t)$ is derived from a localization computaion for the Haiman-type Koszul complex.",
+   "score": 60,
+   "tier": "Solid",
+   "venue": "Algebraic Combinatorics / Adv. Math level",
+   "reason": "Computes q,t-Fuss–Catalan polynomials of type B for large m via equivariant Hilbert schemes and a Haiman-type Koszul complex.",
+   "abs": "https://arxiv.org/abs/2609.11691",
+   "pdf": "https://arxiv.org/pdf/2609.11691",
+   "check": {
+    "status": "ok",
+    "note": "54-page paper; the screen covered the first half (Sections 1–5) where the geometric theorems are proved in full; results hold for m ≫ 0 with a non-effective threshold, as stated.",
+    "pages": 54
+   },
+   "rank": 13
+  },
+  {
+   "id": "2609.11323",
+   "type": "new",
+   "title": "Polynomial positivity cones for Coxeter roots and walks in trees",
+   "authors": [
+    "Dongxiu Cai",
+    "Zhenbo Chen",
+    "Jiasheng Zeng",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "For a finite simple graph $G$ and an integer $k\\ge0$, let $w_k(G)$ denote the number of walks of length $k$. We prove the conjecture of Täubig, Weihmann, Kosub, Hemmecke, and Mayr for every finite tree and determine all equality cases. If $T$ has $n\\ge1$ vertices, then $n w_{k+1}(T)-2(n-1)w_k(T)\\ge0$ for every $k\\ge1$; for $n\\ge3$, equality holds if and only if $T$ is a star and $k$ is even, whereas for $n=1$ or $n=2$, equality holds for every $k\\ge1$. For non-Dynkin trees and even indices, the proof is based on a polynomial positivity cone associated with the adjacency operator of a finite graph and a positive real root of its simply-laced Coxeter system. For finite connected bipartite non-Dynkin graphs, we establish sufficient positivity conditions in terms of Coxeter orbits and inversion sets, and verify these conditions for indicator roots supported on connected induced subtrees. For non-Dynkin trees, this yields the rooted even-index inequality and, after summation, the corresponding global inequality. We also prove that if $G$ is a finite connected bipartite non-Dynkin simple graph, $\\varnothing\\ne U\\subseteq V(G)$, and the subgraph of $G$ induced by $U$ is a tree, then $|U|w_{k+1}(G,U)-2(|U|-1)w_k(G,U)\\ge0$ for every $k\\ge0$, where $w_k(G,U)$ counts the length-$k$ walks in $G$ whose initial and terminal vertices lie in $U$; the intermediate vertices are unrestricted. The remaining even-index cases for finite Dynkin trees are handled by generating-function recurrences, while the odd-index cases follow from a spectral covariance identity.",
+   "msc": "05C05, 05C50",
+   "score": 58,
+   "tier": "Specialized",
+   "venue": "JCTA / LAA level",
+   "reason": "Proves the Täubig–Weihmann–Kosub–Hemmecke–Mayr walk-count conjecture for all finite trees with equality cases, via positivity cones for Coxeter roots.",
+   "abs": "https://arxiv.org/abs/2609.11323",
+   "pdf": "https://arxiv.org/pdf/2609.11323",
+   "check": {
+    "status": "ok",
+    "note": "18 pages with complete proofs; relies on the Etingof–Eu positivity theorem for preprojective algebras and Smith's spectral classification, both cited; AI assistance disclosed.",
+    "pages": 18
+   },
+   "rank": 14
+  },
+  {
+   "id": "2609.11589",
+   "type": "new",
+   "title": "Preservation of log-concavity under Hadamard products",
+   "authors": [
+    "Yanxin Liu",
+    "Jianxi Mao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "For a nonzero real polynomial $p$, let $\\mathcal{W}(p)$ denote the numerator of its ordinary generating function. We prove that if the coefficients of both $\\mathcal{W}(p)$ and $\\mathcal{W}(q)$ are nonnegative and log-concave with no internal zeros, then so are the coefficients of $\\mathcal{W}(pq)$. This provides an affirmative answer to a question of Brändén, Ferroni, and Jochemko. As applications, we derive corresponding results for finite products and for Cartesian products of lattice polytopes, answering a question of Ferroni and Higashitani.",
+   "msc": "05A20, 26C10, 26C15",
+   "score": 58,
+   "tier": "Specialized",
+   "venue": "JCTA / Adv. Appl. Math level",
+   "reason": "Log-concavity of the h-numerator is preserved under products of polynomials, answering questions of Brändén–Ferroni–Jochemko and Ferroni–Higashitani for lattice polytopes.",
+   "abs": "https://arxiv.org/abs/2609.11589",
+   "pdf": "https://arxiv.org/pdf/2609.11589",
+   "check": {
+    "status": "ok",
+    "note": "12 pages with a complete proof of the main theorem via two matrices from Bernstein polynomials; one symmetric lemma case is left to the reader.",
+    "pages": 12
+   },
+   "rank": 15
+  },
+  {
+   "id": "2609.11599",
+   "type": "cross",
+   "title": "Some results on Archdeacon's conjecture for rotation systems",
+   "authors": [
+    "Arahat Chikkatur",
+    "Ji Zeng"
+   ],
+   "categories": [
+    "cs.CG",
+    "math.CO"
+   ],
+   "primary": "cs.CG",
+   "comments": "",
+   "abstract": "A rotation system on $n$ elements assigns to each element a cyclic order of the other $n-1$ elements. A four-element subset is non-planar if its induced rotation system cannot be realized by a crossing-free drawing of $K_4$. As a combinatorial strengthening of Hill's conjecture on the crossing number of the complete graph, Archdeacon conjectured that every rotation system on $n$ elements has at least $H(n)=\\frac{1}{4} \\lfloor\\frac {n}{2}\\rfloor \\lfloor\\frac{n-1}{2}\\rfloor \\lfloor\\frac{n-2}{2}\\rfloor \\lfloor\\frac{n-3}{2}\\rfloor$ non-planar four-element subsets.\n We computationally verify Archdeacon's conjecture for $n\\leq 10$ and show that every extremal rotation system in these orders is realizable by a simple drawing. With computer assistance, we prove that every rotation system on $n$ elements has at least $(8/9 - o(1)) H(n)$ non-planar four-element subsets. We also present a proof by hand for a weaker lower bound of $(2/3-o(1)) H(n)$. Finally, extending recent work of Felsner on antipodal pairs in drawings, we show that Archdeacon's conjecture holds for antipodally shellable rotation systems.",
+   "score": 57,
+   "tier": "Specialized",
+   "venue": "DCG / EJC level",
+   "reason": "Computer-assisted (8/9−o(1))H(n) lower bound toward Archdeacon's conjecture on non-planar 4-subsets of rotation systems, a strengthening of Hill's crossing-number conjecture.",
+   "abs": "https://arxiv.org/abs/2609.11599",
+   "pdf": "https://arxiv.org/pdf/2609.11599",
+   "check": {
+    "status": "concerns",
+    "note": "11 pages; the (8/9−o(1))H(n) bound has one computer-checked ingredient (SDP certificate verified by an included program) and the n ≤ 10 verification is computational; the (2/3−o(1)) bound and the antipodal-pair theorem are proved by hand.",
+    "pages": 11
+   },
+   "rank": 16
+  },
+  {
+   "id": "2609.10795",
+   "type": "new",
+   "title": "Settling the total domination-annihilation conjecture for graphs with minimum degree two",
+   "authors": [
+    "Marko Jakovac"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The total domination number γ_t(G) of a graph G is the minimum cardinality of a set D⊆V(G) such that every vertex of G has a neighbor in D. The annihilation number a(G) is the largest integer k for which the sum of the k smallest degrees of G is at most |E(G)|. A well-known conjecture, originating from Graffiti.pc and later formulated explicitly by Desormeaux, Haynes, and Henning, asserts that γ_t(G)≤ a(G)+1 for every connected nontrivial graph G. The conjecture is known for graphs of minimum degree at least three and for several classes of graphs having vertices of degree one or two. In this paper we settle the minimum-degree-two case. More precisely, we prove γ_t(G)≤ a(G)+1 for every connected graph G with δ(G)=2. The proof combines two sharp bounds on the total domination number with an estimate for the annihilation number. Moreover, in some specific cases, the stronger inequality γ_t(G)≤ a(G) holds.",
+   "msc": "05C69",
+   "score": 56,
+   "tier": "Specialized",
+   "venue": "Discrete Math. / JGT level",
+   "reason": "Settles the minimum-degree-two case of the total domination–annihilation conjecture γ_t(G) ≤ a(G)+1 of Desormeaux, Haynes and Henning.",
+   "abs": "https://arxiv.org/abs/2609.10795",
+   "pdf": "https://arxiv.org/pdf/2609.10795",
+   "check": {
+    "status": "ok",
+    "note": "8 pages; the main theorem is proved in full from two cited total-domination bounds of Henning and Henning–Yeo plus a new estimate for the annihilation number.",
+    "pages": 8
+   },
+   "rank": 17
+  },
+  {
+   "id": "2609.10975",
+   "type": "new",
+   "title": "Balanced even cycles in signed graphs:Turán bounds, double covers, and parity obstructions",
+   "authors": [
+    "Lujia Wang",
+    "Xiaowei Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "We study Turán problems for balanced even cycles in simple signed graphs, where signed subgraphs are considered up to switching. For every balanced bipartite signed graph, the signed and ordinary Turán numbers differ by at most a factor of two. Our main structural results concern the underlying graphs that admit a signing in which every $2k$-cycle is unbalanced. We characterize these graphs by the absence of an odd dependence among their $2k$-cycle incidence vectors, give a cohomological formulation, and construct subgraph-minimal obstructions of arbitrarily large order. In particular, there is no finite forbidden-subgraph characterization. We also give an exact closed-walk criterion for cycles in double covers and derive a direct signed breadth-first-search upper bound. As applications, we prove \\[ \\mathrm{ex}(n,C_{+4})=\\left(\\frac{\\sqrt2}{2}+o(1)\\right)n^{3/2} \\] and study the signed hexagon number $R_6(n)=\\mathrm{ex}(n,\\{C_{-3},C_{+6}\\})$. We characterize the underlying graphs counted by $R_6$ and express it as an extremal problem for ordinary $C_6$-free graphs with a prescribed involution. For every sufficiently large $n$, we construct examples with $Ω(n^{4/3})$ edges, and we give an equivariant construction attaining the coefficient obtained from the Füredi--Naor--Verstraëte lower bound by double-cover transfer. Finally, we give $n$-vertex $C_{+10}$-free signed graphs with $Ω(n^{6/5})$ edges and use octagon examples to illustrate the limitations of theta-freeness as a signing criterion.",
+   "score": 56,
+   "tier": "Specialized",
+   "venue": "EJC / Discrete Math. level",
+   "reason": "Turán problems for balanced even cycles in signed graphs, including ex(n,C_{+4}) asymptotics and a characterization of graphs admitting all-unbalanced 2k-cycle signings.",
+   "abs": "https://arxiv.org/abs/2609.10975",
+   "pdf": "https://arxiv.org/pdf/2609.10975",
+   "check": {
+    "status": "ok",
+    "note": "18 pages with complete proofs of the structural characterization, the general upper bound and the C_{+4}, hexagon and decagon constructions; several questions are left open explicitly.",
+    "pages": 18
+   },
+   "rank": 18
+  },
+  {
+   "id": "2609.10783",
+   "type": "new",
+   "title": "A 50-Vertex Cubic Counterexample to the Domination-versus-Edge-Domination Conjecture",
+   "authors": [
+    "Koyar Afrasyab"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Baste, Furst, Henning, Mohr, and Rautenbach conjectured that every finite regular graph of positive degree satisfies γ(G) ≤ γ_e(G), where γ is the domination number and γ_e is the edge domination number, equivalently the minimum cardinality of a maximal matching. We show that the conjecture is false already for cubic graphs. The counterexample is a previously public 50-vertex cubic graph that had been used to refute the stronger independent-domination inequality i(G) ≤ γ_e(G). For this graph we prove γ(G) = 16 > 15 = γ_e(G). The equality γ_e(G) = 15 has a short counting proof, and a dominating set of order 16 is displayed explicitly. For the lower bound γ(G) ≥ 16, we give a self-contained exact reduction: after fixing which of the 20 clause vertices lie in a putative dominating set, the remaining problem is a finite set-cover problem on the 30 literal vertices. We enumerate all (2^{20} = 1,048,576) clause subsets, derive two explicit lower bounds, and solve exactly the 5,931 residual cases by a recurrence stated in the paper. The complete case counts and minima are displayed, and a short standard-library Python implementation is included in an appendix. A separate 893,049-node proof-tree certificate and a direct graph search provide independent verification. Thus the regular-graph conjecture is disproved. Combined with Gupta's recent theorem that every cubic graph on at most 48 vertices satisfies the conjectured inequality, the example is order-minimal among cubic counterexamples.",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "JGT / Discrete Math. level",
+   "reason": "A 50-vertex cubic graph with γ(G)=16 > γ_e(G)=15 disproves the Baste–Fürst–Henning–Mohr–Rautenbach conjecture for regular graphs, with computer-verified order-minimality.",
+   "abs": "https://arxiv.org/abs/2609.10783",
+   "pdf": "https://arxiv.org/pdf/2609.10783",
+   "check": {
+    "status": "ok",
+    "note": "10 pages; the two inequalities are reduced to explicit finite computations with code and certificates included; the graph itself was already public, so the new content is the exact domination number.",
+    "pages": 10
+   },
+   "rank": 19
+  },
+  {
+   "id": "2609.11846",
+   "type": "new",
+   "title": "A General Inequality for Walks in Graphs",
+   "authors": [
+    "Chase Wilson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a graph and $w_k(G)$ denote the number of walks in $G$ of length $k$. For sequences $a_1, \\cdots, a_n$ and $b_1, \\cdots, b_n$ of non-negative integers such that $a_1 + \\cdots + a_n = b_1 + \\cdots + b_n$, we determine a simple necessary and sufficient condition on $a_1, \\cdots, a_n, b_1, \\cdots, b_n$ for the inequality \\[ w_{a_1}(G) \\cdots w_{a_n}(G) \\geq w_{b_1}(G) \\cdots w_{b_n}(G) \\] to hold for any graph $G$.",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "EJC / LAA level",
+   "reason": "A necessary and sufficient condition for product inequalities among walk counts w_a(G) to hold in every graph, completing a classical line of walk inequalities.",
+   "abs": "https://arxiv.org/abs/2609.11846",
+   "pdf": "https://arxiv.org/pdf/2609.11846",
+   "check": {
+    "status": "ok",
+    "note": "17 pages with complete proofs of both directions (entropy/averaging argument and an explicit construction); the paper notes an independent result of Raymond and Blekherman via tropical geometry.",
+    "pages": 17
+   },
+   "rank": 20
+  },
+  {
+   "id": "2609.10735",
+   "type": "cross",
+   "title": "Long range divided differences, clusters, and Graham-positivity",
+   "authors": [
+    "Hunter Spink",
+    "Vasu Tewari"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "25 pages",
+   "abstract": "We study torus-orbit closures in the type $A$ complete flag variety naturally associated to cones in the positive cluster fan, together with their left $S_n$-translates. The torus-equivariant degree maps can be computed via composites of long-range divided difference operations encoded by noncrossing alternating forests, and we give combinatorial algorithms to expand the torus-equivariant homology classes into Graham-positive combinations of Schubert cycles. As applications we obtain combinatorial Graham-positive Schubert cycle expansions for all torus-invariant curves (generalizing the AJS-Billey formula for torus-fixed points), generic torus-orbit closures, and Richardson varieties for Bruhat intervals $[w,wc']$ where $c'\\le s_{n-1}s_{n-2}\\cdots s_1$. Projecting to Grassmannians we also obtain Graham-positive Grassmannian Schubert cycle decompositions of torus-orbit closures associated to lattice path matroids on permuted ground sets.",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "Algebraic Combinatorics / Selecta level",
+   "reason": "Graham-positive Schubert expansions of torus-orbit closures in flag varieties via long-range divided differences and noncrossing alternating forests.",
+   "abs": "https://arxiv.org/abs/2609.10735",
+   "pdf": "https://arxiv.org/pdf/2609.10735",
+   "check": {
+    "status": "ok",
+    "note": "25 pages with complete proofs of the divided-difference expansion, the geometric identification and the Graham-positive corollaries; non-recursive formulas are left open.",
+    "pages": 25
+   },
+   "rank": 21
+  },
+  {
+   "id": "2609.11774",
+   "type": "new",
+   "title": "Circular Rearrangement Inequality and Optimal Cyclic Birth and Death Chains",
+   "authors": [
+    "Gabriel Raposo"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a generalized circular rearrangement inequality: among all circular arrangements of a finite collection of positive numbers, the greedy arrangement simultaneously maximizes the sums of products of $k$ consecutive entries for every $k$. This resolves a 2023 conjecture of Holmes-Holroyd-Ramírez and extends the classical circular rearrangement inequality for products of adjacent entries. As an application, we show that the greedy ordering minimizes the speed of a cyclic birth-and-death chain, resolving another conjecture of the same authors.",
+   "score": 54,
+   "tier": "Specialized",
+   "venue": "EJC / Adv. Appl. Math level",
+   "reason": "The greedy circular arrangement maximizes all consecutive k-product sums simultaneously, resolving two 2023 conjectures of Holmes, Holroyd and Ramírez.",
+   "abs": "https://arxiv.org/abs/2609.11774",
+   "pdf": "https://arxiv.org/pdf/2609.11774",
+   "check": {
+    "status": "ok",
+    "note": "6 pages; the main inequality is proved by induction with one step imported from a cited reliability-theory result, and both Holmes–Holroyd–Ramírez conjectures follow directly.",
+    "pages": 6
+   },
+   "rank": 22
+  },
+  {
+   "id": "2609.11233",
+   "type": "new",
+   "title": "Crystals and sign-reversing involutions for set-valued skew tableaux and decorated states of the five-vertex model",
+   "authors": [
+    "Tatsushi Shimazaki"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "43 pages, 6 figures",
+   "abstract": "We construct bijections among semistandard set-valued tableaux of skew shape, marked Gelfand-Tsetlin patterns, and decorated states of the five-vertex model with boundary data determined by the skew shape. The bijections preserve monomial weight, identify tableau excess with the number of marks and nontrivial bumps, and intertwine the ordinary type A crystal operators with local transformations of decorated states. We prove that each fiber determined by a fixed maximum tableau is a graded Boolean lattice whose rank function is the excess. Its weighted generating function has a product formula. The sign-reversing involution changes one Boolean coordinate on every tableau that it does not fix, and we determine its commutation with all raising operators and with lowering operators except at the two colors involving the changed entry. We construct the dual involution associated with minimum entries and prove corresponding Boolean structures for fibers determined by a fixed minimum tableau and for fibers with prescribed minimum and maximum tableaux.",
+   "msc": "05E10, 05E05, 17B37",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "Algebraic Combinatorics level",
+   "reason": "Weight-preserving bijections between set-valued skew tableaux and five-vertex-model states, with Boolean-lattice fibers and crystal compatibility.",
+   "abs": "https://arxiv.org/abs/2609.11233",
+   "pdf": "https://arxiv.org/pdf/2609.11233",
+   "check": {
+    "status": "ok",
+    "note": "43 pages; the screen read through page 32 and found explicit bijections with complete proofs for the tableau, Gelfand–Tsetlin and five-vertex correspondences and the crystal intertwining.",
+    "pages": 43
+   },
+   "rank": 23
+  },
+  {
+   "id": "2609.11249",
+   "type": "new",
+   "title": "Proper conflict-free choosability of sparse graphs with girth at least seven",
+   "authors": [
+    "Xingqin Qi",
+    "Huimin Song",
+    "Zhulou Cao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "A proper conflict-free coloring is a proper vertex coloring in which every non-isolated vertex has a color appearing exactly once in its open neighborhood. We prove that every finite simple graph with girth at least 7 and maximum average degree less than 8/3 admits a proper conflict-free coloring from arbitrary vertex lists of size at least the vertex degree plus 2. Consequently, every planar graph of girth at least 8 is proper conflict-free (degree+2)-choosable, improving the sufficient girth bound of 9 obtained from the earlier 18/7 maximum-average-degree theorem. The proof uses local extension lemmas for short threads, including threads with a common boundary endpoint. Two-element control sets and an incidence count yield a weighted thread inequality, which supplies the required bound on the charge sent by each vertex in a discharging argument.",
+   "msc": "05C15",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "Discrete Math. / JGT level",
+   "reason": "Proper conflict-free (degree+2)-choosability for girth ≥ 7 and mad < 8/3, improving the planar girth threshold from 9 to 8 by discharging.",
+   "abs": "https://arxiv.org/abs/2609.11249",
+   "pdf": "https://arxiv.org/pdf/2609.11249",
+   "check": {
+    "status": "ok",
+    "note": "16 pages; a complete minimum-counterexample and discharging proof with the weighted thread lemma; the girth-7 planar case is explicitly left open.",
+    "pages": 16
+   },
+   "rank": 24
+  },
+  {
+   "id": "2609.11534",
+   "type": "new",
+   "title": "Kriesell's conjecture for infinite graphs",
+   "authors": [
+    "Leandro Aurichi",
+    "Paulo Magalhães Júnior",
+    "Rodrigo Santos Monteiro"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a graph and $S\\subseteq V(G)$ be a subset of vertices. An $S$-Steiner tree $T$ of $G$ is a tree of $G$ which contains $S$ in its vertex set $V(T)$. Kriesell conjectured that for every $2k$-edge-connected subset $S\\subseteq V(G)$ in a finite connected graph $G$, there exist $k$ pairwise edge-disjoint $S$-Steiner trees. This conjecture is false for infinite graphs. We present a version of Kriesell's conjecture with topological $S$-Steiner trees for countable finitely edge-separable graphs and a version with $F$-limits of trees for rayless graphs.\n We show that if Kriesell's conjecture holds for finite graphs, then it holds for every connected, rayless and finitely edge-separable graph. We also show that every $2k$-edge-connected rayless and finitely edge-separable graph contains $k$ pairwise edge-disjoint spanning trees.",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "JGT / Combinatorica (infinite) level",
+   "reason": "Kriesell's Steiner-tree packing conjecture fails for infinite graphs; topological versions are formulated and reduced to the finite case for rayless finitely edge-separable graphs.",
+   "abs": "https://arxiv.org/abs/2609.11534",
+   "pdf": "https://arxiv.org/pdf/2609.11534",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 25
+  },
+  {
+   "id": "2609.11832",
+   "type": "new",
+   "title": "Distinguishing adjacent vertices by ordering edges",
+   "authors": [
+    "Aleksandra Gorzkowska",
+    "Jakub Kwaśny"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The 1-2-3 Conjecture states that for every graph without isolated edges, there exists an edge-weighting from $\\{1,2,3\\}$ such that adjacent vertices receive distinct sums of weights on their incident edges. In the sequence variant, adjacent vertices are to be distinguished by the sequences of weights on their incident edges. In this paper, we investigate whether, for every graph without isolated edges and for a fixed proper edge colouring (where colours are interpreted as weights), there exists a global total order of the edges such that the resulting sequences of incident weights distinguish adjacent vertices. For connected graphs, we prove that such an order exists whenever there exist two adjacent vertices that have distinct sets of incident weights. This yields a positive answer for every proper edge colouring of a connected non-regular graph or a connected graph of class two. Moreover, a probabilistic argument gives the same conclusion for connected regular graphs of degree at least six.",
+   "msc": "05C15, 05C22, 05C78",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "Discrete Math. / JGT level",
+   "reason": "For a fixed proper edge colouring, a global edge order distinguishing adjacent vertices by weight sequences exists in connected non-regular or class-two graphs, a variant of the 1-2-3 conjecture.",
+   "abs": "https://arxiv.org/abs/2609.11832",
+   "pdf": "https://arxiv.org/pdf/2609.11832",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 26
+  },
+  {
+   "id": "2609.10625",
+   "type": "new",
+   "title": "The 2-Adic Valuation of the Order of the All-Ones Class in the Sandpile Group of a Square",
+   "authors": [
+    "Turgay Akyar",
+    "Artem Beliakov",
+    "Konstantin Delchev",
+    "Nikita Kalinin",
+    "Ernesto Lupercio",
+    "Higinio Serrano",
+    "Mikhail Shkolnikov",
+    "Daniel Tabares",
+    "Nikolai Terekhov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.DS",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Place one grain at every nonsink vertex of the wired $n\\times n$ square, and let $L(n)$ be the order of this operation in the sandpile group. Thus $L(n)$ is the least positive $q$ for which $q$ uniform grain layers form an integral combination of toppling moves. We prove that, for every $n\\ge1$, \\[ ν_2(L(n))= \\begin{cases} 2,&n=1,\\\\ 1,&n\\ge2\\text{ even},\\\\ ν_2(n+1)+2,&n\\ge3\\text{ odd}. \\end{cases} \\] For even squares, this follows from the domino–sandpile results of Florescu, Morar, Perkinson, Salter, and Xu, completed by a short parity observation. For odd squares, a unimodular cyclic basis identifies the folded cokernel with a quotient by two shifted Chebyshev polynomials and sends the all-ones class to $1$. Its order is determined by the constant part of this polynomial ideal, not just by a determinant. Two normalized Euclidean remainders reduce to consecutive Fibonacci polynomials over $\\mathbb F_2$, giving the exact valuation.",
+   "msc": "05C25, 05C50, 11B39, 11S85",
+   "score": 50,
+   "tier": "Specialized",
+   "venue": "JCTA / Discrete Math. level",
+   "reason": "Exact 2-adic valuation of the order of the all-ones class in the sandpile group of the n×n grid via Chebyshev and Fibonacci polynomials over F_2.",
+   "abs": "https://arxiv.org/abs/2609.10625",
+   "pdf": "https://arxiv.org/pdf/2609.10625",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 27
+  },
+  {
+   "id": "2609.11358",
+   "type": "new",
+   "title": "On union-closed families with prescribed number of $k$-sets",
+   "authors": [
+    "Amir Jafari"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Fix positive integers $N,k,n$ with $n\\ge k$. We seek the minimum number of members of size at least $n$ in a finite family of finite sets closed under union and containing exactly $N$ distinct sets of size $k$. This problem is a specialization of the Leck--Roberts--Simpson weighted conjecture: assign weight one to sets of size at least $n$ and zero to smaller sets. The predicted minimizer consists of the unions of nonempty subfamilies of the first $N$ $k$-subsets of the natural numbers, ordered by their largest elements and, when these agree, by their increasing lists lexicographically. For an integer $t\\ge 1$, a range of $N$ around $\\binom{n+t-1}{k}$ is considered; the conjecture is confirmed in that range when $n$ is at least of order $k^2 t$, and for sufficiently large $k$ a sufficient bound of order $k^2t/\\log k$ is obtained, uniformly in $t\\ge2$. (The abstract as recorded at DataCite is garbled in the middle; see the arXiv page for the exact statement.)",
+   "msc": "05D05",
+   "score": 50,
+   "tier": "Specialized",
+   "venue": "EJC / Discrete Math. level",
+   "reason": "Progress on the Leck–Roberts–Simpson weighted conjecture for union-closed families with a prescribed number of k-sets, in ranges where n is large compared with k²t.",
+   "abs": "https://arxiv.org/abs/2609.11358",
+   "pdf": "https://arxiv.org/pdf/2609.11358",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 28
+  },
+  {
+   "id": "2609.11729",
+   "type": "new",
+   "title": "Spectral bipartiteness in generalized odd graphs of diameter three",
+   "authors": [
+    "Qi Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$ of order $n$, put $σ(G)=(λ_1(G)+λ_n(G))/n$. We determine the first three largest values of this invariant among nonbipartite distance-regular graphs of diameter three and odd girth at least seven. The unique maximizer is the folded $7$-cube, with value $1/32$; the unique second maximizer is the Odd graph $O_4$, with value $1/35$; and the unique third maximizer is $C_7$, with value $2(1-\\cos(π/7))/7$. More precisely, every other graph in the class satisfies $σ(G)<1/36$. This answers Problem~11 of Abiad, Taranchuk and van Veluw in \\emph{Electronic Journal of Combinatorics} 33(2) (2026), P2.31. The proof combines established local multiplicity and odd-moment bounds: the condition $σ(G)\\geq1/36$ forces the valency to be at most $182$. An exhaustive certificate using only integer and rational arithmetic then leaves three intersection arrays. The complete certificate is publicly available, and neither a classification of generalized odd graphs nor the $Q$-polynomial property is assumed. The odd-girth theorem gives the same extremal conclusions for connected $\\{C_3,C_5\\}$-free graphs with at most four distinct adjacency eigenvalues, without assuming regularity.",
+   "score": 50,
+   "tier": "Specialized",
+   "venue": "EJC / LAA level",
+   "reason": "The three largest values of (λ_1+λ_n)/n among generalized odd graphs of diameter three, answering Problem 11 of Abiad, Taranchuk and van Veluw by a certified computation.",
+   "abs": "https://arxiv.org/abs/2609.11729",
+   "pdf": "https://arxiv.org/pdf/2609.11729",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 29
+  },
+  {
+   "id": "2609.10609",
+   "type": "new",
+   "title": "Real stability of layer-refined antichain polynomials for three-chain products with a two-element factor",
+   "authors": [
+    "Weiqi Jiang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, with a 4-page ancillary computational supplement. Reproducibility package: this https URL",
+   "abstract": "For all positive integers $n,k$, we prove that the layer-refined antichain polynomial of the product poset $[2]\\times[n]\\times[k]$ is real stable. Jacobi-polynomial interlacing further shows that its diagonal specialization, the ordinary antichain polynomial of the same poset, has only simple, strictly negative zeros. For the special family $[2]\\times[m]\\times[m+1]$, explicit reciprocal identities give palindromicity; reciprocal pairing of the simple negative zeros then shows that every coefficient in the gamma expansion is strictly positive. Thus we prove Conjecture 4.3 of Ding and Dong and resolve all parts of their Conjecture 4.5, while strengthening its stated gamma-positivity consequence. The enumerative input is an explicit first-crossing reflection for two lattice paths, specialized from work of Krattenthaler and Sulanke.",
+   "msc": "06A07, 05A15, 33C45",
+   "score": 48,
+   "tier": "Specialized",
+   "venue": "Discrete Math. / Order level",
+   "reason": "Real stability of layer-refined antichain polynomials of [2]×[n]×[k], proving conjectures of Ding and Dong with gamma-positivity consequences.",
+   "abs": "https://arxiv.org/abs/2609.10609",
+   "pdf": "https://arxiv.org/pdf/2609.10609",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 30
+  }
+ ]
+}

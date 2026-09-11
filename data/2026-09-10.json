@@ -1,0 +1,872 @@
+{
+ "date": "2026-09-10",
+ "generated_at": "2026-09-11T09:39:54Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-10",
+ "screened": 46,
+ "screened_new": 30,
+ "screened_cross": 16,
+ "scored": 46,
+ "checked": 0,
+ "checked_shown": 0,
+ "excluded": 0,
+ "shown": 30,
+ "papers": [
+  {
+   "id": "2609.10513",
+   "type": "new",
+   "title": "Unimodality shenanigans in Ehrhart theory",
+   "authors": [
+    "Luis Ferroni"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We show the existence of counterexamples to a four-decade-old conjecture attributed to Stanley concerning the unimodality of $h^*$-polynomials of IDP polytopes. As additional applications of our main constructions, we also disprove a conjecture by Brenti on the log-concavity of $h^*$-polynomials of Gorenstein IDP polytopes, and a conjecture by Ferroni and Higashitani concerning the log-concavity of the Ehrhart series of IDP polytopes. We also answer their question about the existence of very ample polytopes with non-log-concave interior Ehrhart series. Our class of examples arises by taking Cayley sums of rectangular prisms, and hence they possess regular unimodular flag triangulations by a result of Haase, Paffenholz, Piechnik and Santos. For the unimodality conjecture, we can even find smooth counterexamples.",
+   "score": 84,
+   "tier": "Major",
+   "venue": "Advances / Duke / JAMS level",
+   "reason": "Counterexamples, including smooth ones, to the four-decade-old IDP unimodality conjecture for h*-polynomials, plus disproofs of the Brenti and Ferroni–Higashitani log-concavity conjectures.",
+   "abs": "https://arxiv.org/abs/2609.10513",
+   "pdf": "https://arxiv.org/pdf/2609.10513",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 1
+  },
+  {
+   "id": "2609.10402",
+   "type": "new",
+   "title": "Superpolynomial lower bounds for vertex numbers of real projective space triangulations via a topological Figiel-Lindenstrauss-Milman theorem",
+   "authors": [
+    "Florian Frick",
+    "Kaave Hosseini",
+    "Eric Myzelev",
+    "Arya Narnapatti",
+    "Aliaksei Vasileuski"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "We prove that every simplicial triangulation of real projective $d$-space has $\\exp(Ω(\\sqrt d))$ vertices. Together with known constructions, this determines the minimum vertex number as $μ_d=\\exp(d^{1/2+o(1)})$. The result follows from a topological generalization of the Figiel--Lindenstrauss--Milman inequality, answering a recent question of Frick, Hosseini, and Vasileuski: a finite strongly regular CW complex with a free cellular involution, $v$ vertices, and $f$ maximal cells has $\\mathbb{Z}/2$-index at most $O(\\log v\\log f)$. We bound the dimensions of Morse cells by a trace estimate for a constrained Hessian, obtaining a Morse-theoretic proof of the classical inequality for centrally symmetric polytopes. As further applications of this inequality, we give an $\\exp(Ω(\\sqrt t))$ lower bound for the order of a triangle-free topologically $t$-chromatic graph and bound the index of sign complexes by $O(d\\log^2 N)$ for total matrices and $O(d\\log^3 N)$ for partial matrices, where $N\\geq2$ is the number of columns and $d\\geq1$ is the VC dimension.",
+   "msc": "05E45, 57Q15, 52B05, 05D05",
+   "score": 80,
+   "tier": "Major",
+   "venue": "Advances / Duke level",
+   "reason": "Settles the vertex-number growth of triangulations of RP^d as exp(d^{1/2+o(1)}) via a topological Figiel–Lindenstrauss–Milman inequality, with applications to topologically t-chromatic graphs.",
+   "abs": "https://arxiv.org/abs/2609.10402",
+   "pdf": "https://arxiv.org/pdf/2609.10402",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 2
+  },
+  {
+   "id": "2609.09715",
+   "type": "new",
+   "title": "NP-Hardness of the $H$-Free Edge-Deletion Problem",
+   "authors": [
+    "Lior Gishboliner",
+    "Ethan Honest"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $H$, the $H$-freeness edge-deletion problem is the algorithmic problem of finding, for an input graph $G$, the minimum number of edges of $G$ whose deletion turns $G$ into an $H$-free graph. We show that for every graph $H$ containing a cycle, this problem is NP-hard. This proves a conjecture of Gishboliner, Levanzov and Shapira, and completes the characterization of the complexity of the $H$-freeness edge-deletion problem, answering a question of Alon, Shapira and Sudakov.",
+   "score": 76,
+   "tier": "Strong",
+   "venue": "Combinatorica / SIAM J. Computing level",
+   "reason": "Proves the Gishboliner–Levanzov–Shapira conjecture and completes the complexity dichotomy for H-free edge deletion, answering Alon, Shapira and Sudakov.",
+   "abs": "https://arxiv.org/abs/2609.09715",
+   "pdf": "https://arxiv.org/pdf/2609.09715",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 3
+  },
+  {
+   "id": "2609.10406",
+   "type": "new",
+   "title": "Induced Forest Minor Theorem for Graphs Without an Induced Star",
+   "authors": [
+    "Robert Hickingbotham",
+    "Gwenaël Joret"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Motivated by recent work on tree independence number, we study the path independence number of a graph $G$: the minimum integer $k$ such that there is a path decomposition of $G$ where each bag induces a graph with independence number at most $k$. We show that every graph excluding both an induced forest minor and an induced star has bounded path independence number. This characterises when a graph class that excludes an induced star has bounded path independence number while also partially resolving a conjecture of Dallard, Krnc, Kwon, Milaniči, Munaro, Štorgel and Wiederrecht (2024). Furthermore, we show that graphs excluding both an apex-forest induced minor and an induced star have bounded tree independence number. As a consequence, for every fixed apex-forest $H$ and integer $t$, there is a polynomial-time algorithm to test whether a $K_{1,t}$-induced-subgraph-free graph contains $H$ as an induced minor. Moreover, it follows that the Maximum Weight Independent Set problem, as well as several other NP-hard problems, can be solved in polynomial-time on $K_{1,t}$-induced-subgraph-free graphs that exclude $H$ as an induced minor.",
+   "score": 74,
+   "tier": "Strong",
+   "venue": "JCTB / Combinatorica level",
+   "reason": "Bounded path independence number for graphs excluding an induced forest minor and an induced star, partially resolving the Dallard et al. conjecture, with polynomial-time consequences for MWIS.",
+   "abs": "https://arxiv.org/abs/2609.10406",
+   "pdf": "https://arxiv.org/pdf/2609.10406",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 4
+  },
+  {
+   "id": "2609.10255",
+   "type": "new",
+   "title": "Sharp Bounds on the Number of Small Cuts",
+   "authors": [
+    "Chao Xu",
+    "Mingdong Yang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $λ$ be the minimum cut value of an $n$-vertex undirected multigraph. For every fixed $α>1$, we prove that there are $O(n^{\\lceil2α\\rceil-1})$ cuts of size strictly below $αλ$. The exponent is sharp. The proof combines splitting off and sampling with a bound on the size of nested families of vertex sets.",
+   "score": 72,
+   "tier": "Strong",
+   "venue": "JCTB / SIAM J. Discrete Math level",
+   "reason": "Determines the sharp exponent ceil(2α)−1 for the number of cuts below α times the minimum cut, closing a classical question going back to Karger's bound.",
+   "abs": "https://arxiv.org/abs/2609.10255",
+   "pdf": "https://arxiv.org/pdf/2609.10255",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 5
+  },
+  {
+   "id": "2609.10023",
+   "type": "new",
+   "title": "Overlap-Helly theorems",
+   "authors": [
+    "Andreas F. Holmsen",
+    "Alfredo Hubard"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "In this paper we introduce a generalization of Helly's theorem closely connected to Bárány-Gromov overlap theorems (also called selection lemmas). Our main result implies both the topological colorful Helly of Kalai and Meschulam and Karasev's topological centerpoint theorem. We further investigate the topological fractional Helly theorem from this overlap perspective, and show an overlap theorem for dense complexes (a continuous second selection lemma for tame maps).",
+   "score": 70,
+   "tier": "Strong",
+   "venue": "Israel J. Math / DCG / Combinatorica level",
+   "reason": "A Helly-type theorem in the overlap (selection-lemma) spirit that unifies topological colorful Helly and Karasev's centerpoint theorem, with a continuous second selection lemma.",
+   "abs": "https://arxiv.org/abs/2609.10023",
+   "pdf": "https://arxiv.org/pdf/2609.10023",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 6
+  },
+  {
+   "id": "2609.10516",
+   "type": "cross",
+   "title": "Subexponential Approximation of the Permanent in Deterministic Polynomial Time",
+   "authors": [
+    "Sergei Kudria",
+    "Jason Luo",
+    "Mahbod Majid"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "44 pages",
+   "abstract": "We give the first deterministic polynomial time algorithm that approximates the permanent of arbitrary nonnegative rational matrices within a subexponential factor. For a matrix of order $n$, the approximation factor is \\[ \\exp\\!\\left(O\\!\\left(\\frac{n(\\log\\log n)^2}{\\log n}\\right)\\right)=\\exp(o(n)). \\] All previously known deterministic polynomial time guarantees for unrestricted inputs had approximation factors $\\exp(Ω(n))$.\n Our proof uses convex optimization to tighten an upper bound on the permanent. The bound is based on weighted sums over all matchings in a bipartite graph representing the matrix, and correlations between unmatched vertices control its error. We approximate these sums deterministically using correlation decay and a bound on the effect of vertex deletion.",
+   "score": 70,
+   "tier": "Strong",
+   "venue": "STOC/FOCS; Combinatorica level",
+   "reason": "First deterministic polynomial-time exp(o(n))-approximation of the permanent of nonnegative matrices, breaking the long-standing exponential barrier via correlation decay over matchings.",
+   "abs": "https://arxiv.org/abs/2609.10516",
+   "pdf": "https://arxiv.org/pdf/2609.10516",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 7
+  },
+  {
+   "id": "2609.09355",
+   "type": "new",
+   "title": "An 18-colour bound for locally irregular decompositions",
+   "authors": [
+    "Carla Negri Lintzmayer",
+    "Guilherme Oliveira Mota",
+    "Maycon Sambinelli",
+    "Vinicius Fernandes dos Santos"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is locally irregular if adjacent vertices have distinct degrees. A graph G is decomposable if its edge set can be decomposed into locally irregular graphs, and its locally irregular chromatic index lir(G) is the least number of graphs in such a decomposition. We prove that lir(G) <= 18 for every decomposable graph G, improving the previous bound of 220.",
+   "score": 69,
+   "tier": "Solid",
+   "venue": "JGT / EJC level",
+   "reason": "Cuts the bound on the locally irregular chromatic index of decomposable graphs from 220 to 18, a large step toward the conjectured value 3.",
+   "abs": "https://arxiv.org/abs/2609.09355",
+   "pdf": "https://arxiv.org/pdf/2609.09355",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 8
+  },
+  {
+   "id": "2609.10003",
+   "type": "new",
+   "title": "An Improved Upper Bound for the Turán Number of the Hexagon",
+   "authors": [
+    "Sandip Das",
+    "Sk Samim Islam",
+    "Aashirwad Mohapatra",
+    "Saumya Sen"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "For a graph $F$, the Turán number $\\operatorname{ex}(n,F)$ is the maximum number of edges in an $n$-vertex graph containing no copy of $F$. Determining the Turán numbers of even cycles is a central problem in extremal graph theory and remains open in general. For $C_6$, the best previous upper bound was due to Füredi, Naor, and Verstraëte [Advances in Mathematics, 2006], who proved that, for sufficiently large positive integer $n$, $$ \\operatorname{ex}(n,C_6) \\leq λn^{4/3}+O(n)<0.6272 n^{4/3}, $$ where $λ$ is the real root of $16λ^3-4λ^2+λ-3=0$. We improve this bound by showing that, for sufficiently large positive integer $n$, $$ \\operatorname{ex}(n,C_6) \\leq αn^{4/3}+O(n)<0.6144 n^{4/3}, $$ where $α$ is the unique real root of $4 α^{3} (3/2)^{1-1/(2α)} =1$ in the interval $(1/2,2/3)$.",
+   "score": 68,
+   "tier": "Solid",
+   "venue": "EJC / JCTB level",
+   "reason": "Improves the Füredi–Naor–Verstraëte constant for ex(n,C_6) from 0.6272 to 0.6144 n^{4/3} in a short argument on a central even-cycle problem.",
+   "abs": "https://arxiv.org/abs/2609.10003",
+   "pdf": "https://arxiv.org/pdf/2609.10003",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 9
+  },
+  {
+   "id": "2609.10330",
+   "type": "new",
+   "title": "The VC-dimension of strongly regular graphs",
+   "authors": [
+    "Isabel Byrne",
+    "John Byrne",
+    "Sebastian M. Cioabă"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages, 6 figures",
+   "abstract": "A graph $G$ is $n$-existentially closed or $n$-e.c. if, for all subsets $S\\subseteq V(G)$ with $|S|=n$ and for all partitions $S=A\\sqcup B$, there exists a vertex in $V(G)\\setminus S$ adjacent to all vertices in $A$ and no vertices in $B$. We study the minimum number of edges $m(v,n)$ of a $v$-vertex $n$-e.c. graph, and show that $m(v,2)=3v+O(1)$ while $m(v,n)=Θ(v\\log v)$ for fixed $n\\ge 3$. The latter result uses a connection to binary covering arrays.\n A related parameter is the VC-dimension of $G$, defined as the size of the largest subset of vertices shattered by the neighborhoods of vertices in $G$. We initiate systematic study of the VC-dimensions of strongly regular graphs (SRGs). We characterize the sufficiently large SRGs with VC-dimension 2. Furthermore, we determine the VC-dimension of sufficiently large Latin square graphs and of all SRGs of order at most 28, and we show that the SRGs with a given integer as smallest eigenvalue have bounded VC-dimension.",
+   "msc": "05C35",
+   "score": 60,
+   "tier": "Solid",
+   "venue": "EJC / JCTA level",
+   "reason": "Θ(v log v) edges for n-e.c. graphs and a systematic study of the VC-dimension of strongly regular graphs, including all SRGs on at most 28 vertices.",
+   "abs": "https://arxiv.org/abs/2609.10330",
+   "pdf": "https://arxiv.org/pdf/2609.10330",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 10
+  },
+  {
+   "id": "2609.09935",
+   "type": "new",
+   "title": "Oriented paths with two blocks in bipartite oriented graphs",
+   "authors": [
+    "Bin Chen",
+    "Meishuang Chen",
+    "Xinmin Hou",
+    "Xinyu Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Stein conjectured that for any integer $k\\geq 2$, every oriented graph with minimum semidegree greater than $k/2$ contains every orientation of a path with $k$ edges. Recently, Chen, Hou and Zhou proved this conjecture to be true for any oriented path with two blocks, where a block of an oriented path is a maximal directed subpath within it. In this paper, we prove that every bipartite oriented graph with minimum semidegree at least $3k/8+2$ contains every oriented path with two blocks of length $k$ for $k\\ge 2$. Moreover, in contrast to the general oriented setting, we highlight that the minimum semidegree threshold in the bipartite setting is closely related to the number of blocks.",
+   "score": 59,
+   "tier": "Specialized",
+   "venue": "EJC / EuJC level",
+   "reason": "Semidegree threshold 3k/8+2 for two-block oriented paths in bipartite oriented graphs, a bipartite counterpart of the Stein conjecture results.",
+   "abs": "https://arxiv.org/abs/2609.09935",
+   "pdf": "https://arxiv.org/pdf/2609.09935",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 11
+  },
+  {
+   "id": "2609.09621",
+   "type": "new",
+   "title": "Extending Symmetric Layer-Rainbow Latin Cubes",
+   "authors": [
+    "Amin Bahmanian"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "An $n\\times n\\times n$ array on $n^2$ symbols is a layer-rainbow Latin cube if every layer contains every symbol exactly once. We call it symmetric if $L_{ij\\ell}=L_{j\\ell i}=L_{\\ell ij}$ for distinct $i,j,\\ell$ and $L_{iij}=L_{jji}$, $L_{iji}=L_{jij}$, $L_{ijj}=L_{jii}$ for distinct $i,j$. We determine exactly when a symmetric layer-rainbow Latin cube of order $m$ embeds in one of order $n$, giving a three-dimensional analogue of Cruse's embedding theorem. Call a positive integer admissible if it is congruent to $0$ or $2$ modulo $3$, with $1$ admissible and $3$ excluded. For $n>m$, an embedding exists if and only if $m,n$ are admissible, $(m,n)\\ne(2,5)$, and \\[ \\begin{cases} n\\geq2m,&n-m\\not\\equiv1\\pmod3,\\\\[1mm] \\displaystyle n\\geq m+\\frac{\\sqrt{48m^2+1}-1}{6},&n-m\\equiv1\\pmod3. \\end{cases} \\] Via the equivalent one-factorization problem for a non-uniform hypergraph, fair detachment reduces the proof to an exact integer allocation. We also determine the structure forced at both sharp boundaries and obtain infinitely many equality cases. At order eight, we construct a symmetric layer-rainbow Latin cube admitting the natural diagonal action of $\\operatorname{PSL}(2,7)$, whose induced action on the $64$ symbols has orbit sizes $1,7,28,28$.",
+   "msc": "05B15, 05C70, 05C65, 05C15",
+   "score": 58,
+   "tier": "Specialized",
+   "venue": "JCTA / JCD level",
+   "reason": "An exact embedding theorem for symmetric layer-rainbow Latin cubes, a three-dimensional Cruse theorem with sharp boundary cases.",
+   "abs": "https://arxiv.org/abs/2609.09621",
+   "pdf": "https://arxiv.org/pdf/2609.09621",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 12
+  },
+  {
+   "id": "2609.09179",
+   "type": "cross",
+   "title": "A quaternionic construction behind $841$-point kissing arrangement in ${\\mathbb R}^{12}$",
+   "authors": [
+    "Rustem Takhanov"
+   ],
+   "categories": [
+    "math.RA",
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "math.RA",
+   "comments": "",
+   "abstract": "Recently, a new record kissing arrangement of $841$ points in $\\mathbb R^{12}$ was obtained numerically by optimization (Takhanov-Assylbekov-Yun, 2026). The configuration was released as a coordinate file, without a mathematical description of its structure. The purpose of this paper is to provide such a description. The key observation is that the geometry becomes transparent once we regard $\\mathbb R^{12}\\cong \\mathbb H^3$ as the Cartesian product of three copies of the quaternion algebra.\n We first introduce a new $840$-point kissing arrangement with a certain quaternionic structure. It consists of three mutually orthogonal regular $24$-cells, supported on the three quaternionic coordinate factors $\\mathbb H\\times\\{0\\}\\times\\{0\\}$, $\\{0\\}\\times\\mathbb H\\times\\{0\\}$, $\\{0\\}\\times\\{0\\}\\times\\mathbb H$, together with two $384$-point families obtained by lifting affine sets of the form $$\\{(u,v,w)\\in (\\mathbb F_2^2)^3\\mid u+v+w=η\\},$$ to quaternionic triples (whose components belong to the binary octahedral group $2O$) and then applying suitable component-wise rotations and weightings.\n A characteristic feature of this construction is a pronounced asymmetry among the three quaternionic factors. For the $816$ vectors obtained after removing the third $24$-cell, most of the squared norm is concentrated in the first two quaternionic coordinates, while the third coordinate carries systematically less mass. Thus, the third four-dimensional factor contains more available space than the first two.\n We then show that this $840$-point configuration provides a natural structural model for the numerical $841$-point record.\n Finally, we introduce a notion of the general quaternionic construction in dimensions divisible by $4$, and check that record kissing arrangements in ${\\mathbb R}^{4k}$, $k\\leq 5$, admit a quaternionic construction.",
+   "score": 58,
+   "tier": "Specialized",
+   "venue": "DCG / Experimental Math level",
+   "reason": "Gives the algebraic (quaternionic) structure behind the new 841-point kissing record in dimension 12, a famous problem, though the record itself came from numerics.",
+   "abs": "https://arxiv.org/abs/2609.09179",
+   "pdf": "https://arxiv.org/pdf/2609.09179",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 13
+  },
+  {
+   "id": "2609.09873",
+   "type": "new",
+   "title": "Boundedness and Separation Between Induced and Non-Induced Covering Numbers",
+   "authors": [
+    "Miriam Goetze",
+    "Yidi Zang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "There are four covering numbers $\\mathrm{c}_g^{\\mathcal{G}}(H),\\mathrm{c}_u^{\\mathcal{G}}(H),\\mathrm{c}_l^{\\mathcal{G}}(H),\\mathrm{c}_f^{\\mathcal{G}}(H)$, each of which measures in a slightly different way how well the edges of a graph $H$ (called a host) can be covered with graphs of a class $\\mathcal{G}$ (called a guest class). If we require the graphs of $\\mathcal{G}$ to correspond to induced subgraphs of $H$, we obtain an induced variant $\\mathrm{ic}_x^{\\mathcal{G}}$ for each covering number $\\mathrm{c}_x^{\\mathcal{G}}$ which satisfies $\\mathrm{c}_x^{\\mathcal{G}}(H) \\leq \\mathrm{ic}_x^{\\mathcal{G}}(H)$ for every graph $H$. Yet, in general $\\mathrm{ic}_x^{\\mathcal{G}}$ cannot be bounded in terms of $\\mathrm{c}_x^{\\mathcal{G}}$. If there exists for a guest class $\\mathcal{G}$ and a host class $\\mathcal{H}$ a function $f$ such that $\\mathrm{ic}_x^{\\mathcal{G}}(H) \\leq f(\\mathrm{c}_x^{\\mathcal{G}}(H))$ for every graph $H \\in \\mathcal{H}$, we call $f$ a binding function.\n Within this work, we study for which structural properties of a guest class $\\mathcal{G}$ and a host class $\\mathcal{H}$ such binding functions exist. We consider guest classes $\\mathcal{G}$ that are monotone, hereditary, component-closed or neither, and have bounded maximum average degree, bounded chromatic number or neither. The host classes $\\mathcal{H}$ we consider have bounded treewidth, exclude some minor, have bounded maximum average degree, bounded chromatic number, or none of these properties. For $219$ out of the $240$ possible $3$-tuples of properties for $\\mathcal{G}$ and $\\mathcal{H}$ and covering numbers we either provide a binding function or an example where no such function exists. In particular, we show that such binding functions always exist for hereditary guest classes $\\mathcal{G}$ of bounded maximum average degree for three of the four covering numbers, but may not for the fourth kind.",
+   "score": 56,
+   "tier": "Specialized",
+   "venue": "EJC / EuJC level",
+   "reason": "Near-complete classification (219 of 240 cases) of when induced covering numbers are bounded in terms of their non-induced counterparts, for host classes such as bounded treewidth or excluded minors.",
+   "abs": "https://arxiv.org/abs/2609.09873",
+   "pdf": "https://arxiv.org/pdf/2609.09873",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 14
+  },
+  {
+   "id": "2609.10358",
+   "type": "cross",
+   "title": "Periodic ASEP and random walks on affine Hecke Algebra",
+   "authors": [
+    "Alexey Bufetov",
+    "Nimisha Pahuja"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "16 pages",
+   "abstract": "We study the large time behavior of a periodic ASEP with fixed period started from the step initial condition. We establish the limit shape theorem and the asymptotic distribution of a single second class particle. Our single-species results extend the previous results of Lam and Ayyer-Linusson about periodic TASEP to the ASEP case. These results can also be interpreted as describing the limit behavior of a random walk on affine Hecke algebra.",
+   "msc": "60K35, 20C08",
+   "score": 56,
+   "tier": "Specialized",
+   "venue": "EJP / AIHP level",
+   "reason": "Limit shape and second-class-particle asymptotics for periodic ASEP, extending Lam and Ayyer–Linusson from TASEP; interpretable via affine Hecke random walks.",
+   "abs": "https://arxiv.org/abs/2609.10358",
+   "pdf": "https://arxiv.org/pdf/2609.10358",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 15
+  },
+  {
+   "id": "2609.09508",
+   "type": "new",
+   "title": "A lattice path model for the volume of the Monge polytope",
+   "authors": [
+    "William Q. Erickson",
+    "Nicholas B. Jones"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "Monge matrices arise throughout combinatorial optimization and algorithm design; the Monge polytope $\\mathcal{M}_{pq}$ is the set of $p \\times q$ Monge matrices lying inside the standard simplex on the set of matrix coordinates. We find a Stanley decomposition of the associated affine semigroup, and use it to obtain a volume formula for $\\mathcal{M}_{pq}$ expressed as a sum over \"Z-avoiding\" Delannoy paths in a $p \\times q$ grid. An efficient dynamic-programming implementation of this formula computes the volume in dimensions far beyond the reach of general-purpose exact-volume algorithms (e.g., the volume of $\\mathcal{M}_{20,20}$, which has dimension 399, is computed in a fraction of a second). As a corollary of our Stanley decomposition, we also obtain a combinatorial closed form for the Ehrhart series of $\\mathcal{M}_{pq}$.",
+   "msc": "52B12, 13F65, 05A15",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "Annals of Combinatorics / DCG level",
+   "reason": "Stanley decomposition giving a Delannoy-path volume formula and Ehrhart series for the Monge polytope, computable far beyond generic volume algorithms.",
+   "abs": "https://arxiv.org/abs/2609.09508",
+   "pdf": "https://arxiv.org/pdf/2609.09508",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 16
+  },
+  {
+   "id": "2609.09563",
+   "type": "new",
+   "title": "Isomorphisms of abelian Cayley graphs with their natural edge-colouring",
+   "authors": [
+    "Shirin Alimirzaei",
+    "Dave Witte Morris"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "We prove that if φ is an isomorphism between two connected Cayley graphs of abelian groups, and φ respects the natural edge-colourings of the Cayley graphs, then φ is the composition of a group isomorphism and a colour-preserving graph automorphism. This implies that if every colour-preserving automorphism of a connected abelian Cayley graph Cay(G;S) is an affine map, then the same is true for every colour-permuting automorphism. We also show that this property holds if and only if the subgroup generated by { s ∈ S ∣ 2s ≠ c } ∪ {c} has index ≤ 2 for every element c of order 2 in G.",
+   "msc": "05C25, 05C60",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "Ars Math. Contemp. / JGT level",
+   "reason": "Colour-respecting isomorphisms of abelian Cayley graphs factor through group isomorphisms, with an exact characterization of when colour-permuting automorphisms are affine.",
+   "abs": "https://arxiv.org/abs/2609.09563",
+   "pdf": "https://arxiv.org/pdf/2609.09563",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 17
+  },
+  {
+   "id": "2609.09653",
+   "type": "cross",
+   "title": "The three Kanade-Russell identities modulo nine",
+   "authors": [
+    "Yuma Mizuno"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "12 pages, v2: Added a reference to arXiv:2609.08816 and some details to the final section",
+   "abstract": "We prove the three symmetric Kanade-Russell identities modulo nine.",
+   "msc": "11P84, 33D15, 11F03",
+   "score": 55,
+   "tier": "Specialized",
+   "venue": "IMRN / Ramanujan J. level",
+   "reason": "Proves the three symmetric Kanade–Russell partition identities modulo nine, conjectured identities that had resisted earlier approaches.",
+   "abs": "https://arxiv.org/abs/2609.09653",
+   "pdf": "https://arxiv.org/pdf/2609.09653",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 18
+  },
+  {
+   "id": "2609.10284",
+   "type": "new",
+   "title": "Jack Content Operators and the Deformed ${\\mathcal W}_{1+\\infty}$ Algebra",
+   "authors": [
+    "Jean-Yves Thibon"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Frenkel and Wang obtained a representation of the Virasoro algebra by commuting Goulden's cut-and-join operator with the Heisenberg generators. A vertex-operator construction by Lascoux and the author extends this representation to $\\mathcal W_{1+\\infty}$ by means of differential operators whose eigenvalues are the power sums of the contents of a Young diagram. We develop a Jack deformation in the spherical degenerate double affine Hecke algebra and its stable limit. Starting from the Heckman--Polychronakos integrals, we isolate operators whose eigenvalues are the power sums of the $α$-contents. Because the Goulden--Jackson product is defined in the convention dual to the usual Calogero--Sutherland Hamiltonians, the multiplication operators $Δ_μ(α)$ are obtained by taking Hall adjoints. This gives conceptual derivations of the Jack cut-and-join operator and of the stable $3$-cycle operator. A normal-ordering construction due to Sergeev and Veselov makes the latter calculation explicit and suggests an integral form over $\\mathbb Z[α]$. The commutators of the cut-and-join operator contain one half of the usual Feigin--Fuchs realization, but this Virasoro completion is not the deformation of the Frenkel--Wang construction. The latter takes place in the deformed $\\mathcal W_{1+\\infty}$ algebra $\\mathbf{SH}^c$, equivalently in the affine Yangian of $\\mathfrak{gl}_1$: in our normalization its first nontrivial Cartan mode is $ψ_3=3Δ_2(α)+2(α-1)E$, and its commutators with the first raising and lowering modes recursively generate the remaining currents. At $α=1$ these relations specialize to the central-charge-one $\\mathcal W_{1+\\infty}$ representation used by Lascoux and the author.",
+   "msc": "05E05",
+   "score": 54,
+   "tier": "Specialized",
+   "venue": "Algebraic Combinatorics / JCTA level",
+   "reason": "Jack-deformed content operators tying Goulden–Jackson cut-and-join operators to the deformed W_{1+∞} algebra and the affine Yangian.",
+   "abs": "https://arxiv.org/abs/2609.10284",
+   "pdf": "https://arxiv.org/pdf/2609.10284",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 19
+  },
+  {
+   "id": "2609.10234",
+   "type": "new",
+   "title": "On Two Conjectures Related to the Boros-Moll Sequences",
+   "authors": [
+    "Heshan Aravinda"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Boros-Moll sequences $\\{d_i(m)\\}_{0\\leq i\\leq m}$ are defined as $$d_i(m)=2^{-2m}\\sum_{k=i}^m 2^k \\binom{2m-2k}{m-k}\\binom{m+k}{k}\\binom{k}{i}.$$ Consider the ratio sequence $$u_i(m)=\\frac{d_{i-1}(m)d_{i+1}(m)}{d_i(m)^2}.$$ Chen and Gu conjectured that $\\{u_i(m)\\}_{2\\leq i \\leq m-2}$ is both reverse ultra log-concave and log-concave. In this paper, we prove the reverse ultra log-concavity conjecture using bounds of Chen-Gu and Zhao, and prove the log-concavity conjecture asymptotically by showing that $\\{u_i(m)\\}_{2\\leq i \\leq m-2}$ is strictly log-concave for all sufficiently large $m$. The key ingredient in the latter result is a recurrence of Kauers and Paule, which we interpret as a nonlinear discrete dynamical system through a backward map. We construct an approximation to the ratio sequence using its stable limiting fixed point and combine localization and contraction arguments with finite-difference estimates and separate interior and edge analyses to obtain the desired strict log-concavity.",
+   "msc": "05A20, 05A10",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "Adv. Appl. Math / EJC level",
+   "reason": "Proves the Chen–Gu reverse ultra log-concavity conjecture for Boros–Moll ratio sequences and the log-concavity conjecture for large m via a dynamical-systems reading of the recurrence.",
+   "abs": "https://arxiv.org/abs/2609.10234",
+   "pdf": "https://arxiv.org/pdf/2609.10234",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 20
+  },
+  {
+   "id": "2609.05810",
+   "type": "cross",
+   "title": "Primes with Restricted-Digit Differences",
+   "authors": [
+    "Rui Han",
+    "Yaghoub Rahimi",
+    "Fan Yang"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "Fix a base $b\\ge2$ and a digit set $\\mathcal{D}\\subset\\{0,1,\\dots,b-1\\}$, and let $\\mathcal C_k$ be the set of integers in $[0,b^k)$ whose $k$ base-$b$ digits all lie in $\\mathcal D$. We study prime pairs and three-term arithmetic progressions in primes whose difference, or common difference, belongs to $\\mathcal C_k$. Under a natural digit non-resonance condition, we establish a localized Fourier criterion guaranteeing asymptotic formulae with explicit leading constants for both problems. Using a transfer-operator argument, we verify this criterion in explicit parameter ranges for several natural families of digit sets.",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "Mathematika / IMRN level",
+   "reason": "Asymptotics for prime pairs and three-term progressions with restricted-digit differences under a Fourier non-resonance criterion; analytic number theory with a combinatorial flavour.",
+   "abs": "https://arxiv.org/abs/2609.05810",
+   "pdf": "https://arxiv.org/pdf/2609.05810",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 21
+  },
+  {
+   "id": "2609.10526",
+   "type": "cross",
+   "title": "Irreducibility of truncations of the Catalan generating function",
+   "authors": [
+    "Shin-ichiro Seki"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "6 pages",
+   "abstract": "We prove that, for every positive integer $n$, the polynomial $C_0+C_1x+\\cdots+C_nx^n$ is irreducible over $\\mathbb{Q}$, where $C_k$ denotes the $k$th Catalan number.",
+   "msc": "11R09, 11C08",
+   "score": 52,
+   "tier": "Specialized",
+   "venue": "JNT / Integers level",
+   "reason": "Clean irreducibility theorem for all truncations of the Catalan generating function, a natural statement with a short proof.",
+   "abs": "https://arxiv.org/abs/2609.10526",
+   "pdf": "https://arxiv.org/pdf/2609.10526",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 22
+  },
+  {
+   "id": "2609.09580",
+   "type": "new",
+   "title": "Composing group automorphisms with colour-preserving automorphisms of Cayley graphs",
+   "authors": [
+    "Dave Witte Morris"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "We show that if φ is a colour-permuting automorphism of a connected, finite Cayley graph, and the order of the Cayley graph is either odd or square-free, then φ is the composition of a group automorphism and a colour-preserving graph automorphism. Some analogous results are also established for isomorphisms between two different Cayley graphs.",
+   "msc": "05C25, 05C60",
+   "score": 50,
+   "tier": "Specialized",
+   "venue": "Ars Math. Contemp. level",
+   "reason": "Colour-permuting automorphisms of Cayley graphs of odd or square-free order factor as group automorphism times colour-preserving automorphism; a companion note.",
+   "abs": "https://arxiv.org/abs/2609.09580",
+   "pdf": "https://arxiv.org/pdf/2609.09580",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 23
+  },
+  {
+   "id": "2609.10403",
+   "type": "cross",
+   "title": "Hyperbolic distance matrix completion",
+   "authors": [
+    "Mihai Putinar",
+    "Prateek Kumar Vishwakarma"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO",
+    "math.RA",
+    "primary",
+    "secondary"
+   ],
+   "primary": "math.MG",
+   "comments": "62 pages, 9 figures",
+   "abstract": "A completion theory for hyperbolic distance data is developed at the interface of matrix analysis, graph theory, and hyperbolic geometry. Krein's characterization of the metric space embeddability in Lobachevsky space leads to a natural anchoring procedure that transforms the indefinite data into a positive semidefinite kernel. In analogy with positive semidefinite and Euclidean distance matrix completion, chordality of the specification graph is shown to be the necessary and sufficient condition for local Lorentz-Gram data to admit global completion. Existence is complemented by explicit constructions. For trees, we obtain geodesic-rectification and product-distance completions; for chordal graphs, the latter extends to matrix-valued transfers along clique-trees. The resulting canonical completion is characterized by sparsity of its inverse and by a maximum-absolute-determinant principle. Its metric distortion exhibits a sharp dichotomy governed by clique separator size. Applications to exact recovery from sparse hyperbolic measurements and to hierarchical and phylogenetic data are developed.",
+   "score": 50,
+   "tier": "Specialized",
+   "venue": "LAA / DCG level",
+   "reason": "A completion theory for hyperbolic distance matrices with chordality as the exact criterion, mirroring the Euclidean and PSD completion theorems.",
+   "abs": "https://arxiv.org/abs/2609.10403",
+   "pdf": "https://arxiv.org/pdf/2609.10403",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 24
+  },
+  {
+   "id": "2609.09342",
+   "type": "new",
+   "title": "Betweenness centers of graphs",
+   "authors": [
+    "Tomáš Madaras",
+    "Matúš Paralič"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The betweenness centrality of a vertex $v$ in a graph $G = (V,E)$ is the sum of the relative numbers of shortest paths of $G$ that pass through $v$. The vertices of $G$ which have the maximum (resp. minimum) betweenness induce the betweenness center (resp. betweenness periphery) of $G$. We study betweenness of graphs and their localization in graph blocks, presenting sufficient conditions for graphs (in terms of diameter or block sizes) to have those centers contained in a single block. Further, we show that each graph occurs as the subgraph induced by the betweenness center of some graph (as well as the subgraph induced by the betweenness periphery). For trees, we show, by an alternative proof, that their betweenness center is always contained in a path; in addition, we enumerate trees of order at most 20 according to the order of their betweenness centers.",
+   "msc": "05C09, 05C12",
+   "score": 48,
+   "tier": "Specialized",
+   "venue": "Discrete Math. / DAM level",
+   "reason": "Structural results on betweenness centers and peripheries of graphs, their localization in blocks, and enumeration for small trees.",
+   "abs": "https://arxiv.org/abs/2609.09342",
+   "pdf": "https://arxiv.org/pdf/2609.09342",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 25
+  },
+  {
+   "id": "2609.10437",
+   "type": "cross",
+   "title": "From Nilspace Theory to Simplicial Homotopy Theory",
+   "authors": [
+    "Noa Bihlmaier",
+    "Nick Ruoff"
+   ],
+   "categories": [
+    "math.DS",
+    "math.AT",
+    "math.CO"
+   ],
+   "primary": "math.DS",
+   "comments": "29 pages",
+   "abstract": "We construct a faithful functor from the category of cubespaces, arising in structured ergodic theory and nilspace theory, to the category of (condensed) simplicial sets. This functor translates the weak structure theorem of a nilspace to a Postnikov tower of the corresponding simplicial set. In particular, nilspaces are mapped to Kan complexes and the structure groups of the nilspace correspond to the simplicial homotopy groups of the Kan complex. The functor is constructed via pullback along a special cosimplicial cubical set, whose combinatorial properties may be of independent interest.",
+   "score": 47,
+   "tier": "Specialized",
+   "venue": "Algebraic & Geometric Topology level",
+   "reason": "A faithful functor from cubespaces to condensed simplicial sets translating the nilspace structure theorem into Postnikov towers.",
+   "abs": "https://arxiv.org/abs/2609.10437",
+   "pdf": "https://arxiv.org/pdf/2609.10437",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 26
+  },
+  {
+   "id": "2609.09514",
+   "type": "new",
+   "title": "Counting Lie ideals of niltriangular matrices",
+   "authors": [
+    "N. D. Khodyunya"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages, 1 figure",
+   "abstract": "We give a formula for the number of ideals of the Lie algebra of strictly lower triangular $n\\times n$ matrices over $\\mathbb F_q$. A contraction bijection transforms Gagnon's sum into a weighted enumeration of nonnesting partitions, with antichains of intervals chosen independently in each block. The block weights are the inversion polynomials for $321$-avoiding permutations. Combining the known Stieltjes continued fraction for these polynomials with the enumeration of nonnesting partitions by block sizes yields a formula involving $n-1$ coefficient extractions, valid for every prime power $q$.",
+   "msc": "17B30, 05A15, 05E16",
+   "score": 46,
+   "tier": "Specialized",
+   "venue": "EJC / Annals of Combinatorics level",
+   "reason": "Enumeration of Lie ideals of niltriangular matrices over F_q via nonnesting partitions and inversion polynomials of 321-avoiding permutations.",
+   "abs": "https://arxiv.org/abs/2609.09514",
+   "pdf": "https://arxiv.org/pdf/2609.09514",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 27
+  },
+  {
+   "id": "2609.09851",
+   "type": "new",
+   "title": "On the Vertices That Belong to All Minimum Identifying Codes",
+   "authors": [
+    "Ville Junnila",
+    "Tero Laihonen",
+    "Havu Miikonen"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Identifying codes in graphs have been widely studied since their introduction by Karpovsky, Chakrabarty and Levitin in 1998. In this paper, we consider the vertices that are in every minimum identifying code in a graph. There are two types of such vertices: always-forced vertices that belong to all identifying codes (minimum or not) and min-forced vertices that belong to all minimum identifying codes. A vertex is called proper-min-forced if it is min-forced but not always-forced. We show an upper bound 2n/3 for the number of such proper-min-forced vertices in a closed-twin-free graph of order n. Moreover, for integers n divisible by three, we construct an infinite family of graphs in which there are 2n/3-1 such vertices. In addition, we determine the maximum number of edges in a graph of even order such that the graph contains proper-min-forced vertices. We also show that the decision problem of determining whether a given vertex in a graph is proper-min-forced is co-NP-hard.",
+   "msc": "05C69, 05C42, 68Q15",
+   "score": 46,
+   "tier": "Specialized",
+   "venue": "Discrete Applied Math level",
+   "reason": "Bound 2n/3 on vertices forced into every minimum identifying code, with extremal constructions and co-NP-hardness.",
+   "abs": "https://arxiv.org/abs/2609.09851",
+   "pdf": "https://arxiv.org/pdf/2609.09851",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 28
+  },
+  {
+   "id": "2609.10309",
+   "type": "cross",
+   "title": "Quasi-modularity of symmetric quasi-shuffles",
+   "authors": [
+    "Killian Hong-Minh",
+    "Sergey Mozgovoy"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO",
+    "math.QA"
+   ],
+   "primary": "math.NT",
+   "comments": "15 pages",
+   "abstract": "We develop an algebraic framework for the quasi-modularity of symmetric multiple q-zeta values. We identify natural classes of symmetric quasi-shuffles whose q-zeta values exhaust the algebra of level-one quasi-modular forms, and further classes whose q-zeta values are quasi-modular forms of finite level. We also obtain explicit symmetrization formulas and relate symmetric quasi-shuffles to symmetric and quasisymmetric functions.",
+   "score": 46,
+   "tier": "Specialized",
+   "venue": "Ramanujan J. / JNT level",
+   "reason": "Algebraic framework for quasi-modularity of symmetric multiple q-zeta values with links to quasisymmetric functions.",
+   "abs": "https://arxiv.org/abs/2609.10309",
+   "pdf": "https://arxiv.org/pdf/2609.10309",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 29
+  },
+  {
+   "id": "2609.09688",
+   "type": "new",
+   "title": "Borsuk-Ulam type theorem for the orthogonal group and orthogonal four-partitions",
+   "authors": [
+    "Oleg R. Musin"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AT",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages",
+   "abstract": "Given a finite Borel measure $μ$ in $\\mathbb{R}^d$, when can one find $d$ mutually orthogonal hyperplanes such that \\emph{every pair} of them cuts $μ$ into four equal parts? Makeev [2] stated this result and outlined a proof strategy, but the key steps were left incomplete. We give the first complete proof.\n The key step is a Borsuk--Ulam-type theorem for the orthogonal group~$O(k)$: every continuous equivariant map from~$O(k)$ to a certain representation of the hyperoctahedral group~$B_k$ must vanish somewhere. We construct an explicit model map whose zero set consists of exactly one free $B_k$-orbit --- the set of all signed eigenbases of a fixed generic self-adjoint operator~$A$ --- verify nondegeneracy by an explicit derivative calculation, and conclude by the equivariant degree principle. The proof requires only linear algebra and elementary topology.\n The four-partition theorem follows immediately: the orthogonal hyperplanes are encoded as a frame in $O(d)$, and the equivariant map records the imbalance of $μ$ across each pair of hyperplanes. A zero of this map is the desired configuration. The result is a special case of a general zero theorem for Stiefel manifolds proved in [5] by different methods.",
+   "score": 44,
+   "tier": "Incremental",
+   "venue": "DCG (short) / Mathematika level",
+   "reason": "First complete proof of Makeev's orthogonal four-partition statement via an O(k) Borsuk–Ulam theorem; noted to be a special case of a known general result.",
+   "abs": "https://arxiv.org/abs/2609.09688",
+   "pdf": "https://arxiv.org/pdf/2609.09688",
+   "check": {
+    "status": "unchecked",
+    "note": "",
+    "pages": null
+   },
+   "rank": 30
+  }
+ ]
+}
