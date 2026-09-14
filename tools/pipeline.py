@@ -263,6 +263,217 @@ def cmd_listing(a):
             print(f"https://api.datacite.org/dois/10.48550/arxiv.{p['id']}")
 
 
+USER_AGENT = "remarxivable-bot/1.0 (+https://rsteiner-new.github.io/remarxivable/)"
+
+
+def http_get(url, timeout=90):
+    """GET url; returns (status, bytes). HTTP errors are returned, not raised; network errors raise."""
+    import urllib.request
+    import urllib.error
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/json;q=0.9,*/*;q=0.8"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.status, r.read()
+    except urllib.error.HTTPError as e:
+        return e.code, e.read()
+
+
+def html_text(fragment):
+    """Strip tags from an HTML fragment and unescape entities; whitespace collapsed."""
+    import html as _html
+    t = re.sub(r"<[^>]+>", "", fragment)
+    t = _html.unescape(t)
+    return clean_text(t)
+
+
+SECTION_RE = re.compile(r"<h3>\s*(New|Cross|Replacement)\s+submissions\s*\(showing\s+(\d+)\s+of\s+(\d+)\s+entries\)\s*</h3>", re.I)
+ENTRY_RE = re.compile(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", re.S)
+
+
+def parse_catchup_html(html):
+    """Parse an arXiv catchup page fetched with ?abs=True (titles, authors, comments, subjects and abstracts).
+    Returns {"heading", "counts": {"new": (shown, total), ...}, "entries": [normalised paper dicts], "empty": bool}."""
+    m = re.search(r"<h1>(.*?)</h1>", html, re.S)
+    heading = html_text(m.group(1)) if m else ""
+    empty = bool(re.search(r"No updates for", html))
+    counts, entries = {}, []
+    secs = list(SECTION_RE.finditer(html))
+    for i, sm in enumerate(secs):
+        kind = sm.group(1).lower()
+        counts[kind] = (int(sm.group(2)), int(sm.group(3)))
+        if kind == "replacement":
+            continue
+        end = secs[i + 1].start() if i + 1 < len(secs) else len(html)
+        block = html[sm.end():end]
+        for em in ENTRY_RE.finditer(block):
+            dt_, dd = em.group(1), em.group(2)
+            idm = re.search(r'href\s*=\s*"/abs/([^"]+)"', dt_)
+            pid = norm_id(idm.group(1)) if idm else None
+            if not pid:
+                continue
+
+            def field(cls):
+                fm = re.search(r"<div class='list-%s[^']*'>(.*?)</div>" % cls, dd, re.S)
+                return html_text(fm.group(1)) if fm else ""
+
+            title = field("title")
+            am = re.search(r"<div class='list-authors'>(.*?)</div>", dd, re.S)
+            authors = [html_text(x) for x in re.findall(r"<a [^>]*>(.*?)</a>", am.group(1), re.S)] if am else []
+            comments = field("comments")
+            subjects = field("subjects")
+            msc = field("msc-classes")
+            jref = field("journal-ref")
+            pm = re.search(r"<p class='mathjax'>(.*?)</p>", dd, re.S)
+            abstract = html_text(pm.group(1)) if pm else ""
+            cats = norm_cats(subjects)
+            xm = re.search(r"\(cross-list from ([^)]+)\)", dt_)
+            entries.append({
+                "id": pid,
+                "type": "cross" if kind == "cross" else "new",
+                "title": title,
+                "authors": authors,
+                "categories": cats,
+                "primary": (xm.group(1).strip() if xm else (cats[0] if cats else "math.CO")),
+                "comments": comments,
+                "abstract": abstract,
+                **({"msc": msc} if msc else {}),
+                **({"journal_ref": jref} if jref else {}),
+            })
+    return {"heading": heading, "counts": counts, "entries": entries, "empty": empty}
+
+
+def cmd_fetch(a):
+    """Fetch the day's math.CO catchup page (with abstracts) in ONE request and write papers.json directly.
+    Exit codes: 0 ok; 2 no listing that day (holiday); 3 transient HTTP problem (retry later);
+    4 parse problem; 5 the shell has no access to arxiv.org (use the WebFetch fallback)."""
+    url = f"https://arxiv.org/catchup/math.CO/{a.date}?abs=True"
+    html = None
+    if a.from_html and os.path.exists(a.from_html):
+        html = open(a.from_html, encoding="utf-8", errors="replace").read()
+        print(f"parsing saved page {a.from_html}")
+    else:
+        try:
+            status, body = http_get(url)
+        except Exception as e:  # network-level failure: this environment cannot reach arxiv.org at all
+            print(f"NETWORK ERROR fetching {url}: {e!r}")
+            print("NO NETWORK ACCESS from the shell - use the WebFetch fallback")
+            raise SystemExit(5)
+        if status in (401, 403, 407, 451):  # proxy or policy block: retrying will not help
+            print(f"HTTP {status} for {url} (blocked) - use the WebFetch fallback")
+            raise SystemExit(5)
+        if status != 200:  # 429, 5xx: transient, retry later
+            print(f"HTTP {status} for {url} (transient) - retry later")
+            raise SystemExit(3)
+        html = body.decode("utf-8", errors="replace")
+        if a.save_html:
+            os.makedirs(os.path.dirname(os.path.abspath(a.save_html)), exist_ok=True)
+            open(a.save_html, "w", encoding="utf-8").write(html)
+    parsed = parse_catchup_html(html)
+    print(f"heading: {parsed['heading']}")
+    if parsed["empty"] or not parsed["counts"]:
+        if parsed["empty"]:
+            print(f"NO LISTING for {a.date} (arXiv reports no updates for this day)")
+            raise SystemExit(2)
+        print("PARSE PROBLEM: no section headers found (page layout changed?)")
+        raise SystemExit(4)
+    c_new = parsed["counts"].get("new", (0, 0))
+    c_cross = parsed["counts"].get("cross", (0, 0))
+    print(f"page header: {c_new[1]} new, {c_cross[1]} cross-lists, {parsed['counts'].get('replacement', (0, 0))[1]} replacements")
+    papers, seen = [], set()
+    for p in parsed["entries"]:
+        if p["id"] in seen:
+            continue
+        seen.add(p["id"])
+        papers.append(p)
+    if not papers:
+        print(f"NO LISTING for {a.date} (zero new and cross entries)")
+        raise SystemExit(2)
+    out = {"date": a.date, "source": f"https://arxiv.org/catchup/math.CO/{a.date}", "papers": papers,
+           "listed_new": c_new[1], "listed_cross": c_cross[1], "heading": parsed["heading"],
+           "fetched_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
+    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    json.dump(out, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    n_new = sum(1 for p in papers if p["type"] == "new")
+    n_cross = len(papers) - n_new
+    missing = [p["id"] for p in papers if len(p["abstract"]) < 40]
+    no_title = [p["id"] for p in papers if not p["title"]]
+    print(f"wrote {a.out}: {len(papers)} papers ({n_new} new, {n_cross} cross-listed); {len(missing)} without abstract"
+          + (": " + " ".join(missing) if missing else ""))
+    if no_title:
+        print(f"WARNING: {len(no_title)} entries without a title: {' '.join(no_title)}")
+    if n_new != c_new[1] or n_cross != c_cross[1]:
+        print(f"WARNING: header counts ({c_new[1]} new, {c_cross[1]} cross) differ from parsed entries ({n_new} new, {n_cross} cross)")
+        if a.strict:
+            raise SystemExit(4)
+    if missing:
+        print("fill the missing abstracts with: python3 pipeline.py datacite --papers " + a.out)
+
+
+def cmd_datacite(a):
+    """Fetch abstracts still missing in papers.json from the DataCite API (JSON), in parallel threads."""
+    import concurrent.futures as cf
+    data = json.load(open(a.papers, encoding="utf-8"))
+    todo = [p for p in data["papers"] if len(p.get("abstract") or "") < 40]
+    if not todo:
+        print("nothing to fetch: every paper has an abstract")
+        return
+
+    def one(p):
+        url = f"https://api.datacite.org/dois/10.48550/arxiv.{p['id']}"
+        try:
+            status, body = http_get(url, timeout=60)
+        except Exception as e:
+            return p["id"], None, f"network {e!r}"
+        if status != 200:
+            return p["id"], None, f"HTTP {status}"
+        try:
+            attrs = json.loads(body.decode("utf-8", errors="replace"))["data"]["attributes"]
+        except Exception as e:
+            return p["id"], None, f"bad JSON {e!r}"
+        rec = {"abstract": "", "comments": "", "title": "", "authors": [], "subjects": []}
+        for d in attrs.get("descriptions") or []:
+            if d.get("descriptionType") == "Abstract" and not rec["abstract"]:
+                rec["abstract"] = d.get("description") or ""
+            elif d.get("descriptionType") == "Other" and not rec["comments"]:
+                rec["comments"] = d.get("description") or ""
+        titles = attrs.get("titles") or []
+        rec["title"] = (titles[0].get("title") if titles else "") or ""
+        rec["authors"] = [c.get("name") or "" for c in attrs.get("creators") or []]
+        rec["subjects"] = [s.get("subject") or "" for s in attrs.get("subjects") or []]
+        return p["id"], rec, None
+
+    filled, failed = 0, []
+    with cf.ThreadPoolExecutor(max_workers=a.workers) as ex:
+        for pid, rec, err in ex.map(one, todo):
+            p = next(x for x in data["papers"] if x["id"] == pid)
+            if rec is None:
+                failed.append(f"{pid} ({err})")
+                continue
+            abs_ = clean_text(rec["abstract"])
+            if len(abs_) >= 40:
+                p["abstract"] = abs_
+                filled += 1
+            if not p["title"] and rec["title"]:
+                p["title"] = clean_text(rec["title"])
+            if not p["authors"] and rec["authors"]:
+                p["authors"] = norm_authors(rec["authors"], flip=True)
+            if not p["comments"] and rec["comments"]:
+                p["comments"] = clean_text(rec["comments"])
+            if not p["categories"] and rec["subjects"]:
+                p["categories"] = norm_cats(rec["subjects"])
+                p["primary"] = p["categories"][0] if p["categories"] else p["primary"]
+            msc = norm_msc(rec["subjects"])
+            if msc and not p.get("msc"):
+                p["msc"] = msc
+    json.dump(data, open(a.papers, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    still = [p["id"] for p in data["papers"] if len(p.get("abstract") or "") < 40]
+    print(f"filled {filled} abstracts from DataCite; {len(failed)} failed: {' '.join(failed) if failed else 'none'}")
+    print(f"{len(still)} still missing: {' '.join(still) if still else 'none'}")
+    if failed and filled == 0 and all("network" in f or "HTTP 403" in f or "HTTP 407" in f for f in failed):
+        print("NO NETWORK ACCESS from the shell - fetch the abstracts with WebFetch instead")
+        raise SystemExit(5)
+
+
 def iter_records(absdir):
     """Yield (id, record) from every JSON file in absdir. A file may hold one record or a
     list of records; the id comes from the record ('id'/'doi'/'url') or else from the file name."""
@@ -466,6 +677,34 @@ def cmd_build(a):
         print(f"  survey (interest {i}): {p['id']}  {p['title'][:70]}")
 
 
+def cmd_compact(a):
+    """Write a compact plain-text view of papers.json for reading before scoring:
+    [i] id (type; categories) title / C: comments / A: abstract."""
+    data = json.load(open(a.papers, encoding="utf-8"))
+    lines = []
+    for i, p in enumerate(data["papers"], 1):
+        lines.append(f"[{i}] {p['id']} ({p['type']}; {' '.join(p.get('categories') or [])}) {p['title']}")
+        if p.get("comments"):
+            lines.append(f"  C: {p['comments']}")
+        lines.append(f"  A: {p.get('abstract') or '(no abstract available)'}")
+        lines.append("")
+    open(a.out, "w", encoding="utf-8").write("\n".join(lines))
+    print(f"wrote {a.out}: {len(data['papers'])} papers, {len(lines)} lines, {sum(len(l) for l in lines)} characters")
+
+
+def cmd_chunks(a):
+    """Print the paper ids in N roughly equal chunks (one line per chunk), for parallel abstract fetching."""
+    data = json.load(open(a.papers, encoding="utf-8"))
+    ids = [p["id"] for p in data["papers"] if len(p.get("abstract") or "") < 40] if a.missing_only else [p["id"] for p in data["papers"]]
+    n = max(1, min(a.n, len(ids)))
+    for k in range(n):
+        chunk = ids[k::n]
+        if chunk:
+            print(f"CHUNK{k + 1} ({len(chunk)}): " + " ".join(chunk))
+    if not ids:
+        print("no ids")
+
+
 def cmd_candidates(a):
     """List the papers whose full text should be checked, in priority order: everything that would be
     shown (top N by abstract score) plus a margin of alternates, skipping ids already checked."""
@@ -584,6 +823,14 @@ def main():
     s.add_argument("--expect-new", type=int, default=None, help="count from the 'New submissions (showing X of Y)' header")
     s.add_argument("--expect-cross", type=int, default=None, help="count from the 'Cross submissions (showing X of Y)' header")
     s.set_defaults(fn=cmd_listing)
+    s = sub.add_parser("fetch", help="one-request download of the day's catchup page with abstracts -> papers.json")
+    s.add_argument("--date", required=True); s.add_argument("--out", required=True)
+    s.add_argument("--save-html", default=None, help="keep the downloaded page here (for debugging)")
+    s.add_argument("--from-html", default=None, help="parse this saved page instead of downloading")
+    s.add_argument("--strict", action="store_true", help="exit 4 when header counts and parsed entries differ")
+    s.set_defaults(fn=cmd_fetch)
+    s = sub.add_parser("datacite", help="fill abstracts still missing in papers.json from api.datacite.org")
+    s.add_argument("--papers", required=True); s.add_argument("--workers", type=int, default=6); s.set_defaults(fn=cmd_datacite)
     s = sub.add_parser("merge"); s.add_argument("--papers", required=True); s.add_argument("--absdir", required=True); s.set_defaults(fn=cmd_merge)
     s = sub.add_parser("build"); s.add_argument("--papers", required=True); s.add_argument("--scores", required=True)
     s.add_argument("--checks", default=None, help="JSON mapping id -> {status: ok|concerns|gap|unchecked, note, pages}")
@@ -598,6 +845,9 @@ def main():
     s.add_argument("--checks", default=None); s.add_argument("--top", type=int, default=TOP_DEFAULT); s.add_argument("--margin", type=int, default=6)
     s.set_defaults(fn=cmd_candidates)
     s = sub.add_parser("check"); s.add_argument("--file", required=True); s.set_defaults(fn=cmd_check)
+    s = sub.add_parser("compact"); s.add_argument("--papers", required=True); s.add_argument("--out", required=True); s.set_defaults(fn=cmd_compact)
+    s = sub.add_parser("chunks"); s.add_argument("--papers", required=True); s.add_argument("--n", type=int, default=6)
+    s.add_argument("--missing-only", action="store_true", help="only ids that still lack an abstract"); s.set_defaults(fn=cmd_chunks)
     s = sub.add_parser("wrap"); s.add_argument("--in", dest="inp", required=True); s.add_argument("--out", required=True); s.set_defaults(fn=cmd_wrap)
     s = sub.add_parser("github-push"); s.add_argument("--repo", required=True, help="owner/name")
     s.add_argument("--branch", default="main"); s.add_argument("--token-env", default="GITHUB_TOKEN"); s.add_argument("--token", default="")
