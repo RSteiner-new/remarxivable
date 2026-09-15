@@ -1,0 +1,550 @@
+{
+ "date": "2026-09-15",
+ "generated_at": "2026-09-15T17:49:58Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-15",
+ "screened": 121,
+ "screened_new": 79,
+ "screened_cross": 42,
+ "scored": 121,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.13608",
+   "type": "new",
+   "title": "A lattice family with kissing constant $τ(\\mathcal{L}_n) \\ge e^{\\sqrt{n}}$",
+   "authors": [
+    "Thijs Laarhoven"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT",
+    "math.MG",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages",
+   "abstract": "For prime dimensions $n \\ge 5$, we define integer lattices $\\mathcal{L}_n$ with kissing constant \\begin{align} \\tau(\\mathcal{L}_n) \\ge \\left(\\frac{1}{\\sqrt{2 \\pi e}} + o(1)\\right) n^{3/4} e^{\\sqrt n}. \\notag \\end{align} This improves on the growth rate $e^{\\Theta((\\log n)^2)}$ of the Barnes-Wall lattices, which provided the previously best known asymptotic lower bound. The construction is an extension of a previous construction by Bennett-Peikert based on Reed-Solomon codes.",
+   "abs": "https://arxiv.org/abs/2609.13608",
+   "pdf": "https://arxiv.org/pdf/2609.13608"
+  },
+  {
+   "id": "2609.15071",
+   "type": "new",
+   "title": "The Komlós conjecture for complex discrepancy",
+   "authors": [
+    "Nestor Guillen",
+    "Vladimir A. Kobzar"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.CA",
+    "math.CV"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Komlós conjecture is a classic problem in discrepancy theory; it asks whether an absolute constant $K$ exists such that given any $n$ vectors $a_1,\\ldots,a_n$ inside the $m$-dimensional Euclidean ball, regardless of how large $m,n$ are, there is always a selection of signs $\\varepsilon_1,\\ldots,\\varepsilon_n$ guaranteeing $$\\|\\varepsilon_1a_1+\\ldots+\\varepsilon_na_n\\|_\\infty \\leq K.$$ We show that if the $\\varepsilon_i$'s are allowed to take not just the values of $\\pm 1$ but any unit modulus complex number, which we refer to as complex discrepancy, then the above inequality holds for a finite, explicit constant $K_{\\mathbb{C}}$. Here, the $\\ell^\\infty$ norm of the resulting vector in $\\mathbb{C}^m$ is the largest modulus of its entries, and thus the complex discrepancy of real vectors is equivalent to their rank-$2$ vector discrepancy. Therefore, our result resolves the Komlós problem for Gaussian discrepancy -- a discrepancy measure introduced by Chewi, Gerber, Rigollet and Turner. Our paper builds upon the recent work of Bansal and Jiang on the Beck-Fiala and Komlós conjectures, which we approach from the formalism of Burkholder and the Bellman function method from probability and harmonic analysis. Our work was in part motivated by the realization that the complex discrepancy of the columns of any unitary matrix is equal to 1, a fact that follows from a straightforward calculation based on Idel and Wolf's generalization of the Sinkhorn normal form for unitary matrices.",
+   "abs": "https://arxiv.org/abs/2609.15071",
+   "pdf": "https://arxiv.org/pdf/2609.15071"
+  },
+  {
+   "id": "2609.15270",
+   "type": "new",
+   "title": "Point sets determining few angles are almost contained in a line or circle",
+   "authors": [
+    "Krishnendu Bhowmick",
+    "Oliver Roche-Newton",
+    "Audie Warren"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a structural theorem for point sets in $\\mathbb R^2$ which determine few pinned angles. More precisely, we prove the existence of an absolute constant $c>0$ such that if $n$ is sufficiently large and $P$ is a set of $n$ points then there exists a point $q \\in P$ which determines at least $n^{1+c}$ distinct angles to other pairs of points of $P$, provided that $P$ is not of one of the following exceptional forms: all but at most one of the points of $P$ lie on a line; all but two points of $P$ lie on a line, and the two exceptional points are symmetric with respect to the line; all the points of $P$ lie on a circle; all but one of the points of $P$ lie on a circle, and the exceptional point is the centre of the circle.\nAs a consequence, we answer a question of Corrádi, Erdős and Hajnal by showing that if $n$ is sufficiently large and $P \\subseteq \\mathbb R^2$ has cardinality $n$ and is not contained on a single line, then $P$ determines at least $n-2$ angles. Moreover, we prove that the unique point set attaining this minimum is the regular $n$-gon.",
+   "abs": "https://arxiv.org/abs/2609.15270",
+   "pdf": "https://arxiv.org/pdf/2609.15270"
+  },
+  {
+   "id": "2609.15081",
+   "type": "new",
+   "title": "Obstructions to coloring arithmetic graphs",
+   "authors": [
+    "Lujia Wang",
+    "Ruihua Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The arithmetic graph $B_n$ joins distinct $a,b\\in\\N$ when $\\max(a,b)/\\gcd(a,b)\\le n$. We prove $\\chi(B_{205})=206$, disproving the conjecture that $\\chi(B_n)=n$ for every $n$, equivalently the Rainbow Cascades Conjecture. The proof reduces an arbitrary tiling by the arithmetic exponent tile to a periodic tiling, then to two families of finite quotients, which are excluded using exact computations. We also construct a $208$-coloring using $\\Z_{104}\\times\\Z_2$ and prove $212\\le\\chi(B_{211})\\le213$. The lower bound at $211$ follows from prime-cardinality tiling rigidity and the published nonexistence of a cyclic logarithm of length $211$; we give a direct proof of the required rigidity statement. Finally, we record the equivalence with the List Cascade Coloring Conjecture and the conjecture on ironic decorations, and deduce finite graph counterexamples to both. The least $n$ with $\\chi(B_n)>n$ is either $195$ or $205$; determining which remains open.",
+   "abs": "https://arxiv.org/abs/2609.15081",
+   "pdf": "https://arxiv.org/pdf/2609.15081"
+  },
+  {
+   "id": "2609.13831",
+   "type": "new",
+   "title": "A Bound Below 2.8 for Tuza's Conjecture",
+   "authors": [
+    "Sichen Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages. Formalized in Lean 4 with Mathlib: this https URL",
+   "abstract": "Let $\\nu(G)$ be the maximum number of edge-disjoint triangles in a graph $G$ and $\\tau(G)$ the minimum number of edges meeting every triangle. Tuza conjectured that $\\tau(G)\\le 2\\nu(G)$. We prove that $\\tau(G)\\le (165/59)\\nu(G)$. The constant $165/59\\approx 2.797$ improves the bound $66/23\\approx 2.870$ that Haxell proved in 1999. The key observation is that, for a suitable red-blue coloring, the families left over in Haxell's construction contain every triangle with exactly one red edge. Such a family $\\mathcal{F}$ admits an exchange that forces certain red edges to lie in a single triangle once the blue edges of a maximum packing are deleted, which gives $\\tau(\\mathcal{F})\\le (8/3)\\nu(\\mathcal{F})$.",
+   "abs": "https://arxiv.org/abs/2609.13831",
+   "pdf": "https://arxiv.org/pdf/2609.13831"
+  },
+  {
+   "id": "2609.14368",
+   "type": "new",
+   "title": "Avoidability of Digraphs with Height Functions and Orientations of $C_4$",
+   "authors": [
+    "Hui Lei",
+    "Xiaoyi Wang",
+    "Zhijun Xu",
+    "Zhenyu Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "A digraph $F$ is avoidable if, for every positive integer $k$, there exists an integer $d$ such that every digraph of minimum out-degree at least $d$ contains an $F$-free subdigraph of minimum out-degree at least $k$. We prove that no digraph admitting a height function is avoidable, where a height function increases by one along every arc. This answers a question of Christoph, Janzer, Petrova, and Steiner and, together with an additional avoidance argument, determines which orientations of $C_4$ are avoidable. Motivated by a further question of Christoph, Janzer, Petrova, and Steiner, we also study Eulerian avoidability, in which the host digraph is required to have equal in-degree and out-degree at every vertex. We show that no one-directed complete bipartite digraph with nonempty parts is Eulerian-avoidable. In contrast, the orientation of $C_4$ consisting of two directed paths of length two with common endpoints is Eulerian-avoidable. Consequently, the one-directed complete bipartite orientation is the only orientation of $C_4$ that is not Eulerian-avoidable, completing the classification of $C_4$-orientations.",
+   "abs": "https://arxiv.org/abs/2609.14368",
+   "pdf": "https://arxiv.org/pdf/2609.14368"
+  },
+  {
+   "id": "2609.14409",
+   "type": "new",
+   "title": "Sharp stability for cross $t$-intersecting families of permutations in the linear range",
+   "authors": [
+    "Jie Wen",
+    "Benjian Lv"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We obtain several intersection theorems for permutations with purely combinatorial proofs. Two families $\\mathcal{F},\\mathcal{G}\\subseteq S_n$ are cross $t$-intersecting if every $\\sigma\\in\\mathcal{F}$ and $\\tau\\in\\mathcal{G}$ agree on at least $t$ points. A $t$-coset is a coset of the stabilizer of $t$ points. A subset of $S_n$ is non-trivial if it is not contained in any $t$-coset. Let $d_m$ denote the $m$-th derangement number. We prove that, for all $t\\geq1$ and $n\\geq400t$, every pair of cross $t$-intersecting families $\\mathcal{F},\\mathcal{G}\\subseteq S_n$ satisfies the following:\n(i) $|\\mathcal{F}||\\mathcal{G}|\\leq((n-t)!-d_{n-t}-d_{n-t-1})((n-t)!+t)$ if $\\mathcal{F}\\cup\\mathcal{G}$ is non-trivial.\n(ii) $|\\mathcal{F}||\\mathcal{G}|\\leq((n-t)!-d_{n-t}-d_{n-t-1}+t)^2$ if both $\\mathcal{F}$ and $\\mathcal{G}$ are non-trivial.\n(iii) $\\min\\{|\\mathcal{F}\\setminus\\mathcal{C}|,|\\mathcal{G}\\setminus\\mathcal{C}|\\}\\leq t((n-t-1)!-(n-t-2)!)$ for some $t$-coset $\\mathcal{C}$ if $t\\geq2$.\nWe also characterize all extremal configurations. The first result extends a theorem of Ellis (2011) to an exponentially wider range and sharpens the stability theorem of Keller, Lifshitz, Minzer and Sheinfeld (2024); the second gives a product version of the classical Hilton--Milner--Frankl theorem for permutations; and the third settles the remaining cases $t\\geq2$ of a conjecture of Ellis (2011) in a stronger form. In all three results, the linear dependence on $t$ is essentially optimal. Our proofs are based on the spread approximation method introduced by Kupavskii and Zakharov and on an approach to cross $t$-intersection problems developed by the present authors, with several essential refinements. As an application of our approach, we prove a product version of the Hilton--Milner--Frankl theorem for the alternating group.",
+   "abs": "https://arxiv.org/abs/2609.14409",
+   "pdf": "https://arxiv.org/pdf/2609.14409"
+  },
+  {
+   "id": "2609.13972",
+   "type": "new",
+   "title": "Large solution-free sets via combinatorial degenerations",
+   "authors": [
+    "Paul Hametner",
+    "Jozsef Solymosi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "Consider the linear form $L(x,y,z,w) = 3x+y-2z-2w$. For a positive integer $N$, denote by $r_L(N)$ the largest size of a subset of $\\{1,2,\\dots,N\\}$ that avoids nontrivial solutions to $L = 0$. We show that $r_L(N) = \\Omega(N^{0.5608687})$, improving the lower bound for Problem 16 in Green's list of open problems. Our proof uses the method of combinatorial degenerations to turn a finite certificate into large solution-free sets. In fact, we can improve Ruzsa's lower bound of $N^{1/2-o(1)}$ for many four-variable equations. Consider $L(x,y,z,w) = ax+by-cz-dw$ with $a,b,c,d\\in \\mathbb Z_{>0}$, $a+b=c+d$, $\\{a,b\\} \\neq \\{c,d\\}$ and $abcd$ not a square. We show that there is $\\varepsilon_L > 0$ such that $r_L(N) = \\Omega_L(N^{1/2 + \\varepsilon_L})$. Furthermore, we show that for primitive translation-invariant linear forms $L$ in $s$ variables, the lower bound $\\Omega_s(N^{1/(s-1)})$ coming from a greedy construction is never optimal.",
+   "abs": "https://arxiv.org/abs/2609.13972",
+   "pdf": "https://arxiv.org/pdf/2609.13972"
+  },
+  {
+   "id": "2609.15596",
+   "type": "new",
+   "title": "An improved bound on the treewidth of planar graphs excluding a grid minor",
+   "authors": [
+    "Wouter Cames van Batenburg",
+    "Quentin Claus",
+    "Gwenaël Joret",
+    "Robin Petit",
+    "Jean-Florent Raymond",
+    "Eileen Robinson"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that every planar graph with no $t \\times t$ grid minor has treewidth at most $4t +4$. This improves on the previously best known bound of $\\frac{9}{2}t - \\frac{11}{2}$, due to Gu and Tamaki (2012), and is within a factor $2$ of optimal.\nA key step in the proof is showing the following result, which might be of independent interest: Every $2$-connected plane graph $G$ with radius $d$ and faces of size at most $k$ has a tree-decomposition of width at most $\\max\\{3d+ k+5, 2d+2k+1\\}$ such that the vertex set of every face of $G$ is contained in some bag.",
+   "abs": "https://arxiv.org/abs/2609.15596",
+   "pdf": "https://arxiv.org/pdf/2609.15596"
+  },
+  {
+   "id": "2609.14385",
+   "type": "new",
+   "title": "Matrix-tree theorem for cohomological electrical networks",
+   "authors": [
+    "Pavlo Pylyavskyy",
+    "Svetlana Shirokovskikh",
+    "Mikhail Skopenkov"
+   ],
+   "categories": [
+    "math.CO",
+    "math-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "37 pages, 14 figures",
+   "abstract": "We introduce a new type of boundary condition for electrical networks by specifying a cohomology class on the underlying cell complex. As special and limiting cases, we recover the Dirichlet boundary condition, multiport condition, and prescribed voltage drops along nontrivial cycles on a surface. In this setting, we obtain a combinatorial formula for minors of the response matrix, generalizing the matrix-tree theorem, the Kenyon-Wilson formula, and a recently discovered formula for networks on surfaces due to Lam et al. To prove this formula, we develop a statistical-physics toolbox, including a new parafermionic observable for the uniform spanning tree model. This is the first parafermionic observable that is intrinsic, in the sense that it does not require an embedding of the graph in the plane or on a surface. Other ingredients are an intrinsic Temperley correspondence and source-synchronized networks, the latter providing a completely elementary reformulation of our results.",
+   "abs": "https://arxiv.org/abs/2609.14385",
+   "pdf": "https://arxiv.org/pdf/2609.14385"
+  },
+  {
+   "id": "2609.15414",
+   "type": "new",
+   "title": "Large Complete Minors from a Cheeger Condition",
+   "authors": [
+    "Chengli Li",
+    "Leyou Xu",
+    "Bo Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a graph on $n$ vertices, and let $e_G(S,V(G)\\setminus S)$ be the number of edges with exactly one endpoint in $S$. The Cheeger constant and the restricted Cheeger constant of $G$, where $k\\ge1$ is real, are, respectively, \\[\nh(G)=\\min_{\\substack{\\emptyset\\ne S\\subseteq V(G)\\\\|S|\\le \\frac{n}{2}}}\n\\frac{e_G(S,V(G)\\setminus S)}{|S|}\n\\text{ and }\nh_k(G)=\\min_{\\substack{\\emptyset\\ne S\\subseteq V(G)\n|S|\\le\\min\\{k,\\frac{n}{2}\\}}}\n\\frac{e_G(S,V(G)\\setminus S)}{|S|}. \\] The contraction clique number $\\ccl(G)$ is the largest integer $r$ such that $G$ contains the complete graph $K_r$ as a minor. Krivelevich and Nenadov [Complete minors in graphs without sparse cuts, Int. Math. Res. Not. IMRN 12 (2021) 8996--9015] proved that, for every fixed $\\eps>0$ and all sufficiently large $n$ and $d$, if $G$ is a graph on $n$ vertices with maximum degree at most $d$, then $h(G)\\ge\\eps d$ and $h_{\\eps n}(G)\\ge(\\frac{1}{2}+\\eps)d$ imply $\\ccl(G)=\\Omega_\\eps(\\sqrt{\\frac{nd}{\\log d}})$. They asked to determine if one can guarantee the same lower bound on $\\ccl(G)$ without the additional condition on $h_{\\eps n}(G)$. They showed that this is the case when $d$ is a constant. We answer this question affirmatively. For every $\\eps>0$, there are constants $\\beta=\\beta(\\eps)>0$ and $n_0=n_0(\\eps)$ such that, whenever $d\\ge 3$ is an integer, for every graph $G$ with $n\\ge n_0$ vertices and maximum degree at most $d$, if $h(G)\\ge\\eps d$, then $\\ccl(G)\\ge\\beta\\sqrt{\\frac{nd}{\\log d}}$. The dependence of this lower bound on $n$ and $d$ is best possible up to a constant factor. As a corollary, a lower bound is derived for the contraction clique number of $d$-regular graphs for which the second largest eigenvalue is bounded away from $d$, compared to earlier $\\frac{d}{2}$. The proof combines spectral properties of graphs with an analysis of lazy random walks.",
+   "abs": "https://arxiv.org/abs/2609.15414",
+   "pdf": "https://arxiv.org/pdf/2609.15414"
+  },
+  {
+   "id": "2609.14281",
+   "type": "new",
+   "title": "Tuza's Ryser-conjecture claim for four-partite hypergraphs with matching number two",
+   "authors": [
+    "Patrick White"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages. Proves the (r,nu)=(4,2) case of Ryser's conjecture (Tuza's 1979 claim, recorded as open in DeBiasio et al. 2021). Every structural claim independently verified by exact computation (MILP + brute force). Proof found via four rounds of GPT-5.6 Pro; AI assistance disclosed in Methods",
+   "abstract": "We prove that every $4$-partite $4$-uniform hypergraph $H$ with matching number $\\nu(H)=2$ satisfies $\\tau(H)\\le 6$, where $\\tau$ denotes the vertex-cover number. This confirms a claim made by Tuza in his 1979 manuscript but never published with a proof, and closes the case $(r,\\nu)=(4,2)$ of Ryser's conjecture. The best previous bound was $\\tau\\le 7$, an integrality consequence of the theorem of Haxell and Scott (2012). The proof uses Gyárfás's intersecting-case theorem ($\\tau\\le 3$ for intersecting $4$-partite $4$-uniform families), a short projection lemma (four base-disjoint edges in an intersecting family force a two-element cover), and Kőnig's matching theorem.",
+   "abs": "https://arxiv.org/abs/2609.14281",
+   "pdf": "https://arxiv.org/pdf/2609.14281"
+  },
+  {
+   "id": "2609.15591",
+   "type": "new",
+   "title": "A 3-regular counterexample to the Bilu--Linial signing conjecture",
+   "authors": [
+    "Zhiqiang Xu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We construct a finite connected simple cubic graph $F$ such that every signing of its edges yields an adjacency matrix with an eigenvalue outside $[-2\\sqrt2,2\\sqrt2]$. This disproves the Bilu--Linial signing conjecture for general regular graphs. The proof is elementary, using a four-vertex calculation and a scalar recurrence.",
+   "abs": "https://arxiv.org/abs/2609.15591",
+   "pdf": "https://arxiv.org/pdf/2609.15591"
+  },
+  {
+   "id": "2609.15330",
+   "type": "new",
+   "title": "On Erdős Problem 767: Cycles with Chords",
+   "authors": [
+    "Xiaozheng Chen",
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages, 2 figures",
+   "abstract": "For integers $k\\ge 1$ and $n\\ge k+2$, let $g_k(n)$ be the maximum number of edges in an $n$-vertex graph containing no cycle with a vertex incident with at least $k$ chords. Erdős conjectured that $g_k(n)=(k+1)(n-k-1)$ for $n\\ge 2k+2$. Lewin found a counterexample. Bollobás later conjectured that there exists a function $n(k)$ such that $g_k(n)=(k+1)(n-k-1)$ for all $n\\ge n(k)$. Jiang confirmed this by proving the formula for all $n\\ge3k+3$ when $k\\ge1$. In this paper, we determine $g_k(n)$ completely. For all $k\\ge1$ and $n\\ge k+2$, we prove $g_k(n)=\\big\\{\\lfloor\\frac{(k+1)n}{2}\\rfloor,\\max\\{a(n-a)+\\lfloor\\frac{a(k+1-a)}{2}\\rfloor : a\\in\\mathbb Z,\\; \\lfloor {(k+1)}/{2}\\rfloor+1\\le a\\le k+1\\}\\big\\}$. For $k\\ge2$, we prove $g_k(n)=(k+1)(n-k-1)$ when $n\\ge \\lceil(5k+1)/2\\rceil$, and this threshold is sharp. Our proof builds on the method developed by Ma and the second author in [Ma and Ning, 2020].",
+   "abs": "https://arxiv.org/abs/2609.15330",
+   "pdf": "https://arxiv.org/pdf/2609.15330"
+  },
+  {
+   "id": "2609.15265",
+   "type": "new",
+   "title": "Growth beyond exponent $3/2$ for convexity and iterated sum sets",
+   "authors": [
+    "Michalis Kokkinos",
+    "Oliver Roche-Newton"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the bound \\[ \\max \\{ |16A|,|16f(A)| \\} \\gg_m |A|^{\\frac{3}{2}+\\frac{1}{162}} \\] holds for any polynomial $f$ with degree $m \\geq 2$ and any finite $A \\subset \\mathbb R$. This shows that the classical Jarník obstruction to growth beyond exponent $3/2$, which occurs for general strictly convex functions, cannot occur for polynomial functions.",
+   "abs": "https://arxiv.org/abs/2609.15265",
+   "pdf": "https://arxiv.org/pdf/2609.15265"
+  },
+  {
+   "id": "2609.14525",
+   "type": "new",
+   "title": "Retained-Set Descent for Diagonal Ramsey Numbers",
+   "authors": [
+    "Zhipeng Lu",
+    "Sichen Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages. Lean 4 formalization and Python certificate checks: this https URL",
+   "abstract": "We study how far a fixed Ramsey upper bound can be improved by descending through blue neighborhoods in one vertex set while keeping a second set fixed. A weighted inequality in the two set sizes determines when the descent can stop. For the source bound specified here, the infimum diagonal exponent over all finite derivations lies in $[1.305,\\,1.307]$. A finite derivation gives $R(k,k)\\le3.69507^k$ for all sufficiently large $k$; a concave polygon proves the lower bound for every finite depth. We also characterize the infimum as a greatest fixed point and show that every larger exponent has a finite derivation valid uniformly for nearby clique-size ratios.",
+   "abs": "https://arxiv.org/abs/2609.14525",
+   "pdf": "https://arxiv.org/pdf/2609.14525"
+  },
+  {
+   "id": "2609.15893",
+   "type": "new",
+   "title": "A short proof of the Erd\\H os--Sós Conjecture",
+   "authors": [
+    "Oliver Riordan",
+    "Alex Scott"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Erd\\H os--Sós Conjecture was recently proved by GPT-6 Astra, using a very ingenious and surprising argument. In this note, we present a simplified version of this argument in an (arguably) more natural form. We also determine the extremal graphs for the Erd\\H os--Sós Conjecture, and prove a related conjecture of Addario-Berry, Havet, Linhares Sales, Reed and Thomassé.",
+   "abs": "https://arxiv.org/abs/2609.15893",
+   "pdf": "https://arxiv.org/pdf/2609.15893"
+  },
+  {
+   "id": "2609.14794",
+   "type": "cross",
+   "title": "Kusner's conjecture is false for $p>4$",
+   "authors": [
+    "Nathan Xiong"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "6 pages",
+   "abstract": "An equilateral set is a set of points in a metric space whose pairwise distances are all equal. Kusner conjectured that the maximum cardinality of an equilateral set in $\\mathbb{R}^n$ with the $\\ell_p$ metric is $n+1$ for every $1<p<\\infty$. We disprove the conjecture for all $p>4$. In particular, for every such $p$, we define $m=m(p)$ and construct an equilateral set of $8m$ points in $\\mathbb{R}^{8m-2}$. Previously, Swanepoel disproved the conjecture for $1<p<2$, while Ge, Xu, and Zhou showed that it holds for $2\\le p\\le 4$. Combining these prior results with the paper's main theorem resolves Kusner's conjecture for all $1<p<\\infty$.",
+   "abs": "https://arxiv.org/abs/2609.14794",
+   "pdf": "https://arxiv.org/pdf/2609.14794"
+  },
+  {
+   "id": "2609.14026",
+   "type": "cross",
+   "title": "Reduction of integer tiles via CRT and base-p digits",
+   "authors": [
+    "Chunlin Li",
+    "Jie Wu",
+    "Wenchuan Hu",
+    "Chao Wang",
+    "Erxiao Wang",
+    "Fuhai Zhu"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "14 pages",
+   "abstract": "Coven and Meyerowitz gave two cyclotomic conditions, (T1) and (T2), which characterize integer tiles whose cardinalities have at most two distinct prime factors. We prove that the same characterization holds without this restriction. The proof uses a reduction in Chinese remainder coordinates: slicing by the lowest base-p digit produces sets with a common tiling complement in a group of order smaller by a factor of p. This reduction preserves the cyclotomic data needed for an induction on the exponents in (T2).",
+   "abs": "https://arxiv.org/abs/2609.14026",
+   "pdf": "https://arxiv.org/pdf/2609.14026"
+  },
+  {
+   "id": "2609.14834",
+   "type": "new",
+   "title": "Local Resilience for Containment of Bounded Degree Spanning Subgraphs",
+   "authors": [
+    "Peter Allen",
+    "Julia Böttcher",
+    "Yoshiharu Kohayakawa",
+    "Mihir Neve"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages, no figures",
+   "abstract": "We prove that for all $\\Delta \\geq 2$ and $\\gamma > 0$, there exists a constant $C = C(\\Delta, \\gamma)$ such that for $p\\geq C(\\log n/n)^{1/\\Delta}$, asymptotically almost surely, every spanning subgraph $G$ of $G(n,p)$ with minimum degree at least $(1-1/(2\\Delta)+\\gamma)pn$ contains every $n$-vertex graph $H$ with maximum degree at most $\\Delta$ and with at least $Cp^{-2}$ vertices not in any triangles of $H$. This is a 'sparse local resilience version' of a classical theorem of Sauer and Spencer.\nThe condition that $H$ should contain some vertices not in triangles is necessary, and in fact, the quantity $p^{-2}$ is asymptotically best possible. A key feature of our result is that $H$ is allowed to be an expander graph, distinguishing it from previous results of similar nature, which dealt with, e.g., graphs of sublinear bandwidth. Our proof makes use of regularity arguments, with the sparse blow-up lemma for random graphs being a key tool.",
+   "abs": "https://arxiv.org/abs/2609.14834",
+   "pdf": "https://arxiv.org/pdf/2609.14834"
+  },
+  {
+   "id": "2609.14975",
+   "type": "cross",
+   "title": "The threshold for online balancing of i.i.d. binary vectors",
+   "authors": [
+    "Dylan J. Altschuler",
+    "Konstantin Tikhomirov"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "Supersedes and replaces arxiv.org/abs/2509.02432, which has the same lower bound, but only has an upper bound for the ultra-sparse regime",
+   "abstract": "Consider the task of online vector balancing for stochastic arrivals $X_1,\\ldots,{X_T}$, where the $X_i$ are independent uniformly random $d$--sparse binary vectors in $\\{0,1\\}^n$. This is a random analogue of the online Beck--Fiala problem. We show that uniformly for $2\\le d\\le n/2$ and $T = \\Theta(n)$, the optimal online prefix discrepancy $\\max\\limits_{t\\leq T}\\left\\|\\sum_{i=1}^t\\sigma_i X_i\\right\\|_\\infty$ is of order \\[\n\\Theta\\big(\\max\\{\\sqrt d,\\log\\log n\\}\\big). \\] The upper bound is achieved by an efficient online algorithm. Thus, for $d\\le(\\log\\log n)^2$, the optimal discrepancy is $\\Theta(\\log\\log n)$ and is independent of the sparsity up to constant factors, whereas above this scale it is $\\Theta(\\sqrt d)$, matching the order of the offline discrepancy. This identifies the threshold at which sparsity begins to govern the online discrepancy of the random Beck--Fiala model.",
+   "abs": "https://arxiv.org/abs/2609.14975",
+   "pdf": "https://arxiv.org/pdf/2609.14975"
+  },
+  {
+   "id": "2609.14957",
+   "type": "cross",
+   "title": "Majority dynamics on sparse random graphs",
+   "authors": [
+    "Gopal Goel",
+    "Ashwin Sah"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "86 pages",
+   "abstract": "Consider a simple undirected graph $G$ on $N$ vertices, with each vertex holding an opinion from one of two options. Starting from the initial opinions on day 1, we run majority dynamics: on each subsequent day, all vertices simultaneously adopt the majority opinion among their neighbors, retaining their current opinion in case of a tie. A well-studied conjecture of Benjamini, Chan, O'Donnell, Tamuz, and Tan states that if $G$ is drawn from the random binomial model $\\mathbb{G}(N,p)$, and if the starting opinions are chosen uniformly at random, then as long as $pN \\to \\infty$ the network will converge to 99% consensus with high probability.\nWe confirm this conjecture as long as $pN \\ge N^{\\varepsilon}$ for any fixed $\\varepsilon > 0$, showing that full unanimity is reached with high probability in $O(1/\\varepsilon)$ days. This result improves on a line of results by Fountoulakis, Kang, and Makai, who achieve $\\varepsilon = 1/2$; Chakraborti, Kim, Lee, and Tran, who achieve $\\varepsilon = 2/5$; and Jaffe, who achieves $\\varepsilon = 1/3$.\nThe proof technique involves iteratively revealing the \"opinion histories\" for each vertex through time, keeping track of the degrees between every vertex and each of $2^k$ opinion history classes on day $k$. Our analysis of this process requires intricate estimates for degree-constrained random graph models using graph enumeration tools from the work of McKay and Wormald as well as Canfield, Greenhill, and McKay, and their extensions by Liebenau and Wormald. In doing so, we connect the discrete dynamics to a deterministic idealized process, whose leading-order behavior is described by conditional Gaussian probabilities and expectations.",
+   "abs": "https://arxiv.org/abs/2609.14957",
+   "pdf": "https://arxiv.org/pdf/2609.14957"
+  },
+  {
+   "id": "2609.14681",
+   "type": "new",
+   "title": "A dimension-free comparison between expectation thresholds and fractional expectation thresholds",
+   "authors": [
+    "Jinyoung Park"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages including references",
+   "abstract": "We prove a dimension-free comparison between the expectation threshold $q(\\mathcal F)$ and the fractional expectation threshold $q_f(\\mathcal F)$ for any nontrivial increasing family $\\mathcal F$ on a finite ground set. Specifically, we show that there is a universal constant $K>0$ such that \\[ q_f(\\mathcal F)\\le Kq(\\mathcal F)\\max\\{1,\\log\\log(1/q(\\mathcal F))\\}. \\] Combining this comparison with a recent result of Li [arXiv:2609.08967] on the fractional version of Talagrand's discrete Convexity Conjecture, we obtain a dimension-independent bound toward the conjecture.",
+   "abs": "https://arxiv.org/abs/2609.14681",
+   "pdf": "https://arxiv.org/pdf/2609.14681"
+  },
+  {
+   "id": "2609.13417",
+   "type": "new",
+   "title": "Prescribed Turán sign patterns for inverse Kazhdan-Lusztig polynomials of matroids",
+   "authors": [
+    "Elias Badalov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages. Reproducibility materials available at DOI https://doi.org/10.6084/m9.figshare.33472711",
+   "abstract": "Gao and Xie conjectured that the coefficients of the ordinary, unnormalized inverse Kazhdan-Lusztig polynomial of every matroid are log-concave with no internal zeros. We give counterexamples and prove locality and composition formulas for deletions of projective charts. For every finite field and every nonempty finite set S contained in {2, 3, ...}, these formulas yield simple 3-connected matroids whose negative internal Turán determinants occur exactly at S. Their coefficients are positive and strictly decreasing. The polynomial degree can be prescribed above max S, and all selected Turán ratios can tend to zero simultaneously. The universal first-index inequality remains open.",
+   "abs": "https://arxiv.org/abs/2609.13417",
+   "pdf": "https://arxiv.org/pdf/2609.13417"
+  },
+  {
+   "id": "2609.14945",
+   "type": "new",
+   "title": "Long-range expanders: construction and cutoff",
+   "authors": [
+    "Dylan J. Altschuler"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, comments welcome",
+   "abstract": "Long-range expansion is a tree-like volume growth condition on bounded-degree regular graphs, introduced by Dodos, Tikhomirov, Tyros, and the author to prove quantitative nonlinear Poincaré inequalities and non-embedding theorems. Motivated by fundamental questions in geometric group theory and nonlinear functional analysis about superexpanders of logarithmic girth, our first main result is that every Ramanujan graph has long-range expansion. This gives explicit long-range expanders with logarithmic girth (such as Lubotzky--Phillips--Sarnak graphs) and establishes a strict hierarchy: Ramanujan expansion implies long-range expansion, which implies spectral expansion, with neither converse holding.\nWe subsequently compare the different notions of expansion from the perspective of dynamics. Our second main result establishes cutoff with an explicit Gaussian limit profile for the random walk on every fixed-degree long-range expander sequence. In particular, the cutoff location and profile coincide with those for Ramanujan graphs. This offers intermediate progress between cutoff for Ramanujan graphs---proven by Lubetzky and Peres---and the long-standing conjecture of cutoff for transitive spectral expanders.",
+   "abs": "https://arxiv.org/abs/2609.14945",
+   "pdf": "https://arxiv.org/pdf/2609.14945"
+  },
+  {
+   "id": "2609.13818",
+   "type": "new",
+   "title": "Extremal function for rooted $K_5$ minors",
+   "authors": [
+    "Zdeněk Dvořák"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "85 pages, 6 figures",
+   "abstract": "We show that if an n-vertex 5-connected graph has at least 4n-10 edges, then for any choice of five of its vertices, we can contract disjoint connected subgraphs containing these vertices to obtain $K_5$ as a minor. The bound on the number of edges is the best possible.",
+   "abs": "https://arxiv.org/abs/2609.13818",
+   "pdf": "https://arxiv.org/pdf/2609.13818"
+  },
+  {
+   "id": "2609.14351",
+   "type": "new",
+   "title": "The Colomo-Pronko conjecture for frozen-corner alternating sign matrices",
+   "authors": [
+    "Yinjie Li"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages. Supplementary material and Lean 4 formalization are included as ancillary files",
+   "abstract": "We prove the Colomo-Pronko conjecture for alternating sign matrices with a prescribed square of zeros at a corner, for all matrix sizes and freezing parameters. A known multiple-integral formula for the frozen-corner count yields determinant representations built from fixed polynomial kernels. We relate these kernels to the conjectured determinant through an inverse identity for the commutator of a signed Pascal matrix with reversal. In odd dimension, the comparison uses the one-dimensional nullspace and projection along it to eliminate the central coordinate. Combined with the asymptotic analysis of Colomo and Pronko, our result removes the conjectural assumption from their GUE Tracy-Widom fluctuation theorem for the intersection of the frozen boundary with the main diagonal in uniformly random alternating sign matrices. The finite-dimensional algebraic core of the proof has been formalized in Lean 4.",
+   "abs": "https://arxiv.org/abs/2609.14351",
+   "pdf": "https://arxiv.org/pdf/2609.14351"
+  },
+  {
+   "id": "2609.14470",
+   "type": "new",
+   "title": "The Erdős--Chvátal Simplex Conjecture",
+   "authors": [
+    "Jing Huang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We prove the Erdős--Chvátal simplex conjecture across its entire parameter range. If $2\\le d<k$ and $(d+1)k\\le dv$, then every $d$-simplex-free family of $k$-subsets of $[v]$ has at most $\\binom{v-1}{k-1}$ members, with equality only for a full star.",
+   "abs": "https://arxiv.org/abs/2609.14470",
+   "pdf": "https://arxiv.org/pdf/2609.14470"
+  },
+  {
+   "id": "2609.14655",
+   "type": "new",
+   "title": "Oriented Paths with Few Direction Flips Are Tournament Anti-Sidorenko",
+   "authors": [
+    "Hao Chen",
+    "Yupeng Lin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "An oriented graph $H$ is said to be tournament anti-Sidorenko (TAS) if a uniformly random tournament asymptotically maximizes the homomorphism density of $H$ among all tournaments. For an oriented path $P$, a direction flip is a non-leaf source or sink. Sah, Sawhney and Zhao proved that consistently directed paths (paths with no direction flips) are TAS. He, Mani, Nie, Tung and Wei proved that for $3\\le k\\le 7$, every oriented path of length $k$ with exactly one direction flip is TAS, and Chen, Clemen and Noel recently extended this to every $k\\ge 3$. In this paper, we extend these results by proving that for every integer $r\\ge 0$, every oriented path of length at least $1665r+1454$ with $r$ direction flips is tournament anti-Sidorenko.",
+   "abs": "https://arxiv.org/abs/2609.14655",
+   "pdf": "https://arxiv.org/pdf/2609.14655"
+  },
+  {
+   "id": "2609.15850",
+   "type": "new",
+   "title": "Neither simpliciality nor mutation connectivity: conjectures of Las Vergnas and Cordovil-Las Vergnas fail",
+   "authors": [
+    "Qiyuan Gu",
+    "Kolja Knauer"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "We construct a simple rank-$7$ oriented matroid on $24$ elements with no simplicial tope, disproving the Las Vergnas simplex conjecture from 1980. We then show that the mutation graph on uniform oriented matroids is disconnected for infinitely many values of rank $r$ and ground-set size $n$, disproving the Cordovil--Las Vergnas conjecture from 1988.",
+   "abs": "https://arxiv.org/abs/2609.15850",
+   "pdf": "https://arxiv.org/pdf/2609.15850"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 79,
+ "listed_cross": 42
+}
