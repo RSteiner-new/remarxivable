@@ -1,0 +1,576 @@
+{
+ "date": "2026-09-17",
+ "generated_at": "2026-09-17T02:43:36Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-17",
+ "screened": 55,
+ "screened_new": 40,
+ "screened_cross": 15,
+ "scored": 55,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.18740",
+   "type": "new",
+   "title": "Sharp Rainbow Path Covers in Dense and Complete Multipartite Graphs",
+   "authors": [
+    "Xiao-Chuan Liu",
+    "Boyan Xu",
+    "Xu Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "A path in a properly edge-colored graph is rainbow if its edges have pairwise distinct colors. For a proper edge-coloring $c$ of a graph $G$, let $\\operatorname{rpc}(G,c)$ be the minimum number of rainbow paths needed to cover $E(G)$, and let $\\operatorname{rpc}(G)$ be the maximum of $\\operatorname{rpc}(G,c)$ over all proper edge-colorings of $G$. We prove that, for every fixed $0<\\alpha<1$, every properly edge-colored $n$-vertex graph with minimum degree at least $\\alpha n$ satisfies $\\operatorname{rpc}(G,c)\\leq(1+o(1))n/2$, where the coefficient $1/2$ is best possible. We also determine $\\operatorname{rpc}(G)$ asymptotically for every complete multipartite graph. If $G=K_{n_1,\\ldots,n_r}$ has order $n$ and largest and smallest part sizes $M$ and $s$, respectively, then, uniformly over all choices of the number and sizes of the parts, $\\operatorname{rpc}(G)=(1+o(1))\\max\\{\\min\\{\\lfloor n/2\\rfloor,n-M\\},(n-s)/2\\}$. The proof combines pseudorandom packings of globally rainbow linear forests with a decomposition into dense parts and prescribed avoidance for arbitrary dense graphs, and with reserved connectors and a direct dominant-part argument for complete multipartite graphs.",
+   "abs": "https://arxiv.org/abs/2609.18740",
+   "pdf": "https://arxiv.org/pdf/2609.18740"
+  },
+  {
+   "id": "2609.17932",
+   "type": "cross",
+   "title": "A Better-Than-$3$ Approximation Algorithm for Demand Matching via Knapsack Intersection LP and Contention Resolution",
+   "authors": [
+    "Michel X. Goemans",
+    "Yuchong Pan"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "The demand matching problem generalizes both the knapsack problem and the $b$-matching problem. In this problem, each edge of a graph has a demand and a weight, and each vertex has a capacity. The goal is to find a maximum weight subset of edges such that, at each vertex, the total demand of the incident selected edges does not exceed the vertex capacity. Parekh [IPCO 2011] proved that, if each edge is individually feasible, the natural LP relaxation for demand matching has integrality gap at most $3$, yielding a $3$-approximation algorithm. This bound is tight for the natural LP relaxation, matching the lower bound of Shepherd and Vetta [Math. Oper. Res. 2007].\nWe present a randomized $(3/2 + \\sqrt{2} + \\varepsilon) \\approx (2.914 + \\varepsilon)$-approximation algorithm for the demand matching problem for every $\\varepsilon > 0$, giving the first approximation ratio strictly better than $3$. For bipartite graphs, we obtain a randomized $(2 + \\varepsilon)$-approximation algorithm for every $\\varepsilon > 0$. Both algorithms run in time polynomial in $1/\\varepsilon$ and the input length. Our algorithms use a strengthened LP relaxation based on intersecting the integral knapsack polytopes associated with the vertices, together with a multiple-choice generalization. As a key ingredient, we prove the existence of a $(q, 1/(1+q))$-balanced contention resolution scheme for the integral knapsack polytope for every $q \\in [0, 1]$, which may be of independent interest. The balance guarantee $1/(1+q)$ is tight in the worst case over all knapsack instances.",
+   "abs": "https://arxiv.org/abs/2609.17932",
+   "pdf": "https://arxiv.org/pdf/2609.17932"
+  },
+  {
+   "id": "2609.19057",
+   "type": "new",
+   "title": "Maximum cut and maximum bisection in random regular graphs",
+   "authors": [
+    "P. M. Aronow",
+    "Patrick Lopatto"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We prove that, for every fixed degree $d$ and a uniformly random simple $d$-regular graph $G_{n,d}$ on an even number $n>d$ of vertices, $$\\mathbb{E}\\operatorname{MaxCut}(G_{n,d})-\\mathbb{E}\\operatorname{MaxBis}(G_{n,d})=o(n).$$ In other words, requiring the two sides of a cut to have exactly the same size changes the expected optimal cut by only a sublinear number of edges. We prove this first for the configuration model by comparing cuts of each possible cardinality on an $n$-vertex graph with bisections of a related graph on $2n$ vertices. An important technical tool is Huang's interpolation theorem (Huang, 2018); to apply it, we establish a structural property of the change in the optimal cut when a single edge is added. This comparison, together with concentration estimates and Huang's convergence theorem for maximum bisection, shows that maximum cut and maximum bisection have the same limiting density. Conditioning the configuration model on being simple then gives the result for uniformly random simple regular graphs.",
+   "abs": "https://arxiv.org/abs/2609.19057",
+   "pdf": "https://arxiv.org/pdf/2609.19057"
+  },
+  {
+   "id": "2609.18469",
+   "type": "new",
+   "title": "Antidirected forests in digraphs",
+   "authors": [
+    "Gengtao Liu",
+    "Yunshu Gao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "A digraph is antidirected if every vertex has indegree zero or outdegree zero. Let $k\\ge2$, and let $F$ be an antidirected forest with $k$ arcs and no isolated vertices. We prove that every digraph $D$ of order $n$ with more than $g_k(n):=2\\max\\left\\{\\binom{2k-1}{2}, (k-1)\\left(n-\\frac{k}{2}\\right)\\right\\}$ arcs contains $F$ as a subdigraph. For $n\\ge2k-1$, this threshold equals $2\\mathrm{ex}(n,kK_2)$ and is attained by symmetric digraphs arising from extremal $kK_2$-free graphs. Consequently, the maximum directed extremal number over all such forests is $2\\mathrm{ex}(n,kK_2)$. The proof combines a counting inequality for rooted antidirected forests, embeddings extending vertex-disjoint arcs, and vertex deletion. In the remaining case, the Gallai--Edmonds decomposition of the underlying graph gives the required bound on the number of arcs.",
+   "abs": "https://arxiv.org/abs/2609.18469",
+   "pdf": "https://arxiv.org/pdf/2609.18469"
+  },
+  {
+   "id": "2609.18474",
+   "type": "new",
+   "title": "A somewhat sure note on an un-Schur problem",
+   "authors": [
+    "Swaroop Hegde",
+    "Hitesh Kumar",
+    "Pratibha"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "Parczyk and Spiegel initiated the study of an anti-Ramsey multiplicity variant of Schur's theorem and proved that the maximum fraction of Schur triples that can be rainbow in a $3$-coloring of $\\{ 1, \\dots ,n \\}$ is bounded asymptotically between $0.4$ and $0.66364$. Furthermore, they conjectured that their lower bound is optimal. We disprove this conjecture and prove new bounds. In particular, we show that the maximum fraction of rainbow Schur triples that can be rainbow in a $3$-coloring of $\\{ 1, \\dots ,n \\}$ lies between $9/22$ and $8/15$ asymptotically. Moreover, we study the problem in the general $k$-color setting and establish new non-trivial bounds.",
+   "abs": "https://arxiv.org/abs/2609.18474",
+   "pdf": "https://arxiv.org/pdf/2609.18474"
+  },
+  {
+   "id": "2609.17551",
+   "type": "new",
+   "title": "A $\\sqrt{2}$-Approximation to the Bilu-Linial Conjecture",
+   "authors": [
+    "Zejun Huang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Bilu and Linial conjectured that if $d\\ge 2$, then every $d$-regular graph $G$ has an edge signing $\\sigma:E(G)\\to\\{-1,1\\}$ such that its signed adjacency matrix $A_\\sigma$ satisfies the Ramanujan bound \\begin{equation*}\n\\rho(A_\\sigma)\\le 2\\sqrt{d-1} \\end{equation*} and they proved that \\begin{equation*}\n\\rho(A_\\sigma)=O\\!\\left(\\sqrt{d\\log^3 d}\\right). \\end{equation*}\nUsing a method of interlacing polynomials, Marcus, Spielman, and Srivastava confirmed one side of this conjecture that there is a signing $\\sigma$ for which\n\\[\n\\lambda_{\\max}(A_\\sigma)\\le 2\\sqrt{d-1}. \\] By constructing an auxiliary bipartite graph from a balanced orientation of $G$ and applying a bipartite signing argument, we prove that every finite simple graph $G$ of maximum degree $d\\ge 3$ admits an edge signing $\\sigma$ such that \\[\n\\rho(A_\\sigma)\n\\le 4\\sqrt{\\left\\lceil \\frac d2\\right\\rceil-1}\n\\le 2\\sqrt{2(d-1)}. \\] Thus we obtain a bound within a factor at most $\\sqrt2$ of the conjectured Ramanujan bound.",
+   "abs": "https://arxiv.org/abs/2609.17551",
+   "pdf": "https://arxiv.org/pdf/2609.17551"
+  },
+  {
+   "id": "2609.18175",
+   "type": "new",
+   "title": "A near-linear upper bound for Burr's conjecture",
+   "authors": [
+    "Liangdong Fan",
+    "Junying Lu",
+    "Yaojun Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "Let $f(k)$ denote the smallest integer such that every oriented graph $D$ with chromatic number at least $f(k)$ contains every oriented tree on $k$ vertices. Burr (1980) showed that $f(k)\\le (k-1)^2$ and conjectured that $f(k)=2k-2$. Bessy, Gonçalves and Reinald (2025) proved that $f(k)=O(k^{3/2})$. In this paper, by using an absorbing set method, we show that $f(k)\\le \\lfloor 31\\log (k!)\\rfloor=O(k\\log k)$.",
+   "abs": "https://arxiv.org/abs/2609.18175",
+   "pdf": "https://arxiv.org/pdf/2609.18175"
+  },
+  {
+   "id": "2609.18648",
+   "type": "new",
+   "title": "Sim-Width, Induced Matching Treewidth, and Tree-Independence Number in Induced $K_{t,t}$-Free Graphs",
+   "authors": [
+    "Mengyuan Niu",
+    "Xiumei Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The tree-independence number $tree\\text{-}\\alpha(G)$, the induced matching treewidth $tree\\text{-}\\mu(G)$, and the sim-width $simw(G)$ are graph parameters defined in terms of tree or branch decompositions. We establish two polynomial bounds for the tree-independence number of induced $K_{t,t}$-free graphs, one in terms of sim-width and the other in terms of induced matching treewidth. Abrishami et al. (SIDMA, 2025) and Brettell et al. (EJC, 2025) asked whether bounded sim-width, together with the exclusion of an induced $K_{t,t}$, implies bounded tree-independence number. We answer this question by proving that, for integers $t\\geq 2$ and $s\\geq 1$, every induced $K_{t,t}$-free graph $G$ with $simw(G)\\leq s$ satisfies $tree\\text{-}\\alpha(G)=O_t\\left((s+1)^{2t^2-2t}\\right)$. This also proves a polynomial strengthening of a conjecture of Bešter Štorgel et al. (arXiv, 2026) concerning induced $K_{1,t}$-free graphs and improves a theorem of Alon et al. (arXiv, 2025) by reducing the exponent from $3t^2+1$ to $2t^2-2t$. Alon et al. (arXiv, 2025) asked whether, for fixed induced matching treewidth, the tree-independence number is polynomially bounded in $t$. Using a VC-dimension argument, we answer this question affirmatively by showing that, for integers $\\mu\\geq 1$ and $t\\geq 2$, every induced $K_{t,t}$-free graph $G$ with $tree\\text{-}\\mu(G)\\leq\\mu$ satisfies $tree\\text{-}\\alpha(G)=t^{O_\\mu(1)}$.",
+   "abs": "https://arxiv.org/abs/2609.18648",
+   "pdf": "https://arxiv.org/pdf/2609.18648"
+  },
+  {
+   "id": "2609.18870",
+   "type": "new",
+   "title": "A non-trivial bound for 3AP-intersecting families",
+   "authors": [
+    "Peter Keevash"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "3 pages",
+   "abstract": "A family $F$ of subsets of $[n]$ is 3AP-intersecting if every two members have intersection containing a non-trivial three-term arithmetic progression. We prove that there is an absolute constant $c>0$ such that any such $F$ has size at most $(\\tfrac12 - c)2^n$. This is the first non-trivial progress towards a conjecture of Simonovits and Sós that the maximum possible size is $2^{n-3}$. More generally, we show the same bound for $H$-intersecting families whenever $H$ is a $3$-graph on $[n]$ with bounded codegrees. A clique shows that this is sharp, in that the bounded codegree assumption cannot be removed.",
+   "abs": "https://arxiv.org/abs/2609.18870",
+   "pdf": "https://arxiv.org/pdf/2609.18870"
+  },
+  {
+   "id": "2609.17914",
+   "type": "cross",
+   "title": "Separating Non-redundancy and Chain Length",
+   "authors": [
+    "Joshua Brakensiek",
+    "Venkatesan Guruswami",
+    "Aaron Putterman"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "16 pages",
+   "abstract": "For a constraint satisfaction problem defined by a relation $R$, its non-redundancy $\\text{NRD}(R,n)$ is the size of largest instance (as a function of the number $n$ of variables) for which no constraint is implied by the rest. Its chain length $\\text{CL}(R,n)$ is the largest such instance where the constraints can be ordered so that no constraint is implied by the preceding ones. Clearly $\\text{CL}(R,n) \\ge \\text{NRD}(R,n)$ but so far no asymptotic separation was known between these quantities. We exhibit an explicit arity $4$ relation for which $\\text{CL}(R,n) \\ge \\omega(\\text{NRD}(R,n))$.",
+   "abs": "https://arxiv.org/abs/2609.17914",
+   "pdf": "https://arxiv.org/pdf/2609.17914"
+  },
+  {
+   "id": "2609.18629",
+   "type": "new",
+   "title": "A Hajnal-Szemerédi Theorem for Skewed Colorings",
+   "authors": [
+    "Mathis Birken"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Hajnal-Szemerédi theorem guarantees an equitable $(r + 1)$-coloring of every graph of maximum degree at most $r$. We prove a version of this result for more general prescribed color class sizes, subject only to a natural upper bound.",
+   "abs": "https://arxiv.org/abs/2609.18629",
+   "pdf": "https://arxiv.org/pdf/2609.18629"
+  },
+  {
+   "id": "2609.19114",
+   "type": "new",
+   "title": "Hamiltonicity in graphs defined by primes and primitive elements",
+   "authors": [
+    "Yue-Feng She"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages",
+   "abstract": "A prime circle of order $2n$ is a circular ordering of $1,\\ldots,2n$ such that the sum of every two adjacent terms is prime. We prove that a prime circle exists for every sufficiently large $n$. The proof is based on a perfect matching and robust expansion. We also study Hamilton cycles in graphs and digraphs defined by primitive sums and differences over finite fields. In particular, the primitive-sum graph on $\\F_q$ is Hamiltonian for every prime power $q>18\\,888\\,871$, and for the graph on a full prime field $\\F_p$, the bound improves to $p>61$.",
+   "abs": "https://arxiv.org/abs/2609.19114",
+   "pdf": "https://arxiv.org/pdf/2609.19114"
+  },
+  {
+   "id": "2609.18330",
+   "type": "cross",
+   "title": "The Complexity of Undirected Partizan Edge Geography",
+   "authors": [
+    "Yuto Okada"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "9 pages, 6 figures",
+   "abstract": "Partizan Edge Geography is a two-player game on a graph where each player has their own token on a vertex and moves their token to a neighbor in a turn removing the edge. Two player alternately move their tokens and the first player who cannot move loses the game. Fraenkel and Simonson (TCS, 1993) showed that the winner determination of this game is PSPACE-complete on directed graphs, given a graph and token positions.\nThis paper resolves its complexity on undirected graphs by showing the PSPACE-completeness on bipartite undirected graphs of maximum degree 3. The same reduction also works for a variant where two tokens cannot be placed on the same vertex.",
+   "abs": "https://arxiv.org/abs/2609.18330",
+   "pdf": "https://arxiv.org/pdf/2609.18330"
+  },
+  {
+   "id": "2609.17567",
+   "type": "new",
+   "title": "Exact three-component covers in 2-coloured random bipartite graphs",
+   "authors": [
+    "Xiao-Chuan Liu",
+    "Xu Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We resolve the two-colour three-component conjecture of Fernández, Pavez-Signé and Stein for random bipartite graphs. More precisely, we prove that if $G\\sim G(n,n,p)$ and $p\\gg\\sqrt{\\log n/n}$, then with high probability every red--blue edge-colouring of $G$ admits a cover of its vertex set by at most three monochromatic connected components. The proof is based on a uniform expansion lemma for unions of common neighbourhoods and an alternating common-neighbourhood expansion argument.",
+   "abs": "https://arxiv.org/abs/2609.17567",
+   "pdf": "https://arxiv.org/pdf/2609.17567"
+  },
+  {
+   "id": "2609.18611",
+   "type": "new",
+   "title": "An inequality for the number of independent sets of matroids with an application to the forest-tree ratio of graphs",
+   "authors": [
+    "Ferenc Bencs",
+    "Péter Csikvári"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $M=(E,\\mathcal{I})$ be a matroid of rank $r$. Let $\\mathcal{I}_k$ be the independent sets of size $k$, and let $I_k=|\\mathcal{I}_k|$ and $I=|\\mathcal{I}|$. We show that if every set $F\\in \\mathcal{I}_{r-1}$ is contained in at least $\\delta$ bases, then $$\\ln \\left(\\frac{I}{I_r}\\right)\\geqslant \\frac{I_{r-1}}{I_r}\\cdot \\delta \\ln \\left(1+\\frac{1}{\\delta}\\right).$$ In particular, we have $$\\frac{I}{I_r}\\geqslant 2^{I_{r-1}/I_r}.$$ By combining this result with several other ideas, we prove that if $G$ is a simple connected graph on $n$ vertices, and $F(G)$ and $T(G)$ denote its numbers of spanning forests and spanning trees, respectively, then $$\\frac{F(G)}{T(G)}\\geqslant \\frac{F(K_n)}{T(K_n)},$$ where $K_n$ is the complete graph on $n$ vertices. Equality holds if and only if $G=K_n$.",
+   "abs": "https://arxiv.org/abs/2609.18611",
+   "pdf": "https://arxiv.org/pdf/2609.18611"
+  },
+  {
+   "id": "2609.18927",
+   "type": "new",
+   "title": "Rational values and non-principality for $\\ell$-degree Turán densities of hypergraphs",
+   "authors": [
+    "Quanyu Tang",
+    "Wenling Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "Let $k>\\ell\\ge 1$ be integers. For a family $\\mathcal{F}$ of $k$-uniform hypergraphs ($k$-graphs), the $\\ell$-degree Turán density $\\gamma^{(k)}_\\ell(\\mathcal{F})$ of $\\mathcal{F}$ is defined as the asymptotic maximum of the normalized minimum $\\ell$-degree over all $\\mathcal{F}$-free $k$-graphs.\nIn this paper, we prove that for all $k>\\ell>k/2$, every rational number $\\alpha\\in[0,1)$ can be realized as the $\\ell$-degree Turán density $\\gamma^{(k)}_\\ell(\\mathcal{F})$ for some finite family $\\mathcal{F}$ of $k$-graphs. Furthermore, for any $k>\\ell\\ge 1$, we construct an explicit infinite sequence of values realized by single forbidden $k$-graphs: for each integer $q\\ge2$, there exists a $k$-graph $F$ such that $\\gamma^{(k)}_\\ell(F)=1-q^{\\ell-k}$. We also establish a strengthened non-principality property for $\\ell$-degree Turán densities: for all $k>\\ell>1$, there exist two $k$-graphs $F_1$ and $F_2$ satisfying $0< \\gamma^{(k)}_{\\ell}(\\{F_1,F_2\\})<\\min\\{ \\gamma^{(k)}_\\ell(F_1),\\gamma^{(k)}_\\ell(F_2)\\}$.",
+   "abs": "https://arxiv.org/abs/2609.18927",
+   "pdf": "https://arxiv.org/pdf/2609.18927"
+  },
+  {
+   "id": "2609.18995",
+   "type": "new",
+   "title": "Bounded VC-dimension implies the Erdős--Rado sunflower conjecture",
+   "authors": [
+    "Gennian Ge",
+    "Jian Wang",
+    "Zixiang Xu",
+    "Xiaochen Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "The Erdős--Rado sunflower conjecture asserts that, for every fixed integer $r\\ge 3$, there is a constant $K(r)$ such that every $\\ell$-uniform family with more than $K(r)^{\\ell}$ members contains an $r$-sunflower. We prove this conjecture for families of bounded VC-dimension.",
+   "abs": "https://arxiv.org/abs/2609.18995",
+   "pdf": "https://arxiv.org/pdf/2609.18995"
+  },
+  {
+   "id": "2609.17543",
+   "type": "cross",
+   "title": "Distinct Consecutive Products",
+   "authors": [
+    "Przemek Chojecki"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "We prove that there is a density-one set of positive integers for which the products of all distinct consecutive blocks are distinct, answering a question of Erdős and Graham. The construction retains or rejects entire interiors of consecutive-prime gaps and is therefore stable under passage to longer prefixes. Uniform affine-curve estimates control the witnesses with no previous rejected gap, and a scale-contracting forest controls every remaining witness unconditionally.",
+   "abs": "https://arxiv.org/abs/2609.17543",
+   "pdf": "https://arxiv.org/pdf/2609.17543"
+  },
+  {
+   "id": "2609.18458",
+   "type": "new",
+   "title": "A Note on a Result of Chen Li",
+   "authors": [
+    "Xuan Fang",
+    "Tianyu Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Recently, C. Li posted a preprint that resolves the fractional version of Talagrand's discrete convexity problem. In this note, we use the method of C. Li to answer another problem of Talagrand.",
+   "abs": "https://arxiv.org/abs/2609.18458",
+   "pdf": "https://arxiv.org/pdf/2609.18458"
+  },
+  {
+   "id": "2609.17557",
+   "type": "new",
+   "title": "An improved lower bound for the blowup defective chromatic separation constant",
+   "authors": [
+    "Guillaume Lecomte"
+   ],
+   "categories": [
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages. Ancillary files included: DRAT non-list-colourability certificate, CNF, and verification scripts (all machine-checkable)",
+   "abstract": "For a graph $G$ and an integer $d \\geq 0$, let $\\chi^d(G)$ denote the $d$-defective chromatic number, and let $G \\boxtimes K_{d+1}$ be the $(d+1)$-fold clique blowup of $G$. Norin and Steiner disproved the conjecture $\\chi(G) = \\chi^d(G \\boxtimes K_{d+1})$ of Guo, Kang and Zwaneveld by exhibiting, for infinitely many $d$, graphs with $\\chi(G) \\geq (30/29) \\chi^d(G \\boxtimes K_{d+1})$, and they proved the universal upper bound $\\chi(G) \\leq 2 \\chi^d(G \\boxtimes K_{d+1})$. Writing $C_d = \\sup_G \\chi(G)/\\chi^d(G \\boxtimes K_{d+1})$ and $C^* = \\sup_d C_d$, their results give $C^* \\in [30/29, 2]$. We improve the lower bound: we exhibit an explicit 40-vertex graph $W$ with $\\chi(W) = 11$ and $\\chi^2(W \\boxtimes K_3) = 10$, so that $C^* \\geq C_2 \\geq 11/10 > 30/29$, already at the smallest defect for which such a separation is possible, namely $d = 2$. All parameters are established by the proofs; the only computer-assisted input, the non-list-colourability of a certain 30-vertex, 10-colour list instance $(B,L)$, is certified by an independently checkable DRAT refutation.",
+   "abs": "https://arxiv.org/abs/2609.17557",
+   "pdf": "https://arxiv.org/pdf/2609.17557"
+  },
+  {
+   "id": "2609.19123",
+   "type": "new",
+   "title": "A proof of Chvátal's conjecture via a sharp correlation inequality",
+   "authors": [
+    "Fan Chang",
+    "Hong Liu",
+    "Miao Liu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.FA",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, comments welcome!",
+   "abstract": "We prove Chvátal's conjecture, posed in 1972: every hereditary family of subsets of a finite set has a largest intersecting subfamily that is a star. More generally, we prove a sharp correlation inequality for increasing Boolean functions $f,g:\\{0,1\\}^n\\to\\{0,1\\}$. Writing $g^*(x)=1-g(1-x)$, we show that $$ \\sum_{\\varnothing\\ne S\\subseteq[n]}\\hat{g}(S)^2\\max_{i\\in S}\\mathrm{Inf}_i[f]\\le\\frac{2\\mathrm{Cov}(f,g)\\mathrm{Cov}(f,g^*)}{\\mathrm{Cov}(f,g)+\\mathrm{Cov}(f,g^*)}. $$ When $g$ is antipodal, that is, $g=g^*$, this yields $\\mathrm{Cov}(f,g)\\ge\\frac{1}{4}\\min_{i\\in[n]}\\mathrm{Inf}_i[f]$, the correlation formulation of Chvátal's conjecture due to Friedgut, Kahn, Kalai and Keller.",
+   "abs": "https://arxiv.org/abs/2609.19123",
+   "pdf": "https://arxiv.org/pdf/2609.19123"
+  },
+  {
+   "id": "2609.17760",
+   "type": "new",
+   "title": "Every graph with no $K_7^=$ minor is 6-colorable",
+   "authors": [
+    "Zdeněk Dvořák",
+    "Sergey Norin",
+    "Neil Rahman"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 0 figures",
+   "abstract": "The first open case of Hadwiger's conjecture states that every $K_7$-minor-free graph is 6-colorable. We prove that this is the case for $K_7^=$-minor-free graphs, where $K_7^=$ denotes the graph obtained from $K_7$ by deleting two independent edges. The proof is based on an independently interesting density result: Every 5-connected $K_7^=$-minor-free graph with $n\\ge 6$ vertices has at most $4n-8$ edges.",
+   "abs": "https://arxiv.org/abs/2609.17760",
+   "pdf": "https://arxiv.org/pdf/2609.17760"
+  },
+  {
+   "id": "2609.18873",
+   "type": "new",
+   "title": "Decomposing Gorenstein polytopes of large index",
+   "authors": [
+    "Johannes Knupfer",
+    "Benjamin Nill"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "In this paper we prove a free-join decomposition theorem on Gorenstein polytopes significantly improving upon results in prior joint work of the second author with Batyrev, Borger, Haase, Kretschmer, and Payne. In particular, as a strong extension of the Batyrev-Juny lattice pyramid theorem it implies that any $d$-dimensional Gorenstein polytope $P$ of index larger than $\\frac{d+2}{2}$ is a free join of Gorenstein polytopes. Here, the index (also called codegree) is the dilation factor $r$ such that $rP$ is reflexive. As our main application, we prove that the stringy $E$-polynomial of a Gorenstein polytope $P$ vanishes if and only if $P$ is thin (i.e., its local $h^*$-polynomial vanishes), and it has the expected degree otherwise. The latter was conjectured by Batyrev and the second author.\nThe proofs of the general results were found via ChatGPT 5.6 Sol, while a proof of the extremal case of the Batyrev-Juny conjecture is contained in the master thesis of the first author.",
+   "abs": "https://arxiv.org/abs/2609.18873",
+   "pdf": "https://arxiv.org/pdf/2609.18873"
+  },
+  {
+   "id": "2609.19009",
+   "type": "new",
+   "title": "Characteristic drops for high-order vanishing on the hypercube",
+   "authors": [
+    "Dean Menezes"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "Let $F$ be a field, let $0\\le \\ell\\le k-2$, and suppose that $n\\ge k-1$. We determine the minimum degree of a polynomial in $F[x_1,\\ldots,x_n]$ that vanishes to order at least $k$ at every nonzero vertex of the Boolean cube and to order exactly $\\ell$ at the origin. The answer is \\[\nn+2k-2-\\rho_F(k-\\ell), \\] where $\\rho_F(s)$ is the least number of positive integers summing to $s-1$ whose corresponding Catalan numbers are nonzero in $F$.\nThe proof gives an explicit basis of the reduced vanishing space. In this basis the top-degree map is diagonal, with Catalan numbers on the diagonal; a refinement using block coordinates shows that the basis is compatible with polynomial degree. In odd characteristic the degree is either $n+2k-3$ or $n+2k-4$, according as $C_{k-\\ell-2}$ is nonzero or zero. In characteristic $2$ it is \\[\nn+2k-2-s_2(k-\\ell-1), \\] where $s_2$ denotes binary digit sum. Thus the first characteristic drop, and all later drops, are determined exactly.",
+   "abs": "https://arxiv.org/abs/2609.19009",
+   "pdf": "https://arxiv.org/pdf/2609.19009"
+  },
+  {
+   "id": "2609.17958",
+   "type": "new",
+   "title": "When are random regular triangle-free graphs bipartite?",
+   "authors": [
+    "Gregory DeCamillis",
+    "Pu Gao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "70 pages, results originally appeared in master thesis of first author. Figures 1 and 2 are not rendered correctly in HTML version",
+   "abstract": "We study the structure of random $d$-regular triangle-free graphs and show that a sharp phase transition occurs at $d=\\frac{\\sqrt 3}{2}\\sqrt{n \\log n}$. For smaller $d$, asymptotically almost surely the graph is non-bipartite, whereas for greater $d$, asymptotically almost surely the graph is bipartite.",
+   "abs": "https://arxiv.org/abs/2609.17958",
+   "pdf": "https://arxiv.org/pdf/2609.17958"
+  },
+  {
+   "id": "2609.18151",
+   "type": "new",
+   "title": "Demazure crystals for flagged set-valued reverse plane partitions",
+   "authors": [
+    "Siddheswar Kundu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 Pages",
+   "abstract": "In this paper, we build a Demazure crystal structure on the set of all flagged set-valued reverse plane partitions of a given skew shape $\\lambda/\\mu$ and flag $\\Phi$. Our construction provides a unified generalization of the Demazure crystal structures previously known for the set of all flagged semi-standard set-valued tableaux and the set of all flagged reverse plane partitions. Consequently, we obtain a combinatorial expansion for the flagged hybrid Grothendieck polynomial $H_{\\lambda/\\mu}(\\mathbf{x}_{\\Phi};\\mathbf{t};\\mathbf{w})$, introduced by Guo--Kang--Liu, in terms of key polynomials. Applying this expansion, we express the hybrid Grothendieck polynomial $H_{\\lambda/\\mu}(\\mathbf{x};\\mathbf{t};\\mathbf{w})$ in terms of both the stable Grothendieck polynomials $G_{\\nu}(\\mathbf{x})$ and the dual stable Grothendieck polynomials $g_{\\nu}(\\mathbf{x})$.",
+   "abs": "https://arxiv.org/abs/2609.18151",
+   "pdf": "https://arxiv.org/pdf/2609.18151"
+  },
+  {
+   "id": "2609.18331",
+   "type": "new",
+   "title": "Regular dyadic triangulations of delta-matroid polytopes",
+   "authors": [
+    "Mathieu Vallée"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, comments are welcome",
+   "abstract": "Backman and Liu proved that every integral generalized permutohedron of type $A$, and in particular every matroid base polytope, admits a regular unimodular triangulation. The analogous statement fails in type $B$: the delta-matroid simplex \\[\\operatorname*{conv}\\{\\mathbf{0},\\ e_1+e_2,\\ e_1+e_3,\\ e_2+e_3\\}\\] has normalized volume $2$ and no lattice points other than its vertices, so it has no unimodular triangulation. We show moreover that, up to the natural symmetries of the $0/1$ cube and deletion of constant coordinates, it is the unique non-unimodular delta-matroid polytope that is a simplex. We prove instead that every delta-matroid polytope admits a regular dyadic triangulation, meaning a lattice triangulation whose maximal simplices have normalized volumes that are powers of two. More generally, every integral type $B$ generalized permutohedron admits such a triangulation. The main lattice-theoretic ingredient is that the type $B$ root configuration forms a totally dyadic system, a $2$-local analogue of total unimodularity. As a consequence, these polytopes satisfy a dyadic version of the integer decomposition property. In each dimension the corresponding exponent can be chosen uniformly, even though ordinary integer decomposition can fail for delta-matroid polytopes.",
+   "abs": "https://arxiv.org/abs/2609.18331",
+   "pdf": "https://arxiv.org/pdf/2609.18331"
+  },
+  {
+   "id": "2609.17744",
+   "type": "new",
+   "title": "The Theta Conjecture",
+   "authors": [
+    "Giovanni Interdonato",
+    "Alessandro Iraci"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We define a diagonal-inversion statistic on labeled Dyck paths carrying both decorated rises and decorated contractible valleys. This gives an explicit candidate for a bivariate refinement of the univariate Theta conjecture of D'Adderio, Iraci, and Vanden Wyngaerd, recently proved by D'Adderio, Pagaria, and the authors of this work. The univariate conjecture can be recovered from our bivariate version by setting $q=1$.\nThe new conjecture recovers the rise and valley versions of the Delta conjecture when either decoration parameter vanishes, and provides a combinatorial interpretation of the symmetric function $\\Theta_{e_l} \\Theta_{e_k}\\nabla e_{n-k-l}$, which is also conjectured to be the Frobenius characteristic of a certain graded module of diagonal coinvariants with two sets of commuting variables and two sets of anticommuting variables.\nIn support of the Theta conjecture and its touching refinement, we prove its Schröder case, that is, the scalar product of the symmetric function side with $e_{n-d} h_d$ matches the combinatorial side restricted to Schröder paths. The proof uses a finer combinatorial argument than the previously known cases, leveraging two Gaussian product identities.",
+   "abs": "https://arxiv.org/abs/2609.17744",
+   "pdf": "https://arxiv.org/pdf/2609.17744"
+  },
+  {
+   "id": "2609.18491",
+   "type": "cross",
+   "title": "On Kolmogorov's rearrangement problem and Garsia's conjecture",
+   "authors": [
+    "Mark Lewko"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO",
+    "math.FA"
+   ],
+   "primary": "math.CA",
+   "comments": "8 pages, no figures",
+   "abstract": "We give negative answers to Kolmogorov's rearrangement problem and Garsia's conjecture. We construct a complete uniformly bounded orthonormal system for which every rearrangement admits a square-summable series divergent almost everywhere. The construction is built from two copies of the trigonometric system in different orderings. The main ingredient is a combinatorial lemma which finds a prescribed permutation pattern as a subsequence of at least one of two longer permutations. Its proof uses Szemerédi's theorem and a counting argument.",
+   "abs": "https://arxiv.org/abs/2609.18491",
+   "pdf": "https://arxiv.org/pdf/2609.18491"
+  },
+  {
+   "id": "2609.17773",
+   "type": "new",
+   "title": "Generalized short monochromatic odd cycles",
+   "authors": [
+    "Sammy Luo",
+    "Zixuan Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages, comments welcome!",
+   "abstract": "Answering a question of Noga Alon, we generalize a result of Janzer and Yip to show that every $k$-edge-coloring of $K_{r^k+1}$ contains a monochromatic subgraph with chromatic number at least $r+1$ and diameter $O(k^{3/2}r^{k/2}\\log r)$.",
+   "abs": "https://arxiv.org/abs/2609.17773",
+   "pdf": "https://arxiv.org/pdf/2609.17773"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2609.17877",
+   "type": "cross",
+   "title": "The Erdős--Sós Theorem",
+   "authors": [
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.HO",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "",
+   "abstract": "We present an exposition of a proof, discovered by GPT-6 Astra, of the Erdős--Sós Conjecture, which states that every graph with average degree greater than $t-2$ contains every tree on $t\\geq 2$ vertices.",
+   "abs": "https://arxiv.org/abs/2609.17877",
+   "pdf": "https://arxiv.org/pdf/2609.17877"
+  },
+  {
+   "id": "2609.18502",
+   "type": "new",
+   "title": "From Yang-Baxter to Robinson-Schensted-Knuth",
+   "authors": [
+    "Leonid Petrov"
+   ],
+   "categories": [
+    "math.CO",
+    "math-ph",
+    "math.PR",
+    "math.QA"
+   ],
+   "primary": "math.CO",
+   "comments": "58 pages, 28 figures. Survey based on lectures given at Institut Mittag-Leffler in the summer of 2026",
+   "abstract": "We explain how to derive the Robinson-Schensted-Knuth (RSK) correspondence, a fundamental bijection in algebraic combinatorics, from the Yang-Baxter equation. The Yang-Baxter equation arose in the study of quantum many-body systems and later became a cornerstone of the theory of solvable lattice models, particularly vertex models. In a vertex model, arrows occupy the edges of a grid, and each vertex carries a Boltzmann weight determined by the arrows on the four edges meeting at it. The weight of a configuration is the product of these local weights, and a partition function is the sum of the weights of all configurations with prescribed boundary conditions. For a vertex model whose partition functions are the Schur polynomials, the two sides of each instance of the Yang-Baxter equation admit exactly one weight-preserving matching of their summands. Carried across a grid, this forced matching is the classical RSK correspondence in the form of Fomin's growth diagrams. In natural coordinates the local matching becomes the combinatorial three-dimensional R, a set-theoretic solution of the Zamolodchikov tetrahedron equation. Its periodic closure returns the combinatorial R-matrices of one-row crystals.\nThe forced matching is special to the Schur weights. For the Hall-Littlewood and q-Whittaker deformations and their spin versions, at generic parameter values no deterministic matching works for all boundary data. Reading each instance of the Yang-Baxter equation probabilistically, we replace the matching by a coupling of the two sides - a bijectivization, or probabilistic bijection - and obtain Markov operators that transport probability measures attached to vertex models. Iterated over the grid, these operators produce randomized RSK-type dynamics and interacting particle systems, including q-PushTASEP and the stochastic six-vertex model.",
+   "abs": "https://arxiv.org/abs/2609.18502",
+   "pdf": "https://arxiv.org/pdf/2609.18502"
+  }
+ ],
+ "listed_new": 40,
+ "listed_cross": 15
+}
