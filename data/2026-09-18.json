@@ -1,0 +1,575 @@
+{
+ "date": "2026-09-18",
+ "generated_at": "2026-09-18T03:23:55Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-18",
+ "screened": 75,
+ "screened_new": 56,
+ "screened_cross": 19,
+ "scored": 75,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.20785",
+   "type": "cross",
+   "title": "Boolean Small-Ball Inequalities for Discrepancy Theory",
+   "authors": [
+    "Emrullah Akbas",
+    "Suvrit Sra"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO",
+    "math.FA"
+   ],
+   "primary": "math.PR",
+   "comments": "37 pages, comments welcome",
+   "abstract": "We prove new small-ball inequalities for boolean matrix-series. The leading example is $\\mathbb E_s[{\\text{det}(I-S^2)^\\beta\\,\\mathbf 1_{\\{\\|S\\|<1\\}}}]\\ge e^{-O(\\beta\\tau)}$, which holds for boolean matrix-series $S=\\sum_i s_iA_i$ formed using symmetric matrices $A_1,\\dots,A_n$ and uniformly random signs $s\\in\\{\\pm1\\}^n$. Specifically, this inequality holds for all $\\beta\\ge1$ with $\\tau=\\sum_i\\text{Tr} A_i^2$, as soon as the maximum of $(\\text{Tr} A_i^2)_{i=1}^n$ and a certain variance term are bounded above by universal constants. The proof combines the Gaussian reciprocal estimate of (Akbas and Sra 2026), the directional-variation signing theorem of (Guo, Fang, and Lu 2026), and a replica argument that turns existence into a Gibbs law on good signings. Most notably, boolean small-ball delivers a new, interlacing-free proof of Kadison-Singer (most general case); it also recovers Matrix Spencer and Komlós as quick corollaries, while yielding more than six almost immediate proofs of an assortment of discrepancy theoretic problems.",
+   "abs": "https://arxiv.org/abs/2609.20785",
+   "pdf": "https://arxiv.org/pdf/2609.20785"
+  },
+  {
+   "id": "2609.20567",
+   "type": "cross",
+   "title": "Rogers--Ramanujan identities from the geometry of $X^a=Y^b$",
+   "authors": [
+    "Yifeng Huang",
+    "Kenny Lau",
+    "Ken Ono"
+   ],
+   "categories": [
+    "math.NT",
+    "math.AG",
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.NT",
+   "comments": "38 pages; comments welcome",
+   "abstract": "We prove the conjecture of Huang, Jiang, and Oblomkov (HJO) giving a geometric extension of the Rogers--Ramanujan and Andrews--Gordon identities for every torus-knot singularity $X^a=Y^b$ with coprime $1<a<b.$ For a prime power $q$, let $\\mathcal{NC}_n^{a,b}(\\mathbb F_q)$ denote the set of pairs of commuting nilpotent $n\\times n$ matrices $(A,B)$ over $\\mathbb F_q$ satisfying $A^a=B^b$. We establish the threefold equality between their normalized counts, the HJO $q$-series $Z_{a,b}$, and the explicit infinite product $P_{a,b}$: \\[ \\underbrace{\\vphantom{\\Bigg|} \\prod_{m\\geq1}(1-q^{-m}) \\Biggl(\\sum_{n=0}^{\\infty} \\frac{\\lvert\\mathcal{NC}_n^{a,b}(\\mathbb F_q)\\rvert} {\\lvert\\operatorname{GL}_n(\\mathbb F_q)\\rvert}\\Biggr) }_{\\text{point count}} = \\underbrace{\\vphantom{\\Bigg|}Z_{a,b}(q^{-1}) }_{\\text{\\(q\\)-series}} = \\underbrace{\\vphantom{\\Bigg|}P_{a,b}(q^{-1}) }_{\\text{infinite product}}. \\] Our main result is a stronger finite identity: the rank $N$ HJO sum equals $(q;q)_N$ times the generating function for balanced cylindric partitions with entries bounded by $N$. Taking $N\\to\\infty$ yields the HJO conjecture. The proof combines the compositional rational shuffle theorem of Bergeron--Garsia--Leven--Xin and Mellit with a multiplicativity theorem for slope operators and a determinantal model for bounded cylindric partitions, linked by a common $q$-difference equation. The finite identity and the HJO conjecture have been formalized in Lean by AxiomProver, conditional on two stated literature inputs.",
+   "abs": "https://arxiv.org/abs/2609.20567",
+   "pdf": "https://arxiv.org/pdf/2609.20567"
+  },
+  {
+   "id": "2609.20653",
+   "type": "new",
+   "title": "Infinite log-concavity of the Boros--Moll sequences",
+   "authors": [
+    "Matthew H. Y. Xie",
+    "Philip B. Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "Let $(d_i(n))_{i=0}^n$ be the Boros--Moll coefficient sequence. We prove that, for every integer $n\\ge1$, the polynomial \\[\nM_n(x)=\\sum_{i=0}^n\n\\bigl(d_i(n)^2-d_{i-1}(n)d_{i+1}(n)\\bigr)x^i \\] has only simple negative zeros, which strictly interlace those of the Narayana polynomial of the same degree. This proves a conjecture of Chen, Yang, and Zhang and, by Brändén's preservation theorem, settles the infinite log-concavity conjecture of Boros and Moll. The proof uses an expansion of the reversed and normalized form of $M_n(x)$ in derivatives of the Narayana polynomial, together with estimates for the weights and partial sums of the normalized derivatives.",
+   "abs": "https://arxiv.org/abs/2609.20653",
+   "pdf": "https://arxiv.org/pdf/2609.20653"
+  },
+  {
+   "id": "2609.20522",
+   "type": "cross",
+   "title": "Infinite prime sumsets in structured and $U^k(Φ)$-uniform sets",
+   "authors": [
+    "Felipe Hernández",
+    "Tristán Radić"
+   ],
+   "categories": [
+    "math.DS",
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.DS",
+   "comments": "Comments are welcome!",
+   "abstract": "By introducing new ergodic-theoretic techniques in nilsystems, we determine which infinite sumset configurations occur in $U^k(\\Phi)$-uniform and Nil-Bohr sets. To be more precise, our first result associates the degree $k$ of a $U^k(\\Phi)$-uniform set with the variety of sumsets it contains, solving a conjecture of Kra, Moreira, Richter and Robertson. Restricting to Nil-Bohr sets we show the existence of infinite sumsets with summands in the shifted primes $\\mathbb{P}-1$. As a consequence, we show that for any real polynomial $Q(n)$ with leading irrational coefficient of degree $k$, and any natural numbers $\\ell_1, \\cdots, \\ell_k$ there is an infinite set $P\\subset \\mathbb{P}$ such that \\begin{equation*}\nQ\\Big(\\sum_{p \\in I} p\\Big) \\in U \\pmod 1 \\quad \\text{ for all } I \\subset P\n, |I| = \\ell_1, \\ldots, \\ell_k. \\end{equation*}",
+   "abs": "https://arxiv.org/abs/2609.20522",
+   "pdf": "https://arxiv.org/pdf/2609.20522"
+  },
+  {
+   "id": "2609.19938",
+   "type": "new",
+   "title": "The face lattice of any simplicial polytope is Hamiltonian",
+   "authors": [
+    "Robert Lauff"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that the face lattice of any simplicial polytope is Hamiltonian. This proves a major part of a recent conjecture by \\citeauthor{Listingfaces} which states that the face lattice of any polytope is Hamiltonian (SODA26). We use a line shelling in both directions to obtain two different decompositions of the face lattice into disjoint cubes, which allows the application of a theorem by Gregor to obtain the Hamilton cycle.",
+   "abs": "https://arxiv.org/abs/2609.19938",
+   "pdf": "https://arxiv.org/pdf/2609.19938"
+  },
+  {
+   "id": "2609.20590",
+   "type": "new",
+   "title": "On the minimum number of triangles in balanced tripartite graphs with large minimum degree",
+   "authors": [
+    "Chunqiu Fang",
+    "Rongxing Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages, 2 figures. Comments welcome",
+   "abstract": "Let $f(n,t)$ be the minimum number of triangles in a tripartite graph with $n$ vertices in each part and minimum degree at least $n+t$. In 1975, Bollobás, Erdős and Szemerédi proved that $f(n,1)=\\min\\{4,n\\}$. They further remarked that it is ``very likely'' that $f(n,t)\\ge4t^3$ for $n\\ge5t$. They also proved that $f(n,t) \\ge t^3$ for all integers $n \\ge t \\ge 1$. We construct graphs showing that, for all integers $t\\ge1$ and $n\\ge3t+2\\lceil(1+\\sqrt5)t/2\\rceil$, \\[ f(n,t)\\le(1+\\sqrt5)t^3+\\left(1+\\frac1{\\sqrt5}\\right)t^2. \\] Here $1+\\sqrt5\\approx3.236<4$, and the displayed upper bound is strictly less than $4t^3$ for every $t\\ge2$, disproving their proposed bound. We also improve their lower bound $t^3$ by showing that $f(n,t)\\ge\\frac{12}{5}t^3$ for all integers $t\\ge2$ and $n\\ge18t^6$.",
+   "abs": "https://arxiv.org/abs/2609.20590",
+   "pdf": "https://arxiv.org/pdf/2609.20590"
+  },
+  {
+   "id": "2609.19714",
+   "type": "cross",
+   "title": "Improved Algorithms for Beck--Fiala with Bounded Sets",
+   "authors": [
+    "Dylan J. Altschuler"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "11 pages, comments welcome",
+   "abstract": "We give an efficient algorithm with improved algorithmic guarantees for the (offline) Beck--Fiala problem when the sets have bounded size. Let $A$ be an arbitrary matrix $A\\in\\{0,1\\}^{m\\times n}$ with at most $d$ ones per column and at most $s$ ones per row. Let $\\log^*$ denote the iterated logarithm and $\\ell_j$ denote the $j$-fold composition of log. Assume $s\\le\\exp(O(\\sqrt d))$. We provide an efficient algorithm that, for arbitrary sparsity $d$, gives $O(\\sqrt d(1+\\log^*n))$ discrepancy. Moreover, if $d\\ge\\ell_j(n)$ for a fixed integer $j\\ge1$, the algorithm gives $O_j(\\sqrt d)$ discrepancy. The proof is a bootstrapping scheme using the Bansal-Jiang algorithm.",
+   "abs": "https://arxiv.org/abs/2609.19714",
+   "pdf": "https://arxiv.org/pdf/2609.19714"
+  },
+  {
+   "id": "2609.20225",
+   "type": "new",
+   "title": "Sharp spectral lower bounds for the booksize of a graph",
+   "authors": [
+    "Lele Liu",
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "Let $G$ be an $n$-vertex graph with $e(G)$ edges, and let $\\lambda(G)$ denote the largest eigenvalue of its adjacency matrix. The booksize $\\mathrm{bk} (G)$ of $G$ is defined as the largest number of triangles sharing a common edge. The main purpose of this note is to prove that if $\\lambda(G)\\geq\\lambda(T_{n,2})$ and $G$ contains a triangle, then $\\mathrm{bk} (G)\\geq \\lambda(G) - n/3$. To obtain this goal, we prove the sharper quantitative estimate $\\mathrm{bk} (G)\\geq\\lambda(G)-\\frac{2e(G)}{3\\lambda(G)}$ whenever $\\lambda(G)^2 > e(G)$. As the first consequence, we derive that an $n$-vertex graph $G$ with $e(G) > n^2/4$ satisfies that $\\mathrm{bk} (G) > \\frac{2e(G)}{n} - \\frac{n}{3}$, which is stronger than an old conjecture of Erdős, and was proved by Edwards. The second corollary is a positive solution to an open problem by Zhai and Lin (JGT, 2023). The third application is a positive solution to an open problem of Li, Liu, and Zhang (JCTB, 2026), which was independently proved by Zhang et al.",
+   "abs": "https://arxiv.org/abs/2609.20225",
+   "pdf": "https://arxiv.org/pdf/2609.20225"
+  },
+  {
+   "id": "2609.19632",
+   "type": "new",
+   "title": "Ordered matchings versus triangles via pseudorandom triangle-free graphs",
+   "authors": [
+    "Wen Chen",
+    "Qizhong Lin",
+    "Chunlin You"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For ordered graphs $H_1,\\ldots,H_t$, let $\\rt(H_1,\\ldots,H_t)$ denote the least integer $N$ such that every $t$-coloring of the edges of the naturally ordered complete graph on $[N]$ contains an ordered copy of $H_i$ in color $i$ for some $i\\in[t]$. We prove that a uniformly random ordered matching $M$ on $n$ vertices with interval chromatic number two asymptotically almost surely satisfies \\[\n\\rt(K_3,M)\n=\\Omega\\left(\\frac{n^{4/3}}{(\\log n)^{1/3}}\\right). \\] This strengthens the lower bound $\\Omega((n/\\log n)^{5/4})$ of Balko and Poljak for such random matchings and improves the general existential lower bound of Conlon, Fox, Lee and Sudakov by a factor of $\\log n$. The proof combines pseudorandom triangle-free graphs, a coarse encoding of order-preserving embeddings, and a permutation avoidance estimate derived from Brègman's inequality.",
+   "abs": "https://arxiv.org/abs/2609.19632",
+   "pdf": "https://arxiv.org/pdf/2609.19632"
+  },
+  {
+   "id": "2609.20717",
+   "type": "cross",
+   "title": "Fast FPRAS for the Permanent",
+   "authors": [
+    "Xiaoyu Chen",
+    "Heng Guo",
+    "Eric Vigoda",
+    "Xiongxin Yang"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "44 pages",
+   "abstract": "We give an FPRAS for the permanent of an $n\\times n$ $0/1$ matrix with running time $\\widetilde{O}(n^{3.5}\\varepsilon^{-2})$. Our algorithm extends to a strongly polynomial FPRAS for arbitrary nonnegative matrices, as in previous works. Jerrum, Sinclair, and Vigoda (2004) gave the first FPRAS for the permanent of a nonnegative matrix. The running time was subsequently improved to $\\widetilde{O}(n^7)$ by Bezáková, Štefankovič, Vazirani, and Vigoda (2008), and recently to $\\widetilde{O}(n^6)$ by Chen, Vigoda, and Yang (2026).\nWe introduce a multicommodity-flow bound inspired by electrical flows, replacing the usual path-length factor by routing energy. For a boosted version of the classical JSV chain, we prove a relaxation-time bound of $O(n^3\\log n)$ and show that stationary trajectories of this length estimate all stationary hole-pattern probabilities, yielding an $\\widetilde O(n^5)$-time FPRAS algorithm. Our new hole-weighted slide (HWS) chain improves both bounds to $O(n^2\\log n)$, yielding an $\\widetilde O(n^4)$-time algorithm. Finally, we obtain the claimed $\\widetilde O(n^{3.5})$ running time by using a subset of $\\widetilde{O}(\\sqrt{n})$ checkpoint temperatures in an iterated sequence of warm-starts to obtain initializations at every temperature.",
+   "abs": "https://arxiv.org/abs/2609.20717",
+   "pdf": "https://arxiv.org/pdf/2609.20717"
+  },
+  {
+   "id": "2609.20447",
+   "type": "new",
+   "title": "The extensible no-four-on-a-circle problem",
+   "authors": [
+    "Anubhab Ghosal",
+    "Ritesh Goenka"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "We show that there exists a set $S \\subset \\mathbb{Z}^2$ containing no four points on a circle or a line such that $|S \\cap [n]^2| = \\Omega(n)$ as $n \\rightarrow \\infty$. Since any no-four-on-a-circle set in $[n]^2$ has size $O(n)$, this resolves (up to a constant) a question raised by the current authors and Keevash concerning the density of extensible no-four-on-a-circle constructions. Our construction is based on weighted random sampling from the integer lattice followed by careful deletion.",
+   "abs": "https://arxiv.org/abs/2609.20447",
+   "pdf": "https://arxiv.org/pdf/2609.20447"
+  },
+  {
+   "id": "2609.20678",
+   "type": "new",
+   "title": "Schrijver-Delsarte rigidity in association schemes and undecidability of quantum graph homomorphism",
+   "authors": [
+    "Lorenzo Ciardo",
+    "Iris Hebbeker",
+    "Gideo Joubert",
+    "Jana Kreiß",
+    "Antoine Mottet"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CC",
+    "cs.DM",
+    "math.OA",
+    "quant-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove RE-completeness of the quantum homomorphism problem parameterised by families of graphs derived from the classic metric association schemes. These include Kneser graphs, $q$-Kneser graphs, and the complements of Johnson, Grassmann, and Hamming graphs. Our proof develops a spectral method for establishing non-contextuality of quantum polymorphisms. It combines an equality analysis of Roberson's bound on the projective packing number in terms of Schrijver's theta with a structural argument inspired by Erdős-Ko-Rado theory.",
+   "abs": "https://arxiv.org/abs/2609.20678",
+   "pdf": "https://arxiv.org/pdf/2609.20678"
+  },
+  {
+   "id": "2609.19728",
+   "type": "new",
+   "title": "Paths maximize the expected range of graph-indexed random walks",
+   "authors": [
+    "Yinfeng Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that a path maximizes the expected range of a uniformly chosen graph homomorphism into the integers, with one vertex pinned at zero, among all connected bipartite graphs of the same order. This establishes the expectation form of the Benjamini--Häggström--Mossel conjecture. The proof restricts and rescales a homomorphism on each bipartition class, then contracts the edges on which the resulting height function is constant. A quantitative estimate for the rank of these zero edges compensates for a parity term in the expected range of a simple random walk, allowing an induction on the number of vertices. We then prove that the BHM inequality implies the Loebl--Ne\\v set\\v ril--Reed inequality for uniformly chosen integer 1-Lipschitz functions on arbitrary connected graphs, and hence obtain the LNR conjecture as a corollary of BHM. The proof was obtained through interaction with OpenAI GPT-6 Astra and verified by the author. The main results have also been formalized and checked in Lean~4.",
+   "abs": "https://arxiv.org/abs/2609.19728",
+   "pdf": "https://arxiv.org/pdf/2609.19728"
+  },
+  {
+   "id": "2609.19214",
+   "type": "new",
+   "title": "A Strongly Aperiodic Monotile in Three Dimensions",
+   "authors": [
+    "Ioannis Tsiokos"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Socolar and Taylor asked for a single, simply connected three-dimensional prototile that forces nonperiodicity by shape alone, admitting no weakly nonperiodic tiling; the Schmitt-Conway-Danzer biprism and the three-dimensional Socolar-Taylor tile admit screw motions or a periodic stacking direction. We exhibit a rational polyhedral $3$-ball $Q$, which we call Chair44 (R44): a seven-cube chair whose $24$ exposed unit panels carry tiny square-pyramid features, and prove, as a proof submission, that $Q$ admits tilings of $\\mathbb{R}^3$ by congruent copies, reflections allowed, and that every such tiling has no translational period and a symmetry group of order at most $24$; every tiling is homochiral and carries a unique infinite hierarchy of nested supertiles. The solid was designed to a reading of the aperiodic-monotile phenomenon reached with the Six Birds emergence calculus (Section 3.3), and the construction turns on a single finite test, checked by machine: the tile's own contact rule survives coarsening, so that the decoded parent tiling obeys the tile's rule and no other. The proof combines a written geometric argument, that the features force every tiling onto a registered lattice, with exhaustive finite enumerations; the companion census is replayed by two independent implementations, every finite gate is kernel-checked in Lean 4 (modulo a named compiler hook per native_decide theorem), and the written geometric lemmas and the logical assembly are Lean theorems as well, so that the theorem is kernel-checked modulo the named compiler hooks; the written proofs remain as exposition.",
+   "abs": "https://arxiv.org/abs/2609.19214",
+   "pdf": "https://arxiv.org/pdf/2609.19214"
+  },
+  {
+   "id": "2609.19299",
+   "type": "new",
+   "title": "Sumsets of Ahlfors--David regular sets",
+   "authors": [
+    "Fred Tyrrell"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CA",
+    "math.MG",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "We prove that there is an absolute constant $c>0$ such that for every finite $(\\alpha,M)$-Ahlfors--David regular set $A\\subseteq[N]$ with $0\\leq\\alpha<1$ and $M\\geq2$, we have the sumset estimate \\[|A+A|\\geq |A|^{1+c(1-\\alpha)/\\log M}.\\] We also prove a corresponding statement for Ahlfors--David regular sets in $[0,1]$. The proof combines a multiscale entropy decomposition with inverse results from additive combinatorics, showing that Ahlfors--David regularity forces a definite entropy gain at each scale. The dependence $1/\\log M$ in the exponent is of optimal order.",
+   "abs": "https://arxiv.org/abs/2609.19299",
+   "pdf": "https://arxiv.org/pdf/2609.19299"
+  },
+  {
+   "id": "2609.20436",
+   "type": "new",
+   "title": "New upper bounds for the chromatic numbers of Euclidean spaces",
+   "authors": [
+    "Leonid Ivanov",
+    "Nadezhda Glushkova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "A coloring of $\\R^n$ is \\emph{proper for the forbidden distance segment} $[1,\\ell]$ if no two points of the same color are at a distance from $[1,\\ell]$; the minimum number of colors is $\\chi(\\R^n,[1,\\ell])$, and $\\ell=1$ gives the classical chromatic number $\\chi(\\R^n)$ of the Nelson--Hadwiger problem. We prove the new upper bounds $\\chi(\\R^4)\\le43$, $\\chi(\\R^5)\\le132$, $\\chi(\\R^7)\\le1029$, $\\chi(\\R^9)\\le7203$, $\\chi(\\R^{10})\\le45619$, improving the previously known $49$, $140$, $1372$, $17253$ and $3^{10}$; in particular, this refutes the conjecture of Arman, Bondarenko, Prymak and Radchenko that $49$ and $140$ are optimal among all lattice colorings of $\\R^4$ and $\\R^5$. The first four bounds come from explicit rational lattices --- an Eisenstein lattice in $\\R^4$, a lattice in general position in $\\R^5$, and laminations of the Eisenstein colorings $E_6^*/343$ and $E_8/2401$ in $\\R^7$ and $\\R^9$ --- and each is reduced, by one verification protocol, to a finite list of inequalities between explicitly written rational numbers checked in exact arithmetic. The fifth bound is analytic: we prove that for every Eisenstein lattice $\\Lambda$ the distance between same-colored cells of $(3+\\omega)\\Lambda$ equals $\\sqrt{7/3}\\,\\lambda_1(\\Lambda)$, which gives the exact widths of all known colorings with $7^{n/2}$ colors, and a product rule $\\sum_i1/d_i^2\\le1$ for the widths of orthogonal products; together they yield $45619=2401\\cdot19$, the first bound in $\\R^{10}$ below $3^n$, as well as $\\chi(\\R^{25})\\le4\\cdot7^{12}$ and $\\chi(\\R^{26})\\le19\\cdot7^{12}$. We also show that no sublattice of $E_8$ of index below $2401$ defines a proper coloring. All code, exact certificates and data are open.",
+   "abs": "https://arxiv.org/abs/2609.20436",
+   "pdf": "https://arxiv.org/pdf/2609.20436"
+  },
+  {
+   "id": "2609.20546",
+   "type": "new",
+   "title": "Fractional expectation thresholds and the \"second\" Kahn-Kalai conjecture",
+   "authors": [
+    "Tuan Tran"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "We show that the uniform measure on copies of a graph $H$ is $Cq_H\\log(2e(H))$-spread, where $q_H$ is its graphic expectation threshold defined using expected count one. This gives a fractional expectation threshold of at most $C\\pe(H)\\log(2e(H))$. We remove the logarithmic loss for trees and for graphs whose maximum degree is at most exponential in their average degree. The ``second'' Kahn-Kalai conjecture therefore holds for all such graphs.",
+   "abs": "https://arxiv.org/abs/2609.20546",
+   "pdf": "https://arxiv.org/pdf/2609.20546"
+  },
+  {
+   "id": "2609.20603",
+   "type": "cross",
+   "title": "The Airy line ensemble at the edge of uniform alternating sign matrices",
+   "authors": [
+    "Yuchen Liao"
+   ],
+   "categories": [
+    "math.PR",
+    "math-ph",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "63 pages",
+   "abstract": "We prove that the height-level path ensemble of a uniform alternating sign matrix converges to the Airy line ensemble near every interior point of the north-west arctic arc. Under the standard bijection, this is equivalently a limit theorem for the osculating paths of the domain-wall six-vertex model at the ice point. The proof has two main inputs. The integrable input is a new Pfaffian formula for rectangular frozen-corner probabilities, from which we obtain one-point convergence of the top path to the GUE Tracy--Widom distribution. The probabilistic input is an exact resampling law and accompanying bridge estimates for a strictly ordered midpoint encoding of the paths; these yield tightness and the Brownian Gibbs property for every subsequential limit. Aggarwal and Huang's strong characterization then identifies each such limit as the Airy line ensemble.",
+   "abs": "https://arxiv.org/abs/2609.20603",
+   "pdf": "https://arxiv.org/pdf/2609.20603"
+  },
+  {
+   "id": "2609.19177",
+   "type": "new",
+   "title": "The Remaining $K_4$-Free Case in the Multipartite Clique Problem",
+   "authors": [
+    "Yuuki Kasugai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "For integers $n,r,t$ with $2\\le t\\le r-1$, let $f(n,r,t+1)$ denote the largest possible minimum degree of a balanced $r$-partite graph with parts of size $n$ and containing no copy of $K_{t+1}$. Lo, Treglown and Zhao identified $f(n,7,4)$ as the only remaining case in their treatment of the $K_4$-free family. I determine this function for every $n\\ge1$. First, the corresponding three-colourable extremum $\\delta(n,7,3)$ is reduced to a $7\\times3$ integer matrix problem and determined exactly. Second, a structural argument shows that every balanced $7$-partite $K_4$-free graph $G$ with $\\delta(G)>\\frac{132}{31}n$ is three-colourable. Consequently, $f(n,7,4)=\\lfloor30n/7\\rfloor$ except when $n\\equiv4\\pmod7$ and $n\\ge11$, where it is one less.",
+   "abs": "https://arxiv.org/abs/2609.19177",
+   "pdf": "https://arxiv.org/pdf/2609.19177"
+  },
+  {
+   "id": "2609.20726",
+   "type": "new",
+   "title": "Proof of the Pach-Tardos conjecture",
+   "authors": [
+    "Lior Gishboliner",
+    "Xiangyu Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, no figures",
+   "abstract": "We prove that for every acyclic matrix pattern $P$ it holds that $\\operatorname{Ex}(n,P) \\leq n^{1+O_P(1/\\log\\log n)}$.",
+   "abs": "https://arxiv.org/abs/2609.20726",
+   "pdf": "https://arxiv.org/pdf/2609.20726"
+  },
+  {
+   "id": "2609.20351",
+   "type": "new",
+   "title": "Two-sided linear hashing and quadratic density bounds for smooth lattice coverings",
+   "authors": [
+    "Ben Lund"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study random linear projections of a finite-field subset for which every fiber has cardinality close to its mean. We bound the mean fiber size needed to ensure that all fibers satisfy a prescribed relative discrepancy, with a prescribed failure probability. For $S\\subseteq\\mathbb F_q^n$ projected to $\\mathbb F_q^b$, one theorem gives three regimes: at fixed discrepancy and failure probability, sufficient mean fiber sizes are $O(q2^b)$ for arbitrary $q$, $O(q^2)$ when $q$ is at least a suitable constant multiple of $b$, and $O_q(b)$ for fixed $q$. The resulting entropy loss over fixed fields is $h-b=\\log_q h+O(1)$, where $h=\\log_q|S|$ is the input entropy. This matches the order of the binary obstruction of Alon, Dietzfelbinger, Miltersen, Petrank, and Tardos (1999); we give a quantitative random-source refinement over every fixed field. Our proof combines a quotient-and-average counting lemma with the local balanced/unbalanced argument of Dhar and Dvir (arXiv:2204.01665) and Furstenberg estimates of Dhar and Dvir and Kumar and Mon (arXiv:2609.17020).\nWe apply these bounds in the reduction of Ordentlich, Regev, and Weiss (arXiv:2311.04644) to improve their $O(n^3)$ bound for smooth lattice coverings to $O(n^2)$. For each fixed convex body $K\\subseteq\\mathbb R^n$, a Haar-Siegel random lattice of covolume one has the number of lattice points in every translate of $K$ within a prescribed relative error of $\\operatorname{vol}(K)$, with prescribed high probability, once $\\operatorname{vol}(K)\\ge Cn^2$ and $n$ is sufficiently large. The constant and dimension cutoff depend only on the error and failure probability. Complements of higher-rank Kakeya sets of Kopparty, Lev, Saraf, and Sudan (arXiv:1003.3736) show that no hashing guarantee for arbitrary subsets can yield a smaller order in the same reduction.",
+   "abs": "https://arxiv.org/abs/2609.20351",
+   "pdf": "https://arxiv.org/pdf/2609.20351"
+  },
+  {
+   "id": "2609.19536",
+   "type": "new",
+   "title": "The smallest square tileable by pairwise incomparable integer rectangles",
+   "authors": [
+    "George M. Georgiou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages, 2 figures. Ancillary files contain the complete verification software (two independent implementations), build instructions, and all output logs",
+   "abstract": "Croft, Falconer and Guy ({Unsolved Problems in Geometry}, Problem~C5) exhibit a tiling of the $27\\times27$ square by eight pairwise incomparable integer rectangles and remark that it is not known whether $27$ is the smallest side length of a square that can be tiled by pairwise incomparable integer rectangles, no restriction being placed on the number of tiles. We show that it is: for every integer $n\\le26$ and every $k\\ge2$, the $n\\times n$ square admits no tiling by $k$ pairwise incomparable integer rectangles. The proof combines two structural reductions with an exhaustive search over the $167\\,538$ surviving candidate tile sets, carried out by two independently written programs. The complete software, build instructions and output logs are included as ancillary files.",
+   "abs": "https://arxiv.org/abs/2609.19536",
+   "pdf": "https://arxiv.org/pdf/2609.19536"
+  },
+  {
+   "id": "2609.20702",
+   "type": "new",
+   "title": "Cutting a convex body into fat parts and approximating Euclidean distance by graph distances",
+   "authors": [
+    "János Pach",
+    "Gábor Tardos"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages, 9 figures",
+   "abstract": "Can one construct a graph $G$ on the set of integer points ${\\mathbb Z}^2$ in the plane such that the length of the shortest path between any two vertices of $G$ differs from their Euclidean distance by at most an absolute constant? This question of Benjamini, Erd\\H os, Kleiner, Kozma, Schramm, and the first-named author has been open for a long time. We give an affirmative answer to a weaker form of this question, based on the following geometric statement, which is of independent interest. There exists a constant $c>0$ such that for every $i=1,2,\\ldots,$ every $\\rho$-fat plane convex set $S$ can be cut into $2^i$ convex pieces of equal area, each of which is at least $c\\rho$-fat. (A convex set is $\\rho$-fat if the ratio of its inradius to its circumradius is at least $\\rho$.)\nWe prove that there exists an (unweighted) spanning subgraph $G$ of an enlarged copy of ${\\mathbb Z}^2$ such that, for every pair of vertices at Euclidean distance $d$, their shortest-path distance in $G$ lies between $d-O(1)$ and $d+o(d^{5/6})$. The same bound can be achieved by a planar graph with vertex set ${\\mathbb Z}^2$, in which every edge joins two vertices at Euclidean distance at most 2.",
+   "abs": "https://arxiv.org/abs/2609.20702",
+   "pdf": "https://arxiv.org/pdf/2609.20702"
+  },
+  {
+   "id": "2609.19777",
+   "type": "new",
+   "title": "Nearly Spanning Regular Subgraphs",
+   "authors": [
+    "Varun Sivashankar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Alon and Mubayi asked whether, for every integer $k\\ge1$ and every $\\varepsilon>0$, there exists $r_0=r_0(k,\\varepsilon)$ such that every $r$-regular graph on $n$ vertices with $r\\ge r_0$ contains a $k$-regular subgraph covering at least $(1-\\varepsilon)n$ vertices. Previously, the conjecture was known for $k\\in\\{1,2\\}$ and for $k$ and $r$ both even. We answer this question affirmatively for general $k$ and $r$ with $\\varepsilon=O_k(r^{-1/2})$. For $k=2$ and every odd $r\\ge3$, we show that $\\varepsilon=1/(r^2-3)$ suffices which is best possible.",
+   "abs": "https://arxiv.org/abs/2609.19777",
+   "pdf": "https://arxiv.org/pdf/2609.19777"
+  },
+  {
+   "id": "2609.20724",
+   "type": "new",
+   "title": "Longest cycles intersect linearly in highly connected graphs",
+   "authors": [
+    "Jie Ma",
+    "Bo Ning",
+    "Ziyuan Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A longstanding conjecture attributed to Smith (1984) asserts that for every $k\\ge2$, any two longest cycles in a $k$-connected graph share at least $k$ vertices. In this paper, we prove the first linear lower bound, showing that any two longest cycles in a $k$-connected graph share at least $k/600$ vertices. Departing from previous Turán-type extremal arguments, we develop a novel structural approach that also yields applications to related problems on longest cycles and paths.",
+   "abs": "https://arxiv.org/abs/2609.20724",
+   "pdf": "https://arxiv.org/pdf/2609.20724"
+  },
+  {
+   "id": "2609.20771",
+   "type": "cross",
+   "title": "Marton's conjecture in polynomial time",
+   "authors": [
+    "Srinivasan Arunachalam",
+    "Arkopal Dutt",
+    "Sabee Grewal",
+    "Aparna Gupte"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO",
+    "quant-ph"
+   ],
+   "primary": "cs.CC",
+   "comments": "63 pages",
+   "abstract": "Gowers, Green, Manners, and Tao (Annals '25) recently resolved Marton's polynomial Freiman-Ruzsa conjecture. We give an algorithmic counterpart to their result: given uniform sampling and membership-oracle access to a set $A \\subseteq \\mathbb{F}_2^n$ with doubling constant at most $K$, our algorithm outputs a subspace of size at most $|A|$ whose $K^{O(1)}$ translates cover $A$. The algorithm runs in $\\textsf{poly}(n,K)$ time. As applications, we obtain polynomial-time algorithms for a variety of learning problems, including quadratic Goldreich-Levin, improper agnostic tomography of stabilizer states, and tomography of quantum states with bounded stabilizer extent.",
+   "abs": "https://arxiv.org/abs/2609.20771",
+   "pdf": "https://arxiv.org/pdf/2609.20771"
+  },
+  {
+   "id": "2609.20237",
+   "type": "new",
+   "title": "The homomorphism threshold of odd cycle $C_{2k-1}$ is below $\\frac{1}{2k-1}$",
+   "authors": [
+    "Jian Wang",
+    "Shipeng Wang",
+    "Zixiang Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "The homomorphism threshold $\\delta_{\\text{hom}}(H)$ of a graph $H$ asks how large the minimum degree of an $H$-free graph has to be in order to force a homomorphism to a bounded $H$-free graph. Determining this threshold is in general very difficult, and the odd cycles $C_{2k-1}$ are among the most important open cases for $k\\ge 3$. Ebsen and Schacht proved the general upper bound $\\delta_{\\text{hom}}(C_{2k-1})\\le\\frac{1}{2k-1}$, while a breakthrough of Sankar, using topological methods and a graph-theoretic analogue of homotopy equivalence, gave the first positive lower bound. The value $\\frac{1}{2k-1}$ appeared particularly compelling: Ebsen and Schacht obtained the same exact threshold when all odd cycles of length at most $2k-1$ are forbidden, Huang, Liu, Rong and Xu later proved that it is the exact blowup threshold of $C_{2k-1}$, and Letzter and Snyder also explicitly asked whether $\\delta_{\\text{hom}}(C_{5})=\\frac{1}{5}$. Surprisingly, we show that the upper bound can be improved. More precisely, for every integer $k\\ge3$, we prove $$ \\frac{1}{2\\left((k-1)^{4k-5}(2k-1)+\\frac{(k-1)^{4k-5}-1}{k-2}\\right)} \\le \\delta_{\\text{hom}}(C_{2k-1}) \\le \\frac{4(k-1)}{4(k-1)(2k-1)+1} <\n\\frac{1}{2k-1}. $$ The new lower bound comes from a new graph-theoretic construction based on a sparse homomorphism theorem of Nešetřil and Zhu, and it improves Sankar's quantitative bound. The improved upper bound follows from a new structural argument that controls common neighborhoods along short odd paths. Our results have various consequences, in particular, every odd cycle of length at least five has pairwise distinct chromatic, homomorphism, polynomial removal, and linear removal thresholds, resolving two conjectures of Fox and Wigderson.",
+   "abs": "https://arxiv.org/abs/2609.20237",
+   "pdf": "https://arxiv.org/pdf/2609.20237"
+  },
+  {
+   "id": "2609.20690",
+   "type": "new",
+   "title": "A counterexample to the quantum Hedetniemi conjecture",
+   "authors": [
+    "Julius A. Zeiss"
+   ],
+   "categories": [
+    "math.CO",
+    "quant-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages + 3 pages appendix, 3 figures",
+   "abstract": "Godsil, Roberson, Šámal and Severini conjectured that the quantum chromatic number of the categorical product of two graphs equals the minimum of the quantum chromatic numbers of the factors. We disprove this conjecture: we construct explicit finite graphs $G,H$ with \\[ \\chi(G\\times H) \\leq 1538 < 1539 = \\min(\\chi_q(G),\\chi_q(H)).\\]The graphs are obtained from Zhu's counterexample to Hedetniemi's conjecture by using a base graph for which the Lovász theta number of the complement, and not only the fractional chromatic number, is large. The lower bound for the first factor is the theta bound. For the second factor we adapt Zhu's argument to projections that do not commute: the step that fixes the colors of a clique is replaced by identities between operators. Both lower bounds hold for colorings by projections in an arbitrary nonzero unital $C^*$-algebra. Hence the conjecture also fails for the spatial, approximate, commuting-operator and $C^*$-algebraic variants of the quantum chromatic number. We also give smaller counterexamples certified by exact integer data. The graph constructions, the certificates and the counterexample statements in the projective formulation are formalized in Lean~4.",
+   "abs": "https://arxiv.org/abs/2609.20690",
+   "pdf": "https://arxiv.org/pdf/2609.20690"
+  },
+  {
+   "id": "2609.20173",
+   "type": "new",
+   "title": "Linear Tur'an Numbers of Four-Edge Uniform Paths via Incidence Rank",
+   "authors": [
+    "Mahesh Ramani"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "Let $P_4^r$ denote the $r$-uniform expansion of the graph path with four edges. We prove that every $n$-vertex linear $r$-uniform $P_4^r$-free hypergraph has at most $(r+1)n/r$ edges, resolving a conjecture of Adak and Verma for every $r \\geq 2$. Equality holds precisely for vertex-disjoint unions of Steiner systems $S(2,r,r^2)$. The main ingredient is a sharp incidence-rank inequality. If $N(H)$ is the edge-vertex incidence matrix of a linear $r$-uniform hypergraph whose line graph is a cograph, then $(r+1)\\operatorname{rank}_{\\mathbb{R}} N(H) \\geq r|E(H)|$. Equality holds exactly when every edge-containing component is an $S(2,r,r^2)$. The proof follows the union-join decomposition of cographs. At a join node, the row-difference spaces of the co-components are mutually orthogonal, and the possible rank defect is determined by balanced co-components. Perron-Frobenius theory identifies the smallest balanced pieces as parallel classes of $r$ disjoint $r$-sets, while an orthogonality argument bounds their number by $r+1$. The equality case then reconstructs the Steiner system. The linear Turán bound follows from $\\operatorname{rank}_{\\mathbb{R}} N(H) \\leq |V(H)|$.",
+   "abs": "https://arxiv.org/abs/2609.20173",
+   "pdf": "https://arxiv.org/pdf/2609.20173"
+  },
+  {
+   "id": "2609.20305",
+   "type": "new",
+   "title": "On the difference between clique partition and clique covering numbers",
+   "authors": [
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "For a graph \\(G\\), let \\(\\operatorname{cp}(G)\\) and \\(\\operatorname{cc}(G)\\) be the minimum numbers of cliques in an edge partition and a clique cover of \\(G\\), respectively. Set $\\sigma_n\n= \\max_{\\lvert V(G)\\rvert=n}\n\\bigl(\\operatorname{cp}(G)-\\operatorname{cc}(G)\\bigr), d_n=\\left\\lfloor\\frac{n^2}{4}\\right\\rfloor-\\sigma_n.$ In 1983, Erdős, Faudree, and Ordman asked whether \\(d_n=O(n)\\). Caccetta, Erdős, Ordman, and Pullman previously constructed graphs showing \\(d_n=O(n^{3/2})\\). We prove that $d_n=\\Theta(n^{4/3}),$ thereby determining the correct order of the deficit and answering their question in the negative.",
+   "abs": "https://arxiv.org/abs/2609.20305",
+   "pdf": "https://arxiv.org/pdf/2609.20305"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2609.19514",
+   "type": "cross",
+   "title": "Spectral Gap of Down-Up Walks via Trickle-Down: A Simplified and Sharpened Analysis",
+   "authors": [
+    "Xiaoyu Chen",
+    "Kuikui Liu"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "Local-to-global techniques for establishing spectral gaps have played a central role in the modern theory of Markov chain mixing times and the theory of high-dimensional expanders. One of the most striking results in this burgeoning literature is that a spectral gap for the global down-up walk on the facets of a pure simplicial complex can be reduced to sufficiently strong spectral expansion of just the codimension-2 links of the complex, a phenomenon colloquially referred to as \"trickle-down\". These types of theorems have had many important applications, including rapid mixing of the exchange walk on the bases of any matroid. In this primarily expository article, we give streamlined proofs of two such theorems in the literature, one by Oppenheim (2018) and one by Leake and Oveis Gharan (2025), via an integrated Bochner method. Moreover, in the latter setting, we quantitatively strengthen the dependence of the global spectral gap on the dimension of the complex and the spectral influence, resolving an open question of Leake and Oveis Gharan.\nDisclaimer: The proofs were developed through a couple of rounds of interaction with GPT-5.6 Sol Ultra. We later discovered that Guo and Zhang (2026) had independently proven the same strengthening of the trickle-down theorem of Leake and Oveis Gharan using an extremely similar argument, also found by GPT-5.6 Sol Ultra. The focus of their paper is the complexity of approximating the partition function of spin systems on planar graphs, not on the trickle-down phenomenon itself. In contrast, our motivation is primarily expository, and we hope to bring Bochner-type methods and their connections with the trickle-down phenomenon to the attention of a wider community of researchers.",
+   "abs": "https://arxiv.org/abs/2609.19514",
+   "pdf": "https://arxiv.org/pdf/2609.19514"
+  }
+ ],
+ "listed_new": 56,
+ "listed_cross": 19
+}
