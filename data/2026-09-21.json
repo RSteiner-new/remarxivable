@@ -1,0 +1,540 @@
+{
+ "date": "2026-09-21",
+ "generated_at": "2026-09-21T02:40:28Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-21",
+ "screened": 44,
+ "screened_new": 34,
+ "screened_cross": 10,
+ "scored": 44,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.21083",
+   "type": "new",
+   "title": "Unique Minimizers for Permanents, Mixed Discriminants, and Log-concave Polynomials",
+   "authors": [
+    "Leonid Gurvits",
+    "Jonathan Leake"
+   ],
+   "categories": [
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The permanent and mixed discriminant of positive matrices are classic problems for which we do not expect an efficient algorithm for exact computation. Thus much work has been done to understand how well we can bound and approximately compute these quantities. One line of research in this area begins with the results of the first author, where van der Waerden lower bounds of $\\frac{n!}{n^n}$ are proven for doubly stochastic inputs for both problems, using a simple proof via stable polynomials. Along with the bound itself, the same techniques are used to show that the permanent and mixed discriminant are uniquely minimized at a certain natural symmetric input.\nIn this paper, we generalize those results in two ways. First, we extend the unique minimization results beyond doubly stochastic inputs to other marginals which are near doubly stochastic. This yields the first such unique minimization results for the mixed discriminant beyond the doubly stochastic case. We also discuss why one cannot hope similar results to hold in general for all marginals. Second, we extend the unique minimization result for real stable polynomials to strongly log-concave (aka Lorentzian) polynomials in the doubly stochastic case. This captures an analogous previous result on unique minimization for the mixed volume. Finally, we discuss various open problems related to these results.",
+   "abs": "https://arxiv.org/abs/2609.21083",
+   "pdf": "https://arxiv.org/pdf/2609.21083"
+  },
+  {
+   "id": "2609.21477",
+   "type": "new",
+   "title": "Integrality-Gap Bounds for Weighted Matchoids and Matroid Intersection",
+   "authors": [
+    "Yu Cong",
+    "Yajie Zhao"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The weighted $k$-matroid intersection problem asks for a maximum-weight set that is independent in each of $k$ matroids on a common ground set. The natural LP relaxation optimizes over the intersection of the $k$ matroid independent set polytopes. It is conjectured that this LP has integrality gap at most $k-1$. The conjecture is known for $k\\le3$, but for $k\\ge4$ the best general upper bound was $k$. We improve this bound to $k-1+1/k$. More generally, we prove that the natural LP of a $p$-matchoid has integrality gap at most $p-1+1/p$, with a deterministic LP-relative algorithm attaining the same factor. The matchoid extension resolves the $p$-matchoid part of a conjecture of Lee, Sviridenko, and Vondrák; projective planes give explicit tight instances whenever one of order $p-1$ exists.",
+   "abs": "https://arxiv.org/abs/2609.21477",
+   "pdf": "https://arxiv.org/pdf/2609.21477"
+  },
+  {
+   "id": "2609.21927",
+   "type": "new",
+   "title": "A colorful Steinitz theorem with different centers",
+   "authors": [
+    "G. Ivanov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a colorful quantitative Steinitz theorem in which the color classes may have different centers. If the convex hull of each of $2d$ sets in $\\R^d$ contains a translate of the Euclidean unit ball, then a rainbow convex hull contains a ball of radius $(3d)^{-2d^2}$ whose center belongs to the convex hull of the given centers. The main ingredient is an exact result for translates of a segment, proved by a lifting and a topological colorful Helly theorem. The same idea also yields a sharp colorful Helly theorem for translated cones: for $1 \\le k \\le d-1$, if every rainbow selection from $2d-k+1$ finite families of convex sets in $\\mathbb{R}^d$ has a $k$-dimensional cone in its intersection, then the intersection of one of the families contains such a cone.",
+   "abs": "https://arxiv.org/abs/2609.21927",
+   "pdf": "https://arxiv.org/pdf/2609.21927"
+  },
+  {
+   "id": "2609.21315",
+   "type": "new",
+   "title": "Excluding a line from gammoids",
+   "authors": [
+    "Zhen Chen",
+    "Zhuo Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For all positive integers $\\ell$ and $r$, we prove that a finite simple rank-$r$ gammoid with no $U_{2,\\ell+2}$-minor has at most $\\ell(r-1)+1$ elements. This gives an affirmative answer to Problem~7.2 of Boretsky and Walsh [European J. Combin.\\ 137 (2026), 104419], for both gammoids and transversal matroids. The bound is sharp for every $\\ell$ and $r$. The key estimate is that, for every finite simple gammoid $M$, the sum of $|L|-2$ over its long lines is at most $|E(M)|-r(M)$.",
+   "abs": "https://arxiv.org/abs/2609.21315",
+   "pdf": "https://arxiv.org/pdf/2609.21315"
+  },
+  {
+   "id": "2609.21978",
+   "type": "new",
+   "title": "Hypercube eigenfunctions with two strong nodal domains",
+   "authors": [
+    "Yize He",
+    "Qinghong Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "Bıyıko{\\u g}lu, Hordijk, Leydold, Pisanski, and Stadler conjectured that, for every $n\\geq3$ and $1\\leq i\\leq n-2$, the hypercube $Q_n$ admits a Laplacian eigenfunction with eigenvalue $2i$ and exactly two strong nodal domains. In this paper, we confirm this conjecture.",
+   "abs": "https://arxiv.org/abs/2609.21978",
+   "pdf": "https://arxiv.org/pdf/2609.21978"
+  },
+  {
+   "id": "2609.20967",
+   "type": "new",
+   "title": "Wild frieze patterns over the integers",
+   "authors": [
+    "Leon Eickhoff"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 4 figures",
+   "abstract": "We study frieze patterns over the integers that are allowed to have wild entries. We introduce the quiddity number as a new invariant. The quiddity number is then used to classify strongly connected components of the directed graph $\\Gamma_{2,n}(\\mathbb{Z})$. Furthermore, we show that every finite simple directed graph arises as an induced subgraph of a directed graph $\\Gamma_{2,n}(\\mathbb{Z})$ for $n$ sufficiently large.",
+   "abs": "https://arxiv.org/abs/2609.20967",
+   "pdf": "https://arxiv.org/pdf/2609.20967"
+  },
+  {
+   "id": "2609.20881",
+   "type": "new",
+   "title": "On the Word-Representability of Tensor Product Graphs",
+   "authors": [
+    "Nawaf Alshammari"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Word-representable graphs are a class of graphs that can be represented by words, where edges and non-edges are determined by the alternation of letters in those words. The tensor product $G \\times H$ (also known as the direct product or Kronecker product) is one of the four standard graph products. Problem 7.2.5 in Kitaev and Lozin's book \\emph{Words and Graphs} (Springer, 2015) raised three open questions regarding the word-representability of tensor products.\nDespite extensive research on word-representable graphs, the word-representability of tensor products seems to have received no attention. This paper not only answers 2.5 of the questions posed by Kitaev and Lozin in Problem 7.2.5, but also initiates a systematic study, focusing on four fundamental families: wheel graphs $W_n$, complete graphs $K_n$, the Mycielskian of the cycle graph $\\mu_n$, and the extended Mycielskian of the cycle graph $\\mu'_n$.\nAmong our main results, we prove that $W_{2n} \\times G$, $\\mu_{2n} \\times G$, and $\\mu'_{2n} \\times G$ are always word-representable for any graph $G$; that $K_n \\times K_m$ is word-representable if and only if $\\min\\{n,m\\} \\leq 3$; and that tensor products $G \\times H$ containing $W_{2n+1} \\times W_{2m+1}$ or $\\mu_{2n+1} \\times \\mu_{2m+1}$ or $\\mu'_{2n+1} \\times \\mu'_{2m+1}$ as induced subgraphs are non-word-representable. Our proofs exploit the hereditary nature of non-word-representability and the presence of non-comparability neighbourhoods.",
+   "abs": "https://arxiv.org/abs/2609.20881",
+   "pdf": "https://arxiv.org/pdf/2609.20881"
+  },
+  {
+   "id": "2609.20979",
+   "type": "new",
+   "title": "An elementary proof of the Komlós conjecture",
+   "authors": [
+    "Sankeerth Rao Karingula",
+    "Shachar Lovett"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We give an elementary proof of the Komlós conjecture by simplifying the recent proof of Guo, Fang, and Lu. We show that any vectors $v_1,\\ldots,v_n\\in\\mathbb{R}^d$ with $\\|v_i\\|_2\\le1$ admit signs $\\varepsilon_i\\in\\{-1,1\\}$ such that $\\|\\sum_{i=1}^n\\varepsilon_i v_i\\|_\\infty\\le36$. The proof uses only elementary combinatorial and probabilistic arguments and basic calculus.",
+   "abs": "https://arxiv.org/abs/2609.20979",
+   "pdf": "https://arxiv.org/pdf/2609.20979"
+  },
+  {
+   "id": "2609.21529",
+   "type": "new",
+   "title": "Spectral Extremal Graphs without a $K_k$-Factor",
+   "authors": [
+    "Cunxiang Duan",
+    "Tingting Han",
+    "Lin-Peng Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $k\\ge 3$ and let $n=km$. A $K_k$-factor in an $n$-vertex graph is a collection of $m$ vertex-disjoint copies of $K_k$ that covers the entire vertex set. We determine the maximum adjacency spectral radius of an $n$-vertex graph containing no $K_k$-factor when $m\\ge 2k-1$. More precisely, we prove that every such graph $G$ satisfies \\[\n\\rho(G)\\le \\rho(H_{n,k}),\n\\qquad\nH_{n,k}=K_{k-2}\\vee\\bigl(K_{n-k+1}\\cup K_1\\bigr), \\] with equality if and only if $G\\cong H_{n,k}$. Equivalently, the unique extremal graph is obtained from $K_{n-1}$ by adding one vertex adjacent to exactly $k-2$ vertices of the clique. Our proof combines a decomposition lemma for sparse complements, derived from the Hajnal--Szemerédi theorem, with the Motzkin--Straus inequality and spectral estimates based on quotient matrices and the Rayleigh quotient.",
+   "abs": "https://arxiv.org/abs/2609.21529",
+   "pdf": "https://arxiv.org/pdf/2609.21529"
+  },
+  {
+   "id": "2609.21645",
+   "type": "new",
+   "title": "Even-Intersecting Families of Permutations",
+   "authors": [
+    "Anirban Banerjee",
+    "Abisek Dewan",
+    "Rajiv Mishra"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "A family of permutations in $S_n$ is called even-intersecting if every two distinct members agree in an even number of positions. Let $M(n)$ denote the maximum size of such a family. For even $n$, we prove that\n$$n!!\\leq M(n)\\leq e^{\\frac{n}{2}+o(n)}n!!,$$\nimproving the bound obtained from a theorem of Cameron, Deza and Frankl (1987) by an exponential factor.\nThis problem may be viewed as a permutation analogue of the classical Eventown problem for set systems. For odd $n$, we give a construction yielding $M(n)\\geq n^2/4$. We further extend this construction to obtain\n$$ M(n)\\geq\\bigl(n-\\sqrt{n-1}\\bigr)^2 ,$$\nwhenever $n=(q+1)^2+1$ and $q$ is an odd prime power. The latter bound asymptotically matches the upper bound $M(n)\\leq(n-1)^2+1$ obtained by Cameron, Deza and Frankl.",
+   "abs": "https://arxiv.org/abs/2609.21645",
+   "pdf": "https://arxiv.org/pdf/2609.21645"
+  },
+  {
+   "id": "2609.22078",
+   "type": "new",
+   "title": "Stellahedral Geometry of Partially Ordered Sets",
+   "authors": [
+    "Tommaso Faustini",
+    "Luis Ferroni",
+    "Ludovico Piazza"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We introduce a transformation on partially ordered sets, termed the \\emph{stellahedral transform}, with notable features.\nIt preserves the properties of being Eulerian, Cohen--Macaulay, and of being the face poset of a polytope.\nFurthermore, it admits an explicit geometric realization for convex polytopes and specializes to the construction that takes a simplex to the stellahedron. One motivation for this definition comes from the theory of toric $h$-polynomials and (augmented) Chow polynomials of Eulerian posets.\nWe show that the right augmented Chow polynomial of an Eulerian poset $P$ agrees with the toric $h$-polynomial of the stellahedral transform of $P$. We use this perspective, together with $\\mathbf{cd}$-index results due to Ehrenborg (2005) and Karu (2006), to prove two positivity results for augmented Chow polynomials: for Gorenstein* posets they are unimodal, and for face posets of polytopes they are $\\gamma$-positive.\nAlong the way we provide negative answers to two open questions concerning Eulerian and Gorenstein* posets. First, the question on the nonnegativity of Eulerian Chow polynomials, posed by Ferroni, Matherne, and Vecchi (2024). Second, the question posed by Athanasiadis and Kalampogia-Evangelinou (2023) on the real-rootedness of chain and Chow polynomials of Gorenstein* posets: these examples provide a novel application of a technique introduced by Murai and Nevo (2014).",
+   "abs": "https://arxiv.org/abs/2609.22078",
+   "pdf": "https://arxiv.org/pdf/2609.22078"
+  },
+  {
+   "id": "2609.21388",
+   "type": "new",
+   "title": "Finite deletion-induced saturation for every non-complete graph",
+   "authors": [
+    "Haochen Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages. Computer-assisted proof",
+   "abstract": "A graph $G$ is deletion-induced-saturated for $H$ if $G$ has an edge, contains no induced copy of $H$, and deleting any edge of $G$ creates an induced copy of $H$. We prove, with finite certificate verification, that a finite graph $H$ admits such a finite graph $G$ if and only if $H$ is not complete. This resolves the deletion conjecture of Fan, Hajebi, Hajebi and Spirkl. The main step transfers suitable free amalgamations to finite extensions using a local lifting theorem of Auinger, Bitterlich and Otto. A second criterion treats edge addition by protecting specified nonedges and then taking a maximal induced-$H$-free completion. Structural results of Bonamy, Groenland, Johnston, Morrison and Scott reduce the remaining targets to dense templates and a finite hereditary class. Two uniform constructions in halved cubes handle the dense templates. The finite part is supported by exhaustive coverage certificates, structural certificates and explicit hosts, including a circulant graph on $30$ vertices.",
+   "abs": "https://arxiv.org/abs/2609.21388",
+   "pdf": "https://arxiv.org/pdf/2609.21388"
+  },
+  {
+   "id": "2609.21067",
+   "type": "new",
+   "title": "Helly complexes are Hellyfications of their boundaries",
+   "authors": [
+    "Martín Blufstein"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages, comments welcome",
+   "abstract": "We prove that every finite Helly complex is isomorphic, at the level of its $1$-skeleton, to the Hellyfication (equivalently, the discrete injective hull) of its combinatorial boundary equipped with the metric induced from the complex. In particular, the boundary-rigidity phenomenon for Helly complexes proved by Blufstein-Chalopin-Chepoi admits a canonical injective-hull interpretation, independent of reconstruction procedures based on dismantling.",
+   "abs": "https://arxiv.org/abs/2609.21067",
+   "pdf": "https://arxiv.org/pdf/2609.21067"
+  },
+  {
+   "id": "2609.21615",
+   "type": "new",
+   "title": "Induced packing treewidth II. Excluding a clique or a biclique",
+   "authors": [
+    "Amir Nikabadi",
+    "Paweł Rzążewski"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The notion of induced packing treewidth aims to unify classes defined by forbidden induced subgraphs or induced minors with classes defined by the existence of certain structured tree decompositions. For a graph $H$, \\emph{induced $H$-packing treewidth}, denoted by $\\treepi_{H}$, is a tree-decomposition-based graph parameter that, for each bag, measures the maximum number of pairwise anticomplete induced copies of $H$ intersecting that bag. This notion generalizes some previously studied parameters: when $H=P_1$, it is equivalent to tree-independence number, and when $H=P_2$, it is equivalent to induced matching treewidth.\nWe prove the following:\n\\begin{itemize}[itemsep=2mm,leftmargin=6mm]\n\\item For all $a,t\\in \\mathbb{N}$, $K_{a,a}$-free graphs of bounded induced $P_t$-packing treewidth have bounded tree-independence number.\nThis extends the previous result of Abrishami et al. [SIAM J. Discrete Math., 2025] for $t=2$, and a result of Hajebi and Spirkl who showed that $(P_t,K_{a,a})$-free graphs have bounded tree-independence number.\n\\item If $H$ is any fixed path or a star, then the class of graphs of bounded induced $H$-packing treewidth is $\\chi$-bounded.\nAgain, this extends the previous result of Abrishami et al. [SIAM J. Discrete Math., 2025] for $H=P_2$.\n\\item Finally, we study the relationship between induced packing treewidth and \\emph{sim-width}, a width parameter based on branch decompositions.\nWe show that, although \\emph{sim-width} and induced $P_3$-packing treewidth are incomparable, graphs of bounded sim-width that exclude all \\emph{$H$-obstructions}---certain graphs that force large induced $H$-packing treewidth---have bounded induced $H$-packing treewidth.\nThis simultaneously generalizes and resolves questions posed by Abrishami et al. [SIAM J. Discrete Math., 2025] and Brettell et al. [European J. Comb., 2025]. \\end{itemize}",
+   "abs": "https://arxiv.org/abs/2609.21615",
+   "pdf": "https://arxiv.org/pdf/2609.21615"
+  },
+  {
+   "id": "2609.21403",
+   "type": "new",
+   "title": "An involution on Dyck paths in the region $\\defc\\le\\min(\\area,\\dinv)$ that interchanges area and dinv",
+   "authors": [
+    "Graham Hawkes"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct an explicit involution on Dyck paths satisfying $\\defc\\le\\min(\\area,\\dinv)$ that interchanges area and dinv. The construction relies on a number of new combinatorial objects developed here and two main external tools: the dual Dyck insertion of \\cite{Hawkes26} and the Garsia--Milne involution principle~\\cite{GarsiaMilne81}, as formulated by Doyle~\\cite{Doyle19}.",
+   "abs": "https://arxiv.org/abs/2609.21403",
+   "pdf": "https://arxiv.org/pdf/2609.21403"
+  },
+  {
+   "id": "2609.21895",
+   "type": "new",
+   "title": "Digraphs of Large Girth and Dichromatic Number in Tournaments with Large Dichromatic Number",
+   "authors": [
+    "Pierre Charbit",
+    "Samuel Coulomb"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In the 1960s, Erdős and Hajnal conjectured that every graph with sufficiently large chromatic number contains a subgraph of large girth (size of a smallest cycle) and large chromatic number. In this paper, we prove that every tournament with sufficiently large dichromatic number contains a subdigraph of large digirth (size of a smallest directed cycle) and large dichromatic number. We investigate the same statement when replacing digirth by girth (of the underlying graph). We show that it implies the conjecture of Erdős and Hajnal, and prove it for a particular family of tournaments.",
+   "abs": "https://arxiv.org/abs/2609.21895",
+   "pdf": "https://arxiv.org/pdf/2609.21895"
+  },
+  {
+   "id": "2609.21367",
+   "type": "new",
+   "title": "A solution to a conjecture on the signless Laplacian spectral radius for $t$-color-critical graphs",
+   "authors": [
+    "Ming-Zhu Chen",
+    "Ya-Lei Jin",
+    "Peng-Li Zhang",
+    "Jian Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An induced matching is a matching that forms an induced subgraph. A graph is $t$-color-critical if removing some induced matching of size $t$ lowers its chromatic number, but removing any $t-1$ vertices does not. Let $F$ be a $t$-color-critical graph with $\\chi(F)=r+1$. For sufficiently large $n$, Simonovits determined the unique edge-extremal $F$-free graph on $n$ vertices. Recently, Zheng, Li and Li [Linear Algebra Appl.\\ 730 (2026) 546--565] conjectured that, for $t\\ge 2$ and $r\\ge 3$, the join $K_{t-1}\\vee T_{n-t+1,r}$ uniquely maximizes the signless Laplacian spectral radius among all $n$-vertex $F$-free graphs when $n$ is sufficiently large. In this paper, we prove this conjecture. In contrast to the usual spectral arguments, our proof of this conjecture relies on two techniques of a rather different flavour. Our first technique is an analogue of Zykov symmetrization for the signless Laplacian matrix. Our second technique is an induction on $n$, from which we obtain the lower bound on the smallest entry of the Perron vector of a signless Laplacian spectral extremal graph rather than a structural statement.",
+   "abs": "https://arxiv.org/abs/2609.21367",
+   "pdf": "https://arxiv.org/pdf/2609.21367"
+  },
+  {
+   "id": "2609.20864",
+   "type": "new",
+   "title": "Graph Decompositions at the Expectation Threshold",
+   "authors": [
+    "Jia-Qi Yang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "For \\(n\\ge3\\) and a graph \\(H\\) on at most \\(n\\) vertices, let \\(q(H)\\) be the expectation threshold for its containment in \\(G(n,p)\\). We prove that there are absolute constants \\(a,L>0\\) such that, for every \\(C>0\\), every graph of degeneracy at most \\(C\\log n/\\log\\log n\\) has a deterministic edge decomposition into at most \\(\\lceil a(C+1)\\rceil\\) pieces, each with ordinary containment threshold at most \\(Lq(H)\\). This removes the maximum-degree hypothesis from a theorem of Ascoli, He, Park, and Talagrand in their approach to Talagrand's discrete convexity problem. With constants depending on the fixed parameters, a structural extension allows the addition of \\(O(\\log n)\\) vertices with arbitrary incident edges. The uniform main bound also gives an \\(O(1+\\log\\log n)\\)-piece decomposition for every target graph, with an absolute threshold multiplier. The main ingredient converts Li's two-set coupling for spread measures into a partition of a prescribed neighborhood list, fixed before the random host is sampled. It allows arbitrary overlaps and repetitions and controls all Hall matching conditions simultaneously by bounding target demand and host supply through common two-sided approximations under the biased host measure.",
+   "abs": "https://arxiv.org/abs/2609.20864",
+   "pdf": "https://arxiv.org/pdf/2609.20864"
+  },
+  {
+   "id": "2609.20871",
+   "type": "new",
+   "title": "Clique partitions and bounded simplicial defect",
+   "authors": [
+    "Obinna Okechukwu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages",
+   "abstract": "The clique partition number of a graph is the minimum number of complete subgraphs whose edge sets partition its edge set. We study graphs in which, in every induced subgraph and outside every prescribed clique, some vertex has a neighbourhood that becomes a clique after deleting at most $s$ vertices. The case $s=0$ is exactly the class of chordal graphs. For each fixed $s$, we prove that the maximum clique partition number at all sufficiently large orders $n$ is $\\lfloor(n+s)(n+s+1)/6\\rfloor-\\binom{s+1}{2}$, and determine all equality graphs. The same expression is an upper bound up to an additive constant depending only on $s$ at every order. In particular, every chordal graph has clique partition number at most $n^2/6+n/6+O(1)$, answering a question of Erdős, Ordman and Zalcstein. We also prove structural stability for sublinear defect and a sharp finite-order theorem for integer signed clique functionals. The proof combines signed fractional localization with an edge-disjoint triangle construction; only a qualitative fractional-packing approximation is required.",
+   "abs": "https://arxiv.org/abs/2609.20871",
+   "pdf": "https://arxiv.org/pdf/2609.20871"
+  },
+  {
+   "id": "2609.20903",
+   "type": "new",
+   "title": "Condensed configurations and valuative matroid invariants",
+   "authors": [
+    "Jens Niklas Eberhardt"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Condensed configurations are compact incidence data obtained by grouping the cyclic flats of a matroid. We show that their inverse incidence matrices give explicit Schubert expansions and hence determine every valuative or covaluative matroid invariant. For the extended binary Golay matroid, this unexpectedly produces non-real-rooted Kazhdan-Lusztig and Z-polynomials. To our knowledge, the latter is the first counterexample in the literature.",
+   "abs": "https://arxiv.org/abs/2609.20903",
+   "pdf": "https://arxiv.org/pdf/2609.20903"
+  },
+  {
+   "id": "2609.21779",
+   "type": "cross",
+   "title": "Non-existence of sets with few special directions",
+   "authors": [
+    "Luca Ghidelli",
+    "Gergely Kiss",
+    "Gábor Somlai"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "26 pages",
+   "abstract": "Let $p$ be an odd prime and let $S\\subseteq\\mathbb{F}_p^2$ have cardinality divisible by $p$. We prove that, for all sufficiently large primes $p$, no such set has exactly four special directions, and obtain a conditional extension to larger numbers of special directions under an affine-independence assumption on the corresponding projection functions. A separate second-moment argument shows more generally that, for every fixed $k\\ge4$, no subset of $\\mathbb{F}_p^2$ has exactly $k$ special directions once $p$ is sufficiently large. In fact, the result holds uniformly for $k$ up to a positive constant times $\\sqrt p/\\log p$. In contrast, for multisets every prescribed collection of at most $p$ directions can occur as the set of special directions of a $\\{0,1,2\\}$-valued multiset on $\\mathbb{F}_p^2$.",
+   "abs": "https://arxiv.org/abs/2609.21779",
+   "pdf": "https://arxiv.org/pdf/2609.21779"
+  },
+  {
+   "id": "2609.21101",
+   "type": "cross",
+   "title": "Large signed sums of unit vectors: the first linearly dependent case",
+   "authors": [
+    "Damián Pinasco"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "We address a problem on large signed sums of unit vectors that arose in work of Brugger, Fiedler, González Merino and Kirschbaum and was later formulated in its present form by Ambrus and Nietert. Given $d+1$ unit vectors $u_1,\\ldots,u_{d+1}$ in $\\mathbb R^d$, with $d\\ge2$, the problem asks for the smallest possible value of \\[\n\\max_{\\varepsilon_i=\\pm1}\n\\left\\|\\sum_{i=1}^{d+1}\\varepsilon_i u_i\\right\\|. \\] We prove that this value is $\\sqrt{d+2}$. We also determine all equality cases: up to independent sign changes and orthogonal transformations, they consist of the vertices of a centered regular simplex of positive even dimension together with an orthonormal basis of its orthogonal complement.",
+   "abs": "https://arxiv.org/abs/2609.21101",
+   "pdf": "https://arxiv.org/pdf/2609.21101"
+  },
+  {
+   "id": "2609.21603",
+   "type": "cross",
+   "title": "Certificates for short extending words in a finite automaton",
+   "authors": [
+    "Michele Miccinesi"
+   ],
+   "categories": [
+    "cs.FL",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.FL",
+   "comments": "",
+   "abstract": "Let $\\mathcal A$ be a complete deterministic finite automaton on a state set $Q$ of size $n$ with $k$ letters, and for a proper nonempty subset $S$ of $Q$ let $\\mathrm{minext}(S)$ be the length of a shortest word $u$ with $|Su^{-1}|>|S|$, where $Su^{-1}=\\{q: q\\cdot u\\in S\\}$. To each state $q$ attach the integer $\\beta^{\\ast}_q=\\sum_{t=1}^{n-1}k^{\\,n-1-t}(\\mathrm{indeg}_t(q)-k^{t})$, where $\\mathrm{indeg}_t(q)$ counts the pairs $(p,u)$ with $|u|=t$ and $p\\cdot u=q$, and let $B(S)=\\sum_{q\\in S}\\beta^{\\ast}_q$. On every synchronizing automaton, $B(S)\\ge0$ implies $\\mathrm{minext}(S)\\le n-1$, so, as $B(Q)=0$, one of $S$ and $Q\\setminus S$ extends within $n-1$; when $B(S)>0$ no hypothesis is needed. Kari's Eulerian extension lemma is the case $\\beta^{\\ast}=0$, and $\\beta^{\\ast}$, like every member of the family $\\sum_{t=1}^{n-1}c_t\\sigma_t$, $c_t>0$, vanishes identically if and only if the automaton is Eulerian, where $\\sigma_t(S)=\\sum_{q\\in S}(\\mathrm{indeg}_t(q)-k^{t})$. On strongly connected automata $\\sigma_t(S)/k^{t}$ has Cesàro limit $n\\,e(S)/e(Q)-|S|$ for Friedman's weight $e$; that limit certifies singletons but no larger subset in general. The hypothesis $B(S)\\ge0$ cannot be relaxed by one integer unit, nor can the constant $n-1$ be improved. A second-moment test on the sizes $|Su^{-1}|$ certifies 60 to 95 percent of the subsets with $B(S)<0$ at $n\\le7$. Along non-Eulerian automata whose words of length $n-1$ merge a fraction of the state pairs bounded below, with $\\max_q\\mathrm{indeg}_{n-1}(q)=o(nk^{n-1})$, it certifies all but a vanishing share of them. The functional $B$ certifies half of the subsets outside $\\{B=0\\}$. At each subset size coprime to $n$ ($n\\ge4$) some synchronizing Eulerian binary automaton attains the constant $n-1$; whether only there is open. No reset bound follows: Černý's automata have subsets not extending within $n-1$.",
+   "abs": "https://arxiv.org/abs/2609.21603",
+   "pdf": "https://arxiv.org/pdf/2609.21603"
+  },
+  {
+   "id": "2609.21159",
+   "type": "new",
+   "title": "Erdős-Sós via random cyclic orderings",
+   "authors": [
+    "Bryce Frederickson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 3 figures",
+   "abstract": "We present a simplified proof of the Erdős-Sós Conjecture on trees in graphs, which is based on its recent resolution by GPT-6 Astra. At the same time, we also give another proof of the corresponding conjecture for antidirected trees in digraphs, posed by Addario-Berry, Havet, Linhares Sales, Reed, and Thomassé. Our proof uses the language of random cyclic orderings in order to take advantage of symmetries that were obscured in the original argument, and we hope that the reader will find it intuitive.",
+   "abs": "https://arxiv.org/abs/2609.21159",
+   "pdf": "https://arxiv.org/pdf/2609.21159"
+  },
+  {
+   "id": "2609.22061",
+   "type": "new",
+   "title": "Duality and minors for embeddings of graphs in pseudosurfaces",
+   "authors": [
+    "Blake Dunshee",
+    "M. N. Ellingham",
+    "Joanna A. Ellis-Monaghan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "46 pages, 6 figures, 3 tables",
+   "abstract": "Cellular embeddings of graphs in surfaces have well-defined duality and minor (edge contraction and deletion) operations that interact in a natural way. A pseudosurface is obtained from a surface (compact 2-manifold) by a finite number of identifications of finite sets of points. Points that are created by the identifications do not have a neighborhood homeomorphic to an open disk and are known as pinchpoints. Embeddings of graphs in pseudosurfaces have been considered, both implicitly and explicitly, since the 1960s. Usually the condition that all pinchpoints correspond to vertices of the graph is imposed. However, this makes it difficult to define duality and minors for pseudosurface embeddings and have these operations interact in the expected way.\nWe define the class of pseudocellular embeddings of graphs in pseudosurfaces, which allow pinchpoints at places other than vertices, in particular in the middle of faces or edges. A subclass known as quasicellular embeddings corresponds to previous embedding models due to Deneen, Shute, and Thomborson and to Huggett and Moffatt.\nPseudocellular embeddings also generalize other structures, including the edge-point ribbon graphs of Ellis-Monaghan, Kauffman, and Moffatt, and cyclically ordered graphs or cogs (also known as rigid-vertex graphs). Duality and minor operations for pseudocellular embeddings have very simple and straightforward definitions using topological quotient operations. Pseudocellular embeddings of edgeless graphs have nontrivial structure, and we define some minor operations for those that are related to `t-minor' operations on bipartite graphs. We develop a family of polynomial invariants for pseudocellular embeddings and discuss connections to other polynomial invariants.",
+   "abs": "https://arxiv.org/abs/2609.22061",
+   "pdf": "https://arxiv.org/pdf/2609.22061"
+  },
+  {
+   "id": "2609.21874",
+   "type": "new",
+   "title": "Boolean building set arrangements",
+   "authors": [
+    "Leonie Mühlherr",
+    "Sven Wiesner"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages, 11 figures",
+   "abstract": "In this article, we generalize the notion of connected subgraph arrangements, established by Cuntz and Kühne by allowing edges of cardinality greater than two, with a focus on local properties. We show that the class of free connected hypersubgraph arrangements is larger than the class of free connected subgraph arrangements, but that there exists a necessary condition for freeness that refers back to the graphic case. Furthermore, we obtain a unique description of these arrangements by associating them with Boolean building sets. We study the nested complex of the building set in relation to the lattice of intersections, and characterize all simplicial arrangements within this new class.",
+   "abs": "https://arxiv.org/abs/2609.21874",
+   "pdf": "https://arxiv.org/pdf/2609.21874"
+  },
+  {
+   "id": "2609.21890",
+   "type": "new",
+   "title": "Local large deviations for triangles in sparse random graphs",
+   "authors": [
+    "Jade Lintott",
+    "Will Perkins",
+    "Corrine Yap"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "44 pages, 4 figures",
+   "abstract": "We revisit a classic topic in probabilistic combinatorics, the lower-tail large-deviation problem for triangles in the random graph $G(n,p)$. Here we aim for first-order asymptotics for the quantity $\\mathbb{P}[X=k]$ with $X$ the number of triangles in $G(n,p)$ and $0 \\le k \\le (1-\\epsilon) \\mathbb{E}X$, in the sparse regime in which the logarithmic asymptotics are Poissonian. When $k=0$ (the case of triangle-freeness) and $p = p(n)$ is sufficiently small, first-order asymptotics are known via Janson's inequality and results of Stark and Wormald; when $k$ is sufficiently close to $\\mathbb{E}X$, first-order asymptotics are known via local central limit theorems. Our main result gives first-order asymptotics for all $k$ in the above range when $p = o(n^{-2/3})$, improving upon the result of Frieze that required $p = o(n^{-4/5})$.\nWe also characterize, up to vanishing total variation distance, the distribution of the $k$ triangles in the corresponding conditional distribution and give an efficient algorithm to approximately sample from this conditional distribution. Notably, when $k = \\Theta(\\mu)$ there is a transition at $p = \\Theta(n^{-4/5})$ from an asymptotically uniform triangle distribution to a distribution asymptotically singular to uniform.",
+   "abs": "https://arxiv.org/abs/2609.21890",
+   "pdf": "https://arxiv.org/pdf/2609.21890"
+  },
+  {
+   "id": "2609.21739",
+   "type": "new",
+   "title": "Range of Clique Counts in Graphs",
+   "authors": [
+    "Mihir Neve",
+    "Alexey Pokrovskiy",
+    "Andrey Shapiro"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 1 figure",
+   "abstract": "Let $\\gamma(G)$ denote the number of cliques in a graph $G$ and let $\\Gamma(n):= \\{\\gamma(G):|V(G)|=n\\}$ be the set of values of $\\gamma(G)$ that can be attained on $n$ vertices. We improve on a result by Erdős and Erné to show that $| \\Gamma(n)| \\geq 2^{n-4\\ln(2)\\log^3(n)}$ for sufficiently large $n$.",
+   "abs": "https://arxiv.org/abs/2609.21739",
+   "pdf": "https://arxiv.org/pdf/2609.21739"
+  },
+  {
+   "id": "2609.21431",
+   "type": "new",
+   "title": "Generalized staircase partitions and Macdonald principal specializations",
+   "authors": [
+    "Tatsushi Shimazaki"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 4 figures",
+   "abstract": "Generalized staircase partitions are obtained by replacing each box of an ordinary staircase with a fixed rectangle. Between consecutive generalized staircases, we determine the unique shortest sequence with horizontal strips as successive differences. The conjugate sequence is the unique shortest one with vertical strips as successive differences. We derive explicit ratios along both sequences from the finite principal specialization formula for monic Macdonald polynomials with parameters $q$ and $t$. More generally, for two partitions related by inclusion, we prove that coefficientwise nonnegativity of their ratio after removal of its monomial factor forces independence of $q$. Except for sequences of single columns, coefficientwise nonnegativity along the horizontal sequence is equivalent to complementation in the rectangle determined by the number of variables. In the conjugate vertical sequence, coefficientwise nonnegativity occurs exactly at the smallest possible number of variables, except for the ratio from the empty partition to a column. Iterating the ratios between consecutive generalized staircases yields a triangular product formula. Each such ratio is expressed through a centered product satisfying exchange, reciprocity, and inversion identities. In the Hall-Littlewood specialization, the ratio from the initial generalized staircase to any partition in the horizontal sequence is a monomial times a Gaussian polynomial enumerating partitions in a rectangle. In the Jack limit, the ratios admit product formulas, and an additive analogue of the centered product satisfies parity and exchange identities. At the Schur specialization with all variables equal to one, we obtain product formulas for ratios of semistandard tableau counts. We derive ratios of hook products and of standard Young tableau counts from a shift between consecutive generalized staircase diagrams.",
+   "abs": "https://arxiv.org/abs/2609.21431",
+   "pdf": "https://arxiv.org/pdf/2609.21431"
+  },
+  {
+   "id": "2609.20961",
+   "type": "new",
+   "title": "Unimodality of Independence Polynomials for Sufficiently Large Forests",
+   "authors": [
+    "Ethan X. Fang",
+    "Junwei Lu",
+    "Eran Nevo",
+    "Yuan Yao",
+    "Hailun Zheng"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "We prove that the independence sequence of every sufficiently large forest is unimodal. The result follows from establishing log-concavity on a central interval of the sequence, along with monotonicity of the initial and final segments. The main analytic step is a central limit theorem for the size of a random independent set sampled with the hard-core model, uniform over all forests and over an interval of positive fugacities.",
+   "abs": "https://arxiv.org/abs/2609.20961",
+   "pdf": "https://arxiv.org/pdf/2609.20961"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 34,
+ "listed_cross": 10
+}
