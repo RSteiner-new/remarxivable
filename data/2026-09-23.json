@@ -1,0 +1,569 @@
+{
+ "date": "2026-09-23",
+ "generated_at": "2026-09-23T02:41:23Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-23",
+ "screened": 85,
+ "screened_new": 53,
+ "screened_cross": 32,
+ "scored": 85,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.25107",
+   "type": "new",
+   "title": "Deletion thresholds and exponential examples for complete sequences",
+   "authors": [
+    "Jesse Geneson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the pairs of integers $0\\le m<n$ for which a nondecreasing integer sequence can remain complete after every deletion of $m$ terms and become incomplete after every deletion of $n$ terms are exactly those with $m\\le1$. Here a sequence is complete if every sufficiently large integer is a finite sum of terms with distinct indices. This answers Erdős Problem 348, posed by Graham and later included in the book of Erdős and Graham. The proof uses a central-interval theorem: if a complete nondecreasing positive integer sequence $(a_i)$ has prefix sums $S_j$ with $S_j-a_{j+1}\\to\\infty$, then each sufficiently long prefix represents every integer from any fixed completeness threshold $T$ to $S_j-T$. We also refute Graham's conjecture, later repeated by Erdős and Graham, that $(\\lfloor t\\gamma^n\\rfloor)_{n\\ge1}$ is complete for every $t>0$ and $1<\\gamma<(1+\\sqrt5)/2$. We obtain the counterexample by combining Dubickas's fractional-part theorem with an elementary sign adjustment. For a common base in this range, we further construct two such sequences whose interleaving is incomplete and whose coefficient ratio is not a rational multiple of any integer power of the base.",
+   "abs": "https://arxiv.org/abs/2609.25107",
+   "pdf": "https://arxiv.org/pdf/2609.25107"
+  },
+  {
+   "id": "2609.25101",
+   "type": "new",
+   "title": "The weighted union-set conjecture is false",
+   "authors": [
+    "Yimeng Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We disprove a weighted generalization of the union-set conjecture [Fra95] raised in [Gow16]. We construct nonnegative weights on subsets of a finite ground set satisfying $w(\\varnothing)=0$ and $w(A\\cup B)\\ge\\min\\{w(A),w(B)\\}$, while every coordinate belongs to an arbitrarily small fraction of the total weight.",
+   "abs": "https://arxiv.org/abs/2609.25101",
+   "pdf": "https://arxiv.org/pdf/2609.25101"
+  },
+  {
+   "id": "2609.26158",
+   "type": "new",
+   "title": "Hypergraph Universality and Erdos-Posa Failure for Chromatically Rich Odd Cycles",
+   "authors": [
+    "Shuyan Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For every fixed $k\\ge 3$, every finite nonempty clutter $\\mathcal{H}$ can be realized exactly as the family of inclusion-minimal terminal traces of the $k$-bad odd cycles, namely the odd cycles $C$ satisfying $\\chi(G[V(C)])\\ge k+1$. The host graph $G$ may be chosen $2$-connected, with $T=V(\\mathcal{H})$ independent, and with $\\chi(G)=k+1$, $\\omega(G)=k$, and $|E(G)|\\le k|V(G)|$. Given any integer $B\\ge 1$, one realization simultaneously preserves the transversal number, the fractional packing number, and every integer $c$-packing number for $1\\le c\\le B$. Thus chromatic richness on odd-cycle spans has the full packing-covering complexity of arbitrary finite set systems, even in sparse graphs whose chromatic number exceeds their clique number by one.\nAs a consequence, for every $b,N\\ge 1$ and every $\\varepsilon>0$, there is such a graph with $\\tau_k(G)=N$, $\\nu_k^{1/c}(G)=c$ for every $1\\le c\\le b$, and $\\nu_k^*(G)<1+\\varepsilon$. Hence every finite-congestion and fractional Erdős--Pósa property fails for $k\\ge 3$, with an asymptotically optimal fractional obstruction. This contrasts sharply with $k=2$, where the relevant cycles are the ordinary odd cycles: the integral property fails, while Reed's theorem yields every congestion level at least two and the fractional property. We also characterize the shortest $k$-bad odd cycles by a single fixed witness graph.",
+   "abs": "https://arxiv.org/abs/2609.26158",
+   "pdf": "https://arxiv.org/pdf/2609.26158"
+  },
+  {
+   "id": "2609.25062",
+   "type": "cross",
+   "title": "Extremal expectations in card guessing with partial feedback: proofs of two conjectures of Diaconis-Graham-Spiro",
+   "authors": [
+    "Congyi Luo"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "18 pages",
+   "abstract": "We study the minimum and maximum expected scores over all adaptive strategies in sequential card guessing with yes/no feedback. A deck contains $n$ labels, each appearing $m$ times, and is shuffled uniformly. The cards are guessed one at a time, and after each guess the player is told only whether it was correct. Always guessing the same label gives exactly $m$ points. How far can the expected score depart from $m$ if all previous feedback is used either to seek or to avoid correct guesses? Diaconis, Graham, and Spiro conjectured that the minimum expectation is $m-o(m)$ as $m\\to\\infty$ with $n$ sufficiently large in terms of $m$, and that, for each fixed $m$, the limit superior of the maximum expectation as $n\\to\\infty$ is at most $(e-1)m$. Writing these extrema as $P^-_{m,n}$ and $P^+_{m,n}$, we prove \\[\n0\\le m-P^-_{m,n}\\le3m^{3/4}\n\\qquad(n\\ge m\\ge1), \\] and the finite-parameter bound \\[\n\\frac{P^+_{m,n}}m\\le\\sum_{k=1}^{n}\\frac1{k!}<e-1 \\] for all positive integers $m,n$. The first bound gives a first-order asymptotic uniform in $n\\ge m$; the universal constant $e-1$ in the second cannot be reduced. Thus both conjectures follow. The lower bound combines a switching comparison for restricted permutations with martingale second-moment estimates. For the upper bound, we represent the repeated cards as a random interleaving of independent decks of distinct cards and prove that the optimal expectation is additive when the component-deck labels are revealed.",
+   "abs": "https://arxiv.org/abs/2609.25062",
+   "pdf": "https://arxiv.org/pdf/2609.25062"
+  },
+  {
+   "id": "2609.26655",
+   "type": "new",
+   "title": "Resilience of rainbow Hamilton cycles in pseudorandom graphs",
+   "authors": [
+    "Elad Aigner-Horev",
+    "Dan Hefetz",
+    "Yury Person"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For every fixed $\\varepsilon\\in(0,1/2)$, we prove that every spanning subgraph $H$ of an $n$-vertex $(p,\\beta)$-bijumbled graph satisfying $\\delta(H)\\geq(1/2+\\varepsilon)pn$ contains a rainbow Hamilton cycle under every globally $\\mu pn$-bounded colouring, provided $\\beta\\leq cpn$ and $pn\\geq M$ both hold. The same assertion holds under the relative condition $°_H(v)\\geq(1/2+\\varepsilon)°_G(v)$ for every vertex $v$, provided $\\delta(G)\\geq(1-\\varepsilon/4)pn$ holds. Under either degree condition, there are at least $(apn)^n$ such cycles. Here, $c,\\mu,a,M>0$ depend only on $\\varepsilon$; in particular, $pn$ may be a sufficiently large constant. If $pn\\geq D\\log n$, then, upon fixing a coloured $H$, retaining each edge independently with probability $D\\log n/(pn)$ preserves rainbow Hamiltonicity asymptotically almost surely. The logarithmic degree requirement is needed only for this percolation conclusion. The existence theorem answers a problem of Coulson, Keevash, Perarnau and Yepremyan for random graphs and extends it to deterministic pseudorandom hosts.\nIn fact, all three conclusions hold with rainbowness replaced by avoidance of prescribed pairs of edges; each edge having at most $\\mu pn$ conflicting partners. We construct an $O(1/(pn))$-spread probability measure on conflict-free Hamilton cycles; this then yields the enumeration and percolation results.",
+   "abs": "https://arxiv.org/abs/2609.26655",
+   "pdf": "https://arxiv.org/pdf/2609.26655"
+  },
+  {
+   "id": "2609.25288",
+   "type": "cross",
+   "title": "Exponential improvements in Rado's covering problem",
+   "authors": [
+    "Gian Maria Dall'Ara",
+    "Adrian Dumitrescu"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "Let $B^d$ denote the $d$-dimensional Euclidean ball of unit radius. What is the largest constant $f(B^d) \\in [0,1]$ with the property that every finite collection $\\mathcal{C}$ of unit balls in $\\mathbb{R}^d$ admits a disjoint sub-collection $\\mathcal{S}$ occupying at least a fraction $f(B^d)$ of the volume of $\\mathcal{C}$? This problem was first raised by T. Radó in 1928, for axis-parallel squares in the plane; the author was motivated by a classical covering lemma in real analysis due to Vitali. The case of Euclidean balls was first considered by R. Rado in 1949.\nUntil last year the best known estimates on $f(B^d)$ for unit balls where very far apart: \\[ (1+\\epsilon_d) 3^{-d} \\leq f(B^d) \\leq 2^{-d}, \\] where $0<\\epsilon_d=o_{d\\rightarrow \\infty}(1)$. Recently, the authors of this note observed that an exponential improvement on the upper bound follows from the Kabatiansky--Levenshtein spherical code bound, while the lower bound was improved by a linear factor by C.~Xie and G.~Ge (see arXiv:2608.09744). The current best estimates for large $d$ are \\[ c \\cdot d \\cdot 3^{-d} \\leq f(B^d) \\leq 2.447^{-d}, \\] where $c>0$ is an absolute constant. Here we offer the first exponential improvement of the lower bound in almost 80 years, which narrows the gap to:\n\\[ 2.910^{-d} \\leq f(B^d) \\leq 2.447^{-d}. \\] Our method is constructive and yields a polynomial time algorithm for finding a disjoint sub-collection realizing the estimate. Moreover the same technique gives similar exponentially improved lower bounds for all symmetric convex bodies satisfying a uniform convexity assumption, e.g., $\\ell^p$-balls for all $p\\in (1,\\infty)$.",
+   "abs": "https://arxiv.org/abs/2609.25288",
+   "pdf": "https://arxiv.org/pdf/2609.25288"
+  },
+  {
+   "id": "2609.26700",
+   "type": "new",
+   "title": "Graphs with Minimum Algebraic Connectivity II: Regular Graphs of Even Degree",
+   "authors": [
+    "Maryam Abdi",
+    "Ebrahim Ghorbani"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Aldous and Fill (2002) conjectured the asymptotic maximum relaxation time of a random walk on a connected regular graph. Since the relaxation time of a $d$-regular graph $G$ is $d/\\mu(G)$, where $\\mu(G)$ denotes its algebraic connectivity, this conjecture is closely related to the problem of minimizing algebraic connectivity among regular graphs. Guiduli and Mohar (1996) conjectured that, for every fixed minimum degree $\\delta=d\\ge3$ and all sufficiently large orders, graphs with minimum algebraic connectivity are path-like and, apart from bounded portions near their two ends, have a prescribed block structure. Abdi and Ghorbani (2024) proposed an analogous structural conjecture for $d$-regular graphs with minimum algebraic connectivity and fixed degree $d\\ge3$. In Part~I, we proved the Aldous--Fill conjecture, the Guiduli--Mohar conjecture, and for odd degrees, the Abdi Ghorbani conjecture. In this paper, we settle the remaining even-degree case, thereby completing the structural characterization of regular graphs with minimum algebraic connectivity. We also prove that, for every fixed even $d\\ge4$, the minimum algebraic connectivity at order $n$ is $2(d-2)\\pi^2/n^2+O_d(n^{-3})$, and that every minimizing graph has diameter $3n/(d+1)+O_d(1)$. For every fixed even $d\\ge6$, $d$-regular graphs whose algebraic connectivity is asymptotically minimum have asymptotically maximum diameter. Finally, we obtain a sharp normalized-gap bound for all even regular degrees, including degrees that grow with $n$.",
+   "abs": "https://arxiv.org/abs/2609.26700",
+   "pdf": "https://arxiv.org/pdf/2609.26700"
+  },
+  {
+   "id": "2609.25671",
+   "type": "new",
+   "title": "A colorful quantitative Helly theorem for volume",
+   "authors": [
+    "Grigory Ivanov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a colorful quantitative Helly theorem for volume with the optimal number $2d$ of colors. If every rainbow intersection from $2d$ finite families of convex sets in $\\R^d$ has volume at least one, then the intersection of one family has volume at least $d^{-O(d^2)}$. We also prove a colorful quantitative Steinitz theorem for origin-centered ellipsoids of different shapes. The proof uses a common normalization of positive operators and a lift that produces two rainbow bases with large determinants.",
+   "abs": "https://arxiv.org/abs/2609.25671",
+   "pdf": "https://arxiv.org/pdf/2609.25671"
+  },
+  {
+   "id": "2609.26044",
+   "type": "new",
+   "title": "Extremal spectral radius of nonregular graphs with a fixed odd maximum degree",
+   "authors": [
+    "Zejun Huang",
+    "Chenxi Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For integers $n\\ge3$ and $2\\le\\Delta\\le n-1$, let $\\lambda_1(n,\\Delta)$ be the maximum adjacency spectral radius among all connected nonregular graphs of order $n$ and maximum degree $\\Delta$. Liu conjectured that for each fixed integer $\\Delta\\ge3$, \\[ \\lim_{n\\to\\infty}n^2\\bigl(\\Delta-\\lambda_1(n,\\Delta)\\bigr)= \\begin{cases} (\\Delta-1)\\pi^2/4,&\\text{if $\\Delta$ is odd};\\\\ (\\Delta-2)\\pi^2/2,&\\text{if $\\Delta$ is even}. \\end{cases} \\] He proved the case $\\Delta=3$ and $\\Delta=4$. We prove the conjecture when $\\Delta\\ge5$ is odd.",
+   "abs": "https://arxiv.org/abs/2609.26044",
+   "pdf": "https://arxiv.org/pdf/2609.26044"
+  },
+  {
+   "id": "2609.25041",
+   "type": "new",
+   "title": "A square-root law for equitable coloring",
+   "authors": [
+    "Mohammad F. Marashdeh"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An equitable $k$-coloring of a graph partitions its vertex set into $k$ independent sets whose sizes differ by at most one; the least such $k$ is the equitable chromatic number $\\chie(G)$. Every known bound on $\\chie$ valid for all graphs, beginning with the Hajnal--Szemerédi theorem, is linear in the maximum degree $\\Delta$, and the star $K_{1,\\Delta}$, for which $\\chie=\\ceil{\\Delta/2}+1$, shows that no general bound below $\\Delta/2$ exists. We prove that this obstruction is a shortage of vertices rather than an effect of the degree: every graph with $|V(G)|\\ge3\\chi(G)\\Delta$ satisfies $\\chie(G)=O\\bigl(\\chi(G)^{3/2}\\sqrt{\\Delta/\\ln\\Delta}\\bigr)$ throughout the range $\\chi(G)\\le(\\Delta/\\ln\\Delta)^{1/3}$, so that for graphs of large order the degree enters only through $\\sqrt{\\Delta/\\ln\\Delta}$, with the chromatic number governing the rest. For each fixed $\\ell$, $\\ell$-colorable graphs of sufficiently large order satisfy $\\chie\\le\\bigl(2\\sqrt2\\,\\ell\\sqrt{\\ell-1}+o(1)\\bigr)\\sqrt{\\Delta/\\ln\\Delta}$, while a probabilistic construction supplies graphs of arbitrarily large order, bipartite when $\\ell=2$, with $\\chie\\ge\\tfrac13\\sqrt{(\\ell-1)\\Delta/\\ln\\Delta}$: the order of growth $\\Theta\\bigl(\\sqrt{\\Delta/\\ln\\Delta}\\bigr)$ is exact for every fixed chromatic number, and the extremal constant is determined up to a factor $O(\\chi(G))$. All upper bounds are constructive, and a prescribed-anchor variant of the construction produces equitable colorings of bipartite graphs with $O(\\sqrt\\Delta)$ colors in optimal linear time.",
+   "abs": "https://arxiv.org/abs/2609.25041",
+   "pdf": "https://arxiv.org/pdf/2609.25041"
+  },
+  {
+   "id": "2609.26014",
+   "type": "cross",
+   "title": "Equal subset sums and close divisors",
+   "authors": [
+    "Jianfeng Hou",
+    "Hongbin Zhao"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "12 pages",
+   "abstract": "For $k\\geq2$, let $\\alpha_k$ be the supremum of the exponents $a$ for which almost every integer $n$ has $k$ distinct divisors in a multiplicative interval of relative length $(\\log n)^{-a}$. Select each positive integer $i$ independently with probability $1/i$, forming a random set $\\mathbf A$, and let $\\beta_k$ be the supremum of the $c<1$ for which, with probability tending to one as $D\\to\\infty$, the set $\\mathbf A\\cap[D^c,D]$ has $k$ distinct subsets with the same sum. We prove that $\\alpha_k=\\beta_k/(1-\\beta_k)$, resolving a conjecture of Ford, Green and Koukoulopoulos [Invent. Math. 232 (2023), 1027--1160]. We also prove that their weak and strict entropy thresholds coincide. The proof combines flag refinement and entropy concavity with an upper bound for approximate subset sums that is uniform in arbitrary translations. A model with independent geometric prime exponents then transfers this bound to divisors.",
+   "abs": "https://arxiv.org/abs/2609.26014",
+   "pdf": "https://arxiv.org/pdf/2609.26014"
+  },
+  {
+   "id": "2609.26699",
+   "type": "new",
+   "title": "Graphs with Minimum Algebraic Connectivity I: Proofs of Aldous-Fill and Guiduli-Mohar Conjectures",
+   "authors": [
+    "Maryam Abdi",
+    "Ebrahim Ghorbani"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Aldous and Fill (2002) conjectured that the maximum relaxation time of a random walk on a connected regular graph with $n$ vertices is bounded above by $(1+o(1))\\frac{3n^2}{2\\pi^2}$, with asymptotic equality for even $n$. Since the relaxation time of a $d$-regular graph $G$ is $d/\\mu(G)$, where $\\mu(G)$ denotes its algebraic connectivity, this conjecture is closely related to the problem of minimizing algebraic connectivity among regular graphs. Guiduli and Mohar (1996) conjectured that, for every fixed minimum degree $\\delta=d\\ge 3$ and all sufficiently large orders, graphs with minimum algebraic connectivity are path-like and, apart from bounded portions near their two ends, have a prescribed block structure. For fixed odd degree $d\\ge 3$, Abdi and Ghorbani (2004) conjectured that $d$-regular graphs with minimum algebraic connectivity have the same structure. We prove the Aldous--Fill conjecture and the Guiduli--Mohar conjecture, as well as the corresponding conjecture for $d$-regular graphs of fixed odd degree. Finally, we prove that, for every fixed odd degree $d\\ge 3$, $d$-regular graphs, as well as graphs of fixed minimum degree $d\\ge 3$, whose algebraic connectivity is asymptotically minimum have asymptotically maximum diameter. This establishes the corresponding cases of another conjecture of Abdi and Ghorbani.",
+   "abs": "https://arxiv.org/abs/2609.26699",
+   "pdf": "https://arxiv.org/pdf/2609.26699"
+  },
+  {
+   "id": "2609.25316",
+   "type": "new",
+   "title": "A Polytopal Realization of Higher-Categorical Associahedra",
+   "authors": [
+    "Spencer Backman",
+    "Nathaniel Bottman",
+    "Daria Poliakova"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.MG",
+    "math.SG"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 7 fugures",
+   "abstract": "We describe a polytopal realization of categorical $n$-associahedra. The normal fan of this polytopal realization is a modification of the authors' velocity fan and was found by OpenAI's Astra model.",
+   "abs": "https://arxiv.org/abs/2609.25316",
+   "pdf": "https://arxiv.org/pdf/2609.25316"
+  },
+  {
+   "id": "2609.26723",
+   "type": "new",
+   "title": "Counterexamples to the Ramos conjecture for two hyperplanes",
+   "authors": [
+    "Florian Frick"
+   ],
+   "categories": [
+    "math.CO",
+    "math.FA",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "For every $n\\ge2$, we construct $4n-2$ nondegenerate Gaussian measures on $\\mathbb{R}^{6n-3}$ that cannot be simultaneously equipartitioned by two affine hyperplanes. This disproves the Ramos conjecture for two hyperplanes. Combined with known upper bounds, the construction shows that $3\\cdot2^{s-1}-2$ is the least dimension guaranteeing a common two-hyperplane equipartition of $2^s-2$ absolutely continuous probability measures, for every $s\\ge3$. We characterize the Gaussian equipartition threshold in terms of the least number of positive definite quadratic measurements needed for phase retrieval. Modified complex polynomial multiplication gives $2r-2$ positive definite measurements in every even dimension $r\\ge4$. This number is optimal when $r=2^k+2$, $k\\ge1$.",
+   "abs": "https://arxiv.org/abs/2609.26723",
+   "pdf": "https://arxiv.org/pdf/2609.26723"
+  },
+  {
+   "id": "2609.26401",
+   "type": "new",
+   "title": "Minimising the harmonic sum of cycle lengths",
+   "authors": [
+    "Richard Montgomery",
+    "Aleksa Milojević",
+    "Alexey Pokrovskiy",
+    "Benny Sudakov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A central theme in extremal graph theory is to understand the relationship between the density of a graph and the richness of its cycle length spectrum, which is the set of distinct cycle lengths occurring in the graph. In 1966, Erdős and Hajnal suggested studying $s(G):=\\sum_{\\ell\\in{C}(G)}1/\\ell$ as a measure of the richness of the cycle length spectrum ${C}(G)$ of a graph $G$.\nThrough a series of increasingly strong conjectures, Erdős suggested that the complete bipartite graphs minimise $s(G)$ among all graphs $G$ with the same average degree. The sharpest such conjecture, from 1981, states that the graph $K_{k, n-k}$ minimises $s(G)$ among all $n$-vertex graphs with at least $k(n-k)$ edges (where $k\\leq n/2$). We prove this conjecture for all sufficiently large $k$, by showing the stronger statement that any $n$-vertex graph $G$ with $e(G)>(k-1)(n-k+1)$ and $n\\geq 2k$ satisfies $s(G)\\geq\\sum_{\\ell=2}^{k}1/(2\\ell)$. Moreover, we show that the complete bipartite graph $K_{k,n-k}$ is the unique graph with at least $k(n-k)$ edges that achieves equality here.",
+   "abs": "https://arxiv.org/abs/2609.26401",
+   "pdf": "https://arxiv.org/pdf/2609.26401"
+  },
+  {
+   "id": "2609.26133",
+   "type": "new",
+   "title": "A rate for the average vacancy of uniformly random matchings in linear hypergraphs",
+   "authors": [
+    "Anish Gupta"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages. Ancillary files include exact verification programs. Companion repository: this https URL",
+   "abstract": "Let $M$ be chosen uniformly from all matchings of a finite linear $k$-uniform hypergraph $H$, and let $\\overline{q}(H)$ be the average probability that a vertex is left uncovered. If $H$ has maximum degree $D$ and normalized average degree $\\beta=k|E(H)|/(|V(H)|D)$, then, for every fixed $k\\geq 2$ and uniformly in the order, $\\overline{q}(H) \\leq 1-\\beta+(\\beta k+o_D(1))\\log\\log D/\\log D$. The underlying estimate is the order-uniform count $\\log Z(H)\\geq (|E(H)|/D)(\\log D-(k+o_D(1))\\log\\log D)$, and it also counts matchings of size $(1-o_D(1))|E(H)|/D$. We prove this by sampling edges, deleting those incident with unusually large sampled degrees, and controlling only the total deleted mass before applying the Molloy-Reed list edge-colouring theorem.\nFor $d$-regular $H$, a quantitative version of the earlier Asratian-Kuzjurin sampling-to-counting route, using the near-perfect-matching theorem of Gould and Kelly, sharpens the coefficient: for every fixed $k\\geq 3$, $\\sup_H \\overline{q}(H) \\leq (\\max\\{3,k-1\\}+o_d(1))\\log\\log d/\\log d$. Kahn's stronger pointwise prediction was disproved by Lee for $k\\geq 3$. The qualitative averaged conclusion was already recorded by Kahn and Kim, crediting Anders Johansson, and also follows from the Grable-Asratian-Kuzjurin enumeration; neither source states a rate.",
+   "abs": "https://arxiv.org/abs/2609.26133",
+   "pdf": "https://arxiv.org/pdf/2609.26133"
+  },
+  {
+   "id": "2609.25127",
+   "type": "new",
+   "title": "Stable Regularity Lemmas: Efficient Algorithms and Essentially Tight Littlestone Bounds",
+   "authors": [
+    "Leonardo N. Coregliano",
+    "Fernando G. Jeronimo"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS",
+    "math.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "170 pages, 2 figures, 1 table",
+   "abstract": "In this paper, we determine the precise asymptotics of the number of parts of stable regularity equipartitions in terms of the Littlestone dimension: every graph $G$ of Littlestone dimension $\\operatorname{Lit}(G)\\leq\\ell$ has a regular equipartition into excellent sets with $(1 + o_{\\epsilon\\to 0,\\ell}(1))\\cdot\\epsilon^{-\\ell-1}$ parts and in the other direction, for every $\\ell\\in\\mathbb{N}_+$, there is an infinite family of graphs, all of Littlestone dimension $\\ell$, whose equipartitions into good sets must have size at least $(1 + o_{\\epsilon\\to 0,\\ell}(1))\\cdot\\epsilon^{-\\ell-1}$.\nDropping the equitability condition, we determine the asymptotics of non-equitable partitions up to a multiplicative $\\log(1/\\epsilon)$: every graph $G$ with $\\operatorname{Lit}(G)\\leq\\ell$ has a regular partition into excellent sets with $(1 + o_{\\epsilon\\to 0,\\ell}(1))\\cdot\\epsilon^{-\\ell}\\cdot\\ln(1/\\epsilon)$ parts and in the other direction, for every $\\ell\\in\\mathbb{N}_+$, there is an infinite family of graphs, all of Littlestone dimension $\\ell$, whose partitions into good sets must have size at least $(1 + o_{\\epsilon\\to 0,\\ell}(1))\\cdot\\epsilon^{-\\ell}$.\nWe also show that such partition can be obtained algorithmically efficiently in an approximation scheme fashion: replacing the $o_{\\epsilon\\to 0,\\ell}(1)$ term above by a constant $c > 0$, we obtain randomized $O_{c,\\epsilon,\\ell}(n\\cdot\\log(n))$-time algorithms for partitions/equipartitions into good sets, a deterministic $O_{c,\\epsilon,\\ell}(n^2)$-time algorithm for partitions into good sets, a deterministic $O_{c,\\epsilon,\\ell}(n^6)$-time algorithm for equipartitions into good sets, a deterministic $O_{c,\\ell,\\epsilon}(1)\\cdot n^{O(\\ell\\cdot 2^{2\\cdot\\ell+4})}$-time algorithm for partitions/equipartitions into excellent sets, and $O_{c,\\epsilon,\\ell}(\\log(n+1))$-space algorithms for partitions/equipartitions into good/excellent sets.",
+   "abs": "https://arxiv.org/abs/2609.25127",
+   "pdf": "https://arxiv.org/pdf/2609.25127"
+  },
+  {
+   "id": "2609.25711",
+   "type": "new",
+   "title": "A Refined Sum-Product Estimate via Higher Energies",
+   "authors": [
+    "Kaiqiang Zhang",
+    "Yuyu Wang",
+    "Yuanguo Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "Let $A\\subset\\mathbb{R}$ be a finite set. Combining the multiplicative slope estimate of Rudnev--Stevens, Cushman's higher-energy regularization, Shakan's $d^+$--$d^\\times$ decomposition, and Solymosi's classical sum--product estimate, we prove \\[ |AA|^{204}|A+A|^{301}\\gtrsim |A|^{675}, \\] where $\\gtrsim$ suppresses a fixed polylogarithmic factor in $|A|$. Consequently, for every $\\varepsilon>0$, \\[ \\max\\{|A+A|,|AA|\\}\\gg_\\varepsilon |A|^{135/101-\\varepsilon}. \\] The proof is organized around two intermediate estimates. For every nonempty finite set $B\\subset\\mathbb{R}_{>0}$, \\[ d^\\times(B)|BB|^{12}|B+B|^{16}\\gtrsim |B|^{38}, \\] whereas for every nonempty finite set $U\\subset\\mathbb{R}$, \\[ d^+(U)^{17}|U+U|^{29}\\gtrsim |U|^{46}. \\]",
+   "abs": "https://arxiv.org/abs/2609.25711",
+   "pdf": "https://arxiv.org/pdf/2609.25711"
+  },
+  {
+   "id": "2609.26546",
+   "type": "new",
+   "title": "Simple symmetric Venn diagrams with 17 and 19 curves",
+   "authors": [
+    "Chris Dzoba"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 2 figures. Certificates, independent checker, Lean 4 verifications and search code are archived at doi:https://doi.org/10.5281/zenodo.22885650 and at this https URL",
+   "abstract": "We exhibit simple, rotationally symmetric Venn diagrams with 17 curves and with 19 curves: n Jordan curves carried to one another by rotation through 2{\\pi}/n, with every one of the 2^n regions present and connected and, since the diagrams are simple, every crossing on exactly two curves. Symmetric Venn diagrams exist for every prime number of curves (Griggs, Killian and Savage, 2004), but those diagrams have many curves through a point; simple ones were known only up to 13 curves (Mamakani and Ruskey, 2014). Four 17-curve and nine 19-curve diagrams were found by a Metropolis walk on rotation-invariant quadrangulations of the sphere in which regions may temporarily be duplicated, started from the Griggs-Killian-Savage diagram with its multiple crossings resolved. Every diagram is given by a machine-checkable certificate; one certificate of each size has been verified by a formal proof in Lean 4. All of the diagrams are non-monotone, which is why the crossing-sequence searches that found the 11- and 13-curve diagrams could not have found them.",
+   "abs": "https://arxiv.org/abs/2609.26546",
+   "pdf": "https://arxiv.org/pdf/2609.26546"
+  },
+  {
+   "id": "2609.25038",
+   "type": "new",
+   "title": "A Vertex-Linear Threshold for Eventually Turán good and the Cluster Method",
+   "authors": [
+    "Xiamiao Zhao",
+    "Liying Kang",
+    "Yuanpei Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph $H$ is $K_{r+1}$-Turán-good if, for every sufficiently large $n$, the Turán graph $T_r(n)$ maximizes the number of copies of $H$ among all $n$-vertex $K_{r+1}$-free graphs, and it is strictly $K_{r+1}$-Turán-good when this extremal graph is unique. Morrison, Nir, Norin, Rzążewski and Wesolek proved that for every graph $H$ with at least one edge, when $r\\ge 300v(H)^9$, $H$ is $K_{r+1}$-Turán-good. They asked whether the above bound could be reduced to quadratic order in $v(H)$.\nIn this paper, we answer their question affirmatively, and give a stronger result.\nWe prove that there is an absolute constant $C>0$ such that every graph $H$ with at least one edge is strictly $K_{r+1}$-Turán-good whenever $r\\ge Cv(H)$. Our proof uses a substantially different cluster method based on polymer models. Besides proving the vertex-linear Turán-good threshold, this method appears to have further applications. As one illustration, we prove that for every graph $H$ with at least one edge, the normalized chromatic polynomial $P_H(x)/x^{v(H)}$ is strictly increasing for every real $x\\ge C\\Delta(H)$, which strengthens the previously best result where $x\\ge C\\Delta(H)^{3/2}$. This proves a conjecture of Fadnavis.",
+   "abs": "https://arxiv.org/abs/2609.25038",
+   "pdf": "https://arxiv.org/pdf/2609.25038"
+  },
+  {
+   "id": "2609.25037",
+   "type": "new",
+   "title": "Discrete Concavity of Token-Graph Spectral Radii via Lorentzian Semigroups",
+   "authors": [
+    "Weiqi Jiang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.SP",
+    "quant-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages; no figures",
+   "abstract": "Let $F_k(G)$ be the $k$-token graph of a finite graph with nonnegative edge weights, and let $A_k$ and $D_k$ be its weighted adjacency and degree matrices. For every $-1\\leq\\vartheta\\leq1$, we prove that $k\\mapsto\\lambda_{\\max}(A_k+\\vartheta D_k)$ is discretely concave. Complement symmetry then makes this sequence nondecreasing up to the middle level. At $\\vartheta=1$ and $\\vartheta=0$, this gives the signless-Laplacian and adjacency spectral-radius monotonicity conjectures of Apte, Parekh, and Sud. The spectral result follows from a finite-time theorem: for every $t\\geq0$, the heat contents $\\binom{n}{k}^{-1}\\mathbf{1}^{*}e^{t(A_k+\\vartheta D_k)}\\mathbf{1}$ are log-concave in $k$. We encode all token levels in one Lorentzian polynomial. A four-variable operator symbol proves preservation by each edge heat gate, and the Lie-Trotter formula passes this preservation to the full semigroup. Large-time growth rates recover the top eigenvalues. The same construction also yields Lorentzian polynomials from top spectral projections. Finally, we show that the local symbol certifies exactly the parameter range $[-1,1]$.",
+   "abs": "https://arxiv.org/abs/2609.25037",
+   "pdf": "https://arxiv.org/pdf/2609.25037"
+  },
+  {
+   "id": "2609.25727",
+   "type": "new",
+   "title": "Large Planar Point Sets Contain 4 Collinear Points or Almost 7-Cliques, and Related Results",
+   "authors": [
+    "Bhaswar B. Bhattacharya",
+    "Sandip Das",
+    "Sk Samim Islam",
+    "Aashirwad Mohapatra",
+    "Saumya Sen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 1 figure",
+   "abstract": "We prove that every sufficiently large finite planar point set contains either four collinear points or seven points with at most one non-visible pair. More generally, we show that for every fixed graph $H$ with chromatic number at most five, or with chromatic number six and a color-critical edge, the visibility graph of every sufficiently large finite planar point set with no four collinear points contains a copy of $H$. These results extend the recent breakthrough of Bonnet (2026), guaranteeing six pairwise visible points, and come within one visibility edge of the next open case of the big-line-big-clique conjecture.",
+   "abs": "https://arxiv.org/abs/2609.25727",
+   "pdf": "https://arxiv.org/pdf/2609.25727"
+  },
+  {
+   "id": "2609.25063",
+   "type": "cross",
+   "title": "Optimal complete-feedback card guessing under nonincreasing valley weights: A proof of the Diaconis-Fulman-Holmes shelf-shuffling conjecture",
+   "authors": [
+    "Congyi Luo"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "15 pages",
+   "abstract": "Let a random permutation $W\\in S_n$ represent the order of $n$ distinct cards. After each guess, the player learns the actual card, and the objective is to maximize the expected total number of correct guesses. Diaconis, Fulman, and Holmes conjectured that, after a single uniform, unbiased shelf shuffle, the direction-tracking strategy is optimal: first guess the smallest card, and thereafter choose the nearest remaining card in the direction of the most recent rise or fall. We prove a more general theorem: if \\[ \\mathbb P(W=w)=\\frac{f(v(w))}{\\sum_{\\sigma\\in S_n}f(v(\\sigma))}, \\] where $v(w)$ is the number of interior valleys of the permutation, $f$ is nonnegative and nonincreasing, and the denominator is positive, then direction tracking maximizes the conditional probability of correctly guessing the next card after every history of positive probability. It therefore maximizes the expected total number of correct guesses among all complete-feedback strategies. Here an interior valley is a position $2\\le i\\le n-1$ satisfying $w_{i-1}>w_i<w_{i+1}$. Combined with the known shelf-shuffling probability formula, this theorem proves the conjecture for every deck size and number of shelves. The key to the proof is a swap of adjacent remaining values that preserves the revealed prefix: starting from the preferred candidate, the swap leaves the valley count unchanged or increases it by one, thereby turning monotonicity of the weights into a conditional probability ordering after every history.",
+   "abs": "https://arxiv.org/abs/2609.25063",
+   "pdf": "https://arxiv.org/pdf/2609.25063"
+  },
+  {
+   "id": "2609.26329",
+   "type": "new",
+   "title": "Rainbow spanning configurations in uniformly coloured pseudorandom graphs",
+   "authors": [
+    "Elad Aigner-Horev",
+    "Dan Hefetz",
+    "Yury Person",
+    "Michael Trushkin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a quantitative palette-transference principle for rainbow spanning configurations in uniformly edge-coloured pseudorandom graphs. The input to our transference principle is an embedding result of a spanning configuration in an appropriately bijumbled graph $H$ with sufficiently large minimum degree. The output of our transference principle is the asymptotically almost sure existence of a rainbow copy of the same configuration in a uniformly edge-coloured graph $G$ whose bijumbledness and minimum are comparable and sometimes coincide with those of $H$.\nWe then apply our transference principle in order to asymptotically almost surely obtain $K_k$-factors, including perfect matchings, Hamilton cycles, and a prescribed bounded-degree spanning tree in bijumbled graphs with appropriate parameters. In all of our results, the palette size exceeds the size of the target configuration by $\\varepsilon n$, where $\\varepsilon > 0$ is arbitrarily small yet fixed, and $n$ is the order of the configuration.",
+   "abs": "https://arxiv.org/abs/2609.26329",
+   "pdf": "https://arxiv.org/pdf/2609.26329"
+  },
+  {
+   "id": "2609.25390",
+   "type": "new",
+   "title": "Asymmetric Homomorphism Thresholds for Graphs of Large Odd Girth",
+   "authors": [
+    "Romain Bourneuf",
+    "Raphael Steiner",
+    "Stéphan Thomassé",
+    "Yuval Wigderson"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We determine the asymmetric homomorphism threshold from graphs of odd girth at least $7$ to triangle-free graphs, showing that $\\delta_{\\mathrm{hom}}(\\{C_3,C_5\\},\\{C_3\\})=\\frac{1}{9}$. Equivalently, for every $\\varepsilon>0$, every $n$-vertex graph of odd girth at least $7$ and minimum degree at least $(1/9+\\varepsilon)n$ admits a homomorphism to a triangle-free graph of size bounded by a function of $\\varepsilon$, while there exist graphs of odd girth at least $7$ and minimum degree at least $(1/9-\\varepsilon)n$ for which no such bounded-size triangle-free homomorphic image exists.\nMore generally, for every $t\\geq 3$, we prove $\\delta_{\\mathrm{hom}}(\\{C_3,C_5\\},\\{K_t\\})=\\frac{1}{3t}$. In particular, for every proper monotone class $\\mathcal C$ of graphs, the threshold for graphs of odd girth at least $7$ to admit a homomorphism to a bounded-size graph in $\\mathcal C$ is positive. We further extend this phenomenon to arbitrary odd girth: for every $k\\geq 2$ and every proper monotone subclass $\\mathcal C$ of the class of graphs of odd girth at least $2k-1$, the threshold for graphs of odd girth at least $2k+3$ to admit a homomorphism to a bounded-size graph in $\\mathcal C$ is positive.\nThese results disprove conjectures of Gishboliner, Hurley and Wigderson and exhibit a sharp contrast with the corresponding zero chromatic-threshold results. Our lower-bound constructions are based on high-dimensional Borsuk graphs, while the matching upper bounds use regularity arguments to recover the structure underlying these constructions.",
+   "abs": "https://arxiv.org/abs/2609.25390",
+   "pdf": "https://arxiv.org/pdf/2609.25390"
+  },
+  {
+   "id": "2609.26247",
+   "type": "new",
+   "title": "Sparse chromatic graphs and the complete-graph triangle bound",
+   "authors": [
+    "Shuyan Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that there is an absolute constant $c>0$ such that every graph of chromatic number at least $r$ and at most $cr^3\\log^2 r$ edges contains at least $\\binom r3$ triangles. The proof has three ingredients. First, a sparse-core argument based on a triangle-sensitive coloring estimate of Harris extracts, from any counterexample, an induced subgraph of order $O(r)$ and chromatic number at least $(1-\\eta)r$. Second, we prove an order-uniform stability theorem: for every $\\beta>0$ there is $\\gamma>0$, independent of the constant in the linear order bound, such that every sufficiently large $s$-critical graph $J$ of order $O(s)$ with $\\omega(J)\\le (1-\\beta)s$ has at least $\\binom s3+\\gamma s^3$ triangles. The proof combines the excess method and the modified-independent-set argument of Fox, Tidor, and Zhang. Third, we prove the exact bound when the graph contains a clique of order at least $(1-\\delta)r$. This uses a new dense common-palette list analogue of Harris's edge--triangle estimate: if every list occupies a fixed positive proportion of a common palette, then the edge-triangle coloring bound survives up to a constant factor.",
+   "abs": "https://arxiv.org/abs/2609.26247",
+   "pdf": "https://arxiv.org/pdf/2609.26247"
+  },
+  {
+   "id": "2609.26041",
+   "type": "new",
+   "title": "A sharp density bound for 5-connected graphs with no $\\Ke$ minor",
+   "authors": [
+    "Caibing Chang",
+    "Zijian Deng",
+    "Qinfei Tang",
+    "Caihong Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\Ke$ be obtained from $K_7$ by deleting two independent edges. We prove that every 5-connected graph on $n\\ge7$ vertices with at least $4n-9$ edges contains a $\\Ke$ minor, settling Conjecture~1.4 of Dvo\\v rák, Norin and Rahman (arXiv preprint 2609.17760v1). The bound is sharp. We prove the stronger statement that every $4$-bilight graph on $n\\ge4$ vertices with at least $4n-9$ edges contains either a $\\Ke$ minor or a $K_6$ subgraph. Within their reduction framework, we strengthen the rooted-minor theorem. We show that every $4$-light 5-rooted graph of rooted $4$-density at least two has a model with two nonroot vertices and at most one missing edge incident with them. At the critical density, reductions preserve density exactly, which prevents them from creating a new $K_6$ subgraph.",
+   "abs": "https://arxiv.org/abs/2609.26041",
+   "pdf": "https://arxiv.org/pdf/2609.26041"
+  },
+  {
+   "id": "2609.26576",
+   "type": "new",
+   "title": "Periodic Tilings of Cardinality Twice a Prime or Nine in Arbitrary Dimension",
+   "authors": [
+    "Hu Tan",
+    "Ying Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every finite translational tile of $\\mathbb Z^d$ of cardinality $2q$, where $q$ is an odd prime, or of cardinality nine admits a fully periodic tiling complement. The result holds in every dimension, regardless of the rank of the subgroup generated by the differences of points of the tile. The proofs combine coprime dilation, vanishing sums of roots of unity, and periodic two-colorings. After translating the tile, both arguments restrict to its intrinsic lattice, and every periodic complement constructed there extends to the ambient lattice. For cardinality $2q$, spectral filtering in the intrinsic lattice yields either a lattice complement or a periodic twofold covering compatible with a tiling complement. This compatibility allows the covering to be split by a periodic proper two-coloring. For nine points, intrinsic ranks $1$ and $2$ are treated separately; in higher intrinsic rank, the algebraic reduction in the intrinsic lattice yields either a lattice complement or spectral support on finitely many rational affine circles. These results also give a decision algorithm for tileability in both cardinality families. The circle-supported alternative is resolved by a conditional-density dichotomy and a periodic replacement argument for the exceptional half-density components.",
+   "abs": "https://arxiv.org/abs/2609.26576",
+   "pdf": "https://arxiv.org/pdf/2609.26576"
+  },
+  {
+   "id": "2609.26222",
+   "type": "cross",
+   "title": "The Scaling Window of Random $k$-SAT",
+   "authors": [
+    "Gaia Carenini"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "Comments are welcome!",
+   "abstract": "We prove a general upper bound for scaling windows of sparse monotone covering problems. From that, we deduce that for every fixed value $k\\geq 3$, the window of random $k$-SAT is $O(n/\\log n)$, improving the Friedgut-Bourgain bound of $O(n/\\log\\log n)$. We also show that random signed Not-All-Equal-$k$-SAT and hypergraph non-two-colourability (Property B) have windows of the same order. Our upper bound for scaling windows of sparse monotone covering problems follows from a general strategy combining the strengthening of Bourgain's sharp threshold theorem by Keevash, Lifshitz, Long, and Minzer with a local-to-random replacement principle. This provides a systematic method for proving scaling-window bounds, addressing a question of Perkins.",
+   "abs": "https://arxiv.org/abs/2609.26222",
+   "pdf": "https://arxiv.org/pdf/2609.26222"
+  },
+  {
+   "id": "2609.26563",
+   "type": "new",
+   "title": "The Erdős--Hajnal hypergraph Ramsey problem for $r_4(6,n)$",
+   "authors": [
+    "Longma Du",
+    "Xinyu Hu",
+    "Ruilong Liu",
+    "Guanghui Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Ramsey number $r_k(s,n)$ is the smallest integer $N$ such that every $N$-vertex $k$-graph contains either a copy of $K_s^{(k)}$ or an independent set of size $n$. Erdős and Hajnal conjectured that for every fixed $s>k\\ge 4$, one has $r_k(s,n)\\ge \\operatorname{twr}_{k-1}(\\Omega(n))$. This conjecture was independently verified by Mubayi and Suk, and by Conlon, Fox and Sudakov, for $k\\ge4$ and $s\\ge k+3$. In this paper, we prove that $r_4(6,n)\\ge 2^{2^{cn}}$ for some absolute constant $c>0$, improving upon our previous bound. Consequently, we confirm the Erdős--Hajnal conjecture for $r_k(k+2,n)$ for all fixed $k\\ge4$.",
+   "abs": "https://arxiv.org/abs/2609.26563",
+   "pdf": "https://arxiv.org/pdf/2609.26563"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2609.26050",
+   "type": "cross",
+   "title": "On the OpenAI whole-cube bound",
+   "authors": [
+    "Alex Samorodnitsky"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "This is an essentially derivative note, whose goal is to interpret the 'whole-cube' bound of OpenAI for binary codes in a possibly somewhat more accessible way. This is attained, in part, by connecting it to some previously known results. All of the heavy technical lifting in the interpretation below is also due to the OpenAI language models ChatGPT 5.6 and ChatGPT 6. With that, we hope that the statements of the main results, the ensuing discussion, and the arguments themselves may be of some interest.",
+   "abs": "https://arxiv.org/abs/2609.26050",
+   "pdf": "https://arxiv.org/pdf/2609.26050"
+  }
+ ],
+ "listed_new": 53,
+ "listed_cross": 32
+}
