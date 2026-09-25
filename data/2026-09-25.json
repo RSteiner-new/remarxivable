@@ -1,0 +1,580 @@
+{
+ "date": "2026-09-25",
+ "generated_at": "2026-09-25T03:26:00Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-25",
+ "screened": 74,
+ "screened_new": 55,
+ "screened_cross": 19,
+ "scored": 74,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.30257",
+   "type": "new",
+   "title": "A quasisymmetric analog of Grassmannian Schubert varieties",
+   "authors": [
+    "Teddy Gonzales",
+    "Tuong Le",
+    "Chayim Lowen"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.AT"
+   ],
+   "primary": "math.CO",
+   "comments": "48 pages, 16 figures, comments are welcome",
+   "abstract": "We show that the cohomology rings of toric Richardson varieties in the Grassmannian are finite truncations of the ring of quasisymmetric functions. We exhibit an affine paving of each such variety whose cell closures give rise to the basis of fundamental quasisymmetric functions. We similarly interpret the homology of these varieties in terms of the ring of noncommutative symmetric functions and show that the expansion of the homological class of any torus-invariant subvariety into the affine paving basis agrees with the expansion of a corresponding generalized noncommutative ribbon function into the ribbon basis. By taking the direct limit of all toric Richardson varieties, we obtain an ind-variety equipped with a weak $H$-group structure whose cohomology is the Hopf algebra of quasisymmetric functions. We conjecture that it is isomorphic to a similar $H$-group constructed by Baker--Richter.\nAs a byproduct, we deduce that the $f$-vectors of shard polytopes are log-concave, making the first progress on a question of Ferroni--Schröter for matroid base polytopes.",
+   "abs": "https://arxiv.org/abs/2609.30257",
+   "pdf": "https://arxiv.org/pdf/2609.30257"
+  },
+  {
+   "id": "2609.29623",
+   "type": "new",
+   "title": "On Alon's problem concerning the difference between connected domination number and domination number",
+   "authors": [
+    "Chengli Li",
+    "Bo Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a connected graph $G$, let $\\gamma(G)$ and $\\gamma_c(G)$ denote its domination number and connected domination number, respectively. Let $M(n,k)$ be the maximum of $\\gamma_c(G)-\\gamma(G)$ over all connected $n$-vertex graphs of minimum degree at least $k$. Alon proved that \\[ 2\\left\\lfloor\\frac{n}{k+1}\\right\\rfloor-O(1)\\le M(n,k)<\\frac{n}{k+1} \\bigl(\\log\\lceil\\log(k+1)\\rceil+3\\bigr). \\] He proposed a problem to determine or estimate $M(n,k)$ for $n-1\\ge k\\ge 3$, and particularly remarked that it would be interesting to close the $\\log\\log(k+1)$ gap between the upper and lower bounds and decide whether or not $M(n,k)=\\Theta\\bigl(\\frac{n}{k+1}\\bigr)$. We give an asymptotic answer to Alon's problem for sufficiently large $k$. More precisely, $M(k+1,k)=0$. For $n>k+1$, let \\[ \\nu=\\frac{n}{k+1} \\text{ and } \\Phi(x)= \\frac{1}{x\\log\\!\\frac{x}{x-1}} \\ (\\text{for }x>1). \\] As $k\\to\\infty$, uniformly over all integers $n>k+1$, \\[ M(n,k)= \\big(\\Phi(\\nu)+o(1)\\big) \\nu\\log\\log(k+1). \\]",
+   "abs": "https://arxiv.org/abs/2609.29623",
+   "pdf": "https://arxiv.org/pdf/2609.29623"
+  },
+  {
+   "id": "2609.29903",
+   "type": "new",
+   "title": "On the Exact Turán Number of $F^-_{4,3}$",
+   "authors": [
+    "Chun-Qiu Fang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "For a $3$-graph $F$, the Turán number of $F$, denoted by $\\ex(n,F)$, is the maximum number of edges in a $3$-graph on $n$ vertices containing no subgraph isomorphic to $F$. Let $F^-_{4,3}$ be the $3$-graph formed by a complete four-vertex core and three outer vertices, with all but one of the twelve triples containing one core vertex and two outer vertices. We prove that, for every $n\\ge8$, \\[ \\ex(n,F^-_{4,3})=\\binom n3-\\binom{\\lfloor n/2\\rfloor}{3}-\\binom{\\lceil n/2\\rceil}{3}, \\] and the balanced complete bipartite $3$-graph is the unique extremal configuration. This determines the exact value and all equality cases in the asymptotic theorem of Mubayi and Rödl. It also extends the exact Turán Number of $F_{3,3}$ and resolves a conjecture of Frankl, Huang and Rödl.",
+   "abs": "https://arxiv.org/abs/2609.29903",
+   "pdf": "https://arxiv.org/pdf/2609.29903"
+  },
+  {
+   "id": "2609.29756",
+   "type": "cross",
+   "title": "Boolean threshold functions, neuron capacity, and memory retrieval",
+   "authors": [
+    "Xinyuan Xie"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.DM",
+    "cs.NE",
+    "math.CO",
+    "stat.ML"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "How much information can a single neuron remember? How many memories can neural networks retrieve without creating false memories? These questions are related to a basic question: how many Boolean threshold functions $f(x)=\\operatorname{sgn}(a_0+\\langle a,x\\rangle)$, $x\\in\\{-1,1\\}^n$, are there? In this paper, we show that the number $T_n$ of distinct Boolean threshold functions is \\[ T_n=2\\binom{2^n-1}{n}\\bigl(1+O(n^{-99})\\bigr). \\] Equivalently, the capacity of a single threshold neuron is $n^2-\\log_2(n!)+1+O(n^{-99})$ bits, improving the $O(n)$ error term in the result of Kahn--Komlós--Szemerédi to $O(n^{-99})$. To prove this, we show that, for $1\\le r\\le n-1$, and $v_1,\\ldots,v_r$ are chosen at random from $\\{-1,1\\}^n$, \\[ \\mathbb P\\!\\left\\{ \\langle v_1,\\ldots,v_r\\rangle\\cap\\{-1,1\\}^n =\\{\\pm v_1,\\ldots,\\pm v_r\\} \\right\\} =1-O(n^{-99}). \\] In the context of the Kanter--Sompolinsky Hamiltonian for memory retrieval, this identifies $r=n-1$ as a sharp threshold, at which, for almost every collection of $r$ memories, the only ground states are these memories and their negatives, confirming a weaker form of the Kalai--Linial--Odlyzko conjecture. It also settles a recent open problem posed by M. Anthony on the specification number of Boolean threshold functions. In addition, we show that, for every $1\\le r\\le n-1$, \\[ \\mathbb P\\{v_1,\\ldots,v_r\\text{ are linearly dependent}\\} =2\\binom r2\\,2^{-n}+O\\!\\left(2^{-n}e^{-cn}\\right), \\] confirming a conjecture of Kahn--Komlós--Szemerédi.",
+   "abs": "https://arxiv.org/abs/2609.29756",
+   "pdf": "https://arxiv.org/pdf/2609.29756"
+  },
+  {
+   "id": "2609.28573",
+   "type": "new",
+   "title": "Exact Diameter Windows for Random Cayley Graphs on Odd-Order Abelian Groups",
+   "authors": [
+    "Yao Zhi"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "0",
+   "abstract": "Let \\(d\\ge2\\) be fixed and let \\(G_n\\) be finite abelian groups of odd orders \\(N_n\\to\\infty\\). We determine the centered diameter-\\(d\\) critical window for the standard random Cayley graph in which each nonzero group element is selected independently. Writing \\(M_n=(N_n-1)/2\\), we prove that the normalized first distance-\\(d\\) coverage times satisfy\n\\sum_{[x]\\in(G_n\\setminus\\{0\\})/\\{\\pm1\\}}\n\\delta_{\\frac{N_n^{d-1}}{d!}\\tau_{n,[x]}^d-\\log M_n}\n\\xrightarrow{d}\n\\PPP(e^{-z} $\\,dz).\nConsequently, the number of antipodal defects in the critical window converges in total variation to a Poisson law, the diameter transition has the Gumbel profile \\(e^{-e^{-c}}\\), and the diameter hitting time has Gumbel fluctuations. In the original generator-density parametrization this yields the sharp fixed-\\(d\\) threshold constant \\(d!/2^d\\) throughout the odd-order abelian class. For \\(d=2\\), we additionally obtain an exact path--cycle decomposition of the target representation graphs.",
+   "abs": "https://arxiv.org/abs/2609.28573",
+   "pdf": "https://arxiv.org/pdf/2609.28573"
+  },
+  {
+   "id": "2609.30064",
+   "type": "cross",
+   "title": "Sharp Lovasz-Theta Bounds on Random Graphs",
+   "authors": [
+    "Aaron Potechin",
+    "Jeff Xu"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "FOCS'26",
+   "abstract": "It is well known that the \\Lovasz-Theta function of a random graph $G(n,\\tfrac{1}{2})$ is $\\Theta(\\sqrt{n})$. More precisely, it is tightly concentrated in the interval \\( [\\sqrt{n},\\, 2\\sqrt{n}], \\) where the upper bound follows from an explicit dual witness for the associated semidefinite program. Numerical evidence and heuristic arguments suggest that the true value is $(1+o(1))\\sqrt{n}$. However, closing this gap has remained a longstanding challenge, resisting existing techniques even in light of recent progress on sharp algorithmic thresholds and non-asymptotic free probability. In this work, we resolve this question by proving that the \\Lovasz-Theta function of $G(n,\\tfrac{1}{2})$ is $(1+o_n(1))\\sqrt{n}$ with high probability, determining its asymptotic value up to vanishing relative error.",
+   "abs": "https://arxiv.org/abs/2609.30064",
+   "pdf": "https://arxiv.org/pdf/2609.30064"
+  },
+  {
+   "id": "2609.28534",
+   "type": "cross",
+   "title": "A weak Hellinger inequality for noisy Boolean channels",
+   "authors": [
+    "Polona Durcik",
+    "Marco Fraccaroli",
+    "Joris Roos"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "19 pages; associated formalization available at this https URL",
+   "abstract": "A weak form of the Hellinger conjecture of Anantharam, Bogdanov, Chakrabarti, Jayram, and Nair for the binary symmetric channel is proved: dictator functions maximize Hellinger $\\Phi$-entropy among all Boolean functions of the input and all one-bit statistics of the output of a noisy channel. The technical heart of the matter is an explicit inequality in three real parameters, which is proved using explicit polynomial approximations and computer-assisted positivity checks. The results are also formally verified in Lean 4.",
+   "abs": "https://arxiv.org/abs/2609.28534",
+   "pdf": "https://arxiv.org/pdf/2609.28534"
+  },
+  {
+   "id": "2609.28507",
+   "type": "new",
+   "title": "A proof of the Athanasiadis-Chapoton ordinal-sum conjecture",
+   "authors": [
+    "Congyi Luo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "Given a finite preorder $\\tau$, we study how its order relation determines the $h^*$-polynomial of the associated polar preorder polytope. Let $\\mathcal R_{\\tau}^{\\vee}$ be the convex hull of the negative standard basis vectors and the indicator vectors of nonempty order ideals, and write $h_\\tau^*(t)=h^*(\\mathcal R_{\\tau}^{\\vee},t)$. Athanasiadis and Chapoton conjectured that this enumerative invariant takes ordinal sums to products: $$h_{\\tau_1\\oplus\\tau_2}^*(t)=h_{\\tau_1}^*(t)\\,h_{\\tau_2}^*(t).$$ We prove the conjecture for arbitrary finite preorders, including those with nontrivial equivalence classes. More precisely, we construct a positively homogeneous piecewise unimodular shear from the free sum $\\mathcal R_{\\tau_1}^{\\vee}\\oplus\\mathcal R_{\\tau_2}^{\\vee}$ onto $\\mathcal R_{\\tau_1\\oplus\\tau_2}^{\\vee}$, giving lattice-point bijections at every nonnegative real dilation scale. The key is a formula for the Minkowski functional in terms of the least nonnegative order-reversing majorant: after the shear, the functional becomes the sum of the two factor functionals. Together with the Ehrhart product formula for free sums, this proves the conjecture and the corresponding product formula for normalized volume.",
+   "abs": "https://arxiv.org/abs/2609.28507",
+   "pdf": "https://arxiv.org/pdf/2609.28507"
+  },
+  {
+   "id": "2609.29943",
+   "type": "new",
+   "title": "Fractional clique decompositions in random hypergraphs",
+   "authors": [
+    "Felix Joos",
+    "Zak Smith"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages",
+   "abstract": "We prove that, whenever $ p \\ge n^{-1/2 + o(1)} $, with high probability $ G(n, p) $ admits a fractional triangle decomposition, that is, a non-negative weight function on its triangles for which the total weight of all triangles containing each edge is equal to 1. This bound on $ p $ is optimal up to the asymptotic error term, improving upon the recent state of the art, due to Mahabaduge and Simkin, that $ p \\ge n^{-4/11 + o(1)} $ suffices.\nOur main tool is a deterministic theorem guaranteeing the existence of fractional clique decompositions in all hypergraphs satisfying suitable `clique-regularity' properties. We prove this by analysing an extension (and generalisation to hypergraphs) of an algorithm proposed by Mahabaduge and Simkin, in which, at each time step, the discrepancy at each edge is spread among its containing triangles.\nBy showing the concentration of the relevant quantities in random $ k $-uniform hypergraphs, we obtain for all $ k \\ge 2 $ and $ r \\ge k + 1 $ that w.h.p. $ G^{(k)}(n, p) $ admits a fractional $ K^{(k)}_r $-decomposition whenever $ p \\ge n^{-\\frac{r - k}{\\binom{r}{k} - 1} + o(1)} $, which improves upon results of Delcourt, Kelly, and Postle, and is best possible up to subpolynomial factors.",
+   "abs": "https://arxiv.org/abs/2609.29943",
+   "pdf": "https://arxiv.org/pdf/2609.29943"
+  },
+  {
+   "id": "2609.28706",
+   "type": "new",
+   "title": "Nonregular graphs of odd maximum degree with maximum spectral radius",
+   "authors": [
+    "Liangdong Fan",
+    "Liying Kang",
+    "Yaojun Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Let $\\rho(n,d)$ denote the maximum adjacency spectral radius among all connected nonregular graphs of order $n$ and maximum degree $d$. A graph attaining this maximum is called an extremal graph.\nLiu [J. Combin. Theory Ser. B, 2024] determined the extremal graphs for $d=3,4$ and formulated two conjectures for general $d$. For each fixed odd integer $d\\ge3$, the conjectures assert that:\n(1) $\\displaystyle\\lim_{n\\to\\infty}n^2\\bigl(d-\\rho(n,d)\\bigr) =(d-1)\\pi^2/4$.\n(2) For all sufficiently large $n$, the degree sequence of every extremal graph is $(d,\\ldots,d,d-1)$ for odd $n$ and $(d,\\ldots,d,1)$ for even $n$.\nWe prove the first conjecture for every fixed odd $d\\ge3$ and, more precisely, obtain the asymptotic expansion \\[ \\rho(n,d) =d-\\frac{(d-1)\\pi^2}{4n^2} +\\frac{(d-1)^2\\pi^2}{4n^3} +O_d(n^{-4}) \\qquad(n\\to\\infty). \\] We further prove the second conjecture for every fixed odd $d\\ge3$.",
+   "abs": "https://arxiv.org/abs/2609.28706",
+   "pdf": "https://arxiv.org/pdf/2609.28706"
+  },
+  {
+   "id": "2609.28527",
+   "type": "new",
+   "title": "Counting almost independent sets in regular graphs",
+   "authors": [
+    "Gaia Carenini"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Kahn proved that, among bipartite $d$-regular graphs on $n$ vertices, the number of independent sets is maximized by a disjoint union of copies of $K_{d,d}$. Zhao later extended this result to all $d$-regular graphs. We prove a robust version of this theorem in which independent sets are replaced by sets spanning few internal edges. If $G$ is $d$-regular on $n$ vertices, then the number of subsets spanning at most $\\gamma dn$ edges is at most $$ 2^{n/2}\\exp\\left\\{ O\\bigl(\\gamma\\log(e/\\gamma)n\\bigr) +\nO\\bigl(n/d\\bigr) \\right\\}. $$ Both correction terms are sharp up to absolute constants: the $\\gamma\\log(1/\\gamma)n$ term is necessary when $d$ is sufficiently large in terms of $\\gamma$, while the $n/d$ term is already necessary for independent sets. Our result answers a question of Seth.",
+   "abs": "https://arxiv.org/abs/2609.28527",
+   "pdf": "https://arxiv.org/pdf/2609.28527"
+  },
+  {
+   "id": "2609.29493",
+   "type": "new",
+   "title": "Every graph is eventually Turán-good and Turán-stable",
+   "authors": [
+    "Jiabao Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "Let $T_r(n)$ denote the complete $r$-partite graph on $n$ vertices whose part sizes differ by at most one. A graph $H$ is called $K_{r+1}$-Turán-good if, for all sufficiently large $n$, the graph $T_r(n)$ contains the maximum number of copies of $H$ among all $n$-vertex $K_{r+1}$-free graphs. We say that $H$ is $K_{r+1}$-Turán-stable if, for every $\\varepsilon>0$, there exist $\\delta>0$ and $n_0$ such that, whenever $n\\ge n_0$ and an $n$-vertex $K_{r+1}$-free graph $G$ contains at least $\\mathrm{ex}(n,H,K_{r+1})-\\delta n^{v(H)}$ copies of $H$, the edit distance between $G$ and $T_r(n)$ is at most $\\varepsilon n^2$, where $v(H)$ denotes the order of $H$.\nIn this paper, we prove that every graph $H$ is both $K_{r+1}$-Turán-good and $K_{r+1}$-Turán-stable for $r\\ge 4v(H)^3+11v(H)^2$. This strengthens results of Morrison, Nir, Norin, Rzążewski, and Wesolek~[J. Combin. Theory Ser. B, 2023] and Gerbner and Hama Karim~[J. Graph Theory, 2024], and gives a positive answer to a question of Morrison, Nir, Norin, Rzążewski, and Wesolek. We also prove that $\\inj(H,G)\\le \\inj(H,T_r(n))$ for every $n$-vertex $K_{r+1}$-free graph $G$ and for $r\\ge 40v(H)^3$, where $\\inj(H,G)$ denotes the number of injective homomorphisms from $H$ to $G$. Finally, we give a negative answer to another question of Morrison, Nir, Norin, Rzążewski, and Wesolek.",
+   "abs": "https://arxiv.org/abs/2609.29493",
+   "pdf": "https://arxiv.org/pdf/2609.29493"
+  },
+  {
+   "id": "2609.30098",
+   "type": "cross",
+   "title": "On the largest common subtree of uniform attachment trees",
+   "authors": [
+    "Johannes Bäumler",
+    "Céline Kerriou",
+    "Bas Lodewijks",
+    "James Martin",
+    "Emil Powierski",
+    "Miklós Z. Rácz",
+    "Anirudh Sridhar"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "69 pages, 9 figures",
+   "abstract": "We study the largest common subtree of two independent unlabeled uniform attachment trees (also known as random recursive trees). Our main result shows that, when the two trees have $n$ vertices each, their largest common subtree has at least $n^{0.83}$ vertices with high probability. This is obtained by starting with the common subtree induced by the Ulam--Harris labels in the two trees and improving using local optimization steps. We also give some upper bounds and bounds for general random tree growth models. We leave as an intriguing open question to understand the magnitude of the size of the largest common subtree.",
+   "abs": "https://arxiv.org/abs/2609.30098",
+   "pdf": "https://arxiv.org/pdf/2609.30098"
+  },
+  {
+   "id": "2609.28898",
+   "type": "new",
+   "title": "Ramsey Theory for Product Trees",
+   "authors": [
+    "Alexander Fish",
+    "Sean Skinner"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We develop a Ramsey theory for leaf-generated subsets of finite products of trees. Our starting point is a Theorem of Furstenberg and Weiss which states that for every $k\\geq 1$ and $\\alpha>0$, if $A$ is a subset of the leaves of $T_n$, where $T_n$ is the complete binary tree of height $n$, with size $|A|\\geq 2^{\\alpha n}$, then for $n$ sufficiently large the ancestor closed sub-tree $T_A\\subset T_n$ generated by $A$ must contain a copy of $T_k$ such that (1) all vertices in the same level of $T_k$ are mapped into vertices at the same level of $T_A$, (2) if a non-leaf vertex $x\\in T_k$ is mapped into a vertex $y \\in T_A$, then the two children of $x$ are mapped into descendants of the two children of $y$, and (3) the levels of $T_A$ occupied by the copy of $T_k$ form an arithmetic progression.\nFor the product $T_n \\times T_n$ of two binary trees, we show that for every $k\\geq 1$ and $\\alpha > 1$, for $n$ sufficiently large, every subset $A$ of the leaves of $T_n\\times T_n$ of size at least $2^{\\alpha n}$ has that its ancestor closure $\\Gamma_A\\subset T_n \\times T_n$ contains similarly structured arithmetic copies of the height $k$ four-ary tree, where the four children of every non-leaf vertex in the source tree are required to map below the four distinct \\textit{diagonal children} of the image vertex, where a diagonal child of a vertex $(x,y) \\in T_n \\times T_n$ is obtained by moving one level down each in each component.\nOur results generalise to product of $d$-many finite $b$-ary trees with a sharp critical exponent of \\[ \\alpha_{\\text{crit}}(d,b) =d-1 + \\log_b(b-1).\\] Geometrically, our results imply that any set $E\\subset [0,1)^d$ of upper Minkowski dimension greater than $\\alpha_{\\text{crit}}(d,b)$ contains arithmetic $b$-adic branching patterns of arbitrary finite order.",
+   "abs": "https://arxiv.org/abs/2609.28898",
+   "pdf": "https://arxiv.org/pdf/2609.28898"
+  },
+  {
+   "id": "2609.29475",
+   "type": "cross",
+   "title": "Quiver Bases of Cartan Squares of Minuscule Representations",
+   "authors": [
+    "David B Rush"
+   ],
+   "categories": [
+    "math.RT",
+    "math.CO"
+   ],
+   "primary": "math.RT",
+   "comments": "38 pages",
+   "abstract": "We consider the Cartan square $V^{2\\lambda}$ of a minuscule representation $V^\\lambda$ of a simply laced complex simple Lie algebra $\\mathfrak g$. We construct for $V^{2\\lambda}$ a family of bases, which we call quiver bases, each indexed by the set $\\operatorname{RPP}_2(P_\\lambda)$ of reverse plane partitions of height two on the minuscule poset $P_{\\lambda}$ of $V^{\\lambda}$.\nLet $Q$ be a quiver on the Dynkin diagram of $\\mathfrak g$, and let $c_Q$ be the corresponding Coxeter element. The quiver basis $\\mathcal B^Q$ is distinguished by the following property: Up to sign, the action of the Tits representative $\\dot c_Q$ on $\\mathcal B^Q$ lifts the action of $c_Q$, via piecewise-linear toggles, on $\\operatorname{RPP}_2(P_\\lambda)$. This proves uniformly that, for any minuscule poset $P$, piecewise-linear Coxeter-motion and rowmotion on $\\operatorname{RPP}_2(P)$ exhibit the cyclic sieving phenomenon.\nIn type~$A$, the quiver basis for the standard orientation recovers, up to rescaling, the canonical basis, whose compatibility with the long cycle was established by Rhoades. In other types, however, we show the canonical basis is not compatible with any Coxeter element.",
+   "abs": "https://arxiv.org/abs/2609.29475",
+   "pdf": "https://arxiv.org/pdf/2609.29475"
+  },
+  {
+   "id": "2609.28966",
+   "type": "new",
+   "title": "A Combinatorial Proof of Hilton's Conjecture and Beyond",
+   "authors": [
+    "Thomas Lesgourgues",
+    "Luke Postle"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Using refined absorption, we prove that for every integer $g\\ge 1$ and real $\\gamma > 0$, and for sufficiently large $n$, there exists an $n^{-1+\\gamma}$-spread distribution on Latin squares of order $n$ and girth at least $g$ that have no proper subsquares. This implies a combinatorial proof of Hilton's conjecture from the 1970s (recently proved algebraically by Allsop and Wanless) that for all sufficiently large $n$, there exists a subsquare-free Latin square of order $n$; indeed, it implies there exist at least $n^{(1-o(1))n^2}$ subsquare-free squares. Simultaneously it also implies the existence of high girth Latin squares (recently proved by Kwan, Sah, Sawhney and Simkin) and even an $n^{-1+\\gamma}$-spread distribution on high girth Latin squares.",
+   "abs": "https://arxiv.org/abs/2609.28966",
+   "pdf": "https://arxiv.org/pdf/2609.28966"
+  },
+  {
+   "id": "2609.29304",
+   "type": "new",
+   "title": "The strong (non-induced) Turán numbers",
+   "authors": [
+    "Yair Caro",
+    "Zsolt Tuza"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "In this paper we introduce and explore the following new graph invariant: For a graph $G$ on $k$ vertices, $G \\neq K_k$, let $st(n,G)$ denote the maximum number of edges in a graph of order $n$ which does not contain any subgraph on $k$ vertices strictly containing $G$.\nA basic relation to classical Turán numbers is developed via the following: For $G$ on $k$ vertices, let $D(G) = \\{ H : |H| = |G|, H = G + e \\}$. Using this notion we prove that $ex(n,G) \\leq st(n,G) = ex(n, D(G) ) \\leq \\min \\{ ex(n,H) : H \\in D(G) \\}$ holds for all $n \\geq |G|$.\nThe family $D(G)$ happened to be smoothly amenable to the use of classical extremal results, and in many cases allows us to get asymptotically sharp estimates as well as exact values of $st(n,G)$.\nFrom the many results proved here we state the following as an illustration.\n(1) If $\\chi(G) \\geq 3$ and $\\chi(D(G)) = \\chi(G)$, then $st(n,G) = (1+o(1))ex(n,K_{\\chi(G)})$.\n(2) If $\\chi(D(G)) = \\chi(G) +1$, then $G$ is a complete $\\chi(G)$-partite graph and $st(n,G) = ex(n,K_{\\chi(G) +1})$ for $n$ sufficiently large.\n(3) For $k$ odd, $k\\geq 5$, $st(n,C_k) = ex(n,C_k) = ex(n,K_3)$ for $n$ sufficiently large.\n(4) If $T$ is a tree of order $q$ with diameter $k \\geq 2$ and $q \\geq k+1 \\geq 3$, then $ex(n, \\{C_3,...,C_{k+1}\\}) \\leq st(n,T) \\leq ex(n, \\{C_3,...,C_{k+1}\\}) + (q-1)n$.\nMany results concerning even cycles, theta graphs, dense bipartite graphs and graphs of the form $G = G^* \\cup tK_1$ are obtained, moreover the value of $st(n,G)$ is computed for all graphs on at most 4 vertices.",
+   "abs": "https://arxiv.org/abs/2609.29304",
+   "pdf": "https://arxiv.org/pdf/2609.29304"
+  },
+  {
+   "id": "2609.28893",
+   "type": "new",
+   "title": "Yes, $(2K_2, K_4)$-free graphs are recolorable",
+   "authors": [
+    "Henry Echeverría",
+    "Owen Henderschedt"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every $(2K_2,K_4)$-free graph is recolorable. Equivalently, for every such graph $G$ and every $\\ell\\geq \\chi(G)+1$, the reconfiguration graph of proper $\\ell$-colorings of $G$, in which two colorings are adjacent if they differ on exactly one vertex, is connected. This resolves the final remaining open case in the classification of recolorable $(F_1,F_2)$-free graphs when $F_1$ and $F_2$ have at most four vertices.",
+   "abs": "https://arxiv.org/abs/2609.28893",
+   "pdf": "https://arxiv.org/pdf/2609.28893"
+  },
+  {
+   "id": "2609.28536",
+   "type": "new",
+   "title": "Toric Richardson Varieties and Slice Links",
+   "authors": [
+    "Thomas C. Martinez",
+    "Matthew J. Tyler"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 5 figures. Comments welcome!",
+   "abstract": "For type $A$ braid varieties, including Richardson varieties and positroid varieties, we prove that the standard torus has a dense orbit exactly when the associated link is smoothly slice. More generally, we relate the smooth slice genus to the codimension of a generic standard-torus orbit. For knots, this codimension equals twice the slice genus. We also characterize algebraic tori among open affine Richardson varieties and positroid patches by 2-crown avoidance in their Bruhat intervals. Finally, positroid links have equal Seifert and slice genera, so a positroid link is smoothly slice exactly when it is an unlink.",
+   "abs": "https://arxiv.org/abs/2609.28536",
+   "pdf": "https://arxiv.org/pdf/2609.28536"
+  },
+  {
+   "id": "2609.29414",
+   "type": "new",
+   "title": "The coarse Erdős-Pósa theorem",
+   "authors": [
+    "Sandra Albrechtsen",
+    "Marthe Bonamy",
+    "Romain Bourneuf",
+    "James Davies"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove the coarse Erdős-Pósa conjecture of Georgakopoulos and Papasoglu. Informally, any graph either contains many fat cycles that are pairwise far apart, or there is a small number of bounded radius balls that together hit all of them. To be more precise, if $G$ is a graph with no $q$-fat model of $k \\cdot K_3$ for some $q, k \\in \\mathbb{N}$, then there is a set $X\\subseteq V(G)$ of $\\mathcal{O}(k\\log k)$ vertices such that every $q$-fat model of $K_3$ in $G$ has distance $\\mathcal{O}(q)$ from $X$.\nIn another form more closely resembling Manning's theorem that characterises quasi-trees: if $G$ is a graph with no $q$-fat model of $k \\cdot K_3$ for some $q, k \\in \\mathbb{N}$, then $G$ is $\\mathcal{O}(q)$-quasi-isometric to a graph $H$ that contains a set $X\\subseteq V(H)$ of $\\mathcal{O}(k\\log k)$ vertices such that $H-X$ is a forest.\nBootstrapping this result, we further prove that every graph with no $q$-fat model of $k \\cdot K_3$ is quasi-isometric to a graph with no $k \\cdot K_3$ minor, where the quasi-isometry can be chosen to only have additive distortion. This result also holds for $k = \\infty$.\nWe also obtain an Erdős-Pósa theorem for long induced cycles that are far apart.",
+   "abs": "https://arxiv.org/abs/2609.29414",
+   "pdf": "https://arxiv.org/pdf/2609.29414"
+  },
+  {
+   "id": "2609.28983",
+   "type": "new",
+   "title": "Antichain polynomials of products of chains and minuscule posets",
+   "authors": [
+    "Xi Chen",
+    "Yuxian Dong",
+    "Sihao Tang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "78pages",
+   "abstract": "This paper studies the antichain polynomials of $[k]\\times P$, where $P$ is a connected minuscule poset. We give a formula for the number of antichains, counted by size, of an arbitrary poset. Using this formula, we present necessary and sufficient conditions for the palindromicity of antichain polynomials for two infinite families of connected minuscule posets. We show that, for every connected minuscule poset $P$, if the antichain polynomial of $[k]\\times P$ is palindromic, then it has only real and strictly negative zeros. This result, in particular, gives an affirmative answer to Ding-Dong's conjecture about $\\gamma$-positivity of the antichain polynomial of $[k]\\times P$. By constructing a bijection between antichains and labeled Dyck paths, we also give a layer-refined enumeration of the antichains in $[2]\\times[m]\\times[n]$. We establish a relation between such antichains and Clar covers of the hexagonal flakes $O(2,m,n)$, thus prove a conjectured determinantal formula for a family of Zhang-Zhang polynomials. Real-rootedness and stability results are also obtained when the shortest chain has length at most two. Finally, we present infinitely many connected Peck posets whose antichain polynomials are not unimodal, disproving the log-concavity conjecture of Ding and Dong.",
+   "abs": "https://arxiv.org/abs/2609.28983",
+   "pdf": "https://arxiv.org/pdf/2609.28983"
+  },
+  {
+   "id": "2609.30263",
+   "type": "new",
+   "title": "Thresholds and spread in set systems of bounded VC-dimension",
+   "authors": [
+    "Chong Shangguan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages, Happy Mid-Autumn Festival, zhong qiu kuai le",
+   "abstract": "Let $p_c(\\mathcal F)$, $q(\\mathcal F)$, and $q_f(\\mathcal F)$ denote the threshold, expectation threshold, and fractional expectation threshold of a family $\\mathcal F$ of nonempty subsets of a finite set, respectively. We prove that there is an absolute constant $C>0$ such that, if $\\mathcal F$ has VC dimension at most $d\\ge1$, then $p_c(\\mathcal F)\\le Cq(\\mathcal F)\\log(d+1)$. More generally, for every $0<\\varepsilon\\le1/2$, a binomial random set of density $\\min\\{1,Cq(\\mathcal F)\\log((d+1)/\\varepsilon)\\}$ contains a member of $\\mathcal F$ with probability at least $1-\\varepsilon$. Consequently, $q_f(\\mathcal F)\\le Cq(\\mathcal F)\\log(d+1)$, verifying Talagrand's integral--fractional conjecture for families of any fixed VC dimension.\nWe also prove that if a $k$-spread probability measure has support of VC dimension at most $d$, then a binomial random set of density $\\min\\{1,(C/k)\\log((d+1)/\\varepsilon)\\}$ contains a member of its support with probability at least $1-\\varepsilon$. In both random-containment results, the factor \\(\\log((d+1)/\\varepsilon)\\) is optimal up to absolute constants. As an application of the spread theorem, we prove that every $n$-uniform family of VC dimension at most $d$ with more than $(C p^{-1}\\log((d+1)/\\varepsilon))^n$ members contains a $(p,\\varepsilon)$-robust sunflower. In particular, every such family with more than $(Cr\\log(d+1))^n$ members contains an $r$-sunflower, improving the recent bound $(Crd)^n$ of Ge, Wang, Xu, and Zhao.",
+   "abs": "https://arxiv.org/abs/2609.30263",
+   "pdf": "https://arxiv.org/pdf/2609.30263"
+  },
+  {
+   "id": "2609.29262",
+   "type": "new",
+   "title": "The Marcus-Minc Transform Inequality",
+   "authors": [
+    "Yair Lavi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove the Marcus-Minc conjecture: let n be any integer at least 2, and let A be a nonnegative n by n matrix whose row and column sums are all one. Form a new matrix by subtracting\nA from the n by n matrix of ones and dividing by n minus one. Then the permanent of A is at least the permanent of the new matrix. We also determine all equality cases.",
+   "abs": "https://arxiv.org/abs/2609.29262",
+   "pdf": "https://arxiv.org/pdf/2609.29262"
+  },
+  {
+   "id": "2609.29667",
+   "type": "new",
+   "title": "On the large-clique version of the Erdős-Sós conjecture",
+   "authors": [
+    "Kun Cheng",
+    "Yurui Tang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "For graphs $H$ and $F$, let $\\operatorname{ex}(n,H,F)$ denote the maximum number of copies of $H$ in an $F$-free graph of order $n$. Motivated by the Erdős-Sós conjecture, Gerbner and Palmer and, independently, Zhao and Peng conjectured that for every tree $T$ of order $k$ and every $3\\le r\\le k-1$, $$\\operatorname{ex}(n,K_r,T)=a\\binom{k-1}{r}+\\binom{b}{r},$$ where $n=a(k-1)+b$ with $0\\le b<k-1$. In this paper, we confirm the conjecture for $r\\ge \\left\\lceil (2k-1)/3\\right\\rceil$ and characterize all extremal graphs.",
+   "abs": "https://arxiv.org/abs/2609.29667",
+   "pdf": "https://arxiv.org/pdf/2609.29667"
+  },
+  {
+   "id": "2609.30165",
+   "type": "new",
+   "title": "Thinning and sprinkling: from robust sampling to almost Hamiltonicity",
+   "authors": [
+    "Micha Christoph",
+    "Zach Hunter",
+    "Benny Sudakov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "We develop the thinning--sprinkling technique, a general method for proving robustness of graph properties under random vertex sampling. Using it, we show that random induced subgraphs of tough graphs, high-degree connected vertex-transitive graphs, and nearly regular sublinear expanders retain strong connectivity or expansion properties with very high probability. We also prove that every $k$-connected graph with $k=\\omega(\\log n)$ contains a spanning bipartite subgraph that is $\\Omega(k)$-connected.\nUsing these robustness results, we further develop a general framework for constructing almost Hamilton cycles from randomly sampled highly connected subgraphs. As a consequence, we show that tough graphs, connected vertex-transitive graphs and nearly regular expanders contain a cycle of length at least $(1-o(1))n$ whenever the toughness or degree is polylogarithmically large. This gives asymptotic solutions of longstanding conjectures of Chvátal and Lovász on Hamiltonicity of tough and vertex-transitive graphs.",
+   "abs": "https://arxiv.org/abs/2609.30165",
+   "pdf": "https://arxiv.org/pdf/2609.30165"
+  },
+  {
+   "id": "2609.29957",
+   "type": "new",
+   "title": "Theta operators at $t=1$, Macdonald cumulants, and LLT positivity",
+   "authors": [
+    "Jim Haglund",
+    "Vasu Tewari"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 7 figures, comments welcome",
+   "abstract": "We study the Theta operators of D'Adderio-Iraci-Vanden Wyngaerd at $t=1$ and show that the power-sum-indexed operators $\\Theta_{\\mathsf p_k}|_{t=1}$ agree with a commuting family of derivations when restricted to symmetric functions of positive degree. Writing $\\widetilde{h}_a$ for the modified Macdonald function indexed by the single row $(a)$ we establish that $\\Theta_{\\mathsf p_\\mu}\\widetilde{h}_a|_{t=1}$ is, up to a normalization, the single-row Macdonald cumulant of Dolęga. We use these results to show that $\\Theta_{\\mathsf p_\\mu}\\widetilde{h}_a|_{t=1}$ and $\\Theta_{\\mathsf e_\\lambda}\\widetilde{h}_a|_{t=1}$ are both sums of vertical-strip LLT polynomials indexed by certain plane trees. The former further shows that single-row Macdonald cumulants are LLT-positive, thereby yielding a stronger form of the higher-order Macdonald positivity conjecture of Dolęga when all shapes are single rows.",
+   "abs": "https://arxiv.org/abs/2609.29957",
+   "pdf": "https://arxiv.org/pdf/2609.29957"
+  },
+  {
+   "id": "2609.29878",
+   "type": "new",
+   "title": "Disproof of a Conjectured Upper Bound for the Davenport Constant",
+   "authors": [
+    "Guoqing Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G\\cong C_{n_1}\\oplus\\cdots\\oplus C_{n_r}$ be a finite abelian group with $1<n_1\\mid\\cdots\\mid n_r$, and let $r(G)=r$ denote its rank. The Davenport constant $\\mathsf D(G)$ is the least integer $\\ell$ such that every sequence of $\\ell$ elements of $G$ contains a nonempty zero-sum subsequence, and $\\mathsf D^*(G)=1+\\sum_{i=1}^r(n_i-1)$ is its classical lower bound. A long-standing conjecture (\\cite[Conjecture 3.7]{GG06}) on the general upper bound of $\\mathsf D(G)$ asserts that $\\mathsf D(G)\\le\\mathsf D^*(G)+r(G)-1$. In this paper, we disprove this conjecture. More strongly, we prove that $\\sup_{r(G)=r}\\bigl(\\mathsf D(G)-\\mathsf D^*(G)\\bigr)=\\infty \\qquad\\text{for every fixed }r\\ge8.$ Thus the classical lower bound does not approximate the Davenport constant within an additive error depending only on the rank, contrary to what has long been believed in the past some decades.",
+   "abs": "https://arxiv.org/abs/2609.29878",
+   "pdf": "https://arxiv.org/pdf/2609.29878"
+  },
+  {
+   "id": "2609.30201",
+   "type": "new",
+   "title": "An extremal theorem for non-isomorphic spanning trees",
+   "authors": [
+    "Zhifei Yan",
+    "Lu-Ming Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$, let $\\tau_{\\mathrm{iso}}(G)$ denote the number of isomorphism classes of its spanning trees. For every fixed $d\\ge3$ and all sufficiently large $n$, we prove that every connected $n$-vertex graph $G$ with $\\delta(G)\\ge d$ satisfies \\[\\tau_{\\mathrm{iso}}(G)\\ge \\tau_{\\mathrm{iso}}(K_{d,n-d})=A_dn^{d-1}+O_d(n^{d-2}),\\] for an explicit constant $A_d>0$, and $K_{d,n-d}$ is the unique minimizer. This confirms a conjecture of Bitonti, Michel and Scott and extends it to every $d\\ge3$. We also show that any such graph with $O(n^{d-1})$ spanning-tree types has all but a bounded number of vertices with the same $d$ neighbours.",
+   "abs": "https://arxiv.org/abs/2609.30201",
+   "pdf": "https://arxiv.org/pdf/2609.30201"
+  },
+  {
+   "id": "2609.29351",
+   "type": "new",
+   "title": "Nearly optimal packings of equally sized rainbow forests",
+   "authors": [
+    "Boyan Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "A forest in an edge-colored graph is rainbow if its edges have pairwise distinct colors. We prove that, for every fixed $0<\\delta<1$, every properly edge-colored simple graph with $km$ edges and color classes of size at most $m$ contains at least $(1-o(1))m$ pairwise edge-disjoint rainbow forests, each with exactly $k$ edges, uniformly for $1\\leq k\\leq(2-\\delta)m$ as $m\\to\\infty$. This establishes the packing conclusion in the $k$-edge formulation of a conjecture of Montgomery, Pokrovskiy, and Sudakov throughout this range, with the original global color bound. The number of forests is asymptotically optimal, and the leading constant $2$ in the range of $k$ is best possible. The proof combines random star forests with a matching theorem for bipartite hypergraphs.",
+   "abs": "https://arxiv.org/abs/2609.29351",
+   "pdf": "https://arxiv.org/pdf/2609.29351"
+  },
+  {
+   "id": "2609.29449",
+   "type": "new",
+   "title": "Linear crossing families via dual levels",
+   "authors": [
+    "Tim Gehrunger"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 1 figure; comments welcome!",
+   "abstract": "Building on the work of Pach, Rubin, and Tardos, we prove that every set of $n\\ge2$ points in the real plane with no three collinear contains at least $cn$ pairwise crossing segments with distinct endpoints, for an absolute constant $c>0$.",
+   "abs": "https://arxiv.org/abs/2609.29449",
+   "pdf": "https://arxiv.org/pdf/2609.29449"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2609.28552",
+   "type": "cross",
+   "title": "Percolation on Finite Graphs",
+   "authors": [
+    "Michael Krivelevich"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.HO",
+   "comments": "",
+   "abstract": "Lecture notes from a graduate course given by Michael Krivelevich at the School of Mathematical Sciences of Tel Aviv University in the spring semester of 2026. Topics covered include: phase transition and the giant component in $G(n,p)$; long paths and cycles in supercritical and sparse random graphs; thresholds for connectedness and perfect matching; general model of a random subgraph of a finite graph; phase transition and the giant component in the random hypercube; polynomial diameter of the giant component; perfect matchings in the random hypercube.",
+   "abs": "https://arxiv.org/abs/2609.28552",
+   "pdf": "https://arxiv.org/pdf/2609.28552"
+  },
+  {
+   "id": "2609.29177",
+   "type": "cross",
+   "title": "Duality for matrix space questions",
+   "authors": [
+    "Yuval Wigderson"
+   ],
+   "categories": [
+    "math.RA",
+    "math.CO"
+   ],
+   "primary": "math.RA",
+   "comments": "15 pages. To appear in Amer. Math. Monthly",
+   "abstract": "We present a new proof of a classical theorem of Dieudonné: if a linear space of $n\\times n$ matrices consists entirely of singular matrices, then its dimension is at most $n^2-n$. Our proof is based on a surprising ``duality'' argument: we prove this universal upper bound by exhibiting a single matrix space that serves as a lower bound for a related problem. Interestingly, this approach only works for certain fields, but we use model-theoretic arguments to obtain the same result for all fields. We hope that this approach can be generalized to provide new duality-based proofs of other classical theorems on matrix spaces, and give some preliminary results in this direction.",
+   "abs": "https://arxiv.org/abs/2609.29177",
+   "pdf": "https://arxiv.org/pdf/2609.29177"
+  }
+ ],
+ "listed_new": 55,
+ "listed_cross": 19
+}
