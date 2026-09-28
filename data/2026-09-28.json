@@ -1,0 +1,543 @@
+{
+ "date": "2026-09-28",
+ "generated_at": "2026-09-28T03:22:54Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-28",
+ "screened": 51,
+ "screened_new": 33,
+ "screened_cross": 18,
+ "scored": 51,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.30927",
+   "type": "new",
+   "title": "Bounds for Unions of Several Parts in Balanced Graph Partitions",
+   "authors": [
+    "Zhanping Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $k\\ge3$ and $1\\le \\ell\\le k-1$. We study balanced $k$-partitions of a graph for which the union of any $\\ell$ parts induces few edges. We show that every graph $G$ with $n$ vertices and $m$ edges admits a balanced partition $V_1,\\ldots,V_k$ such that \\begin{equation*} \\max_{\\substack{A\\in\\binom{[k]}{\\ell}}}e_G\\left(\\bigcup_{i\\in A}V_i\\right)\\le\\frac{\\ell^2}{k^2}m+\\frac{\\ell^2(k-\\ell)}{k^2}(n-1)+\\frac{\\ell(k-\\ell)}{k(k-1)}\\sqrt{\\left(\\binom{k}{\\ell}-1\\right)m}. \\end{equation*} In the case $\\ell=2$, our result confirms a conjecture of Bollobás and Scott in a stronger form.",
+   "abs": "https://arxiv.org/abs/2609.30927",
+   "pdf": "https://arxiv.org/pdf/2609.30927"
+  },
+  {
+   "id": "2609.30336",
+   "type": "new",
+   "title": "The second-order term for the largest $r$-fork-free families",
+   "authors": [
+    "Yiyan Zhan",
+    "Mei Lu",
+    "Xiamiao Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A family of subsets of $[n]$ is $r$-fork-free if none of its members is strictly contained in $r$ other distinct members. For each fixed integer $r\\ge2$, we prove that the maximum size of such a family is \\[\n\\binom{n}{\\lfloor n/2\\rfloor}\n\\left(1+\\frac{2(r-1)}{n}+o(n^{-1})\\right). \\] This determines the second-order term and matches the upper bound of De Bonis and Katona. Our lower bound comes from a construction on two adjacent middle levels, using a finite ordered collection of disjoint coordinate blocks and a condition on sums modulo $n$. For each prescribed error, the blocks are fixed before $n$ tends to infinity, so the construction works for every sufficiently large $n$.",
+   "abs": "https://arxiv.org/abs/2609.30336",
+   "pdf": "https://arxiv.org/pdf/2609.30336"
+  },
+  {
+   "id": "2609.30893",
+   "type": "new",
+   "title": "Two-coloring cubic graphs with small monochromatic components, but without singletons",
+   "authors": [
+    "János Barát",
+    "Zoltán L. Blázsik"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We combine two coloring aspects that work in opposite directions. One can 2-color the vertices of a cubic graph such that each monochromatic component is very small. One can also 2-color the vertices of a cubic graph such that each monochromatic component has degree at least 1. As an intended tool for solving a special case of Wegner's conjecture, Thomassen formulated a conjecture that combined the two previous properties. This led to the concept of a crumby coloring. However it turned out that there are cubic graphs without such coloring. Here we try to see what natural relaxations of the original concept might hold for each cubic graph.\nWe show there exists a constant $c$ such that every cubic graph has a vertex 2-coloring such that every monochromatic component has at least 2 and at most $c$ vertices. We also prove an unbalanced version, which is the natural relaxation of the crumby coloring.",
+   "abs": "https://arxiv.org/abs/2609.30893",
+   "pdf": "https://arxiv.org/pdf/2609.30893"
+  },
+  {
+   "id": "2609.30350",
+   "type": "new",
+   "title": "Combinatorial aspects of the Delannoy Lattice",
+   "authors": [
+    "Xi Chen",
+    "Yuxian Dong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages",
+   "abstract": "The Delannoy numbers $d(n,k)$ count lattice paths from $(0,0)$ to $(n-k,k)$ using steps $(1,0),(0,1)$ and $(1,1)$. This paper introduces a graded poset $\\mathcal{D}_n$ on the Delannoy paths ending on the line $x+y=n$, whose rank-generating function is the Delannoy polynomial $d_n(x)=\\sum_{k=0}^n d(n,k)x^k$. We prove that $\\\\mathcal{D}_n$ is a self-dual lattice, which is call the Delannoy lattice. By establishing an explicit symmetric Boolean decomposition, we show that $\\mathcal{D}_n$ is a symmetric Boolean order, thereby recovering the $\\gamma$-positivity of $d_n(x)$. Such a decomposition is refined to a symmetric chain decomposition with the chain cover property, and is applied to determine all maximum antichains. We also investigate other combinatorial aspects of $\\mathcal{D}_n$, including supersolvability, the Möbius number, characteristic polynomials, and zeta polynomials.",
+   "abs": "https://arxiv.org/abs/2609.30350",
+   "pdf": "https://arxiv.org/pdf/2609.30350"
+  },
+  {
+   "id": "2609.30900",
+   "type": "cross",
+   "title": "Odd Cycle Transversal on $H$-free graphs",
+   "authors": [
+    "Esther Galby",
+    "Paloma T. de Lima",
+    "Andrea Munaro",
+    "Amir Nikabadi"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "\\textsc{Odd Cycle Transversal} is a classic $\\mathsf{NP}$-hard graph optimization problem asking for a minimum-weight set of vertices whose deletion makes the input graph bipartite, or equivalently, a maximum-weight induced bipartite subgraph. We show that \\textsc{Odd Cycle Transversal} is quasi-polynomial-time solvable on $kP_4$-free graphs, for every fixed $k \\in \\mathbb{N}$. In fact, we provide an $n^{O_k(\\log n)}$-time algorithm for the more general \\textsc{Max-Weight List $2$-Colorable Induced Subgraph}, where the notation $O_{k}(\\cdot)$ hides factors depending on $k$. Paired with known results from the literature, this allows us to obtain a complete complexity dichotomy for these two problems on $H$-free graphs into cases solvable in quasi-polynomial time and cases which are $\\mathsf{NP}$-hard, in particular resolving an open problem of Agrawal, Lima, Lokshtanov, Saurabh, and Sharma [SODA 2024].\nOur algorithms are based on a new structural tool that may be of independent interest. We introduce the notion of $H$-amiable family and show that, for every fixed graph $H$ without isolated vertices and every fixed $k\\ge2$, every $kH$-free graph admits an $H$-amiable family of quasi-polynomial size that can be constructed in quasi-polynomial time. Besides yielding the aforementioned algorithms, this result gives, for every fixed connected graph $H$ and every fixed $k\\ge2$, a reduction from \\textsc{Max-Weight Independent Set} on $kH$-free graphs to the same problem on $H$-free graphs with $n^{O_{H,k}(\\log n)}$ overhead. In this setting, it improves the $n^{O_{H,k}(\\log^3 n)}$ overhead obtained by specializing the general reduction of Gartland and Lokshtanov [FOCS 2020].",
+   "abs": "https://arxiv.org/abs/2609.30900",
+   "pdf": "https://arxiv.org/pdf/2609.30900"
+  },
+  {
+   "id": "2609.31331",
+   "type": "new",
+   "title": "The number of touching pairs of congruent sphere packings in Euclidean 3-space",
+   "authors": [
+    "Cameron Strachan"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A packing of $n$ congruent balls in $\\mathbb{R}^3$ is a family of interior-disjoint Euclidean balls all having the same radius. The contact number of a packing is the number of touching pairs of balls. In this paper we investigate the problem of determining the maximum contact number, $c(n)$, of a packing of $n$ congruent balls in $\\mathbb{R}^3$. We first show that all packings of $n$ congruent balls that have a contact number of $c(n)$ are minimally rigid. Furthermore, we show that $c(n)=3n-6$ for $n=6,7,8,$ and $9$. These two results resolve a conjecture of K. Bezdek and Khan. During the proof of the latter result, we also enumerate the contact structures of all packings of $n$ congruent balls with contact number $c(n)$ for $n=6,7,$ and $8$. Additionally, we provide a lower bound construction which shows $c(n)> 6n-6\\sqrt[3]{2}n^\\frac{2}{3}$ when $n=16k^3-33k^2+24k-6$ where $k\\in \\mathbb{N}$. We also look at the restricted problem where each ball is centered on the face-centered cubic lattice $A_3$. In this case let $c_{A}(n)$ denote the maximum contact number. We show that $c_{A}(n)\\leq 6n-\\frac{6}{\\sqrt[6]{2}}n^\\frac{2}{3}$ for all $n$, and determine the asymptotics of $c_{A}(n)$ to be $c_{A}(n)=6n-(1+o(1))6\\sqrt[3]{2}n^\\frac{2}{3}$.",
+   "abs": "https://arxiv.org/abs/2609.31331",
+   "pdf": "https://arxiv.org/pdf/2609.31331"
+  },
+  {
+   "id": "2609.31336",
+   "type": "new",
+   "title": "Greedy queens and the golden ratio",
+   "authors": [
+    "Boon Suan Ho"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "42 pages",
+   "abstract": "Place a queen in each successive column of an infinite $\\mathbb{N}\\times\\mathbb{N}$ chessboard, always choosing the lowest row such that no two queens may attack one another. We prove that the row $q_n$ occupied by the queen in the $n$th column satisfies $q_n=n\\phi+O(1)$ or $q_n=n/\\phi+O(1)$, where $\\phi=(1+\\sqrt5)/2$ is the golden ratio.",
+   "abs": "https://arxiv.org/abs/2609.31336",
+   "pdf": "https://arxiv.org/pdf/2609.31336"
+  },
+  {
+   "id": "2609.30895",
+   "type": "new",
+   "title": "Proof of the Kahn Saks Conjecture",
+   "authors": [
+    "Max Aires"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Let $\\mathbb{P}(x\\prec y)$ be the probability that $x$ precedes $y$ in a uniformly random linear extension of an $n$-element poset $P$, and define the balancing coefficient to be $\\delta(x,y)=\\min(\\mathbb{P}(x\\prec y),\\mathbb{P}(y\\prec x))$ with $\\delta(P)=\\max_{x,y}\\delta(x,y)$. We prove (Theorem 1) that sufficiently large width forces $\\delta(P)$ to be arbitrarily close to $1/2$, answering a long-standing conjecture of Kahn and Saks. In fact, we prove the stronger result (Theorem 2) that large width forces one of two configurations in our poset: either a nearly uniform order on $k$ vertices, or an almost fixed order on $t$ vertices with one further vertex inserted uniformly among the $t+1$ slots. We also show that, for fixed $k$, the first possibility must occur within any antichain $X$ of size $\\Omega(n^{2/3})$.",
+   "abs": "https://arxiv.org/abs/2609.30895",
+   "pdf": "https://arxiv.org/pdf/2609.30895"
+  },
+  {
+   "id": "2609.30680",
+   "type": "new",
+   "title": "A Log-Star Comparison Between Expectation Threshold and Fractional Expectation Threshold",
+   "authors": [
+    "Xuan Fang",
+    "Tianyu Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We proved a log-star comparison between the expectation threshold $q(\\mathcal F)$ and the fractional expectation threshold $q_f(\\mathcal F)$ for any nontrivial increasing family $\\mathcal F$ on a finite ground set $V$ of size $|V|=N$. Specifically, we show that $$q_f(\\mathcal F)\\le64\\log_2^*(N+2)\\,q(\\mathcal F),$$ where we define $\\log_2^* x$ to be the least integer $k\\ge0$ such that applying $\\log_2$ repeatedly $k$ times gives a number at most $1$.",
+   "abs": "https://arxiv.org/abs/2609.30680",
+   "pdf": "https://arxiv.org/pdf/2609.30680"
+  },
+  {
+   "id": "2609.31205",
+   "type": "cross",
+   "title": "Complexity, approximation, and extension of proper $\\{a,b\\}$-edge-weightings",
+   "authors": [
+    "Péter Madarasi",
+    "Máté Simon"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "For distinct integers $a$ and $b$, an $\\{a,b\\}$-edge-weighting assigns $a$ or $b$ to each edge and labels each vertex by the sum of its incident weights. Such a weighting is proper if adjacent vertices receive distinct labels. We prove that, for every fixed pair of distinct integers, deciding whether a proper weighting exists is NP-complete even for simple cubic planar graphs. On planar multigraphs with $m$ edges, we give an exact $2^{O(\\sqrt m)}$-time algorithm and, assuming the Exponential Time Hypothesis (ETH), exclude $2^{o(\\sqrt m)}$-time algorithms even for simple cubic planar graphs. As a consequence, locally irregular $2$-edge-coloring is NP-complete on simple cubic planar graphs, admits a deterministic $2^{O(\\sqrt n)}$-time algorithm on $n$-vertex graphs in this class, and admits no $2^{o(\\sqrt n)}$-time algorithm under ETH. For maximizing the number of edges joining vertices with distinct labels, we give a deterministic efficient polynomial-time approximation scheme (EPTAS) on planar multigraphs, a polynomial-time $1/2$-approximation on multigraphs, and APX-completeness even on simple cubic graphs. Extending a partial $\\{a,b\\}$-edge-weighting to a proper one is NP-complete for every fixed pair even on simple cubic planar bipartite graphs, while it is polynomial-time solvable on trees. The hardness persists even when the prescribed edges form disjoint paths of length $6$ and all edges of each path have the same prescribed weight.",
+   "abs": "https://arxiv.org/abs/2609.31205",
+   "pdf": "https://arxiv.org/pdf/2609.31205"
+  },
+  {
+   "id": "2609.31592",
+   "type": "new",
+   "title": "Completely monotone negative powers of hyperbolic polynomials",
+   "authors": [
+    "Dongsheng Wei"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.CA"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages; computational supplement included as ancillary files",
+   "abstract": "Scott and Sokal asked whether every homogeneous polynomial with the half-plane property has a completely monotone negative power. We show that it does, and prove the positivity conjectures of Michałek--Sturmfels--Uhler--Zwiernik and Kozhasov--Michałek--Sturmfels. For a homogeneous hyperbolic polynomial in $n\\ge2$ variables, positive on its hyperbolicity cone, every power $p^{-\\alpha}$ with $\\alpha\\ge4096n^2$ is completely monotone, independently of the degree and coefficients of $p$. When the cone has pointed closure, its Riesz kernel is strictly log-concave in the interior of the dual cone, with relative Gaussian comparison error at most $512n^2/\\alpha$ and explicit Hessian bounds. We also prove that positive exponents of complete monotonicity can accumulate at zero only if $p$ is a product of real linear forms. The specialized V'amos quartic provides an example with no definite determinantal representation of any positive integer power.",
+   "abs": "https://arxiv.org/abs/2609.31592",
+   "pdf": "https://arxiv.org/pdf/2609.31592"
+  },
+  {
+   "id": "2609.31441",
+   "type": "new",
+   "title": "The Kelly--Trotter conjecture and dimension of poset products",
+   "authors": [
+    "Zhaochen Dong",
+    "Kaiyun Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the order dimension of Cartesian products of finite posets. Kelly and Trotter conjectured in 1982 that $\\dim(P\\times Q)\\ge\\dim P+\\dim Q-2$ for all finite posets $P$ and $Q$. For $m\\ge3$, let $R_m$ denote the incidence poset of the complete graph on $m$ vertices. We prove that there is a constant $C$ such that, for all sufficiently large $m$, $\\dim(R_m\\times R_m)\\le\\left(1+\\frac{2}{\\log_2 6}\\right)\\dim R_m+C$. Since $1+2/\\log_2 6<2$, this disproves the Kelly--Trotter conjecture and shows that $2\\dim R_m-2-\\dim(R_m\\times R_m)$ can grow linearly with $\\dim R_m$. For every integer $d\\ge8$, we construct an incidence poset $Q_d$ such that $\\dim Q_d=d$ and $Q_d$ has the $(3,d)$-covering property. Consequently, $\\dim(P\\times Q_d)\\le\\dim P+d-3$ for every poset $P$ with $\\dim P\\ge3$. Thus, for every integer $d\\ge8$, the poset $Q_d$ violates the Kelly--Trotter conjecture with every poset of dimension at least $3$. Finally, we prove that a poset $Q$ has an $(r,s)$-covering if and only if $\\dim(Q\\times C^r)\\le s$ for every finite chain $C$ with at least two elements.",
+   "abs": "https://arxiv.org/abs/2609.31441",
+   "pdf": "https://arxiv.org/pdf/2609.31441"
+  },
+  {
+   "id": "2609.31389",
+   "type": "cross",
+   "title": "Unbalancing unit vectors",
+   "authors": [
+    "Zilin Jiang",
+    "Jeck Lim",
+    "Skand Parvatikar"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "12 pages",
+   "abstract": "We show that for every $n$ unit vectors $v_1, \\dots, v_n$ in the $d$-dimensional Euclidean space, there exist signs $\\varepsilon_1, \\dots, \\varepsilon_n \\in \\{\\pm 1\\}$ such that $\\lVert \\varepsilon_1 v_1 + \\dots + \\varepsilon_n v_n \\rVert \\ge \\sqrt{2n - d}$, and we characterize the equality cases.",
+   "abs": "https://arxiv.org/abs/2609.31389",
+   "pdf": "https://arxiv.org/pdf/2609.31389"
+  },
+  {
+   "id": "2609.31453",
+   "type": "cross",
+   "title": "The Robust Thompson's Conjecture for Alternating Groups",
+   "authors": [
+    "Nathan Keller",
+    "Noam Lifshitz",
+    "Avichai Marmor",
+    "Ohad Sheinfeld"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "",
+   "abstract": "We show that there exists a constant $\\epsilon > 0$ such that if $C$ is a conjugacy class in $A_n$ of size at least $|A_n|^{1-\\epsilon}$, then $A_n \\setminus \\{1\\} \\subseteq C^2$. This proves the robust version of Thompson's conjecture for the alternating group, conjectured by Shalev (Annals of Math., 2009). Our proof combines character bounds and combinatorial cancellation techniques with the recent theory of hypercontractivity for functions over symmetric groups.",
+   "abs": "https://arxiv.org/abs/2609.31453",
+   "pdf": "https://arxiv.org/pdf/2609.31453"
+  },
+  {
+   "id": "2609.30323",
+   "type": "new",
+   "title": "An EL-shellable rank-uniform poset that is not UMEL-shellable",
+   "authors": [
+    "Hadi Al Aithan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We address Questions~8.1 and~8.4 of Coron--Ferroni--Li \\cite{coron2025chow}. For the first part of Question~8.1, which asks whether every rank-uniform EL-shellable poset admits a rank-uniform EL-labeling, we construct a counterexample of rank $4$ and prove that this rank is minimal. For the second part of Question~8.1, concerning whether every rank-uniform EL-shellable poset is UMEL-shellable, we construct a counterexample of rank $3$. We also develop a general criterion for constructing UMEL-shellable posets of rank $3$. As an application, we give an affirmative answer to Question~8.4 of Coron--Ferroni--Li.",
+   "abs": "https://arxiv.org/abs/2609.30323",
+   "pdf": "https://arxiv.org/pdf/2609.30323"
+  },
+  {
+   "id": "2609.31537",
+   "type": "new",
+   "title": "How large can $B_n$- and $D_n$-friezes be?",
+   "authors": [
+    "Florian Ito Sprung"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages, comments very welcome!",
+   "abstract": "We pin down the largest entries possible in positive integral friezes of types $D_n$ for $n\\geq 4$ and $B_n$ for $n\\geq 2$, addressing a conjecture of Robin Zhang. For type $D_n$, the sharp upper bound is $F_nF_{n+1}-1$, and for type $B_n$, it is $F_{n+1}F_{n+2}-1$, where $F_k$ are the Virahanka--Fibonacci numbers.",
+   "abs": "https://arxiv.org/abs/2609.31537",
+   "pdf": "https://arxiv.org/pdf/2609.31537"
+  },
+  {
+   "id": "2609.30304",
+   "type": "new",
+   "title": "Exact-palette rainbow embeddings in uniformly coloured pseudorandom graphs",
+   "authors": [
+    "Elad Aigner-Horev",
+    "Dan Hefetz",
+    "Yury Person",
+    "Michael Trushkin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the emergence of rainbow spanning configurations in independently and uniformly coloured sparse $(p,\\beta)$-bijumbled graphs. If the palette of the colouring supports a surplus that is sublinear in the number of vertices, then asymptotically almost surely we obtain rainbow embeddings of perfect matchings, prescribed bounded-degree spanning trees, and Hamilton cycles whilst asymptotically maintaining $p$ and $\\beta$ at the best known threshold conditions sufficient for these configurations to emerge in uncoloured sparse bijumbled graphs. In fact, the size of the palette surplus is upper bounded by a concrete decreasing function of $p$. These results are proved using a McDiarmid-type coupling argument.\nWe then proceed to prove that a mild increase in the bijumbledness parameters of the host graph allow for exact-palette results. That is, we prove that asymptotically almost surely rainbow perfect matchings, clique factors, prescribed bounded-degree spanning trees, and Hamilton cycles emerge in a $(p,\\beta)$-bijumbled graph whose edges are uniformly coloured from a palette whose size coincides with the size of the target configuration. Our exact-palette results are in fact stronger; they assert that the aforementioned configurations survive in a rainbow fashion post a uniform colouring not only in the original host graph but in percolations thereof. These results are proved using spread measures.",
+   "abs": "https://arxiv.org/abs/2609.30304",
+   "pdf": "https://arxiv.org/pdf/2609.30304"
+  },
+  {
+   "id": "2609.30315",
+   "type": "new",
+   "title": "Bounded-Defect Proper Orientations and Graphs on Surfaces",
+   "authors": [
+    "Qi Wu",
+    "Yong Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Chen, Mohar and Wu [J. Combin. Theory Ser. B 161 (2023)] conjectured that every graph of orientable genus $g$ has proper orientation number $O(\\sqrt g)$. We prove this conjecture. Our main result extends the potential-outdegree method from independent color classes to three parts of bounded internal degree. Let $k,D\\in\\mathbb Z_{\\ge0}$. If $G$ has maximum average degree at most $2k$ and $V(G)=V_1\\cup V_2\\cup V_3$, where each $V_i$ induces a subgraph of maximum degree at most $D$, then $$\\pchi(G)\\le k+9D+6+\\floor{\\frac32\\ceil{\\frac{2D+2}{5}}}\\le k+\\floor{\\frac{48D}{5}}+8.$$ When the partition is given, we construct such an orientation in polynomial time. For every $D\\ge1$, we also construct a graph with a partition into three parts of internal maximum degree at most $D$ for which $\\pchi(G)-\\ceil{\\mad(G)/2}\\ge6D+5$; hence the linear dependence on $D$ is unavoidable. Finally, Woodall's defective-coloring theorem yields $\\pchi(G)=O(\\sqrt{\\gamma+1})$ for every graph of Euler genus $\\gamma$.",
+   "abs": "https://arxiv.org/abs/2609.30315",
+   "pdf": "https://arxiv.org/pdf/2609.30315"
+  },
+  {
+   "id": "2609.30513",
+   "type": "cross",
+   "title": "A non-lattice periodic point set beating the optimal lattice packing-covering constant in dimension five",
+   "authors": [
+    "Sven Ahrend",
+    "Mathieu Dutour Sikirić"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "The packing-covering constant of a point set $X\\subseteq\\mathbb{R}^d$ is $\\gamma(X)=\\mu(X)/\\rho(X)$, the covering radius divided by the packing radius. Among lattices, its minimum $\\gamma_d$ is known for $d\\leq 5$, attained by $\\mathsf{A}_2^*$, $\\mathsf{A}_3^*$, and Horváth's lattices $\\mathsf{Ho}_4$, $\\mathsf{Ho}_5$; Böröczky proved that $\\gamma_3$ is optimal without the lattice restriction, but for $d=4,5$ the non-lattice problem was open. We exhibit a $2$-periodic non-lattice point set of $\\mathbb{R}^5$ with $\\gamma = 9/\\sqrt{40} = 1.423024\\ldots < \\gamma_5 = \\sqrt{3/2+\\sqrt{13}/6} = 1.4494568\\ldots$, so that in dimension five the packing-covering problem is not solved by lattices.",
+   "abs": "https://arxiv.org/abs/2609.30513",
+   "pdf": "https://arxiv.org/pdf/2609.30513"
+  },
+  {
+   "id": "2609.26802",
+   "type": "cross",
+   "title": "Generators of stability-preserving semigroups, spectral gaps, and classical ground-state computation",
+   "authors": [
+    "Dongsheng Wei"
+   ],
+   "categories": [
+    "math.CV",
+    "math-ph",
+    "math.CO",
+    "quant-ph"
+   ],
+   "primary": "math.CV",
+   "comments": "64 pages. Substantially reorganized and rewritten for clarity; references updated, including independent work by Jiang (arXiv:2609.25037). Mathematical results unchanged; theorem numbering changed. Exact verification scripts included as ancillary files",
+   "abstract": "We classify the generators of stability-preserving semigroups on polynomial spaces with bounded coordinate degrees. The generators have differential order at most two, with principal coefficients characterized by low-degree nonnegativity conditions. In disk coordinates, positive degree damping gives strict zero-freeness and a sharp spectral gap, extending the Hermitian gap of Bravyi, Gosset, Liu, and Wong to complex generators. The resulting analytic domain yields deterministic classical algorithms for ground energies and stable product-state queries for bounded-degree Suzuki-Fisher Hamiltonians with bounded local strength and fixed positive fields. Field perturbation gives zero-field energy-value approximation schemes for bounded-degree unweighted EPR and bipartite Quantum MaxCut. We also prove that, up to scalars, the Hermitian qubit Hamiltonians whose full Gibbs tensors are Lee-Yang at every temperature in a fixed basis are precisely the edgewise phase-rotated Suzuki-Fisher family. With strictly positive longitudinal fields, these tensors are zero-free on a polydisk of radius greater than one at each positive inverse temperature. These two statements answer questions of Wong, Bravyi, Gosset, and Liu. Degree-preserving, coefficient-positive stability semigroups have concave sector growth rates, yielding token-graph concavity. We also give a counterexample to a proposed explicit ground-state radius.",
+   "abs": "https://arxiv.org/abs/2609.26802",
+   "pdf": "https://arxiv.org/pdf/2609.26802"
+  },
+  {
+   "id": "2609.30387",
+   "type": "cross",
+   "title": "Quantum Laurent positivity in rank three",
+   "authors": [
+    "Qiyue Tang"
+   ],
+   "categories": [
+    "math.QA",
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.QA",
+   "comments": "",
+   "abstract": "We prove Laurent positivity for skew-symmetrizable quantum cluster algebras of rank three, with arbitrary integral compatible quantizations and invertible frozen variables. The proof uses mutation-acyclic positivity from a companion manuscript.",
+   "abs": "https://arxiv.org/abs/2609.30387",
+   "pdf": "https://arxiv.org/pdf/2609.30387"
+  },
+  {
+   "id": "2609.30888",
+   "type": "new",
+   "title": "Breaking the Infinite Barrier in the $\\frac{1}{3}$--$\\frac{2}{3}$ Conjecture",
+   "authors": [
+    "Max Aires",
+    "Swee Hong Chan",
+    "Igor Pak",
+    "Greta Panova"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "The balance constant is a poset parameter measuring how well random linear extensions can be split according to their relative order on two elements. We give an $\\varepsilon$-improvement for the balance constant over the bound by Brightwell, Felsner and Trotter (1995), for some small $\\varepsilon>0$. This is the first general result towards the $\\frac{1}{3}$--$\\frac{2}{3}$ conjecture in over 30 years.",
+   "abs": "https://arxiv.org/abs/2609.30888",
+   "pdf": "https://arxiv.org/pdf/2609.30888"
+  },
+  {
+   "id": "2609.30410",
+   "type": "new",
+   "title": "Density regularity of $\\{x,x+y,xy\\}$ in the integers",
+   "authors": [
+    "Florian K. Richter",
+    "Konstantinos Tsinas"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages",
+   "abstract": "Fix $s\\in\\mathbb{N}$. We prove that there exists a subadditive density on $\\mathbb{N}$ such that, for every polynomial $P\\in\\mathbb{Z}[y]$ with $P(0)=0$, every set of positive density contains configurations $\\{x,x+P(y),xy^s\\}$ for arbitrarily large $x>y\\geq 2$. When $s=1$, this strengthens Moreira's partition-regularity result for $\\{x,x+P(y),xy\\}$ to a density theorem, and when $s>1$ this yields new partition-regularity results.",
+   "abs": "https://arxiv.org/abs/2609.30410",
+   "pdf": "https://arxiv.org/pdf/2609.30410"
+  },
+  {
+   "id": "2609.30354",
+   "type": "cross",
+   "title": "Spanning Trees with Many Leaves in Graphs of Minimum Degree at Least 7",
+   "authors": [
+    "Sogol Jahanbekam"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We give a polynomial-time algorithm that constructs, in every connected $n$-vertex graph of minimum degree at least $7$, a spanning tree with at least $\\frac{25200}{46189}n>0.5455\\,n$ leaves. No bound specific to minimum degree $7$ was known: the best bound available for this class was $\\frac{11}{21}n\\approx0.5238\\,n$, inherited from Simarova's theorem for minimum degree~$6$. The algorithm and its analysis are carried out for an arbitrary minimum degree $\\delta$, and yield a recursion that gives an explicit lower bound on the number of leaves for every $\\delta$. The resulting bounds improve all previously known ones for every $\\delta\\ge7$; for $\\delta=8,9,10$ they are $0.5850\\,n$, $0.6151\\,n$ and $0.6413\\,n$, and they are tabulated for $\\delta\\le25$ at the end of the paper.",
+   "abs": "https://arxiv.org/abs/2609.30354",
+   "pdf": "https://arxiv.org/pdf/2609.30354"
+  },
+  {
+   "id": "2609.31549",
+   "type": "new",
+   "title": "2-colouring shift-chains",
+   "authors": [
+    "Zak Smith"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "A shift-chain is an $ r $-uniform hypergraph $ \\mathcal{H} $ on vertex set $ [n] $ with the property that, for any two edges $ \\{ e_1, \\ldots, e_r \\} $ and $ \\{ f_1, \\ldots, f_r \\} $ with $ e_1 < \\cdots < e_r $ and $ f_1 < \\cdots < f_r $, either $ e_i \\le f_i $ for all $ i \\in [r] $ or $ f_i \\le e_i $ for all $ i \\in [r] $. It is known that all shift-chains are properly vertex-colourable with three colours (that is, such that no edge is monochromatic), which is optimal for $ r \\in \\{ 2, 3 \\} $. It was asked by Pálvölgyi in 2010 whether all shift-chains of sufficiently large uniformity are properly $ 2 $-colourable. We answer this question in a strong form, proving that in fact all shift-chains of uniformity at least $ 4 $ are properly $ 2 $-colourable. The colouring is obtained via a natural algorithm with linear running time.",
+   "abs": "https://arxiv.org/abs/2609.31549",
+   "pdf": "https://arxiv.org/pdf/2609.31549"
+  },
+  {
+   "id": "2609.30310",
+   "type": "new",
+   "title": "The maximum area of the convex hull of a polyhex",
+   "authors": [
+    "Pragyaan Gaur"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages. Proves Conjecture 2 of Kurz (Beitraege Algebra Geom. 49 (2008)) in a sharpened form. Upper bound formally verified in Lean 4 with Mathlib; code at this https URL. The maximum areas form OEIS A399934",
+   "abstract": "A polyhex is an edge-connected set of n cells of the regular hexagonal tiling, where each cell has area one. We prove that the convex hull of a polyhex has area at most (1/6)*ceiling(n^2 + 14n/3), and we show that some polyhex reaches this bound for every n. This proves a conjecture of Kurz from 2008, which asked for the weaker bound (1/6)*floor(n^2 + 14n/3 + 1). The two bounds differ exactly when 3 divides n. We checked the upper bound in the Lean 4 proof assistant with the Mathlib library. We also report a computation over all polyhexes with at most 12 cells, which shows that for these sizes only one shape reaches the maximum, up to rotation and reflection.",
+   "abs": "https://arxiv.org/abs/2609.30310",
+   "pdf": "https://arxiv.org/pdf/2609.30310"
+  },
+  {
+   "id": "2609.30597",
+   "type": "new",
+   "title": "g-Positivity for Paving Matroids",
+   "authors": [
+    "Yiyu Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages. Comments are welcome!",
+   "abstract": "We prove that the g-polynomial of every paving matroid has nonnegative coefficients. Our proof combines a deletion-contraction argument with an elementary coefficient inequality for the g-polynomials of uniform matroids.",
+   "abs": "https://arxiv.org/abs/2609.30597",
+   "pdf": "https://arxiv.org/pdf/2609.30597"
+  },
+  {
+   "id": "2609.30978",
+   "type": "new",
+   "title": "The maximum number of edges in minimal matching covered graphs",
+   "authors": [
+    "Xiaoling He"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A connected graph $G$ with at least two vertices is {\\em matching covered} if each of its edges lies in a perfect matching. A matching covered graph is {\\em minimal} if the removal of any edge results in a graph that is no longer matching covered. Lovász and Plummer [J. Combin. Theory, Ser. B 23 (1977) 127--138] proved by ear decompositions that every minimal matching covered bipartite graph $G$ different from $K_2$ has at most $(3|V(G)|-6)/2$ edges, and this bound is sharp for all $|V(G)|\\ge4$. In this paper, we prove that every minimal matching covered nonbipartite graph $G$ with at least 6 vertices has at most $5(|V(G)|-2)/2$ edges, and this bound is sharp for all $|V(G)|\\ge6$.",
+   "abs": "https://arxiv.org/abs/2609.30978",
+   "pdf": "https://arxiv.org/pdf/2609.30978"
+  },
+  {
+   "id": "2609.30771",
+   "type": "cross",
+   "title": "Pinch's conjecture on $a$-convexity",
+   "authors": [
+    "John M. Campbell"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "Submitted for publication",
+   "abstract": "For $a$ in $\\mathbb{R}$, a subset $V$ contained in $\\mathbb{R}^{n}$ is said to be $a$-convex if $x, y \\in V \\Longrightarrow a x + (1-a) y \\in V$. According to Pinch [Math. Proc. Cambridge Philos. Soc., 1985], the $a$-convex hull of $V$ is the intersection of all of the $a$-convex subsets of $\\mathbb{R}^{n}$ that contain $V$, and Pinch also defines $D(a)$ as the $a$-convex hull of $\\{ 0, 1 \\}$ in $\\mathbb{R}^{1}$. Pinch conjectured that if $a$ is a totally real algebraic integer and $D(a)$ has no limit points, then every algebraic conjugate of $a$ other than $a$ is in $(0, 1)$. We succeed in proving this conjecture, which seems to have remained open.",
+   "abs": "https://arxiv.org/abs/2609.30771",
+   "pdf": "https://arxiv.org/pdf/2609.30771"
+  },
+  {
+   "id": "2609.31355",
+   "type": "new",
+   "title": "On the Brouwer-type Conjecture for Signless Laplacian Eigenvalues of Graphs",
+   "authors": [
+    "Ruisong Yuan",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "Motivated by Brouwer's conjecture, Ashraf, Omidi and Tayfeh-Rezaie proposed the following Brouwer-type conjecture that for every graph $G$ on $n$ vertices with $m$ edges, the sum $S_k^+(G)$ of its $k$ largest signless Laplacian eigenvalues satisfies $S_k^+(G)\\le m+\\binom{k+1}{2}$ for $k=1, \\ldots, n$. In this paper, we prove that the above conjecture holds. Moreover, the equality holds if and only if $k=1$ and $G$ is either star $K_{1,a}$ or triangle $K_3$ with adding some isolated vertices.\nFor split graphs, properties of block signless Laplacian matrices based on clique and independent set are adapted. While for non-split graphs, some spectral graph substructure are used to control the sum of signless Laplacian eigenvalues.",
+   "abs": "https://arxiv.org/abs/2609.31355",
+   "pdf": "https://arxiv.org/pdf/2609.31355"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 33,
+ "listed_cross": 18
+}
