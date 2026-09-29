@@ -1,0 +1,537 @@
+{
+ "date": "2026-09-29",
+ "generated_at": "2026-09-29T02:58:39Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-29",
+ "screened": 31,
+ "screened_new": 23,
+ "screened_cross": 8,
+ "scored": 31,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.31674",
+   "type": "new",
+   "title": "Exact majority C-colourings of balanced Hamming graphs and grids",
+   "authors": [
+    "ZeHua Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages; supplementary Python construction and verification code included as ancillary files",
+   "abstract": "A majority C-colouring partitions a graph into classes in which every vertex has at least half of its neighbours. Write $M(G)$ for the maximum number of classes. We determine $M(K_q^{\\square(2k+1)})=\\left\\lfloor\\frac{q^{k+1}}{\\lfloor q/2\\rfloor+1}\\right\\rfloor\\qquad(q\\ge3,\\ k\\ge0).$ The lower bound follows from explicit rectangular partitions and a uniform three-dimensional bridge. A punctured-rectangle construction supplies both the bridge and a partition in the intermediate dimension. The upper bound is a classical consequence of Hamming edge isoperimetry; an elementary proof is included. We also prove $M(C_m\\square P_n)=\\frac n2\\lfloor m/2\\rfloor$ for $m\\ge4$ and even $n\\ge2$, contradicting the cylinder assertion of Conjecture 4 in arXiv:2608.27669v1 for odd $m\\ge7$ and even $n\\ge6$. Further layer bounds determine additional cylinder and torus families.",
+   "abs": "https://arxiv.org/abs/2609.31674",
+   "pdf": "https://arxiv.org/pdf/2609.31674"
+  },
+  {
+   "id": "2609.32461",
+   "type": "new",
+   "title": "Optimally pseudorandom $K_4$-free graphs",
+   "authors": [
+    "Jie Han",
+    "Ferdinand Ihringer",
+    "Hendrik Van Maldeghem"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages, 4 figures, ChatGPT Astra 6 found the construction for q=2^h, h odd",
+   "abstract": "We show that optimally pseudorandom $K_4$-free graphs of order $n$ and degree $d = \\Theta(n^{4/5})$ exist by constructing a graph in the split Cayley hexagon, matching the known upper bound. This resolves the first open case for $K_k$-free graphs after $k=3$ for which Alon gave a tight construction in 1994.\nThis has a variety of implications for $K_4$-free pseudorandom graphs. Furthermore, it implies an explicit lower bound on the Ramsey number of $r(4, t) \\geq t^{1.\\overline{6} - o(1)}$, improving the previous record by Kostochka, Pudlák, and Rödl of $r(4, t) \\geq t^{1.6-o(1)}$.",
+   "abs": "https://arxiv.org/abs/2609.32461",
+   "pdf": "https://arxiv.org/pdf/2609.32461"
+  },
+  {
+   "id": "2609.31982",
+   "type": "new",
+   "title": "Minimal transitive factorizations supported on quasi-threshold graphs",
+   "authors": [
+    "Cordelia Yuqiao Li",
+    "Ricky Ini Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages, 6 figures + appendix",
+   "abstract": "We study the number of minimal transitive factorizations of the identity permutation in $S_n$ into transpositions supported on a quasi-threshold graph. We show that this number is always divisible by $(2n-2)!/n!$, which is the factorization count for a star graph, as shown by Irving and Rattan. To prove this, we give a combinatorial formula for the number of such factorizations as a weighted sum over a subset of the $n^{n-2}$ factorization trees, which are edge-weighted spanning trees satisfying certain flow constraints.",
+   "abs": "https://arxiv.org/abs/2609.31982",
+   "pdf": "https://arxiv.org/pdf/2609.31982"
+  },
+  {
+   "id": "2609.31818",
+   "type": "cross",
+   "title": "Vertices that belong to every minimum dominating set of a graph and their connection with transportation sharing systems with study cases in Campo de Gibraltar area",
+   "authors": [
+    "Mohammad Farhan",
+    "Dorota Kuziak",
+    "Iztok Peterin",
+    "Ismael G. Yero"
+   ],
+   "categories": [
+    "physics.soc-ph",
+    "math.CO"
+   ],
+   "primary": "physics.soc-ph",
+   "comments": "26 pages",
+   "abstract": "This study addresses a theoretical model regarding equity and accessibility challenges in designing shared transportation systems (such as micro-mobility networks) by applying graph-vertex domination setting. The work focuses on identifying dominating forced vertices, that represent nodes belonging to every dominating set of a graph of the smallest possible cardinality, and which correspond to critical, non-negotiable station locations essential for maintaining system efficiency and coverage.\nFrom a theoretical perspective, in the paper it is first demonstrated that determining whether a given vertex is a dominating forced vertex is co-NP-hard, establishing the computational infeasibility of exact identification in large networks. To analyze graph structures, sharp theoretical bounds on the maximum number of dominating forced vertices are established, proving that their count is bounded above by one-third of the order of the graph, and provide complete structural characterizations for graphs achieving this bound, as well as, trees with no dominating forced vertices.\nTo overcome computational limits in practical urban settings, the study uses an iterated greedy metaheuristic framework to generate minimal dominating sets and approximate critical forced nodes based on their appearance frequency across iterations. The methodology is validated on strong grid graphs and applied to real-world road network models of Algeciras and La Línea de la Concepción, two cities in the area of Campo de Gibraltar, Spain, which successfully pinpoints candidate location points for scooter-sharing stations across both cities.",
+   "abs": "https://arxiv.org/abs/2609.31818",
+   "pdf": "https://arxiv.org/pdf/2609.31818"
+  },
+  {
+   "id": "2609.32688",
+   "type": "new",
+   "title": "The diameter of recoloring graphs under a maximum average degree bound",
+   "authors": [
+    "Ruilin Zheng",
+    "Junying Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$, we write $\\mathrm{mad}(G)$ for its maximum average degree and $\\mathrm{diam} G$ for its diameter. Let $R_k(G)$ be the graph whose vertices are the proper colorings of $G$ with $k$ colors, where two colorings are adjacent when they differ at one vertex. Feghali (JCTB, 2021) proved that, for fixed integers $d,k\\ge 1$ with $k\\ge d+1$ and every $\\varepsilon>0$, every $n$-vertex graph $G$ satisfying $\\mathrm{mad}(G)\\le d-\\varepsilon$ has $\\mathrm{diam} R_k(G)=O_{d,k,\\varepsilon}(n(\\log n)^{d-1})$. In this article, we prove that \\[\n\\mathrm{diam} R_k(G)=O_{d,k,\\varepsilon}\\!\\left(\nn(\\log n)^{\\left\\lfloor (d-1)/(k-d)\\right\\rfloor}\n\\right), \\] which extends the result proved by Feghali directly. The proof uses a partition into independent layers and removes $k-d$ colors at each recursive stage. We also improve the bound on the number of layers and determine the best possible linear coefficient in the forest case. More precisely, for $0<\\varepsilon<2$, every $n$-vertex graph $G$ with $\\mathrm{mad}(G)\\le2-\\varepsilon$ satisfies $\\mathrm{diam} R_3(G)\\le\\rho_M n$, where $M=\\lfloor2/\\varepsilon\\rfloor$, $\\rho_M=\\max_{1\\le m\\le M}D_m/m$, and $D_m$ is the largest diameter of $R_3(T)$ over all trees $T$ on $m$ vertices. Moreover, the coefficient $\\rho_M$ is best possible.",
+   "abs": "https://arxiv.org/abs/2609.32688",
+   "pdf": "https://arxiv.org/pdf/2609.32688"
+  },
+  {
+   "id": "2609.32077",
+   "type": "new",
+   "title": "Strongly regular graph, strongly polynomial sequences, and two-level polynomials",
+   "authors": [
+    "Tristram Bogart",
+    "Santiago Jiménez-Salazar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We study the behavior of the characteristic and chromatic polynomials of certain families of graphs and their relation to homomorphism counts, focusing on polynomial dependence of the coefficients at each fixed codegree on the graph family parameter. We prove that the characteristic polynomials of strongly regular graphs with polynomial parameters form a two-level polynomial of infinite depth in the sense of Bogart and Woods. In contrast, the chromatic polynomials of Paley graphs have maximal constant depth two: their coefficient of codegree three is not eventually polynomial in the number of vertices. We also prove that both the chromatic and characteristic polynomials of every strongly polynomial graph sequence, in the sense of de La Harpe and Jaeger, have infinite depth. Finally, we investigate homomorphism counts between two strongly polynomial graph sequences. We show that infinite depth need not hold in general, but we construct target sequences for which it holds for every strongly polynomial source sequence.",
+   "abs": "https://arxiv.org/abs/2609.32077",
+   "pdf": "https://arxiv.org/pdf/2609.32077"
+  },
+  {
+   "id": "2609.32210",
+   "type": "new",
+   "title": "A quadratic upper bound on the Chvátal rank of polytopes in the 0/1-cube",
+   "authors": [
+    "Alberto Del Pia"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that every polytope $P\\subseteq[0,1]^n$, and more generally every compact convex set, has Chvátal rank at most $12.22n^2+n\\log_2 n+2n+4$. This improves the $O(n^2\\log n)$ bound of Eisenbrand and Schulz and, together with the $\\Omega(n^2)$ lower bound of Rothvoß and Sanità, shows that the maximum Chvátal rank of a polytope in $[0,1]^n$ is $\\Theta(n^2)$. More precisely, if $P$ contains an integer point, then for every $c\\in\\mathbb{Z}^n\\setminus\\{0\\}$ the inequality $cx\\le\\max\\{cy: y\\in P\\cap\\mathbb{Z}^n\\}$ is valid for the $k$-th Chvátal closure of $P$ for some $k\\le 12.22n^2+2n+2\\log_2\\|c\\|_\\infty+4$. Following Eisenbrand and Schulz, we derive this inequality along a chain of coarser and coarser integer vectors, but instead of halving the vector in each step, we round $\\tau c$ for a scale $\\tau$ chosen freely in each dyadic window $[2^{-t-1},2^{-t}]$. The main new ingredient is a multiscale version of Dirichlet's approximation theorem, proved by an elementary volume argument: for every $c\\in\\mathbb{R}^n$, the $\\ell_1$-distances of $\\tau c$ to $\\mathbb{Z}^n$, minimized within each dyadic window and summed over all windows, total less than $1.222n^2$, independently of $\\|c\\|_\\infty$.",
+   "abs": "https://arxiv.org/abs/2609.32210",
+   "pdf": "https://arxiv.org/pdf/2609.32210"
+  },
+  {
+   "id": "2609.32052",
+   "type": "new",
+   "title": "VC-dimension of distance graphs in finite field geometries",
+   "authors": [
+    "Brian McDonald Bakas",
+    "Moustapha Diallo",
+    "Alex McDonald"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the VC-dimension of distance graphs of large subsets of vector spaces over finite fields. For $3\\leq k\\leq d$, we prove the distance graph of $E\\subset \\F_q^d$ has VC-dimension at least $k$ provided that $|E|>Cq^{d-\\lfloor \\frac{d-k}{3}\\rfloor-1}$. We also show that this exponent is sharp in the $k=d$ case.",
+   "abs": "https://arxiv.org/abs/2609.32052",
+   "pdf": "https://arxiv.org/pdf/2609.32052"
+  },
+  {
+   "id": "2609.31811",
+   "type": "new",
+   "title": "The stacking number of a tree",
+   "authors": [
+    "John Fairfax-Ball"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, 0 figures. Complete Lean formalization and public Palomar verification record available",
+   "abstract": "The stacking number of a graph is the least integer t >= 2 such that every configuration of t pebbles can be transformed by pebbling moves into a configuration supported on one vertex. We prove that, for every finite tree T with at least two vertices, this number equals the rooted distance-and-degree estimator conjectured by Csernák and Soukup. The proof uses an exact recursive characterization of stackability at a prescribed vertex, an explicit zero-score obstruction, and a weighted cancellation argument for arbitrary nonstackable configurations. The complete theorem is formalized in Lean 4; the formal result has also passed Palomar mechanical verification and is publicly registered as PALOMAR-2026-09-25-000010.",
+   "abs": "https://arxiv.org/abs/2609.31811",
+   "pdf": "https://arxiv.org/pdf/2609.31811"
+  },
+  {
+   "id": "2609.31794",
+   "type": "new",
+   "title": "The Wang Transform Inequality",
+   "authors": [
+    "Yair Lavi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove the Wang transform inequality in every order: if $n$ is a positive integer, $A$ is a nonnegative $n\\times n$ matrix whose row and column sums equal one, and $J_n$ has every entry $1/n$, then\n\\[\n\\operatorname{per}A\\ge\n\\operatorname{per}\\!\\left(\\frac{nJ_n+A}{n+1}\\right).\n\\]\nEquality holds exactly when $A=J_n$. We also obtain an explicit positive quadratic gap for every $n\\ge2$.",
+   "abs": "https://arxiv.org/abs/2609.31794",
+   "pdf": "https://arxiv.org/pdf/2609.31794"
+  },
+  {
+   "id": "2609.32439",
+   "type": "new",
+   "title": "Dominated Coloring of Some Classes of Perfect and Unicyclic Graphs",
+   "authors": [
+    "Sneha R",
+    "J. Geetha",
+    "K. Somasundaram"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The dominated coloring of a graph $G$ is a proper vertex coloring such that each color class is dominated by a vertex. The minimum number of colors required for a dominated coloring of a graph $G$ is called the dominated chromatic number of the graph $G$ and is denoted by $\\chi_{dom}(G)$. A graph $G$ is said to be chromatic dominated if $\\chi(G)=\\chi_{dom}(G)$. In this paper, we characterized the perfect graphs, which are chromatic dominated. Also, we studied the dominated chromatic number of some classes of unicyclic graphs.",
+   "abs": "https://arxiv.org/abs/2609.32439",
+   "pdf": "https://arxiv.org/pdf/2609.32439"
+  },
+  {
+   "id": "2609.32721",
+   "type": "new",
+   "title": "Completing shellings with $d-2$ extra vertices",
+   "authors": [
+    "SuHo Oh"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "Simon's conjecture (1994) asserts that any pure $d$-dimensional shellable complex on $n$ vertices can be extended to the $d$-skeleton of the simplex on $n$ vertices, one facet at a time, while maintaining shellability. Bolognini and Sentinelli (2026) recently disproved it for every $d \\geq 3$. We show that the conjecture becomes true once $d-2$ new vertices are allowed, and that the same holds with $k$-decomposability in place of shellability for any $k \\geq 1$. We also show that the number $d-2$ cannot be lowered. Inflating the counterexample of Bolognini and Sentinelli gives, for every $d \\geq 3$, a $1$-decomposable complex that cannot be extended in this way with only $d-3$ new vertices, even while merely maintaining shellability.",
+   "abs": "https://arxiv.org/abs/2609.32721",
+   "pdf": "https://arxiv.org/pdf/2609.32721"
+  },
+  {
+   "id": "2609.31781",
+   "type": "cross",
+   "title": "Torsion proliferation",
+   "authors": [
+    "Joseph Baine",
+    "Daniel Tubbenhauer"
+   ],
+   "categories": [
+    "math.RT",
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.RT",
+   "comments": "9 pages. Comments welcome",
+   "abstract": "This paper considers the generic behaviour of sheaves supported on Schubert varieties in finite flag varieties. Our main results are that, for any fixed prime $p$, as the rank of the associated algebraic group grows, almost every intersection cohomology sheaf admits $p$-torsion in its stalks or costalks, and almost every indecomposable parity sheaf is not perverse. For certain families of partial flag varieties we also determine explicit asymptotics for this growth.",
+   "abs": "https://arxiv.org/abs/2609.31781",
+   "pdf": "https://arxiv.org/pdf/2609.31781"
+  },
+  {
+   "id": "2609.32257",
+   "type": "new",
+   "title": "Non-commutative frieze patterns over quaternion algebras and other normed division rings",
+   "authors": [
+    "Michael Cuntz",
+    "Thorsten Holm",
+    "Peter Jorgensen"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Non-commutative friezes have been introduced by Berenstein and Retakh and studied further by the authors. In this paper we consider non-commutative friezes over normed division rings, like for instance Hamilton's quaternions or more general quaternion algebras. We address the fundamental question in the theory of friezes of whether over a certain subset there are finitely or infinitely many non-commutative friezes (with 1's on the boundary) for any height. As an application of a theorem bounding the norm of quiddity entries we deduce that for every norm-finite subset of a normed division ring there are only finitely many such non-commutative friezes for every height. In particular this result applies to the Lipschitz quaternions and the Hurwitz quaternions of Hamilton's quaternions. We then study more generally non-commutative friezes over Lipschitz subrings of non-split quaternion algebras $(a,b)_{\\mathbb{Q}}$. We determine the frieze subrings for all $a,b<0$, and as a consequence we see that all such non-commutative friezes are known if $a\\le -4$ and $b\\le -4$.",
+   "abs": "https://arxiv.org/abs/2609.32257",
+   "pdf": "https://arxiv.org/pdf/2609.32257"
+  },
+  {
+   "id": "2609.31798",
+   "type": "new",
+   "title": "An improved lower bound for the van der Waerden number $w(3,k)$",
+   "authors": [
+    "Haitao Cao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For an integer $k\\ge 3$, let $w(3,k)$ be the least $n$ such that every red-blue coloring of $[n]$ contains either a nontrivial three-term arithmetic progression in blue or a nontrivial $k$-term arithmetic progression in red. A recent breakthrough of Green proved that $w(3,k)\\ge k^{\\Omega\\left(\\left(\\frac{\\log k}{\\log\\log k}\\right)^{1/3}\\right)}$ when $k$ is large, and Hunter later improved the bound to $w(3,k)\\ge k^{\\Omega\\left(\\frac{\\log k}{\\log\\log k}\\right)}$. On the other hand, Green remarked that it is reasonable to believe that $w(3,k)\\le k^{O(\\log k)}$. We prove that $w(3,k)\\ge k^{\\Omega(\\log k)}$, which perhaps gives some evidence that $k^{\\Theta(\\log k)}$ is the correct order of magnitude.",
+   "abs": "https://arxiv.org/abs/2609.31798",
+   "pdf": "https://arxiv.org/pdf/2609.31798"
+  },
+  {
+   "id": "2609.32161",
+   "type": "new",
+   "title": "Weak $k$-metric dimension of Hamming graphs: rectangular products and near-maximum parameters",
+   "authors": [
+    "Aryan Kumar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages; ancillary files for two finite capacity verifications",
+   "abstract": "We determine weak $k$-metric dimensions for several families of Hamming graphs. For $n\\ge3$, $m>n$, and $3\\le k\\le2n$, a cyclic construction proves Conjecture 6.1 of Fernández, Klavžar, Kuziak, Muñoz-Márquez and Yero (2026) on $K_n\\square K_m$. For these rectangular products, we also prove that $\\operatorname{wdim}_2(K_n\\square K_m)=m$ exactly when $m\\ge2n-2$. For hypercubes $Q_d$ with $d\\ge2$, we show that consecutive parameters $2s-1$ and $2s$ have identical weak resolving sets. Near the maximum parameter, a reduction to restricted-distance binary codes determines $\\operatorname{wdim}_{2^d-t}(Q_d)$ for every feasible deficit $0\\le t\\le15$. For $L\\ge1$ and $t\\in\\{2L,2L+1\\}$, we prove the stabilization formula $\\operatorname{wdim}_{2^d-t}(Q_d)=2^d-L$ for $d\\ge2^L+1$, and show that this threshold is sharp. For each fixed $q\\ge3$ and deficit $t$, we also determine $\\operatorname{wdim}_{2q^{d-1}-t}(K_q^{\\square d})$ in all sufficiently large dimensions, with an explicit sufficient condition.",
+   "abs": "https://arxiv.org/abs/2609.32161",
+   "pdf": "https://arxiv.org/pdf/2609.32161"
+  },
+  {
+   "id": "2609.32135",
+   "type": "cross",
+   "title": "Maximal shifts below the Taylor bound",
+   "authors": [
+    "Abed Abedelfatah"
+   ],
+   "categories": [
+    "math.AC",
+    "math.CO"
+   ],
+   "primary": "math.AC",
+   "comments": "8 pages",
+   "abstract": "Let $I\\subseteq S$ be a monomial ideal with minimal generator degrees between $e$ and $d$, where $2\\leq e\\leq d$. We prove that if $t_a(S/I)<ea$, then\n$$\nt_{a+b}(S/I)\\leq t_a(S/I)+\n\\left\\lceil\\frac{(2d-1)b}{2}\\right\\rceil $$\nfor $a\\geq2$, $b\\geq0$, and $a+b\\leq\\operatorname{pd}_S(S/I)$. Consequently,\n$$\nt_{a+b}(S/I)\\leq ae+db-1-\\left\\lfloor\\frac b2\\right\\rfloor. $$\nIn particular, if $t_2(S/I)<2e$, then\n$$\nt_i(S/I)\\leq\n\\left\\lceil\\frac{(2d-1)i}{2}\\right\\rceil-2(d-e) $$\nfor $2\\leq i\\leq\\operatorname{pd}_S(S/I)$. We also obtain a regularity bound and give a quadratic family in which our estimate for the last shift is smaller than every bound obtained from ordinary subadditivity. The constant $2d-1$ is sharp for $d=2$.",
+   "abs": "https://arxiv.org/abs/2609.32135",
+   "pdf": "https://arxiv.org/pdf/2609.32135"
+  },
+  {
+   "id": "2609.32651",
+   "type": "new",
+   "title": "Semifields in prime dimensions and counterexamples to Kaplansky's conjecture",
+   "authors": [
+    "Gábor P. Nagy",
+    "Yue Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In 1975, Kaplansky conjectured that every five-dimensional division algebra over a sufficiently large finite field is a field or a twisted field. We disprove this conjecture. For every prime power $q=p^e\\equiv1\\pmod3$ and every $n\\ge5$ with $\\gcd(n,6)=1$, we construct semifields of order $q^n$. For fixed $q,n$, the family represents $\\varphi(n)$ isotopy classes if $p\\equiv1\\pmod3$, and $\\varphi(n)/2$ if $p\\equiv2\\pmod3$, where $\\varphi$ is Euler's totient function. Using new isotopy invariants and the structural properties of our construction, we prove that none of these semifields is isotopic to a finite field or an Albert's generalized twisted field. In particular, the five-dimensional specialization gives infinitely many pairwise nonisotopic counterexamples to Kaplansky's conjecture over arbitrarily large finite fields. More generally, for each prime dimension $n\\ge5$, the examples occur over arbitrarily large fields in every characteristic other than three, contradicting the classification asserted by Menichetti in 1996, whose proof contains gaps.",
+   "abs": "https://arxiv.org/abs/2609.32651",
+   "pdf": "https://arxiv.org/pdf/2609.32651"
+  },
+  {
+   "id": "2609.31797",
+   "type": "cross",
+   "title": "Stability of the Courtade-Kumar inequality",
+   "authors": [
+    "Vu Khac Ky",
+    "Tuan Tran"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "18 pages",
+   "abstract": "We prove dimension-independent stability for the Courtade-Kumar inequality: a Boolean function $f:\\{-1,1\\}^n\\to\\{-1,1\\}$ whose information is close to the dictator value is close in probability to a signed dictator. The correlation dependence is sharp in order near zero and, for increasing functions, also at the noiseless endpoint.",
+   "abs": "https://arxiv.org/abs/2609.31797",
+   "pdf": "https://arxiv.org/pdf/2609.31797"
+  },
+  {
+   "id": "2609.32151",
+   "type": "new",
+   "title": "Anti-Ramsey Number of Intersecting Odd Cycles",
+   "authors": [
+    "Haojie Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $H$, the anti-Ramsey number $\\operatorname{ar}(n,H)$ is the maximum number of colors in an edge-coloring of $K_n$ containing no rainbow copy of $H$, where a copy is rainbow if its edges have pairwise distinct colors. Let $s,t$ be nonnegative integers with $s+t\\ge2$, and let $H_{s,t}$ be a graph consisting of $s$ triangles and $t$ odd cycles of fixed lengths at least $5$, all sharing exactly one common vertex and otherwise pairwise vertex-disjoint. Liu et al. (2024) determined $\\operatorname{ar}(n,H_{s,0})$ for $s\\ge3$ and $n\\ge50s^2$. In this paper, we determine the exact value of $\\operatorname{ar}(n,H_{s,t})$ for every fixed $H_{s,t}$ with $t\\ge1$ and all sufficiently large $n$.",
+   "abs": "https://arxiv.org/abs/2609.32151",
+   "pdf": "https://arxiv.org/pdf/2609.32151"
+  },
+  {
+   "id": "2609.31768",
+   "type": "new",
+   "title": "The Spectral Region of Two-Layer Renewal Stochastic Matrices",
+   "authors": [
+    "Brecht Verbeken",
+    "Vincent Ginis"
+   ],
+   "categories": [
+    "math.CO",
+    "math.SP"
+   ],
+   "primary": "math.CO",
+   "comments": "46 US-letter pages, 5 figures, 1 numbered table, and 18 references",
+   "abstract": "Fix $q\\ge2$ and consider the $2q\\times2q$ row-stochastic matrices formed from two deterministic $q$-step paths, with randomness confined to their terminal rows. We determine the spectral union of this family exactly. An isospectral balancing map reduces the full parameter space to a $q$-simplex, while transfer geometry gives a triangular-face realization for every spectral point. The visible boundary is subtler: Farey arithmetic selects a walk on the simplex one-skeleton, whose base and lateral edges furnish the boundary carriers. In the lateral case the squared edge equation admits two algebraic square roots, but only a sector-selected branch is supporting. We prove that the selected carrier is unique and outermost on each ray and that the spectral region fills radially beneath it. The region has real section $[-1,1]$, meets the unit circle exactly at roots of unity of order at most $2q$, and omits the sector $0<|\\operatorname{Arg}\\lambda|<\\pi/q$. For odd $q$, the terminal edge also contributes a negative-real boundary interval. Thus triangular faces generate the spectral union, whereas simplex edges generate its boundary.",
+   "abs": "https://arxiv.org/abs/2609.31768",
+   "pdf": "https://arxiv.org/pdf/2609.31768"
+  },
+  {
+   "id": "2609.31689",
+   "type": "new",
+   "title": "Finite-Defect Rigidity and the Minimum Spherical 4-Design on the Two-Sphere",
+   "authors": [
+    "Shalender Singh",
+    "Vishnupriya Singh"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "39 pages",
+   "abstract": "We prove that every equal-weight spherical $4$-design on $\\mathbb{S}^2$ has at least twelve points. Since the regular icosahedron is a spherical $5$-design, this determines the exact minimum$$N_4(\\mathbb{S}^2)=12;$$equivalently, no such design has $9$, $10$ or $11$ this http URL proof is part of a finite-defect theory. If a spherical $2m$-design has corank $c=N-\\dim P_m$, its Naimark complement consists of unit vectors $u_x\\in\\mathbb{S}^{c-1}$ forming a spherical $2$-design and satisfying the exact coupling$$u_x\\cdot u_y=-\\frac{K_m^{(d)}(x\\cdot y)}{c}\\qquad(x\\ne y).$$This gives a pairwise kernel bound, an antipodal lower bound, Cayley-Bacharach information, and uniform lower bounds for multiplicative-relation spaces. In corank one the design splits into two equal spherical $m$-designs. We derive a residue formula for its signed Schoenberg coefficients; the coefficient of degree $m+3$ is negative exactly when $3\\le d\\le m+1$, excluding corank one throughout that range. At strengths four and six the only examples in any dimension are the regular hexagon and octagon, this http URL corank two the complement is a circle Gale frame. Multiplication by its phase forces at least $d-1$ linear-quadratic aliases and yields exact norm and socle identities in every dimension. For eleven nodes on $\\mathbb{S}^2$, two aliases produce a real harmonic cubic and a Hermitian quartic matrix. A matrix-valued Cayley-Bacharach argument eliminates the generic branch; the exceptional branch reduces to a Pauli normal form and contradicts the second moments. In dimensions $d\\ge4$ the corank-two problem remains open; we identify a forced quadratic socle as the obstruction to extending the present argument.",
+   "abs": "https://arxiv.org/abs/2609.31689",
+   "pdf": "https://arxiv.org/pdf/2609.31689"
+  },
+  {
+   "id": "2609.31919",
+   "type": "cross",
+   "title": "Eigenvalue Distribution of the Laplacian on Random Complexes",
+   "authors": [
+    "Rui Dong"
+   ],
+   "categories": [
+    "math.PR",
+    "math.AT",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "24 pages, 7 figures",
+   "abstract": "We study the empirical eigenvalue distribution of a standardized up Laplacian of the Linial-Meshulam model $Y_{q+1}(n, p)$. We first give a definition of a Gaussian--semicircle law: $\\mathcal{N}(0, \\sigma^2)\\boxplus \\operatorname{SC}(s\\sigma^2)$, and give a combinatorial formula of its moments in terms of pairing partitions. In addition to that, we also prove that the limiting empirical eigenvalue distribution of this standardized up Laplacian follows a Gaussian--semicircle law, in the sense of almost surely weak convergence.",
+   "abs": "https://arxiv.org/abs/2609.31919",
+   "pdf": "https://arxiv.org/pdf/2609.31919"
+  },
+  {
+   "id": "2609.31783",
+   "type": "cross",
+   "title": "Characterizing Steiner Systems via Betti Numbers of Monomial Ideals",
+   "authors": [
+    "Guillermo Alesandroni",
+    "Christopher Chin",
+    "Noah Ripke"
+   ],
+   "categories": [
+    "math.AC",
+    "math.CO"
+   ],
+   "primary": "math.AC",
+   "comments": "12 pages",
+   "abstract": "Given a point set $[n]$ and a collection $B$ of $k$-subsets of $[n]$, we create a monomial ideal whose Betti numbers completely determine whether the pair $([n],B)$ is a Steiner system $S(t,k,n)$. In particular, our construction characterizes Steiner triple systems and Steiner quadruple systems solely on the basis of Betti numbers of monomial ideals. Moreover, these monomial ideals allow us to reformulate the renowned prime power conjecture as follows: If a monomial ideal $M$ of $S = K[x_1, \\dots, x_{q^2+q+1}]$ generated by squarefree monomials of degree $q+1$ has Betti numbers $\\mathrm{b}_s(S/M) = {{q^2+q+1} \\choose s} \\text{ for all } s=0,\\ldots,q$ then $q$ is a prime power.",
+   "abs": "https://arxiv.org/abs/2609.31783",
+   "pdf": "https://arxiv.org/pdf/2609.31783"
+  },
+  {
+   "id": "2609.32084",
+   "type": "new",
+   "title": "The Tight Upper Bound on the Number of Distinct Squares in Circular Words",
+   "authors": [
+    "Rikuya Hamai"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A square is a word $xx$, where $x$ is nonempty. We show that a circular word of length $n$ contains at most $\\lfloor 3n/2 \\rfloor$ distinct squares of length at most $n$. The proof combines known results relating squares to circuits in Rauzy graphs. The coefficient $3/2$ agrees with the known lower bound.",
+   "abs": "https://arxiv.org/abs/2609.32084",
+   "pdf": "https://arxiv.org/pdf/2609.32084"
+  },
+  {
+   "id": "2609.31758",
+   "type": "new",
+   "title": "Fractional Triangle Decompositions at Partite Minimum Degree $4n/5$",
+   "authors": [
+    "Hengzhi He",
+    "Guang Cheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every triangle-divisible balanced tripartite graph whose vertex classes have size $n$ and whose partite minimum degree is at least $4n/5$ admits a fractional triangle decomposition. Combined with the multipartite decomposition theorem of Barber, Kühn, Lo, Osthus, and Taylor, this implies that, for every fixed $\\varepsilon<1/5$ and all sufficiently large $n$, every $\\varepsilon$-dense partial Latin square of order $n$ is completable, improving the previous asymptotic bound of $2/25$. The fractional decomposition theorem is finite and exact. Its proof uses a minimum-weight perfect matching to normalize an arbitrary Farkas dual weighting, followed by an explicit direct-and-two-step routing scheme whose aggregate congestion on every off-matching edge is at most one.",
+   "abs": "https://arxiv.org/abs/2609.31758",
+   "pdf": "https://arxiv.org/pdf/2609.31758"
+  },
+  {
+   "id": "2609.31979",
+   "type": "cross",
+   "title": "A component-wise inequality for permutation matches",
+   "authors": [
+    "Felipe Gonçalves"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "6 pages",
+   "abstract": "Motivated by the recent paper [Sharp endpoint extension inequalities for the moment curve on finite fields II: an extremal property of the uniform distribution, arXiv:2609.29882], which proves sharp extension inequalities in finite fields via a two-point symmetrization argument, we prove here a more general component-wise inequality for permutation matches that implies theirs.",
+   "abs": "https://arxiv.org/abs/2609.31979",
+   "pdf": "https://arxiv.org/pdf/2609.31979"
+  },
+  {
+   "id": "2609.31991",
+   "type": "new",
+   "title": "An improved lower bound for the packing number of the 2-token graph of the cycle",
+   "authors": [
+    "Luis Manuel Rivera"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, preliminary version, The AI assistant Claude (Antropic) was used at some stages of the project",
+   "abstract": "Let $F_2(C_n)$ be the $2$-token graph of the cycle $C_n$ and let $\\rho$ denote the packing number. Gómez Soto and Ríos-Castro recently proved that $\\rho(F_2(C_n))\\ge a(n)$ for $n\\ge 19$, where $a(n)$ is an explicit expression. In this note, we prove that \\[ \\rho(F_2(C_n))\\ \\ge\\ \\left\\lfloor\\frac{n(n-2)}{10}\\right\\rfloor+1\\qquad\\text{for every } n\\ge 3, \\] which improves $a(n)$ by one whenever $n\\equiv 0,2\\pmod{10}$.",
+   "abs": "https://arxiv.org/abs/2609.31991",
+   "pdf": "https://arxiv.org/pdf/2609.31991"
+  },
+  {
+   "id": "2609.32403",
+   "type": "new",
+   "title": "Acyclic orientations of mixed graphs",
+   "authors": [
+    "Jørgen Bang-Jensen",
+    "Anders Yeo"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A mixed graph $M=(V,E\\cup A)$ is acyclic if its directed part $(V,A)$ is an acyclic digraph. In this note we study the so-called orientation completion problem for the class of acyclic mixed graphs. That is, given an acyclic mixed graph $M$ and a property ${\\cal P}$; can we orient the edges of $M$ so that the resulting digraph is acyclic and has property ${\\cal P}$. We prove that one can decide in polynomial time whether $M$ can be completed to an acyclic digraph with an out-branching from a prescibed vertex $s$, while it is NP-complete to decide whether $M$ has an acyclic orientation which has both an out-branching and an in-branching (a bipolar orientation). We show that it is NP-complete to decide whether $M$ can be oriented so that it contains a directed path between two prescribed vertices. Finally we describe a polynomial algorithm for deciding whether an acyclic digraph $D$ has an out-branching $B^+_s$ such that the digraph $D-A(B^+_s)$ is connected (in the underlying sense). Based on this we pose as an open problem the complexity of deciding whether the edges of an acyclic mixed graph can be oriented so that the result is an acyclic digraph with a non-separating out-branching.",
+   "abs": "https://arxiv.org/abs/2609.32403",
+   "pdf": "https://arxiv.org/pdf/2609.32403"
+  },
+  {
+   "id": "2609.32140",
+   "type": "cross",
+   "title": "Unit fractions with semiprime denominators: an elementary proof of Erdős Problem #306",
+   "authors": [
+    "Shisheng Li"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "13 pages. Lean 4/Mathlib formalisation included as ancillary files (anc/lean)",
+   "abstract": "We give an elementary proof that every positive rational number $a/b$ with $b$ squarefree is a finite sum of distinct unit fractions $1/n$, where each $n$ is a product of two distinct primes (Erdős Problem #306). After a reduction to small targets, we take a single complete bipartite graph between the primes in $(y^2,2y^2]$, together with $2$ and the primes of $b$, and a tuned initial segment of the primes in $(y^8,y^9]$, and show that some subgraph has reciprocal sum congruent to $a/b$ modulo $1$; the small total mass then forces equality. Writing the number of such subgraphs as a finite Fourier sum, we sort the frequencies into three cases using a table indexed by the two sides of the graph. The small integer frequencies give a positive main term, and all other frequencies are negligible by a divisor-counting argument and a no-wrap-around form of the Chinese remainder theorem. The only inputs about primes are Chebyshev-type bounds. The circle-method framework comes from Tang's Lean development, which gave the first proof; our construction removes its anchor-synchronisation step. The proof has been formalised in Lean 4, apart from a cited inequality of Ramanujan. This work is a human-AI collaboration: AI tools contributed substantially to the construction, the experiments and the writing.",
+   "abs": "https://arxiv.org/abs/2609.32140",
+   "pdf": "https://arxiv.org/pdf/2609.32140"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 23,
+ "listed_cross": 8
+}
