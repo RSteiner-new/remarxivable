@@ -1,0 +1,550 @@
+{
+ "date": "2026-09-30",
+ "generated_at": "2026-09-30T03:00:11Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-09-30",
+ "screened": 63,
+ "screened_new": 51,
+ "screened_cross": 12,
+ "scored": 63,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.37744",
+   "type": "new",
+   "title": "Extremal hypergraphs without generalized 4-cycles",
+   "authors": [
+    "Hao Huang",
+    "Jie Ma",
+    "Tianchi Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In 1977, Erdős posed the problem of determining the maximum number $f_r(n)$ of edges in an $n$-vertex $r$-uniform hypergraph in which all disjoint pairs of edges have distinct unions. Füredi later conjectured that, for every fixed $r\\ge 4$ and all sufficiently large $n$, $f_r(n)=\\binom{n-1}{r-1}+\\lfloor \\frac{n-1}{r}\\rfloor$. In this paper, we prove this conjecture and determine all extremal configurations. Our proof combines a stability theorem for such dense hypergraphs with a delicate deletion argument applied to an associated bipartite $3$-graph. The stability theorem also resolves a conjecture of Mubayi.",
+   "abs": "https://arxiv.org/abs/2609.37744",
+   "pdf": "https://arxiv.org/pdf/2609.37744"
+  },
+  {
+   "id": "2609.37774",
+   "type": "new",
+   "title": "Connected graphs with minimum adjacency spectral gap",
+   "authors": [
+    "Lele Liu",
+    "Michael Tait",
+    "Yi Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a connected graph, and let $\\lambda_1(G) > \\lambda_2(G)$ denote its two largest adjacency eigenvalues. The spectral gap of $G$ is defined as the difference $\\lambda_1(G) - \\lambda_2(G)$. For integers $r\\geq 2$ and $s\\geq 0$, the double kite $DK(r,s)$ is formed by taking two vertex-disjoint copies of the complete graph $K_r$ and joining one specified vertex of each clique to a path with $s$ internal vertices. Stanić (2013) conjectured that every connected $n$-vertex graph with minimum adjacency spectral gap is a double kite. In this paper, we confirm this conjecture for sufficiently large $n$.",
+   "abs": "https://arxiv.org/abs/2609.37774",
+   "pdf": "https://arxiv.org/pdf/2609.37774"
+  },
+  {
+   "id": "2609.35920",
+   "type": "new",
+   "title": "Proof of Fishburn's latent-subset conjecture",
+   "authors": [
+    "Yuxian Dong",
+    "Jianxi Mao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "Fishburn's latent-subset conjecture, proposed in 1987 and revisited in 1988, asserts that for every dual intersecting family $\\mathcal F\\subseteq 2^{[n]}$, there exists $i\\in[n]$ such that $|\\mathcal F^L(i)|\\geq|\\mathcal F(i)|$. Here $\\mathcal F^L$ is the family of the subsets of members of $\\mathcal F$ that do not belong to $\\mathcal F$. In this paper, we prove the conjecture using the recent weighted star inequality of Chang, Liu, and Liu.",
+   "abs": "https://arxiv.org/abs/2609.35920",
+   "pdf": "https://arxiv.org/pdf/2609.35920"
+  },
+  {
+   "id": "2609.36761",
+   "type": "cross",
+   "title": "The Reach of Abelian Covers in Hypergraphs",
+   "authors": [
+    "Joshua Brakensiek",
+    "Venkatesan Guruswami",
+    "Aaron Putterman"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "45 pages, full version of SODA 2027 paper",
+   "abstract": "Covers in hypergraphs are frequently studied to capture various forms of dependence between hyperedges. For example, even covers--which check if each vertex appears in an even number of hyperedges--have found much success recently in the study of locally decodable codes. Inspired by a recently-emerging line of work on the non-redundancy of constraint satisfaction problems (CSPs), we introduce and study two novel families of covers of hypergraphs which are stricter than even covers: \\emph{Abelian} covers and Catalan covers. Abelian covers are similar to even covers, except that arithmetic is now done over the integers rather than modulo 2, allowing us to capture dependences over arbitrary Abelian groups. Catalan covers capture the behavior of non-Abelian groups by only allowing local cancellations in a sequence of hyperedges.\nWe prove three main results about Abelian and Catalan covers. First, using tools from lattice theory, we show that any $r$-uniform hypergraph with $n$ vertices and $n \\log(r)$ hyperedges has an Abelian cover. Second, using tools from algebraic topology, we show that in any $3$-uniform hypergraph, Abelian covers and Catalan covers are equivalent; thereby showing that Catalan covers emerge after $O(n)$ hyperedges in $3$-uniform hypergraphs. Finally, using the theory of nilpotent groups, we show that there exists a $4$-uniform hypergraph which has an Abelian cover but not a Catalan cover. Collectively, these results exactly characterize the reach that Abelian covers have in deducing dependences in hypergraphs. As our primary application, we show that any arity-$3$ CSP with an infinite-domain Mal'tsev extension has linear non-redundancy. This implies near optimal streaming, sparsification, and kernelization algorithms for this family of CSPs. Previously, such a result was only known for the much simpler case of arity-$2$ CSPs.",
+   "abs": "https://arxiv.org/abs/2609.36761",
+   "pdf": "https://arxiv.org/pdf/2609.36761"
+  },
+  {
+   "id": "2609.37867",
+   "type": "cross",
+   "title": "Absolute moved spaces and noncrossing partition posets in arbitrary Coxeter groups",
+   "authors": [
+    "Thomas Gobet"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.GR",
+   "comments": "24 pages, 1 figure, comments welcome!",
+   "abstract": "The interval $[1,c]_T$ between the identity element and a Coxeter element $c$ in the absolute order on a Coxeter group $W$ is a generalization of the poset of noncrossing partitions arising when $W$ is the symmetric group. When $W$ is finite, this poset is always a lattice, and it is natural to associate to every element $w\\in [1,c]_T$ its \\textit{moved space} $\\mathsf{Mov}(w)=\\mathrm{Im}(w - \\mathrm{Id}_V)$ in the geometric representation $V$ of $W$. It has dimension equal to the reflection length $\\ell_T(w)$ of $w$, and gives a realization of $[1,c]_T$ inside the lattice of subspaces of $V$. It is an important tool in the study of $[1,c]_T$. When $W$ is infinite, the moved space of an element $w\\in [1,c]_T$ no longer has dimension $\\ell_T(w)$ in general, and distinct elements may have the same moved space.\nWe propose a replacement for the moved space of an element $w\\in [1,c]_T$ in an arbitrary Coxeter group, that we call \\textit{absolute moved space} of $w$. This subspace $\\mathsf{AM}(w)$ of $V$ always contains $\\mathsf{Mov}(w)$ and has dimension equal to $\\ell_T(w)$, and distinct elements have distinct absolute moved spaces. This allows us to derive several properties of noncrossing partition posets that hold in full generality, and to show that the natural map from $[1,c]_T$ to reflection subgroups of $W$, which to $w\\in [1,c]_T$ associates the subgroup $P(w)$ generated by reflections lying below $w$ in the absolute order, is always injective. Among others, we also derive a new proof of the lattice property of $[1,c]_T$ when $W$ has rank three, and exhibit infinitely many new examples of infinite Coxeter groups of rank four and choices of Coxeter elements for which $[1,c]_T$ fails to be a lattice.",
+   "abs": "https://arxiv.org/abs/2609.37867",
+   "pdf": "https://arxiv.org/pdf/2609.37867"
+  },
+  {
+   "id": "2609.37748",
+   "type": "new",
+   "title": "Forbidden subposet problems in the linear lattice",
+   "authors": [
+    "Balázs Patkós",
+    "Casey Tompkins"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study weak and strong forbidden subposet problems in the linear lattice $L_n(q)$. We show that the $q$-analogues of the Bukh--Griggs--Lu conjecture fail for every prime power $q$. If $q\\ge 3$ and $n$ and $d$ have opposite parity, then $La_q(n,L_d(q))=La_q^*(n,L_d(q))=\\Sigma_q(n,d)$. We also show that $La_q(n,D_s)=La_q^*(n,D_s)=\\Sigma_q(n,2)$ for $2\\le s\\le q$ and all $n$, and for $s=q+1$ when $n$ is odd. For $n$ even, a maximum strong $D_{q+1}$-free family can be contained from the three middle layers. The case $s=2$ settles the $q$-analog of the diamond conjecture in the affirmative.",
+   "abs": "https://arxiv.org/abs/2609.37748",
+   "pdf": "https://arxiv.org/pdf/2609.37748"
+  },
+  {
+   "id": "2609.37912",
+   "type": "new",
+   "title": "Low discrepancy and spectral gap for directed hypergraphs via spectral regularity lemma for tensors",
+   "authors": [
+    "Hiep Han"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We show that low discrepancy is equivalent to spectral gap for directed $k$-uniform hypergraphs. For undirected hypergraphs this recovers a theorem of Lenz and Mubayi, with a considerably shorter proof. At the heart of our argument is a Frieze--Kannan type spectral regularity lemma for hypergraphs based on the variational notion of hypergraph eigenvalues by Friedman--Wigderson, which decomposes any tensor into a bounded number of rank-one tensors plus a quasi-random tensor with small top eigenvalue. This lemma may be of independent interest, and we prove it for complex-valued, not necessarily symmetric tensors.\nWe also briefly discuss a Szemerédi-type variant and the regularization of Cayley-type hypergraphs over finite abelian groups.",
+   "abs": "https://arxiv.org/abs/2609.37912",
+   "pdf": "https://arxiv.org/pdf/2609.37912"
+  },
+  {
+   "id": "2609.35842",
+   "type": "new",
+   "title": "Crown graphs maximise the representation number of bipartite graphs",
+   "authors": [
+    "Matthew J. Colbrook",
+    "Catherine Drysdale"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The representation number of a graph is the least positive integer $k$ for which its vertices can be arranged in a word, each occurring $k$ times, so that two distinct letters alternate precisely when the corresponding vertices are adjacent. We prove that every bipartite graph on $N\\ge9$ vertices has representation number at most $\\lceil N/4\\rceil$. Together with the known representation number of crown graphs, this settles the conjecture that crowns maximise the representation number among bipartite graphs of the same order. The proof develops a construction of Mozhui and Krishna by reducing the choice of a representing word to an ordering problem for neighbourhoods. We characterise the obstructions to this ordering and use probability estimates to exclude them for all sufficiently large balanced bipartitions. Two finite assertions complete the argument, each established by a checked Boolean unsatisfiability certificate. A refinement of the ordering argument treats the remaining odd part sizes directly. The main theorem and the crown-extremality corollary, including the finite certificate arguments, have also been formalised and verified in Lean 4.",
+   "abs": "https://arxiv.org/abs/2609.35842",
+   "pdf": "https://arxiv.org/pdf/2609.35842"
+  },
+  {
+   "id": "2609.36551",
+   "type": "new",
+   "title": "Degree conditions for $k$-strong orientations of digraphs",
+   "authors": [
+    "Jørgen Bang-Jensen",
+    "Shuo Wei"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "Jackson and Thomassen conjectured that every $2k$-strong digraph contains a spanning $k$-strong oriented subdigraph. We prove sharp degree conditions for the existence of such a subdigraph. For every fixed positive integer $k$ and all sufficiently large $n$, every $n$-vertex digraph $D$ with $\\delta^0(D)\\ge\\lfloor(n+k-1)/2\\rfloor$ admits a $k$-strong orientation. This threshold is best possible even for the weaker conclusion that $D$ itself is $k$-strong. We also prove a sharp Woodall-type analogue for every fixed positive integer $k$ and all sufficiently large $n$: if $d_D^+(x)+d_D^-(y)\\ge n+2k-2$ for every missing arc $xy$, then $D$ admits a $k$-strong orientation, and this bound is again best possible. As a further consequence, we determine the sharp minimum total degree threshold. Finally, the semi-degree result also remains valid when $k\\le\\alpha n$ for every fixed $0<\\alpha<0.094882\\ldots$.",
+   "abs": "https://arxiv.org/abs/2609.36551",
+   "pdf": "https://arxiv.org/pdf/2609.36551"
+  },
+  {
+   "id": "2609.38135",
+   "type": "new",
+   "title": "A nearly linear bound for the Lovász conjecture",
+   "authors": [
+    "Bowen Li",
+    "Abhishek Methuku"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages; comments welcome!",
+   "abstract": "The celebrated conjecture of Lovász from 1969 asks whether every connected vertex-transitive graph has a Hamiltonian path. Bucić, Christoph, Pokrovskiy and Steiner recently proved that every such graph on $n$ vertices contains a cycle of length $n^{2/3-o(1)}$.\nIn this paper, we improve this bound to $n^{1-o(1)}$. Our proof uses a structure theorem of Tessera and Tointon to first obtain a partition of the vertex set into sets of small diameter in the original graph. When the parts are large, we repeatedly traverse a spanning tree of maximum degree at most three in the quotient graph, and use the Lovász local lemma to join random short paths along this traversal and extract a long path in the original graph. When the parts are small, we apply Babai's contraction lemma to reduce the problem to finding a long path in a connected Cayley graph of a nilpotent group with boundedly many generators and bounded nilpotency class, and then show that such a Cayley graph on $m$ vertices contains a path on $m^{1-o(1)}$ vertices.",
+   "abs": "https://arxiv.org/abs/2609.38135",
+   "pdf": "https://arxiv.org/pdf/2609.38135"
+  },
+  {
+   "id": "2609.37376",
+   "type": "new",
+   "title": "Generalized Turán problems for shorter even cycles",
+   "authors": [
+    "Zhen Liu",
+    "Chuanshu Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For graphs $H$ and $F$, let $\\text{ex}(n,H,F)$ denote the maximum number of copies of $H$ in an $n$-vertex $F$-free graph. Gerbner, Győri, Methuku, and Vizer proved that $\\text{ex}(n,C_{2\\ell},C_{2k})=\\Theta(n^\\ell)$ for $k>\\ell\\ge2$. They determined the leading term for $\\ell=2$, but for $k>\\ell\\ge3$ their general lower and upper bounds had different leading constants, leaving open the problem of closing this gap. We solve this problem by showing that, for every $k>\\ell\\ge2$, \\[\\text{ex}(n,C_{2\\ell},C_{2k})=\\left(\\frac{(k-1)_\\ell}{2\\ell}+o(1)\\right)n^\\ell, \\] where $(k-1)_\\ell=(k-1)(k-2)\\cdots(k-\\ell)$.",
+   "abs": "https://arxiv.org/abs/2609.37376",
+   "pdf": "https://arxiv.org/pdf/2609.37376"
+  },
+  {
+   "id": "2609.36186",
+   "type": "new",
+   "title": "Additive Quasi-isometry via rooted graph partitions and layering partition",
+   "authors": [
+    "Dibyayan Chakraborty",
+    "Yann Vaxès"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $H$, $\\langle H \\rangle$ denotes the class of all subdivisions of $H$ and $tw(H)$ denotes the treewidth of $H$. In this paper, we prove the following. For $k\\geq 1, R\\geq 1$, let $G,H$ be two graphs such that strong isometric path complexities (Chakraborty et al. [\\textsc{Disc. Math., 2026}]) of both $G$ and $\\langle H \\rangle$ are at most $k$, and $G$ admits an honest, ``nicely rooted'' $R$-bounded $H$-partition. Then, there is a graph $F$ with $tw(F)\\leq tw(H)$ such that $G$ admits a $(1,33\\cdot R\\cdot k^2)$-quasi-isometry to $F$.\nUsing results of Albrechtsen, Distel, and Georgakopoulos (2025), we also obtain that $K_{2,t}$-asymptotic minor-free graphs admit quasi-isometries with additive distortion to $K_{2,t}$-minor-free graphs. This answers an open question raised by the above authors.\nAs part of our proof, we combine the graph-partition based method and the layering partition based method (Chepoi et al. [\\textsc{Discrete Comput. Geom.} 2012]) to obtain additive quasi-isometry when both the source and all subdivisions of the target graph have bounded strong isometric path complexity.",
+   "abs": "https://arxiv.org/abs/2609.36186",
+   "pdf": "https://arxiv.org/pdf/2609.36186"
+  },
+  {
+   "id": "2609.38047",
+   "type": "new",
+   "title": "Merino-Welsh inequalities for matroids with controlled lattices of cyclic flats",
+   "authors": [
+    "Kolja Knauer",
+    "Leonardo Martínez-Sandoval",
+    "Criel Merino"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Beke, Csáji, Csikvári, and Pituk showed that the Merino--Welsh quotient $\\Phi(M)=T_M(1,1)^2/(T_M(2,0)T_M(0,2))$ can be arbitrarily large, so the multiplicative Merino-Welsh inequality fails for matroids in general. We show that $\\Phi$ is uniformly bounded on the class of matroids whose cyclic-flat lattice avoids any fixed finite poset $P$ as an induced subposet. We further prove $\\Phi(M)\\leq1$ for matroids of cyclic width at most $7$, cyclic height at most $6$, and for loop- and coloop-free $4$-paving or $4$-copaving matroids.",
+   "abs": "https://arxiv.org/abs/2609.38047",
+   "pdf": "https://arxiv.org/pdf/2609.38047"
+  },
+  {
+   "id": "2609.37796",
+   "type": "new",
+   "title": "Structural and computational aspects of majority coloring games",
+   "authors": [
+    "Yash Chawda",
+    "Saraswati Girish Nanoti",
+    "Brahadeesh Sankarnarayanan",
+    "Eshwar Srinivasan"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "47 pages, 22 figures, 2 tables",
+   "abstract": "A majority coloring of a graph $G = (V,E)$ is a coloring of $V(G)$ such that, for each vertex $v$, the number of neighbors of $v$ with the same color as $v$ is at most $deg(v)/2$. A strong majority coloring is a coloring of $V(G)$ such that, for each vertex $v$, every monochromatic subset of $N(v)$ has size at most $deg(v)/2$. The (strong) majority coloring game is a two-player Maker-Breaker-type game, in which two players Alice and Bob color the vertices of a graph $G$ alternately, maintaining the (strong) majority condition. The least number of colors such that Alice has a winning strategy in such a game is called the (strong) majority game chromatic number of the graph $G$, denoted $\\mu_g(G)$ (or $\\mathrm{Maj}_g(G)$ for the strong version).\nFor the majority coloring game, we prove that $\\mu_g(G) \\le 3$ under the following cases: $G$ is a $2$-caterpillar, $G$ is a rooted tree with all leaves at depth $k \\le 4$, and $G$ is a subdivision of some graph. The latter resolves a problem posed by Bosek--Grytczuk--Jakóbczak in 2019, who also asked whether $\\mu_g(T) \\le 3$ for every tree $T$. For the latter question, we discuss various difficulties that arise when natural strategies are attempted by Alice to win the majority coloring game on trees. We include a comparison with the marking game and relaxed coloring game on trees, and with the majority coloring game on locally finite acyclic graphs $G$ with $\\delta(G) > 1$.\nFor the strong majority coloring game, we compute $\\mathrm{Maj}_g(C_n)$ exactly for each cycle $C_n$, $n \\ge 3$. We also initiate the study of the computational complexity of the strong majority coloring game; specifically, we prove that the decision version of the Strong Majority Game Chromatic Number problem is PSPACE-complete. We also show that the Strong Majority 2-Coloring problem is NP-complete on Eulerian graphs.",
+   "abs": "https://arxiv.org/abs/2609.37796",
+   "pdf": "https://arxiv.org/pdf/2609.37796"
+  },
+  {
+   "id": "2609.37877",
+   "type": "new",
+   "title": "Improved bounds on completion of partial Latin squares",
+   "authors": [
+    "Jack Allsop",
+    "Candida Bowtell",
+    "Thomas Lesgourgues",
+    "Kalina Petrova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages",
+   "abstract": "A Latin square of order $n$ is an $n \\times n$ array filled with $n$ symbols so that each symbol appears exactly once in every row and column. A partial Latin square of order $n$ is an $n \\times n$ array whose cells are either empty or filled in such a way that each symbol appears at most once in every row and column, and at most $n$ distinct symbols are used. In 1983, Daykin and Häggkvist conjectured that every partial Latin square in which each row and column contains at most $n/4$ symbols, and each symbol is used at most $n/4$ times, can be completed to a Latin square. We prove that every partial Latin square in which each row and column contains at most $0.231n$ symbols, and each symbol is used at most $0.231n$ times, can be completed to a Latin square, significantly improving the previous best-known bound of $0.08n$, obtained by Fu and Weng. This problem can be seen as a partite analogue of the Nash-Williams conjecture concerning triangle decompositions of dense graphs, recently proved in the breakthrough work of Delcourt and Postle. Our proof uses a `discharging' strategy, adapting the approach of Delcourt and Postle, combined with a novel method to achieve a `balancedness' property, required for the partite setting.",
+   "abs": "https://arxiv.org/abs/2609.37877",
+   "pdf": "https://arxiv.org/pdf/2609.37877"
+  },
+  {
+   "id": "2609.37439",
+   "type": "new",
+   "title": "Real-rootedness and ultra log-concavity of rank-two matroid Ehrhart $h^*$-polynomials",
+   "authors": [
+    "Houshan Fu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "We prove that the Ehrhart $h^*$-polynomial of a rank-two matroid with exactly three parallel classes is real-rooted whenever its smallest parallel class has size at most three. This bound is sharp: the rank-two matroids with parallel-class sizes $(4,561,600)$ and $(4,a,a+29)$, for all sufficiently large integers $a$, have $h^*$-polynomials that are not real-rooted. These counterexamples disprove Ferroni's real-rootedness conjecture. Their duals are cycle matroids of theta graphs and have the same $h^*$-polynomials. Nevertheless, every matroid of rank two or corank two has a positive $h^*$-coefficient sequence that is ultra log-concave of order equal to the polynomial's degree. In particular, the unimodality conjecture holds in both cases.",
+   "abs": "https://arxiv.org/abs/2609.37439",
+   "pdf": "https://arxiv.org/pdf/2609.37439"
+  },
+  {
+   "id": "2609.37980",
+   "type": "new",
+   "title": "Quadratic inequalities between the largest eigenvalues of a graph",
+   "authors": [
+    "Roland Paulin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 3 figures",
+   "abstract": "We prove a sharp quadratic inequality between the largest two eigenvalues $\\lambda_1 \\ge \\lambda_2$ of a graph with $n$ vertices. We also prove a quadratic inequality between the second and third largest eigenvalues $\\lambda_2 \\ge \\lambda_3$. These results in particular imply the bounds $\\lambda_1 + \\lambda_2 \\le \\frac{8}{7} n - 2$, $\\lambda_3 \\le \\frac{n}{3} - 1$ and $\\lambda_2 + \\lambda_3 \\le \\frac{2}{3} n - 2$. In fact we determine the closure of the set of possible $(\\frac{\\lambda_1+1}{n}, \\frac{\\lambda_2+1}{n}) \\in \\mathbb{R}^2$ and $(\\frac{\\lambda_2+1}{n}, \\frac{\\lambda_3+1}{n}) \\in \\mathbb{R}^2$. More generally, we prove quadratic bounds in the case of symmetric matrices in $[0,1]^{n \\times n}$, and we also give a quadratic bound for two eigenvalues of a symmetric matrix in $[-1,1]^{n \\times n}$. These bounds are proved by transforming the problem into extremal geometric questions in $\\mathbb{R}^3$ and $\\mathbb{R}^2$. We use the method of Lagrange multipliers to reduce to special cases with at most five points, and we deal with these special cases directly.",
+   "abs": "https://arxiv.org/abs/2609.37980",
+   "pdf": "https://arxiv.org/pdf/2609.37980"
+  },
+  {
+   "id": "2609.36665",
+   "type": "new",
+   "title": "On the nonnegativity of monomial immanants for hook partitions",
+   "authors": [
+    "Xiangshuai Dong",
+    "Tingzeng Wu",
+    "Xing Gao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $A=(a_{ij})$ be an $n\\times n$ real matrix and let $\\lambda$ be a partition of $n$. Let $\\phi^\\lambda$ be the class function dual to the Young permutation character, and let $$\n\\phi^\\lambda[A]\n= \\sum_{\\sigma\\in\\mathfrak{S}_n}\\phi^\\lambda(\\sigma)\n\\prod_{i=1}^{n}a_{i\\sigma(i)} $$ be the corresponding monomial immanant. Stembridge [Canad. J. Math. 44 (1992), pp. 1079-1099] posed the following open problem: If all minors of $A$ of order at most $r$ are nonnegative, and the partition $\\lambda$ has length at most $r$, is it true that $\\phi^\\lambda[A]\\ge 0$? This paper solves the problem for all hook partitions.",
+   "abs": "https://arxiv.org/abs/2609.36665",
+   "pdf": "https://arxiv.org/pdf/2609.36665"
+  },
+  {
+   "id": "2609.35836",
+   "type": "new",
+   "title": "A Tight Fractional Version of Generalized Tuza's Conjecture",
+   "authors": [
+    "Sichen Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "2 pages",
+   "abstract": "For an $r$-uniform hypergraph $H$, let $\\nu(H)$ be the maximum number of edges no two of which share $r-1$ vertices, and $\\tau(H)$ the minimum number of $(r-1)$-sets such that every edge contains one of them. Aharoni and Zerbib conjectured that $\\tau(H)\\le\\lceil\\frac{r+1}{2}\\rceil\\,\\nu(H)$, which for $r=3$ generalizes Tuza's conjecture on triangles. We prove that the fractional relaxation $\\tau^*(H)$ of $\\tau(H)$ satisfies $\\tau^*(H)\\le\\frac{r+1}{2}\\,\\nu(H)$. This constant is best possible for every $r$, and for $r\\ge4$ it improves on the previous bound of roughly $3r/4$.",
+   "abs": "https://arxiv.org/abs/2609.35836",
+   "pdf": "https://arxiv.org/pdf/2609.35836"
+  },
+  {
+   "id": "2609.36220",
+   "type": "new",
+   "title": "Hadwiger--Nelson Problem for Typical Norms",
+   "authors": [
+    "Noga Alon",
+    "Matija Bucić",
+    "James Davies"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The classical Hadwiger-Nelson problem asks for the chromatic number of the unit distance graph of the Euclidean plane. Over the years, this problem has been considered for a variety of other normed spaces, with higher-dimensional Euclidean space $\\mathbb{R}^d$ being perhaps the most natural and well-studied. Alon, Bucić, and Sauermann proved that, for a typical norm on $\\mathbb{R}^d$, the chromatic number of the unit distance graph is at most $2^d$. We improve this exponential bound to a linear one by showing that the chromatic number of a typical norm on $\\mathbb{R}^d$ is at most $2d$ and that this is tight. This shows a stark difference in the behavior compared to the Euclidean case, where there is an exponential lower bound.\nOne of the key ingredients is a certain high-dimensional, matrix generalization of the Lonely runner conjecture, which also allows us to completely settle the so-called view-obstruction conjecture of Schoenberg from 1978 and a more recent covering-radius conjecture of Henze and Malikiosis.",
+   "abs": "https://arxiv.org/abs/2609.36220",
+   "pdf": "https://arxiv.org/pdf/2609.36220"
+  },
+  {
+   "id": "2609.36022",
+   "type": "new",
+   "title": "Sharp Thresholds for Distance Patterns in Random Subsets of $\\mathbb Z^d$",
+   "authors": [
+    "Christina Giannitsi",
+    "Eyvindur Ari Palsson"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CA",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $d \\geq 5$, $0 < \\gamma < d - 2$, and $\\Omega_N$ be the binomial random subset of $Q_N = [-N,N]^d \\cap \\mathbb Z^d$ with retention probability $p_N = N^{-\\gamma}$. We prove that, with failure probability of optimal exponential order, every subset $B \\subseteq \\Omega_N$ of fixed positive relative density realizes, at each scale $p_N^{-2/(d - 2)} \\lesssim \\lambda \\lesssim N^2$, a squared distance of the form $q^2 \\lambda$, where $q$ belongs to a fixed finite set depending only on the dimension and the density. The lower scale $p_N^{-2/(d - 2)}$ is sharp. As a consequence,the squared-distance set $D^2(B)$ of $B$ has maximal order $N^2$ and contains affine copies of every fixed finite subset of $\\mathbb Z$.\nThe main new input is a finite multidilate supersaturation theorem for dense subsets of $Q_N$, which, together with boundedness estimates for the associated spherical distance graphs down to the sharp scale, allows us to apply Schacht's transference theorem.",
+   "abs": "https://arxiv.org/abs/2609.36022",
+   "pdf": "https://arxiv.org/pdf/2609.36022"
+  },
+  {
+   "id": "2609.38138",
+   "type": "new",
+   "title": "Maker Breaker Games on a Budget",
+   "authors": [
+    "Sebastian Lüderssen",
+    "Fabien Nießen",
+    "Silas Rathke"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Maker Breaker Triangle Game involves two players, Maker and Breaker, who alternately claim 1 and $q$ edges of $K_n$, respectively. Maker's goal is to claim all three edges of any triangle, whereas Breaker's goal is to prevent this. The threshold bias, i.e. the minimum $q$ such that Breaker wins, is known to lie between $\\big\\lceil\\sqrt{2n-2}-\\frac{3}{2}\\big\\rceil$ and $\\big(\\sqrt{8/3}+o(1)\\big)\\sqrt{n}$. Determining its exact value is a longstanding open problem.\nIn this paper, we introduce a novel version of the game in which Breaker may claim fewer than $q$ edges per round to build up a budget that he can spend in later rounds. With this additional power for Breaker, we determine the threshold bias to be precisely $\\big\\lceil\\sqrt{2n-2}-\\frac{3}{2}\\big\\rceil$ for all $n$, matching the known lower bound. This is the first version of the Maker Breaker Triangle Game for which the exact threshold bias is known. Even if Breaker is not allowed to use the budget for threats, we prove that the threshold bias is still $\\big(\\sqrt{2}+o(1)\\big)\\sqrt{n}$.\nFurthermore, we study the budget version of other Maker Breaker Games. Specifically, for the $K_4$-Game, we prove the first explicit lower and upper bounds on the threshold bias in both the original and the budget version of the game.",
+   "abs": "https://arxiv.org/abs/2609.38138",
+   "pdf": "https://arxiv.org/pdf/2609.38138"
+  },
+  {
+   "id": "2609.38115",
+   "type": "new",
+   "title": "Asymptotics of the Brown--Erdős--Sós problem at integer exponents",
+   "authors": [
+    "Ting-Wei Chao",
+    "Xinqi Huang",
+    "Hong Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages, 1 figure",
+   "abstract": "The Brown--Erdős--Sós problem is a fundamental problem in sparse hypergraph Turán theory. For integers $r,k\\ge 2$ and $s\\ge r$, the problem asks for the maximum number $f^{(r)}(n;s,k)$ of edges in an $n$-vertex $r$-uniform hypergraph containing no $k$ distinct edges spanning at most $s$ vertices. In 1971, Brown, Erdős, and Sós proved that $f^{(r)}\\bigl(n;(r-t)k+t,k\\bigr)=\\Theta(n^t)$ for all $r>t\\ge 2$ and $k\\ge 2$. However, the existence and the value of the leading coefficient have remained largely open.\nWe determine the coefficient $\\pi(r,t,k):=\\lim_{n\\to\\infty}n^{-t}f^{(r)}\\bigl(n;(r-t)k+t,k\\bigr)$ for every such $r,t,k$, except when $(r,t)=(3,2)$ and $k\\ge 4$ is even. In particular, \\[ \\pi(r,t,k) = \\begin{cases} \\frac{2}{t!\\bigl(2\\binom{r}{t}-1\\bigr)}, & \\text{if $k$ is odd},\\\\ \\frac{1}{t!\\binom{r}{t}}, & \\text{if $k$ is even and $r\\ge4$}. \\end{cases} \\] Surprisingly, for $r\\ge4$, the limit $\\pi(r,t,k)$ depends on $k$ only through its parity, not its value. For the remaining case, we prove that $\\pi(3,2,k)>1/6$ for all even $k\\ge 4$, showing that the natural packing construction is never asymptotically optimal. As an application, we extend a connection of Bennett, Cushman, and Dudek to arbitrary uniformity to resolve several cases of the Erdős--Gyárfás--Shelah generalized Ramsey problem.",
+   "abs": "https://arxiv.org/abs/2609.38115",
+   "pdf": "https://arxiv.org/pdf/2609.38115"
+  },
+  {
+   "id": "2609.37987",
+   "type": "new",
+   "title": "On the asymptotics of the Erdős-Rogers function",
+   "authors": [
+    "Domagoj Bradač",
+    "Oliver Janzer",
+    "Rik Sarkar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages",
+   "abstract": "The Erdős-Rogers function $f_{\\ell,s}(n)$ is the largest order of a $K_\\ell$-free induced subgraph guaranteed to exist in every $K_s$-free graph on $n$ vertices. While this function is well understood for $s=\\ell+1$, the case where $s$ is much larger than $\\ell$ has remained wide open. A long-standing lower bound of Sudakov states that $f_{\\ell,s}(n)\\geq n^{\\frac{\\ell}{2s}+O_\\ell(s^{-2})}$, while a recent result of Bradač shows that $f_{\\ell,s}(n)\\leq n^{\\frac{\\ell-1}{s-1}+o(1)}$.\nIn this paper, we close this gap asymptotically by proving that $f_{\\ell,s}(n)= n^{\\frac{\\ell}{2s}+O_\\ell(s^{-2})}$. More precisely, we prove that for all $2\\leq \\ell<s$, we have $f_{\\ell,s}(n)\\leq n^{\\frac{\\ell}{2s-\\ell}+o(1)}$. Our proof builds on Bradač's recent tight construction for off-diagonal Ramsey numbers, which can be viewed as the $\\ell=2$ case of our result.",
+   "abs": "https://arxiv.org/abs/2609.37987",
+   "pdf": "https://arxiv.org/pdf/2609.37987"
+  },
+  {
+   "id": "2609.37208",
+   "type": "new",
+   "title": "A counterexample to the Fang--Lin conjecture: Edge and spectral extremality diverge near a Turán graph",
+   "authors": [
+    "Qi Wu",
+    "Yong Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Fang and Lin [J. Algebraic Combin. 63 (2026), Art.~58] asked whether, whenever $F$ is edge-color-critical with $\\chi(F)=r+1$, every non-$r$-partite, $F$-free graph of maximum adjacency spectral radius must also maximize the number of edges. We give a negative answer. Let $F=K_1\\vee\\mu(K_3)$, where $\\mu(K_3)$ is the Mycielskian of a triangle. This graph is edge-color-critical with $\\chi(F)=5$. We prove that $\\SPEX_{5}(n,F)\\cap\\EX_{5}(n,F)=\\varnothing$ for all sufficiently large $n$. Thus no graph can simultaneously maximize both the edge count and the spectral radius.",
+   "abs": "https://arxiv.org/abs/2609.37208",
+   "pdf": "https://arxiv.org/pdf/2609.37208"
+  },
+  {
+   "id": "2609.36242",
+   "type": "new",
+   "title": "Dimensional colorful Helly theorems and topological variants",
+   "authors": [
+    "Wei Rao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a dimensional strengthening of the colorful Helly theorem. Let $\\mathcal{C}_1,\\dots,\\mathcal{C}_{d+1}$ be finite nonempty families of convex sets in $\\mathbb{R}^d$. If $C_1\\cap\\cdots\\cap C_{d+1}\\neq\\varnothing$ for every choice of $C_i\\in\\mathcal{C}_i$, then $\\sum_{i=1}^{d+1}\\dim(\\bigcap\\mathcal{C}_i)\\geq0$, where $\\dim\\varnothing=-1$. We also obtain a dimensional strengthening of a theorem of Kim and Lew, in which the intersections are taken over unions of color classes. For simplicial complexes, we introduce the link-Leray dimension, defined as the Leray number of the link for a face and as $-1$ for a nonface. Using this invariant, we prove a matroidal extension of the dimensional colorful Helly theorem for $d$-Leray complexes. We further establish a corresponding strengthening of the topological Kim--Lew theorem in two ranges of parameters. As a special case, we recover the topological colorful Helly theorem of Kalai and Meshulam. Finally, we construct counterexamples to the unrestricted topological extension, even under a stronger local condition.",
+   "abs": "https://arxiv.org/abs/2609.36242",
+   "pdf": "https://arxiv.org/pdf/2609.36242"
+  },
+  {
+   "id": "2609.37961",
+   "type": "new",
+   "title": "Tight bounds for positive discrepancy via eigenvalues",
+   "authors": [
+    "Oliver Janzer",
+    "István Tomon",
+    "Fredy Yip"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "Given an $n\\times n$ symmetric matrix $M$ with largest eigenvalue $\\lambda_1\\geq 0$, it is easy to show that the solution of the optimisation problem $\\max_{v\\in [-1,1]^n}v^TMv$ is at most $\\lambda_1 n$. We prove the following converse: if every $n'\\times n'$ principal submatrix of $M$ has maximal eigenvalue at least $\\lambda$, then $\\max_{v\\in [-1,1]^n}v^TMv\\geq \\lambda(n-n'+1)$. We use this lemma to improve a number of recent results on the MaxCut, bisection width, and discrepancy of graphs. Among others, we prove that every $n$-vertex $m$-edge graph that is far from a disjoint union of cliques has a cut of size at least $m/2+n^{5/4-o(1)}$, which is sharp up to the $o(1)$-term. Moreover, we prove that every $d$-regular $n$-vertex graph has bisection width at most $dn/4-\\Omega_{\\varepsilon}(d^{1/3}n)$ for $d\\leq (1-\\varepsilon)n/2$, which is optimal for $d=\\Omega(n)$. This confirms a conjecture of Räty, Sudakov and Tomon.",
+   "abs": "https://arxiv.org/abs/2609.37961",
+   "pdf": "https://arxiv.org/pdf/2609.37961"
+  },
+  {
+   "id": "2609.37290",
+   "type": "new",
+   "title": "Perfect Matching in $k$-Partite $k$-Uniform Hypergraphs",
+   "authors": [
+    "Jie Han",
+    "Hongliang Lu",
+    "Bin Wang",
+    "Feihong Yuan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "A balanced $k$-partite $k$-graph is a $k$-uniform hypergraph whose vertex set is partitioned into $k$ classes of the same size and whose edges meet every class in exactly one vertex. Lo and Markström (2014) determined the minimum vertex-degree threshold for perfect matchings when $k=3$, and Lu, Wang and Yuan recently determined it when $k=4$. We prove the corresponding exact result for every fixed $k\\ge5$ and all sufficiently large class sizes. The close case follows from the general theorem of Lu, Wang and Yuan. For the non-closed case, we extend their stability result from the 3-partite setting to arbitrary partite uniformity, using the probability-tail rigidity theorem of Cao, Liu and Zhang, thereby replacing the earlier weighted lemma.",
+   "abs": "https://arxiv.org/abs/2609.37290",
+   "pdf": "https://arxiv.org/pdf/2609.37290"
+  },
+  {
+   "id": "2609.36341",
+   "type": "cross",
+   "title": "A sandwich theorem for the spectrum of graph coverings",
+   "authors": [
+    "Charles Bordenave",
+    "Wenbo Li",
+    "Joe Thomas"
+   ],
+   "categories": [
+    "math.SP",
+    "math-ph",
+    "math.CO",
+    "math.OA"
+   ],
+   "primary": "math.SP",
+   "comments": "",
+   "abstract": "We show that all normal covers of a fixed finite graph $G$ sitting between the universal and maximal abelian covers share the same atomic part of their spectral measures. We give an explicit double formula for the mass of atoms which generalises and unifies known results on universal covering trees and maximal abelian covers. It also proves an extension of a conjecture in physics literature on hyperbolic lattices. Moreover, we also establish the logarithmic Hölder regularity of the continuous part of the spectral measures. Our proof combines techniques from von Neumann algebras, matching theory and the monotone labelling method.\nIn an appendix, we prove a converse generalised Gallai-Edmonds structural theorem which might be of independent interest.",
+   "abs": "https://arxiv.org/abs/2609.36341",
+   "pdf": "https://arxiv.org/pdf/2609.36341"
+  },
+  {
+   "id": "2609.37876",
+   "type": "new",
+   "title": "The topological Bárány-Larman conjecture for prime numbers",
+   "authors": [
+    "Pablo Soberón"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "The Bárány-Larman conjecture states that for any $d+1$ sets of $r$ points each in $\\mathbb{R}^d$, considered as color classes, we can partition their union into $r$ rainbow $(d+1)$-tuples whose convex hulls intersect. We prove that the topological version of this conjecture holds when $r$ is a prime number. We also show that the optimal colorful Tverberg theorem of Blagojević, Matschke, and Ziegler cannot be extended to prime powers.",
+   "abs": "https://arxiv.org/abs/2609.37876",
+   "pdf": "https://arxiv.org/pdf/2609.37876"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 51,
+ "listed_cross": 12
+}
