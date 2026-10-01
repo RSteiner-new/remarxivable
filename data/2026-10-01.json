@@ -1,0 +1,563 @@
+{
+ "date": "2026-10-01",
+ "generated_at": "2026-10-01T02:59:48Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-01",
+ "screened": 57,
+ "screened_new": 36,
+ "screened_cross": 21,
+ "scored": 57,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2609.38828",
+   "type": "new",
+   "title": "Upper bounds for ordered Ramsey numbers of forests and bounded-degree graphs",
+   "authors": [
+    "Lior Gishboliner",
+    "Xiangyu Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, no figures. Comments welcome",
+   "abstract": "We prove the following two upper bounds for ordered Ramsey numbers:\n(1) Every ordered forest $F$ on $n$ vertices satisfies $R_{<}(F,F)=O(n^{1+\\lceil\\log\\chi_{<}(F)\\rceil})$. This in particular answers a question of Geneson, Holmes, Liu, Neidinger, Pehova and Wass.\n(2) There is a function $f$ such that, for every fixed ordered graph $H$ with maximum degree at most $\\Delta$ and interval chromatic number at most $k$, it holds that $R_{<}(H,K_n)=O_H(n^{f(\\Delta,k)})$.",
+   "abs": "https://arxiv.org/abs/2609.38828",
+   "pdf": "https://arxiv.org/pdf/2609.38828"
+  },
+  {
+   "id": "2609.39716",
+   "type": "new",
+   "title": "$(2,\\mathcal{F})$-Avoiding Coloring and B-Coloring under Bipartite Exclusions",
+   "authors": [
+    "Zhijun Lu",
+    "Qirui Ying",
+    "Huimin Song"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 2 figures",
+   "abstract": "Let $\\mathcal{F}$ be a nonempty family of connected bipartite graphs, each with at least two edges. For a graph $G$, a proper vertex coloring of $G$ is $(2,\\mathcal{F})$-avoiding if no member of $\\mathcal{F}$ occurs bichromatically, and $\\chi_{2,\\mathcal{F}}(G)$ denotes the minimum number of colors in such a coloring. A B-coloring of $G$ is a proper edge-coloring in which every $4$-cycle is rainbow, and $q_B(G)$ denotes the minimum number of colors in a B-coloring of $G$. For a fixed connected bipartite graph $F$ with at least one edge and bipartition classes $X_F$ and $Y_F$, define $k(F)=\\min\\{|I|:I\\subseteq X_F\\text{ or }I\\subseteq Y_F,F-I\\text{ is a forest}\\}$.\nLet $m\\ge2$ be the minimum number of edges in a member of $\\mathcal{F}$. We prove that if $k(F)\\le m-2$, then every $F$-free graph $G$ of sufficiently large maximum degree $\\Delta$ satisfies $\\chi_{2,\\mathcal{F}}(G)=O((\\frac{\\Delta^m}{\\log\\Delta})^{\\frac{1}{m-1}})$, which gives a positive answer to Chuet's Problem A and C in a sharp sense, thereby extending the results of Chuet [arXiv:2603.23379] from frugal colorings to $(2,\\mathcal{F})$-avoiding colorings.\nFor B-colorings, put $k=k(F)$, $h=|V(F)|$, and $s=\\min\\{|X_F|,|Y_F|\\}$. We prove that every $F$-free graph $G$ of sufficiently large maximum degree $\\Delta$ satisfies \\[ q_B(G)\\le \\begin{cases} \\Delta+\\Delta^{1-\\eta}+1, & \\text{if }s\\le2,\\\\ (4h-2)(\\Delta-1)+1, & \\text{if }s\\ge3\\text{ and }k\\le1,\\\\ C\\frac{\\Delta^{2-\\frac{1}{k}}}{\\log\\Delta}, & \\text{if }k\\ge2, \\end{cases} \\] where $\\eta>0$ and $C>0$ depend only on $F$. For $k\\le1$, the linear order is best possible, and for $k\\ge2$, the bound is nearly sharp.\nTo prove these results, we develop a common reduction of the coloring problems to $P$-perfect matching problems in auxiliary hypergraphs and apply the forbidden-submatching theorem of Delcourt and Postle.",
+   "abs": "https://arxiv.org/abs/2609.39716",
+   "pdf": "https://arxiv.org/pdf/2609.39716"
+  },
+  {
+   "id": "2609.39680",
+   "type": "new",
+   "title": "Additive codes arising from hypergraphs",
+   "authors": [
+    "Gianira N. Alfarano"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the critical exponent of additive codes through an integer polymatroid associated with the code. We give a coding-theoretic proof of Whittle's Critical Theorem in this setting, a geometric description of the critical exponent in terms of $h$-projective systems, and general bounds, including an analogue of Kung's girth bound. We then study additive codes whose polymatroid is the hypergraphic polymatroid of a hypergraph $H$. For these codes the critical exponent turns to be determined by the weak chromatic number of $H$. If the code is faithful, then the minimum folded Hamming weight of the dual code is equal to the Berge girth of $H$. If $H$ is connected, the minimum distance is equal to the edge-connectivity of $H$. As a consequence, for $h\\geq2$ we determine all such codes with connected $H$ that attain the Singleton bound, that is, all faithful hypergraphic additive quasi-MDS codes. We specialise the Griesmer and linear programming bounds to hypergraphic codes, we derive a lower bound on the minimum distance from the Laplacian eigenvalues of the weighted $2$-section of $H$, and we compare all these bounds computationally.",
+   "abs": "https://arxiv.org/abs/2609.39680",
+   "pdf": "https://arxiv.org/pdf/2609.39680"
+  },
+  {
+   "id": "2609.39538",
+   "type": "new",
+   "title": "On the chromatic number of pseudohemisphere hypergraphs",
+   "authors": [
+    "Balázs István Szabó"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A pseudohemisphere hypergraph is a hypergraph $\\mathcal{H}$ with an ordered set of vertices $V$ for which there exists an $ABA$-free hypergraph $\\mathcal{F}$ on $V$ and a subset $X$ of $V$ such that the hyperedge set of $\\mathcal{H}$ is a subset of $\\{F\\Delta X: F\\in \\mathcal{F}\\cup \\overline{\\mathcal{F}}\\}$. We prove that the chromatic number of pseudohemisphere hypergraphs is at most four.",
+   "abs": "https://arxiv.org/abs/2609.39538",
+   "pdf": "https://arxiv.org/pdf/2609.39538"
+  },
+  {
+   "id": "2609.40023",
+   "type": "new",
+   "title": "On equidistributed directions in finite affine planes",
+   "authors": [
+    "Sam Adriaensen",
+    "Bence Csajbók",
+    "Zsuzsa Weiner"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We investigate a recently introduced generalisation of determined directions in affine planes. A direction $(d)$ in an affine plane is a point of the line at infinity in the projective completion, and hence corresponds to a parallel class. A (multi)set $S$ of points is equidistributed from direction $(d)$ if all lines from that parallel class intersect $S$ in the same number of points. In this paper, we give a construction of point (multi)sets that are inequidistributed from exactly 3 directions in any finite translation plane, and prove that all such (multi)sets arise from this construction, generalising a result of Kiss and Somlai in Desarguesian planes of prime order. We also use ideas from algebraic graph theory to prove results on directions associated with a pair of point sets $S$ and $T$. If for every direction $(d)$ either $S$ or $T$ is equidistributed from $(d)$, we prove that $|S \\cap T| = |S||T|/q^2$, where $q$ is the order of the affine plane. In the appendix, we give a combinatorial alternative approach to proving this equality, which can be of independent interest. We also introduce the notion of directions cross-determined by a pair of sets $S$ and $T$, and prove that $|S| |T| \\leq q^2$ if $(S,T)$ cross-determines at most half of the directions, where equality forces $S = T$.",
+   "abs": "https://arxiv.org/abs/2609.40023",
+   "pdf": "https://arxiv.org/pdf/2609.40023"
+  },
+  {
+   "id": "2609.38286",
+   "type": "new",
+   "title": "The Burr-Erdős-Graham-Sós conjecture for the seven-cycle",
+   "authors": [
+    "Asad Shahab"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages. Lean 4 formalization and certificate verifier: this https URL",
+   "abstract": "For a graph $H$, let $f(n,e,H)$ be the least number of colors in an edge-coloring of some $n$-vertex graph with at least $e$ edges in which every copy of $H$ is rainbow. Burr, Erdős, Graham, and Sós conjectured that $f(n,\\lfloor n^2/4\\rfloor+1,C_{2k+1})=(1/8+o(1))n^2$ for every fixed $k\\ge3$, and Bucić, Chen, and Ma recently proved this for all $k\\ge4$. We prove the remaining case $k=3$: \\[\nf\\left(n,\\left\\lfloor n^2/4\\right\\rfloor+1,C_7\\right)\n=\\left(\\frac18+o(1)\\right)n^2. \\] The lower bound rests on a weighted palette inequality, which we prove with an exact rational certificate on five sampled vertices. Its main ingredients are a fractional matching of compatible triangular edges and private resources attached to nontriangular edges. A stable form of the inequality, combined with regularity, triangle removal, and a direct argument for graphs close to bipartite, transfers the bound to arbitrary edge-colorings. We also describe a Lean 4 formalization of the conjecture for every fixed $k\\ge3$, which combines the new seven-cycle proof with a formalization of the Bucić-Chen-Ma argument for $k\\ge4$.",
+   "abs": "https://arxiv.org/abs/2609.38286",
+   "pdf": "https://arxiv.org/pdf/2609.38286"
+  },
+  {
+   "id": "2609.39979",
+   "type": "cross",
+   "title": "A Koteljanskii inequality for permanents",
+   "authors": [
+    "Suvrit Sra"
+   ],
+   "categories": [
+    "math.RA",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.RA",
+   "comments": "9 pages",
+   "abstract": "We prove a permanental analogue of Koteljanskii's inequality. If $A$ is an inverse $M$-matrix that becomes symmetric after a positive diagonal similarity, then $\\mathrm{per}(A_{S\\cup T})\\,\\mathrm{per}(A_{S\\cap T})\\ge\\mathrm{per}(A_S)\\,\\mathrm{per}(A_T)$ for all $S,T\\subseteq[n]$, where $A_S$ is the principal submatrix indexed by $S$. The proof expresses permanents as moments of a complex Gaussian vector and uses Ginibre's correlation inequality. Finally, an explicit counterexample shows that symmetry cannot be dropped.",
+   "abs": "https://arxiv.org/abs/2609.39979",
+   "pdf": "https://arxiv.org/pdf/2609.39979"
+  },
+  {
+   "id": "2609.38417",
+   "type": "new",
+   "title": "The List Total Colouring Conjecture is False",
+   "authors": [
+    "Jonathan A. Noel"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 2 figures",
+   "abstract": "We exhibit a cubic graph with total chromatic number equal to four and list total chromatic number five. This disproves the List Total Colouring Conjecture of Borodin--Kostochka--Woodall, Juvan--Mohar--Škrekovski and Hilton--Johnson from the late 1990s. ChatGPT 6 Astra Ultra discovered the counterexample with little input from the author.",
+   "abs": "https://arxiv.org/abs/2609.38417",
+   "pdf": "https://arxiv.org/pdf/2609.38417"
+  },
+  {
+   "id": "2609.39876",
+   "type": "cross",
+   "title": "Sharp spherical extension theorem in $\\mathbb F_q^{2m}$ and applications",
+   "authors": [
+    "Thang Pham",
+    "Boqing Xue"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "This paper subsumes a previous paper of the authors arXiv:2606.03627. In this new submission, the global conjecture is solved for all even dimensions and over arbitrary finite fields, extending earlier results that were restricted to four dimensions over prime fields. The localized conjecture remains unchanged over prime fields",
+   "abstract": "Let $q$ be an odd prime power and $m\\geq 1$. Let $Q$ be a nondegenerate quadratic form on $\\mathbb F_q^{2m}$. For every sphere $S_j=\\{Q=j\\}$ with $j\\in \\mathbb F_q^\\times$, we prove the sharp extension estimate $R_{S_j}^*(2\\to r)\\lesssim_m1$ for $r\\ge 2(m+1)/m$, uniformly in $q$, $Q$, and $j$. As an application, we show that if $E\\subseteq\\mathbb F_q^{2m}$ satisfies $|E|/q^{m+1/3}\\to\\infty$, then almost every pin $y\\in E$ determines $(1-o(1))q$ values of $Q(x-y)$. The proof combines two arithmetic Hecke operator estimates with an induction in the dimension, a centered sphere--cone estimate, and an orthogonal decomposition.",
+   "abs": "https://arxiv.org/abs/2609.39876",
+   "pdf": "https://arxiv.org/pdf/2609.39876"
+  },
+  {
+   "id": "2609.39407",
+   "type": "new",
+   "title": "Nice Partitions, Supersolvability, and Freeness in Deformations of Graphic Arrangements",
+   "authors": [
+    "Weikang Liang",
+    "Suijie Wang",
+    "Yue Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study affine deformations $\\mathcal{A}(G_{\\mathcal{S}})$ of graphic arrangements and their cones. Here $G=([n],E(G))$ is a simple graph, $\\mathcal{S}=(S_{ij})$ is a family of finite gain sets, and $\\mathcal{A}(G_{\\mathcal{S}})$ consists of the hyperplanes $x_i-x_j=a$ with $a\\in S_{ij}$. We call $G_{\\mathcal{S}}$ blockwise admissible if every block has a vertex ordering $v_1,\\ldots,v_m$ satisfying $S_{v_kv_j}-S_{v_kv_i}\\subseteq S_{v_iv_j}$ for every $k$ and all distinct $i,j>k$. Every such ordering is a perfect elimination ordering. We prove, for arbitrary $G$, that the following are equivalent: (i) $G_{\\mathcal{S}}$ is blockwise admissible; (ii) the cone $c\\mathcal{A}(G_{\\mathcal{S}})$ is supersolvable; and (iii) $\\mathcal{A}(G_{\\mathcal{S}})$ admits a nice partition. We give a direct arrangement-theoretic proof of these equivalences. For a block, the equivalence between admissibility and supersolvability is already contained in Zaslavsky's characterization of supersolvable graphic-lift lattices. We further show that every nice partition on a block is induced by an admissible ordering and that its induced edge classes are stars with distinct centers. Under these equivalent conditions, we construct a maximal modular chain through the hyperplane at infinity. We also prove that if $c\\mathcal{A}(G_{\\mathcal{S}})$ is free, then $G$ is chordal.",
+   "abs": "https://arxiv.org/abs/2609.39407",
+   "pdf": "https://arxiv.org/pdf/2609.39407"
+  },
+  {
+   "id": "2609.40200",
+   "type": "cross",
+   "title": "Minimal Submanifolds and Waists of Locally Symmetric Spaces",
+   "authors": [
+    "Mikolaj Fraczyk",
+    "Ben Lowe"
+   ],
+   "categories": [
+    "math.DG",
+    "math.CO"
+   ],
+   "primary": "math.DG",
+   "comments": "40+2 pages, partially supersedes https://arxiv.org/abs/2412.01510",
+   "abstract": "We show that compact locally symmetric manifolds $M$ with universal cover the symmetric space $X$ for $SL(n,\\mathbb{R})$ form a topological higher $d$-expander family for $d\\leq n/8$. We prove the same statement for $SL(n,\\mathbb{R})$ replaced by a split simple non-compact real Lie group $G$ and for $d$ linear in the rank of $G$. We accomplish this by showing that minimal submanifolds of low codimension in such $M$ must have volume comparable to the volume of $M$. Our proof is based on a new monotonicity formula for minimal submanifolds of $X$, together with bounds on the decay of matrix coefficients for unitary representations of higher rank Lie groups. We also give the first locally symmetric example of power-law systolic freedom. This paper partially supersedes \\cite{fl24}.",
+   "abs": "https://arxiv.org/abs/2609.40200",
+   "pdf": "https://arxiv.org/pdf/2609.40200"
+  },
+  {
+   "id": "2609.39063",
+   "type": "new",
+   "title": "An elementary proof of the 2-regularity of Pythagorean triples",
+   "authors": [
+    "William J. Wesley"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages. James Leng also recently posted a preprint giving a new proof of this result, but the method here is different",
+   "abstract": "We give a new proof of the fact that every 2-coloring of the positive integers contains a monochromatic Pythagorean triple. This result was originally proven by Heule, Kullmann, and Marek with SAT solvers in 2016, answering a decades-old question of Graham. This proof uses elementary techniques and requires neither lengthy computation nor difficult analytic machinery.",
+   "abs": "https://arxiv.org/abs/2609.39063",
+   "pdf": "https://arxiv.org/pdf/2609.39063"
+  },
+  {
+   "id": "2609.39917",
+   "type": "new",
+   "title": "Log-concavity and Approximate Counting for Totally Unimodular Polytopes",
+   "authors": [
+    "Jonathan Leake",
+    "Maryam Mohammadi Yekta"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We present a new lower bound on the number of lattice points of all totally unimodular polytopes, generalizing previous lower bounds on contingency tables, integer flows, and beyond. Our bound is based on the Gurvits capacity convex optimization problem, and thus our result implies an efficient deterministic algorithm for approximate counting of the lattice points up to an explicit exponential factor. We achieve our bounds by showing that the associated generating polynomials fit into a new general class of log-concave polynomials called VLC (\"variable-wise log-concavity''). This also implies a conjecture of Ferroni and Higashitani on the evaluations of the Ehrhart polynomials of unimodular polytopes. The essential ingredient for these results is the resolution of Barvinok's log-concavity conjecture for contingency tables on lines, which was proven using ChatGPT 6 Astra. We conjecture a generalization of Barvinok's conjecture, which we believe will lead to stronger and more general bounds.",
+   "abs": "https://arxiv.org/abs/2609.39917",
+   "pdf": "https://arxiv.org/pdf/2609.39917"
+  },
+  {
+   "id": "2609.39347",
+   "type": "new",
+   "title": "Diameter and radius of an additive-multiplicative graph",
+   "authors": [
+    "Yi Hu",
+    "Nan Yang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be the graph on the positive integers in which distinct vertices are adjacent if they differ by one or their quotient in one order is prime. We prove that $6\\leq\\operatorname{diam}(G)\\leq7$ and $4\\leq\\operatorname{rad}(G)\\leq5$. Under Dickson's conjecture for two linear forms, we prove that $\\operatorname{diam}(G)=6$ and $\\operatorname{rad}(G)=4$.",
+   "abs": "https://arxiv.org/abs/2609.39347",
+   "pdf": "https://arxiv.org/pdf/2609.39347"
+  },
+  {
+   "id": "2609.39824",
+   "type": "cross",
+   "title": "Continuous graph homomorphisms of higher dimensional abelian group actions",
+   "authors": [
+    "Ruijun Wang"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "20 pages",
+   "abstract": "For every fixed integer $d\\geq2$, we prove that the finite graphs receiving a continuous homomorphism from the standard Schreier graph $F(2^{\\mathbb Z^d})$ form a $\\Sigma^0_1$-complete set. This extends a theorem of Gao, Jackson, Krohne and Seward when $d=2$. For the positive part of the reduction, we show that if a graph $H$ satisfies a certain property then there is a continuous graph homomorphism from $F(2^{\\mathbb Z^d})$ to $H$, in particular, the complete graph $K_4$ satisfies this property. This extends a theorem of Gao and Jackson. We also prove that $\\big (\\mathcal H_d\\big )$ is a strictly decreasing sequence.",
+   "abs": "https://arxiv.org/abs/2609.39824",
+   "pdf": "https://arxiv.org/pdf/2609.39824"
+  },
+  {
+   "id": "2609.38772",
+   "type": "new",
+   "title": "Counting hypergraphs without linear cycles of fixed length",
+   "authors": [
+    "József Balogh",
+    "Ramon I. Garcia",
+    "Abhishek Methuku"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $C_{k}^{(r)}$ be the $r$-uniform linear cycle on $k$ hyperedges. An $r$-graph is $C_{k}^{(r)}$-free if it contains no copy of $C_{k}^{(r)}$. Let $\\operatorname{ex}_{r}(n,C_{k}^{(r)})$ denote the maximum number of hyperedges in an $n$-vertex $C_{k}^{(r)}$-free $r$-graph. Balogh, Narayanan and Skokan asked whether, for every pair of integers $r,k\\ge 3$, the number of $C_k^{(r)}$-free $r$-graphs on $n$ labelled vertices is \\[ 2^{(1+o(1))\\operatorname{ex}_{r}(n,C_{k}^{(r)})}. \\] While the analogous statement is known to fail for graphs ($r=2$), by a construction of Morris and Saxton, the general question remained open for hypergraphs. Very recently, Jiang and Longbrake answered the question affirmatively when $r\\geq5$.\nIn this paper, we completely resolve the problem by proving that the answer is affirmative for every pair of integers $r,k\\geq3$. When $(r,k)\\neq(3,3)$, we establish balanced supersaturation results for linear cycles and combine them with the hypergraph container method. For $(r,k)=(3,3)$, we instead decompose $3$-graphs according to their pair-codegrees, encode the subhypergraph formed by the hyperedges that contain a large codegree pair as a directed graph, and apply a multicolour entropy theorem.",
+   "abs": "https://arxiv.org/abs/2609.38772",
+   "pdf": "https://arxiv.org/pdf/2609.38772"
+  },
+  {
+   "id": "2609.38742",
+   "type": "cross",
+   "title": "Hyperplane Incidences and Distance Sets in Higher Dimensions",
+   "authors": [
+    "Marianna Csornyei",
+    "D. M. Stull"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "",
+   "abstract": "We generalize Ren and Wang's incidence bound between points and lines in $\\R^2$ \\cite{RenWan23} to higher dimensions. We show how to use this incidence bound to improve the best known bound for Falconer's distance set problem in $\\R^3$ and in $\\R^4$. We show that if $d=3$ or $d=4$, and $E\\subset \\R^d$ is a Borel set of dimension $\\dim_H(E) > d/2$, then\n\\begin{equation*}\n\\sup_{x\\in E} \\dim_H(\\Delta_x(E)) \\geq 2/3,\n\\end{equation*}\nwhere $\\Delta_x(E)$ is the pinned distance set of $E$ with respect to $x$.\nWe also show how the incidence bound can be used to generalize the planar Furstenberg set bound, to sets in $\\R^d$ that contain a $t$-dimensional set of hyperplanes, each of which contains an $s$-dimensional set of points, for any $d\\ge 2$, $s \\in (d-2, d-1]$ and $t \\in (0, d]$.",
+   "abs": "https://arxiv.org/abs/2609.38742",
+   "pdf": "https://arxiv.org/pdf/2609.38742"
+  },
+  {
+   "id": "2609.39015",
+   "type": "new",
+   "title": "A double-logarithmic upper bound on the chromatic number of the associahedron",
+   "authors": [
+    "Sang-il Oum",
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 6 figure. Ancillary files include verification codes for the chromatic number of $\\mathcal{A}_{15}$",
+   "abstract": "We show that the associahedron $\\mathcal{A}_n$ has chromatic number $O(\\log\\log n)$, improving on the previously best known upper bound of $O(\\log n)$.",
+   "abs": "https://arxiv.org/abs/2609.39015",
+   "pdf": "https://arxiv.org/pdf/2609.39015"
+  },
+  {
+   "id": "2609.38493",
+   "type": "new",
+   "title": "One and Seven-Eighths Divisibility Problems of Propp",
+   "authors": [
+    "Aidan Dunkelberg"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 20 figures",
+   "abstract": "We provide one full solution, and another nearly complete solution, to two problems from Jim Propp's 1999 article \"Enumeration of matchings; problems and progress\" (namely, Problems 30 and 31) involving divisibility properties of the number of matchings of two non-bipartite triangular graphs. We extend our method of proof of the second problem to show that the number of matchings of any graph composed of tetrahedral cells, such that the number of cells is suitably few relative to the number of vertices, is divisible by a power of 3; in particular, we then exhibit a collection of non-planar graphs whose number of matchings is divisible by 3.",
+   "abs": "https://arxiv.org/abs/2609.38493",
+   "pdf": "https://arxiv.org/pdf/2609.38493"
+  },
+  {
+   "id": "2609.40084",
+   "type": "new",
+   "title": "Unimodality of Kazhdan--Lusztig polynomials of sparse paving matroids",
+   "authors": [
+    "Matthew H. Y. Xie",
+    "Zuo-Ru Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the Kazhdan--Lusztig polynomial of a loopless sparse paving matroid is unimodal. When the rank is at least five and the corank is positive, we show that the coefficient sequence is strictly unimodal except for three explicitly determined parameter triples, each giving two equal maximal coefficients. We also determine the modes and classify the degenerate loopless sparse paving matroids of positive rank and corank.",
+   "abs": "https://arxiv.org/abs/2609.40084",
+   "pdf": "https://arxiv.org/pdf/2609.40084"
+  },
+  {
+   "id": "2609.40018",
+   "type": "new",
+   "title": "Separating Notions of Graph Width: the Adaptive, Normal, Linear, Entropic, and Submodular Width",
+   "authors": [
+    "Matthias Lanzinger",
+    "Timo Camillo Merkl",
+    "Dan Suciu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DB"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We describe one explicit simple graph G on 32 vertices whose adaptive, normal, linear, entropic, and submodular widths are pairwise distinct. We compute all these widths exactly, except for the entropic width, where we only give a lower and upper bound. We use Ingleton's inequality and the Zhang-Yeung inequality for upper bounds, and give explicit constructions of modular, normal, linear, entropic, and non-entropic polymatroids for lower bounds.",
+   "abs": "https://arxiv.org/abs/2609.40018",
+   "pdf": "https://arxiv.org/pdf/2609.40018"
+  },
+  {
+   "id": "2609.40122",
+   "type": "cross",
+   "title": "Myopic Tutte polynomials and Khovanov homology in $\\mathbb{R}P^3$",
+   "authors": [
+    "Keegan Boyle",
+    "Dean Spyropoulos"
+   ],
+   "categories": [
+    "math.GT",
+    "math.CO"
+   ],
+   "primary": "math.GT",
+   "comments": "43 pages, best viewed in color. Comments welcome!",
+   "abstract": "We present a \"myopic\" Tutte polynomial for graphs on $\\mathbb{R}P^2$ which takes only nullhomologous spanning subgraphs as input. It recovers the generalized Krushkal polynomial and Drobotukhina's analogue of the Jones polynomial for alternating, nullhomologous links in $\\mathbb{R}P^3$. We use this myopic Tutte polynomial to prove an analogue of the Kauffman-Murasugi-Thistlethwaite Theorem, relating the Jones polynomial of an alternating link to certain refinements of the crossing number. Finally, we construct a spanning tree model for the Khovanov homology of nullhomologous links, mirroring work by Champanerkar-Kofman and Wehrli for links in $S^3$. For alternating links, we use our model to prove that the Khovanov homology in $\\mathbb{Z}/2\\mathbb{Z}$ coefficients is determined entirely by the Jones polynomial and signatures of the link.",
+   "abs": "https://arxiv.org/abs/2609.40122",
+   "pdf": "https://arxiv.org/pdf/2609.40122"
+  },
+  {
+   "id": "2609.38244",
+   "type": "new",
+   "title": "An Improved Exponent for Products of Differences over Arbitrary Finite Fields",
+   "authors": [
+    "Yao Zhi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "0",
+   "abstract": "Murphy and Petridis proved that, for subsets $A$ of an arbitrary finite field $\\F_q$, the condition $\\abs A>q^{2/3-\\delta}$ implies $\\abs{(A-A)(A-A)}>q/2$ whenever $\\delta<1/13542$ and $q$ is sufficiently large. We improve the explicit saving to $1/1689$. The proof replaces the main physical-space extraction in their large-energy branch by a common Fourier spectrum, followed by a popular-ratio Balog--Szemerédi--Gowers step. The resulting additive energy is treated level by level, retaining difference multiplicities and combining the Reiher--Schoen relation lemma with Mohammadi's difference--ratio estimate. This gives the structural exponent $188$ and hence \\[ \\abs A\\ge Cq^{375/563}=Cq^{2/3-1/1689} \\quad\\Longrightarrow\\quad \\abs{(A-A)(A-A)}>\\frac q2 \\] for an absolute constant $C>0$.",
+   "abs": "https://arxiv.org/abs/2609.38244",
+   "pdf": "https://arxiv.org/pdf/2609.38244"
+  },
+  {
+   "id": "2609.39219",
+   "type": "cross",
+   "title": "Central Limit Theorem of Maximum Weight Matching on Random Graphs with Prescribed Degrees",
+   "authors": [
+    "Shichen Jing",
+    "Wai-Kit Lam",
+    "Arnab Sen"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "46 pages, 4 figures",
+   "abstract": "We prove an annealed central limit theorem for the weight of the maximum weight matching on uniformly random simple graphs with prescribed, uniformly bounded degrees and i.i.d. exponential edge weights. In particular, the result applies to random $d$-regular graphs for every fixed $d \\ge 2$. The proof separates the fluctuations arising from the edge weights from those arising from the graph. The correlation decay estimate of Lam and Sen (arXiv:2511.18861) yields Gaussian fluctuations for the former. The main difficulty is to analyze the fluctuations of the conditional mean of the optimal weight given the graph. To address this, we prove a stronger perturbative correlation decay estimate that, together with a variance bound, reduces the problem to the central limit theorem of Barbour and Röllin [Ann. Appl. Probab. 29(2) (2019)] for local statistics of the configuration model.",
+   "abs": "https://arxiv.org/abs/2609.39219",
+   "pdf": "https://arxiv.org/pdf/2609.39219"
+  },
+  {
+   "id": "2609.39633",
+   "type": "new",
+   "title": "A Fixed-Offset Transition for Random Stackability on Paths",
+   "authors": [
+    "John Fairfax-Ball"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 0 figures. A finite deterministic deep-message necessity theorem and its exact fixed-total corollary are formalised in Lean and registered with Palomar (PALOMAR-2026-09-30-000023, version 1); the full probabilistic asymptotic theorem is not part of that registration",
+   "abstract": "We study a support-collapse version of graph pebbling on paths. A configuration is stackable if a sequence of legal pebbling moves can produce a nonzero configuration supported on a single vertex. On the path P_n, we choose a configuration uniformly from all weak compositions of total n times mu_n, where mu_n is a positive integer. We prove a two-sided fixed-offset transition for the logarithmic density. The transition is centred at sqrt(log_2 n) - (1/2) log_2 log_2 n + log_2(3e). For every fixed epsilon greater than zero, the stackability probability tends to zero when log_2 mu_n is eventually at most the centre minus epsilon, and tends to one when it is eventually at least the centre plus epsilon. No assertion is made at zero offset. The proof uses an exact recursive stackability score on trees, a one-dimensional path-message recurrence, binary-partition asymptotics for rare dyadic deficit excursions, a constant-cost regeneration argument, and an exact deep-message necessity theorem. Conditioning independent geometric occupancies on their sum returns the uniform fixed-total model. The finite deterministic necessity theorem and its exact fixed-total corollary are formalised in Lean and registered with Palomar; the full probabilistic asymptotic theorem is not part of that registration.",
+   "abs": "https://arxiv.org/abs/2609.39633",
+   "pdf": "https://arxiv.org/pdf/2609.39633"
+  },
+  {
+   "id": "2609.38876",
+   "type": "new",
+   "title": "New interpretations for Kromatic symmetric function expansions",
+   "authors": [
+    "Aarush Kulkarni",
+    "Laura Pierson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages",
+   "abstract": "The Kromatic symmetric function (KSF) $\\overline{X}_{G}$, introduced by Crew, Pechenik, and Spirkl (2026), is a $K$-theoretic analogue of the chromatic symmetric function (CSF) $X_G$. We study expansion formulas for the KSF in two different bases. First, we explore recursive ways to compute the KSF's expansion in the $K$-theoretic monomial symmetric function basis $\\overline{\\widetilde{m}}_\\lambda$, generalizing formulas that were used by the second author and Samanta to show that the KSF distinguishes certain families of graphs that are not distinguished by the CSF. Second, we give new interpretations for the KSF's expansion in the $K$-theoretic power sum basis $\\overline{p}_\\lambda$, using an inclusion-exclusion approach like the one from Stanley (1995) instead of an acyclic orientation approach. Finally, we give $K$-analogues of Schmitt's and of Humpert and Martin's antipode formulas for the Hopf algebra of graphs, along with a Hopf algebra interpretation for both the $\\overline{p}$-expansion and $\\overline{\\widetilde{m}}$-expansion of the KSF.",
+   "abs": "https://arxiv.org/abs/2609.38876",
+   "pdf": "https://arxiv.org/pdf/2609.38876"
+  },
+  {
+   "id": "2609.38398",
+   "type": "new",
+   "title": "Grassmannian tree webs and cluster variables",
+   "authors": [
+    "Jian-Rong Li",
+    "Chenglu Wang",
+    "Lauren Williams"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 12 figures",
+   "abstract": "Homogeneous coordinate rings of Grassmannians are among the most fundamental instances of cluster algebras arising in ``nature.'' Despite their importance, however, the cluster variables of these cluster algebras are not well-understood, except in special cases. For the Grassmannian of 3-planes in n-space, Fomin and Pylyavskyy conjectured [FP16] that the cluster and frozen variables are exactly the indecomposable, non-elliptic web invariants which are arborizable. They proved that in particular, if an SL3 tensor diagram is a planar tree, its web invariant is a cluster or frozen variable. In this article, we give a new proof of their result for Gr(3, n) planar tree webs, and we generalize the result to Gr(4, n): if an SL4 tensor diagram for Gr(4, n) is a planar tree web, its web invariant is a cluster or frozen variable. Our proof uses some of the cluster quasihomomorphisms from [EZLP+23] and [EZPT+25] (namely, upper promotion and spurion promotion), as well as a new 6-leg pattern map.",
+   "abs": "https://arxiv.org/abs/2609.38398",
+   "pdf": "https://arxiv.org/pdf/2609.38398"
+  },
+  {
+   "id": "2609.38628",
+   "type": "new",
+   "title": "A rainbow partition theorem for trees and connected maximin share allocations of chores",
+   "authors": [
+    "Marcin Anholcer",
+    "Maciej Bartkowiak",
+    "Bartłomiej Bosek",
+    "Jarosław Grytczuk",
+    "Zbigniew Lonc",
+    "Paweł Rzążewski"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "econ.TH",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Xiao, Qiu, and Huang (AAMAS 2023) and independently Lonc (personal communication) asked whether indivisible chores located at the vertices of a tree can always be allocated to $n$ agents in connected bundles so that the cost of every agent is at most its connected maximin share; for goods, this is a theorem of Bouveret, Cechlárová, Elkind, Igarashi, and Peters. We answer the question affirmatively, even for monotone costs. The answer follows from a combinatorial theorem: if $\\mathcal P_1,\\ldots,\\mathcal P_k$ are partitions of the vertex set of a finite tree, each into at most $k$ connected parts, then the vertex set can be split into disjoint sets $B_1,\\ldots,B_k$, some possibly empty, such that each nonempty $B_i$ is connected and contained in a part of $\\mathcal P_i$. Equivalently, if each of $k$ colours occurs on at most $k-1$ edges of a tree, then the vertices can be partitioned into connected sets labelled by distinct colours, none containing an edge of its own colour; in particular, one can choose for every colour a component of the forest obtained by deleting that colour so that the chosen components cover the tree. The bound is already best possible for paths, and for additive costs, the theorem is equivalent to the fair-division statement. The proof reduces the problem to inward partitions of oriented trees, which we obtain from the colourful KKM theorem on a simplex of edge weights, using a leaf-elimination labelling that remains compatible when weights vanish. We also give an algorithm running in time $k^{O(k)}$ plus polynomial time.",
+   "abs": "https://arxiv.org/abs/2609.38628",
+   "pdf": "https://arxiv.org/pdf/2609.38628"
+  },
+  {
+   "id": "2609.38284",
+   "type": "new",
+   "title": "Counterexamples to Aigner's majorization conjecture for star-forest search",
+   "authors": [
+    "Fedor Karpelevitch"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "In adaptive quantitative group testing with exactly two defective items, each test reports how many defectives lie in a chosen subset. We study configurations in which the possible defective pairs form the edges of a star forest. Aigner proved a necessary majorization condition on the ordered star sizes for identifying the defective pair within a prescribed number of tests, and conjectured that this condition was sufficient. We disprove the conjecture by an explicit six-test counterexample and give an analytic family of counterexamples for every test budget $k\\ge6$. The obstruction uses two tight prefix sums to force incompatible demands on the outcomes of the first test. We also prove, by exhaustive computation combined with analytic reductions, that the converse holds for $0\\le k\\le5$. Thus six is the first test budget at which majorization alone fails. The counterexamples and their infinite extension do not depend on the exhaustive computation.",
+   "abs": "https://arxiv.org/abs/2609.38284",
+   "pdf": "https://arxiv.org/pdf/2609.38284"
+  },
+  {
+   "id": "2609.39952",
+   "type": "new",
+   "title": "Involutions avoiding 4321 and another pattern of length four",
+   "authors": [
+    "Marilena Barnabei",
+    "Niccolò Castronuovo",
+    "Matteo Silimbani"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "49 pages",
+   "abstract": "We enumerate all families of involutions avoiding a classical pattern of length four together with 4321. While the enumeration of permutations avoiding two classical patterns is by now well understood, the case of pattern-avoiding involutions presents additional structural constraints that require dedicated techniques. In particular our main enumerative tool is Biane's bijection between involutions and labelled Motzkin paths.\nThe paper provides exact bivariate generating functions (taking into account length and number of descents), and structural descriptions for all except one family. In the remaining case we provide a functional equation for the generating function and express it as an explicit continued fraction.\nWe make extensive use of experimental and software-supported methods.",
+   "abs": "https://arxiv.org/abs/2609.39952",
+   "pdf": "https://arxiv.org/pdf/2609.39952"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2609.40192",
+   "type": "new",
+   "title": "On the solution to the Erdős-Hajnal problem on high-girth high-chromatic subgraphs",
+   "authors": [
+    "Tung Nguyen",
+    "Bartosz Walczak"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages; expository note",
+   "abstract": "A well-known problem of Erdős and Hajnal from the 1960s asks whether every graph with huge chromatic number contains a subgraph with large girth and large chromatic number. Very recently, Kohlmeyer and Kruer provided a strong negative solution to this problem: a construction of triangle-free graphs with arbitrarily large chromatic number whose subgraphs with no four-cycle have chromatic number at most $6$. The purpose of this exposition is to explain the construction method, relate it to relevant literature, and optimise the bound `$6$' to `$3$'.",
+   "abs": "https://arxiv.org/abs/2609.40192",
+   "pdf": "https://arxiv.org/pdf/2609.40192"
+  }
+ ],
+ "listed_new": 36,
+ "listed_cross": 21
+}
