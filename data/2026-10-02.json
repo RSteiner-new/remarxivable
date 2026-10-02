@@ -1,0 +1,541 @@
+{
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T03:23:32Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-02",
+ "screened": 74,
+ "screened_new": 49,
+ "screened_cross": 25,
+ "scored": 74,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.00375",
+   "type": "new",
+   "title": "Optimal discrepancy for triangles",
+   "authors": [
+    "Gleb Smirnov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "We prove that every $n$-point set in the plane has a two-coloring with discrepancy $O(n^{1/4})$ for all triangles. This improves the previous bound $O(n^{1/4}\\sqrt{\\log n})$ and matches the classical lower bound.",
+   "abs": "https://arxiv.org/abs/2610.00375",
+   "pdf": "https://arxiv.org/pdf/2610.00375"
+  },
+  {
+   "id": "2610.00099",
+   "type": "new",
+   "title": "Periodic Joint Co-tiles of Independent Tiles",
+   "authors": [
+    "Hu Tan",
+    "Ying Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "For every $d\\geq2$, we prove that $d-1$ independent finite tiles in $\\Z^d$ admit a fully periodic joint co-tile whenever they admit a joint co-tile. Here independence means that the tiles contain the origin and every choice of one nonzero vector from each tile is linearly independent. This removes property $(\\star)$ from the periodic existence theorem of Meyerovitch, Sanadhya and Solomon and recovers Bhattacharya's theorem when $d=2$. More generally, we prove periodic existence for any finite family admitting a joint co-tile whose indicator is a fully periodic real function plus finitely many bounded real functions, each invariant under a subgroup of rank $d-1$. Extending the Boolean normal-form method of Greenfeld and Tao, we obtain a configuration in the translation orbit closure whose restrictions to cosets of a finite-index lattice are either invariant under a rank-$(d-1)$ subgroup or given by a three-term affine fractional-part formula with density one half. The tiling equations pair the restrictions given by this formula and determine a finite bipartite graph. A two-coloring replaces those restrictions by constants while preserving every tiling equation. We deduce a characterization of periodic tilability by independent companions and a decision algorithm for families containing an independent $(d-1)$-subfamily, with the dimension as part of the input.",
+   "abs": "https://arxiv.org/abs/2610.00099",
+   "pdf": "https://arxiv.org/pdf/2610.00099"
+  },
+  {
+   "id": "2610.01946",
+   "type": "new",
+   "title": "Improved upper bounds on the list chromatic number of $K_t$-minor-free graphs",
+   "authors": [
+    "Yangyan Gu",
+    "Rongxing Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages, 2 figures",
+   "abstract": "It remains open whether every $K_t$-minor-free graph is $O(t)$-choosable. Postle proved that every $K_t$-minor-free graph has choice number $O(t(\\log\\log t)^6)$. At the end of an earlier version of a paper establishing an $O(t\\log\\log t)$ bound on the chromatic number of $K_t$-minor-free graphs, Delcourt and Postle remarked that their methods, combined with Postle's earlier techniques, yield an $O(t(\\log\\log t)^2)$ bound on the choice number. In this paper, we first prove that every $n$-vertex $K_t$-minor-free graph has choice number $O(t\\log(2+n/t))$. Using this bound as a key ingredient, we follow the approach outlined by Delcourt and Postle to prove that every $K_t$-minor-free graph is $O(t\\log\\log t)$-choosable.",
+   "abs": "https://arxiv.org/abs/2610.01946",
+   "pdf": "https://arxiv.org/pdf/2610.01946"
+  },
+  {
+   "id": "2610.00773",
+   "type": "new",
+   "title": "$k$-arrangements of pseudolines and pseudocircles",
+   "authors": [
+    "Jan Kynčl",
+    "Carolina Medina",
+    "Gelasio Salazar"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages, 10 figures",
+   "abstract": "A $k$-arrangement of pseudolines is a set of bi-infinite curves in the plane such that any two of them intersect each other in exactly $k$ points, at which they cross, and it is simple if no three curves meet at a common point. Cyclic arrangements are the only simple $1$-arrangements of pseudolines that are unavoidable, in the Ramsey spirit: for each fixed $m\\ge 1$, every sufficiently large simple $1$-arrangement of pseudolines has a cyclic subarrangement of size $m$. We show that, for every $m\\ge 3$, the number of unavoidable simple $k$-arrangements of pseudolines of size $m$ grows exponentially with $k$, independently of $m$. For even $k$, we prove an analogous result for $k$-arrangements of pseudocircles.",
+   "abs": "https://arxiv.org/abs/2610.00773",
+   "pdf": "https://arxiv.org/pdf/2610.00773"
+  },
+  {
+   "id": "2610.02065",
+   "type": "new",
+   "title": "Linear arboricity conjecture for infinite graphs",
+   "authors": [
+    "Leandro Aurichi",
+    "Rodrigo Santos Monteiro",
+    "Caio Fernando Rodrigues"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The linear arboricity $\\la(G)$ of a graph $G$ is the least cardinality of linear forests, that is, forests of maximum degree at most $2$, into which its edge set $E(G)$ can be decomposed. The Linear Arboricity Conjecture asserts that $\\la(G)\\leq\\lceil(\\Delta(G)+1)/2\\rceil$ for every finite graph $G$, where $\\Delta(G)$ denotes the maximum degree of $G$. We extend this conjecture to infinite graphs of finite maximum degree and prove that its finite and infinite versions are equivalent. We introduce topological linear arboricity $\\latop (G)$ by requiring the linear forests to contain no topological circle, and show that it differs from linear arboricity by at most one. Finally, we prove that every $2k$-regular graph of girth at least $2k$ has topological linear arboricity at most $k+1$.",
+   "abs": "https://arxiv.org/abs/2610.02065",
+   "pdf": "https://arxiv.org/pdf/2610.02065"
+  },
+  {
+   "id": "2610.01049",
+   "type": "cross",
+   "title": "Watkins's conjecture holds for all infinite groups",
+   "authors": [
+    "Alex J. Sutherland"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "35 pages, 5 figures, 2 appendices; ancillary checking programs supplied",
+   "abstract": "We prove that at every infinite cardinality, every group which is neither abelian of exponent greater than two nor generalized dicyclic admits a graphical regular representation, settling the infinite-group part of Watkins's conjecture. We also determine the Cayley index of every infinite group: it is $1$, $2$, or $8$, according to its algebraic type, and in every case the index is attained by a connected Cayley graph. For every infinite group $G$ of cardinality $\\kappa$, we construct $2^\\kappa$ pairwise nonisomorphic Cayley graphs with exactly the unavoidable inverse-pair symmetries, diameter two, and $\\kappa$ common neighbors at every distinct pair. The principal tool recovers a continuous ordinal hierarchy from an alternating adjacency baseline with bounded-degree errors: robust finite patterns identify the initial classes, successive twin quotients recover the layers, and their finite exception packets determine the translation action. The reconstruction applies without a group action and is stable under additional layerwise bounded-degree edits. Further results give closed Cantor-cube families with prescribed finite data in the regular cases, sharp cofinality-dependent graph properties, and optimal three-valued shortest-path metrics.",
+   "abs": "https://arxiv.org/abs/2610.01049",
+   "pdf": "https://arxiv.org/pdf/2610.01049"
+  },
+  {
+   "id": "2610.01084",
+   "type": "new",
+   "title": "Upper Bounds on the Turán Density of Hypergraphs Associated with the Projective Plane over a Finite Field",
+   "authors": [
+    "Subhankar Dash",
+    "Kaushik Majumder"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Key words: r-graph, Turán density, Projective Plane over a Finite Field",
+   "abstract": "Let $\\PG(2,q)$ denote the projective plane over the finite field $\\mathbb{F}_q$ where $q\\geq2$ is a prime power. For a positive integer $t$, let $B_{t}[\\PG(2,q)]$ denote the $t$-page book obtained from $t-$many copies of the $(q+1)-$graph $\\PG(2,q)$, sharing a common edge. Employing the $\\mathsf{L}^p-$method and using the incidence structure of the projective plane, we establish that the upper bound of Turán density of $B_{t}[\\PG(2,q)]$ is $(q(q+1)^{-1})^{\\frac{1}{qt}}$. For the $(q+1)-$graph $\\PG(2,q)$, the previously known upper bound on its Turán density was $1-\\binom{q^2}{q}^{-1}$. As a consequence of our estimate, this upper bound is improved to $(q(q+1)^{-1})^{\\frac{1}{q}}$.",
+   "abs": "https://arxiv.org/abs/2610.01084",
+   "pdf": "https://arxiv.org/pdf/2610.01084"
+  },
+  {
+   "id": "2610.02119",
+   "type": "new",
+   "title": "Typical intersecting families at $n=2k+1$ and $n=2k+2$",
+   "authors": [
+    "Lina Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A family of sets is intersecting if every two members intersect, and trivial if all its members contain a common element. We determine the typical structure of $k$-uniform intersecting families on $2k+1$ and $2k+2$ elements as $k\\to\\infty$. For $n=2k+2$, we prove that almost all intersecting families are trivial and that their number is \\[ (2k+2+o(1))\\,2^{\\binom{2k+1}{k-1}}. \\] Together with Yang's recent result for $n\\ge 2k+3$, this settles a conjecture of Balogh, Garcia, Li, and Wagner. For $n=2k+1$, almost all intersecting families are nontrivial. We prove that, as conjectured by the same authors, a typical intersecting family is close to a full star: its members outside the star form components of size at most two in the graph joining sets that intersect in $k-1$ elements. We also obtain an asymptotic formula for the number of intersecting families in this case, with an explicit second-order term in the exponent. Our proof combines Sapozhenko's graph container method and stability in Kneser graphs to control families far from every star, and a polymer model and cluster expansion to enumerate families close to a fixed star.",
+   "abs": "https://arxiv.org/abs/2610.02119",
+   "pdf": "https://arxiv.org/pdf/2610.02119"
+  },
+  {
+   "id": "2610.00938",
+   "type": "cross",
+   "title": "A zero-one law for swap-invariant events in uniform spanning forests",
+   "authors": [
+    "Xinyi Li",
+    "Yao Yu"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "7 pages, 1 figure",
+   "abstract": "We prove that every event invariant under swaps has probability zero or one for either the free or the wired spanning forest on any connected, locally finite, infinite network. Applications include the constancy of the number of components and of the total number of excessive ends. For the free forest, these results resolve longstanding questions of Benjamini, Lyons, Peres, and Schramm [Ann. Probab. (2001), Question 15.7] on constancy of the component count and of Lyons, Morris, and Schramm [Electron. J. Probab. (2008), Question 7.7] on the zero-one law for one-endedness. In the latter case, we obtain the stronger conclusion that the total number of excessive ends is deterministic.",
+   "abs": "https://arxiv.org/abs/2610.00938",
+   "pdf": "https://arxiv.org/pdf/2610.00938"
+  },
+  {
+   "id": "2610.02177",
+   "type": "new",
+   "title": "Generic solutions to symmetric linear equations",
+   "authors": [
+    "Bryce Frederickson",
+    "Liana Yepremyan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 3 figures",
+   "abstract": "In 1993, Ruzsa showed that for every $k \\geq 2$, there exists a constant $C$ such that every subset $A \\subseteq [N]$ of size at least $C N^{1/k}$ contains $2k$ distinct elements $a_1, \\ldots, a_k, b_1, \\ldots, b_k \\in A$ such that $a_1 + \\cdots + a_k = b_1 + \\cdots + b_k$. We strengthen this result by proving that the elements $a_1, \\ldots, a_k, b_1, \\ldots, b_k$ can be chosen to have the additional property that $\\{a_1, \\ldots, a_k, b_1, \\ldots, b_k\\}$ has $2^{2k}-1$ distinct subset sums, with the only coincidence being that $\\{a_1, \\ldots, a_k\\}$ and $\\{b_1, \\ldots, b_k\\}$ have the same sum.\nOur proof also applies to any finite Abelian group of odd order $N$, and it provides a corresponding supersaturation result: that whenever $|A| \\geq CN^{1/k}$, there are at least $\\Omega(|A|^{2k}/N)$ choices for $a_1, \\ldots, a_k, b_1, \\ldots, b_k \\in A$ satisfying these properties. We prove a slightly weaker statement for Abelian groups of even order.\nWe also apply our methods to the vector space setting and prove the following $\\mathbb F_q$-analogue of the Bondy-Simonovits Theorem on the extremal number of even cycles in graphs: Any rank-$n$, simple, $\\mathbb F_q$-representable matroid with no circuit of size exactly $2k$ has size at most $C q^{n/k}$ for some constant $C$ depending only on $q$ and $k$. When $q=2$, this is best possible up to the constant $C$ for all $k \\geq 2$. Our methods also apply to the original graph setting and give a new proof of the Bondy-Simonovits Theorem and its supersaturation version.",
+   "abs": "https://arxiv.org/abs/2610.02177",
+   "pdf": "https://arxiv.org/pdf/2610.02177"
+  },
+  {
+   "id": "2610.01240",
+   "type": "new",
+   "title": "A proof of Lehmer's permutation conjecture for neighbor-swap graphs",
+   "authors": [
+    "Tom Verhoeff"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 3 figures",
+   "abstract": "In 1965, D. H. Lehmer conjectured that the permutations of every multiset admit an imperfect Hamiltonian traversal by adjacent swaps: a walk in the neighbor-swap graph that visits every word, with some words visited twice in order to reach a neighbor and return. The question is posed as an unsolved research problem in Knuth's Art of Computer Programming. Verhoeff (2017) chose the stutter words, in which every domino is a double, as the words to be reached this way, and reformulated the conjecture as the Hamiltonicity of the graph $N(S)$ on the non-stutter words, with two exceptional families --- binary signatures with an odd multiplicity, and the permutations of $(2k,1,1)$ --- that admit a Hamiltonian path but no cycle. This article proves the reformulated conjecture, and with it Lehmer's conjecture. The key structure is a partition of the words into hypercubes: the swaps inside dominoes turn each class of words with the same domino contents into a hypercube, and the stutters are exactly the $0$-dimensional classes. When every multiplicity is even, Hamiltonian cycles of the hypercubes are glued along a spanning tree, with no finite check. The case of exactly one odd multiplicity reduces to the all-even case and to a theorem of Stachowiak (1992), the one inherited Hamiltonicity input, which also settles two or more odd multiplicities. The only finite ingredients are two explicit cycles, of 28 and 84 words. Every construction is implemented in Python and checked against brute-force graphs, and the proof is formalized in Lean 4 over Mathlib.",
+   "abs": "https://arxiv.org/abs/2610.01240",
+   "pdf": "https://arxiv.org/pdf/2610.01240"
+  },
+  {
+   "id": "2610.01708",
+   "type": "new",
+   "title": "$K$-$k$-Schur functions are $k$-Schur positive",
+   "authors": [
+    "Haojun Bai",
+    "Peter L. Guo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "The $k$-Schur functions (resp., $K$-$k$-Schur functions) are the symmetric function representatives of Schubert classes in the homology (resp., $K$-homology) of the affine Grassmannian of type $A$. We prove that every $K$-$k$-Schur function is a nonnegative integer linear combination in the basis of $k$-Schur functions. This settles a conjecture by Lam, Schilling and Shimozono. The proof relies on realizations of $k$-Schur and $K$-$k$-Schur functions as Catalan and Katalan functions, respectively.",
+   "abs": "https://arxiv.org/abs/2610.01708",
+   "pdf": "https://arxiv.org/pdf/2610.01708"
+  },
+  {
+   "id": "2610.01793",
+   "type": "cross",
+   "title": "Finite Orders of Products of Two Class Transpositions Divide 840",
+   "authors": [
+    "Alex Iskra"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "",
+   "abstract": "We prove that if the product of two class transpositions has finite order, then its order divides 840. This gives a complete affirmative answer to Question 18.48 in the Kourovka Notebook. We also obtain a criterion for the product of two class transpositions to have infinite order. In addition, we construct a pair of class transpositions whose product has order 840, showing that the bound is sharp.",
+   "abs": "https://arxiv.org/abs/2610.01793",
+   "pdf": "https://arxiv.org/pdf/2610.01793"
+  },
+  {
+   "id": "2610.01617",
+   "type": "new",
+   "title": "A negative Schur coefficient for products of two chains",
+   "authors": [
+    "Kai Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 3 figures",
+   "abstract": "We prove that the product of chains $\\mathbf{m}\\times\\mathbf{n}$ is not Schur positive whenever $n\\ge4$ and $m\\ge3n-1$. Writing $m=n+k$, we exhibit a negative coefficient indexed by $(2n+k-1,2n+k-3,\\ldots,k+5,k,k,4)$ and evaluate it explicitly as $(n-2)!$ times a polynomial of degree three in $k$. Our argument refines the chain-partition method of Li, Qiu, Yang, and Zhang: rank capacity forces $n-2$ long chains, and the remaining three chains are counted by separating a middle interval with fixed row coordinates from two bounded boundary regions. Together with their theorem and the known cases of widths two and three, this shows that these products are not Schur positive for $n\\ge3$, $m\\ge n+5$, and for $n=2$, $m\\ge8$.",
+   "abs": "https://arxiv.org/abs/2610.01617",
+   "pdf": "https://arxiv.org/pdf/2610.01617"
+  },
+  {
+   "id": "2610.01137",
+   "type": "new",
+   "title": "Perfect matching covers of claw-free cubic graphs",
+   "authors": [
+    "Huaibin Zhou",
+    "Xiumei Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Berge conjecture [Proc. London Math. Soc., 1979] asserts that every bridgeless cubic graph can be covered by five perfect matchings. The 5-cycle double cover conjecture, proposed independently by Preissmann (1981) and Celmins (1984), asserts that every bridgeless graph admits five even subgraphs such that every edge belongs to exactly two of them. Hakobyan and Mkrtchyan [Ars Math. Contemp., 2019] proved that the 5-cycle double cover conjecture holds if and only if every bridgeless claw-free cubic graph can be covered by four perfect matchings. In this paper, we prove that the Berge conjecture holds for bridgeless claw-free cubic graphs. Moreover, we show that every bridgeless claw-free cubic graph $G$ admits four perfect matchings that cover at least $\\frac{299}{315}|E(G)|$ edges.",
+   "abs": "https://arxiv.org/abs/2610.01137",
+   "pdf": "https://arxiv.org/pdf/2610.01137"
+  },
+  {
+   "id": "2610.00137",
+   "type": "cross",
+   "title": "Cutoff for the Overhand Shuffle",
+   "authors": [
+    "Yunjiang Jiang"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "We study the overhand shuffle with a fixed cut probability $p\\in(0,1)$. In the packet-reversal convention, each gap is cut independently with probability $p$, and each resulting packet is reversed in place. We prove total-variation cutoff at \\[\n\\frac{p^2}{2(1-p)\\pi^2}\\,n^2\\log n. \\] The lower bound uses an exact finite-deck cosine eigenfunction and a uniform conditional-variance estimate. For the upper bound, a coalescing coupling reduces a transposition discrepancy to a symmetric killed two-card chain. Its principal decay rate is $(1-p)\\pi^2/(p^2n^2)+o(n^{-2})$. A boundary-flux identity bounds the sum of adjacent discrepancy probabilities without a factor equal to the deck size. The remaining ingredient is a two-sided $L^1$ inequality on permutations, with constant at most $\\sqrt n\\exp\\{O(\\sqrt{\\log n\\log\\log(n+2)})\\}$. Its proof decomposes a fixed block-table fiber into assignment words and independent smaller permutations, and closes a recursion using a multivariate hypergeometric inequality and an explicit routing comparison.\nWe also prove relative-entropy cutoff with an $O_p(n^2)$ window about the intrinsic entropy transition time. Its leading coefficient lies between the total-variation coefficient and twice that value; a sharp entropy location is not obtained. The proof states the normalization and hypotheses of its established functional-inequality inputs. An appendix proves the intermediate static bounds and explains the change from one-scale averaging to recursive fibers.",
+   "abs": "https://arxiv.org/abs/2610.00137",
+   "pdf": "https://arxiv.org/pdf/2610.00137"
+  },
+  {
+   "id": "2610.02053",
+   "type": "new",
+   "title": "Linear circumference in vertex-transitive graphs",
+   "authors": [
+    "Jie Ma",
+    "Ziyuan Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that there is an absolute constant $c>0$ such that every connected vertex-transitive graph $G$ on $n \\ge 3$ vertices contains a cycle of length at least $cn$. Moreover, every such graph with sufficiently large degree $d$ contains a cycle of length at least $(1-d^{-1/100})n$. This gives the first linear bound towards Lovász's Hamiltonicity conjecture. The proof combines a structural result of DeVos and Mohar on vertex-transitive graphs with a general framework for finding long cycles, which may be of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.02053",
+   "pdf": "https://arxiv.org/pdf/2610.02053"
+  },
+  {
+   "id": "2610.00091",
+   "type": "new",
+   "title": "The Borowiecki-Broere Generalized Total Coloring Conjecture for Planar Graphs",
+   "authors": [
+    "James Alexander Schreib"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages. Lean 4 formalization relative to six named background assumptions available at this https URL",
+   "abstract": "We prove the conjecture of Borowiecki and Broere that every finite simple planar graph admits a generalized total coloring with four colors: a proper vertex coloring with four colors together with an edge coloring with four colors in which each edge color class is a forest and no edge receives the color of either endpoint. In fact every proper four-coloring of such a graph extends to an edge coloring of the required kind. The proof combines a component-count inequality for planar graphs whose vertices are partitioned into four independent sets, obtained by completing to a triangulation, with the matroid partition theorem applied to four graphic matroids. A Lean 4 formalization relative to six named background assumptions is described below.",
+   "abs": "https://arxiv.org/abs/2610.00091",
+   "pdf": "https://arxiv.org/pdf/2610.00091"
+  },
+  {
+   "id": "2610.01795",
+   "type": "cross",
+   "title": "Quadratic distances in even dimensions over prime fields",
+   "authors": [
+    "Thang Pham",
+    "Chun-Yen Shen",
+    "Dung The Tran",
+    "Boqing Xue"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "40 pages",
+   "abstract": "Let $p$ be an odd prime, let $m\\geq1$ be an integer, and let $Q$ be a nondegenerate quadratic form on $\\mathbb{F}_p^{2m}$ with Witt index $m-1$. For a nonempty set $E\\subseteq\\mathbb{F}_p^{2m}$, write $\\Delta_Q(E)=\\{Q(x-y):x,y\\in E\\}$. We prove that, whenever $|E|\\geq p^m$, $$ |\\Delta_Q(E)|\\gg \\frac{p}{\\log\\bigl(2+p^{m+1}/|E|\\bigr)}, $$ with an absolute implied constant independent of $p$, $m$ and $Q$. In the planar case $m=1$, we also prove that $$ |\\Delta_Q(E)|\\gg\\frac{|E|}{\\log(2|E|)}, \\qquad (1\\leq |E|\\leq p), $$ which is optimal up to a logarithmic factor.",
+   "abs": "https://arxiv.org/abs/2610.01795",
+   "pdf": "https://arxiv.org/pdf/2610.01795"
+  },
+  {
+   "id": "2610.01591",
+   "type": "cross",
+   "title": "Stable and Online Algorithms for Random Matrix Discrepancy",
+   "authors": [
+    "Eren C. Kızıldağ",
+    "Shuangping Li"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We study the average-case matrix discrepancy problem: given independent normalized $d\\times d$ Gaussian orthogonal ensemble matrices $A_1,\\dots,A_N$ and a fixed margin $\\kappa>0$, find signs $\\sigma_1,\\dots,\\sigma_N\\in\\{-1,1\\}$ such that the operator norm of $\\sum_{i=1}^N \\sigma_i A_i$ is at most $\\kappa\\sqrt{N}$. Focusing on the proportional regime $N/d^2\\to \\tau\\in(0,\\infty)$ as $d\\to\\infty$ followed by the small-margin limit $\\kappa\\downarrow 0$, we characterize the density required by stable offline algorithms and by online algorithms.\nIn the offline setting, we construct a polynomial-time \\emph{recenter-and-round} algorithm that is noise-stable and succeeds whenever $\\tau=\\Omega(\\frac{1}{\\kappa^2\\log(1/\\kappa)})$, along with a matching lower bound for all stable algorithms. In the online setting where each sign must be chosen irrevocably upon observing the corresponding matrix, we determine the exact limiting performance of the \\emph{Frobenius-greedy} algorithm, establishing that it succeeds when $\\tau>\\tau_{\\rm FG}(\\kappa)\\sim \\frac{\\pi}{4\\kappa^2}$, as well as a matching lower bound for all online algorithms by conditioning on a revealed prefix. At the core of our algorithms lies rotational symmetry, which enables us to transfer Frobenius norm control into operator norm guarantees.\nTogether, our results identify the algorithmic phase transition points for random matrix discrepancy: $\\Theta(\\frac{1}{\\kappa^2\\log(1/\\kappa)})$ for stable offline algorithms and $\\Theta(\\frac{1}{\\kappa^2})$ for online algorithms. Both thresholds lie far above the satisfiability scale $\\Theta(\\log(1/\\kappa))$, as shown by Maillard~\\cite{maillard2025}.",
+   "abs": "https://arxiv.org/abs/2610.01591",
+   "pdf": "https://arxiv.org/pdf/2610.01591"
+  },
+  {
+   "id": "2610.00966",
+   "type": "new",
+   "title": "Zeros and interlacing for multiset Eulerian-Narayana polynomials",
+   "authors": [
+    "Philip B. Zhang",
+    "Tongyuan Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove the real-rootedness conjecture of Lin, Ma, Ma, and Zhou (2021) for multiset Eulerian-Narayana polynomials, including simplicity and negativity of all zeros after removing the factor t. Using a forest decomposition and Lagrange inversion, we derive a differential formula and a first-order factorization of the differential operator. We use these factors to show that the nonconstant gamma-coefficients and ordered gamma-zeros are nondecreasing, with corresponding bounds given by the Narayana and Eulerian polynomials. The same factorization gives totally nonnegative coefficient transition matrices. We also prove strict interlacing of the zeros of generating polynomials arising from adjacent columns of the transition matrices.",
+   "abs": "https://arxiv.org/abs/2610.00966",
+   "pdf": "https://arxiv.org/pdf/2610.00966"
+  },
+  {
+   "id": "2610.01156",
+   "type": "new",
+   "title": "A Proof of the Third Borwein Conjecture",
+   "authors": [
+    "Yicen Ma"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the coefficients of $S_n(q)=\\prod_{j=1}^n\\prod_{s=1}^4(1-q^{5j-s})$. An effective four-peak analysis gives the sign pattern predicted by the third Borwein conjecture for every $n\\ge1750$ and every coefficient. The essential cancellation in residue classes $3$ and $4$ is retained as an exact factor $e^{-5z}$ in the combined amplitude, leading to the shifted saddle point equation $d-5n=n^2\\beta(t)$. A two-layer partition injection provides the linear boundary needed to join this analysis to small degrees. All continuous parameter estimates have explicit constants; their finite arithmetic comparisons are supplied as rational certificates. We also describe exact integer verification. Combining the analytic theorem with the author's reported completion of the finite verification for $1\\le n\\le1749$ gives the conjectured sign pattern for every positive integer $n$. The available supplementary coefficient record covers $1\\le n\\le500$; the reported full-range computation is identified separately.",
+   "abs": "https://arxiv.org/abs/2610.01156",
+   "pdf": "https://arxiv.org/pdf/2610.01156"
+  },
+  {
+   "id": "2610.01747",
+   "type": "new",
+   "title": "Intersecting integer partitions: star bounds and counterexamples at every scale",
+   "authors": [
+    "Yury Person",
+    "Thomas Schweser"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Two integer partitions $t$-intersect if they have at least $t$ common parts, counted with multiplicity. We study the largest $t$-intersecting families of integer partitions of $n$ into exactly $k$ positive parts. The canonical $t$-star consists of the partitions containing at least $t$ ones. Applying Kupavskii's weak-spread theorem, we prove that this star is largest whenever $n\\ge Ak^3$, for every fixed $A>24$ and all sufficiently large $k$, uniformly over $1\\le t<k$. We also give counterexamples to Borg's conjecture at every intersection scale: for all sufficiently large $k$ and for every $1\\le d<k$, one may choose $d/4\\le t\\le d$ and $n=\\lfloor tk^2/3\\rfloor$ so that a $t$-intersecting family is strictly larger than the canonical star.",
+   "abs": "https://arxiv.org/abs/2610.01747",
+   "pdf": "https://arxiv.org/pdf/2610.01747"
+  },
+  {
+   "id": "2610.00924",
+   "type": "new",
+   "title": "The threshold for fractional clique decompositions of random hypergraphs, via matrix scaling",
+   "authors": [
+    "Tuan Tran"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages",
+   "abstract": "Let $\\delta^*_{k,r}$ be the fractional $K_r^{(k)}$-decomposition threshold in minimum codegree. For fixed $k\\ge2$, $r\\ge k+1$ and $\\varepsilon>0$, we prove that every $n$-vertex $k$-uniform hypergraph $G$ with minimum codegree at least $(\\delta^*_{k,r}+\\varepsilon)n$ admits, with high probability, a fractional $K_r^{(k)}$-decomposition after retaining each edge independently with probability $p \\ge C(\\log n/n^{r-k})^{1/(\\binom{r}{k}-1)}$. The bound on $p$ is sharp up to a constant factor, confirming the conjectured threshold order in the graph case. The proof develops a probabilistic matrix-scaling approach.",
+   "abs": "https://arxiv.org/abs/2610.00924",
+   "pdf": "https://arxiv.org/pdf/2610.00924"
+  },
+  {
+   "id": "2610.01657",
+   "type": "new",
+   "title": "Lower bounds for the magnitude of the minimum eigenvalue of graphs with applications to MaxCut and Chowla's cosine problem",
+   "authors": [
+    "Fredy Yip"
+   ],
+   "categories": [
+    "math.CO",
+    "math.SP"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages",
+   "abstract": "Jin, Milojević, Tomon and Zhang established a powerful recursive estimate relating the positive eigenvalues of a graph whose least eigenvalue is small in absolute value. We establish a refinement of this result, yielding improved estimates across spectral graph theory and discrepancy theory, and for Chowla's cosine problem. Recent results of Janzer, Tomon and Yip allow us to directly transfer least eigenvalue estimates to the corresponding surplus estimates.\nUsing these tools, we fully resolve a conjecture of Räty, Sudakov and Tomon. We show that, for an $n$-vertex graph $G$ with least eigenvalue $\\lambda_n$ and surplus $\\operatorname{sp}(G)$, if $G$ is $\\epsilon$-far from all disjoint unions of cliques, then $|\\lambda_n|\\geq \\Omega_\\epsilon(n^{1/4})$ and $\\operatorname{sp}(G)\\geq \\Omega_\\epsilon(n^{5/4})$. Furthermore, we show that when $G$ is $n^{-o(1)}$-far from all disjoint unions of cliques, we have $|\\lambda_n|\\geq n^{1/4 - o(1)}$ and $\\operatorname{sp}(G)\\geq n^{5/4 - o(1)}$. Finally, we show that the surplus of a $K_t$-free graph with $m$ edges is at least $m^{0.614 - o(1)}$ as $m$ tends to infinity.",
+   "abs": "https://arxiv.org/abs/2610.01657",
+   "pdf": "https://arxiv.org/pdf/2610.01657"
+  },
+  {
+   "id": "2610.02165",
+   "type": "new",
+   "title": "On Colorful Kruskal--Katona Theorems",
+   "authors": [
+    "Ting-Wei Chao",
+    "Maya Sankar",
+    "Hung-Hsun Hans Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "42 pages, 4 figures",
+   "abstract": "What is the maximum number of rainbow triangles in an edge-colored graph with $m$ edges and $r$ colors? Using entropic techniques, we prove an upper bound of $C_rm^{3/2}$ rainbow triangles with $C_r=\\sqrt{\\frac{2(r-2)}{9r}}$; this constant is best possible whenever there exists an affine plane of order $r-1$. We also show that constructions attaining at least $(C_r-\\varepsilon_r)m^{3/2}$ rainbow triangles must exhibit an affine plane structure, which further improves the upper bound if no such affine plane exists.\nWe also consider the problem of counting properly edge-colored cliques of larger sizes. Surprisingly, if the number $r$ of colors is odd, this count is instead maximized by blowups of a properly edge-colored $K_{r+1}$.",
+   "abs": "https://arxiv.org/abs/2610.02165",
+   "pdf": "https://arxiv.org/pdf/2610.02165"
+  },
+  {
+   "id": "2610.00086",
+   "type": "new",
+   "title": "A Counterexample to Wormald's Conjecture",
+   "authors": [
+    "James Alexander Schreib"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "4 pages. Lean 4 formalization available at this https URL",
+   "abstract": "We give a counterexample to Wormald's conjecture. A 16-vertex cubic graph, the disjoint union of $K_{3,3}$ with a 10-vertex bridged graph built from two subdivided copies of $K_4$, has no partition of its edges into two isomorphic spanning linear forests. The obstruction is parity: any such partition would force every monochromatic component to have even order while requiring a five-vertex side of a bridge to be partitioned into such components. Adjoining copies of $K_4$ gives counterexamples in every order $16+4t$. The counterexample is disconnected and leaves the connected case unresolved. The full family is verified in Lean without custom axioms.",
+   "abs": "https://arxiv.org/abs/2610.00086",
+   "pdf": "https://arxiv.org/pdf/2610.00086"
+  },
+  {
+   "id": "2610.01071",
+   "type": "cross",
+   "title": "Coloring 3-colorable graphs with $O(n^{4/23})$ colors via a Gaussian-cover recursion",
+   "authors": [
+    "Emile Anand"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "29 pages, 1 figure",
+   "abstract": "We give a randomized polynomial-time algorithm that colors any promised $3$-colorable graph on $n$ vertices with $\\smash{O(n^{4/23}) = O(n^{0.17391\\ldots})}$ colors, improving on the recent bounds of $O(n^{0.19539})$ by Bansal, Huang, and Lee and Narang and Tang who obtained $O(n^{(13-\\sqrt{97})/18+\\epsilon})=O(n^{0.17506\\dots + \\epsilon})$ colors for every fixed $\\smash{\\epsilon>0}$.\nTo prove our result, we start from a fixed-level semidefinite relaxation, where we use a finite-depth recursion on Gaussian covers. Fixing a root vertex, we group vertices by correlation with the root vector. Here, each step extends a cover of directions by one edge and transfers it to a successor group. Our key analytic ingredient is a variance bound for Gaussian maxima: for a maximum of $m\\geq 2$ centered linear forms with coefficient norms at most $r$, mean $\\mu$, and variance $v$, we prove $v\\leq r^2-\\mu^2/(2\\log m)$ using Chen's Gaussian convexity theorem. Together with a variance-scale lower-tail estimate, this controls the threshold loss at each extension, which shows that root-conditioned vector colorings can either extract a large independent set from a group or bound its size, forcing a contradiction after constantly many steps. The resulting sparse-case guarantee combines with the dense progress bound of Kawarabayashi, Thorup, and Yoneda, and the recursion's numerical inequalities are verified via rational interval arithmetic.",
+   "abs": "https://arxiv.org/abs/2610.01071",
+   "pdf": "https://arxiv.org/pdf/2610.01071"
+  },
+  {
+   "id": "2610.01516",
+   "type": "new",
+   "title": "Tight degeneracy bounds in online Ramsey games",
+   "authors": [
+    "Wen Chen",
+    "Qizhong Lin",
+    "Shixi Song"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "In the $q$-color online Ramsey game, Builder and Painter play on an infinite independent set of vertices. At each step, Builder draws an edge and Painter immediately assigns it one of $q$ colors. Builder aims to force a monochromatic copy of a fixed graph $H$. We prove that, for every $q \\ge 2$ and $d \\ge 1$, Builder can force a monochromatic copy of any $d$-degenerate graph $H$ while drawing a graph of degeneracy at most $d$. The bound $d$ is tight, and this resolves in the affirmative a problem of Conlon, Fox and Sudakov.",
+   "abs": "https://arxiv.org/abs/2610.01516",
+   "pdf": "https://arxiv.org/pdf/2610.01516"
+  },
+  {
+   "id": "2610.00549",
+   "type": "cross",
+   "title": "Negative Correlations for Forests and the $q<1$ Random Cluster Model",
+   "authors": [
+    "Recep Altar Çiçeksiz",
+    "Mohan Ravichandran"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "45 pages, comments are welcome",
+   "abstract": "We study negative edge correlation for two well-known models in statistical physics, the arboreal gas and the $q < 1$ random-cluster model. We show that after the edges $e$ and $f$ are removed, their Rayleigh difference is a crossing contribution minus the covariance of two endpoint-connectivity events. For the arboreal gas on an arbitrary finite graph, we analyze the two leading coefficients of this difference. The first is the classical transfer-current square. If it vanishes, the second has an electrical sum-of-squares formula. This proves negative edge correlation at sufficiently large fugacity whenever one of the two leading coefficients of the Rayleigh difference is nonzero, and characterizes simultaneous equality by an equipotential decomposition. For the random-cluster model on the complete graph $K_n$, we prove negative edge correlation throughout $q<1$ when all edge weights are at least $2$. In the uniform case, we prove something stronger:negative correlation holds when all the weights are equal and at least $1$. In particular, distinct edges in a connected spanning subgraph of $K_n$, weighted by a fixed fugacity, are negatively correlated for every $n$. We also explore what seems to be a general phenomenon: positive correlation of connectivity events. For the arboreal gas, we prove positive correlation for connectivity events at high fugacities. On lattices, the conjectured inequality would make the two-point function supermultiplicative and produce a convex inverse correlation length. Exact computations support the graph and matroid conjectures, including the Seymour--Welsh matroid $\\mathcal S_8$, where ordinary edge-negative correlation fails. The results in this paper were derived by the authors without the use of Large Language models. The authors did benefit from using GPT-5 Pro for generating code to test out hypotheses as well as for simplifying the arguments.",
+   "abs": "https://arxiv.org/abs/2610.00549",
+   "pdf": "https://arxiv.org/pdf/2610.00549"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 49,
+ "listed_cross": 25
+}
