@@ -1,0 +1,537 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-05T03:02:46Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-05",
+ "screened": 59,
+ "screened_new": 51,
+ "screened_cross": 8,
+ "scored": 59,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.02218",
+   "type": "new",
+   "title": "Fuglede's Conjecture for Cyclic Groups of Square-free Order",
+   "authors": [
+    "Hu Tan",
+    "Ying Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We prove Fuglede's conjecture for finite cyclic groups of square-free order. Specifically, if \\(N\\) is square-free and \\(A\\subseteq \\mathbb Z_N\\) is nonempty with \\(|A|=m\\), then \\(A\\) is spectral if and only if it tiles \\(\\mathbb Z_N\\); moreover, these conditions hold precisely when \\(m\\mid N\\) and \\(A\\) is a complete set of representatives modulo \\(m\\). This gives a complete structural description of spectral and tiling sets in \\(\\mathbb Z_N\\). The key new ingredient is a prime-coordinate elimination theorem: if \\(P\\nmid nm\\) is an odd prime, then every \\(m\\)-point spectral pair in \\(\\mathbb Z_n\\times\\mathbb Z_P\\) projects injectively to a spectral pair in \\(\\mathbb Z_n\\). Its proof combines character-matrix orthogonality, cyclotomic coefficient comparison, and a \\(P\\)-adic divisibility argument for associated Gram matrices. Iterating this reduction yields the result for arbitrary square-free \\(N\\), with no restriction on the number or relative sizes of its prime factors.",
+   "abs": "https://arxiv.org/abs/2610.02218",
+   "pdf": "https://arxiv.org/pdf/2610.02218"
+  },
+  {
+   "id": "2610.02272",
+   "type": "new",
+   "title": "Degree sequences of spectrally extremal connected nonregular graphs with prescribed maximum degree: the dense case",
+   "authors": [
+    "Zejun Huang",
+    "Chenxi Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be an $n$-vertex connected nonregular graph with maximum degree $\\Delta$ that attains the maximum spectral radius. For $3\\le\\Delta\\le n-2$, Liu and Li (2008) conjectured that $G$ has the degree sequence $(\\Delta,\\ldots,\\Delta,\\delta)$ with $\\delta<\\Delta$ as large as possible. In this paper, we study the dense case where $\\Delta=n-k$ with $k\\ge4$ fixed and $n$ sufficiently large. We prove that \\[ d(G)= \\begin{cases} (\\Delta,\\ldots,\\Delta, 1), & \\text{if $n$ is even and $k$ is odd};\\\\ (\\Delta,\\ldots,\\Delta,\\Delta-1), & \\text{if $n$ is odd and $k$ is even};\\\\ (\\Delta,\\ldots,\\Delta,2), & \\text{if $n$ and $k$ have the same parity}. \\end{cases} \\]",
+   "abs": "https://arxiv.org/abs/2610.02272",
+   "pdf": "https://arxiv.org/pdf/2610.02272"
+  },
+  {
+   "id": "2610.03464",
+   "type": "new",
+   "title": "Schur positivity of three-legged spiders",
+   "authors": [
+    "David G.L. Wang",
+    "Watson Z.Y. Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages, 6 tables, no computations to be verified by computers or AI",
+   "abstract": "We give a complete classification of Schur positivity for three-legged spiders. Every spider with at least two even legs is Schur positive, whereas every spider with three odd legs has a negative Schur coefficient. If $a$ is even and $b,c$ are odd, then the spider $S(a,b,c)$ is Schur positive if and only if $a\\le 5b+5c+2$. Whenever Schur positivity fails, there is exactly one negative Schur coefficient, whose value we determine explicitly. These results extend those of Thibon and Wang for the families $S(a,2,1)$ and $S(a,4,1)$, and those of Wang and Wang for $S(a,b,2)$. The proof combines known Schur-positivity results for clique-spiders with Pieri's rule and simultaneous induction.",
+   "abs": "https://arxiv.org/abs/2610.03464",
+   "pdf": "https://arxiv.org/pdf/2610.03464"
+  },
+  {
+   "id": "2610.03517",
+   "type": "new",
+   "title": "Geometric triangle-free graphs of large chromatic number",
+   "authors": [
+    "István Tomon"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "Constructions with the clanker. 33 pages",
+   "abstract": "We present several geometric constructions of triangle-free and large girth families of graphs with rapidly growing chromatic numbers.\n1. We construct a triangle-free intersection graph of $n$ boxes in $\\mathbb{R}^3$ with independence number $n(\\log n)^{-1+o(1)}$, and thus chromatic number $(\\log n)^{1-o(1)}$. This is the first improvement over the double logarithmic lower bound of Burling from 1965, and almost matches the best known upper bound $O(\\log n)$. Moreover, the bound $o(n)$ on the independence number answers a question of Walczak.\n2. We prove that if there exists a unit distance graph in $\\mathbb{R}^d$ of chromatic number $r$, then there also exists an induced unit distance graph in $\\mathbb{R}^d$ of girth at least $g$ and the same chromatic number. Thus, the problem of determining the maximum chromatic number of unit distance graphs with any prescribed lower bound on the girth reduces entirely to the unrestricted problem, thereby strengthening a long line of results.\n3. We construct an intersection graph of $n$ lines in $\\mathbb{R}^3$ with girth at least $g$ and chromatic number $\\Omega_g((\\log n)^{1-o(1)})$. This quantitatively improves a construction of Davies.\n4. We construct a set of $n$ circles in the plane such that the tangency graph of the circles has girth at least $g$ and chromatic number $\\Omega_g((\\log n)^{1-o(1)})$. This quantitatively improves the result of Davies, Keller, Kleist, Smorodinsky, and Walczak, and provides an alternative solution of Ringel's circle problem.\n5. We construct triangle-free ordered graphs on $n$ vertices avoiding a fixed ordered path of length three as an induced subgraph, and having chromatic number $n^{\\Omega(1/\\log \\log n)}$. This is motivated by ordered analogues of the Gyárfás-Sumner conjecture.",
+   "abs": "https://arxiv.org/abs/2610.03517",
+   "pdf": "https://arxiv.org/pdf/2610.03517"
+  },
+  {
+   "id": "2610.02289",
+   "type": "new",
+   "title": "A linear gap for the maximal cp-rank",
+   "authors": [
+    "Yair Lavi"
+   ],
+   "categories": [
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the maximal cp-rank $p_n$ satisfies $p_n\\ge n(n-3)/2$ for odd $n\\ge5$ and $p_n\\ge n(n-3)/2-1$ for even $n\\ge6$. Together with the known upper bound $p_n\\le\\binom{n+1}{2}-4$, this gives $p_n=n^2/2+O(n)$.",
+   "abs": "https://arxiv.org/abs/2610.02289",
+   "pdf": "https://arxiv.org/pdf/2610.02289"
+  },
+  {
+   "id": "2610.03086",
+   "type": "new",
+   "title": "Small Influential Coalitions in $[0,1]^n$ via the Junta Theorem",
+   "authors": [
+    "Ehud Friedgut"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Every monotone Boolean function on the continuous cube admits a coalition of $O(n/(\\varepsilon\\log n))$ coordinates that can force a fixed output (either zero or one) with probability at least $1-\\varepsilon$. This old conjecture of mine was recently proven by Chattopadhyay and Gurumukhani~\\cite{CG}. This writeup contains a simplification of their proof, generated by AI after suggesting the use of the junta theorem of~\\cite{F98} and the discretization procedure of ~\\cite{F04}.",
+   "abs": "https://arxiv.org/abs/2610.03086",
+   "pdf": "https://arxiv.org/pdf/2610.03086"
+  },
+  {
+   "id": "2610.03111",
+   "type": "new",
+   "title": "Binomial expansions of Jacobi-Stirling numbers and real-rootedness of Jacobi-Stirling descent polynomials",
+   "authors": [
+    "Shi-Mei Ma",
+    "Ming-Xin Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "In this paper, we first expand fixed diagonals of the Jacobi-Stirling numbers in a binomial basis. For the second kind, the expansion coefficients are polynomials in $z+1$ with nonnegative integer coefficients. We give a recurrence and a signed-partition interpretation for these coefficients. The same holds for the differences between corresponding unsigned first-kind and second-kind coefficients. We then prove that every nonzero nonnegative linear combination of the descent polynomials over Jacobi-Stirling permutations with a fixed number of deleted barred letters has only simple negative zeros when that number is one, two, or three. The same holds when exactly one or two barred letters are retained. Thus we verify five infinite families in a conjecture of Gessel, Lin and Zeng. Finally, using insertion operators, we find that every descent polynomial over Jacobi-Stirling permutations with a fixed number of deleted barred letters is top heavy and has an increasing left half.",
+   "abs": "https://arxiv.org/abs/2610.03111",
+   "pdf": "https://arxiv.org/pdf/2610.03111"
+  },
+  {
+   "id": "2610.02271",
+   "type": "new",
+   "title": "Prime Labelings of Trees",
+   "authors": [
+    "Dang Dung Ho"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "323 pages, 12 figures. Computer-assisted proof. Computational supplement: this https URL",
+   "abstract": "A prime labeling of a graph labels its vertices bijectively with the integers from one to the number of vertices, so that adjacent vertices receive coprime labels. I prove the Entringer-Tout conjecture that every tree admits a prime labeling, extending the result of Haxell, Pikhurko, and Taraz from sufficiently large trees to all orders. My proof combines structural decompositions of trees, arithmetic organization of the labels, and matching arguments. I reduce the labeling problem to a structured bipartite matching problem by separating a small part of the tree, distributing labels according to their divisibility properties, and applying Hall's theorem to complete the labeling. I handle the finite and intermediate ranges using exact computer-assisted certificates whose validity is justified mathematically, while the remaining range is covered by analytic estimates. Together, these ingredients yield a proof for trees of every order.",
+   "abs": "https://arxiv.org/abs/2610.02271",
+   "pdf": "https://arxiv.org/pdf/2610.02271"
+  },
+  {
+   "id": "2610.02295",
+   "type": "new",
+   "title": "Beyond Liu's 0.382709 threshold for the union-closed sets conjecture",
+   "authors": [
+    "Simone Costa",
+    "Ankan Sadhu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "The first version of this paper was made publicly available on Zenodo on September 7, 2026. The computational supplement and ancillary material are available at this https URL",
+   "abstract": "The union-closed sets conjecture asks whether every finite union-closed family containing a nonempty set has an element contained in at least half of its members. Let $c_{\\mathrm{UC}}$ denote the largest universal lower bound on this proportion. The best previously proved lower bound is due to Liu and is above $0.3823455$; his own numerical optimization suggested a stronger threshold $c_{\\mathrm L}>0.382709087918735$. The main argument of this paper is to use different protocols (suitable families of probability measures) within Liu's framework. In particular, we combine the independent protocol with Liu's Example 5 to prove the conjectured bound $c_{\\mathrm{UC}}\\ge c_{\\mathrm L}$. We then vary the parameter in Example 5 and optimize the choice of the two coefficients in the combination to obtain $c_{\\mathrm{UC}}\\ge 0.3828852549667978$. We also show that the inequality used in this proof cannot give a threshold larger than $0.3828852599667\\ldots$.",
+   "abs": "https://arxiv.org/abs/2610.02295",
+   "pdf": "https://arxiv.org/pdf/2610.02295"
+  },
+  {
+   "id": "2610.03350",
+   "type": "new",
+   "title": "Endomorphisms of Total Kneser Graphs",
+   "authors": [
+    "Esmaeil Alhaj Mostafa Abdan",
+    "Jacob Russell",
+    "Sophia Ulvestad"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "Inspired by work of Gaster, Greene, and Vlamis on the chromatic number of curve graphs, we prove that every endomorphism of the total Kneser graph is an automorphism. We also show that the automorphism group of the total Kneser graph is the product of a pair of permutation groups.",
+   "abs": "https://arxiv.org/abs/2610.03350",
+   "pdf": "https://arxiv.org/pdf/2610.03350"
+  },
+  {
+   "id": "2610.02548",
+   "type": "new",
+   "title": "Homomesy of Tropical $T$-systems: Finite Type",
+   "authors": [
+    "Ariana Chin",
+    "Pavlo Pylyavskyy"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages, 14 figures",
+   "abstract": "In 2007, Fomin and Zelevinsky introduced the bipartite belt, a sequence of bipartite cluster mutations whose exchange relations form a discrete dynamical system. For each Dynkin diagram, this system is periodic, as a special case of Zamolodchikov periodicity. In the associated tropical dynamics, every mutation along the belt can be naturally colored red or blue, according to which term attains the maximum in the tropical exchange relation. This gives a red-blue statistic on tropical orbits. We prove that this statistic is homomesic, i.e. that the average numbers of red and blue mutations are independent of the orbit. Moreover, the number of red mutations is given by the number of roots in the associated root system. This resolves a conjecture of the first author. In the process we introduce the Zamolodchikov fan, which is closely related to the positive tropical Grassmannian, and may be of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.02548",
+   "pdf": "https://arxiv.org/pdf/2610.02548"
+  },
+  {
+   "id": "2610.03122",
+   "type": "new",
+   "title": "Series-parallel extensions and Ehrhart positivity",
+   "authors": [
+    "Yao Li",
+    "Sihong Shao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove Ehrhart positivity for series-parallel matroids and extend this result to all series-parallel extensions of multi-path matroids. A formula for the Ehrhart coefficients of series-parallel matroids is derived and used to prove strict positivity. An extension criterion based on weighted lattice-point counts is established. Recursive formulas for lattice-point counts are derived, and the recursion is shown to preserve a class of polynomials with nonnegative coefficients. We finally construct a connected transversal matroid with a negative Ehrhart coefficient, disproving the conjecture of Ferroni, Morales, and Panova that every connected matroid whose base polytope admits a subdivision into series-parallel matroid base polytopes is Ehrhart positive.",
+   "abs": "https://arxiv.org/abs/2610.03122",
+   "pdf": "https://arxiv.org/pdf/2610.03122"
+  },
+  {
+   "id": "2610.02535",
+   "type": "new",
+   "title": "Shuffle automata and the growth of 1324-avoiding permutations",
+   "authors": [
+    "Robert Brignall"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages",
+   "abstract": "We show that $\\text{gr}(\\text{Av}(1324))\\leq 13.167248$. This is achieved by combining the approach of Bevan, Brignall, Elvey Price and Pantone using the `domino', with ideas from earlier upper bounds by Bóna using pairs of decorated words with additional restrictions. More specifically, we replace the arbitrary interleavings of Bevan et. al. with interleavings more like those of Bóna. Our method uses shuffle automata to handle the interleavings, and this method has the potential to provide better upper bounds than the one established here. To estimate how many shuffles are possible, we use two key statistics on dominoes: the number of internal points (that is, points that are neither left-to-right minima not right-to-left maxima), and the number of runs of internal points.",
+   "abs": "https://arxiv.org/abs/2610.02535",
+   "pdf": "https://arxiv.org/pdf/2610.02535"
+  },
+  {
+   "id": "2610.02913",
+   "type": "new",
+   "title": "A finite threshold for the double-comet conjecture",
+   "authors": [
+    "Dongxiu Cai",
+    "Zhenbo Chen",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "For a tree $T$, let $g(T)=\\lambda_1(T)-\\lambda_2(T)$ be the difference between its two largest adjacency eigenvalues. A balanced double comet is obtained by attaching equally many leaves to the two endpoints of a path. Jovović, Koledin and Stanić conjectured that such a tree attains the minimum adjacency spectral gap among trees of any fixed order. We prove that every minimizing tree of order $n\\ge200$ is a balanced double comet. We also show that, for any finite irreducible reversible continuous-time Markov chain, the inverse spectral gap differs from the effective resistance between two states times the stationary variance of their hitting probability by at most the inverse Dirichlet gap for killing at those states. For Perron chains, we give an exact two-vertex Schur-complement formula for this resistance--variance quantity.",
+   "abs": "https://arxiv.org/abs/2610.02913",
+   "pdf": "https://arxiv.org/pdf/2610.02913"
+  },
+  {
+   "id": "2610.03612",
+   "type": "new",
+   "title": "Signed seeds and G-gradings on cluster algebras",
+   "authors": [
+    "Lauren Williams",
+    "Alan Yan"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "47 pages, 14 figures",
+   "abstract": "The theory of cluster algebras is closely connected to the theory of total positivity; indeed, the desire to better understand total positivity was one of the main motivations for Fomin and Zelevinsky's introduction of cluster algebras [arXiv:math/0104151]. In particular, any cluster variety whose coordinate ring has a cluster structure has a natural notion of positive part: the subset of the variety where all cluster variables are positive. In this paper, we explain that there are other signed cells contained in cluster varieties that are equally natural from a cluster-theoretic point of view. These come from signed seeds, which can be thought of as a $\\mathbb{Z}/2\\mathbb{Z}$-grading on cluster variables, and which were introduced in [arXiv:2310.17727] in the context of the amplituhedron. More generally, given any abelian group $G$, we introduce the notion of a $G$-graded seed for a cluster algebra, which is a way of assigning elements of $G$ to each cluster variable which is compatible with the cluster structure. When $G$ is the multiplicative group $\\{-1, 1\\}$, this recovers the above notion of signed seed; when $G = \\mathbb{C}^*$, this recovers the notion of cluster automorphism group [GSV10] or cluster dilation group [arXiv:2603.17890]; and when $G = \\mathbb{Z}^d$, this recovers the notion of graded cluster algebra studied by Grabowski-Launois [arXiv:1301.2133], Grabowski [arXiv:1309.6170] and Gekhtman-Shapiro-Vainshtein [GSV10, Section 5.2] (which had previously appeared in special cases in work of Fomin-Zelevinsky [arXiv:math/0602259]). The examples we study include the space of square matrices, symmetric matrices, skew-symmetric matrices, positroid varieties, and amplituhedron tiles. We also connect this notion to tropical mutation when $G = \\mathbb{R}$ or $\\mathbb{Z}$.",
+   "abs": "https://arxiv.org/abs/2610.03612",
+   "pdf": "https://arxiv.org/pdf/2610.03612"
+  },
+  {
+   "id": "2610.02681",
+   "type": "new",
+   "title": "Positive discrepancy of graphs far from Turán graphs",
+   "authors": [
+    "Leyou Xu",
+    "Bo Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that, for every $\\eps>0$, any $n$-vertex graph that needs at least $\\eps n^2$ edge changes to become a Turán graph has positive discrepancy at least $c_\\eps n^{5/4}$. Consequently, every such regular graph has second eigenvalue at least $c'_\\eps n^{1/4}$. These results prove two conjectures of Räty, Sudakov and Tomon.",
+   "abs": "https://arxiv.org/abs/2610.02681",
+   "pdf": "https://arxiv.org/pdf/2610.02681"
+  },
+  {
+   "id": "2610.02407",
+   "type": "cross",
+   "title": "Non-Malleable Affine Extractors with Small Error and Complexity Lower Bounds",
+   "authors": [
+    "Xin Li",
+    "Yan Zhong"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "Abstract shortened due to constraints. 140 pages",
+   "abstract": "We construct explicit non-malleable affine extractors for every constant entropy rate, with linear output length and exponentially small error, against any fixed number of affine tamperings without fixed points. For every fixed $0<\\eta<1$ and $t$, we also obtain entropy threshold $C_{\\eta,t}n/\\log n$, output length $\\lfloor n^{1-\\eta}\\rfloor$, and error $2^{-n^{1-\\eta}}$ against $t$ tamperings.\nOur extractors, as well as the directional affine extractors of Li and Zhong (CCC 2024), yield explicit Boolean functions with correlation $2^{-\\Omega(n)}$ against weakly read-once linear branching programs of size $2^{\\Omega(n)}$. For non-oblivious decision trees, we prove linear depth lower bounds for queries of each fixed degree $r\\ge2$. Applying Li's sumset extractor (FOCS 2023) gives depth $\\Omega_\\delta((n/\\ell)\\log\\ell)$ for growing locality $\\ell\\le n^{1-\\delta}$, where $0<\\delta<1$ is fixed. In the same range, directional affine extractors give correlation $2^{-\\Omega(n/\\sqrt\\ell)}$ against local trees of depth $c(n/\\ell)\\log\\ell/\\log\\log\\ell$, for a sufficiently small constant $c>0$.\nOur extractors derandomize the lossless lifting of Efremenko and Itsykson (STOC 2026). For every fixed $0<\\xi<1$, this gives explicit polynomial-size unsatisfiable CNFs on $N$ variables whose $\\mathrm{Res}(\\oplus)$ refutations of resolution depth at most $N$ require size at least $2^{(1-\\xi)N}$. Separately, parity substitutions give polynomial-size CNFs on $N$ variables with polynomial-size ordinary-resolution proofs for which every $\\mathrm{Res}(\\oplus)$ refutation of size $S$ and depth $d$ satisfies $d\\log(2S)=\\Omega(N^2)$. This removes the $\\log^2 N$ loss in the tradeoff of Itsykson, Podolskii, and Shekhovtsov (CCC 2026).",
+   "abs": "https://arxiv.org/abs/2610.02407",
+   "pdf": "https://arxiv.org/pdf/2610.02407"
+  },
+  {
+   "id": "2610.03337",
+   "type": "new",
+   "title": "Strict spectral supersaturation for cliques: extremal graphs and sharp thresholds",
+   "authors": [
+    "Qi Wu",
+    "Yong Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For every fixed $r\\ge3$ and all sufficiently large $n$, we determine the largest adjacency spectral radius of an $n$-vertex graph with fewer than $q c_r(n)$ copies of $K_{r+1}$, where $1\\le q<n/r$. Here $c_r(n)$ is the number of copies created by adding one edge to a largest part of the Turán graph. We also determine all extremal graphs. In most cases the extremal graph is obtained from an almost balanced complete multipartite graph by adding a star in one part. Two small values of $q$ require separate constructions, and an additional transition occurs when $r=3$ and $n\\equiv2\\pmod3$. Under the non-strict constraint, the unique extremal graph is obtained by adding a $q$-edge star to a largest part of the Turán graph. We determine the difference between the strict and non-strict values and prove that the sharp matching threshold is $\\sqrt2(r-1)/r$. The proof treats separately the ranges $q=o(n)$, $q/m\\to\\gamma\\in(0,1)$, and $q/m\\to1$.",
+   "abs": "https://arxiv.org/abs/2610.03337",
+   "pdf": "https://arxiv.org/pdf/2610.03337"
+  },
+  {
+   "id": "2610.03159",
+   "type": "new",
+   "title": "The Genus of Bipartite Kneser Graphs",
+   "authors": [
+    "Austin Ulrigg",
+    "Alexander Metzger"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We determine the orientable genus of an infinite family of bipartite Kneser graphs. The graph $H(h,2)$ has two copies of the two-element subsets of $[h]$, with opposite-class vertices adjacent when the corresponding subsets are disjoint. For every prime $h>3$ with $h\\equiv3\\pmod8$, we prove $$ \\gamma(H(h,2))=1-\\frac{h(h-1)}{2} +\\frac{h(h-1)(h-2)(h-3)}{16}. $$ Euler's formula gives this lower bound, with equality for a quadrangulation. We construct a vertex-transitive orientable quadrangulation using an odd-order affine group that acts simply transitively on the two-element subsets. This gives an infinite family satisfying Pisanski's conjecture on quadrilateral embeddings of regular bipartite graphs.",
+   "abs": "https://arxiv.org/abs/2610.03159",
+   "pdf": "https://arxiv.org/pdf/2610.03159"
+  },
+  {
+   "id": "2610.03704",
+   "type": "new",
+   "title": "Non-isomorphic graphs have distinct vertex-Ramsey classes",
+   "authors": [
+    "Maria Axenovich",
+    "Patrick Schmitteckert"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "4 pages, 1 figure",
+   "abstract": "For a graph $H$, its $k$-colour vertex Ramsey class is the set of all graphs $G$ such that any colouring of the vertices of $G$ in $k$ colours results in a monochromatic (induced) copy of $H$. We prove that for any $k$, Ramsey classes of any non-isomorphic graphs are distinct.",
+   "abs": "https://arxiv.org/abs/2610.03704",
+   "pdf": "https://arxiv.org/pdf/2610.03704"
+  },
+  {
+   "id": "2610.03550",
+   "type": "new",
+   "title": "Counterexamples to the Strong Roberson Conjecture",
+   "authors": [
+    "Arnar Á. Kristjánsson"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "We refute the Strong Roberson Conjecture, which asserts that adding any graph outside a class closed under minors and disjoint unions strictly increases the distinguishing power of homomorphism counts from that class. More precisely, we construct connected graphs $H$ for which counts from graphs excluding $H$ as a minor determine the number of homomorphisms from $H$ to any target graph. We also refute the analogous conjecture with immersions in place of minors. We give explicit infinite families of excluded graphs, including cubic bipartite graphs that yield counterexamples for both relations. The proof introduces a method for deriving exact homomorphism count dependence from modular equivalences. We obtain these equivalences for infinitely many primes using prime-order automorphisms of graphs that exclude their orbit quotients as minors or immersions.",
+   "abs": "https://arxiv.org/abs/2610.03550",
+   "pdf": "https://arxiv.org/pdf/2610.03550"
+  },
+  {
+   "id": "2610.03358",
+   "type": "new",
+   "title": "Sharp bounds for off-diagonal and tripartite canonical Ramsey numbers",
+   "authors": [
+    "Strahinja Gvozdić",
+    "Zach Hunter",
+    "Aleksa Milojević",
+    "Benny Sudakov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages, including references",
+   "abstract": "The canonical Ramsey theorem establishes that for every positive integer $t$, there is a sufficiently large $n$ such that every edge-colouring of a complete graph $K_n$ contains a copy of $K_t$ that is canonically coloured, i.e. monochromatic, rainbow, or lexicographic. In this paper we investigate two variations of this theorem.\nFirst, we study canonical Ramsey numbers in the multipartite hypergraph setting. We prove that in every edge-colouring of the 3-uniform complete hypergraph on at least $t^{151t^2}$ vertices, there always exists a canonically coloured copy of $K_{t, t, t}^{(3)}$. This estimate is sharp up to the constant in the exponent.\nSecond, we explore off-diagonal canonical Ramsey numbers. Let $ER(a, b, c)$ denote the minimum number of vertices $n$ required to guarantee a monochromatic $K_a$, a lexicographic $K_b$, or a rainbow $K_c$ in every edge-colouring of the complete graph $K_n$. We establish sharp bounds for these numbers across different parameter regimes. Specifically, we prove that $ER(a, b, c)\\geq c^{\\Omega(ab)}$ when $c$ is sufficiently large relative to $a$, and that $ER(a, b, c)\\leq 2^{O_b(a)}$ when $b\\ge 4$ is a fixed constant and $c\\le a$. Finally, we analyse the behaviour of the function when avoiding lexicographic triangles (i.e. $b=3$), showing that $ER(a, 3, c)\\le (a-1)(c-2)+O(c^6)$.",
+   "abs": "https://arxiv.org/abs/2610.03358",
+   "pdf": "https://arxiv.org/pdf/2610.03358"
+  },
+  {
+   "id": "2610.03323",
+   "type": "new",
+   "title": "The quadratic Brown--Erdős--Sós problem for 3-uniform hypergraphs with 8 and 9 edges",
+   "authors": [
+    "Levente Bodnár",
+    "Oleg Pikhurko",
+    "Shumin Sun",
+    "Yan Wang",
+    "Jiasheng Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The famous and actively studied problem of Brown--Erdős--Sós from 1973 asks for $f^{(r)}(n;s,k)$, the maximum number of edges in an $r$-graph with $n$ vertices in which no $s$ vertices span $k$ or more edges.\nIn this paper, we concentrate on the case $r=3$ and $s=k+2$, with $k\\ge2$ fixed and $n\\to\\infty$; then it is easy to show that the extremal function grows quadratically in $n$. Delcourt and Postle proved that the limit $\\pi(k):=\\lim_{n\\to\\infty} f^{(3)}(n;k+2,k)/n^2$ exists for every $k$. While Brown, Erdős and Sós observed that $\\pi(2)=1/6$ already in the 1970s, the value of $\\pi(k)$ for $3\\le k\\le 7$ was determined only recently (by various subgroups of Glock, Joos, Kim, Kühn, Lichev, Pikhurko, and Sun). Very recently, Chao, Huang and Liu determined $\\pi(k)$ for every odd $k$.\nIndependently of the last result, we show that $\\pi(9)=1/5$. Also, we prove that $\\pi(8)\\le {5053}/{26544}$, which is within $0.0029$ of the best known lower bound $\\pi(8)\\ge 3/16$. The new upper bounds are obtained by expressing some previous arguments as a linear program and then using a computer to generate and solve its instances. Our proof of the lower bound on $\\pi(9)$ is based on a finite field construction combined with existing packing results.",
+   "abs": "https://arxiv.org/abs/2610.03323",
+   "pdf": "https://arxiv.org/pdf/2610.03323"
+  },
+  {
+   "id": "2610.03038",
+   "type": "new",
+   "title": "The first descent in a standard Young tableau of shape $(n,n,n)$",
+   "authors": [
+    "Tong Niu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages",
+   "abstract": "Let $a(n)$ be the number of standard Young tableaux of shape $(n,n,n)$ whose entry in row $2$, column $1$ is odd; equivalently, the number of those whose first descent is even. This is entry A011553 of the On-Line Encyclopedia of Integer Sequences, contributed in 1996, and after thirty years of curation it carries no formula. We supply one, $a(n) = 8\\,\\bigl(n!\\,(n+2)!\\bigr)^{-1}\\sum_{m=1}^{\\lfloor n/2\\rfloor} m(m+1)(3n-2m-1)!/(n-2m)!$, and use it to settle both of the conjectures the entry records. A creative telescoping certificate shows that $a$ satisfies a linear recurrence of order two with polynomial coefficients; the order-three recurrence conjectured by R. J. Mathar in 2023 is a left multiple of it, with explicit cofactor $(4S^{-1}-3)/(7n-9)$. We also prove $a(n)\\sim 3^{3n+7/2}/(64\\pi n^{4})$, the asymptotic conjectured by V. Kotesovec in 2014. The second proof gives slightly more than the conjecture asks: the position of the first descent has a limiting distribution, the probability that the $(2,1)$ entry equals $r+1$ tending to $r(r+2)/3^{\\,r+1}$. Summing the even terms, a uniformly random tableau of shape $(n,n,n)$ has an odd $(2,1)$ entry with probability tending to $27/64$, whereas for a uniformly random tableau of $n$ cells of unrestricted shape the corresponding limit is $1/e$.",
+   "abs": "https://arxiv.org/abs/2610.03038",
+   "pdf": "https://arxiv.org/pdf/2610.03038"
+  },
+  {
+   "id": "2610.02833",
+   "type": "new",
+   "title": "Resolving Erdős-Ulam Monochromatic Union-Closed Family Conjectures",
+   "authors": [
+    "Deep Bhattacharjee",
+    "Priyabrata Mandal",
+    "Ushashi Bhattacharya"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove both Erdős-Ulam conjectures on monochromatic union-closed families. Every two-colouring of the subsets of a finite set contains a monochromatic union-closed family whose size grows faster than any fixed power of the size of the set, while suitable colourings admit no monochromatic union-closed family of exponential size. Both results hold for any number of colours and are verified in Lean.",
+   "abs": "https://arxiv.org/abs/2610.02833",
+   "pdf": "https://arxiv.org/pdf/2610.02833"
+  },
+  {
+   "id": "2610.02390",
+   "type": "new",
+   "title": "Note on near-spanning balanced antidirected trees missing from regular tournaments",
+   "authors": [
+    "Gregory Gutin",
+    "Yiming Hao"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "We construct near-spanning balanced antidirected trees that fail to embed in highly symmetric tournaments despite the conjectured semidegree condition being satisfied. More precisely, for every sufficiently large odd integer $n$, we exhibit a regular vertex-transitive tournament on $n$ vertices and a balanced antidirected caterpillar on $n-1$ vertices with maximum degree at most $(1+o(1))n/\\log_2 n$ that is not contained in the tournament. The host satisfies the strict $k/2$ threshold in both the semidegree and pseudo-semidegree settings, where $k$ is the number of arcs of the target tree. Consequently, this gives counterexamples to the uniform sublinear-degree interpretations of Conjectures~6.8 and~7.6 in Stein's survey (2024). The order $n-1$ of the target is best possible under the strict semidegree hypothesis. We also give a six-vertex balanced antidirected double-star missing from the seven-vertex Paley tournament, and show that seven is the smallest host order for a pseudo-semidegree counterexample with this fixed double-star.",
+   "abs": "https://arxiv.org/abs/2610.02390",
+   "pdf": "https://arxiv.org/pdf/2610.02390"
+  },
+  {
+   "id": "2610.03347",
+   "type": "new",
+   "title": "Coordinate-extension degrees and layered $k$-uniform hypergraphs",
+   "authors": [
+    "Jiabao Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\Palt=(\\C,\\T)$ be a $k$-palette. For $0\\le t\\le k-1$, its $t$th coordinate-extension degree is the minimum, over every choice of $t$ coordinates and every assignment of colors to them, of the proportion of assignments to the remaining $k-t$ coordinates that complete the fixed colors to an admissible $k$-tuple. For a $k$-graph $F$, we define $\\pi_t^{\\ext}(F)$ as the supremum of this degree over all palettes not admitted by $F$. We prove that \\[ \\pi_t^{\\ext}(F)=0 \\quad\\text{if and only if}\\quad F\\text{ is }t\\text{-layered}. \\] We also relate $t$-layeredness to vanishing orders, min-layeredness, max-layeredness, and layeredness. These results recover and extend previous characterizations of Reiher, Rödl, and Schacht and of Lamaison, and answer a question of Lamaison for $3$-graphs. At $t=0$, the parameter $\\pi_0^{\\ext}(F)$ is the $(k-2)$-uniform Turán density $\\pi_{k-2}(F)$. For every $k\\ge3$ and $r\\ge2$, we construct a finite $k$-graph $F_{k,r}$ with \\( \\pi_{k-2}(F_{k,r})=2(r-1)/rk^k. \\) Thus $2/k^k$ is an accumulation point for single forbidden $k$-graphs. We also show that the least density of a $k$-graph that fails condition $\\Sp$ of Lin, Wang and Zhou is $4/(3k^k)$. Finally, for every admissible matching of size $m$, we construct a $k$-graph that satisfies $\\Sp$ for every coordinate pair, has no vanishing order, and has density $2^m/k^k$. This disproves a conjecture of Lin, Wang and Zhou for every $k\\ge3$.",
+   "abs": "https://arxiv.org/abs/2610.03347",
+   "pdf": "https://arxiv.org/pdf/2610.03347"
+  },
+  {
+   "id": "2610.02329",
+   "type": "new",
+   "title": "The Boolean lattice $\\mathcal{B}_6$ is not a sphere order",
+   "authors": [
+    "David A. Meyer"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, no figures",
+   "abstract": "Using the equivalence of sphere order representations of posets with Minkowski space embeddings, we show that the Boolean lattice $\\mathcal{B}_6$ is not a sphere order. This is the first explicit finite example of a poset that is not a sphere order.",
+   "abs": "https://arxiv.org/abs/2610.02329",
+   "pdf": "https://arxiv.org/pdf/2610.02329"
+  },
+  {
+   "id": "2610.02992",
+   "type": "new",
+   "title": "Extremal spectral gap of regular graphs with bounded vertex connectivity",
+   "authors": [
+    "Yu Wang",
+    "Sanming Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The well-known inequality of Fiedler ensures that the spectral gap $r-\\lambda_2(G)$ of a connected non-complete $r$-regular graph $G$ is bounded from above by the vertex connectivity $\\kappa(G)$ of $G$. We prove that, for integers $t\\geq2$ and $r>2t^2$, every connected $r$-regular graph with vertex connectivity at most $2t$ has spectral gap at most $\\frac{1}{2}(r+t+2-\\sqrt{(r-t+2)^2-4t(t-1)})$. We show that this bound is nearly optimal for each fixed $t \\ge 2$ and sufficiently large $r > 2t^2$ such that $r+1$ is divisible by $t$. We further prove that if $r>(2t-1)(2t-2)$, then every connected $r$-regular graph whose vertex connectivity is odd and no more than $2t-1$ has spectral gap at most $r-\\min\\bigl\\{\\xi(r,t),\\nu(r,t)\\bigr\\}$ for some explicitly given functions $\\xi(r,t)$ and $\\nu(r,t)$. If $r\\geq6t^2$, then this minimum equals $\\xi(r,t)=\\frac{r(2r-4t+5)}{2(r-t+2)}$. In particular, when $\\kappa(G)=2t-1$, this gives $r-\\lambda_2(G)<t=(\\kappa(G)+1)/2$, which improves Fiedler's bound by nearly a factor of two. Our upper bounds in their parameter ranges improve two known bounds on the spectral gap of regular graphs.",
+   "abs": "https://arxiv.org/abs/2610.02992",
+   "pdf": "https://arxiv.org/pdf/2610.02992"
+  },
+  {
+   "id": "2610.02707",
+   "type": "new",
+   "title": "Typical growth of the Füredi-Hajnal and Stanley-Wilf limits",
+   "authors": [
+    "Jesse Geneson"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the Füredi-Hajnal limit and the Stanley-Wilf limit of a uniformly random permutation matrix of order $k$ are at most $\\exp\\bigl(O(\\sqrt{k}(\\log k)^{5/2})\\bigr)$ with probability tending to one as $k\\to\\infty$. This improves the bound $\\exp\\bigl(O(k^{2/3}(\\log k)^{7/3}/(\\log\\log k)^{1/3})\\bigr)$ of Cibulka and Kynčl. Together with the lower bound due to Fox, these bounds show that the logarithms of both limits are $k^{1/2+o(1)}$ for almost all permutations.",
+   "abs": "https://arxiv.org/abs/2610.02707",
+   "pdf": "https://arxiv.org/pdf/2610.02707"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 51,
+ "listed_cross": 8
+}
