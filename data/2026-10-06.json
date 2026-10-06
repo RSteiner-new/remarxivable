@@ -1,0 +1,571 @@
+{
+ "date": "2026-10-06",
+ "generated_at": "2026-10-06T03:01:09Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-06",
+ "screened": 97,
+ "screened_new": 61,
+ "screened_cross": 36,
+ "scored": 97,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.05725",
+   "type": "cross",
+   "title": "Ideal-Smooth Sets and an Explicit Upper Bound for the Real Sum-Product Exponent",
+   "authors": [
+    "Kaiqiang Zhang",
+    "Yuanguo Zeng",
+    "Yuyu Wang"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "21 pages",
+   "abstract": "We construct arbitrarily large finite sets $A$ of real algebraic integers such that both $|A+A|$ and $|AA|$ are at most $|A|^{1.95835}$. The construction combines truncated ideal-smooth $S$-unit fibres with a coprime additive factor. A tensor-product rank argument, using a two-dimensional local feature at each selected prime ideal, controls the loss in the additive factor, while a direct estimate for an outer parallel body improves the sumset packing bound. The arithmetic input is an unramified pro-$2$ tower over a known degree-ten field, with simultaneous Frobenius cuts controlling the small prime ideals. We use unconditional Tsfasman--Vlăduţ inequalities for the joint class-number--regulator cost. All finite numerical comparisons entering the exponent are certified by outward rational interval arithmetic. No unproved hypothesis is used.",
+   "abs": "https://arxiv.org/abs/2610.05725",
+   "pdf": "https://arxiv.org/pdf/2610.05725"
+  },
+  {
+   "id": "2610.06499",
+   "type": "new",
+   "title": "Random independent sets in triangle-free and linear Berge-$C_4$-free hypergraphs",
+   "authors": [
+    "Jing Yu",
+    "Junchi Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "We study probability distributions on independent sets of uniform hypergraphs with local constraints. For a positive vertex-weight function $w$ on an $(r+1)$-uniform hypergraph, define the weighted degree of vertex $v$ by \\[ d_w(v):= \\sum_{e\\ni v} \\left( \\prod_{u\\in e\\setminus\\{v\\}}\\dfrac{w(u)}{w(v)} \\right)^{1/r}. \\] For each fixed $r\\geq1$, our first result gives, in every triangle-free $(r+1)$-uniform hypergraph (without a linearity assumption), a random independent set $I$ satisfying \\[ \\mathbb P(v\\in I)\\geq \\left( \\frac{r}{r+1}(r(r+1))^{-1/r}+o_r(1) \\right) \\left(\\frac{\\log d_w(v)}{d_w(v)}\\right)^{1/r}, \\qquad d_w(v)\\to+\\infty. \\] The same result also implies that every $d$-degenerate triangle-free $(r+1)$-uniform hypergraph satisfies \\[ \\chi_f(G)\\leq \\left( \\dfrac{r+1}{r}(r(r+1))^{1/r}+o_r(1) \\right) \\left(\\dfrac{d}{\\log d}\\right)^{1/r}, \\qquad d\\to+\\infty. \\] Our second result concerns linear Berge-$C_4$-free hypergraphs which allow Berge triangles. In this setting, for every sufficiently large threshold $D$, there exists a random independent set $I$ such that, uniformly over all vertices with $d_w(v)\\geq D$, \\[ \\mathbb P(v\\in I)\\geq (1-o_r(1)) \\left(\\frac{\\log d_w(v)}{r\\,d_w(v)}\\right)^{1/r}, \\qquad D\\to+\\infty. \\] It also yields \\[ \\chi_f(G)\\leq (1+o_r(1)) \\left(\\frac{rd}{\\log d}\\right)^{1/r} \\] for $d$-degenerate linear Berge-$C_4$-free $(r+1)$-uniform hypergraphs.\nBoth results are based on the ordered random pick process originated from Martinsson and Steiner. By choosing different selection functions and iteration, we prove the output of the random process gives the required random independent set.",
+   "abs": "https://arxiv.org/abs/2610.06499",
+   "pdf": "https://arxiv.org/pdf/2610.06499"
+  },
+  {
+   "id": "2610.06527",
+   "type": "new",
+   "title": "The Bounded-Linear Dichotomy Holds for all 4 Point Posets",
+   "authors": [
+    "Maria-Romina Ivan",
+    "Sean Jaffe"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 19 figures",
+   "abstract": "Given a finite poset $\\mathcal P$, its induced saturation number, $\\text{sat}^*(n,\\mathcal P)$ is the smallest size a family of subsets of $[n]$ can have such that it does not contain an induced copy of $\\mathcal P$, but adding any other set to it creates one. The saturation numbers already show a sharp dichotomy -- Freschi, Piga, Sharifzadeh and Treglown showed that for any given poset its saturation number is either bounded or at least $2\\sqrt n$. The dominant conjecture is that in fact, the saturation numbers are either bounded, or exactly linear.\nIn this paper we show that this dichotomy is true for all posets on at most 4 points. Most of these posets, most notably the butterfly and the diamond, had individually long resisted analysis, and the missing piece which this paper tackles is the poset comprised of a $\\mathcal V$ and an isolated point, denoted by $\\widehat{\\mathcal V}$, for which we show linear saturation.\nThe architecture of the proof uncovers the structure of an arbitrary $\\widehat{\\mathcal V}$- saturated family, namely an antichain with at most two chains above it, and an upside-down forest below it. Moreover, we anticipate that, at least partially, this structure is relevant to the wider class of posets that contain an isolated point.",
+   "abs": "https://arxiv.org/abs/2610.06527",
+   "pdf": "https://arxiv.org/pdf/2610.06527"
+  },
+  {
+   "id": "2610.06788",
+   "type": "cross",
+   "title": "Large corank of dense random regular digraphs",
+   "authors": [
+    "Huaijin Liang",
+    "Kexin Yu",
+    "Tingzhou Yu"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "Let $1\\le k\\le n$ and let $A$ be the adjacency matrix of a uniformly random $d$-regular directed graph on $n$ vertices. Suppose that $\\lambda n\\le d \\le (1-\\lambda)n$ for a fixed $0<\\lambda\\le 1/2$. We show that there exists $c_{\\lambda}>0$ depending only on $\\lambda$ such that $$\n\\mathbb{P}[\\operatorname{rank}(A)\\le n-k]\\le 2e^{-c_{\\lambda} kn}. $$ This gives a large corank extension of the exponential singularity bound of Jain, Sah, and Sawhney.",
+   "abs": "https://arxiv.org/abs/2610.06788",
+   "pdf": "https://arxiv.org/pdf/2610.06788"
+  },
+  {
+   "id": "2610.06033",
+   "type": "new",
+   "title": "A counterexample to the circuit-cocircuit intersection conjecture",
+   "authors": [
+    "Houshan Fu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "Oxley conjectured that a matroid with a circuit-cocircuit intersection of size $k\\geq 4$ has one of size $k-2$. Using the standard polynomial representation of the classical extended binary Golay code, we construct an identically self-dual binary matroid of rank $12$ on $24$ elements. Its circuit-cocircuit intersection sizes are exactly $0,2,4,6,8$, and $12$, disproving the conjecture for $k=12$. The proof is self-contained and does not rely on the full weight distribution of the code or on an enumeration of all circuits.",
+   "abs": "https://arxiv.org/abs/2610.06033",
+   "pdf": "https://arxiv.org/pdf/2610.06033"
+  },
+  {
+   "id": "2610.05068",
+   "type": "new",
+   "title": "Connectivity of the reconfiguration graph of Hamiltonian paths",
+   "authors": [
+    "Albi Kazazi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A backbite on a Hamiltonian path of a graph $G$ adds an edge of $G$ from an endpoint $u$ of the path to a vertex $v$ and deletes an edge of the path at $v$ so that the result is again a Hamiltonian path. We study the connectivity of the reconfiguration graph $R(G)$, whose vertices are the Hamiltonian paths of $G$, with two adjacent when a single backbite carries one to the other. We prove that $R(G)$ is connected whenever $G$ contains the square of a Hamiltonian path as a spanning subgraph, and that any two Hamiltonian paths can be reconfigured using $O(n^2)$ backbites. Combining the theorem with known results on spanning squared paths gives connectivity for every graph with $\\delta(G)\\ge\\lceil\\frac{2n-1}3\\rceil$, for the circulants $\\mathrm{Circ}(n;S)$ with $a,2a\\in S$ for some $a$ coprime to $n$, and, with high probability, for the random graph $G(n,p)$ with $p\\ge c/\\sqrt n$, for a sufficiently large constant $c$. In the other direction, graphs with arbitrarily high connectivity may have disconnected reconfiguration graphs. For every $n\\ge8$ and every $1\\le m\\le\\lfloor n/2\\rfloor-3$ we construct a graph on $n$ vertices with $\\kappa=\\lambda=\\delta=m$ whose reconfiguration graph is disconnected, with at least $(n-2m-4)!$ components. We conjecture that $\\delta(G)\\ge n/2$ suffices for connectivity.",
+   "abs": "https://arxiv.org/abs/2610.05068",
+   "pdf": "https://arxiv.org/pdf/2610.05068"
+  },
+  {
+   "id": "2610.05938",
+   "type": "cross",
+   "title": "Rank and Invertibility of Dense Signed Random Regular Matrices",
+   "authors": [
+    "Huaijin Liang",
+    "Yuxiao Shi",
+    "Kexin Yu",
+    "Tingzhou Yu"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "Let $A$ be the (non-symmetric) adjacency matrix of a uniformly random $d$-regular directed graph on $n$ vertices, and let $\\Xi$ be independent of $A$ with i.i.d. Rademacher entries. Suppose that $\\min(d,n-d)\\ge\\lambda n$ for some fixed $\\lambda\\in(0,1/2]$. We show that there exists $c > 0$, depending only on $\\lambda$, such that \\[ \\mathbf P_{A,\\Xi}\\{\\operatorname{rank}(A\\circ\\Xi)\\le n-k\\}\\le e^{-c nk},\\qquad 1\\le k\\le n. \\] As an ingredient in the proof of the rank bound, we use the case $\\kappa=0$ of the following quantitative smallest singular value estimate: \\[\n\\mathbf P_{A,\\Xi}\\{s_n(A\\circ\\Xi)\\le\\kappa\\}\n\\le C\\kappa\\sqrt n+e^{-c' n},\n\\qquad \\kappa\\ge0, \\] where $C,c'>0$ depend only on $\\lambda$.",
+   "abs": "https://arxiv.org/abs/2610.05938",
+   "pdf": "https://arxiv.org/pdf/2610.05938"
+  },
+  {
+   "id": "2610.04660",
+   "type": "new",
+   "title": "The asymptotic maximum oriented diameter of graphs",
+   "authors": [
+    "Jiangdong Ai",
+    "Yaokun Feng",
+    "Hui Lei",
+    "Zijian Ren"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The oriented diameter of a connected bridgeless graph is the minimum diameter of a strong orientation. Let $f(d)$ be the maximum oriented diameter among all such graphs of diameter $d$. In 1978, Chvátal and Thomassen proved $f(d)\\le2d^2+2d$ and constructed graphs showing that any quadratic upper bound on $f(d)$ must have leading coefficient at least $1/2$. We prove that $f(d)\\le \\tfrac12d^2+7d$ for every integer $d\\ge1$. This matches the leading coefficient of their lower bound and establishes $f(d)=\\tfrac12d^2+O(d)$, determining the optimal quadratic coefficient. Our proof gives a polynomial-time algorithm that constructs a strong orientation satisfying the stated bound.",
+   "abs": "https://arxiv.org/abs/2610.04660",
+   "pdf": "https://arxiv.org/pdf/2610.04660"
+  },
+  {
+   "id": "2610.06362",
+   "type": "cross",
+   "title": "Explicit Nonlinear Functions beyond the Fourier bound",
+   "authors": [
+    "Swastik Kopparty",
+    "Rishabh Kothary",
+    "Shanthanu S. Rai"
+   ],
+   "categories": [
+    "cs.CR",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CR",
+   "comments": "29 pages",
+   "abstract": "We study the problem of constructing highly nonlinear vectorial maps $F: \\mathbb F_2^n \\to \\mathbb F_2^m$. Concretely, we want an $F$ and an $A = A(m,n)> 0$ as small as possible, so that for every affine map $L: \\mathbb F_2^n \\to \\mathbb F_2^m$ (of the form $L(x) = M x + b $) we have:\n$$\\mathrm{agree}(F, L) := |\\{ x \\in \\mathbb F_2^n \\mid F(x) = L(x) \\}| \\leq A.$$\nSuch questions have been studied by Nyberg (1991,1993), Carlet and Ding (2004,2007), Liu, Mesnager and Chen (2017), Nagy (2025), and Biryukov, Turecek, and Udovenko (2026).\nThere is a classical method of constructing such functions from bent-functions and Fourier analytic ideas; the best bound achievable by this method is: $$ A(m,n) = \\Theta(2^{n-m} + 2^{n/2}),$$\nand in particular, is never smaller than $2^{n/2}$.\nIn this work, we show how to construct highly nonlinear functions beyond this Fourier bound. Concretely, we show how to construct for every $\\gamma>0$, a function $F: \\mathbb F_2^n \\to \\mathbb F_2^m$ with $m = O_{\\gamma}(n)$, achieving $$ A(m,n) \\leq (1 + \\gamma)^n.$$\nSurprisingly, we even achieve the same quantitative behavior for the much harder question of having low agreement with $m$-tuples of degree $d$ polynomials $Q: \\mathbb F_2^n \\to \\mathbb F_2^m$, with $m = O_{\\gamma, d}(n)$. Here the previously best bounds were of the form $A(m,n) = O( 2^{-\\frac{n}{2^{d+1}}} \\cdot 2^n )$ of Ben-Sasson and Kopparty (2010), based on Gowers-norm-type arguments.\nAll our results generalize to all finite fields $\\mathbb F_q$ in place of $\\mathbb F_2$.\nOur methods are based on a new connection to classical results on counting solutions to systems of polynomial equations via algebraic methods. This connection brings us to basic questions in combinatorics, about graphs and hypergraphs with simultaneously a small number of edges and independent sets.",
+   "abs": "https://arxiv.org/abs/2610.06362",
+   "pdf": "https://arxiv.org/pdf/2610.06362"
+  },
+  {
+   "id": "2610.04994",
+   "type": "cross",
+   "title": "Uniform positivity of the tau invariant",
+   "authors": [
+    "Ruihua Wang"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.AG",
+   "comments": "",
+   "abstract": "We prove the Baker--Rumely conjecture that the tau invariant of a metrized graph admits a positive lower bound proportional to its total length, with an absolute constant. We also construct simple cubic metrized graphs whose normalized tau invariants tend to $59/7260<1/108$, disproving the proposed universal constant $1/108$. The lower bound is independent of the genus, the number of edges, and the distribution of edge lengths. Its proof combines a second-moment inequality for Euclidean lattices with a partition of the edge coordinates of a cycle lattice into three independent sets. The counterexamples have only two edge lengths and admit an elementary resistance calculation. Through the tropical moment identity, the lower bound also gives a uniform estimate for the non-archimedean terms in height formulas for Jacobians.",
+   "abs": "https://arxiv.org/abs/2610.04994",
+   "pdf": "https://arxiv.org/pdf/2610.04994"
+  },
+  {
+   "id": "2610.04645",
+   "type": "new",
+   "title": "Proof of the mad conjecture and its coloring applications",
+   "authors": [
+    "Andrzej Grzesik",
+    "Lenka Kopfová",
+    "Gaurav Kucheriya",
+    "Binlong Li",
+    "Magdalena Prorok"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a finite graph $G$, the maximum average degree $\\operatorname{mad}(G)$ is the largest average degree of a nonempty subgraph of $G$. Hendrey, Norin and Wood asked whether this parameter is partitionable, that is, whether for all positive reals $a,b$ every graph $G$ with $\\operatorname{mad}(G)<a+b$ admits a vertex partition $V(G)=A\\cup B$ with $\\operatorname{mad}(G[A])<a$ and $\\operatorname{mad}(G[B])<b$. In this note, we answer this question affirmatively. Moreover, we generalize this to an arbitrary number of partition classes.\nThe clustered chromatic number $\\chi_\\star(\\mathrm{G})$ of a graph class $\\mathrm{G}$ is the minimum integer $k$ such that, for some integer $c$, every graph in $\\mathrm{G}$ has a $k$-coloring in which every monochromatic component has at most $c$ vertices. We apply this result to show that $\\chi_\\star(\\mathrm{A}_m)=\\left\\lfloor\\frac{m}{2}\\right\\rfloor+1$, where $\\mathrm{A}_m$ is the family of graphs $G$ with $\\operatorname{mad}(G)\\leq m$. This solves an open problem posed in Wood's survey and highlighted by Hendrey and Wood.\nAs another application of our general partition result for $\\operatorname{mad}$, we obtain a bound for relaxed colorings. Namely, for non-negative integers $d_1,\\ldots,d_k$, every graph $G$ with \\[\\operatorname{mad}(G)<\\sum_{i=1}^k \\frac{2d_i+2}{d_i+2}\\] admits a partition $V(G)=V_1\\cup\\ldots\\cup V_k$ such that $\\Delta(G[V_i])\\leq d_i$ for each $i\\in[k]$. In particular, this provides the first non-trivial bounds for $k\\ge3$ with arbitrary $d_i$ and improves the previously known bound for $(d+1,d)$-colorings with $d \\ge 2$.",
+   "abs": "https://arxiv.org/abs/2610.04645",
+   "pdf": "https://arxiv.org/pdf/2610.04645"
+  },
+  {
+   "id": "2610.06038",
+   "type": "new",
+   "title": "Optimal spectral supersaturation for cliques and odd cycles",
+   "authors": [
+    "Hongzhang Chen",
+    "Yongtao Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 1 table. Any comments are welcome",
+   "abstract": "Let $Y_{n,r,q}$ be the graph obtained from the Turán graph $T_{n,r}$ by adding $q$ pairwise disjoint edges inside a largest part, and let $c(n,F)$ be the minimum number of copies of $F$ created by adding a single edge to $T_{n,r}$. Fang, Li, Lin and Ma proved that for every color-critical graph $F$ with $\\chi (F)=r+1$, there exists a constant $\\delta_F>0$ such that for all sufficiently large $n$ and all $1\\le q\\le \\delta_F \\sqrt{n}$, the condition $\\lambda(G)\\ge\\lambda(Y_{n,r,q})$ forces at least $q\\, c(n,F)$ copies of $F$. The bound $q=O(\\sqrt{n}\\,)$ is tight up to a constant factor, in contrast to the linear order $n$ of the edge setting of Mubayi, Pikhurko and Yilma, but the exact constant $\\delta_F$ remained unknown for any $F$. In this paper, building on a structural result of Fang, Li, Lin and Ma, we determine the threshold $\\delta_F$ when $F$ is a clique and an odd cycle. For every $r\\ge2$, we denote $\\delta_r :=(1-\\tfrac1r)\\sqrt2$ and prove that for every $\\varepsilon>0$, if $n$ is sufficiently large and $1\\le q\\le(\\delta_r-\\varepsilon)\\sqrt n$, then every $n$-vertex graph $G$ with $\\lambda(G)\\ge\\lambda(Y_{n,r,q})$ contains at least $q\\,c(n,K_{r+1})$ copies of $K_{r+1}$, and $\\delta_r$ is best possible. For odd cycles, the threshold is $1/\\sqrt2$. For every $k\\ge1$ and $\\varepsilon>0$, if $n$ is sufficiently large and $1\\le q\\le(1/\\sqrt2-\\varepsilon)\\sqrt n$, then every $n$-vertex graph $G$ with $\\lambda(G)\\ge\\lambda(Y_{n,2,q})$ contains at least $q\\,c(n,C_{2k+1})$ copies of $C_{2k+1}$, and $1/\\sqrt2$ is best possible. Our results determine both the exact count of copies and the optimal range of $q$. The behavior in the spectral setting differs from the classical edge setting, in which the range of $q$ is of order $n$ and the threshold is $1/r$ for cliques by Lovász and Simonovits, and $1/2$ for odd cycles by Pikhurko and Yilma.",
+   "abs": "https://arxiv.org/abs/2610.06038",
+   "pdf": "https://arxiv.org/pdf/2610.06038"
+  },
+  {
+   "id": "2610.06340",
+   "type": "new",
+   "title": "Geometric Realizations with Strong Self-Duality Part II: Diameter Graphs, Reuleaux Polyhedra, and Thrackles",
+   "authors": [
+    "Gábor Damásdi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 24 figures",
+   "abstract": "In this paper we construct new examples of diameter graphs and Reuleaux polyhedra in $\\mathbb{R}^3$, obtaining a full characterization of their combinatorial structure. For a finite set of points $X\\subset\\mathbb{R}^d$, its diameter graph is the graph on vertex set $X$ where pairs forming a diameter pair are connected by an edge. Grünbaum, Heppes and Straszewicz independently proved that the diameter graph of $X\\subset \\mathbb{R}^3$ has at most $2|X|-2$ edges, answering a question of Vázsonyi. Their proof relied on ball polytopes. The ball polytope $\\mathcal{B}(X)$ is the intersection of the unit balls centered at the points of $X$.\nWe call a ball polytope a Reuleaux polyhedron if the centers form a family with $2|X|-2$ diameter pairs. Kupitz, Martini and Perles showed that the skeleton of a Reuleaux polyhedron must be a 2-connected strongly involutive self-dual graph. They conjectured that in the simple 3-connected case this is also sufficient. We not only confirm this conjecture, but we show that any 2-connected (not necessarily simple) strongly involutive self-dual graph arises as the skeleton of a Reuleaux polyhedron.\nTo construct the new Reuleaux polyhedra we construct new diameter graphs. It was known that any 3-dimensional diameter graph is a subgraph of a non-bipartite quadrangulation of the projective plane. We show that the reverse holds. That is, for any such graph we construct a diameter realization. This also confirms and strengthens a conjecture of Montejano, Pauli, Raggi, Roldán-Pensado on metric embeddings of strongly involutive self-dual graphs. The construction relies on ideas from rigidity theory.\nWe also discuss a number of applications of these results, such as the construction of bodies of constant width and connections to Steinitz's theorem and Borsuk's conjecture.",
+   "abs": "https://arxiv.org/abs/2610.06340",
+   "pdf": "https://arxiv.org/pdf/2610.06340"
+  },
+  {
+   "id": "2610.04078",
+   "type": "cross",
+   "title": "Monochromatic Almost-Pythagorean Quadruples",
+   "authors": [
+    "James Leng",
+    "Redmond McNamara",
+    "Andreas Mountakis"
+   ],
+   "categories": [
+    "math.DS",
+    "math.CO"
+   ],
+   "primary": "math.DS",
+   "comments": "",
+   "abstract": "We prove that for any set $A$ with positive multiplicative upper density, there exist $x$, $y$, $z$ and $w$ in $A$ such that $x^2 + y^2w^2 = z^2$, generalizing a result of Frantzikinakis, Klurman and Moreira. Our techniques apply more broadly to a wide class of systems of equations, allowing us to solve these equations simultaneously and furthermore to restrict the w variable in an entirely different multiplicatively dense set. To do this, we prove a novel multiple recurrence result for multiplicative dynamical systems.",
+   "abs": "https://arxiv.org/abs/2610.04078",
+   "pdf": "https://arxiv.org/pdf/2610.04078"
+  },
+  {
+   "id": "2610.03851",
+   "type": "new",
+   "title": "An Improved Upper Bound for Recovering Pairs",
+   "authors": [
+    "Simone Costa"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "Computational supplement, verifiers and outputs are available at this https URL",
+   "abstract": "We prove that every recovering pair $(\\mathcal{A},\\mathcal{B})$ of nonempty families of subsets of an $n$-element set satisfies $$|\\mathcal{A}||\\mathcal{B}|\\le\\left(\\frac{223949}{100000}\\right)^n=(2.23949)^n.$$ A result of Mond, Souza and Versteegen, combined with the sharp $(9/4)^n$ bound of Fang and Huang for cancellative pairs, gives $(2.2499)^n$ for recovering pairs. We improve this to $(2.23949)^n$. The proof combines two entropy inequalities. One is derived directly from the recovering property, while the other applies the Fang-Huang bound to families obtained from the original pair by a construction of Mond, Souza and Versteegen. The two inequalities are then combined by a convex combination.",
+   "abs": "https://arxiv.org/abs/2610.03851",
+   "pdf": "https://arxiv.org/pdf/2610.03851"
+  },
+  {
+   "id": "2610.06589",
+   "type": "new",
+   "title": "A sharp Merino--Welsh-type inequality for matroids",
+   "authors": [
+    "Jungang Chen",
+    "Jiaxin Xie"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "Motivated by the Merino--Welsh conjecture, we consider the smallest $c\\ge0$, denoted by $c_*$, for which the inequality $T_M(c,0)T_M(0,c)\\ge T_M(1,1)^2$ holds for every loopless and coloopless finite matroid $M$. The counterexamples constructed by Beke, Csáji, Csikvári, and Pituk [\\emph{Adv. Math.} \\textbf{446} (2024), 109674] give the lower bound $x_0$, where $x_0\\approx2.22668$ is the largest real root of the polynomial $x^3-9(x-1)$. Later, Csikvári [\\emph{European J. Combin.} \\textbf{137} (2026), 104402] improved the known upper bound for this constant to $2.35$ and then conjectured that the above inequality holds at $c=x_0$. We give a direct inductive proof of this conjecture, thereby showing that $c_*=x_0$.",
+   "abs": "https://arxiv.org/abs/2610.06589",
+   "pdf": "https://arxiv.org/pdf/2610.06589"
+  },
+  {
+   "id": "2610.03750",
+   "type": "new",
+   "title": "Branch-Sensitive Density Increments for $k$-Configurations",
+   "authors": [
+    "Yao Zhi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "0",
+   "abstract": "We refine the density-increment argument for $k$-configurations developed by Beker. The point is not to introduce a new inverse theorem, but to retain information that is lost when the graph-counting output is compressed into a single uniform alternative. For the transitive $K_k$ appearing in the $k$-configuration problem we keep a fixed moment throughout the graph recursion and obtain three genuinely different outputs: a row-degree anomaly, a non-centred grid anomaly, and a centred grid anomaly. The centred case is treated directly through positivity of the associated Gram moments, avoiding the usual unbalancing step. Each output is then routed through the appropriate local Kelley--Meka mechanism with its own density gain, rank cost, and width cost. A weighted iteration budget prevents the most expensive local branches from being charged the maximal number of times.\nFor a finite abelian group $G$ of odd order and $A\\subseteq G$ of density $\\alpha$, write $L=\\log(2/\\alpha)$ and $\\Lambda=L+\\log(2k)$. We obtain a lower bound of the form \\[ \\Pp_{x_1,\\ldots,x_k\\in G}\\!\\left(\\frac{x_i+x_j}{2}\\in A\\ \\text{for all }1\\le i\\le j\\le k\\right) \\ge \\exp\\!\\bigl(-C\\Phi(k,L,\\Lambda)\\bigr), \\] where \\[ \\Phi(k,L,\\Lambda)=k^{36}L^6\\Lambda^6+k^{34}L^8\\Lambda^5+k^{32}L^{14}\\Lambda+k^{30}L^{16}. \\] Consequently, in the Erdős--Moser application one may replace the exponent $68$ in Beker's $k$-configuration route by $36$; in particular the same reduction yields the sum-free lower bound with every exponent $c<1/36$.",
+   "abs": "https://arxiv.org/abs/2610.03750",
+   "pdf": "https://arxiv.org/pdf/2610.03750"
+  },
+  {
+   "id": "2610.05722",
+   "type": "new",
+   "title": "A sharp upper bound on the number of spanning forests of regular graphs",
+   "authors": [
+    "T. Wu",
+    "S. Lu",
+    "X. Dong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a simple graph on $n$ vertices, and let $F(G)$ denote the number of its spanning forests. Bencs and Csikvári [Upper bound for the number of spanning forests of regular graphs, European J. Combin. 110 (2023) 103677] proved that every $r$-regular graph $G$ with $r\\geq 2$ satisfies $F(G) \\leq r^{n}$. They further conjectured that for $r \\geq 3$, \\[ F(G)^{1/n} \\leq \\frac{(r - 1)^{r-1}}{(r^2 - 2r - 1)^{r/2-1}}. \\] In this paper, we resolve this conjecture in the affirmative.",
+   "abs": "https://arxiv.org/abs/2610.05722",
+   "pdf": "https://arxiv.org/pdf/2610.05722"
+  },
+  {
+   "id": "2610.03808",
+   "type": "cross",
+   "title": "Computing distances in braid-move graphs, higher Bruhat orders, and oriented-matroid mutation graphs is NP-hard",
+   "authors": [
+    "Tilen Marc"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "37 pages, 4 figures. Code and computational checks: this https URL",
+   "abstract": "A reduced word of the longest permutation $w_0\\in S_m$, taken up to commutations, encodes a wiring diagram of $m$ pseudolines, and a braid move $\\sigma_i\\sigma_{i+1}\\sigma_i\\leftrightarrow\\sigma_{i+1}\\sigma_i\\sigma_{i+1}$ flips one of its triangles. We prove that deciding whether two wiring diagrams are within a given braid-move distance is NP-complete. Equivalently, deciding flip distance is NP-complete in the higher Bruhat order $B(m,2)$, for triangle flips of marked arrangements of pseudolines, and for rhombic tilings of a $2m$-gon; this answers an open question on flip graphs of pseudoline arrangements (SODA 2024). The reduction is from Vertex Cover: for every graph $G$ we construct two wiring diagrams at braid-move distance $|D|+2\\,\\mathrm{VC}(G)$, where $\\mathrm{VC}(G)$ is the vertex cover number of $G$ and the Hamming distance $|D|$ is the number of triples of wires whose triangles are oriented differently. The construction glues copies of a seven-wire gadget whose braid-move distance exceeds its Hamming distance by $2$; flipping either of two disjoint triangles in both diagrams removes the excess. Adding a line at infinity transfers the construction to rank-$3$ uniform oriented matroids, where two oriented matroids are adjacent in the mutation graph if their chirotopes differ in one basis; so deciding mutation distance is NP-complete in rank $3$. An iterate of Rambau's expansion of signotopes amplifies the excess and gives NP-hardness in every fixed rank $r\\ge 4$. By duality we obtain the corresponding results for every fixed corank at least $3$. The same instances show that flip distance in the higher Bruhat orders $B(n,k)$ is NP-complete for every fixed $k\\ge 2$.",
+   "abs": "https://arxiv.org/abs/2610.03808",
+   "pdf": "https://arxiv.org/pdf/2610.03808"
+  },
+  {
+   "id": "2610.03740",
+   "type": "cross",
+   "title": "A linear-in-$q$ range of dimensions for the MDS conjecture over $\\mathbb F_q$ in odd characteristic",
+   "authors": [
+    "Xiang Fan"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "Main text through Section 5: 16 pages; 18 pages total including Appendix A and references",
+   "abstract": "Let $q$ be a power of an odd prime $p$. We prove the MDS conjecture over $\\mathbb F_q$ in dimension $k$ whenever \\[\n2\\leqslant k\\leqslant B(p,q)\n\\quad\\text{or}\\quad\nq+2-B(p,q)\\leqslant k\\leqslant q, \\] where $B(p,q)=\\left\\lfloor\\frac{(p-2)q+6p-10}{2p-3}\\right\\rfloor$. For fixed $p$, this gives a range of dimensions linear in $q$, in contrast with the square-root scale of the previously known general unconditional ranges over proper extension fields, and proves the conjecture in an asymptotic proportion $1-1/(2p-3)$ of all dimensions.\nThe main structural ingredient is a full-support obstruction for determinant relations on arcs over arbitrary fields of odd characteristic. After projection from $p-1$ points, local matching constraints followed by multilinear descent force the resulting homogeneous system to have zero kernel. For a hypothetical $q+2$-point arc over $\\mathbb F_q$, the Ball--Lavrauw construction produces precisely the forbidden relations. The same framework also proves Chowdhury's conjecture that a family of inclusion matrices has full row rank.",
+   "abs": "https://arxiv.org/abs/2610.03740",
+   "pdf": "https://arxiv.org/pdf/2610.03740"
+  },
+  {
+   "id": "2610.06684",
+   "type": "new",
+   "title": "A note on the Kővári--Sós--Turán theorem for stable hypergraphs",
+   "authors": [
+    "Aris Papadopoulos"
+   ],
+   "categories": [
+    "math.CO",
+    "math.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "In this note, we prove a stronger version of the Kővári-Sós-Turán theorem for partition-wise $k$-stable $r$-hypergraphs. More precisely, we show that for every $k,r\\in\\mathbb{N}_{\\geq 2}$ there is $\\eta=\\eta(r,k)>0$ such that if $H=(V;E)$ is a partition-wise $k$-stable $r$-uniform $K^{(r)}_{t,\\ldots,t}$-free hypergraph with $|V|=n$, then $|E| = O_{r,k,t}(n^{r-\\eta})$. Crucially, $\\eta$ is independent of $t$. The proof follows the pseudofinite regime used by Chernikov and Starchenko to prove an analogous version of Erdős-Hajnal for stable hypergraphs.",
+   "abs": "https://arxiv.org/abs/2610.06684",
+   "pdf": "https://arxiv.org/pdf/2610.06684"
+  },
+  {
+   "id": "2610.05061",
+   "type": "new",
+   "title": "An asymptotically tight bound on oriented diameter",
+   "authors": [
+    "Yaojun Chen",
+    "Jifu Lin",
+    "Xiaolin Wang",
+    "Ruilin Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $f(d)$ be the smallest integer such that every connected bridgeless graph of diameter $d$ admits an orientation with directed diameter at most $f(d)$. Chvátal and Thomassen (1978) proved $\\left\\lceil{d^2}/{2}\\right\\rceil+d\\le f(d) \\le 2d^2+2d$. In this paper, we prove that $f(d)\\le \\left\\lceil d^2/2\\right\\rceil+6d$, which shows $f(d)= d^2/2+\\Theta(d)$ and determine the leading quadratic coefficient of $f(d)$.\nThe key method of our proof is to construct a central subgraph $H$ such that it admits a strong orientation of diameter $O(d)$ and the distance between $H$ and every vertex outside $H$ is at most $ d/2 $.",
+   "abs": "https://arxiv.org/abs/2610.05061",
+   "pdf": "https://arxiv.org/pdf/2610.05061"
+  },
+  {
+   "id": "2610.04270",
+   "type": "new",
+   "title": "The complete nontrivial-intersection theorem for vector spaces",
+   "authors": [
+    "Dehai Liu",
+    "Benjian Lv",
+    "Kaishun Wang",
+    "Jie Wen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A family of $k$-subspaces of an $n$-dimensional vector space over a finite field is $t$-intersecting if any two members intersect in a subspace of dimension at least $t$. A $t$-intersecting family is nontrivial if no $t$-subspace is contained in all its members. In this paper, we determine the largest nontrivial $t$-intersecting families for $k\\geq t+2$ and $n\\geq 2k+1$. As a result, the complete nontrivial-intersection theorem for vector spaces is established.",
+   "abs": "https://arxiv.org/abs/2610.04270",
+   "pdf": "https://arxiv.org/pdf/2610.04270"
+  },
+  {
+   "id": "2610.04890",
+   "type": "new",
+   "title": "Even cycle decomposition thresholds for dense multipartite graphs",
+   "authors": [
+    "Weiyi Sun",
+    "Tao Feng",
+    "Shikang Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $r\\geq 2$ be an integer. An $r$-partite graph $\\Gamma$ with vertex partition $V_1,\\ldots,V_r$ is $2$-balanced if there exists a positive integer $n$ such that $n\\leq |V_i|\\leq 2n$ for every $i\\in[r]$. For an integer $\\ell\\geq3$, let $C_\\ell$ denote the cycle of length $\\ell$, and define $\\hat{\\delta}(\\Gamma)=\\min\\{d_\\Gamma(v,V_i)/|V_i|:i\\in[r],\\ v\\in V(\\Gamma)\\setminus V_i\\}$. Let $\\hat\\delta^r_{C_\\ell}$ denote the $C_\\ell$-decomposition threshold for $2$-balanced $r$-partite graphs, that is, the least nonnegative real number $\\delta$ such that, for every $\\varepsilon>0$,\nthere exists $n_0$ such that every $C_\\ell$-divisible $2$-balanced $r$-partite graph $G$ with $\\min_i|V_i|>n_0$ and $\\hat\\delta(G)\\geq\\delta+\\varepsilon$ admits a $C_\\ell$-decomposition. We prove that $\\hat\\delta^{r}_{C_4}=\\frac{2}{3}$ and $\\hat\\delta^{r}_{C_{2k}}=\\frac{1}{2}$ for every $r\\geq2$ and every $k\\geq3$.",
+   "abs": "https://arxiv.org/abs/2610.04890",
+   "pdf": "https://arxiv.org/pdf/2610.04890"
+  },
+  {
+   "id": "2610.04972",
+   "type": "new",
+   "title": "Infinite log-concavity of the Taylor coefficients of the Riemann xi-function",
+   "authors": [
+    "Yanxin Liu",
+    "Jianxi Mao"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CV",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "60 pages",
+   "abstract": "The Riemann hypothesis is equivalent to $F(x)$ belonging to the Laguerre--Pólya class. Brändén [J. Reine Angew. Math., 2011] proved that if an entire function in the Laguerre--Pólya class has nonnegative Taylor coefficients, then its coefficient sequence is infinitely log-concave. Consequently, the Riemann hypothesis implies the infinite log-concavity of $(\\lambda_n)_{n\\ge0}$. In this paper, we prove that the sequence $(\\lambda_n)_{n\\ge0}$ is strictly infinitely log-concave. This resolves a conjecture of Zhu [Math. Z., 2023]. The proof combines explicit complex-analytic estimates for the iterated logarithmic ratios, rigorous interval arithmetic for a finite range of indices, and a global closure argument.",
+   "abs": "https://arxiv.org/abs/2610.04972",
+   "pdf": "https://arxiv.org/pdf/2610.04972"
+  },
+  {
+   "id": "2610.04947",
+   "type": "new",
+   "title": "Asymptotic spectral radius of nonregular graphs",
+   "authors": [
+    "Hangxi Cha",
+    "Haiying Shan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, 2 figures",
+   "abstract": "Let $\\lambda_1(n,\\Delta)$ be the maximum adjacency spectral radius among connected nonregular simple graphs of order $n$ and maximum degree $\\Delta$. Using effective resistance bounds, explicit comparison graphs and a one-dimensional Wirtinger inequality, we prove that, for every fixed integer $\\Delta\\ge3$, $\\lambda_1(n,\\Delta)=\\Delta-\\frac{c_\\Delta\\pi^2}{4n^2}+O_\\Delta(n^{-5/2})$, where $c_\\Delta=\\Delta-1$ for odd $\\Delta$ and $c_\\Delta=2(\\Delta-2)$ for even $\\Delta$. This proves the asymptotic conjecture posed by Liu [J. Combin. Theory Ser. B 169 (2024), Conjecture 7.1].",
+   "abs": "https://arxiv.org/abs/2610.04947",
+   "pdf": "https://arxiv.org/pdf/2610.04947"
+  },
+  {
+   "id": "2610.05706",
+   "type": "new",
+   "title": "Sharp planar Turán bounds for quasi-double stars",
+   "authors": [
+    "Zehui Shao",
+    "Enqiang Zhu",
+    "Shaohui Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study $W$-free planar graphs for $W\\in\\{W_{2,4},W_{2,5},W_{3,4}\\}$, where the quasi-double star $W_{h,k}$ is obtained from a three-vertex path by attaching $h$ leaves to one endpoint and $k$ leaves to the other. We prove that every $W_{2,4}$-free planar graph on $n$ vertices has at most $9n/4$ edges, and the bound is attained whenever $8\\mid n$. This determines the planar Turán density of $W_{2,4}$ as $9/4$. We also establish the sharp upper bound $5n/2$ for $W_{2,5}$. Combined with known constructions of planar graphs of maximum degree five, it yields $\\ex_{\\PP}(n,W_{2,5})=\\lfloor5n/2\\rfloor$ for every $n\\ge15$. These results close the two corresponding coefficient gaps in the bounds of Liu et~al. Our proofs use structural restrictions on high-degree vertices, local deletions, and degree deficits in neighborhoods of radius two. For $W_{3,4}$, we characterize the planar graphs with a dominating vertex that avoid this tree and determine their exact extremal number, $\\lfloor(5n-7)/2\\rfloor$, for every $n\\ge10$. Finally, $W$-free planar triangulations have at most eight, twelve, and eleven vertices for $W=W_{2,4},W_{2,5},W_{3,4}$, respectively; the first two bounds are sharp.",
+   "abs": "https://arxiv.org/abs/2610.05706",
+   "pdf": "https://arxiv.org/pdf/2610.05706"
+  },
+  {
+   "id": "2610.05291",
+   "type": "new",
+   "title": "A Proof of the Linear Hadwiger Conjecture",
+   "authors": [
+    "Sergey Norin",
+    "Raphael Steiner"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that there exists $C\\in\\mathbb{N}$ such that $K_t$-minor free graphs are $Ct$-colorable.\nThe proof was found by GPT-6 Astra, following the directions by the authors.",
+   "abs": "https://arxiv.org/abs/2610.05291",
+   "pdf": "https://arxiv.org/pdf/2610.05291"
+  },
+  {
+   "id": "2610.06683",
+   "type": "cross",
+   "title": "Suciu's Conjecture on hyperplane arrangements",
+   "authors": [
+    "Marian Aprodu",
+    "Gavril Farkas",
+    "Claudiu Raicu",
+    "Alexander I. Suciu"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "",
+   "abstract": "We prove that the resonance of any hyperplane arrangement is separable. Using the main result from arXiv:2512.10160 this proves Suciu's conjecture on the fundamental group of every hyperplane arrangement, in its most effective form.",
+   "abs": "https://arxiv.org/abs/2610.06683",
+   "pdf": "https://arxiv.org/pdf/2610.06683"
+  },
+  {
+   "id": "2610.06081",
+   "type": "new",
+   "title": "Polynomial families of incident flags and explicit off-diagonal Ramsey graphs",
+   "authors": [
+    "Brecht Verbeken"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 1 table",
+   "abstract": "We construct explicit off-diagonal Ramsey graphs from polynomial families of incident point--hyperplane flags. Universal interpolation translates the exact dimension of ordered clique configurations into a bound on their coefficient--label incidence. At the critical dimension, a polynomial separates the forbidden-pair image from its diagonal; deleting the corresponding edges preserves a triangular rank certificate. Restriction of scalars realizes the rational endpoint without rounding loss. The resulting fixed-$s$ exponent has leading scale $s/(2\\log_2s)$, and short Frobenius relations give the explicit example $R(16,t)\\ge\\Omega(t^{2.0539221767\\ldots})$. A finite-fiber construction gives the range $s^2(\\log s)^2=o(\\log t)$. For fixed parameters, algebraic preprocessing terminates and field initialization, vertex decoding and adjacency take deterministic time polynomial in the extension degree. We also retain an elimination-free variant and formulate the filtering argument for general forbidden configurations with a distinguished edge.",
+   "abs": "https://arxiv.org/abs/2610.06081",
+   "pdf": "https://arxiv.org/pdf/2610.06081"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.06338",
+   "type": "cross",
+   "title": "Ehrhart Properties under Operations on Lattice Polytopes",
+   "authors": [
+    "Feihu Liu"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "",
+   "abstract": "This paper investigates the preservation of three classes of Ehrhart properties under various operations on lattice polytopes. These operations include Cartesian products, lattice joins, lattice pyramids, free sums, Minkowski sums, Cayley sums, reflexive polarity, and integral dilations. Specifically, we consider the following properties frequently studied in Ehrhart theory:\n(i): Positivity of Ehrhart coefficients, including Ehrhart positivity and magic positivity. In particular, we present lattice point counting formulas for the polytopes generated by these operations.\n(ii): Coefficient properties of the $h^*$-polynomial, including symmetry, unimodality, log-concavity, ultra log-concavity, real-rootedness, and $\\gamma$-positivity.\n(iii): Geometric properties, including the spanning property, the integer decomposition property, very ampleness, and the existence of unimodular triangulation, regular unimodular triangulation, and quadratic triangulation.\nWe determine which properties are preserved under these eight operations, establishing preservation theorems or constructing explicit counterexamples. Furthermore, when a property is not preserved in general, we investigate sufficient or equivalent conditions for its preservation.",
+   "abs": "https://arxiv.org/abs/2610.06338",
+   "pdf": "https://arxiv.org/pdf/2610.06338"
+  }
+ ],
+ "listed_new": 61,
+ "listed_cross": 36
+}
