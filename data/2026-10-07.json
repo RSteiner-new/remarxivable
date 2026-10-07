@@ -1,0 +1,549 @@
+{
+ "date": "2026-10-07",
+ "generated_at": "2026-10-07T03:00:46Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-07",
+ "screened": 74,
+ "screened_new": 52,
+ "screened_cross": 22,
+ "scored": 74,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.06969",
+   "type": "new",
+   "title": "Improved Explicit and Algorithmic Lower Bounds for r(5,t)",
+   "authors": [
+    "Amrit Kandasamy",
+    "Lawrence Zhou",
+    "Levi Segal"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "We modify a construction of Bradač \\cite{Bradac26} using a vertex ordering to give, for every prime power $q$, an explicit $K_5$ free graph with more than $q^7$ vertices and independence number below $600q^4$. This shows $$r(5,t)=\\Omega(t^{7/4}).$$ Additionally, pruning a graph defined by the Coulter and Matthews polynomial $X^{14}$ \\cite{CM}, we give a deterministic polynomial time construction proving $$r(5,t)=\\Omega\\bigl(t^{20/11-\\varepsilon}\\bigr)$$ for every fixed $\\varepsilon>0$. These results improve the constructive lower bound $\\Omega(t^{5/3})$ of Kostochka, Pudlák and Rödl \\cite{KPR}.",
+   "abs": "https://arxiv.org/abs/2610.06969",
+   "pdf": "https://arxiv.org/pdf/2610.06969"
+  },
+  {
+   "id": "2610.07049",
+   "type": "new",
+   "title": "On the structure of uniform Turán densities",
+   "authors": [
+    "Heng Li",
+    "Xizhi Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Motivated by parallel developments in ordinary and $\\ell$-degree Turán problems, we study the set of $(r-2)$-uniform Turán densities of possibly infinite families of $r$-uniform hypergraphs. We prove that, for all sufficiently large $r$, these densities exhibit a phase transition at $4r^{-r}$, from a countable set of algebraic values below this threshold to the full interval $[4r^{-r},1]$. For every $r\\ge3$, the densities below the threshold are exactly the finite-palette Lagrangians in that range, and each is realized by a finite forbidden family. Adapting a method of Pikhurko, we show that, for every $r\\ge3$, the set of uniform densities omits continuum many of its limit points below the threshold and is therefore not closed.",
+   "abs": "https://arxiv.org/abs/2610.07049",
+   "pdf": "https://arxiv.org/pdf/2610.07049"
+  },
+  {
+   "id": "2610.08500",
+   "type": "new",
+   "title": "Character expansions and affine Jacobi-Trudi identities",
+   "authors": [
+    "Ilse Fischer",
+    "Moritz Gangl",
+    "Álvaro Gutiérrez",
+    "Nishu Kumari"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We provide character expansions of certain specialisations of multiparameter Hall--Littlewood polynomials of types $\\mathrm{B}_n$, $\\mathrm{C}_n$, and $\\mathrm{BC}_n$ for rectangular shapes. We use these expansions to establish the six Jacobi-Trudi-type identities conjectured by Ole Warnaar in 2025.",
+   "abs": "https://arxiv.org/abs/2610.08500",
+   "pdf": "https://arxiv.org/pdf/2610.08500"
+  },
+  {
+   "id": "2609.19493",
+   "type": "cross",
+   "title": "Polynomially larger deletion codes by linear hashing of substring counts",
+   "authors": [
+    "Eyal En Gad"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "We show that binary codes of length $n$ correcting two deletions exist with redundancy $3\\log_2n+O(\\log_2\\log_2n)$. The previous best upper bound had leading coefficient $4$, unchanged since 1965, while the best known lower bound has coefficient $2$. More generally, codes correcting $t\\ge2$ deletions exist with redundancy $(2t-1)\\log_2n+O_t(\\log_2\\log_2n)$, improving the coefficient $2t$. We extract a code from one label class of a random linear hash of substring counts, with about $n$ times fewer labels than a direct construction. Confusable words that still share a label are separated by a two-colouring after discarding the words in components with odd cycles, and these are few because an odd cycle forces the edits along it to overlap.",
+   "abs": "https://arxiv.org/abs/2609.19493",
+   "pdf": "https://arxiv.org/pdf/2609.19493"
+  },
+  {
+   "id": "2610.08151",
+   "type": "new",
+   "title": "Polynomial-in-$r$ bounds for forbidden traces of uniform hypergraphs",
+   "authors": [
+    "Pei Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "We give a general principle that converts fixed-uniformity bounds for forbidden traces into bounds with polynomial dependence on the uniformity. More precisely, let $H$ be a fixed set system on $h\\ge1$ vertices, and suppose that, for some $\\alpha\\ge0$, $\\operatorname{ex}_j(m,\\operatorname{Tr}(H))=O_{H,j}(m^\\alpha)$ for every fixed integer $j\\ge1$. Then, for every $\\varepsilon>0$, there is a constant $C_{H,\\alpha,\\varepsilon}$ such that \\[\n\\operatorname{ex}_r(m,\\operatorname{Tr}(H))\n\\le C_{H,\\alpha,\\varepsilon} r^{h-1-\\alpha+\\varepsilon}m^\\alpha \\] for all $m\\ge r\\ge2$.\nIn particular, for trace-$C_4$-free hypergraphs and every $\\varepsilon>0$ there is a constant $C_\\varepsilon$ such that \\[\n\\operatorname{ex}_r(m,\\operatorname{Tr}(C_4))\n\\le C_\\varepsilon r^{3/2+\\varepsilon}m^{3/2} \\] for all $m\\ge r\\ge2$. We also construct trace-$C_4$-free $r$-graphs showing that \\[ \\operatorname{ex}_r(m,\\operatorname{Tr}(C_4)) \\ge c r^{1/2}m^{3/2} \\] for an absolute constant $c>0$, for every fixed $r\\ge3$ and all sufficiently large $m$ (depending on $r$).",
+   "abs": "https://arxiv.org/abs/2610.08151",
+   "pdf": "https://arxiv.org/pdf/2610.08151"
+  },
+  {
+   "id": "2610.08362",
+   "type": "new",
+   "title": "Optimal Bounds on Spanning Tree Embeddings",
+   "authors": [
+    "Csongor Beke",
+    "Vladimir Bošković",
+    "Nina Kamčev",
+    "Yiting Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the number of labelled embeddings of any $n$-vertex tree $T$ into an $n$-vertex graph $G$ of maximum degree $d$ satisfies $$ \\mathrm{inj}(T,G) \\leq (d/e)^n \\exp(o_d(1) n). $$ The bound is sharp up to determining $o_d(1)$, even for paths, and the dependence of the error $\\exp(o_d(1)n)$ on $d$ is necessary. As an immediate corollary, we obtain an optimal anticoncentration bound for the isomorphism class of a uniformly random spanning tree in a connected $d$-regular graph, answering a conjecture of H. Lee. The proof combines Brégman's inequality with entropy methods.",
+   "abs": "https://arxiv.org/abs/2610.08362",
+   "pdf": "https://arxiv.org/pdf/2610.08362"
+  },
+  {
+   "id": "2610.08706",
+   "type": "new",
+   "title": "On the maximum degree and order of $K_t$-minor-free graphs with positive Lin--Lu--Yau curvature",
+   "authors": [
+    "Zi-Xia Song"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Motivated by recent results on the order of connected graphs with positive Lin--Lu--Yau Ricci curvature under forbidden minor or forbidden subgraph conditions and minimum degree assumptions, we prove that, for every integer $t\\ge 5$, every connected graph $G$ with no $K_t$ minor, minimum degree at least $t-1$ and positive Lin--Lu--Yau Ricci curvature on every edge satisfies \\[ \\Delta(G)=O(t^5\\log^{3/2}t) \\quad\\text{and}\\quad |V(G)|<2t\\Delta(G)^6=O(t^{31}\\log^9 t). \\] The minimum degree condition $t-1$ is best possible. Moreover, the bound on the maximum degree $\\Delta(G)$ extends to locally finite graphs and, consequently, every connected locally finite graph satisfying these conditions is finite.",
+   "abs": "https://arxiv.org/abs/2610.08706",
+   "pdf": "https://arxiv.org/pdf/2610.08706"
+  },
+  {
+   "id": "2610.07490",
+   "type": "new",
+   "title": "Higher additive energies on discrete cubes",
+   "authors": [
+    "Xuancheng Shao",
+    "Yu-Chen Sun"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CA",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "Let $m,n\\geq2$ be integers. We study the least exponent $t_{m,n}$ such that the $m$-fold additive energy of any subset $A$ of the discrete cube $\\{0,1,\\cdots,n-1\\}^d$ in any dimension $d$ satisfies $E_m(A)\\leq |A|^{t_{m,n}}$. For every fixed $m$, we obtain the asymptotic formula $$\nt_{m,n}=2m-1-(1+o(1))\\log_n\n\\frac{(2m-1)^{m-1/2}}{(2m)^{m-1}}\n\\qquad(n\\to\\infty). $$ For $m=2$, this gives $$ t_{2,n} = 3 - (1+o(1)) \\log_n\\frac{3\\sqrt{3}}{4}, $$ proving a conjecture of the first author.",
+   "abs": "https://arxiv.org/abs/2610.07490",
+   "pdf": "https://arxiv.org/pdf/2610.07490"
+  },
+  {
+   "id": "2610.07280",
+   "type": "new",
+   "title": "Posh Parking Spaces",
+   "authors": [
+    "Jason Stack",
+    "Nathan Williams"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 6 tables",
+   "abstract": "Let $W$ be an irreducible complex reflection group with reflection representation $V$. A $W$-stable, faithful homogeneous system of parameters $\\Theta \\subseteq \\mathrm{Sym}(V^*)$ of common positive degree $p$ is called a \\emph{posh hsop}; $\\Theta$ \\emph{carries} a $W$-representation $U$ if $\\Theta \\simeq U$ as ungraded $W$-modules. We classify the \\emph{posh} pairs $(p,U)$ for which a posh hsop of degree $p$ carrying $U$ exists. Every such $U$ is a Galois twist of $V^*$. Extending work of Ito and Okada, we deduce that the quotient $S/(\\Theta)$ is a permutation module for $W$ if and only if $U \\simeq V^*$.",
+   "abs": "https://arxiv.org/abs/2610.07280",
+   "pdf": "https://arxiv.org/pdf/2610.07280"
+  },
+  {
+   "id": "2610.07413",
+   "type": "new",
+   "title": "A refinement of the edge theorem for order and chain polytopes",
+   "authors": [
+    "Jon Lee"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a finite poset, we partition the edges of the order polytope and of the chain polytope into classes indexed by the connected convex subsets of the poset, and we establish that corresponding classes have the same cardinality. This yields a closed formula for the common number of edges, and it identifies the bijection of Hibi, Li, Sahara and Shikama, given by them through an explicit formula, as a disjoint union of simple bijections between corresponding classes, which explains why it is a bijection and how it acts on edge directions and lengths. As consequences, the two polytopes have equally many edge directions, with matching multiplicities; the chain polytope has at least as many edges parallel to each coordinate subspace as the order polytope; and the edge lengths of the chain polytope are dominated by those of the order polytope. Strict inequality occurs in the last two comparisons exactly when the poset contains a three-element chain. We discuss implications for linear and convex combinatorial optimization over ideals and antichains. We also express the number of edges in terms of the comparability graph, in a form that extends to stable-set polytopes of arbitrary graphs, give a recursion for series-parallel posets and closed formulas for layered, zigzag and crown posets, characterize the distributive lattices for which the two polytopes are unimodularly equivalent, and demonstrate that, although the two polytopes have the same number of edges, either one can have the larger diameter, by an arbitrary amount; on the other hand, both diameters are bounded by the width of the poset, and they coincide for ordinal sums, series-parallel posets, and zigzag and crown posets.",
+   "abs": "https://arxiv.org/abs/2610.07413",
+   "pdf": "https://arxiv.org/pdf/2610.07413"
+  },
+  {
+   "id": "2610.08708",
+   "type": "new",
+   "title": "Optimal bound for the polynomial Littlewood-Offord problem",
+   "authors": [
+    "Alexandr Grebennikov"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CC",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "We present an exposition of an argument, discovered by GPT-6 Pro, that gives an optimal bound for the polynomial Littlewood-Offord problem. Namely, let $F$ be a degree-$d$ multilinear polynomial that contains $r$ degree-$d$ monomials involving disjoint sets of variables. Then, for i.i.d. Rademacher random variables $\\xi_1, \\ldots, \\xi_n$, we have $\\mathbb{P}[F(\\xi_1, \\ldots, \\xi_n) = 0] = O_d(r^{-1/2})$. This improves upon the previous bound of $(\\log r)^{O_d(1)} r^{-1/2}$ due to Meka, O. Nguyen, and Vu, and resolves a conjecture attributed to H. Nguyen and Vu. The key part of the proof is an estimate for the total influence of bounded-degree rational functions, which resolves a recent conjecture of Kothari, Kovacs-Deak, Wang, and Yang.",
+   "abs": "https://arxiv.org/abs/2610.08708",
+   "pdf": "https://arxiv.org/pdf/2610.08708"
+  },
+  {
+   "id": "2610.08629",
+   "type": "new",
+   "title": "Random Cayley sum hypergraphs and $k$-fold sumsets",
+   "authors": [
+    "Jihyo Chae",
+    "Hyunwoo Lee"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "We denote by $f_k(\\Gamma)$ the largest integer with the property that every subset of a finite abelian group $\\Gamma$ of size at least $|\\Gamma| - f_k(\\Gamma)$ is a $k$-fold sumset. Extending a recent result of Alon and Pham, we prove that\n$$\nf_k(\\Gamma) \\leq \\widetilde{O} \\left(n^{(2k-1)/(4k-3)}\\right)\n$$ holds for all finite abelian groups $\\Gamma$ and integers $k \\geq 2$, where $n = |\\Gamma|$. Additionally, we also show that the lower bound $f_k(\\Gamma) \\geq \\widetilde{\\Omega} \\left(n^{1/k}\\right)$ holds if $\\Gamma$ has no nontrivial element of order dividing $k$. Our upper bound improves a previous result of Balogh, Liu, and Sharifzadeh, and recovers the bound of Alon and Pham in the case $k = 2$. The proof relies on a new upper bound for the independence number of random Cayley sum hypergraphs, which may be of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.08629",
+   "pdf": "https://arxiv.org/pdf/2610.08629"
+  },
+  {
+   "id": "2610.07927",
+   "type": "new",
+   "title": "Topological and Geometric Perspectives on Homomorphism Indistinguishability",
+   "authors": [
+    "Josse van Dobben de Bruyn",
+    "Jérémie Marquès",
+    "David E. Roberson",
+    "Tim Seppelt",
+    "Gian Luca Spitzer",
+    "Peter Zeman"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Two graphs $G$ and $H$ are homomorphism indistinguishable over a graph class $\\mathcal{F}$ if, for every graph $F \\in \\mathcal{F}$, the number of homomorphisms from $F$ to $G$ is equal to the number of homomorphisms from $F$ to $H$. Lovász (Acta Mathematica Academiae Scientiarum Hungarica, 1967) showed that two graphs are isomorphic if, and only if, they are homomorphism indistinguishable over all graphs. Subsequently, homomorphism indistinguishability relations of a long list of natural graph classes have been equated with natural graph isomorphism relaxations.\nGiven the wealth of such results, Atserias, Kolaitis, & Wu (LICS 2021) asked for an axiomatic characterisation of homomorphism indistinguishability relations. By exhibiting topological and geometric structure associated with homomorphism indistinguishability, we derive such an axiomatic characterisation. Here, a central ingredient is a novel characterisation of graph parameters of the form $\\hom(F, \\star)$ for some graph $F$ alternative to a previous result of Lovász & Schrijver (JCTA 2010). Moreover, we investigate the topology of homomorphism indistinguishability and discuss repercussions for the Ulam--Kelly Reconstruction Conjecture.",
+   "abs": "https://arxiv.org/abs/2610.07927",
+   "pdf": "https://arxiv.org/pdf/2610.07927"
+  },
+  {
+   "id": "2610.08707",
+   "type": "new",
+   "title": "Random independent sets in uncrowded hypergraphs",
+   "authors": [
+    "Abhishek Dhawan",
+    "Lina Li",
+    "Abhishek Methuku",
+    "Minh-Quan Vo",
+    "Kewen Yuan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "Given any fixed integer $k \\ge 2$ and sufficiently large $d$, we show that the largest possible fractional chromatic number of a $k$-uniform $d$-degenerate uncrowded hypergraph $H$ (i.e., with girth at least $5$) satisfies \\[ \\chi_f(H) = (1 + o_d(1)) \\left((k-1)\\,\\frac{d}{\\log d}\\right)^{\\frac{1}{k-1}}. \\] In fact, we prove that this holds for $k$-uniform $d$-degenerate hypergraphs of girth at least $g$, for any given $g \\ge 5$. As a corollary, we obtain improved bounds on the fractional chromatic number of $d$-degenerate linear hypergraphs. This work builds upon a recent result by Allen, Dhawan, and Noel, extending it from graphs to hypergraphs. In addition to overcoming the new difficulties that arise in the hypergraph setting, our approach yields a simpler proof even in the original graph case.\nOur proof of the upper bound uses a simpler iterative procedure for sampling independent sets. We also establish bounds for fractional colorings with local demands, a framework introduced by Kelly and Postle, verifying a recent conjecture of Yu and Zhang. As a consequence, we obtain a degree-sequence bound on the independence number of uncrowded hypergraphs with a leading constant matching the shattering threshold.\nFor the matching lower bound, we use a hypergraph variant of the uniform attachment model and harmonic vertex weights to bound the fractional chromatic number via linear programming duality, then remove all short cycles by deleting vertices of negligible total weight. We also replace the Catalan-number argument used in the graph case with a matrix-norm estimate, simplifying the analysis.",
+   "abs": "https://arxiv.org/abs/2610.08707",
+   "pdf": "https://arxiv.org/pdf/2610.08707"
+  },
+  {
+   "id": "2610.08348",
+   "type": "cross",
+   "title": "Can one hear the shape of a lattice random walk?",
+   "authors": [
+    "Pieter Belmans",
+    "Sergey Galkin",
+    "Swarnava Mukhopadhyay"
+   ],
+   "categories": [
+    "math.PR",
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "25 pages, all comments welcome",
+   "abstract": "We construct distinct high-dimensional mean-zero finite range lattice random walks having pairwise-equal return probabilities for all step counts. The same examples provide pairwise-distinct shapes of discretizations of the standard Laplacian with pairwise-equal density state functions.\nThe main contribution is a reconstruction theorem: to a colored trivalent graph one associates a quantum Clebsch--Gordan polytope, and this association is a full functor, in particular from the polytope one can uniquely recover the original graph. These polytopes appear as moment polytopes of toric degenerations of character varieties (moduli spaces of rank-2 bundles on curves), yielding a combinatorial non-abelian Torelli theorem. In symplectic geometry, the reconstruction theorem implies that monotone Lagrangian tori on odd character varieties associated with these degenerations are pairwise non-Hamiltonian isotopic. These results, and some of the applications, arose from the study of mirror symmetry for moduli spaces of vector bundles, and of the related Laurent phenomenon for mutations of graph potentials.",
+   "abs": "https://arxiv.org/abs/2610.08348",
+   "pdf": "https://arxiv.org/pdf/2610.08348"
+  },
+  {
+   "id": "2610.07733",
+   "type": "new",
+   "title": "The maximum size of simple solid matching covered graphs",
+   "authors": [
+    "Tong Zhang",
+    "Wei Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A connected graph with at least two vertices is matching covered if each of its edges is contained in a perfect matching. A matching covered graph is solid if every separating cut in it is a tight cut. A matching covered graph which is free of nontrivial tight cuts is a brick if it is nonbipartite. Every bipartite matching covered graph is solid. Lucchesi and Murty conjectured that there exists a positive integer $N$ such that, for every integer $n\\ge N$, the maximum number of edges in a simple solid matching covered graph on $2n$ vertices is $n^2$. In this paper, we disprove this Conjecture, and show that the maximum number of edges of a simple solid matching covered graph on $2n$ ($n\\ge2$) vertices is $n^2+2$. Moreover, we characterize the graphs attaining this bound. In addition, we prove that every simple solid brick of order $2n$ has at most $n^2$ edges for $n\\ge4$.",
+   "abs": "https://arxiv.org/abs/2610.07733",
+   "pdf": "https://arxiv.org/pdf/2610.07733"
+  },
+  {
+   "id": "2610.07765",
+   "type": "cross",
+   "title": "A new bound for the Furstenberg--Sárközy theorem using the van der Corput property",
+   "authors": [
+    "Steve Fan",
+    "Andrew Lott"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "21 pages",
+   "abstract": "We show that if $A\\subseteq \\mathbb{N}\\cap[1,N]$ has no nonzero square difference, then \\[\n|A|\\ll N\\exp(-c\\sqrt{\\log N\\log\\log N}), \\] improving upon a recent result of Green and Sawhney. The proof exploits a quantitative version of the van der Corput property with signed coefficients and builds on previous constructions of Slijepčević, Slijepčević--Ninčević, and Fan-Lott. The proof of the upper bound is elementary and self-contained. We also prove a matching lower bound for the constant coefficient of any van der Corput witness for squares, showing that our quantitative van der Corput bound is sharp up to the constant $c$.",
+   "abs": "https://arxiv.org/abs/2610.07765",
+   "pdf": "https://arxiv.org/pdf/2610.07765"
+  },
+  {
+   "id": "2610.08567",
+   "type": "new",
+   "title": "The Keevash--Mubayi simplex-cluster conjecture",
+   "authors": [
+    "Yongjiang Wu",
+    "Lihua Feng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24pages",
+   "abstract": "A $d$-simplex-cluster is a collection of $d+1$ distinct $k$-element sets with empty total intersection, nonempty intersection for every $d$ members, and union of size at most $2k$. We prove the simplex-cluster conjecture of Keevash and Mubayi, a common strengthening of the Erdős--Chvátal simplex conjecture and Mubayi's cluster conjecture. More precisely, for integers $k>d\\ge2$ and $n\\ge k(d+1)/d$, every family of $k$-element subsets of an $n$-element set containing no $d$-simplex-cluster has at most $\\binom{n-1}{k-1}$ members. Equality holds if and only if the family consists of all $k$-element subsets containing a fixed point.",
+   "abs": "https://arxiv.org/abs/2610.08567",
+   "pdf": "https://arxiv.org/pdf/2610.08567"
+  },
+  {
+   "id": "2610.07379",
+   "type": "cross",
+   "title": "Property B for random non-uniform hypergraphs",
+   "authors": [
+    "Grzegorz Ryn",
+    "Jakub Kozik"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "We show that, in random hypergraphs with several permitted edge sizes, non-uniformity affects existential and algorithmic bounds for 2-colorability (Property B) in fundamentally different ways. Assigning weight $2^{-k}$ to each $k$-edge, we obtain upper and lower bounds in terms of the total edge weight that asymptotically match the uniform bounds as the minimum permitted edge size grows, regardless of how edges are distributed among sizes. We also extend the best-known algorithm for 2-coloring random uniform hypergraphs to the non-uniform setting. With weight $\\frac{k}{2^k}$ assigned to each $k$-edge, we construct non-uniform instances whose expected total edge weight per vertex is arbitrarily large, yet the algorithm finds a proper coloring asymptotically almost surely. In the uniform setting, the algorithm fails with high probability once this quantity exceeds a constant. Our construction uses sufficiently separated edge sizes, so that edges of different sizes become relevant at well-separated stages of the execution and their effects are essentially independent.",
+   "abs": "https://arxiv.org/abs/2610.07379",
+   "pdf": "https://arxiv.org/pdf/2610.07379"
+  },
+  {
+   "id": "2610.08496",
+   "type": "new",
+   "title": "A proof of the quartic Berkovich-Dhar sign-change conjecture",
+   "authors": [
+    "Shutao Jiang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages; ancillary files contain coefficient tables",
+   "abstract": "Let $P_n(q)=\\prod_{j=1}^n(1-q^{3j-2})(1-q^{3j-1})$. We prove that, after zero terms are omitted, the coefficients $[q^{3m+2}]P_n(q)^4$ change sign exactly once, from positive to negative. Together with the Second Borwein Theorem, this establishes the sign assertions in the quartic case of the Berkovich-Dhar conjecture. For $n\\ge 301$, the transition lies in an interval of length $3000/n^2$ centred at $\\alpha n^2+\\beta n+\\gamma+\\delta/n$, where $\\alpha=0.7490800947885107\\ldots$ and the four constants have explicit analytic definitions. The proof analyses the cancellation between two conjugate saddle contributions. A correction to the saddle relation controls the coefficients away from the transition, while a higher-order expansion resolves the cancellation near it. Uniform estimates in a rescaled variable cover the small-degree range.",
+   "abs": "https://arxiv.org/abs/2610.08496",
+   "pdf": "https://arxiv.org/pdf/2610.08496"
+  },
+  {
+   "id": "2610.06944",
+   "type": "cross",
+   "title": "Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions",
+   "authors": [
+    "Alper Ferudun"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CA",
+   "comments": "10 pages. AI-assisted tools were used; see the paragraph \"Use of AI tools\". Earlier version: doi:https://doi.org/10.5281/zenodo.23113437",
+   "abstract": "Benjamini asked whether every configuration of points on the real line that is in equilibrium under the inverse-square repulsive force must be an arithmetic progression. Georgakopoulos and Kolountzakis proved this when some gap between consecutive points has maximal or minimal length, and described the general (aperiodic) case as open. We show that the answer is yes. More generally, let $1<s\\le2$, and let $X\\subset\\mathbb{R}$ be a locally finite set with at least two points such that, for every $x\\in X$, the total force $\\sum_{y\\in X\\setminus\\{x\\}}|y-x|^{-s}$ is finite and the net force $\\sum_{y\\in X\\setminus\\{x\\}}\\operatorname{sgn}(y-x)\\,|y-x|^{-s}$ is zero. Then $X$ is an arithmetic progression. No a priori assumption on the gaps is needed. Subtracting the equilibrium equations of two consecutive points shows that the gaps $g_n$ form a positive harmonic function for an explicit reversible random walk on $\\mathbb{Z}$ with long-range jumps. Equilibrium also bounds the ratio of consecutive gaps, by $1.5386\\ldots$ when $s=2$. With this bound, an energy estimate shows that the Doob transform of the walk by $g$ is recurrent. Since $1/g$ is a positive harmonic function of the transformed walk, it is constant.",
+   "abs": "https://arxiv.org/abs/2610.06944",
+   "pdf": "https://arxiv.org/pdf/2610.06944"
+  },
+  {
+   "id": "2610.06933",
+   "type": "new",
+   "title": "Cubic vertices in minimal braces",
+   "authors": [
+    "Yipei Zhang",
+    "Xiumei Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Braces play a fundamental role in matching theory, as they, together with bricks, constitute the basic building blocks of matching covered graphs in the tight cut decomposition. A brace is minimal if deleting any edge from it results in a graph that is not a brace. We prove that every perfect matching of a minimal brace of order at least six contains an edge whose ends both have degree three. Consequently, every such brace has at least three edges with this property. Combining this result with the forest structure induced by the noncubic vertices, we show that every minimal brace $G$ of order $n\\ge6$ and size $m$, other than $K_{3,3}$, satisfies $n_3(G)\\ge\\max\\left\\{8,\\left\\lceil\\frac{2n+8}{5}\\right\\rceil, \\left\\lceil\\frac{m-n+4}{2}\\right\\rceil\\right\\}$, where $n_3(G)$ is the number of cubic vertices of $G$. Finally, we characterize the graphs attaining the constant lower bound: a minimal brace has exactly eight cubic vertices if and only if it is isomorphic to $B_8$, $B_{10}$, $Q_{10}^{+}$, or $Q_{12}$.",
+   "abs": "https://arxiv.org/abs/2610.06933",
+   "pdf": "https://arxiv.org/pdf/2610.06933"
+  },
+  {
+   "id": "2610.07924",
+   "type": "new",
+   "title": "A forbidden-induced-subgraph characterization of beautiful graphs",
+   "authors": [
+    "Henning Wunderlich"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is beautiful if each of its induced subgraphs is the intersection graph of all maximal nonempty 1-rectangles of a binary matrix, with adjacency defined by a common cell. Beautiful graphs were introduced as a hereditary class of Berge graphs, but a complete forbidden-induced-subgraph characterization was not obtained. We prove that a finite graph is beautiful if and only if it has no induced $C_4$, gem, net, watch, or odd hole. More precisely, these graphs are exactly the $C_4$-free comparability graphs admitting a partial order in which every interval is a chain. The proof constructs such an order from inclusion-maximal closed neighbourhoods: their representatives induce a bipartite graph whose domination regions admit compatible orientations. One order matrix then represents the graph and, through its principal submatrices, every induced subgraph. The representation step is formulated using classical double-bound graphs and the established correspondence between maximal bicliques and interval-intersection-closed posets. Consequences include polynomial-time recognition, the exact minimal obstruction families, and a corrected characterization in the $K_4$-free case.",
+   "abs": "https://arxiv.org/abs/2610.07924",
+   "pdf": "https://arxiv.org/pdf/2610.07924"
+  },
+  {
+   "id": "2610.07303",
+   "type": "new",
+   "title": "Complexes of pattern-avoiding injective words",
+   "authors": [
+    "Sergi Elizalde",
+    "Philip Hanlon",
+    "Patricia Hersh"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The complex of injective words is a cell complex that arises in a number of different areas. It has applications to proving homological stability and to the study of group cohomology, and it is closely related to the random-to-random Markov chain. This complex was first studied by Farmer, who proved it has the homology of a wedge of top-dimensional spheres. Later, Björner and Wachs established its shellability, and Reiner and Webb uncovered its $S_n$-module structure, observing in the process that the rank of its top homology group is the $n$th derangement number.\nWe introduce natural subcomplexes of the complex of injective words by fixing a permutation pattern $\\sigma$ and considering only those injective words in the alphabet $\\{1,2,\\dots,n\\} $ that avoid $\\sigma$. We prove that such pattern-avoiding complexes are shellable if $\\sigma$ begins or ends with its largest or smallest letter, and we construct homology bases for the complexes avoiding such patterns. For patterns of length 3, all of which have this property, we show that the rank of the top homology of the resulting complex is a Riordan number. All but four patterns of length 4 also have this property, and for two of the remaining four patterns, we establish shellability using a different method.\nWe also introduce a technique to use enumerative combinatorics to prove shellability, and we apply it to the complex of separable injective words, thereby deducing shellability in this case. Along the way, we give a combinatorial formula for all of the $h$-numbers in the full complex of injective words as well as for each of the subcomplexes which we prove are shellable. Going in the other direction, we use shellability of complexes of pattern-avoiding injective words to deduce new refined counting formulas for pattern-avoiding permutations.",
+   "abs": "https://arxiv.org/abs/2610.07303",
+   "pdf": "https://arxiv.org/pdf/2610.07303"
+  },
+  {
+   "id": "2610.07741",
+   "type": "cross",
+   "title": "Sharp Asymptotics for the Solvability Probability of Random Stable Roommates",
+   "authors": [
+    "Caden Young",
+    "Ian Studebaker"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "For even $n$, let $P_n$ be the probability that independent uniform strict preference lists on $n$ participants admit a stable perfect matching. We prove \\[\nP_n\\sim\\frac{e\\,2^{1/4}\\Gamma(3/4)}{\\sqrt\\pi}\\,n^{-1/4}. \\] This establishes Mertens's conjectured exponent of decay, with a leading constant different from his original numerical prediction. The proof starts from Mertens's exact alternating sum over stable permutations. To preserve its cancellation, we construct a common approximation for all cycle structures with the same number of vertices in cycles longer than two. By symmetry, the integrated first-order correction is the same for every such cycle structure, and the remaining errors can be summed in absolute value. The enumeration then reduces the probability to a one-dimensional sum with positive terms.",
+   "abs": "https://arxiv.org/abs/2610.07741",
+   "pdf": "https://arxiv.org/pdf/2610.07741"
+  },
+  {
+   "id": "2610.07318",
+   "type": "new",
+   "title": "A note on the list chromatic number of two matroids",
+   "authors": [
+    "Bence Garami"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study list coloring of common independent sets of two matroids. We construct a graphic matroid $M_1$ and a partition matroid $M_2$ with common chromatic number two and common list chromatic number three, showing that the two parameters need not be equal. This resolves a question raised by Király, later stated as a conjecture by Aharoni, Berger, Guo, and Kotlar. We also show that if two strongly base-orderable matroids are each $2$-colorable, then their intersection is $2$-list-colorable.",
+   "abs": "https://arxiv.org/abs/2610.07318",
+   "pdf": "https://arxiv.org/pdf/2610.07318"
+  },
+  {
+   "id": "2610.07488",
+   "type": "new",
+   "title": "Separating Path Systems of Size at most $7.75n$",
+   "authors": [
+    "Daniel W. Cranston",
+    "Jared Noyman",
+    "Gexin Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A family of paths in a graph $G$ strongly separates the edges of $G$ if for every ordered pair of distinct edges $(e,f)$ some path in the family contains $e$ and avoids $f$; the minimum size of such a family is denoted by $\\operatorname{ssp}(G)$. Bonamy, Botler, Dross, Naia, and Skokan proved, for every $n$-vertex graph $G$, that $\\operatorname{ssp}(G)\\le 19n$; Liu, Xu, and Yang recently improved this to $\\operatorname{ssp}(G)\\le 10n-o(n)$. We prove, for every $n$-vertex graph $G$, that $\\operatorname{ssp}(G)\\le 7.75n$.",
+   "abs": "https://arxiv.org/abs/2610.07488",
+   "pdf": "https://arxiv.org/pdf/2610.07488"
+  },
+  {
+   "id": "2610.07034",
+   "type": "new",
+   "title": "Tree packing and the graphic Additive Base Conjecture",
+   "authors": [
+    "Amir Jafari"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Tutte's flow conjectures ask when a graph has a nowhere-zero flow with small integer values. We approach these questions through spanning-tree packing. A common analytic argument recovers Seymour's six-flow theorem, the three-flow theorem for six-edge-connected graphs, and the four-flow theorem for graphs with two edge-disjoint spanning trees. Its main new consequence is a prescribed-orientation theorem: for every integer $q\\ge2$, $q$ edge-disjoint spanning trees suffice to realize every compatible outdegree prescription modulo $q$. For odd prime moduli this proves the graphic Additive Base Conjecture. A version with prescribed ranges of edge values gives sharp circular-flow bounds from tree packing and a bound in terms of cycle rank that is strictly below six for connected bridgeless graphs. We also examine a reformulation of the five-flow conjecture on graphs obtained by tripling every edge of a three-edge-connected cubic graph. A $46$-vertex graph with fractional spanning-tree packing number $41/9$ and no modulo-five orientation shows that packing greater than $9/2$ alone does not guarantee such an orientation for arbitrary graphs. The proof combines the minimization method of Alon, Bucić, and Davies with integral rounding.",
+   "abs": "https://arxiv.org/abs/2610.07034",
+   "pdf": "https://arxiv.org/pdf/2610.07034"
+  },
+  {
+   "id": "2610.07099",
+   "type": "new",
+   "title": "Real-rootedness of Kazhdan--Lusztig polynomials of sparse paving matroids",
+   "authors": [
+    "Philip B. Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every nonconstant Kazhdan--Lusztig polynomial of a sparse paving matroid has only simple negative zeros. For each rank $d\\ge5$, the Kazhdan--Lusztig polynomial of the uniform matroid of rank $d-2$ on $d$ elements strictly interlaces those of all sparse paving matroids of rank $d$ and corank at least two.",
+   "abs": "https://arxiv.org/abs/2610.07099",
+   "pdf": "https://arxiv.org/pdf/2610.07099"
+  },
+  {
+   "id": "2610.07840",
+   "type": "new",
+   "title": "A proof of the Erdős--Gallai cycle decomposition conjecture",
+   "authors": [
+    "Jaehoon Kim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In the 1960s, Erdős and Gallai conjectured that the edges of every $n$-vertex graph can be decomposed into $O(n)$ cycles and edges. We prove this conjecture. Equivalently, every Eulerian graph on $n$ vertices can be decomposed into $O(n)$ cycles, which confirms Hajós' conjecture up to a constant factor.",
+   "abs": "https://arxiv.org/abs/2610.07840",
+   "pdf": "https://arxiv.org/pdf/2610.07840"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 52,
+ "listed_cross": 22
+}
