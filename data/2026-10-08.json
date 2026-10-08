@@ -1,0 +1,571 @@
+{
+ "date": "2026-10-08",
+ "generated_at": "2026-10-08T03:02:15Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-08",
+ "screened": 60,
+ "screened_new": 37,
+ "screened_cross": 23,
+ "scored": 60,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.09443",
+   "type": "new",
+   "title": "Characterizing chordal $\\llcorner$-EPG graphs via admissible clique tree orientations",
+   "authors": [
+    "Bin Sun",
+    "Shou-Jun Xu",
+    "Yu Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages, 8 figures",
+   "abstract": "A $k$-bend path is a non-self-intersecting polyline that lies on a grid and consists of at most $k+1$ axis-parallel line segments. An $\\llcorner$-EPG graph is a graph whose vertices can be represented by 1-bend paths on a grid, where each path is either $\\llcorner$, $\\shortmid$, or $\\text{-}$, such that two vertices are adjacent if and only if the corresponding paths share at least one grid edge. Characterizing chordal $\\llcorner$-EPG graphs was explicitly posed as an open problem by Cameron, Chaplick, and Hoàng. We resolve this by giving two equivalent characterizations of connected chordal $\\llcorner$-EPG graphs. The first assigns to every connected chordal $\\llcorner$-EPG graph an ordered clique partition tree of its vertex set, where the underlying tree is the bipartite incidence graph of the horizontal and vertical edge-intersection components. The second is stated purely in terms of maximal cliques: a connected chordal graph is $\\llcorner$-EPG if and only if some clique tree admits an admissible partial orientation. A reduction lemma replaces local clique labels by maximal cliques, linking the two characterizations. For a prescribed clique tree, the existence of an admissible partial orientation reduces to 2-SAT and is decided in $O(nM^2)$ time, where $n$ and $M$ are the numbers of vertices and maximal cliques. Finally, we show that strong chordality is not sufficient: we exhibit a strongly chordal graph that is a minimal forbidden induced subgraph for $\\llcorner$-EPG, and a family of split graphs with a unique clique tree for which membership in $\\llcorner$-EPG reduces to a neighborhood condition.",
+   "abs": "https://arxiv.org/abs/2610.09443",
+   "pdf": "https://arxiv.org/pdf/2610.09443"
+  },
+  {
+   "id": "2610.09939",
+   "type": "new",
+   "title": "Reconstruction of slices of cubes",
+   "authors": [
+    "Marie-Charlotte Brandenburg",
+    "Juliana Curtis",
+    "Chiara Giardino",
+    "Chiara Meroni",
+    "Arnau Padrol"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the combinatorial type of a slice of the cube by a hyperplane is completely determined by its graph, within the class of cube slices. We also show that such a result cannot extend to slices of arbitrary simple polytopes by constructing a simple polytope that has two combinatorially distinct slices with isomorphic graphs.",
+   "abs": "https://arxiv.org/abs/2610.09939",
+   "pdf": "https://arxiv.org/pdf/2610.09939"
+  },
+  {
+   "id": "2610.09483",
+   "type": "new",
+   "title": "Graph Sensitivity of Cartesian Products with Matched Bridges",
+   "authors": [
+    "Zhen-Mu Hong",
+    "Zi-Yi Wu",
+    "Zheng-Jiang Xia"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "For a graph $G$, let $f_t(G)$ denote the minimum of the maximum degree of an induced subgraph with $\\alpha(G)+t$ vertices, where $\\alpha(G)$ is the independence number, and write $f(G)=f_1(G)$. Huang's theorem gives $f(Q_k)\\ge\\lceil\\sqrt{k}\\rceil$ for the $k$-dimensional hypercube $Q_k$. We extend this lower bound to Cartesian products of $k$ bipartite graphs with perfect matchings and prove that equality holds when the factors are connected and each has a matched bridge. In particular, we prove that $f(T_1\\Box\\cdots\\Box T_k)=\\lceil\\sqrt{k}\\rceil$ whenever each $T_i$ is a tree with a perfect matching. We determine the sensitivity of every Cartesian product of paths, settling the even-path case left open by Zeng and Hou [J. Graph Theory 107 (2024), 169--180]. For these tree products, with $D=\\lceil\\sqrt{k}\\rceil$, we also prove that $f_t(T_1\\Box\\cdots\\Box T_k)=D$ whenever $1\\le t\\le 2^{D-\\lceil\\log_2D\\rceil-1}$. When $t=2$, this equality holds for all $k\\ge 2$, provided that at least one factor is not $K_2$. Matching cuts give an additional exact range for products of even-order paths. Finally, we prove that $f_2(Q_k)=\\lceil\\sqrt{k}\\rceil$ for every $k\\ge 2$ with $k\\not\\in \\{4,9\\}$, whereas $f_2(Q_4)=3$ and $3\\le f_2(Q_9)\\le 4$.",
+   "abs": "https://arxiv.org/abs/2610.09483",
+   "pdf": "https://arxiv.org/pdf/2610.09483"
+  },
+  {
+   "id": "2610.08949",
+   "type": "new",
+   "title": "Primitive periods in greedy chip-firing games",
+   "authors": [
+    "Zheng Huang",
+    "Anyuan Tian"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "For a finite irreducible rational transition matrix $P=(P_{ij})$ on $n$ states, the hunger game introduced by Li and Propp is a greedy chip-firing process in which each state $i$ carries a real-valued hunger $h_i$. At each step, a state $i$ of maximal hunger is selected, with ties resolved by a fixed order on the states. Firing $i$ subtracts one from its hunger and then adds $P_{ij}$ to the hunger of each state $j$. Let $\\pi$ be the stationary distribution of $P$, and let $T$ be the least positive integer such that $T\\pi$ is integral. We prove that every periodic orbit has least period $T$, with state $i$ firing $T\\pi_i$ times, and that the set of periodic states of total hunger zero tiles the corresponding hyperplane by lattice translations. These results settle two conjectures of Li and Propp. We also prove an analogous least-period theorem for nontrivial periodic orbits of fixed-priority chip-firing on finite strongly connected digraphs, another greedy chip-firing model. We then find a connection between the hunger game and the chairman assignment problem: the greedy rule that always chooses the state furthest below its proportional target is precisely a rank-one hunger game. Motivated by this application and related allocation rules, we generalize the hunger game by assigning each state a score that is a nondecreasing function of its hunger and firing a state of maximal score each time. For these monotone-score hunger games, we prove that every periodic orbit still has least period $T$ and give a sufficient condition for eventual periodicity from every initial state.",
+   "abs": "https://arxiv.org/abs/2610.08949",
+   "pdf": "https://arxiv.org/pdf/2610.08949"
+  },
+  {
+   "id": "2610.10416",
+   "type": "new",
+   "title": "The local dynamical structure of $Δ^*$ sets via a new Furstenberg family algebra",
+   "authors": [
+    "Angelina Blahodatna",
+    "Lauren Detmold",
+    "Daniel Glasscock",
+    "Anh N. Le"
+   ],
+   "categories": [
+    "math.CO",
+    "math.DS"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages; verification code at this https URL",
+   "abstract": "In this paper, we strengthen the connection between the combinatorics of difference sets and the dynamics of group rotations. Our main result shows that sets which have non-empty intersection with all difference subsets of a commutative semigroup possess local Bohr structure. This generalizes results of Bergelson, Furstenberg, and Weiss and Host and Kra from the integers to arbitrary commutative semigroups. We accomplish this by A) utilizing a recent result showing that the regionally proximal relation is an equivalence relation for minimal actions of commutative semigroups and by B) describing a new, DeMorgan-type algebra on Furstenberg families that allows for efficient manipulation and computation. We formally verify all of the results in this paper in Lean. The main results are verified in a Palomar submission, and we link to a Github repository containing code for the complete verification.",
+   "abs": "https://arxiv.org/abs/2610.10416",
+   "pdf": "https://arxiv.org/pdf/2610.10416"
+  },
+  {
+   "id": "2610.09121",
+   "type": "cross",
+   "title": "Limit of the octahedron recurrence with GUE boundary data",
+   "authors": [
+    "Hariharan Narayanan"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "123 pages, 16 figures",
+   "abstract": "We study the tropical octahedron recurrence on the lattice tetrahedron $\\{(x_1,x_2,x_3,x_4)\\in\\mathbb Z_{\\geq0}^4: x_1+x_2+x_3+x_4=n\\}$ with an intrinsic double-hive boundary law. Let $M_1^{(n)},M_2^{(n)},M_3^{(n)}$ be independent standard $n\\times n$ GUE matrices and, for fixed $\\ell_1,\\ell_2,\\ell_3>0$, set $ X_r^{(n)}=\\ell_r\\sqrt n\\,M_r^{(n)},\\qquad r=1,2,3. $ The boundary law on the two upper panels is the Gibbs density on the cone of double hives whose four exterior sides correspond, in the prescribed orientations, to the spectra of $X_1^{(n)},X_2^{(n)},X_3^{(n)}$, and $X_1^{(n)}+X_2^{(n)}+X_3^{(n)}$. We then perform an octahedron-recurrence sweep to obtain the value at every lattice point of the tetrahedron. After scaling lattice positions by $n^{-1}$ and recurrence values by $n^{-2}$, we prove that the resulting random field converges uniformly in probability to a deterministic Lipschitz function on $\\{(x_1,x_2,x_3,x_4)\\in\\mathbb R_{\\geq0}^4: x_1+x_2+x_3+x_4=1\\}$. For every strictly interior target lattice point we construct a canonical planar bipartite graph supported on a union of three triangular panels and prove an exact perfect-matching formula for the recurrence value. Its variable weights are explicit interlacing gaps from the minor processes of $X_1^{(n)},X_2^{(n)},X_3^{(n)}$, together with explicit seam and matching-independent terms. The asymptotic analysis of this formula yields a surface-tension variational characterization of the deterministic limit. This matching rule supplies, in the present four-simplex setting, the kind of higher-dimensional combinatorial formula identified as a major cluster-algebra problem by Henriques and Speyer.",
+   "abs": "https://arxiv.org/abs/2610.09121",
+   "pdf": "https://arxiv.org/pdf/2610.09121"
+  },
+  {
+   "id": "2610.09649",
+   "type": "new",
+   "title": "Melnikov's Valency Variety Problem",
+   "authors": [
+    "Zhanping Yang",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $w(G)$ denote the number of distinct vertex degrees of a finite simple graph $G$. Melnikov asked for a lower bound on the chromatic number $\\chi(G)$ in terms of $|V(G)|$ and $w(G)$, and conjectured a strict bound of this type. We resolve Melnikov's valency-variety problem by proving that every graph $G$ with at least two vertices satisfies\n\\begin{equation*} \\chi(G)\\ge\\left\\lceil1+\\frac{2w(G)(w(G)-1)}{4w(G)(|V(G)|-w(G))+(|V(G)|-w(G)-1)^2}\\right\\rceil,\n\\end{equation*}\nand consequently\n\\begin{equation*}\n\\chi(G)\\ge\\left\\lceil\\frac{\\lfloor w(G)/2\\rfloor}{|V(G)|-w(G)}\\right\\rceil.\n\\end{equation*} Finally, we also construct an explicit infinite family of graphs attaining equality in both bounds. In particular, these examples show that Melnikov's proposed strict inequality is false and that the bounds above are best possible.",
+   "abs": "https://arxiv.org/abs/2610.09649",
+   "pdf": "https://arxiv.org/pdf/2610.09649"
+  },
+  {
+   "id": "2610.10433",
+   "type": "new",
+   "title": "The replica symmetric solution for hypergraph independent sets in the critical regime",
+   "authors": [
+    "Matthew Jenssen",
+    "Will Perkins",
+    "Aditya Potukuchi",
+    "Michael Simkin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "48 pages",
+   "abstract": "We prove a variational formula for the logarithmic asymptotics of a non-existence probability in a broad class of combinatorial problems such as avoiding cliques in random graphs and $k$-term arithmetic progressions in random subsets of integers. These results follow from a formula for the probability that a binomial random subset of the vertices of a locally sparse hypergraph is an independent set. The formula holds throughout the critical regime, interpolating between the regimes in which Janson's inequality and the method of hypergraph containers give the respective asymptotics. The formula is the replica-symmetric Bethe free energy formula from statistical physics applied to a hypergraph hardcore model.\nThe proof uses two new techniques. The first, for the upper bound, involves revealing a small `window' of a random independent set and then applying entropy methods. The second, for the lower bound, involves the analysis of a random greedy algorithm guided by a Belief Propagation fixed point.\nIn the case of avoiding cliques in random graphs, the variational formula can be expressed as an optimization problem over graphons. Moreover, typical random graphs conditioned on not containing $K_r$, when suitably normalized, approach the set of optimizing graphons in cut distance.",
+   "abs": "https://arxiv.org/abs/2610.10433",
+   "pdf": "https://arxiv.org/pdf/2610.10433"
+  },
+  {
+   "id": "2610.09349",
+   "type": "new",
+   "title": "A near-quadratic lower bound for sets with no unique sums",
+   "authors": [
+    "Jianfeng Hou",
+    "Kai Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $m(p)$ be the least size of a subset of $\\F_p$ with at least two elements for which every sum has two distinct representations as unordered pairs, allowing repetition. We prove that, for every prime $p\\ge64$, \\[\nm(p)\\ge2^{-80}\\left(\\frac{\\log p}{\\log\\log p}\\right)^2. \\] The argument compresses the full integer collision lattice by unit-pivot elimination. A shared random sample and forests of bounded diameter give $O(\\sqrt n+n/\\log p)$ surviving coordinates of polynomial height for a minimal set of size $n$. A nonzero minor divisible by $p$ then gives the lower bound. We also construct weakly ternary-balanced seeds yielding \\[\nm(p)\\le\\frac{(\\log p)^2}{2(\\log3)^2}\n+\\left(\\frac1{4\\log3}+o(1)\\right)\n\\frac{(\\log p)^2}{\\log\\log p}. \\] Consequently $m(p)=(\\log p)^{2+o(1)}$ as $p$ tends to infinity through the primes. The constant-factor order of $m(p)$ remains undetermined.",
+   "abs": "https://arxiv.org/abs/2610.09349",
+   "pdf": "https://arxiv.org/pdf/2610.09349"
+  },
+  {
+   "id": "2610.10424",
+   "type": "new",
+   "title": "A counting version of Petersen's $2$-factor theorem",
+   "authors": [
+    "Hyunwoo Lee"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "A classical result of Petersen states that every regular graph of even degree has a $2$-factor. We prove that every $n$-vertex $2r$-regular simple graph contains at least $\\left((1 + o_r(1))\\frac{2r}{e}\\right)^n$ distinct $2$-factors. This improves the previously known lower bound $\\left((1 + o_r(1))\\frac{r}{e}\\right)^n$ by a factor of $2^{(1 + o(1))n}$ and is asymptotically tight for large $r$. As a direct consequence, we determine asymptotically tight bounds on the number of $2$-factorizations of a given $2r$-regular simple graph for every sufficiently large $r$.",
+   "abs": "https://arxiv.org/abs/2610.10424",
+   "pdf": "https://arxiv.org/pdf/2610.10424"
+  },
+  {
+   "id": "2610.09169",
+   "type": "cross",
+   "title": "Conference signals: Applications, existence, and constructions",
+   "authors": [
+    "Kean Fallon",
+    "Joseph W. Iverson"
+   ],
+   "categories": [
+    "math.FA",
+    "math.CO"
+   ],
+   "primary": "math.FA",
+   "comments": "",
+   "abstract": "A conference signal is a complex-valued function on a finite abelian group that vanishes at 0 in both the time and frequency domains, and is otherwise flat in both domains. For example, the Legendre symbol is a conference signal on $\\mathbb{Z}_p$ since it vanishes at $0$, takes values $\\pm 1$ away from zero, and is a scalar multiple of its Fourier transform. More generally, any nontrivial multiplicative character on a finite field is a conference signal on its additive group.\nUntil now, conference signals have mainly been studied by number theorists, who wanted to know if multiplicative characters were the only conference signals on finite fields. The state of the art uses fancy tools from symplectic geometry to prove that non-character conference signals exist on non-small fields. The same tools show conference signals exist on every abelian group of odd order, without saying what they are.\nIn this (human-friendly!) paper, we explain how conference signals produce other objects of interest in algebraic combinatorics and applied harmonic analysis, and then we present some new, explicit constructions of conference signals on $\\mathbb{Z}_n$. In particular, we give the first explicit conference signals for composite $n$ and the first explicit non-character examples for prime $n$.",
+   "abs": "https://arxiv.org/abs/2610.09169",
+   "pdf": "https://arxiv.org/pdf/2610.09169"
+  },
+  {
+   "id": "2610.08914",
+   "type": "new",
+   "title": "Positivity for graph Laurent phenomenon algebras",
+   "authors": [
+    "Ross Glew"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages, 0 figures",
+   "abstract": "Laurent phenomenon algebras were introduced by Lam and Pylyavskyy as a generalisation of cluster algebras. For a family associated with directed graphs, they showed that every cluster variable is a Laurent polynomial in the variables of any cluster and conjectured that these expansions have nonnegative coefficients. We prove this conjecture for all directed graphs without loops or multiple edges with respect to an arbitrary seed cluster.",
+   "abs": "https://arxiv.org/abs/2610.08914",
+   "pdf": "https://arxiv.org/pdf/2610.08914"
+  },
+  {
+   "id": "2610.10292",
+   "type": "new",
+   "title": "A near-linear Chvátal--Erdős condition for Hamilton cycles in digraphs",
+   "authors": [
+    "Chengli Li",
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a digraph $D$, let $\\alpha_2(D)$ be the largest size of a vertex set containing no directed $2$-cycle. Let $f_2(a)$ be the least positive integer $k$ such that every $k$-strongly connected digraph $D$ with $\\alpha_2(D)\\le a$ has a Hamilton cycle. Jackson and Ordaz conjectured that $f_2(a)\\le a+1$. Towards this conjecture, we establish the near-linear bound $f_2(a)=O\\!\\left(\\frac{a(\\log a)^4}{(\\log\\log a)^2}\\right),$ and hence $f_2(a)=O_\\varepsilon(a^{1+\\varepsilon})$ for every fixed $\\varepsilon>0$. We also disprove the pancyclicity conjecture of Jackson and Ordaz that every digraph $D$ with $\\kappa(D)\\ge\\alpha_2(D)+1$ contains a directed cycle of every length from $2$ to $|V(D)|$.",
+   "abs": "https://arxiv.org/abs/2610.10292",
+   "pdf": "https://arxiv.org/pdf/2610.10292"
+  },
+  {
+   "id": "2610.09135",
+   "type": "cross",
+   "title": "Random $3$-regular graphs are not globally synchronizing",
+   "authors": [
+    "Ciro Carvallo",
+    "Pablo Groisman",
+    "Dieter Mitsche"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "We study the homogeneous Kuramoto model on random 3-regular graphs. A connected graph $G$ is globally synchronizing if, for almost every initial condition, the gradient flow converges to a fully synchronized state, in which all phases coincide. It has been conjectured by Bandeira [Oberwolfach Rep. 21 (2024) 1163-1226] that a random 3-regular graph $G_{2n,3}$ is globally synchronizing with high probability. We disprove this conjecture in a strong way: $G_{2n,3}$ is not globally synchronizing with probability tending to 1.",
+   "abs": "https://arxiv.org/abs/2610.09135",
+   "pdf": "https://arxiv.org/pdf/2610.09135"
+  },
+  {
+   "id": "2610.09362",
+   "type": "new",
+   "title": "The Higher-order Stirling Triangles",
+   "authors": [
+    "William Y.C. Chen",
+    "Elena L. Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "40 pages",
+   "abstract": "The $r$th-order Stirling cycle and subset triangles and their associated quasi-Eulerian triangles were introduced by Deb and Sokal in their study of total positivity of combinatorial triangles. They found combinatorial interpretations for the cycle case in terms of Stirling permutations, leaving the subset case open. For $r\\ge 2$, we resolve this problem by introducing the notion of Stirling subset permutations along with a consecutive-descent statistic. We also prove the conjectures of Deb and Sokal on the row log-concavity of the higher-order Stirling cycle and subset triangles. Our log-concavity proofs rely on Sagan's criterion, Dey's extension, and strengthened log-concavity inequalities discovered with the assistance of ChatGPT 5.6.",
+   "abs": "https://arxiv.org/abs/2610.09362",
+   "pdf": "https://arxiv.org/pdf/2610.09362"
+  },
+  {
+   "id": "2610.09506",
+   "type": "cross",
+   "title": "Mixing Times of Switch Chains via High-Dimensional Expansion",
+   "authors": [
+    "Sawyer Jack Robertson"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "52 pages, 3 figures",
+   "abstract": "The switch chain is a Markov chain defined on the set of labelled realizations of a given graphical degree sequence. At each step, a pair of vertex-disjoint edges is chosen at random and the process attempts to replace them with a uniformly chosen perfect matching of the same four vertices, rejecting any proposal that would create a multiple edge. The resulting process is reversible with respect to the uniform distribution on all realizations. We investigate the mixing time of this chain by viewing realizations as the facets of a simplicial complex and studying a variant of the original process called the simplicial switch chain, which we analyze using tools from the theory of high-dimensional expansion. Our technical contributions include a proof that links of faces of sufficiently high codimension are strong spectral expanders and a comparison between the Dirichlet energies of large block updates and two-edge updates.\nOur main result is an $O(\\Delta^{2}m\\log m)$ bound on the mixing time of both simplicial and classical switch chains whenever $m\\ge C\\Delta^{8}$, where $m$ is the number of edges, $\\Delta$ is the maximum prescribed degree, and $C>0$ is an absolute constant. For sequences on $n$ vertices with fixed maximum degree, this proves that the chain mixes in $O(n\\log n)$ steps, resolving a longstanding conjecture of Cooper, Dyer, and Greenhill and extending its conclusion to irregular degree sequences.",
+   "abs": "https://arxiv.org/abs/2610.09506",
+   "pdf": "https://arxiv.org/pdf/2610.09506"
+  },
+  {
+   "id": "2610.09365",
+   "type": "new",
+   "title": "A linear bound for a connectivity partition in graphs",
+   "authors": [
+    "Jia Zhou",
+    "Jin Yan",
+    "Yunshu Gao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "Kühn and Osthus proved that, for every positive integer $\\ell$, every $2^{16}\\ell^2$-connected graph $G$ has a partition $V(G)=S\\cup T$ such that $G[S]$ and $G[T]$ are $\\ell$-connected and $d_T(v)\\geq \\ell$ for every $v\\in S$. And they asked whether the quadratic bound can be replaced by a linear bound. In this paper, we answer this question in the affirmative by proving that every $641\\ell$-connected graph $G$ has a partition $V(G)=S\\cup T$ such that $G[S]$ and $G[T]$ are $\\ell$-connected and $d_T(v)\\ge \\ell$ for every $v\\in S$. The proof integrates the Moser-Tardos resampling algorithm.",
+   "abs": "https://arxiv.org/abs/2610.09365",
+   "pdf": "https://arxiv.org/pdf/2610.09365"
+  },
+  {
+   "id": "2610.09648",
+   "type": "new",
+   "title": "An asymptotically tight bound on oriented diameter",
+   "authors": [
+    "Jiangdong Ai",
+    "Yaojun Chen",
+    "Yaokun Feng",
+    "Hui Lei",
+    "Jifu Lin",
+    "Zijian Ren",
+    "Xiaolin Wang",
+    "Ruilin Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages",
+   "abstract": "Let $f(d)$ be the smallest integer such that every finite connected bridgeless simple graph of diameter $d$ admits a strong orientation of diameter at most $f(d)$. Chvátal and Thomassen (1978) proved $\\lceil d^2/2\\rceil+d\\le f(d)\\le2d^2+2d$. In this paper, we prove that $\\lceil d^2/2\\rceil+d\\le f(d)\\le\\lceil d^2/2\\rceil+d+18$ for every $d\\ge2$, which shows that $f(d)=\\lceil d^2/2\\rceil+d+O(1)$ and determines both the quadratic and linear terms up to a bounded additive error.\nThe key method of our proof is to construct a central subgraph $H$ that admits a strong orientation of diameter $O(d)$ and is within distance $\\lfloor d/2\\rfloor$ of every vertex outside it. We obtain the sharp linear coefficient by jointly estimating outside paths and their connecting paths in $H$ at the actual attachment vertices, rebuilding $H$ when necessary.",
+   "abs": "https://arxiv.org/abs/2610.09648",
+   "pdf": "https://arxiv.org/pdf/2610.09648"
+  },
+  {
+   "id": "2610.09380",
+   "type": "cross",
+   "title": "The singularity probability of dense random regular graphs",
+   "authors": [
+    "Zeyan Song",
+    "Hanchao Wang",
+    "Shengyan Yin",
+    "Kexin Yu"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "Let $G_{n,d}$ be a uniformly random simple $d$-regular graph on $n$ vertices, and let $A_n$ be its adjacency matrix. For every fixed $\\lambda\\in(0,1/2)$, we prove that for any $\\lambda(n-1)\\le d\\le(1-\\lambda)(n-1)$, $\\mathbb P(A_n\\text{ is singular})\\le e^{-cn}$, where $c>0$ depends only on $\\lambda$, and $n$ is sufficiently large with $nd$ even.",
+   "abs": "https://arxiv.org/abs/2610.09380",
+   "pdf": "https://arxiv.org/pdf/2610.09380"
+  },
+  {
+   "id": "2610.10233",
+   "type": "new",
+   "title": "Nonlinear lower-tail large deviations at criticality",
+   "authors": [
+    "Matthew Kwan",
+    "Huy Tuan Pham"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We introduce general methods to derive lower tail large deviation principles, for a variety of nonlinear problems of combinatorial interest. These methods are especially effective in \"critical\" regimes, where the nonlinearities are not sparse enough for Poissonian lower tails (e.g., Janson's inequality does not provide a sharp tail bound), but the situation is not so dense that combinatorial effects dominate (e.g., we cannot directly apply the theory of hypergraph containers or the relative entropy framework of Kozma-Samotij). In particular, these are regimes where one expects interesting phase transitions to occur.\nOur results have a number of consequences related to subgraphs in random graphs, answering various questions of Warnke and Jenssen-Perkins-Potukuchi-Simkin. For example, consider a random graph $G\\sim \\mathbb G(n,p)$, and let $L_\\triangle(n,p)=\\log\\Pr[G\\text{ is triangle-free}]$. The first-order asymptotics of $L_\\triangle(n,p)$ have long been known in all parameter ranges except the critical regime where $p$ has order of magnitude $1/\\sqrt n$. We are able to fill this gap: for any fixed $c>0$, we show that $n^{-3/2}L_\\triangle(n,c/\\sqrt n)$ converges to a limit expressed in terms of a two-parameter variational problem, which has a single phase transition at $c\\approx 4.341$. In contrast, we show that there is no such phase transition for the probability that $G$ is $C_{2\\ell}$-free, for any fixed even cycle $C_{2\\ell}$.\nWe also obtain some applications in combinatorial design theory. Addressing conjectures of Glock-Kühn-Lo-Osthus, Kelly, and Kwan-Sah-Sawhney-Simkin, we obtain new estimates on the number of order-$n$ Steiner triple systems with no Pasch configuration and the number of order-$n$ Latin squares with no $2\\times 2$ Latin subsquare (both tight up to a factor of $\\exp(o(n^2))$).",
+   "abs": "https://arxiv.org/abs/2610.10233",
+   "pdf": "https://arxiv.org/pdf/2610.10233"
+  },
+  {
+   "id": "2610.09864",
+   "type": "new",
+   "title": "The $O(m^{2/3})$ error term for judicious partitions of 3-uniform hypergraphs",
+   "authors": [
+    "Siwei Lin",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $k\\ge2$ be a fixed integer. Bollobás and Scott proved that every $3$-uniform hypergraph with $m$ edges admits a partition of its vertex set into $k$ parts such that each part spans at most $m/k^3+O_k(m^{6/7})$ edges. Scott later suggested that the error term should be $O_k(m^{2/3})$. In this paper, we show that every $3$-uniform hypergraph with $m$ edges admits a partition into $k$ parts such that each part spans at most $m/k^3+O_k(m^{2/3})$ edges, thereby establishing the proposed error term.",
+   "abs": "https://arxiv.org/abs/2610.09864",
+   "pdf": "https://arxiv.org/pdf/2610.09864"
+  },
+  {
+   "id": "2610.10307",
+   "type": "new",
+   "title": "Positive Lin-Lu-Yau curvature, planar graphs, and forbidden minors",
+   "authors": [
+    "Louis Esperet",
+    "Julie Semaan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages, 26 figures",
+   "abstract": "Over the past few decades, several notions of graph curvature have been introduced. Among them, Ollivier curvature, defined through optimal transport, and its Lin--Lu--Yau variant provide notions of curvature for graphs which retain several features of their counterpart in Riemannian geometry. A classical problem in this context is to understand the global structure of positively curved spaces.\nLu and Wang proved that there are only finitely many positively curved planar graphs of minimum degree at least 3. In this paper, we study two directions motivated by this result. We first show that for fixed $2\\leq s\\leq t$, there are only finitely many positively curved $K_{s,t}$-minor-free graphs with minimum degree at least $s$. In particular, this generalizes the result of Lu and Wang to graphs embeddable on any fixed surface. We then give a complete classification of positively curved 5-connected plane triangulations. In particular, we show that there are only five examples, on 12, 14, 15, 16, and 17 vertices.",
+   "abs": "https://arxiv.org/abs/2610.10307",
+   "pdf": "https://arxiv.org/pdf/2610.10307"
+  },
+  {
+   "id": "2610.08893",
+   "type": "cross",
+   "title": "A symmetric conference matrix of order 86",
+   "authors": [
+    "Harshit Verma"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "We construct a symmetric conference matrix of order $86$, the smallest order for which existence was open. Equivalently, there exist a conference graph with parameters $(85,42,20,21)$, a regular two-graph on $86$ points, and a real equiangular tight frame of $86$ vectors in $\\mathbb{R}^{43}$. The matrix is a $12\\times12$ array of $7\\times7$ circulants with two border rows, and it admits a group of automorphisms of order $21$. Its $86$ descendants give exactly ten nonisomorphic strongly regular graphs.",
+   "abs": "https://arxiv.org/abs/2610.08893",
+   "pdf": "https://arxiv.org/pdf/2610.08893"
+  },
+  {
+   "id": "2610.09992",
+   "type": "new",
+   "title": "Asymptotic connectivity, hamiltonicity and toughness",
+   "authors": [
+    "Agelos Georgakopoulos"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We define coarse variants of the notions of connectivity, hamiltonicity, toughness, and spanning trees. Our notions are invariant under quasi-isometries, and they obey the same relationships between them as their classical analogs. We pose several open problems that are coarse versions of classical results and conjectures about hamiltonicity.",
+   "abs": "https://arxiv.org/abs/2610.09992",
+   "pdf": "https://arxiv.org/pdf/2610.09992"
+  },
+  {
+   "id": "2610.09990",
+   "type": "new",
+   "title": "A relation between Mahler volume and flag number for convex polytopes",
+   "authors": [
+    "Martin Winter"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Given a convex polytope $P\\subset\\Bbb R^d$ with $\\mathcal F(P)$ many flags, we prove $$\\operatorname{vol}(P) \\operatorname{vol}(P-P)^\\circ \\le \\frac{\\mathcal F(P)}{(d!)^2}.$$ This implies the following relation between Mahler volume and the number of flag conjectured by Freij, Schmitt, Schymura and Ziegler: for a centrally symmetric polytope $P\\subset\\Bbb R^d$ holds $$\\operatorname{vol}(P)\\operatorname{vol}(P^\\circ) \\le \\frac{2^d}{(d!)^2} \\mathcal F(P).$$ This shows that the Mahler conjecture implies Kalai's flag conjecture.",
+   "abs": "https://arxiv.org/abs/2610.09990",
+   "pdf": "https://arxiv.org/pdf/2610.09990"
+  },
+  {
+   "id": "2610.09972",
+   "type": "cross",
+   "title": "A deterministic algorithm for signing bipartite graphs at the Ramanujan bound",
+   "authors": [
+    "Zhiqiang Xu"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "18 pages",
+   "abstract": "We give a deterministic polynomial-time algorithm for the Bilu--Linial signing problem on bipartite graphs. For every finite simple bipartite graph of maximum degree at most an integer $\\Delta\\ge3$, the algorithm assigns signs to its edges so that the signed adjacency matrix has operator norm strictly less than $2\\sqrt{\\Delta-1}$. Our algorithm builds on the randomized recursive repair framework of Jadbabaie, Saberi, and Sra~\\cite{JSS26}, with deterministic rules for sign selection and vertex deletion.",
+   "abs": "https://arxiv.org/abs/2610.09972",
+   "pdf": "https://arxiv.org/pdf/2610.09972"
+  },
+  {
+   "id": "2610.09474",
+   "type": "new",
+   "title": "Coloring Monomial Cayley Graphs: The One-Parameter Case",
+   "authors": [
+    "Jonathan Davidson"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "50 pages; ancillary data and verification scripts included",
+   "abstract": "How do algebraic relations among unit directions influence the chromatic number of the plane? We introduce monomial Cayley graphs as a framework for investigating this question, beginning with graphs whose allowed unit steps are signed powers of a single complex parameter. Transcendental parameters give bipartite graphs, while for roots of unity we determine both the chromatic and circular chromatic numbers. As a geometric consequence, every graph admitting a unit-distance embedding in the plane in which the angle between any two edge directions is a rational multiple of $\\pi$ is three-colorable. For algebraic noninteger parameters, four colors suffice, and three suffice when the primitive integer minimal polynomial has leading coefficient at least three. We conjecture that three colors suffice for every algebraic noninteger direction parameter and that four suffice for every direction parameter.",
+   "abs": "https://arxiv.org/abs/2610.09474",
+   "pdf": "https://arxiv.org/pdf/2610.09474"
+  },
+  {
+   "id": "2610.09076",
+   "type": "cross",
+   "title": "Universality for the extreme eigenvalues of Laplacian random matrices",
+   "authors": [
+    "Andrew Campbell",
+    "Kyle Luh",
+    "Sean O'Rourke"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "32 pages",
+   "abstract": "We study the eigenvalues of the random Laplacian matrix $D - A$, where $A$ is a Wigner matrix with sub-Gaussian entries and the diagonal matrix $D$ contains the row sums of $A$. Our main results show that the extreme eigenvalues of this model exhibit Poisson statistics; in particular, after the appropriate centering and scaling, the largest eigenvalue converges to the Gumbel distribution as the dimension of the matrix tends to infinity. This confirms, for general sub-Gaussian entries, a phenomenon the authors previously established only in the Gaussian case [Electron. J. Probab. 30 (2025), Paper No. 104], resolving a conjecture raised there. As a corollary, for an Erdős--Rényi random graph, we show the asymptotic fluctuations of the algebraic connectivity (Fiedler value) can be described in terms of the Gumbel distribution.",
+   "abs": "https://arxiv.org/abs/2610.09076",
+   "pdf": "https://arxiv.org/pdf/2610.09076"
+  },
+  {
+   "id": "2610.09072",
+   "type": "new",
+   "title": "Inheritance of expansion and oriented Hamilton cycles in robust expanders: a regularity-free proof",
+   "authors": [
+    "Louis DeBiasio"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages (plus 7-page appendix); 4 figures",
+   "abstract": "Häggkvist and Thomason proved that every $n$-vertex oriented graph with minimum semidegree at least $(\\frac{5}{12}+o(1))n$ contains every orientation of a Hamilton cycle. Using Szemerédi's regularity lemma, Kelly later improved this to the asymptotically sharp bound $(\\frac{3}{8}+o(1))n$. Taylor subsequently generalized Kelly's theorem by proving that every sufficiently large robust outexpander with linear minimum semidegree contains every orientation of a Hamilton cycle. We revisit Häggkvist and Thomason's proof and show that it can be modified to give a regularity-free proof of Taylor's theorem (and thus Kelly's theorem). Building on this, we also give regularity-free proofs of related results on Hamilton-connectivity and linkage in robust outexpanders. As applications of these results, we are able to replace the use of the regularity lemma in known results on arbitrary orientations of Hamilton cycles in $n$-vertex digraphs with minimum semidegree at least $\\frac{n}{2}$ and in $n$-vertex digraphs with minimum total degree at least $(1+o(1))n$.\nThe first step is to show that, in an $n$-vertex robust outexpander with linear minimum semidegree, two uniformly chosen disjoint sets of logarithmic size satisfy Hall's condition with high probability. The second is to show that robust expansion is inherited by uniformly chosen linear sized sets. In both cases, we use the graph-container methods of Kleitman--Winston and Sapozhenko to reduce the possible obstructions to a small enough family to permit a union bound.",
+   "abs": "https://arxiv.org/abs/2610.09072",
+   "pdf": "https://arxiv.org/pdf/2610.09072"
+  },
+  {
+   "id": "2610.09042",
+   "type": "new",
+   "title": "Distinguishing graphs with simple spectrum by homomorphism counts",
+   "authors": [
+    "Takanori Maehara"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 8 figures",
+   "abstract": "We study which graph classes determine every graph with simple spectrum up to isomorphism by homomorphism counts from their members. We show that such a class has unbounded treewidth and Euler genus and contains a graph with the complete graph on seven vertices as a minor. To prove these conditions, we construct pairs of non-isomorphic cospectral graphs with simple spectrum, each bipartite, nonsingular and of maximum degree at most six. The construction attaches rooted trees to Cai-Furer-Immerman graphs and preserves homomorphism indistinguishability over every minor-closed class. We then prove that subcubic homomorphism counts determine every graph whose adjacency matrix has kernel dimension at most one. This extends the known result for nonsingular graphs and applies to all graphs with simple spectrum. We also prove that two graphs have the same subcubic homomorphism counts if and only if they have the same number of vertices and there is a bijective linear isometry between the images of their adjacency matrices that intertwines the adjacency operators and preserves the coordinatewise trilinear forms. Finally, we prove that homomorphism counts from the single-vertex graph and from subdivisions of any sequence of connected cubic graphs have the same distinguishing power as subcubic homomorphism counts if every complete graph is a minor of some member of the sequence.",
+   "abs": "https://arxiv.org/abs/2610.09042",
+   "pdf": "https://arxiv.org/pdf/2610.09042"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.10380",
+   "type": "new",
+   "title": "Perfect matchings in hypergraphs and Feige's inequality",
+   "authors": [
+    "Aleksa Milojević",
+    "Benny Sudakov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "How large of a minimum degree does an $n$-vertex graph need before we are sure that it contains a perfect matching? Dirac's theorem states that a graph on an even number of vertices in which each vertex has degree at least $n/2$ has this property. In this short expository note, intended to be used in the classroom, we discuss how this statement generalizes to hypergraphs. In particular, we highlight an elegant connection between fractional perfect matchings in hypergraphs and a probabilistic inequality about nonnegative random variables, which was conjectured by Feige. We also present a very short self-contained proof of Feige's conjecture.",
+   "abs": "https://arxiv.org/abs/2610.10380",
+   "pdf": "https://arxiv.org/pdf/2610.10380"
+  }
+ ],
+ "listed_new": 37,
+ "listed_cross": 23
+}
