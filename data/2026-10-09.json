@@ -1,0 +1,564 @@
+{
+ "date": "2026-10-09",
+ "generated_at": "2026-10-09T03:02:29Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-09",
+ "screened": 54,
+ "screened_new": 36,
+ "screened_cross": 18,
+ "scored": 54,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.11409",
+   "type": "new",
+   "title": "A linear upper bound for Berge saturation numbers",
+   "authors": [
+    "Tianying Xie"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 1 figures",
+   "abstract": "For a graph $F$ with at least one edge, a $k$-uniform hypergraph is Berge-$F$-saturated if it contains no Berge-$F$, but adding any missing hyperedge creates a Berge-$F$. The saturation number $\\text{sat}_k(n,\\text{Berge-}F)$ is the minimum number of edges in such a hypergraph on $n$ vertices. English, Gordon, Graber, Methuku and Sullivan conjectured a linear upper bound for every fixed finite family of forbidden graphs. We prove the single-graph case: $\\text{sat}_k(n,\\text{Berge-}F)=O_{F,k}(n)$ for every fixed integer $k\\ge2$ and every fixed finite simple graph $F$ with at least one edge. The proof combines a sparse construction with degree and matching arguments.",
+   "abs": "https://arxiv.org/abs/2610.11409",
+   "pdf": "https://arxiv.org/pdf/2610.11409"
+  },
+  {
+   "id": "2610.12392",
+   "type": "cross",
+   "title": "Tiling 3D by Translates of a Single Polycube is Undecidable",
+   "authors": [
+    "Erik D. Demaine",
+    "Stefan Langerman"
+   ],
+   "categories": [
+    "cs.CG",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "cs.CG",
+   "comments": "7 pages, 1 figure, 1 table",
+   "abstract": "We prove co-RE-completeness, and thus undecidability, of the following problem: given a single (connected) polycube, decide whether it tiles 3D Euclidean space by translations. We reduce from Wang tiling using the decorated two-prime Sudoku construction of Greenfeld and Tao and a cyclic encoding adapted from OpenAI's 3D aperiodic tile, and apply a reduction of Kim to make the prototile connected (via faces). Dimension three is optimal: translational monotiling is known to be decidable in $\\mathbb{Z}^2$ and for a single (possibly disconnected) polyomino in $\\mathbb{R}^2$.",
+   "abs": "https://arxiv.org/abs/2610.12392",
+   "pdf": "https://arxiv.org/pdf/2610.12392"
+  },
+  {
+   "id": "2610.10800",
+   "type": "new",
+   "title": "Decomposition Profiles and Weisfeiler-Leman Dimension for Graphs of Bounded Rank Width",
+   "authors": [
+    "Antonios Kalampakas"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "44 pages. Includes ancillary verification code",
+   "abstract": "The Weisfeiler-Leman (WL) algorithm tests graph isomorphism by assigning colours to $d$-tuples of vertices and iteratively refining the colouring according to neighbourhood configurations until it stabilizes. Increasing $d$ allows the test to detect finer structural differences between graphs, but the computational cost grows exponentially with $d$. The central question is which dimension allows us to distinguish nonisomorphic graphs. We relate a sufficient such dimension to the structure of a graph $G$ through a rank decomposition over $\\mathbb F_2$. The two parameters governing the bound are the maximum cut rank $w$ and the fork load $\\ell$, which is the largest sum of the parent and two child cut ranks at a fork in the decomposition tree. We prove that WL in dimension $\\max\\{\\ell+1,2w+2\\}$ distinguishes every finite nonempty vertex-coloured graph $G$ with such a decomposition from every graph not isomorphic to $G$. Consequently, for $k\\geq1$, graphs of rank width at most $k$ can be distinguished from every nonisomorphic graph in dimension $3k+1$, graphs of linear rank width at most $k$ in dimension $2k+2$, and edgeless graphs in dimension one. Uncoloured Cai-Fürer-Immerman (CFI) constructions give linear lower bounds for both width parameters, so the upper bounds are tight up to constant factors.",
+   "abs": "https://arxiv.org/abs/2610.10800",
+   "pdf": "https://arxiv.org/pdf/2610.10800"
+  },
+  {
+   "id": "2610.10649",
+   "type": "new",
+   "title": "Two proofs and a tight Szemerédi--Trotter theorem",
+   "authors": [
+    "Hung-Hsun Hans Yu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.HO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages, 3 figures",
+   "abstract": "The Szemerédi--Trotter theorem, a fundamental theorem in incidence geometry, states that $n$ points and $m$ lines in $\\mathbb{R}^2$ form at most $O(m+n+m^{2/3}n^{2/3})$ incidences. Recently, Lewko and independently Miao--Xie extended the Szemerédi--Trotter theorem to arbitrary fields with a correction term $O(\\frac{mn}{\\mathfrak{p}})$ if the field has positive characteristic $\\mathfrak{p}$.\nIn this paper, we provide some geometric intuition for the two proofs and compare them. Moreover, we show how both proofs can be improved using Hasse derivatives. As a consequence, we obtain a tight upper bound over any algebraically closed field. To be specific, when the field has positive characteristic $\\mathfrak{p}$, $n\\leq m$ and $\\mathfrak{p}^{2(k-1)}\\leq m<\\mathfrak{p}^{2k}$ for some positive integer $k$, the number of incidences can be bounded by \\[O\\left(\\mathfrak{p}^{k-1}n+m+m^{2/3}n^{2/3}+\\frac{mn}{\\mathfrak{p}^{k}}\\right).\\]",
+   "abs": "https://arxiv.org/abs/2610.10649",
+   "pdf": "https://arxiv.org/pdf/2610.10649"
+  },
+  {
+   "id": "2610.12032",
+   "type": "cross",
+   "title": "Further bounds in the polynomial Szemerédi theorem",
+   "authors": [
+    "Bartłomiej Bychawski",
+    "Bartosz Głowacki",
+    "Ivan Spyrydonov"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "We show that there exists $c > 0$ such that any subset of $\\{1,\\ldots,N\\}$ having size $\\gg N / \\exp( (\\log\\log\\log N)^c )$ contains a nontrivial pattern of the form $x,x+y,x+2y,x+y^3$. It is the first configuration of complexity strictly greater than $0$, other than refinements of arithmetic progressions, for which quantitative bounds over integers were obtained.",
+   "abs": "https://arxiv.org/abs/2610.12032",
+   "pdf": "https://arxiv.org/pdf/2610.12032"
+  },
+  {
+   "id": "2610.10737",
+   "type": "new",
+   "title": "Obstructions to $k$-colouring $H$-free graphs",
+   "authors": [
+    "Iain Beaton",
+    "Ben Cameron",
+    "Adam van Omme"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is $H$-free if it has no induced subgraph isomorphic to $H$. In 2020, Chudnovsky, Goedgebeur, Schaudt, and Zhong characterized all graphs $H$ such that there are only finitely many minimal obstructions to $3$-colouring $H$-free graphs. In general, the minimal obstructions to $k$-colouring $H$-free graphs are the $(k+1)$-vertex-critical $H$-free graphs, those are, the $H$-free graphs $G$ with $\\chi(G)=k+1$ but $\\chi(G-v)=k$ for every vertex in $G$. In this paper we complete the characterization for all $k > 4$ by showing that there are onky finitely $k$-vertex-critical $H$-free graphs if and only if $H$ is an induced subgraph of $P_4+\\ell P_1$ for some $\\ell \\geq 0$.",
+   "abs": "https://arxiv.org/abs/2610.10737",
+   "pdf": "https://arxiv.org/pdf/2610.10737"
+  },
+  {
+   "id": "2610.11517",
+   "type": "new",
+   "title": "An asymptotic bound for the Bermond--Thomassen Conjecture",
+   "authors": [
+    "Jørgen Bang-Jensen",
+    "Guanghui Wang",
+    "Yun Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "The Bermond--Thomassen Conjecture asserts that every digraph with minimum out-degree at least $2k-1$ contains $k$ disjoint directed cycles; it remains open in general. We asymptotically resolve it: there exist an absolute constant $K$ and a function $g(k)=o(k)$, independent of $n$, such that every $n$-vertex finite simple loopless digraph with minimum out-degree at least $2k+g(k)$ contains $k$ disjoint directed cycles for all integers $k\\ge K$ and $n\\ge1$. In fact we obtain the explicit error term $g(k)=O(k^{3/4}\\sqrt{\\log k})$.",
+   "abs": "https://arxiv.org/abs/2610.11517",
+   "pdf": "https://arxiv.org/pdf/2610.11517"
+  },
+  {
+   "id": "2610.11554",
+   "type": "cross",
+   "title": "Product approximations for uniform spanning trees and determinantal processes",
+   "authors": [
+    "András Mészáros",
+    "Yuval Peled"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "We prove that for every finite connected simple graph $G$ on $n$ vertices with minimum degree $k\\geq 2$, there is a coupling of its uniform spanning tree and its random $1$-out subgraph under which the expected number of differing edges is $O(n\\log (k)/\\sqrt{k})$.\nMore generally, we establish analogous couplings between a wide class of determinantal processes and their corresponding $1$-out processes, including Kalai's determinantal hypertrees, with expected symmetric difference negligible compared to the size of the determinantal set. While the graphical case admits a surprisingly short and elegant proof, the more general result requires establishing an asymptotic equipartition property for the determinantal measures in this class, from which we also derive exponential growth rates for the homology torsion of determinantal hyperforests in higher-dimensional regular high-degree complexes.",
+   "abs": "https://arxiv.org/abs/2610.11554",
+   "pdf": "https://arxiv.org/pdf/2610.11554"
+  },
+  {
+   "id": "2610.10973",
+   "type": "new",
+   "title": "A $G$-Invariant Erdős--Hanani Theorem with Applications to Optical Orthogonal and Constant-Weight Codes",
+   "authors": [
+    "Yeow Meng Chee"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 1 table",
+   "abstract": "Let $k>t\\ge 2$ be fixed integers, and let $G$ be a permutation group on a set of $v$ points. A $G$-invariant packing is free if every block has $|G|$ distinct images under $G$. We give two conditions on $G$ under which, as $v\\to\\infty$, there is a free $G$-invariant $t$-$(v,k,1)$ packing with $(1-o(1))\\binom{v}{t}/\\binom{k}{t}$ blocks. This is a $G$-invariant form of the Erdős--Hanani theorem on asymptotically optimal packings. For semiregular groups $G$, packings with these properties exist if and only if all but $o(v^t)$ of the $t$-subsets of points have trivial setwise stabiliser. This property is satisfied by every semiregular group for $t\\ge 3$, and by every cyclic semiregular group for $t=2$. As a consequence, the Johnson bound is asymptotically attained at all lengths by optical orthogonal codes of constant weight $w$ and constant correlation $\\lambda$ with $w\\ge\\lambda+2$, by their multidimensional and signature pattern versions, and by cyclic and quasi-cyclic constant-weight codes. The same method gives a form of the theorem for group divisible packings that are invariant under a cyclic group. This determines the asymptotic maximum size of two-dimensional optical orthogonal codes with at most one pulse per wavelength.",
+   "abs": "https://arxiv.org/abs/2610.10973",
+   "pdf": "https://arxiv.org/pdf/2610.10973"
+  },
+  {
+   "id": "2610.10545",
+   "type": "cross",
+   "title": "A Proof of the Dittert Conjecture via Boundary Rigidity",
+   "authors": [
+    "Xinan Dai",
+    "Wenhao Deng",
+    "Yingdong Shi",
+    "Tailin Wu",
+    "Yuchen Yang"
+   ],
+   "categories": [
+    "math.RA",
+    "math.CO"
+   ],
+   "primary": "math.RA",
+   "comments": "",
+   "abstract": "Let $\\mathcal{K}_n$ be the simplex of nonnegative $n \\times n$ matrices whose entries sum to $n$. For $A$ in $\\mathcal{K}_n$, with row sums $r_1,\\ldots,r_n$ and column sums $c_1,\\ldots,c_n$, define $\\Phi(A)=\\prod_{i=1}^n r_i+\\prod_{j=1}^n c_j-\\mathrm{per}(A)$. Dittert conjectured that $\\Phi$ is uniquely maximized by the uniform matrix $U_n=J_n/n$, with maximum $2-n!/n^n$. We prove the conjecture for every $n \\geq 2$. Hwang's theorem already determines every positive maximizer, so the essential problem is to exclude maximizers on the boundary of $\\mathcal{K}_n$. A reduction of Cheon and Wanless supplies two zero entries in distinct rows and columns. In order four, we classify all admissible support strata and exclude them by exact Karush-Kuhn-Tucker identities together with a Bernstein-form positivity certificate. For all $n \\geq 5$, an attained-stratum averaging argument compresses a hypothetical boundary maximizer to a seven-parameter matrix with one multiplicity $m=n-2$. A symbolic odd-variable expansion, a cofactor identity at the two missing entries, and uniform coefficient inequalities then contradict the one-sided multiplier conditions. This argument is uniform in $m$ and uses no finite enumeration. We also give independent spectral proofs in dimensions 7 through 13 and prescribed-zero proofs in dimensions 14 and 15. Every dimension-dependent calculation is certified over the rationals and recorded explicitly in the appendices.",
+   "abs": "https://arxiv.org/abs/2610.10545",
+   "pdf": "https://arxiv.org/pdf/2610.10545"
+  },
+  {
+   "id": "2610.11047",
+   "type": "new",
+   "title": "Almost all graphs are determined by their generalized spectrum",
+   "authors": [
+    "Ziqing Xiang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Haemers' conjecture for the generalized spectrum asserts that almost all graphs are determined by their generalized spectrum, that is, for almost all graphs $G$, every graph with the same spectrum as $G$ whose complement has the same spectrum as the complement of $G$ is isomorphic to $G$. We prove this conjecture by showing that the random graph $G(n,1/2)$ is determined by its generalized spectrum with probability tending to one.\nThe proof combines a local theory of the denominators of the rational orthogonal matrices that relate generalized cospectral graphs, Fourier analysis of random symmetric matrices over finite rings, Seidel switching, inverse Littlewood--Offord theory over finite fields, rank estimates for random symmetric matrices modulo primes, and a study of the rational factors of the characteristic polynomial of a random symmetric $\\pm1$ matrix with zero diagonal.",
+   "abs": "https://arxiv.org/abs/2610.11047",
+   "pdf": "https://arxiv.org/pdf/2610.11047"
+  },
+  {
+   "id": "2610.11728",
+   "type": "new",
+   "title": "Noncrossing combinatorics of quasi-Coxeter elements",
+   "authors": [
+    "Eugenio Cainelli",
+    "Giovanni Paolini",
+    "Riccardo Zaccaria"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the combinatorics of the intervals below quasi-Coxeter elements in the absolute order of finite Coxeter groups. In particular, we prove that these intervals are EL-shellable, except possibly for quasi-Coxeter elements of types $E_7$ and $E_8$, and we compute their zeta polynomials. We also show that a total order of the reflections yields an EL-labeling if it does so on all rank-two subintervals, which proves a conjecture of Williams for Coxeter elements. In order to obtain these results, we prove them for the infinite families, and we treat the exceptional types by computer. In addition, we study the related interval monoids, and we find a counterexample to cancellativity for every proper quasi-Coxeter element of type $D_n$ ($n\\ge5$), $E_6$, $E_7$, $E_8$; in particular, these monoids do not embed in the corresponding interval groups. This gives a negative answer to a question posed by Baumeister, Holt, Neaime, and Rees.",
+   "abs": "https://arxiv.org/abs/2610.11728",
+   "pdf": "https://arxiv.org/pdf/2610.11728"
+  },
+  {
+   "id": "2610.11017",
+   "type": "new",
+   "title": "The Computational Complexity of the Ungar Games on Distributive Lattices",
+   "authors": [
+    "Kengo Hashimoto"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Ungar game, introduced by Defant et al., is a combinatorial game played on a finite lattice, which originates from a geometric transformation introduced by Ungar to resolve Scott's slope problem. When played on a distributive lattice $L$, the Ungar game reduces to repeatedly choosing and removing a non-empty set of maximal elements from a finite poset $P$, where $L$ is represented as the lattice $J(P)$ of the order ideals of $P$ by Birkhoff's representation theorem. Defant et al. raised the open question of whether determining the outcome of the Ungar game on $J(P)$ is PSPACE-complete with respect to $|P|$. In this paper, we settle this open question in the affirmative. More precisely, we prove that the problem is PSPACE-complete even when restricted to posets $P$ with maximum chain length $l(P) \\le 3$ such that the underlying graph of the Hasse diagram of $P$ is bipartite, where the length of a chain is defined as the number of elements in the chain minus one. Furthermore, we show that the problem is NP-complete for $l(P) \\le 2$, whereas the case $l(P) \\le 1$ is known to belong to LOGSPACE.",
+   "abs": "https://arxiv.org/abs/2610.11017",
+   "pdf": "https://arxiv.org/pdf/2610.11017"
+  },
+  {
+   "id": "2610.11997",
+   "type": "new",
+   "title": "Fractional majority coloring of digraphs: bounds and inapproximability",
+   "authors": [
+    "Walid Ben-Ameur",
+    "Alessandro Maddaloni"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A set of vertices in a digraph is majority-stable if each of its vertices has at most half of its outneighbors in the set. A fractional majority coloring assigns nonnegative weights to such sets, covering each vertex to total weight at least one; its minimum total weight is the fractional majority coloring number. We prove that every finite loopless digraph has fractional majority coloring number at most \\(523/140<3.736\\), improving the bound \\(3.9602\\) of Anastos, Lamaison, Steiner and Szabó. Our construction uses exclusive sampling from pairs in random cycle matchings, followed by deletion and a correction on the acyclic remainder. The same approach yields bounds below \\(3.430\\) for digraphs with a directed cycle factor, \\(3.287\\) for those with an even cycle factor, and \\(3.324\\) for tournaments. As a consequence, for every fixed \\(\\varepsilon>0\\), we obtain a randomized \\((2.491+\\varepsilon)\\)-approximation algorithm producing an explicit fractional majority coloring in expected polynomial time. On the complexity side, we prove NP-completeness of deciding whether the fractional majority coloring number equals $3/2$, and establish a multiplicative inapproximability threshold of $72/71$ and an additive upper-estimation threshold of $3/142$. All three results hold for acyclic oriented digraphs with outdegrees zero or two in which every directed path has length at most two.",
+   "abs": "https://arxiv.org/abs/2610.11997",
+   "pdf": "https://arxiv.org/pdf/2610.11997"
+  },
+  {
+   "id": "2610.12433",
+   "type": "new",
+   "title": "The Hilton-Milner theorem in the $\\ell_2$-norm",
+   "authors": [
+    "George Brooks",
+    "William Linz"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Hilton-Milner theorem is a classical theorem in extremal set theory which determines the maximum size of a nontrivial $k$-uniform intersecting family. In this paper, we prove an exact version of the Hilton-Milner theorem in the $\\ell_2$-norm. Our method also gives an asymptotic version of the Hilton-Milner theorem in the $(j, p)$-norm.",
+   "abs": "https://arxiv.org/abs/2610.12433",
+   "pdf": "https://arxiv.org/pdf/2610.12433"
+  },
+  {
+   "id": "2610.11642",
+   "type": "new",
+   "title": "A counterexample to the Erdős--Sós bipartite-link conjecture",
+   "authors": [
+    "Tianchi Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Erdős and Sós conjectured that every $n$-vertex $3$-uniform hypergraph whose link graphs are all bipartite has at most $(1/4+o(1))\\binom n3$ edges. We disprove this conjecture by constructing counterexamples with edge density at least $0.250000356>1/4$ for all sufficiently large $n$.",
+   "abs": "https://arxiv.org/abs/2610.11642",
+   "pdf": "https://arxiv.org/pdf/2610.11642"
+  },
+  {
+   "id": "2610.10831",
+   "type": "new",
+   "title": "Tweaking the constant in the Linear Hadwiger Theorem",
+   "authors": [
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "This paper was first submitted to the arXiv before the announcement of the disproof of Hadwiger's Conjecture",
+   "abstract": "Norin and Steiner recently proved the Linear Hadwiger Conjecture. That is, there is an absolute constant $C$ such that every graph $G$ satisfies $\\chi(G)\\leqslant C\\,\\text{had}(G)$, where $\\chi(G)$ is the chromatic number and $\\text{had}(G)$ is the Hadwiger number of $G$. Their proof gives a non-optimised constant $C$ of order $10^{100}$. This paper uses extensive AI-based optimisation to show that every graph $G$ satisfies $\\chi(G) \\leqslant 19{,}885{,}160\\,\\text{had}(G)$.",
+   "abs": "https://arxiv.org/abs/2610.10831",
+   "pdf": "https://arxiv.org/pdf/2610.10831"
+  },
+  {
+   "id": "2610.11829",
+   "type": "new",
+   "title": "A rank bound for bases and circuits in binary matroids",
+   "authors": [
+    "Houshan Fu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "Let \\(b(M)\\), \\(d(M)\\), and \\(r(M)\\) denote the number of bases, the number of circuits, and the rank of a matroid \\(M\\), respectively. We prove that every nonempty simple binary matroid with no coloops satisfies \\[\n2b(M)\\ge(r(M)+1)d(M), \\] with equality if and only if \\(M\\) is isomorphic to the Fano matroid. This confirms a conjecture recorded by Oxley in 1983. For the same class, we prove that deleting any element leaves at least as many bases as there are circuits in the original matroid: \\(b(M\\backslash e)\\ge d(M)\\) for every \\(e\\in E(M)\\). We determine all equality cases and deduce a sharp linear lower bound for basis growth under successive series extensions. The main counting step is a joint estimate for the three largest possible circuit sizes, obtained from contraction-normalized fundamental-circuit counts and an exact folded-cube edge correspondence.",
+   "abs": "https://arxiv.org/abs/2610.11829",
+   "pdf": "https://arxiv.org/pdf/2610.11829"
+  },
+  {
+   "id": "2610.10665",
+   "type": "cross",
+   "title": "The Erdős-Falconer distance problem in the integer lattice",
+   "authors": [
+    "Eyvindur Ari Palsson",
+    "Jian-An Wang"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CA",
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.MG",
+   "comments": "25 pages, 5 figures",
+   "abstract": "In this paper we propose and study what we call the Erdős-Falconer distance problem in the integer lattice. One motivation is Magyar's discrete analog of the result of Furstenberg, Katznelson, and Weiss, who showed that all arbitrarily large distances had to appear for a set of positive upper Banach density in $\\mathbb{R}^d$, $d\\geq 2$. Another motivation is the Falconer distance problem, which can be viewed as a refinement of a result of Steinhaus, dropping assumptions from positive Lebesgue measure to merely asking about the dimension of sets. In this context we thus want to lower the assumption of positive upper Banach density and yet obtain statements that guarantee that we have lots of distinct distances. All of these questions are also related to the Erdős distinct distance problem. Our naming is as for the finite field variant of the problem, acknowledging that parts of the problem share similarities with the Erdős distinct distance problem while others share similarities with the Falconer distance problem.\nThe main tool we use are $\\ell^p$-improving inequalities for discrete spherical averages, which to the best of our knowledge is the first application of such bounds. One can use results on the Erdős distinct distance problem to make progress on our conjecture but surprisingly, even if using the strongest available bounds in high dimensions using the mechanism of Solymosi and Vu, then in certain regimes our methods do better. While a resolution of the Erdős distinct distance problem would imply our unpinned conjecture then no results on either the Erdős or Falconer distance problem seem to imply any results for our pinned variant. We view this problem as a model problem that might ultimately contribute back to the original pinned distance problems.",
+   "abs": "https://arxiv.org/abs/2610.10665",
+   "pdf": "https://arxiv.org/pdf/2610.10665"
+  },
+  {
+   "id": "2610.11840",
+   "type": "new",
+   "title": "Partition regular linear equations over Sidon sets",
+   "authors": [
+    "Dev Ranjan Pandey"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this article, we show that the Sidon subsets of $[N]^d$ are Fourier uniform, and we prove a dense model lemma for Sidon sets. Using these results and a higher-dimensional version of Rado's theorem, we prove that given any partition regular linear equation in $s \\geq 5$ variables with nonzero coefficients, and any finite partition of a sufficiently dense Sidon subset $S$ of $[N]^d$, the number of monochromatic solutions to this equation is $\\gg |S|^s N^{-d}$ for all large $N$. As a corollary of the Fourier uniformity result, we show that dense Sidon subsets of $[N]^d$ are equidistributed in certain arithmetic and Bohr structures. Our proofs are motivated by the arguments of Ortega and Prendiville.",
+   "abs": "https://arxiv.org/abs/2610.11840",
+   "pdf": "https://arxiv.org/pdf/2610.11840"
+  },
+  {
+   "id": "2610.11452",
+   "type": "new",
+   "title": "A proof of the Berkovich-Dhar conjecture modulo five",
+   "authors": [
+    "Shutao Jiang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages; ancillary files include rigorous interval certificates, exact integer data, and verification code",
+   "abstract": "We prove the sign-pattern and limiting-transition assertions of the Berkovich--Dhar conjecture modulo five, covering both the square and the cube of the finite Borwein product. In each power, the coefficients in residue class zero are strictly positive, while the sequences in residue classes three and four have exactly one positive-to-negative sign change after zero terms are omitted. We determine all four transition constants, correct the preliminary numerical estimates in the conjecture, and give their linear corrections with explicit bounded errors. A common four-arc expansion governs both powers. Near each vanishing amplitude, strict negativity of a weighted adjacent difference determines the transition. The cubic case also has two identically vanishing components in the infinite product; a shifted saddle expansion resolves the resulting finite-product boundary terms. Positive series identities, uniform remainder estimates, and an exact integer recurrence complete the proof for every positive integer.",
+   "abs": "https://arxiv.org/abs/2610.11452",
+   "pdf": "https://arxiv.org/pdf/2610.11452"
+  },
+  {
+   "id": "2610.11757",
+   "type": "new",
+   "title": "Turán densities of hypergraph augmentations",
+   "authors": [
+    "Oleg Pikhurko",
+    "Jiabao Yang",
+    "Xiutao Zhu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a $t$-graph $F$ and an integer $r\\ge t$, the \\emph{$r$-augmentation} $F(r)$ is the $r$-graph obtained by adding the same set of $r-t$ new vertices to every edge of $F$. We investigate the behaviour of the \\emph{Turán density $\\pi(F(r))$}, which is the asymptotically maximum edge density of a large $F(r)$-free $r$-graph, as a function of $r$.\nLet $H_k^r$ be the $r$-augmentation of the complete $(k-1)$-graph on $k$ vertices; equivalently, $H_k^r$ is the (unique up to isomorphism) $r$-graph with $r+1$ vertices and $k$ edges. This paper determines the Turán density of each $r$-graph $H_k^r$ within a constant factor and estimates the lower bounds on $\\pi(H_k^r)$ coming from the circular construction of Sidorenko. In particular, it is shown that if $k/\\log r\\to\\infty$ then $\\pi(H_k^r)=(1+o(1))k/r$.\nAlso, we consider augmentations of graphs (that is, the case $t=2$) and prove that $\\pi(F(r))\\ge(\\log r)^{-1-o(1)}/r$ for every 3-chromatic graph $F$, which comes close to the known upper bound $1/r$. Note that, for all other graphs $F$, the function $\\pi(F(r))$ is known to be either identically 0 or uniformly bounded away from 0.",
+   "abs": "https://arxiv.org/abs/2610.11757",
+   "pdf": "https://arxiv.org/pdf/2610.11757"
+  },
+  {
+   "id": "2610.12237",
+   "type": "new",
+   "title": "A unified approach to infinite log-concavity of combinatorial sequences",
+   "authors": [
+    "Matthew H. Y. Xie",
+    "Candice X. T. Zhang",
+    "Philip B. Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We establish a sufficient condition for infinite log-concavity and apply it to five families of combinatorial sequences. We give a new proof of infinite log-concavity for the Boros--Moll coefficient sequences $(d_k(n))_{k=0}^n$ for fixed $n$. For the transposed sequences $(d_\\ell(\\ell+k))_{k\\ge0}$, we prove Zhao's conjecture on infinite log-concavity for every fixed integer $\\ell\\ge3$. For the normalized sequences in Euler's difference table, we confirm the infinite log-concavity conjecture of Chen, Gu, Ma and Wang under essential iteration, in which both endpoints are discarded after each step. We also confirm a conjecture of Medina, Moll and Rowland on the infinite log-concavity of the coefficient sequences of polynomials arising from iterated primitives of $\\log(1+x)$. Finally, we answer a question of Brändén and Chasse by showing that, for positive integers $d$, the sequence $(k^d)_{k\\ge0}$ is infinitely log-concave if and only if $d\\ne2$. For every real $d\\ge3$, all its iterates are positive at every index $k\\ge1$. The proofs combine holomorphic estimates with finite computer-assisted verification.",
+   "abs": "https://arxiv.org/abs/2610.12237",
+   "pdf": "https://arxiv.org/pdf/2610.12237"
+  },
+  {
+   "id": "2610.12036",
+   "type": "new",
+   "title": "Constructing pathological symmetric abstract rigidity matroids",
+   "authors": [
+    "Sean Dewar",
+    "Joannes Vermant"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We prove that for each $d \\geq 2$, there exist infinitely many symmetric abstract $d$-rigidity matroids that are not the $d$-rigidity matroid, the $d$-hyperconnectivity matroid, or the $d$-cofactor matroid. When $d=2$, our constructed matroids are pathological, in the sense that they are not contained within any abstract 2-rigidity matroid family. Our construction additionally provides a counter-example to a conjecture of Tyomkyn.",
+   "abs": "https://arxiv.org/abs/2610.12036",
+   "pdf": "https://arxiv.org/pdf/2610.12036"
+  },
+  {
+   "id": "2610.12109",
+   "type": "new",
+   "title": "Sharp linear Turán remainders for cycle and edge extremality",
+   "authors": [
+    "Jifu Lin",
+    "Xiaolin Wang",
+    "Guangmiao Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26pages",
+   "abstract": "For a graph $G$, let $e(G)$ denote the number of edges of $G$, and let $c(G)$ be the number of distinct cycles in $G$. Morrison, Roberts and Scott asked whether, for every fixed graph $H$ and all large $n$, some $n$-vertex $H$-free graph maximizes both $e(G)$ and $c(G)$. In this paper, we show that the answer is no for every possible chromatic number. Let $T_{n,r}$ be the complete $r$-partite Turán graph on $n$ vertices. We find a constant $\\gamma_r>0$ such that if $n$ is sufficiently large and $\\mathcal{H}$ is a finite family with $\\chi(\\mathcal{H})=r+1$ satisfying \\[ ex(n,\\mathcal{H})<e(T_{n,r})+\\gamma_r n, \\] then every cycle-maximal $\\mathcal{H}$-free graph is edge-extremal, and $\\gamma_r$ is best possible.",
+   "abs": "https://arxiv.org/abs/2610.12109",
+   "pdf": "https://arxiv.org/pdf/2610.12109"
+  },
+  {
+   "id": "2610.11965",
+   "type": "cross",
+   "title": "Pythagorean pairs in boxes of prime powers",
+   "authors": [
+    "Rongzhong Xiao"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "125 pages. Comments are welcome",
+   "abstract": "Let $p_i$ be the $i$th prime, and let $f(N)$ be the largest cardinality of a subset of \\[ \\left\\{\\prod_{i=1}^N p_i^{a_i}:0\\le a_i<N,\\ a_i\\in\\mathbb{Z}\\right\\} \\] containing no two distinct legs of an integer right triangle. We prove \\[\nf(N)\n\\ll N^N (\\log\\log N)^{-1/1296}. \\]",
+   "abs": "https://arxiv.org/abs/2610.11965",
+   "pdf": "https://arxiv.org/pdf/2610.11965"
+  },
+  {
+   "id": "2610.11847",
+   "type": "new",
+   "title": "Arithmetic Progressions in Midpoint Colourings",
+   "authors": [
+    "Tomasz Kościuszko"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We introduce an asymmetric variant of a classic problem by Roth about colourings of integers and midpoints. The new problem cannot be solved with the standard approach by Erdös-Sárközy-Sós which uses symmetry. We describe a Fourier Analytic approach which gives asymptotically tight bounds. In the $\\mathbb{F}_3^n$ setting, the density increment we show is efficient and together with the Freiman-Ruzsa Theorem provides an affine subspace of near optimal codimension within the distinguished set. This approach adopted to the setting of the integers from $1$ to $N$ via Bohr sets and Bogolyubov-Ruzsa Lemma gives a progression of length being a power of $N$ which only depends on the number of colours. We then use Chang's Lemma and Balog-Szemerédi-Gowers Theorem to further improve the dependence on the number of colours.",
+   "abs": "https://arxiv.org/abs/2610.11847",
+   "pdf": "https://arxiv.org/pdf/2610.11847"
+  },
+  {
+   "id": "2610.10618",
+   "type": "cross",
+   "title": "The Hellinger Conjecture for Antipodal Boolean Functions",
+   "authors": [
+    "Vu Khac Ky"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.IT",
+   "comments": "15 pages",
+   "abstract": "The balanced Hellinger conjecture compares the overlap of two output laws induced by a Boolean decision under binary symmetric noise. We prove that a single input coordinate minimizes this overlap among antipodal decisions, whose values reverse when all input signs are reversed, throughout the noise interval. The proof uses a normalized nuclear norm of the cross-class block of the Gram matrix of square-root channel densities. Multiplication by an antipodal decision exchanges the even and odd Fourier spaces preserved by the Gram matrix. A coordinate exchange attains the minimum cost of matching their spectra. A matrix contraction extends the sharp bound to arbitrary independent binary-input channels. Fixed coordinate flips and randomized decisions follow from the same argument and concavity. These extensions give bounds for information and testing, including linear Gaussian observations, and a weighted edge-boundary inequality.",
+   "abs": "https://arxiv.org/abs/2610.10618",
+   "pdf": "https://arxiv.org/pdf/2610.10618"
+  },
+  {
+   "id": "2610.12358",
+   "type": "cross",
+   "title": "Subspace Uncertainty and Sharp Sampling Thresholds on the Boolean Cube",
+   "authors": [
+    "Thomas Weinberger"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.IT",
+    "cs.LG",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "We study Gaussian regression under squared population $L_2$ loss in a known $m$-dimensional subspace of degree-at-most-$k$ functions on the $d$-dimensional Boolean cube. Random inputs can undersample regions essential for prediction, delaying the parametric rate even when the model is known.\nFor fixed $q_0<1/2$, $1\\le k\\le q_0d$, and sufficiently large fixed $A$, the worst-subspace sample threshold for minimax error $A\\sigma^2(m+t)/n$ with confidence $1-e^{-t}$, $t\\ge\\log4$, is \\[ N=(m+t)\\exp\\{E_{d,k}+O(k^{1/3})\\}, \\quad E_{d,k}=d\\Psi(k/d), \\] where $\\Psi(q)=\\log2-\\mathsf H(\\tfrac12-\\sqrt{q(1-q)})$ and $\\mathsf H$ is binary entropy with natural logarithms. The upper bound holds for every feasible $m$; the matching lower bound holds when $m\\le\\binom d{\\lfloor k^{1/3}\\rfloor}$ or $t\\ge m$.\nWe sharpen the Polyanskiy--Samorodnitsky uncertainty principle in two respects. First, for fixed leakage $\\rho\\in(0,1)$, the smallest set carrying a fraction $1-\\rho$ of a nonzero degree-at-most-$k$ polynomial's energy has probability $\\exp\\{-E_{d,k}+O_{\\rho,q_0}(k^{1/3})\\}$. An Airy-kernel construction proves that the remainder cannot be $o(k^{1/3})$ in general. Second, we construct a subspace of dimension $\\binom d{\\lfloor k^{1/3}\\rfloor}$ such that every function in the subspace has at least a fraction $1-\\rho$ of its energy on the same set, whose probability is at most $\\exp\\{-E_{d,k}+C_{\\rho,q_0}k^{1/3}\\}$. For sufficiently large $k$, this set is a Hamming ball.\nA striking consequence is an exponential cost of noise: the parametric rate can require $(m+t)4^k\\exp\\{-O(k^{1/3})\\}$ samples, whereas $O((m+t)2^k)$ suffice for noiseless identification. As $k\\to\\infty$ with $k/d\\to0$, the noisy threshold is $(m+t)\\exp\\{2k+o(k)\\}$.",
+   "abs": "https://arxiv.org/abs/2610.12358",
+   "pdf": "https://arxiv.org/pdf/2610.12358"
+  },
+  {
+   "id": "2610.12301",
+   "type": "new",
+   "title": "Measurable obstructions for unmeasurable colourings",
+   "authors": [
+    "James Davies"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CA",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "47 pages, 1 table",
+   "abstract": "Due to the availability of powerful analytic techniques, vastly superior lower bounds are known for the measurable chromatic number of Euclidean spaces compared to their ordinary chromatic number. Indeed, even the breakthrough lower bound of 5 for the famous Hadwiger-Nelson problem lagged over 35 years behind that of the measurable setting. This raises the fundamental question of whether the measurable and ordinary chromatic number of Euclidean spaces differ as conjectured by Székely in 1984.\nOur main result is that $\\overline\\alpha(\\mathbb{R}^4)=m_1(\\mathbb{R}^4)$ and $\\chi(\\mathbb{R}^4)=\\chi^{(m)}(\\mathbb{R}^4)$, and for $d\\ge5$ that \\[ \\overline\\alpha(\\mathbb{Q}^d) = \\overline\\alpha(\\mathbb{R}^d)=m_1(\\mathbb{R}^d) \\qquad\\text{and}\\qquad \\chi(\\mathbb{Q}^d) = \\chi(\\mathbb{R}^d)=\\chi^{(m)}(\\mathbb{R}^d). \\] Our theorem also holds for multiple forbidden distances $D=\\{d_1,\\ldots,d_t\\}$ provided that $d_1^2,\\ldots,d_t^2 \\in \\mathbb{Q}$. As a consequence, we immediately lift numerous measurable chromatic number results into the ordinary setting. We also take the opportunity to further optimize the new bounds.\nFor multiple distances, Erdős asked whether the chromatic number of $\\mathbb{R}^d$ with up to $k$ forbidden distances $D$ grows exponentially in $k$. By a theorem of Bukh, we obtain for $d \\ge 4$ that \\[ \\sup_{|D|=k}\\chi_D(\\mathbb{R}^d) \\ge m_1(\\mathbb{R}^d)^{-k}. \\]\nMaking progress on another problem of Erdős, we prove that \\[ (2+o(1))^d \\le \\chi(\\mathbb{R}^d) \\le \\left(\\frac{3\\sqrt{3}}{4}+o(1)\\right)^d. \\] We also vastly improve the lower bounds for $\\chi(\\mathbb{R}^d)$ for small $d\\ge4$.\nWe expect that our techniques could be developed much further. This includes the possibility of extending our main theorem that $\\chi(\\mathbb{R}^d)=\\chi^{(m)}(\\mathbb{R}^d)$ for $d\\ge 4$ to $d=3$ or possibly even to $d=2$ to tackle the Hadwiger-Nelson problem.",
+   "abs": "https://arxiv.org/abs/2610.12301",
+   "pdf": "https://arxiv.org/pdf/2610.12301"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.11395",
+   "type": "new",
+   "title": "Spreads of degrees in maximal planar graphs -- an exposition",
+   "authors": [
+    "Yair Caro",
+    "Riste Škrekovski",
+    "Christina Zarb"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$ and a set $B\\subseteq V(G)$, the spread $\\mathrm{sp}(B)$ of $B$ is the difference between the largest and the smallest degree in $G$ of a vertex of $B$, and for an integer $k\\geq 0$ the parameter $\\mathrm{sp}(G,k)$ is the largest cardinality of a set $B$ with $\\mathrm{sp}(B)\\leq k$. Caro, Lauri and Zarb asked for the minimum of $\\mathrm{sp}(G,k)$ over the maximal planar graphs of order $n$; we write $\\mathrm{MP}(n,\\delta ,k)$ for this minimum over the maximal planar graphs of order $n$ and minimum degree $\\delta \\in \\{3,4,5\\}$.\nThis manuscript is intended as an exposition of the subject of spread in the degree sequence of a graph $G$, with emphasis on maximal planar graphs. We apply the general lower bound of the companion paper \\cite{P1} to this class, together with further ideas, some based on Caro--West and Caro--Lauri--Zarb and some new. In particular we asymptotically determine the values of $\\mathrm{MP}(n,\\delta ,k)$ for every pair $(\\delta ,k)$ with $\\delta \\in \\{3,4,5\\}$ and $k\\geq 0$. This solution recovers the case $\\mathrm{MP}(n,\\delta ,0)$, which is the repetition number $\\mathrm{rep}(G)$ introduced by Caro and West.",
+   "abs": "https://arxiv.org/abs/2610.11395",
+   "pdf": "https://arxiv.org/pdf/2610.11395"
+  }
+ ],
+ "listed_new": 36,
+ "listed_cross": 18
+}
