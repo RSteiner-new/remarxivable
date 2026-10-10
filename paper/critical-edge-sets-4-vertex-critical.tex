@@ -1,0 +1,527 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{microtype}
+\setlength{\emergencystretch}{1em}
+\usepackage{xcolor}
+\definecolor{paperlink}{RGB}{0,0,114}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linktoc=all,
+  linkcolor=paperlink,citecolor=paperlink,urlcolor=paperlink,pdfstartview=Fit,
+  pdftitle={Critical edge sets in 4-vertex-critical graphs},
+  pdfauthor={Raphael Steiner}}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=2em,itemsep=0.25em,topsep=0.35em}
+\setlist[enumerate]{leftmargin=2.25em,itemsep=0.25em,topsep=0.35em}
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{0pt}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Critical edge sets in 4-vertex-critical graphs}
+\fancyhead[R]{\small\thepage}
+\setlength{\headheight}{14pt}
+\numberwithin{equation}{section}
+\setcounter{tocdepth}{1}
+\date{}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{mainthm}{Theorem}
+\renewcommand{\themainthm}{\Alph{mainthm}}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\DeclareMathOperator{\es}{es}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}[1]{N_{#1}}
+
+\title{Critical edge sets in 4-vertex-critical graphs}
+\author{Raphael Steiner\thanks{Department of Mathematics, ETH Z\"urich, Switzerland. Email: \href{mailto:raphaelmario.steiner@math.ethz.ch}{raphaelmario.steiner@math.ethz.ch}. The research of R.S.\ was funded by the SNSF Ambizione Grant No.~216071 of the Swiss National Science Foundation.}}
+
+\begin{document}
+\maketitle
+\thispagestyle{plain}
+
+\begin{abstract}
+A graph can be minimally $4$-chromatic with respect to vertex deletion while no small set of edges is essential for its chromatic number. We construct, for every positive integer~$s$, a $4$-vertex-critical graph whose smallest chromatic-number-reducing edge set has size exactly~$s$, and we prove that, for every sufficiently large~$n$, there is a $4$-vertex-critical graph of order~$n$ that remains $4$-chromatic after any set of at most $\lfloor c n^{1/4}\rfloor$ edges is deleted, where $c>0$ is an absolute constant. This settles the remaining case $k=4$ of Erd\H{o}s's existence and all-orders questions on vertex-critical graphs without small critical edge sets. The input is a $4$-chromatic graph from Simonovits's construction, together with a spanning tree outside of which every edge is critical. Each input vertex is replaced by three independent parts; complete bipartite links along the tree keep the local permutations of the three colors compatible, and each remaining input edge becomes a star owned by a single replacement vertex, which makes that vertex essential. The smallest critical-set size is prescribed exactly on explicit intervals of orders, and a gluing operation reaches every sufficiently large order. All ingredients of the construction are proved in the paper.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+A graph can be minimally $k$-chromatic with respect to deleting vertices without being minimally $k$-chromatic with respect to deleting edges. We study how large this difference can be: can every vertex be essential even though no small set of edges is essential? The answer is yes for every $k\ge 4$. This paper settles the case $k=4$, including a quantitative construction at every sufficiently large order.
+
+All graphs in this paper are finite and simple; the \emph{order} of a graph is its number of vertices. A graph $G$ is \emph{$k$-vertex-critical} if $\chi(G)=k$ and $\chi(G-v)=k-1$ for every $v\in V(G)$, and \emph{$k$-edge-critical} if $\chi(G)=k$ and $\chi(G-e)=k-1$ for every $e\in E(G)$. It is \emph{$k$-critical} if both conditions hold. These notions go back to Dirac~\cite{Dirac1952}; see Jensen's thesis~\cite{JensenThesis}, the books of Jensen and Toft~\cite{JensenToft} and of Stiebitz, Schweser and Toft~\cite{StiebitzSchweserToft}, and Kostochka's survey~\cite{Kostochka} for structural results and further background.
+
+Every edge-critical graph without isolated vertices is vertex-critical, but the converse fails. In 1970, Dirac conjectured that, for every $k\ge 4$, there is a $k$-vertex-critical graph with no critical edge; see~\cite{Erdos1989,Lattanzio}. The restriction $k\ge 4$ is necessary, since the $3$-vertex-critical graphs are precisely the odd cycles. The first example was found by Brown~\cite{Brown} in 1992, settling the case $k=5$. In 2002, Lattanzio~\cite{Lattanzio} proved the conjecture whenever $k\ge 4$ and $k-1$ is not prime, while Jensen~\cite{Jensen2002} independently proved all cases $k\ge 5$. Wang~\cite{Wang} subsequently showed how any vertex-critical graph without critical edges gives rise to an infinite family of such graphs. For $k=4$, Jensen and Siggers~\cite{JensenSiggers} showed that, for every $\varepsilon>0$, there is a $4$-vertex-critical graph in which fewer than an $\varepsilon$-fraction of the edges are critical. Independent solutions of the remaining case $k=4$ were announced by Alex Chan in the discussion of Erd\H{o}s Problem~\#944~\cite{Bloom944} and by Kenta Kitamura~\cite{Kitamura}, who reported a Lean~4 proof. Both announcements precede the present work and concern the absence of individual critical edges. Our results address arbitrarily large critical edge sets and every sufficiently large order. Related recent work of Ferudun~\cite{Ferudun} studies structural restrictions in the $6$-regular case of Dirac's $k=4$ problem.
+
+Erd\H{o}s~\cite{Erdos1989} proposed a stronger problem in 1985, subsequently recorded in the book of Chung and Graham~\cite{ChungGraham}, Chung's online problem collection~\cite{ChungOnline}, the book of Jensen and Toft~\cite{JensenToft}, and the Erd\H{o}s Problems website~\cite{Bloom944}. A set $R\subseteq E(G)$ is \emph{critical} if $\chi(G-R)<\chi(G)$. For integers $k\ge 4$ and $r\ge 1$, call $G$ a \emph{$(k,r)$-graph} if it is $k$-vertex-critical and no set of at most $r$ edges is critical. Does such a graph exist for every $k\ge 4$ and $r\ge 1$? The case $r=1$ is Dirac's conjecture. Jensen~\cite{Jensen2002} proved that, for every $k\ge 5$ and $r\ge 1$, there is a $k$-vertex-critical graph with no critical set of at most $r$ edges all incident with a single vertex. This leaves open the possibility of small critical sets whose edges have no common endpoint.
+
+Martinsson and Steiner~\cite{MartinssonSteiner} proved the existence of a $(k,r)$-graph for every fixed $r$ and all sufficiently large~$k$. Their probabilistic construction uses perfect matchings in random hypergraphs; the relevant matching estimates are supplied by Johansson, Kahn and Vu~\cite{JohanssonKahnVu} and Kahn~\cite{Kahn}, and also follow from Park and Pham~\cite{ParkPham}. The order of quantifiers matters here: $k$ may grow with~$r$, whereas Erd\H{o}s's question fixes $k$ first. None of these matching results is needed in the present proof.
+
+Erd\H{o}s also asked whether, for each fixed $k\ge 4$, the function
+\begin{equation*}
+  f_k(n)=\max\bigl(\{0\}\cup\{r\in\Z_{\ge 1}: \text{there is a $(k,r)$-graph of order $n$}\}\bigr)
+\end{equation*}
+tends to infinity as $n\to\infty$, and proposed estimating its growth; see~\cite{Erdos1989,ChungGraham,ChungOnline}. Skottov\'a and Steiner~\cite{SkottovaSteiner} answered this stronger question for every $k\ge 5$, proving $f_k(n)=\Omega(n^{1/3})$ for all sufficiently large~$n$, and $f_k(n)=\Omega(\sqrt n)$ along an infinite sequence of orders. Their construction modifies circulant graphs of Jensen~\cite{Jensen2002} and combines a coloring analysis with a gluing operation inspired in part by Wang~\cite{Wang}. For arbitrary orders, they also use sparse critical graphs obtained by Haj\'os joins~\cite{Hajos}. We use their gluing lemma but a different input graph and replacement mechanism; neither their circulant construction nor their sparse auxiliary graphs is needed here.
+
+For comparison, the elementary upper bound is $f_k(n)<(n-1)/(k-1)$ for $n\ge 2$: given a $(k-1)$-coloring of $G-v$, remove the edges from $v$ to a smallest color class and extend that color to~$v$. This gives a critical set of size at most $\lfloor (n-1)/(k-1)\rfloor$, so a permissible value of $r$ is strictly smaller than $(n-1)/(k-1)$. Skottov\'a and Steiner~\cite{SkottovaSteiner} improved this to
+\begin{equation*}
+  f_k(n)=O\Bigl(\frac{n}{(\log n)^{c}}\Bigr)
+\end{equation*}
+for every $k\ge 4$ and an absolute constant $c>0$, using a variant of Szemer\'edi's regularity lemma due to Conlon and Fox~\cite{ConlonFox}. Their results left only $k=4$ open in Erd\H{o}s's existence and all-orders questions.
+
+\paragraph{Our results.}
+We resolve the remaining case of the all-orders question as follows.
+
+\begin{mainthm}\label{thm:main}
+For every integer $n\ge 43056$,
+\begin{equation*}
+  f_4(n)\ge\Bigl\lfloor \Bigl(\frac{n}{43056}\Bigr)^{1/4}\Bigr\rfloor-1\,.
+\end{equation*}
+In particular, $f_4(n)=\Omega(n^{1/4})$ and $f_4(n)\to\infty$ as $n\to\infty$.
+\end{mainthm}
+
+The constant $43056$ and the exponent $1/4$ both come from the size of the explicit construction below; we do not claim that either is optimal.
+
+To prove Theorem~\ref{thm:main}, we first prescribe the exact size of a smallest critical edge set. For a graph $G$ with $\chi(G)\ge 2$, define
+\begin{equation}\label{eq:es}
+  \es(G)=\min\{|R|: R\subseteq E(G),\ \chi(G-R)<\chi(G)\}\,.
+\end{equation}
+Thus a $k$-vertex-critical graph is a $(k,r)$-graph precisely when $\es(G)\ge r+1$. Our explicit construction has the following parameters.
+
+\begin{mainthm}\label{thm:intervals}
+Let $s\ge 1$ and $m\ge 6s+1$ be integers, with $m$ odd, and put $\N{m}=6m^3+6m^2+12m$. For every integer $n$ satisfying
+\begin{equation*}
+  3s\N{m}\le n\le\frac{m-1}{2}\,\N{m}\,,
+\end{equation*}
+there is a $4$-vertex-critical graph $G$ of order $n$ with $\es(G)=s$. In particular, such a graph exists at order
+\begin{equation}\label{eq:as}
+  a_s:=3s\N{6s+1}=3888s^4+2592s^3+756s^2+72s\,.
+\end{equation}
+\end{mainthm}
+
+Theorem~\ref{thm:intervals} with $s=r+1$ gives a $(4,r)$-graph for every $r\ge 1$, which answers Erd\H{o}s's existence question for $k=4$. Its interval of available orders is also the starting point for Theorem~\ref{thm:main}: the passage from these intervals to all large orders uses the gluing lemma of Skottov\'a and Steiner~\cite[Lemma~2.1]{SkottovaSteiner}, reproved in Section~\ref{sec:gluing}.
+
+\paragraph{Proof ideas.}
+The two requirements pull in opposite directions. To survive a small edge deletion, the construction must retain many redundant coloring constraints, so that no single edge, or small set of edges, carries a constraint alone. To be vertex-critical, however, each vertex must on its own carry an entire obstruction to $3$-colorability, so that deleting it leaves a $3$-colorable graph. We meet both requirements by using two different replacements for the edges of an input graph: complete bipartite links for the edges of a spanning tree, and stars for all other edges. A uniform replacement by complete bipartite links would fail the second requirement, since other vertices would continue to enforce the same constraint after a single vertex is deleted; the stars, each owned by one replacement vertex, are what make every replacement vertex individually essential.
+
+The input is a $4$-chromatic graph $X$ with a spanning tree $T$ such that every edge outside $T$ is critical and $X-E(T)$ has large minimum degree. We use the equal-parameter, three-block instance of the initial graph $\widetilde W$ in Simonovits's construction~\cite[pp.~74--79]{Simonovits}, not the critical subgraph subsequently extracted there; we make no assumption that every edge of this initial graph is critical, and we prove all properties of $X$ that we use. Replacing every input vertex by three independent parts, joined completely to one another, forces each part to be monochromatic in any $3$-coloring, so the three parts above a vertex carry a permutation of the three colors. The complete bipartite links along the tree make these permutations compatible: along every tree edge the two permutations differ by a translation of $\Z_3$, and the connectedness of $T$ makes this a global statement. Each remaining edge becomes a star owned by one replacement vertex. Deleting that vertex removes the star, and a $3$-coloring of the input graph with that edge deleted then extends to the whole replacement graph. Conversely, fewer than $s$ edge deletions cannot destroy the part structure, the tree constraints, or any star, so any purported $3$-coloring after such deletions recovers a $3$-coloring of the input graph, which does not exist.
+
+The exponent $1/4$ reflects the size of this construction. The input has order $\Theta(m^3)$, we take $m$ proportional to~$s$, and each input vertex is replaced by $\Theta(s)$ vertices, so the resulting orders are $\Theta(s^4)$. The gluing argument extends this scale to all large orders without reducing the edge-deletion budget.
+
+\paragraph{Notation and organization.}
+In arguments with three colors, we use $\Z_3=\{0,1,2\}$ with arithmetic modulo three. In the gluing lemma, which concerns general~$k$, the colors are labeled $1,\dots,k-1$. For a set $R\subseteq E(X)$, the graph $X-R$ retains all vertices and deletes the edges in~$R$; $X-e$ abbreviates $X-\{e\}$. For $v\in V(X)$, the set $N_X(v)$ consists of the neighbors of~$v$, $d_X(v)=|N_X(v)|$, and $\delta(X)=\min_{v\in V(X)}d_X(v)$. A spanning tree is a connected acyclic subgraph containing all the vertices of its ambient graph.
+
+We present the proof from its conclusion toward its technical input. Section~\ref{sec:gluing} derives the all-orders bound of Theorem~\ref{thm:main} from Theorem~\ref{thm:intervals}. Section~\ref{sec:replacement} proves Theorem~\ref{thm:intervals} from two lemmas: Lemma~\ref{lem:input}, which supplies the input graph with its spanning tree, and Lemma~\ref{lem:replacement}, the replacement mechanism, which is proved there in full. Section~\ref{sec:input} proves Lemma~\ref{lem:input}: it defines the input graph, chooses the tree, establishes the coloring obstruction, and gives the edge-deletion colorings. A reader can thus understand the replacement mechanism before entering the coordinate description of its input.
+
+\section{From intervals to all large orders}\label{sec:gluing}
+
+Theorem~\ref{thm:intervals} produces $4$-vertex-critical graphs with $\es(G)=s$ at every order in an interval, but these intervals alone do not cover all large orders. We close the gaps with a gluing step that increases the order by a fixed positive amount without reducing the resistance to edge deletion. Once an interval contains a representative of every residue class modulo that increment, repeated gluing reaches every larger order.
+
+The gluing step is the following lemma of Skottov\'a and Steiner, which we apply only with $H=K_4$. We include its proof, following the cited lemma, so that the paper is self-contained.
+
+\begin{lemma}[Skottov\'a--Steiner {\cite[Lemma~2.1]{SkottovaSteiner}}]\label{lem:gluing}
+Let $k\ge 4$ and $r\ge 1$. Suppose that $H$ is a $k$-critical graph with $h$ vertices and $t$ edges, and that $(k,r)$-graphs exist at orders $n_1,\dots,n_t$. Then a $(k,r)$-graph exists at order $h+\sum_{i=1}^t (n_i-1)$.
+\end{lemma}
+
+\begin{proof}
+The local piece of the construction replaces an edge of $H$ by a graph that forces its two endpoints to receive different colors, even after at most $r$ edge deletions.
+
+Let $G_i$ be a $(k,r)$-graph of order $n_i$, with all these graphs initially disjoint. Choose $x_i\in V(G_i)$ and a proper $(k-1)$-coloring $c_i$ of $G_i-x_i$. Split the neighborhood of $x_i$ into
+\begin{equation*}
+  A_i=\{y\in N_{G_i}(x_i): c_i(y)=1\}\quad\mbox{and}\quad B_i=N_{G_i}(x_i)\setminus A_i\,.
+\end{equation*}
+Replace $x_i$ by two nonadjacent vertices $u_i,w_i$, joining $u_i$ to $A_i$ and $w_i$ to $B_i$. Call the resulting graph $Q_i$, call $u_i,w_i$ its \emph{terminals}, and call its remaining vertices \emph{internal}.
+
+Two properties of $Q_i$ will be used. First, any two distinct prescribed colors at the terminals extend to a proper $(k-1)$-coloring of~$Q_i$: indeed, $c_i$ extends by assigning color $2$ to $u_i$ and color $1$ to $w_i$, since all neighbors of $u_i$ have color $1$ and no neighbor of $w_i$ has color~$1$, and permuting colors gives any prescribed distinct pair. Second, identifying the two terminals recovers~$G_i$. In particular, a coloring of $Q_i$ with equally colored terminals induces a coloring of $G_i$, and the same holds after corresponding edge deletions; the correspondence between edge sets is one-to-one because $A_i$ and $B_i$ partition the neighborhood of~$x_i$.
+
+Enumerate the edges of $H$ as $u_iw_i$ for $1\le i\le t$. Start with the vertices of $H$, but none of its edges. For each~$i$, attach a copy of $Q_i$ by identifying its terminals with the endpoints of the $i$th edge of~$H$. Internal vertices of different pieces remain disjoint. Denote the resulting graph by~$Z$. It is simple, since the terminals of each piece are nonadjacent in that piece, and it has order
+\begin{equation*}
+  |V(Z)|=h+\sum_{i=1}^t (n_i-1)\,.
+\end{equation*}
+
+We first show that $Z$ survives small edge deletions. Suppose that $R\subseteq E(Z)$, $|R|\le r$, and $Z-R$ has a proper $(k-1)$-coloring. Since $\chi(H)=k$, two vertices joined by some edge $u_iw_i$ of $H$ receive the same color. Restrict the coloring to the piece $Q_i$ and identify its terminals. This gives a proper $(k-1)$-coloring of $G_i$ with at most $|R|\le r$ edges deleted, contrary to the choice of~$G_i$. Thus $\chi(Z-R)\ge k$ for every such~$R$.
+
+It remains to color $Z-x$ with $k-1$ colors for every vertex~$x$. If $x\in V(H)$, start with a proper $(k-1)$-coloring of $H-x$, which exists because $H$ is $k$-vertex-critical. In every piece whose two terminals both survive, the terminals have different colors, so the first property of $Q_i$ extends the coloring across that piece. In a piece incident with~$x$, temporarily give the missing terminal a color different from the surviving terminal, extend across the piece, and discard the missing terminal. These extensions agree because pieces share only their terminals.
+
+If instead $x$ is internal to~$Q_j$, start with a proper $(k-1)$-coloring of $H-u_jw_j$, which exists because $H$ is $k$-edge-critical. Its colors at $u_j$ and $w_j$ are equal, since otherwise it would properly color~$H$. A proper $(k-1)$-coloring of $G_j-x$, which exists because $G_j$ is $k$-vertex-critical and $x\ne x_j$, can be relabeled so that $x_j$ has this common color. Splitting $x_j$ into equally colored terminals gives the required coloring of $Q_j-x$. Every other piece has differently colored terminals and is colored using the first property. This colors all of $Z-x$.
+
+Taking $R=\emptyset$ gives $\chi(Z)\ge k$, while a $(k-1)$-coloring of $Z-x$ extends to a $k$-coloring of $Z$ by giving $x$ a new color; hence $\chi(Z)=k$. Since deleting one vertex lowers the chromatic number by at most one, $\chi(Z-x)=k-1$ for every~$x$, so $Z$ is $k$-vertex-critical. Finally, edge deletion cannot increase the chromatic number, so $\chi(Z-R)=k$ whenever $|R|\le r$. Thus $Z$ is a $(k,r)$-graph.
+\end{proof}
+
+The order of $Z$ exceeds the order $n_j$ of a single input by $h-1+\sum_{i\ne j}(n_i-1)$. Fixing all inputs but one therefore turns an available order $n_j$ into the available order $n_j+d$ for a fixed increment~$d$, which is the form in which we use the lemma.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Fix an integer $s\ge 2$ and set
+\begin{equation*}
+  a=a_s\qquad\mbox{and}\qquad b=3s\N{12s+1}=31104s^4+10368s^3+1512s^2+72s\,,
+\end{equation*}
+with $a_s$ as in~\eqref{eq:as}. Theorem~\ref{thm:intervals} with $m=6s+1$ gives a $4$-vertex-critical graph with $\es(G)=s$, that is, a $(4,s-1)$-graph, of order~$a$; with $m=12s+1$, for which $(m-1)/2=6s$, it gives one of every integer order in $[b,2b]$.
+
+Apply Lemma~\ref{lem:gluing} with $H=K_4$, which is $4$-critical with $h=4$ vertices and $t=6$ edges, with five inputs of order $a$ and one input of order~$\ell$. Every available order $\ell$ thus yields the available order
+\begin{equation*}
+  4+5(a-1)+(\ell-1)=\ell+d\,,\qquad d:=5a-2\,.
+\end{equation*}
+Moreover,
+\begin{equation*}
+  b-5a=36s\,(324s^3-72s^2-63s-8)>0\,,
+\end{equation*}
+since $72s^2+63s+8\le 143s^3$ for $s\ge 1$. Hence $b+d-1=b+5a-3<2b$, so $[b,b+d-1]\subseteq[b,2b]$ and every order in $[b,b+d-1]$ is available. Every integer $n\ge b$ has a unique representation $n=\ell+jd$ with $b\le \ell<b+d$ and $j\ge 0$. Starting at order $\ell$ and applying the gluing step $j$ times gives a $(4,s-1)$-graph of order~$n$.
+
+Finally, $b\le 43056s^4$ for $s\ge 1$. Given $n\ge 43056$, put $s=\lfloor (n/43056)^{1/4}\rfloor\ge 1$. If $s=1$, the required bound is $f_4(n)\ge 0$, which holds by definition. Otherwise $n\ge 43056s^4\ge b$, so the construction above gives $f_4(n)\ge s-1$.
+\end{proof}
+
+\section{The replacement construction}\label{sec:replacement}
+
+This section proves Theorem~\ref{thm:intervals}. The construction has two ingredients. The first is an input graph $X$ whose edges are split by a spanning tree $T$ into tree edges, which will synchronize colors, and non-tree edges, each of which is critical and will become a star. The second is a replacement lemma that turns any such input into a $4$-vertex-critical graph with prescribed $\es$. We state the input lemma now and defer its proof to Section~\ref{sec:input}; the replacement lemma is proved here in full.
+
+\begin{lemma}[Input graph]\label{lem:input}
+For every odd integer $m\ge 7$, there is a graph $X$ with a spanning tree $T$ such that
+\begin{equation}\label{eq:input-properties}
+  |V(X)|=\N{m}=6m^3+6m^2+12m,\qquad \chi(X)=4,\qquad \delta(X-E(T))\ge m-1\,,
+\end{equation}
+and $X-e$ is $3$-colorable for every $e\in E(X)\setminus E(T)$.
+\end{lemma}
+
+The replacement lemma is independent of Simonovits's graph: it needs only a $4$-chromatic input with a spanning tree, critical non-tree edges, and enough non-tree edges at every vertex. The parameter $q$ bounds the number of replacement vertices above an input vertex. The minimum degree $2q$ of $X-E(T)$ is used to orient the non-tree edges so that every vertex has at least $q$ outgoing edges, one for each replacement vertex above it to own.
+
+\begin{lemma}[Replacement]\label{lem:replacement}
+Let $s\ge 1$ and $q\ge 3s$ be integers. Let $X$ be a $4$-chromatic graph with a spanning tree $T$ such that $\delta(X-E(T))\ge 2q$ and $X-e$ is $3$-colorable for every $e\in E(X)\setminus E(T)$. For each $v\in V(X)$, choose an integer $a_v$ with $s\le a_v\le q-2s$. Then there is a $4$-vertex-critical graph $G$ such that
+\begin{equation*}
+  |V(G)|=\sum_{v\in V(X)}(a_v+2s)\quad\mbox{and}\quad \es(G)=s\,.
+\end{equation*}
+\end{lemma}
+
+\begin{proof}
+The proof has four steps: the construction of $G$, the $3$-colorings of $G-x$ for every vertex~$x$, the argument that fewer than $s$ edge deletions leave $G$ non-$3$-colorable, and the assembly of these facts into vertex-criticality and $\es(G)=s$.
+
+\emph{Step 1: Choosing the parts and their stars.}
+Set $Y=X-E(T)$. Orient $Y$ so that every vertex has outdegree at least~$q$, and denote the orientation by~$\vec Y$. Such an orientation exists, and can be obtained component by component: in a component, pair up the odd-degree vertices, whose number is even by the handshaking identity, and add an edge on each pair, allowing parallel edges. Every degree in the resulting connected multigraph is even, so an Euler tour orients it with equal indegree and outdegree at every vertex. Delete the added edges. At each vertex at most one edge is deleted, so its remaining outdegree is at least $\lfloor d_Y(v)/2\rfloor\ge q$.
+
+For each $v\in V(X)$, take three disjoint independent sets $P(v,0),P(v,1),P(v,2)$ of sizes $a_v,s,s$, respectively; we call them the \emph{parts} above~$v$, and their vertices the replacement vertices above~$v$. There are $a_v+2s\le q$ replacement vertices above $v$ and at least $q$ outgoing edges at $v$ in~$\vec Y$. Assign one distinct outgoing edge to each replacement vertex above~$v$, and assign all remaining outgoing edges at $v$ arbitrarily to these vertices. Thus each edge of $Y$ has exactly one \emph{owner}, a replacement vertex above its tail, and each replacement vertex owns at least one edge.
+
+Construct $G$ on the union of all parts using three rules. Join the three parts above each $v$ completely to one another. For each tree edge $uv\in E(T)$ and each $i\in\Z_3$, join $P(u,i)$ completely to $P(v,i)$. For each edge $e=uv$ of $\vec Y$ directed from $u$ to~$v$, whose owner $x$ lies in $P(u,i)$, add the \emph{star}
+\begin{equation*}
+  S_e=\{xy: y\in P(v,i)\}\,.
+\end{equation*}
+These three rules produce disjoint edge sets, since $X$ is simple and $E(T)$ and $E(Y)$ are disjoint, and $|V(G)|=\sum_{v\in V(X)}(a_v+2s)$.
+
+\emph{Step 2: Coloring after a vertex deletion.}
+Let $x\in P(u,i)$ be any vertex of $G$ and choose an edge $e=uv$ of $\vec Y$ owned by~$x$. Take a proper $3$-coloring $c\colon V(X)\to\Z_3$ of $X-e$; necessarily $c(u)=c(v)$, since $X$ is not $3$-colorable. Give every vertex of $P(w,j)$ the color $c(w)+j$. Edges between distinct parts above the same vertex join colors $c(w)+j$ and $c(w)+j'$ with $j\ne j'$, so they are proper. Every other edge of $G$, whether in a tree link or in a star, joins vertices of parts with the same index $j$ above the two endpoints of an edge of~$X$, so it is proper precisely when those endpoints have different colors under~$c$. Since $c$ is proper on $X-e$, the monochromatic edges of $G$ are exactly those above $e$, namely the star~$S_e$. Deleting $x$ removes all of them, proving $\chi(G-x)\le 3$ for every~$x$. The same coloring shows $\chi(G-S_e)\le 3$.
+
+\emph{Step 3: Surviving a small edge deletion.}
+Suppose that $F\subseteq E(G)$ with $|F|<s$, and that $G-F$ has a proper $3$-coloring~$\varphi$. We show that this is impossible by recovering from $\varphi$ a proper $3$-coloring of~$X$.
+
+First, every part is monochromatic under~$\varphi$. Fix a part. Since it is independent, each edge of $F$ has at most one endpoint in it, so at most $|F|<s$ of its vertices are incident with an edge of~$F$. Each part has at least $s$ vertices, so we can choose in each part a \emph{representative} incident with no edge of~$F$. Above each base vertex, the three representatives form a triangle in $G-F$, so they receive three distinct colors. Every vertex of a part is adjacent in $G-F$ to the representatives of the other two parts above the same base vertex, so it must receive the color of the representative of its own part.
+
+The three part colors above $v$ therefore form a permutation $\pi_v$ of $\Z_3$, with $\pi_v(i)$ the color of $P(v,i)$. Write
+\begin{equation}\label{eq:affine}
+  \pi_v(i)=b_v+\varepsilon_v i\,,\qquad b_v\in\Z_3,\quad \varepsilon_v\in\{1,-1\}\,;
+\end{equation}
+these affine maps are exactly the six permutations of $\Z_3$, since the image of $0$ determines $b_v$ and the image of $1$ then determines the nonzero difference~$\varepsilon_v$. This is the one step that uses the fact that there are exactly three colors.
+
+Next, the signs agree. For a tree edge $uv$ and each $i$, the complete bipartite link between $P(u,i)$ and $P(v,i)$ has at least $s^2>|F|$ edges, so at least one of them survives in $G-F$, and thus $\pi_u(i)\ne\pi_v(i)$. If $\varepsilon_u\ne\varepsilon_v$, then $\varepsilon_u-\varepsilon_v$ is nonzero and hence invertible modulo three, so the equation $b_u+\varepsilon_u i=b_v+\varepsilon_v i$ has a solution $i\in\Z_3$, a contradiction. Hence $\varepsilon_u=\varepsilon_v$ on every tree edge, and since $T$ is connected, all signs have a common value~$\varepsilon$. Then $\pi_u(i)\ne\pi_v(i)$ reads $b_u\ne b_v$ on every tree edge.
+
+Finally, the translations $b_v$ color~$X$. Every star $S_e$, for $e=uv$ directed from $u$ to $v$ with owner in $P(u,i)$, has at least $|P(v,i)|\ge s>|F|$ edges, so one of them survives. Its endpoint colors are $b_u+\varepsilon i$ and $b_v+\varepsilon i$, so $b_u\ne b_v$ on every non-tree edge as well. The map $v\mapsto b_v$ is now a proper $3$-coloring of~$X$, which contradicts $\chi(X)=4$. Hence $G-F$ is not $3$-colorable whenever $|F|<s$.
+
+\emph{Step 4: Exact criticality.}
+Step~3 with $F=\emptyset$ gives $\chi(G)\ge 4$; this case is valid even when $s=1$. For any vertex~$x$, the $3$-coloring of $G-x$ from Step~2 extends to a $4$-coloring of $G$ by assigning a new color to~$x$, so $\chi(G)=4$. Moreover, $\chi(G-x)\ge 3$, since otherwise giving $x$ a third color would $3$-color~$G$. Thus $\chi(G-x)=3$ for every~$x$, and $G$ is $4$-vertex-critical. Step~3 also gives $\es(G)\ge s$. For the reverse inequality, choose any vertex in a part of index~$1$ and an edge $e$ it owns. The star $S_e$ has exactly $s$ edges, since its target part also has index $1$ and hence size~$s$, and $G-S_e$ is $3$-colorable by Step~2. Therefore $\es(G)=s$.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:intervals}]
+Fix $s$, $m$ and $n$ as in the theorem and take $X$ and $T$ from Lemma~\ref{lem:input}. Put $q=(m-1)/2$, an integer since $m$ is odd. Then $q\ge 3s$ because $m\ge 6s+1$, and $\delta(X-E(T))\ge m-1=2q$, so Lemma~\ref{lem:replacement} applies with these $s$ and $q$ once we choose integers $a_v$ with
+\begin{equation*}
+  \sum_{v\in V(X)}a_v=n-2s\N{m}\quad\mbox{and}\quad s\le a_v\le q-2s\ \text{ for every } v\in V(X)\,.
+\end{equation*}
+To see that this is possible, start with $a_v=s$ for every~$v$, which gives the sum $s\N{m}$, and distribute $n-3s\N{m}$ extra units among the $\N{m}$ vertices, assigning at most $q-3s$ extra units to any one vertex. The assumed interval $3s\N{m}\le n\le q\N{m}$ is exactly the condition that the number of extra units lies between zero and the total capacity $(q-3s)\N{m}$, and filling the vertices successively realizes every intermediate sum. When $q=3s$, the capacity is zero, the interval consists of the single order $3s\N{m}$, and $a_v=s$ throughout. Lemma~\ref{lem:replacement} now gives a $4$-vertex-critical graph of order $\sum_v(a_v+2s)=n$ with $\es(G)=s$. Taking $m=6s+1$, for which $q=3s$, gives the single order $3s\N{6s+1}=a_s$ stated in~\eqref{eq:as}.
+\end{proof}
+
+\section{The input graph and its coloring properties}\label{sec:input}
+
+This section proves Lemma~\ref{lem:input}. The graph and its coloring patterns come from the initial construction in Simonovits~\cite[pp.~74--79]{Simonovits}. The obstruction to $3$-coloring is a periodicity phenomenon on odd cycles: within each of three blocks, complete bipartite patches force one of two long odd cycles to be colored periodically, which makes both of its boundaries use all three colors; connectors between blocks then cannot be colored, because two of the three blocks are periodic in the same cycle family. For the edge-deletion colorings we need the opposite freedom: explicit block colorings in which either cycle may be the periodic one, with control over the colors on its boundaries. Both facts are proved below in the coordinates used here, so that no part of the external construction needs to be reconstructed by the reader.
+
+The spanning tree is our addition. It must contain every edge that the edge-deletion argument does not cover, namely the arms and the diagonal patch edges, while leaving enough edges outside the tree at every vertex; we achieve the second requirement by traversing each patch along a single path, which uses only two tree edges at each patch vertex.
+
+Fix an odd integer $m\ge 7$ throughout this section.
+
+\subsection{The graph and a spanning tree}\label{sec:graph}
+
+The graph consists of three blocks. Each block has two odd cycles of length $m^2$, linked by complete bipartite patches; connectors join corresponding cycles in different blocks. The patches control which colorings a block permits, and the connectors make those local restrictions incompatible globally.
+
+Put $I=\{0,\dots,m-1\}$ and read block indices $z$ modulo three. For each $z\in\{0,1,2\}$, introduce distinct vertices
+\begin{equation*}
+  \begin{aligned}
+    &A_z(i,j),\ D_z(i,j) && (i,j\in I),\\
+    &B_z(i,j,k),\ C_z(i,j,k) && (i,j,k\in I),\\
+    &E_z(i),\ F_z(i),\ G_z(i),\ H_z(i) && (i\in I).
+  \end{aligned}
+\end{equation*}
+Define $X$ by the following edges.
+\begin{enumerate}[label=(\roman*)]
+  \item For each $z$, the $A_z$-vertices form a cycle in lexicographic order on $(i,j)$, with the last vertex joined to the first. The $D_z$-vertices form another such cycle.
+  \item Add $A_z(i,j)B_z(i,j,k)$ and $D_z(i,j)C_z(i,j,k)$ for all $z,i,j,k$.
+  \item Add $B_z(i,j,k)C_z(k,\ell,i)$ for all $z,i,j,k,\ell$.
+  \item Add the \emph{arms} $E_z(i)A_z(i,0)$, $F_z(i)A_z(i,m-1)$, $G_z(i)D_z(i,0)$ and $H_z(i)D_z(i,m-1)$ for all $z,i$.
+  \item Add the \emph{connector edges} $E_z(i)F_{z+1}(j)$ and $G_z(i)H_{z+1}(j)$ for all $z,i,j$.
+\end{enumerate}
+The vertices of types $A_z,B_z,C_z,D_z$ form \emph{block}~$z$. For fixed $z,i,k$, the sets $\{B_z(i,j,k): j\in I\}$ and $\{C_z(k,\ell,i): \ell\in I\}$ induce a complete bipartite graph by rule~(iii), called the \emph{patch} indexed by $(i,k)$; a patch edge $B_z(i,j,k)C_z(k,\ell,i)$ is \emph{diagonal} when $j=\ell$. The \emph{connector} $E_z,F_{z+1}$ is the complete bipartite graph between these two vertex families; define the connector $G_z,H_{z+1}$ in the same way. The connector vertices $E_z,F_z,G_z,H_z$ lie outside the blocks. Counting the vertex families gives $|V(X)|=3(2m^3+2m^2+4m)=\N{m}$.
+
+The degrees in $X$ are as follows: each $B$- or $C$-vertex has degree $m+1$ (one edge of rule~(ii) and $m$ patch edges); each $A$- or $D$-vertex has degree $m+2$ (two cycle edges and $m$ edges of rule~(ii)), plus one arm if it lies in a column $0$ or $m-1$; each connector vertex has degree $m+1$ (one arm and $m$ connector edges).
+
+We now choose the spanning tree~$T$. In each block, retain the $A$-cycle except for its closing edge, so that the $A$-vertices form a path. In the patch indexed by $(i,k)$, let $b=i+k$ and $c=i+k+1$, both reduced modulo $m$ and represented in~$I$. Since $b\ne c$, we can choose a permutation $(\sigma_0,\dots,\sigma_{m-1})$ of $I$ with $\sigma_0=b$ and $\sigma_{m-1}=c$. Retain the alternating path
+\begin{equation*}
+  B_z(i,\sigma_0,k),\ C_z(k,\sigma_0,i),\ B_z(i,\sigma_1,k),\ C_z(k,\sigma_1,i),\ \dots,\ B_z(i,\sigma_{m-1},k),\ C_z(k,\sigma_{m-1},i)\,,
+\end{equation*}
+which traverses every vertex of the patch, and attach its first vertex to $A_z(i,b)$ and its last vertex to $D_z(k,c)$ by the corresponding edges of rule~(ii). Retain all arms and the two connector edges $E_0(0)F_1(0)$ and $E_1(0)F_2(0)$, and no other edges.
+
+\begin{lemma}[The reserved tree]\label{lem:tree}
+The graph $T$ is a spanning tree of~$X$, contains every arm and every diagonal patch edge, and satisfies $\delta(X-E(T))=m-1$.
+\end{lemma}
+
+\begin{proof}
+We first check that the retained edges in one block form a tree on the block together with its connector vertices. For fixed~$i$, the values $b=i+k$ run through $I$ as $k$ varies, so each $A$-vertex $A_z(i,b)$ is attached to exactly one patch path, namely that of the patch $(i,k)$ with $k=b-i$. For fixed~$k$, the values $c=i+k+1$ run through $I$ as $i$ varies, so each $D$-vertex $D_z(k,c)$ is the endpoint of exactly one attached patch path. The patch paths are vertex-disjoint and together cover all $B$- and $C$-vertices of the block. Starting from the $A$-path, attaching each patch path by its single edge to the $A$-path, then each $D$-vertex by its single attached path, and finally each connector vertex by its arm, we build a tree in each step. The two retained connector edges join the three block trees in a path, so $T$ is a spanning tree of~$X$. It contains every arm by construction, and every diagonal patch edge $B_z(i,j,k)C_z(k,j,i)$, since $j=\sigma_t$ for some~$t$ and the path contains the edge $B_z(i,\sigma_t,k)C_z(k,\sigma_t,i)$.
+
+For the minimum degree, we compare the degrees in $X$ computed above with the degrees in~$T$. Each $B$- or $C$-vertex has degree two in~$T$: an interior vertex of a patch path has its two path edges, the first vertex has one path edge and its $A$-attachment, and the last vertex has one path edge and its $D$-attachment. So its degree in $X-E(T)$ is $m-1$. An $A$-vertex has in $T$ one patch attachment, at most two cycle edges, and its arm if it has one; its degree in $X-E(T)$ is therefore at least $m-1$. A $D$-vertex has in $T$ one patch attachment and its arm if it has one, and no $D$-cycle edge; its degree in $X-E(T)$ is exactly $m+1$. Each connector vertex retains in $T$ its arm and at most one connector edge, so its degree in $X-E(T)$ is at least $m-1$. Consequently $\delta(X-E(T))=m-1$, attained at the $B$- and $C$-vertices.
+\end{proof}
+
+\subsection{Why three colors do not suffice}\label{sec:obstruction}
+
+The obstruction is that a periodically colored cycle uses all three colors on both of its boundaries. Every block contains a periodic cycle, but a connector cannot join two such boundaries in a proper $3$-coloring, and some connector must do so.
+
+We fix the terminology. The \emph{left} and \emph{right boundaries} of an $A$-cycle are $\{A_z(i,0): i\in I\}$ and $\{A_z(i,m-1): i\in I\}$, respectively; use the same terminology for $D$-cycles. A \emph{row} fixes the first index and lets the second run from $0$ to $m-1$; by rule~(i), a row is a path of $m$ consecutive cycle vertices, and consecutive rows are joined by a cycle edge, with the last row joined to the first by the closing edge. In a proper $3$-coloring, call a row \emph{periodic} if it uses only two colors, and a cycle \emph{periodic} if all its rows are periodic. Since $m$ is odd, a periodic row alternates two colors and its two endpoints have the same color. In a periodic cycle, these common endpoint colors, one per row, properly color the odd cycle of length $m$ formed by the rows, since consecutive rows are joined by an edge; so they use all three colors, and both boundaries use all three colors.
+
+\begin{lemma}[The coloring obstruction]\label{lem:obstruction}
+In every proper $3$-coloring of a block, at least one of its two cycles is periodic. A proper $3$-coloring of two cycles joined by a connector extends across that connector and its arms if and only if at least one of the two incident boundaries uses at most two colors. Consequently, $X$ is not $3$-colorable.
+\end{lemma}
+
+\begin{proof}
+Suppose that neither cycle in a properly $3$-colored block is periodic. Then some $A$-row $i$ and some $D$-row $k$ are not periodic, so each uses all three colors. Consider the patch indexed by $(i,k)$. Each vertex $B(i,j,k)$ on its $B$-side is adjacent to $A(i,j)$ by rule~(ii), and since row $i$ uses all three colors, the $B$-side cannot be monochromatic; likewise the $C$-side cannot be monochromatic, as $C(k,\ell,i)$ is adjacent to $D(k,\ell)$. But the two sides of a complete bipartite graph must use disjoint sets of colors, which is impossible if each uses at least two of three colors.
+
+For the connector criterion, suppose first that both incident boundaries use all three colors. Then neither side of the connector can be monochromatic, by the arms, and the same complete bipartite obstruction applies. For sufficiency, let one incident boundary miss a color~$a$, and color the connector side incident with it entirely with~$a$. Each vertex on the other side has only two forbidden colors, namely $a$ and the color of its boundary neighbor along its arm, so it can be colored independently. Different connectors have disjoint connector-vertex sets, so these extensions can be made independently once the block colorings are fixed.
+
+If $X$ had a proper $3$-coloring, choosing a periodic cycle in each of the three blocks would give two periodic cycles in the same family, $A$ or~$D$, say in blocks $z$ and $z'$. Since every pair of distinct blocks is joined by one connector of each family, these two cycles are joined by a connector, and both of its incident boundaries use all three colors, a contradiction. Therefore $\chi(X)>3$.
+\end{proof}
+
+\subsection{A block-coloring template}\label{sec:template}
+
+For the edge-deletion colorings we need to choose which cycle of a block is periodic and to control a color on its boundaries. The following explicit template provides that freedom. It is the elementary block coloring from Simonovits~\cite[pp.~75--76]{Simonovits}, written out in the coordinates used here.
+
+An \emph{elementary coloring} of a cycle gives one exceptional vertex the color $0$ and alternates $1,2$ along the remaining path. It is proper because the cycle has odd length~$m^2$: the remaining path has an even number of vertices, so its two ends receive the colors $1$ and $2$, both different from the exceptional color. Permuting the colors gives another elementary coloring, whose exceptional color need not be~$0$. In an elementary coloring, a boundary avoids the exceptional color unless it contains the exceptional vertex. In particular, an exceptional vertex in an \emph{interior column} $j\in\{1,\dots,m-2\}$ leaves both boundaries with at most two colors, which by Lemma~\ref{lem:obstruction} allows every connector at such a cycle to be colored.
+
+\begin{lemma}[Block-coloring template]\label{lem:template}
+Work in one block and suppress its block index. Fix a vertex $A(i_0,j_0)$ and a row $k_0$ of its $D$-cycle. There is a proper $3$-coloring of the block in which the $A$-cycle is elementary with exceptional vertex $A(i_0,j_0)$, the $D$-cycle is periodic, and color $1$ occurs on each $D$-boundary only in row~$k_0$. The colors may be permuted, and the roles of the two cycle families may be interchanged.
+\end{lemma}
+
+\begin{proof}
+Write $\gamma$ for the coloring being constructed. Color the $A$-cycle elementarily with exceptional vertex $A(i_0,j_0)$, and set
+\begin{equation*}
+  \gamma(B(i,j,k))=
+  \begin{cases}
+    0, & (i,j)\ne(i_0,j_0),\\
+    1, & (i,j)=(i_0,j_0),\ k=k_0,\\
+    2, & (i,j)=(i_0,j_0),\ k\ne k_0,
+  \end{cases}
+  \qquad
+  \gamma(C(k,\ell,i))=
+  \begin{cases}
+    2, & k=k_0,\\
+    1, & k\ne k_0.
+  \end{cases}
+\end{equation*}
+On row $k_0$ of the $D$-cycle alternate $1,0$, starting and ending with~$1$, which is possible since $m$ is odd. The remaining $D$-vertices form a path of $m(m-1)$ vertices, which is even; alternate $0,2$ along it, so that its two ends receive $0$ and~$2$, both different from the color $1$ of their neighbors at the ends of row~$k_0$.
+
+We check that $\gamma$ is proper. Every $AB$-edge is proper: $A(i_0,j_0)$ has color $0$ and its $B$-neighbors have colors $1$ or $2$, while every other $A$-vertex has color $1$ or $2$ and its $B$-neighbors have color~$0$. In a patch with $k=k_0$, the $B$-side uses colors in $\{0,1\}$ and the $C$-side uses~$2$; in every other patch, the $B$-side uses colors in $\{0,2\}$ and the $C$-side uses~$1$. So all patch edges are proper. The $DC$-edges are proper, since row $k_0$ avoids $2$ and the other rows avoid~$1$. Within the $D$-cycle, every row other than $k_0$ uses only the colors $0,2$, while row $k_0$ uses only $0,1$ and has color $1$ at both endpoints. Hence the $D$-cycle is periodic, and color $1$ occurs on each $D$-boundary only in row~$k_0$.
+
+By permuting colors, the distinguished color $1$ can be replaced by any prescribed color. The simultaneous interchange $A\leftrightarrow D$, $B\leftrightarrow C$, $E\leftrightarrow G$, $F\leftrightarrow H$, applied to the vertex names, preserves the edge rules (i)--(v) and hence is an automorphism of~$X$, so the two cycle families can also be interchanged.
+\end{proof}
+
+\subsection{Critical edges outside the tree}\label{sec:critical}
+
+We now show that every edge outside $T$ is critical. For each such edge~$e$, we exhibit a $3$-coloring of $V(X)$ whose only monochromatic edge is~$e$; deleting $e$ then gives a proper coloring. In every case, the edge $e$ lies in block $0$ or in a connector at block~$0$, and the coloring of block $0$ is chosen by hand. The two remaining blocks are colored by the template of Lemma~\ref{lem:template}, and the connector criterion of Lemma~\ref{lem:obstruction} checks that the block colorings fit together.
+
+\begin{lemma}\label{lem:critical}
+For every $e\in E(X)\setminus E(T)$, the graph $X-e$ is $3$-colorable.
+\end{lemma}
+
+\begin{proof}
+We prove the stronger assertion that every cycle edge, every $AB$- or $DC$-edge, every connector edge, and every non-diagonal patch edge is the unique monochromatic edge of some $3$-coloring of $V(X)$. These families contain every edge outside~$T$, since all arms and all diagonal patch edges lie in $T$ by Lemma~\ref{lem:tree}. The block rotation $z\mapsto z+1$ and the interchange of the two cycle families from Lemma~\ref{lem:template} are automorphisms of $X$ that preserve each of these edge families, so it suffices to treat an edge in block $0$, or in a connector of the $E,F$ family at block~$0$. These automorphisms need not preserve the chosen tree~$T$; no such invariance is used.
+
+In the first three cases, the blocks $1$ and $2$ are colored by Lemma~\ref{lem:template} in one of two arrangements, listed in the following table together with the boundary conditions on block $0$ under which the arrangement extends across all connectors. In each arrangement, the cycle not listed as periodic is elementary with an interior exceptional column.
+\begin{center}
+  \begin{tabular}{ccl}
+    Block 1 & Block 2 & Sufficient conditions on block 0\\[2pt]
+    $A$ periodic & $D$ periodic & left $A_0$- and right $D_0$-boundary use at most two colors each\\
+    $D$ periodic & $A$ periodic & right $A_0$- and left $D_0$-boundary use at most two colors each
+  \end{tabular}
+\end{center}
+To verify the first row, recall from Lemma~\ref{lem:obstruction} that a connector extends as soon as one of its incident boundaries uses at most two colors. In the first arrangement, the elementary cycles with interior exception are $D_1$ and $A_2$, whose boundaries use at most two colors, and these are incident with every connector except $E_0,F_1$ (incident with the left $A_0$-boundary and the right $A_1$-boundary) and $G_2,H_0$ (incident with the left $D_2$-boundary and the right $D_0$-boundary). The two stated conditions handle these two connectors. In the second arrangement, the elementary cycles are $A_1$ and $D_2$, the two unhandled connectors are $E_2,F_0$ and $G_0,H_1$, and the stated conditions handle them in the same way. Once every connector has an incident boundary with at most two colors, Lemma~\ref{lem:obstruction} extends the block colorings across all connectors and arms, and the connector vertices receive proper colors; so in each case below it suffices to produce a coloring of the blocks with the required properties.
+
+\emph{Case 1: a non-diagonal patch edge.}
+Let $e=B_0(i_0,j_0,k_0)C_0(k_0,\ell_0,i_0)$ be a patch edge outside~$T$; since all diagonal patch edges belong to~$T$, we have $j_0\ne\ell_0$. Color the $A_0$-cycle elementarily with exceptional color $0$ at $A_0(i_0,j_0)$, and the $D_0$-cycle elementarily with exceptional color $1$ at $D_0(k_0,\ell_0)$, that is, with the colors $0,2$ alternating on the remaining path. Denoting the resulting coloring by~$\gamma$, assign
+\begin{equation*}
+  \gamma(B_0(i,j,k))=
+  \begin{cases}
+    2, & (i,j)=(i_0,j_0),\\
+    0, & \text{otherwise},
+  \end{cases}
+  \qquad
+  \gamma(C_0(k,\ell,i))=
+  \begin{cases}
+    2, & (k,\ell)=(k_0,\ell_0),\\
+    1, & \text{otherwise}.
+  \end{cases}
+\end{equation*}
+All $AB$- and $DC$-edges are proper. The $B_0$-vertices use colors in $\{0,2\}$ and the $C_0$-vertices use colors in $\{1,2\}$, so a patch edge is monochromatic only when both endpoints have color~$2$; the vertices of color $2$ are $B_0(i_0,j_0,k)$ for $k\in I$ and $C_0(k_0,\ell_0,i)$ for $i\in I$, and by rule~(iii) the only edge among them is~$e$.
+
+The left $A_0$-boundary misses the color $0$ unless $j_0=0$, and the right $A_0$-boundary misses it unless $j_0=m-1$; the right $D_0$-boundary misses the color $1$ unless $\ell_0=m-1$, and the left $D_0$-boundary misses it unless $\ell_0=0$. So the first arrangement applies when $j_0\ne 0$ and $\ell_0\ne m-1$, and the second when $j_0\ne m-1$ and $\ell_0\ne 0$. Both fail only if one condition from each row fails. The combinations $j_0=0=m-1$ and $\ell_0=m-1=0$ are impossible, and the other two combinations are $(j_0,\ell_0)=(0,0)$ and $(j_0,\ell_0)=(m-1,m-1)$, both excluded by $j_0\ne\ell_0$. Hence at least one arrangement applies.
+
+\emph{Case 2: an $AB$- or $DC$-edge.}
+Let $e=A_0(i_0,j_0)B_0(i_0,j_0,k_0)$. Choose an interior column $\ell_0$, use the block-$0$ coloring of Case~1 for the parameters $i_0,j_0,k_0,\ell_0$, and recolor $B_0(i_0,j_0,k_0)$ from $2$ to~$0$. This makes $e$ monochromatic, since $A_0(i_0,j_0)$ has color~$0$, and removes the previously monochromatic patch edge; the patch neighbors $C_0(k_0,\ell,i_0)$ of the recolored vertex have colors $1$ or~$2$, and no other edge is affected. Since $\ell_0$ is interior, both $D_0$-boundaries miss the color~$1$, so the first arrangement applies when $j_0\ne 0$ and the second when $j_0\ne m-1$; one of them always applies, including when $j_0=\ell_0$. This handles all $AB$-edges, and the interchange of cycle families handles the $DC$-edges.
+
+\emph{Case 3: a cycle edge.}
+Let $e$ be an edge of the $A_0$-cycle. Deleting $e$ from the cycle leaves a path on $m^2$ vertices; color it alternately $0,1$, so that its two ends, the endpoints of~$e$, receive the same color because $m^2$ is odd. Give every $B_0$-vertex the color~$2$. Color the $D_0$-cycle elementarily with an interior exceptional column, and give each $C_0$-vertex a color in $\{0,1\}$ different from the color of its $D_0$-neighbor. All $AB$-, $DC$- and patch edges are proper, so $e$ is the only monochromatic edge. Both boundaries of the $A_0$-cycle use only the colors $0,1$, and both boundaries of the $D_0$-cycle use at most two colors because the exceptional column is interior, so either arrangement of blocks $1$ and $2$ applies. The interchange of cycle families handles the $D$-cycle edges.
+
+\emph{Case 4: a connector edge.}
+Let $e=E_0(i_0)F_1(i_1)$. Give blocks $0$ and $1$ periodic $A$-cycles and elementary $D$-cycles with interior exceptional columns, and give block $2$ an elementary $A$-cycle with an interior exceptional column and a periodic $D$-cycle, all by Lemma~\ref{lem:template}. Every connector other than $E_0,F_1$ is then incident with a boundary of an elementary cycle with interior exception, hence extends by Lemma~\ref{lem:obstruction}. For the connector $E_0,F_1$, fix three distinct colors $a,b,c$. Lemma~\ref{lem:template}, with the cycle families interchanged and the colors permuted, lets us arrange that $a$ occurs on the left $A_0$-boundary only in row~$i_0$, and $b$ occurs on the right $A_1$-boundary only in row~$i_1$; the two blocks are colored independently. Color $E_0(i)$ with $a$ for $i\ne i_0$, color $F_1(i)$ with $b$ for $i\ne i_1$, and color both $E_0(i_0)$ and $F_1(i_1)$ with~$c$. Every connector edge joins a vertex of color $a$ or $c$ to a vertex of color $b$ or $c$, so $e$ is the unique monochromatic connector edge. All arms at this connector are proper: outside the rows $i_0$ and $i_1$ the boundary colors avoid $a$ and $b$, respectively, and in those rows the boundary colors are $a$ and $b$, not~$c$. Block rotation handles the other $E,F$ connectors, and the interchange of cycle families handles the $G,H$ connectors. There are no arm cases, since every arm belongs to~$T$.
+\end{proof}
+
+\begin{proof}[Proof of Lemma~\ref{lem:input}]
+Let $X$ and $T$ be as defined in Section~\ref{sec:graph}. The count of the vertex families gives $|V(X)|=\N{m}$, and Lemma~\ref{lem:tree} shows that $T$ is a spanning tree with $\delta(X-E(T))=m-1$. Lemma~\ref{lem:critical} gives the edge-deletion colorings. By Lemma~\ref{lem:obstruction}, $\chi(X)>3$. Since $\delta(X-E(T))=m-1>0$, there is an edge $e$ outside~$T$; a proper $3$-coloring of $X-e$ together with a fourth color at one endpoint of $e$ colors $X$ properly, so $\chi(X)=4$.
+\end{proof}
+
+\begin{thebibliography}{99}
+
+\bibitem{Bloom944}
+T.~Bloom.
+Erd\H{o}s problem \#944.
+Online database for Erd\H{o}s problems.
+\url{https://www.erdosproblems.com/944}.
+
+\bibitem{Brown}
+J.~I. Brown.
+A vertex-critical graph without critical edges.
+\emph{Discrete Mathematics}, 102(1):99--101, 1992.
+
+\bibitem{ChungOnline}
+F.~Chung.
+Vertex-critical graphs with many extra edges.
+Online collection of Erd\H{o}s problems on graphs.
+\url{https://mathweb.ucsd.edu/~erdosproblems/erdos/newproblems/NoncriticalEdges.html}.
+
+\bibitem{ChungGraham}
+F.~Chung and R.~Graham.
+\emph{Erd\H{o}s on Graphs: His Legacy of Unsolved Problems}.
+CRC Press, 1998.
+
+\bibitem{ConlonFox}
+D.~Conlon and J.~Fox.
+Bounds for graph regularity and removal lemmas.
+\emph{Geometric and Functional Analysis}, 22:1191--1256, 2012.
+
+\bibitem{Dirac1952}
+G.~A. Dirac.
+A property of 4-chromatic graphs and some remarks on critical graphs.
+\emph{Journal of the London Mathematical Society}, s1-27:85--92, 1952.
+
+\bibitem{Erdos1989}
+P.~Erd\H{o}s.
+On some aspects of my work with Gabriel Dirac.
+In \emph{Graph Theory in Memory of G.~A. Dirac (Sandbjerg, 1985)}, volume~41 of \emph{Annals of Discrete Mathematics}, pages 111--116. North-Holland, Amsterdam--New York, 1989.
+
+\bibitem{Ferudun}
+A.~Ferudun.
+Exact 6-cut rigidity and small-order superconnectivity for the 6-regular case of Dirac's $k=4$ problem.
+arXiv:2606.18462, 2026.
+
+\bibitem{Hajos}
+G.~Haj\'os.
+\"Uber eine Konstruktion nicht $n$-f\"arbbarer Graphen.
+\emph{Wissenschaftliche Zeitschrift der Martin-Luther-Universit\"at Halle-Wittenberg, Mathematisch-Naturwissenschaftliche Reihe}, 10:116--117, 1961.
+
+\bibitem{JensenThesis}
+T.~R. Jensen.
+\emph{Structure of critical graphs}.
+PhD thesis, Odense University, Denmark, 1996.
+
+\bibitem{Jensen2002}
+T.~R. Jensen.
+Dense critical and vertex-critical graphs.
+\emph{Discrete Mathematics}, 258(1--3):63--84, 2002.
+
+\bibitem{JensenSiggers}
+T.~R. Jensen and M.~Siggers.
+On a question of Dirac on critical and vertex-critical graphs.
+\emph{Siberian Electronic Mathematical Reports}, 9:156--160, 2012.
+
+\bibitem{JensenToft}
+T.~R. Jensen and B.~Toft.
+\emph{Graph Coloring Problems}.
+Wiley-Interscience Series in Discrete Mathematics and Optimization. John Wiley and Sons, 1995.
+
+\bibitem{JohanssonKahnVu}
+A.~Johansson, J.~Kahn, and V.~Vu.
+Factors in random graphs.
+\emph{Random Structures \& Algorithms}, 33(1):1--28, 2008.
+
+\bibitem{Kahn}
+J.~Kahn.
+Asymptotics for Shamir's problem.
+\emph{Advances in Mathematics}, 422:109019, 2023.
+
+\bibitem{Kitamura}
+K.~Kitamura.
+Lean 4 proof of the $k=4$ case of Dirac's conjecture (Erd\H{o}s Problem 944, $r=1$).
+Announced proof and repository, \url{https://github.com/KitaKen1/erdos-944-dirac-k4-lean}, 2026.
+Formal Conjectures pull request \#5467, \url{https://github.com/google-deepmind/formal-conjectures/pull/5467}.
+
+\bibitem{Kostochka}
+A.~V. Kostochka.
+Color-critical graphs and hypergraphs with few edges: a survey.
+In \emph{More Sets, Graphs and Numbers}, volume~15 of \emph{Bolyai Society Mathematical Studies}, pages 175--197. Springer, Berlin, 2006.
+
+\bibitem{Lattanzio}
+J.~J. Lattanzio.
+A note on a conjecture of Dirac.
+\emph{Discrete Mathematics}, 258(1--3):323--330, 2002.
+
+\bibitem{MartinssonSteiner}
+A.~Martinsson and R.~Steiner.
+Vertex-critical graphs far from edge-criticality.
+\emph{Combinatorics, Probability and Computing}, 34:151--157, 2025.
+
+\bibitem{ParkPham}
+J.~Park and H.~T. Pham.
+A proof of the Kahn--Kalai conjecture.
+\emph{Journal of the American Mathematical Society}, 37(1):235--243, 2024.
+
+\bibitem{Simonovits}
+M.~Simonovits.
+On colour-critical graphs.
+\emph{Studia Scientiarum Mathematicarum Hungarica}, 7:67--81, 1972.
+
+\bibitem{SkottovaSteiner}
+E.~Skottov\'a and R.~Steiner.
+Critical edge sets in vertex-critical graphs.
+arXiv:2508.08703, 2025.
+
+\bibitem{StiebitzSchweserToft}
+M.~Stiebitz, T.~Schweser, and B.~Toft.
+\emph{Brooks' Theorem: Graph Coloring and Critical Graphs}.
+Springer Nature, 2024.
+
+\bibitem{Wang}
+J.~Wang.
+Infinite family from each vertex $k$-critical graph without any critical edge.
+In D.-Z. Du, X.~Hu, and P.~M. Pardalos, editors, \emph{Combinatorial Optimization and Applications: COCOA 2009}, volume 5573 of \emph{Lecture Notes in Computer Science}, pages 238--248, 2009.
+
+\end{thebibliography}
+
+\end{document}
