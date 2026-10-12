@@ -1,0 +1,557 @@
+{
+ "date": "2026-10-12",
+ "generated_at": "2026-10-12T03:00:57Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-12",
+ "screened": 49,
+ "screened_new": 30,
+ "screened_cross": 19,
+ "scored": 49,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.13204",
+   "type": "cross",
+   "title": "On the Quantitative Bounds of Nonlinear Roth Theorem",
+   "authors": [
+    "Yunfan Zhao"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "We prove that any subset $A \\subseteq \\{1, \\dots, N\\}$ lacking non-trivial polynomial progressions $(x, x + y, x + y^2)$ satisfies $\\lvert A \\rvert \\le CN \\exp\\bigl(-c(\\log \\log N)^\\beta\\bigr)$ for effective absolute constants $C, c, \\beta > 0$. The argument develops a density increment framework localized to anisotropic quadratic Bohr sets. To handle mixed linear and quadratic frequencies, we establish a multilinear transference principle coupled with a relative quadratic inverse theorem based on Balog--Szemer{é}di--Gowers additive energy rigidity. Boundary stability across increments is maintained via semi-algebraic model regularization using cylindrical algebraic decomposition and Cauchy--Crofton estimates, while dimension growth is controlled by dissociated basis reduction and multidimensional Erd{ő}s--Tur{á}n--Koksma equidistribution.",
+   "abs": "https://arxiv.org/abs/2610.13204",
+   "pdf": "https://arxiv.org/pdf/2610.13204"
+  },
+  {
+   "id": "2610.13682",
+   "type": "cross",
+   "title": "Spread-out Furstenberg sets II: general configurations and fractal restricted projections",
+   "authors": [
+    "Alex Cohen",
+    "Pablo Shmerkin",
+    "Hong Wang",
+    "Dmitrii Zakharov"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "",
+   "abstract": "We prove optimal dual Furstenberg estimates for Frostman and Katz--Tao configurations for which the shadings are not locally concentrated near pencils. The starting point is the sticky estimate of Orponen and Shmerkin in a companion paper. We deduce restricted projection theorems in the plane and in higher dimensions. In particular, Ahlfors-regular measures on the circle satisfy a Marstrand-type projection theorem. Applications include restricted projections to surfaces in the $\\mathbb{G}(4,2)$ Grassmannian, pinned distances, discretized sum-product, and a new proof of the dimension formula for planar self-affine sets.",
+   "abs": "https://arxiv.org/abs/2610.13682",
+   "pdf": "https://arxiv.org/pdf/2610.13682"
+  },
+  {
+   "id": "2609.30409",
+   "type": "cross",
+   "title": "Volume stability of plank covers",
+   "authors": [
+    "Egor Bakaev",
+    "Amir Yehudayoff"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "We prove a longstanding conjecture of András Bezdek on the stability of plank covers of the planar disk $D$. If a sufficiently small disk $\\varepsilon D$ is removed, then every finite family of planks covering the resulting annulus can be rearranged to cover the whole disk. For the proof, we establish a stronger dimension-independent stability theorem. If $K \\subset {\\mathbb R}^n$ is an origin-symmetric convex body for $n \\geq 2$, and the uncovered region lies in $\\varepsilon K$ and has volume $v$, then the excess overlap is at least $c v/\\varepsilon$, where $c>0$ is an absolute constant. The proof introduces a pruning procedure and a flattening mechanism. Pruning peels away curvature through local removals whose cumulative effect is guaranteed to be substantial. Flattening trades straightness for bounded multiplicity and geometrically exposes the overlap that pays for each pruning step.",
+   "abs": "https://arxiv.org/abs/2609.30409",
+   "pdf": "https://arxiv.org/pdf/2609.30409"
+  },
+  {
+   "id": "2610.13042",
+   "type": "cross",
+   "title": "Covering plane curves over finite fields with lines",
+   "authors": [
+    "Shamil Asgarli",
+    "Sarthak Dassarma",
+    "Dragos Ghioca",
+    "Simon MacLean",
+    "Evan Stokdyk"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.AG",
+   "comments": "14 pages",
+   "abstract": "We prove that, for every fixed $d\\geq 2$ and $\\varepsilon>0$, the $\\mathbb{F}_q$-points of a geometrically irreducible reflexive plane curve of degree $d$ over $\\mathbb{F}_q$ can be covered by at most $\\left(\\frac{1}{d}+\\varepsilon\\right)q$ many $\\mathbb{F}_q$-lines, provided that $q$ is sufficiently large. The same conclusion holds for $\\mathbb{F}_q$-irreducible curves that are not geometrically irreducible, since they have only $O(d^2)$ $\\mathbb{F}_q$-points. In particular, for sufficiently large $q$, the bound applies to every $\\mathbb{F}_q$-irreducible plane curve of degree $d$ when $\\operatorname{char}(\\mathbb{F}_q)>d$. Our bound is asymptotically sharp. The proof combines Entin's Chebotarev density theorem for varieties over finite fields with the Pippenger--Spencer theorem on covers of nearly regular hypergraphs.",
+   "abs": "https://arxiv.org/abs/2610.13042",
+   "pdf": "https://arxiv.org/pdf/2610.13042"
+  },
+  {
+   "id": "2610.12630",
+   "type": "new",
+   "title": "Equality Cases in the Tu-Deng Conjecture Bound",
+   "authors": [
+    "Thomas W. Cusick"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Tu-Deng Conjecture, made in 2011, asserts that for $k\\geq2$ and $1\\leq t<2^k-1$, the set \\[ S_{t,k}=\\left\\{(a,b)\\in\\{0,1,\\ldots,2^k-2\\}^2:\na+b\\equiv t\\pmod{2^k-1},\\quad \\wt(a)+\\wt(b)<k\\right\\} \\] satisfies \\[\n|S_{t,k}|\\leq 2^{k-1}. \\] Proofs of the conjecture were given independently by the author and by Liu, Luo and Xie in arXiv in 2026. Let $r=\\wt(t)$, and let $z=k-r$ be the number of zeros in the $k$-bit expansion of $t$. We prove that equality holds in the Tu-Deng Conjecture if and only if every cyclic distance between consecutive zeros is at least $z$. We give several other simple necessary and sufficient conditions, including a forbidden-pattern condition, a packing condition for the zero positions, a composition condition for the gaps, and equivalent conditions involving the coefficients of the polynomial $H_W(u,v)$ in the proof of the Tu-Deng conjecture. We also count the equality words having a prescribed number of zeros.",
+   "abs": "https://arxiv.org/abs/2610.12630",
+   "pdf": "https://arxiv.org/pdf/2610.12630"
+  },
+  {
+   "id": "2610.12767",
+   "type": "new",
+   "title": "Efficient lifts into odd dimensions of Spherical $5$- and $7$-designs with Balanced Halves",
+   "authors": [
+    "Konstantin Delchev",
+    "Boryan Yordanov"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 3 tables",
+   "abstract": "We propose constructions of spherical $5$- and $7$-designs in odd dimensions by lifting balanced halves of even-dimensional designs to several layers of suitable latitudes. For every odd dimension, we obtain an explicit spherical $5$-design with at most $60(d^2-1)$ points, attaining the optimal quadratic order in the dimension. Assuming Zauner's conjecture, this bound improves to $7.5(d-1)^2$. For every odd $d \\geq 9$, we also construct a spherical $7$-design with $110M$ points from a complex projective $3$-design with $M$ points in $\\mathbb{CP}^{(d-3)/2}$.",
+   "abs": "https://arxiv.org/abs/2610.12767",
+   "pdf": "https://arxiv.org/pdf/2610.12767"
+  },
+  {
+   "id": "2610.13441",
+   "type": "new",
+   "title": "Deformation cones of 2-cubical combinatorial zonotopes",
+   "authors": [
+    "Juliana Curtis",
+    "Grace O'Brien",
+    "Arnau Padrol",
+    "Germain Poullot"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 4 figures",
+   "abstract": "We prove that the dimension of the deformation cone of any polytope combinatorially equivalent to a 2-cubical zonotope is bounded above by the number of generators of the zonotope. This bound is tight, and we show that it cannot be improved to an identity. We further extend our results to any 2-cubical polytope whose normal fan is combinatorially isomorphic to a pseudohyperplane arrangement, but we show that it cannot be extended to arbitrary 2-cubical polytopes.",
+   "abs": "https://arxiv.org/abs/2610.13441",
+   "pdf": "https://arxiv.org/pdf/2610.13441"
+  },
+  {
+   "id": "2610.12836",
+   "type": "new",
+   "title": "Connectivity, toughness, and hamiltonicity of simplicial polytopes",
+   "authors": [
+    "Guillermo Pineda-Villavicencio"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 3 figures",
+   "abstract": "For every $d\\ge4$, every prescribed connectivity $r\\ge d$, and every $\\varepsilon>0$, we construct a simplicial $d$-polytope whose graph has connectivity exactly $r$, is nontraceable, and has toughness less than $\\varepsilon$. Thus the classical theorems of Whitney (1931) and Tutte (1956), which guarantee hamiltonicity under sufficiently high connectivity in dimension three, have no higher-dimensional counterpart. This answers a question posed by Bojan Mohar in 2001 on whether sufficiently high connectivity guarantees hamiltonicity of $4$-polytopal graphs and the connectivity questions raised by Ikegami, Maezawa, and Zamfirescu in 2021.\nFor fixed $d\\ge4$, $r\\ge d$, and integer $k\\ge2$, the examples can be chosen to have no closed spanning walk with at most $k$ visits per vertex, no spanning tree with degrees at most $k$, and nontraceable prisms.\nFor fixed $d$ and $r$, we obtain graphs on $n$ vertices whose longest paths and cycles contain $O(\\sqrt n)$ vertices. Consequently, the family of simplicial $d$-polytopes with connectivity exactly $r$ has Grünbaum--Walther shortness coefficient zero and shortness exponent at most $1/2$.",
+   "abs": "https://arxiv.org/abs/2610.12836",
+   "pdf": "https://arxiv.org/pdf/2610.12836"
+  },
+  {
+   "id": "2610.12720",
+   "type": "new",
+   "title": "The Stable Marriage Polytope is Box-Totally Dual Integral",
+   "authors": [
+    "Michele Barbato",
+    "Emiliano Lancini"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "A stable matching in a bipartite preference system is a matching that has no unmatched pair whose endpoints both prefer each other to their current assignments. Rothblum gave a linear description of the stable marriage polytope, the convex hull of the incidence vectors of stable matchings. We prove that this polytope is box-totally dual integral. The proof uses the affine representation of the stable marriage polytope as an order polytope together with the matricial characterization of box-TDI polyhedra. Since Kiraly and Pap proved that Rothblum's description is totally dual integral, our result further implies that Rothblum's system is box-totally dual integral.",
+   "abs": "https://arxiv.org/abs/2610.12720",
+   "pdf": "https://arxiv.org/pdf/2610.12720"
+  },
+  {
+   "id": "2610.13798",
+   "type": "new",
+   "title": "On the failure of additivity of inversion numbers for dijoins",
+   "authors": [
+    "Natalie Behague",
+    "Jack Cromwell"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $D$ be an oriented graph. For $X \\subseteq V(D)$, the inversion of $X$ in $D$ is the oriented graph that is obtained via changing the direction of all edges which have both endpoints in $X$. The inversion number of $D$, $\\operatorname{inv}(D)$, is the minimum number of inversions necessary in order to remove all cycles from $D$. A dijoin $D_1 \\to D_2$ is the oriented graph obtained by taking disjoint copies of $D_1,D_2$ and adding edges from all $v \\in V(D_1)$ to each $u \\in V(D_2)$.\nIt was conjectured by Bang-Jensen, da Silva and Havet that $\\operatorname{inv}(D_1 \\to D_2) = \\operatorname{inv}(D_1) + \\operatorname{inv}(D_2)$ for all $D_1, D_2$. This was disproved by simultaneous constructions of various $D_1$, $D_2$ with $\\operatorname{inv}(D_1 \\to D_2) = \\operatorname{inv}(D_1)+\\operatorname{inv}(D_2)-1$. However, no known constructions achieved more than this gain of 1. Moreover, all of the constructions exploit a gap of 1 between $\\operatorname{inv}(D)$ and the minimum rank of a family of related matrices, a gap that can never be more than 1, suggesting that perhaps something close to the original conjecture might be true.\nWe prove that in fact additivity fails badly. In particular, for all $\\varepsilon>0$ we show that there exist tournaments $D_1$, $D_2$ with arbitrarily large inversion numbers such that $\\operatorname{inv}(D_1 \\to D_2) \\leq \\left(\\frac{1}{2} +\\varepsilon\\right)(\\operatorname{inv}(D_1)+\\operatorname{inv}(D_2))$.",
+   "abs": "https://arxiv.org/abs/2610.13798",
+   "pdf": "https://arxiv.org/pdf/2610.13798"
+  },
+  {
+   "id": "2610.12945",
+   "type": "new",
+   "title": "On the composition of permutons",
+   "authors": [
+    "Christian Gorski"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 2 figures",
+   "abstract": "Permutons can be thought of as \"continuum limits\" of permutations of diverging size, which encode information about the number of occurrences of any given finite subpattern. We construct a natural composition operation on permutons, analogous to composition of permutations, and explore its properties via a correspondence between permutons, Markov kernels, and Markov operators.\nWe show that no extension of permutation composition to permutons can be (jointly) continuous with respect to the usual \"weak\" topology on permutons, but we construct a \"strong\" topology with respect to which composition is jointly continuous. Moreover, we characterize strong convergence of sequences of permutations of diverging size: a sequence of permutations converges strongly if and only if it converges weakly and its limit is the transpose of the graph of a measure-preserving function. The key insight behind these results is to apply functional analysis to certain operators associated to permutons; with this shift in perspective, our results have elegant and relatively \"soft\" proofs.\nAs an application, we describe the permuton limit of a product of finitely many independent uniformly sampled separable permutations and give a formula for the expectation of this limit. We also show that in this case, as the number of compositions goes to infinity, the aforementioned expectation tends to the uniform permuton.",
+   "abs": "https://arxiv.org/abs/2610.12945",
+   "pdf": "https://arxiv.org/pdf/2610.12945"
+  },
+  {
+   "id": "2610.12576",
+   "type": "cross",
+   "title": "Minor exclusion and planar rigidity",
+   "authors": [
+    "Joseph Paul MacManus"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "17 pages; comments welcome!",
+   "abstract": "We prove that every connected, locally finite, quasi-transitive graph which is quasi-isometric to a graph excluding a countable clique as a minor is quasi-isometric to a planar graph. Consequently, every finitely generated group with such a quasi-isometry is virtually planar, meaning that some finite-index subgroup admits a planar Cayley graph.\nWe also show that a connected, locally finite, quasi-transitive graph admitting a regular map into a bounded-degree graph excluding some finite minor admits a regular map into a bounded-degree planar graph. If the source is accessible, the target need only exclude a countable clique. Combined with work of Mackay, Spriano, and the present author, this shows that a finitely presented group admits a regular map into a bounded-degree graph excluding a countable clique if and only if it is virtually planar.",
+   "abs": "https://arxiv.org/abs/2610.12576",
+   "pdf": "https://arxiv.org/pdf/2610.12576"
+  },
+  {
+   "id": "2610.13085",
+   "type": "new",
+   "title": "Resolving Pisanski's Conjecture",
+   "authors": [
+    "Austin Ulrigg",
+    "Alexander Metzger"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove Pisanski's conjecture on quadrilateral embeddings of regular bipartite graphs. For integers $m\\geq d\\geq4$ with $4\\mid md$, we construct both a connected simple $d$-regular bipartite graph $G$ with $m$ vertices in each bipartition class and an orientable quadrangulation. This graph's genus is \\[ \\ga(G)=1+\\frac{m(d-4)}4. \\] These quadrangulations attain the lower bound on the genus from Euler's formula. We give dihedral constructions for even $m$ and a cyclic construction for every $m\\geq d$ with $4\\mid d$. In each case, two cyclic permutations of a connection set of size $d$ determine all of the local rotations.",
+   "abs": "https://arxiv.org/abs/2610.13085",
+   "pdf": "https://arxiv.org/pdf/2610.13085"
+  },
+  {
+   "id": "2610.12831",
+   "type": "cross",
+   "title": "Reasonable bounds for Restricted Polynomial Progressions in $\\mathbb F^n_p$",
+   "authors": [
+    "Alex Burgin",
+    "Anastasios Fragkos",
+    "David Kruzel",
+    "Michael Lacey",
+    "Amelia Stokolosa"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "26 pages. The paper is formalized, up to a single admit for the inverse Theorem 1.4, at this URL this https URL",
+   "abstract": "Given an integer $k \\geq 2$ and a prime $p$ large enough depending on $k$, we show that, if $A \\subseteq \\mathbb F^n_p$ does not contain a restricted polynomial progression of the form\n\\begin{align*}\nx, x+\\begin{pmatrix}\ny_1 \\\\ y_2 \\\\ \\vdots \\\\ y_n\n\\end{pmatrix}, x+\\begin{pmatrix}\ny_1^2 \\\\ y_2^2 \\\\ \\vdots \\\\ y_n^2\n\\end{pmatrix}, \\ldots, x+\\begin{pmatrix}\ny_1^{k-1} \\\\ y_2^{k-1} \\\\ \\vdots \\\\ y_n^{k-1}\n\\end{pmatrix},\n\\end{align*}\nwhere $x \\in \\mathbb F^n_p$ and $y \\in \\{0,2, 3, \\ldots, M_k\\}^n \\backslash \\{\\vec{0} \\}$, for some fixed $M_k$, then $A$ must have density bounded above by $\\frac{C}{(\\log^{(k^{O(k)})} n)^c}$, where $C, c>0$ only depend on $k$ and $p$. For $k\\geq 4$, the best previously known bound came from the density Hales--Jewett theorem and was of inverse Ackermann type. The proof uses a recent inverse theorem for noise stability of Bhangale, Khot, Liu and Minzer, which arose in the study of constraint satisfaction problems. The main new ingredient is a proof that the underlying distribution counting restricted polynomial progressions does not admit a nontrivial abelian embedding.",
+   "abs": "https://arxiv.org/abs/2610.12831",
+   "pdf": "https://arxiv.org/pdf/2610.12831"
+  },
+  {
+   "id": "2610.13852",
+   "type": "new",
+   "title": "Clique and chromatic numbers of graph powers: spectral bounds and anticodes",
+   "authors": [
+    "Aida Abiad",
+    "Gabriel Coutinho",
+    "Hitesh Kumar",
+    "Emanuel Juliano",
+    "Michael Tait"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Using spectral and polynomial methods, we show several sharp spectral bounds for the clique and chromatic numbers of graph powers that only use spectral information from the original graph. In particular, we strengthen earlier spectral-radius estimates to obtain an asymptotically sharp colouring bound for general graph powers, and prove a sharp bound for powers of line graphs with a complete characterisation of equality. We also develop polynomial methods yielding upper and lower bounds for clique numbers of graph powers. Regarding the connection between the clique and coloring parameters of graph powers, we propose a spectral analogue of Wegner's conjecture, determine the extremal values for graph squares, and establish the conjecture for all powers when the spectral-radius bound is sufficiently small. Finally, we connect our spectral polynomial method with coding theory: we prove that for distance-regular graphs, optimisation over the adjacency algebra recovers Delsarte's linear programming bound for anticodes.",
+   "abs": "https://arxiv.org/abs/2610.13852",
+   "pdf": "https://arxiv.org/pdf/2610.13852"
+  },
+  {
+   "id": "2610.12950",
+   "type": "cross",
+   "title": "Markovian Random Words, a Gaussian Random Matrix Model and Beyond",
+   "authors": [
+    "Christian Houdré",
+    "Dorian Kidonakis"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "After centering and scaling, the length of the longest weakly increasing subsequence of a finite-state Markov random word converges to a Brownian last-passage functional with dependent components. We investigate when this functional, and more generally the limiting RSK Young-diagram shape, admits a Gaussian random-matrix representation. We introduce Hermitian Gaussian matrices with correlated diagonal entries and show that isotropy of the Brownian covariance on the trace-zero hyperplane yields such a representation. Within this natural class of Hermitian models with independent Gaussian off-diagonal entries, we prove a rigidity theorem showing that isotropy, together with equality of the off-diagonal variances, characterizes the conditional largest-eigenvalue representation. Explicit three-letter non-cyclic Markov chains demonstrate that this representation is not universal: the limiting Brownian functional may fail to have the law of the largest eigenvalue of any centered jointly Gaussian $3\\times 3$ Hermitian matrix. Finally, we extend the random-matrix identification to chains with non-uniform stationary distributions and to countable state spaces.",
+   "abs": "https://arxiv.org/abs/2610.12950",
+   "pdf": "https://arxiv.org/pdf/2610.12950"
+  },
+  {
+   "id": "2610.13820",
+   "type": "new",
+   "title": "Counting cographs in locally dense graphs",
+   "authors": [
+    "Hyunwoo Lee"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "An $n$-vertex graph $G$ is $(\\rho, d)$-dense if for all $U \\subseteq V(G)$ of size at least $\\rho n$, the induced subgraph $G[U]$ contains at least $\\frac{d}{2}|U|^2$ edges. In 2010, partly motivated by the theory of quasirandomness, Kohayakawa, Nagle, Rödl, and Schacht conjectured that, for any fixed graph $F$, the number of homomorphic copies of $F$ in a given $n$-vertex $(o(1),d)$-dense graph is at least $(1-o(1))d^{e(F)}n^{v(F)}$. Despite considerable effort, only a few graphs are known to satisfy the conjecture. We find a new broad class of graphs that satisfy the conjecture, including cographs.",
+   "abs": "https://arxiv.org/abs/2610.13820",
+   "pdf": "https://arxiv.org/pdf/2610.13820"
+  },
+  {
+   "id": "2610.13530",
+   "type": "new",
+   "title": "Quadratic-size Random Permutations are Universal",
+   "authors": [
+    "Yu Chen",
+    "Yiting Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A permutation is $n$-universal if it contains every permutation of length $n$ as a pattern. We prove that a uniformly random permutation of length $32n^2$ is $n$-universal with probability at least $1-\\exp(-c n/\\log n)$, for an absolute constant $c>0$ and all sufficiently large $n$. This removes a $\\log\\log n$ factor from an earlier result of He and Kwan~\\cite{He-Kwan} and resolves an open problem of Alon~\\cite{Alon2016}. The proof was found by GPT-6 Pro.",
+   "abs": "https://arxiv.org/abs/2610.13530",
+   "pdf": "https://arxiv.org/pdf/2610.13530"
+  },
+  {
+   "id": "2610.12819",
+   "type": "new",
+   "title": "A Simple Explicit Construction of Smaller Strong Blocking Sets",
+   "authors": [
+    "Hao Chen"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "Alon, Bishnoi, Das and Neri constructed sequences of strong blocking sets in $(k-1)$-dimension projective space $P({\\bf F}_q, k-1)$ with sizes at most $Cqk$, where $k$ goes to the infinity and $C$ is a fixed positive constant not depending on $q$, in their paper published in Transactions AMS, vol. 277, pp. 5389-5410, 2024. This is equivalent to a sequence of minimal $[n_i,k_i]_q$ codes with positive rate $\\frac{k_i}{n_i} \\geq c$, where $k_i$ goes to the infinity and $c$ is a fixed positive constant only depending on $q$. They solved one of the main open problems on minimal codes. The Alon-Bishnoi-Das-Neri construction was based on asymptotically good sequences of algebraic geometric codes and expander graphs. However, the constant $C$ is large for small prime power $q$.\nIn this paper, based on a simple approach using $(q-1)$-power intersecting algebraic geometric codes via concatenation to construct minimal codes, we construct explicit strong blocking sets in $(k-1)$-dimension projective space with sizes around $2(q^2-1)k$, equivalently, explicit minimal $[n,k]_q$ codes with length around $2(q^2-1)k$. This is an essential improvement on the previous result of Alon-Bishnoi-Das-Neri, when $q \\leq 11$. For large $q$, strong blocking sets and minimal codes in our construction are worse than the previous construction of Alon-Bishnoi-Das-Neri. However, our approach is much simpler and does not depend on expander graphs.",
+   "abs": "https://arxiv.org/abs/2610.12819",
+   "pdf": "https://arxiv.org/pdf/2610.12819"
+  },
+  {
+   "id": "2610.13723",
+   "type": "new",
+   "title": "List chromatic number of $G(n,r,s)$ graphs",
+   "authors": [
+    "M. Koshelev"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the list chromatic number of generalized Johnson graphs. Recall that the vertices of such graphs are all possible $r$-element subsets of $[n] = \\{1, \\dotsc, n\\}$ and an edge is drawn between two vertices if and only if corresponding sets have exactly $s$ common elements. We prove that for any fixed $s \\geq 1$ and $r \\geq 2s + 2$ we have $\\chi_L(G(n,r,s)) = \\Theta(n^{s+1}\\ln n)$. In case where $s = 0$ we prove that for all $4\\ln n \\leq r \\leq n/20$ we have $\\chi_L(G(n,r,0)) \\geq \\frac{n}{120}\\ln\\left\\{\\frac{en}{r}\\right\\}$. Together with previous results of Bulankina, Inozemtsev and Kupavskii this proves that $\\chi_L(G(n,r,0)) = \\Theta\\left\\{n\\ln\\left\\{\\frac{en}{r}\\right\\}\\right\\}$ uniformly for $2 \\leq r \\leq (1/2-\\varepsilon)n$.",
+   "abs": "https://arxiv.org/abs/2610.13723",
+   "pdf": "https://arxiv.org/pdf/2610.13723"
+  },
+  {
+   "id": "2610.12513",
+   "type": "new",
+   "title": "Maximal Order Type and Width of the h-Preorder on Finite Labeled Trees",
+   "authors": [
+    "Ilya Smirnov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.LO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We establish tight bounds for the width and maximal order type of the h-preorder on Q-labeled trees in terms of the corresponding invariants of well-quasi-order Q.",
+   "abs": "https://arxiv.org/abs/2610.12513",
+   "pdf": "https://arxiv.org/pdf/2610.12513"
+  },
+  {
+   "id": "2610.12675",
+   "type": "cross",
+   "title": "Hook algebras and determinantal varieties",
+   "authors": [
+    "Steven V Sam",
+    "Keller VandeBogert",
+    "Jerzy Weyman"
+   ],
+   "categories": [
+    "math.AC",
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.AC",
+   "comments": "51 pages",
+   "abstract": "In characteristic zero, we prove that the Tor algebras of the generic, symmetric, and skew-symmetric determinantal rings are Koszul with respect to a natural regrading. In particular, their Eilenberg--Moore spectral sequence degenerates, which allows us to explicitly determine the Poincaré series of their residue fields and answers a problem raised by Avramov. To do this, we construct the universal hook algebra and prove that it has a quadratic Gröbner basis and thus is Koszul. This leads to a new standard monomial construction of the irreducible polynomial GL-representations, alongside the Schur and Weyl functors, which is of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.12675",
+   "pdf": "https://arxiv.org/pdf/2610.12675"
+  },
+  {
+   "id": "2610.13270",
+   "type": "cross",
+   "title": "Polynomial directed treewidth forces a large bramble with congestion two",
+   "authors": [
+    "Victor A. Campos",
+    "Raul Lopes",
+    "Rodrigo Nogueira",
+    "Ignasi Sau"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "Brambles of constant congestion in directed graphs have interesting structural and algorithmic applications, and it is desirable to find the smallest function $f_c(k)$ such that if a digraph has directed treewidth at least $f_c(k)$, then it contains a bramble of size at least $k$ and congestion at most $c$. By the Directed Grid Theorem of Kawarabayashi and Kreutzer [STOC 2015], such a function $f_c(k)$ exists for every value $c \\geq 2$ of the congestion. However, even using the recent improvements due to Hatzel et al. [FOCS 2024], the resulting function is a power tower of height $22$. Recently, Masařík et al. [SIAM J. Discrete Math. 2022] proved that, for congestion $8$, the function $f_8(k)$ can be made polynomial; more precisely, they showed that $f_8(k) = \\mathcal{O}(k^{48} \\cdot \\log^{13} k)$. They asked whether it is possible to decrease the congestion, ideally to $2$, even at the cost of a higher polynomial function. In this work we answer their question affirmatively with the best possible value of the congestion, by proving that $f_2(k) = \\mathcal{O}(k^{96}\\cdot \\log^{23} k)$. We also obtain smaller polynomials for higher congestion, namely $f_4(k) = \\mathcal{O}(k^{72} \\cdot \\log^{21} k)$ and $f_6(k) = \\mathcal{O}(k^{66} \\cdot \\log^{18} k)$. Our results are inspired by the proof for congestion $8$, which we improve by introducing walkages. Walkages allow us to avoid technicalities of the original proof by translating ideas due to Reed and Wood [Eur. J. Comb. 2012] that work for undirected graphs to the directed setting. Our proofs are constructive and naturally yield polynomial-time algorithms to find the brambles assuming a certificate for large directed treewidth is given. Moreover, we discuss algorithmic applications of our results for the Directed Disjoint Paths with Congestion problem, and to half-integral packings of subgraphs with large directed treewidth.",
+   "abs": "https://arxiv.org/abs/2610.13270",
+   "pdf": "https://arxiv.org/pdf/2610.13270"
+  },
+  {
+   "id": "2610.12905",
+   "type": "new",
+   "title": "Codegree-Constrained Turán Problems for $F_5$ and Its Blow-ups",
+   "authors": [
+    "Yupei Li",
+    "Linyuan Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "Let $F_5$ denote the $3$-uniform hypergraph with edge set $\\{abc,abd,cde\\}$. For a hypergraph property $\\mathcal P$, let $ex_{\\mathcal P}(n,F_5)$ be the maximum number of edges in an $n$-vertex $F_5$-free $3$-uniform hypergraph satisfying $\\mathcal P$. Let $\\Delta_2(H)$ denote the maximum codegree of a pair of vertices in a $3$-uniform hypergraph $H$. We determine the exact value of $ex_{\\Delta_2\\ge m}(n,F_5)$ when $m$ is bounded away from $n/3$ by a fixed positive proportion. More precisely, for every constant $c\\in (1/3,1)$, there exists $n_0$ such that for all $n\\ge n_0$ and $m=cn$, \\[ ex_{\\Delta_2\\ge m}(n,F_5) = m\\left\\lceil\\frac{n-m}{2}\\right\\rceil \\left\\lfloor\\frac{n-m}{2}\\right\\rfloor. \\] The unique extremal hypergraph is the complete tripartite $3$-graph $K^3_{m,\\lceil (n-m)/2\\rceil,\\lfloor (n-m)/2\\rfloor}$. We also prove the corresponding exact result for the blow-ups $F_5^t$, together with stability theorems showing that every near-extremal configuration is close to the relevant tripartite construction.",
+   "abs": "https://arxiv.org/abs/2610.12905",
+   "pdf": "https://arxiv.org/pdf/2610.12905"
+  },
+  {
+   "id": "2610.13487",
+   "type": "new",
+   "title": "On the probability that a random Latin square is all-even",
+   "authors": [
+    "Catherine Greenhill",
+    "Lenka Kopfová",
+    "Matthew Kwan",
+    "Kalina Petrova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 3 figures",
+   "abstract": "In a Latin square, every row can be interpreted as a permutation, and therefore has a parity (even or odd). We prove that in a uniformly random $n\\times n$ Latin square, the probability that all rows are even is of the form $2^{-n+o(n)}$. This fills a gap left by recent work of Kwan, Petrova and Sawhney: they proved that the row parities behave like a sequence of independent coin flips in a variety of different senses, but they were not able to lower-bound the all-even probability, as their approach had a small number of \"exceptional rows\" whose parities they could not control.\nIn fact, we prove a more general theorem on the probability of any possible prescription of row parities, column parities and symbol parities. Our approach extends the ideas of Kwan, Petrova and Sawhney, introducing a new way to \"bootstrap\" intercalate switchings to control more complex switching operations.",
+   "abs": "https://arxiv.org/abs/2610.13487",
+   "pdf": "https://arxiv.org/pdf/2610.13487"
+  },
+  {
+   "id": "2610.13677",
+   "type": "cross",
+   "title": "Spread-out Furstenberg sets I: the sticky case",
+   "authors": [
+    "Tuomas Orponen",
+    "Pablo Shmerkin"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "",
+   "abstract": "We introduce spread-out measures, a notion of local non-concentration near pencils for measures on Grassmannians. We establish an optimal $\\delta$-discretized dual Furstenberg estimate for ``sticky spread-out'' shadings. A simple-to-state corollary is the following. Assume that $\\nu$ is an Ahlfors $s$-regular measure on $\\mathbb{G}(2,1)$ with $s > 0$. Let $E \\subset \\mathbb{R}^{2}$ be a Borel set with equal Hausdorff and packing dimension. Then, $\\dim_{\\mathrm{H}} \\Pi_{V}(E) = \\min\\{\\dim_{\\mathrm{H}} E,1\\} \\quad \\text{for $\\nu$-a.e. } V \\in S^1$. The general $\\delta$-discretized estimate for ``sticky spread out'' configurations here is the starting point for a more general theorem in the companion paper of Cohen, Shmerkin, Wang and Zakharov, where the ``stickiness'' hypothesis is removed. For instance, the assumption of equal Hausdorff and packing dimension in the result stated above will be dispensed with in the companion paper.",
+   "abs": "https://arxiv.org/abs/2610.13677",
+   "pdf": "https://arxiv.org/pdf/2610.13677"
+  },
+  {
+   "id": "2610.13863",
+   "type": "new",
+   "title": "Degree similar and net-degree similar signed graphs",
+   "authors": [
+    "Matteo Cavaleri",
+    "Alfredo Donno"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages, 8 figures",
+   "abstract": "Two graphs are degree similar if their adjacency matrices and their degree matrices are simultaneously similar, a notion recently introduced by Godsil and Sun. We extend it to signed graphs in two ways, degree similarity and net-degree similarity, according to whether the degree or the net-degree matrix is used. We prove that signed trees are determined by their degree similarity class, but not by their net-degree similarity class. We then develop constructions of (net-)degree similar signed graphs, based on a signed version of Godsil--McKay switching, on partial transposition and on block extensions. As a byproduct, we obtain infinite families both of pairs of net-degree similar unicyclic signed graphs with non-isomorphic underlying graphs, and of unicyclic signed graphs, not necessarily regular, which are not determined by their degree similarity class. This settles the net-degree version of a problem of Godsil and Sun on unicyclic graphs.",
+   "abs": "https://arxiv.org/abs/2610.13863",
+   "pdf": "https://arxiv.org/pdf/2610.13863"
+  },
+  {
+   "id": "2610.12640",
+   "type": "new",
+   "title": "Frugal coloring in planar graphs with maximum degree 4 and 5",
+   "authors": [
+    "Boštjan Brešar",
+    "Přemysl Holub",
+    "Marko Jakovac",
+    "Petra Melicharová"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A proper coloring of vertices of a graph $G$ is called $t$-frugal if no color appears more than $t$ times in the neighborhood of any vertex of $G$. While $1$-frugal coloring coincides with $2$-distance coloring, we study $2$-frugal colorings of planar graphs with maximum degree $4$ and $5$, respectively. We prove that every planar graph with maximum degree $4$ admits a $2$-frugal coloring with $7$ colors, while a planar graph with maximum degree $5$ admits a $2$-frugal coloring with $10$ colors. The results present variations of parts of the famous Wegner's conjecture, which for planar graphs with maximum degree $\\Delta\\in\\{4,\\ldots,7\\}$ states that their $2$-distance chromatic number is at most $\\Delta+5$.",
+   "abs": "https://arxiv.org/abs/2610.12640",
+   "pdf": "https://arxiv.org/pdf/2610.12640"
+  },
+  {
+   "id": "2610.12955",
+   "type": "new",
+   "title": "The biwheel conjecture for braces",
+   "authors": [
+    "Xing Feng",
+    "Jinqiu Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $b(n)$ denote the minimum number of perfect matchings in a simple brace of order $n$. De~Carvalho, Lucchesi and Murty (SIAM Journal on Discrete Mathematics, 27(2): (2013) 940-958) proved that $b(n)\\ge(n-2)^2/8$ and conjectured that $b(n)=(n-2)^2/4$ for all sufficiently large even $n$. We prove this conjecture.",
+   "abs": "https://arxiv.org/abs/2610.12955",
+   "pdf": "https://arxiv.org/pdf/2610.12955"
+  },
+  {
+   "id": "2610.12690",
+   "type": "new",
+   "title": "Reconstruction of Finite Posets of Width Three",
+   "authors": [
+    "Patrizio Cintioli"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "We prove that every finite ordered set of width at most three and cardinality at least four is reconstructible from its deck. This settles the width-three part of an open problem posed by Schröder in Ordered Sets; the separate question concerning ordered sets of height one is not addressed here. The new ingredient is a criterion for recovering the marked maximal deck of an ordered set with exactly three maximal elements from its unmarked maximal deck and the isomorphism type of the suborder obtained by deleting all maximal elements. We express the criterion as an orbital balance condition on the attachment ideals in this common base. Necessity follows by double counting; sufficiency uses the structure of automorphism actions in width at most three. The full-deck theorem then follows from reconstruction results of Schröder concerning maximal cards and marked maximal cards. A local reattachment argument correcting one intermediate step in the two-maximal-element case is included in an appendix.",
+   "abs": "https://arxiv.org/abs/2610.12690",
+   "pdf": "https://arxiv.org/pdf/2610.12690"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 30,
+ "listed_cross": 19
+}
