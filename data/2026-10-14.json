@@ -1,0 +1,591 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-14T03:02:06Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-14",
+ "screened": 129,
+ "screened_new": 82,
+ "screened_cross": 47,
+ "scored": 129,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.14099",
+   "type": "new",
+   "title": "Maximally symmetric $(23_4)$ configurations and the end of the existence problem for geometric $(n_4)$ configurations",
+   "authors": [
+    "Wenhao Lu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages, 3 figures. Code, polynomial certificates and Lean 4 files: this https URL",
+   "abstract": "A geometric $(n_4)$ configuration is a set of $n$ points and $n$ lines in the real projective plane such that every point lies on exactly four of the lines and every line contains exactly four of the points. The question of which $n$ admit such a configuration was posed by Grünbaum in 2000, following his 1990 paper with Rigby that gave the first geometric $4$-configuration, a $(21_4)$. Successive work of Bokowski-Schewe, of Bokowski, Grünbaum and Schewe, of Bokowski-Pilaud, and of Cuntz settled every case but one. Cuntz's 2018 paper, which constructed $(22_4)$ and $(26_4)$ configurations, states that only $n=23$ remained open.\nWe settle this last case. We prove that for every prime $n\\equiv3\\pmod4$, in particular for $n=23$, the group of projective symmetries of a geometric $(n_4)$ configuration has order at most four, which explains why $n=23$ resisted the symmetric constructions that settled the other values. Reducing the case of a Klein four-group of symmetries to a few thousand bilinear polynomial systems in $18$ unknowns, and solving all of them exactly with Gröbner bases and saturation, we show that exactly two geometric $(23_4)$ configurations reach this bound, up to projective equivalence, and that there are no others even over $\\mathbb{C}$. Both are self-polar with respect to a conic. The first has integer homogeneous coordinates; the second is defined over $\\mathbb{Q}(\\sqrt{17})$, but not over $\\mathbb{Q}$. Consequently geometric $(n_4)$ configurations exist if and only if $n\\ge18$ and $n\\ne19$. A third configuration, self-polar and defined over a real cubic field, has only a single symmetry of order two.\nThe same classification at $n=22$ and $n=26$ recovers Cuntz's configurations and finds three new combinatorial types at $n=22$ and $94$ at $n=26$, among them a $(26_4)$ configuration that is self-polar with respect to a conic without real points.",
+   "abs": "https://arxiv.org/abs/2610.14099",
+   "pdf": "https://arxiv.org/pdf/2610.14099"
+  },
+  {
+   "id": "2610.16572",
+   "type": "new",
+   "title": "New tools for sparse graph embeddings: Hybrid expanders and application to nested cycles",
+   "authors": [
+    "Nemanja Draganić"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages, 1 figure",
+   "abstract": "We introduce \\emph{hybrid expanders}, sparse graphs which combine sublinear expansion across all scales with strong constant-factor expansion on smaller, polylogarithmic sets. We show that every $n$-vertex graph of average degree at least $2^{\\omega(\\log^*n)}$ contains such a subgraph, and use this local expansion to bring into the sparse setting tree-embedding and rollback tools more commonly associated with random or pseudorandom graphs. As an application, for fixed $k\\in\\mathbb N$, we prove that every graph satisfying this average-degree condition contains $k$ pairwise edge-disjoint cycles with nested vertex sets and compatible cyclic orders, resolving up to a quasi-constant factor a problem of Thomassen, originating in work of Erdős.",
+   "abs": "https://arxiv.org/abs/2610.16572",
+   "pdf": "https://arxiv.org/pdf/2610.16572"
+  },
+  {
+   "id": "2610.16353",
+   "type": "new",
+   "title": "The $(km,kn)$-square paths theorem",
+   "authors": [
+    "Dun Qiu",
+    "Minhao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages",
+   "abstract": "For positive integers $k,m,n$ with $\\gcd(m,n)=1$, we prove a $(km,kn)$-square paths theorem: the symmetric function $(-1)^{k-1}\\frac{[km]_q}{[k]_q}p_k[-MX^{m,n}]\\cdot1$ is a weighted sum over $(km,kn)$-preference functions. This proves a corrected form of the conjecture of Iraci, Pagaria, Paolini, and Vanden Wyngaerd and generalizes the square paths theorem of Sergel. We encode preference functions by row strict tableaux and closed walks on a set of states, compare them with parking functions for each value of the touch statistic, and apply Mellit's compositional $(km,kn)$-shuffle theorem. Finally, we establish a fall Delta square theorem conjectured by Iraci, Pagaria, and Paolini.",
+   "abs": "https://arxiv.org/abs/2610.16353",
+   "pdf": "https://arxiv.org/pdf/2610.16353"
+  },
+  {
+   "id": "2610.16358",
+   "type": "cross",
+   "title": "NP-hardness of additive approximation for generalized Turán problems",
+   "authors": [
+    "Yihan Chen",
+    "Jialin He",
+    "Xihe Li",
+    "Jie Ma",
+    "Tianying Xie"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "25 pages, 0 figures",
+   "abstract": "For a fixed graph $T$ and a fixed nonempty family $\\mathcal{F}$ of graphs, let $\\operatorname{ex}(G, T, \\mathcal{F})$ denote the maximum number of copies of $T$ in an $\\mathcal{F}$-free subgraph of a graph $G$. Alon and Shikhelman~[Algorithmica, 2022] conjectured that if $e(T)> 0$ and no member of $\\mathcal{F}$ is a subgraph of a blow-up of $T$, then for every $\\varepsilon>0$, approximating $\\operatorname{ex}(G, T, \\mathcal{F})$ within an additive error $n^{v(T)-\\varepsilon}$ is NP-hard for an input graph $G$ on $n$ vertices. The previously established general cases for this conjecture include $\\operatorname{ex}(G, K_2, \\mathcal{F})$ by Alon, Shapira and Sudakov~[Ann. of Math., 2009], and $\\operatorname{ex}(G, K_m, K_k)$ by Alon and Shikhelman. In this paper, we confirm this conjecture for every bipartite graph $T$ and every clique $T$. Our reductions use iterative leaf additions, symmetric rooted extensions and random transversals to encode the maximum number of edges in a $(k-1)$-colorable subgraph of $G$, where $k=\\min_{F\\in \\mathcal{F}}\\chi(F)$.",
+   "abs": "https://arxiv.org/abs/2610.16358",
+   "pdf": "https://arxiv.org/pdf/2610.16358"
+  },
+  {
+   "id": "2610.14979",
+   "type": "new",
+   "title": "Sharp bounds and extremal structure of minimally strongly $k$-connected digraphs",
+   "authors": [
+    "Junran Yu",
+    "Gregory Gutin",
+    "Hong-Jian Lai",
+    "Xiaoyan Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $D$ be a finite simple minimally strongly $k$-connected digraph, where $k\\ge 2$, and let $n=|V(D)|$. Mader proved in 1985 that $|A(D)|\\le 2k(n-k)$ for all sufficiently large $n$, with equality if and only if $D\\cong \\overleftrightarrow{K}_{k,n-k}$ (JCTB 1985). We prove that this bound holds whenever $n\\ge 3k-1$ and that the order threshold $3k-1$ is best possible. Moreover, if $n\\ge 3k$, then equality holds if and only if $D\\cong \\overleftrightarrow{K}_{k,n-k}$. The threshold $3k$ is also best possible. These results resolve the conjecture of Mader in (JCTB 1985).",
+   "abs": "https://arxiv.org/abs/2610.14979",
+   "pdf": "https://arxiv.org/pdf/2610.14979"
+  },
+  {
+   "id": "2610.13987",
+   "type": "new",
+   "title": "Forbidding $r$-extension of $C_4$ -- a counterexample of the Anstee-Sali conjecture",
+   "authors": [
+    "Richard P. Anstee",
+    "Attila Sali",
+    "Pei Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this note we prove $\\mathrm{forb}(n,\\mathbf{1}_{r-2}\\times C_4)=\\Theta(n^{r-1/2})$, thus providing a series of counterexamples of a 2005 conjecture of the first two authors. Here $\\mathbf{1}_{r-2}\\times C_4$ is the $r$-extension of the 4-cycle, that is the $r$-uniform hypergraph of four edges obtained by joining a set of $r-2$ vertices to each edge of $C_4$. $\\mathrm{forb}(n,F)$ is the largest number of edges of a simple hypergraph $G$ on $n$ vertices without \\emph{trace} (induced subhypergraph) $F$.",
+   "abs": "https://arxiv.org/abs/2610.13987",
+   "pdf": "https://arxiv.org/pdf/2610.13987"
+  },
+  {
+   "id": "2610.13972",
+   "type": "cross",
+   "title": "Insertion and expansion of cylinders around the unit ball",
+   "authors": [
+    "Ivan Matić",
+    "Radoš Radoičić",
+    "Andreas Spomer"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "Surround a unit ball with a ring of $n$ equal infinite circular cylinders, each touching the ball and its two neighbors. Can one more such cylinder be added, for a total of $n+1$, if we are allowed to rearrange the configuration? We prove that the answer is ``no'' for $3\\le n\\le 7$, and ``yes'' if $n\\geq 9$. The case $n=8$ remains open. The case $n=6$, where the cylinders are the same size as the ball, is Kuperberg's problem from 1990, resolved recently. We also make progress on a conjecture of Ogievetsky and Shlosman, confirming the first decimal digit of their predicted value for the largest radius of four non-overlapping cylinders that touch a ball.",
+   "abs": "https://arxiv.org/abs/2610.13972",
+   "pdf": "https://arxiv.org/pdf/2610.13972"
+  },
+  {
+   "id": "2610.14084",
+   "type": "new",
+   "title": "A proof of the Auluck-Chowla-Gupta Conjecture",
+   "authors": [
+    "Jaideep Sai Padhi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages. Code and certificates: this https URL (doi:https://doi.org/10.5281/zenodo.23241759)",
+   "abstract": "Let p(n,k) denote the number of partitions of n into exactly k parts. In 1942 Auluck, Chowla and Gupta conjectured that for every n the sequence p(n,1), p(n,2), ..., p(n,n) is unimodal. Szekeres proved this for all sufficiently large n, but with a threshold that was never made explicit. We prove the conjecture for every n >= 1. For n >= 10^5 we give an analytic argument with fully explicit constants: an exact probabilistic representation of the ratio p(n,k+1)/p(n,k), a second-order saddle-point main term with a rigorous uniform error bound in the transition window, and separate elementary or saddle-point estimates in the two tails. Every numerical constant in this argument is certified in ball arithmetic. For n <= 2*10^5 the conjecture is verified exhaustively by two independent programs, one of them using exact integer arithmetic only. Since log-concavity of k -> p(n,k) fails for every n >= 4, the argument works with first differences and never uses log-concavity.",
+   "abs": "https://arxiv.org/abs/2610.14084",
+   "pdf": "https://arxiv.org/pdf/2610.14084"
+  },
+  {
+   "id": "2610.15269",
+   "type": "new",
+   "title": "Tuza's Conjecture for Graphs of Maximum Degree at Most 10",
+   "authors": [
+    "Amrit Kandasamy"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages. Code and computational verification: this https URL",
+   "abstract": "For a finite simple graph $G$, let $\\nu(G)$ be the maximum number of pairwise edge disjoint triangles and $\\tau(G)$ the minimum number of edges meeting every triangle. Tuza conjectured in 1981 that every such $G$ satisfies $\\tau(G) \\le 2 \\nu(G).$ We prove the conjecture for the class of graphs with $\\Delta\\le10.$",
+   "abs": "https://arxiv.org/abs/2610.15269",
+   "pdf": "https://arxiv.org/pdf/2610.15269"
+  },
+  {
+   "id": "2610.17135",
+   "type": "new",
+   "title": "Chow polynomials and chain polynomials of matroids are not log-concave",
+   "authors": [
+    "Gergely Bérczi",
+    "Basile Coron",
+    "Christopher Eur",
+    "Shiyue Li"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "v1; comments welcome!",
+   "abstract": "The Hilbert--Poincaré series of the Chow rings of the toric varieties of matroids, often called the \\emph{Chow polynomials}, and the $f$-polynomial of their boundary complexes, called the \\emph{chain polynomials}, have been conjectured to only have real zeros. We construct several explicit infinite families of matroids from finite geometries, whose multichain counts fail to be log-concave. They share a common geometric construction called \\emph{hyperplane coalescence}, together with several classical operations in projective geometry and combinatorial designs. This induces failures of log-concavity for Chow, augmented Chow, chain, and $h$-polynomials of several explicit infinite families of matroids, disproving the real-rootedness conjectures of Ferroni--Schröter, Huh--Stevens, and Athanasiadis--Kalampogia-Evangelinou from the lowest possible ranks.\nAs an application of the same mechanism, we also give counterexamples to the log-concavity of $h$-polynomials of graph associahedra, answering in the negative a question of Sack.",
+   "abs": "https://arxiv.org/abs/2610.17135",
+   "pdf": "https://arxiv.org/pdf/2610.17135"
+  },
+  {
+   "id": "2610.14712",
+   "type": "new",
+   "title": "Induced-Count Discrepancy in Uniform Hypergraphs",
+   "authors": [
+    "Chenglong Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "Let $u_k^{(r)}(H,p)$ be the maximum, over all $k$-vertex $r$-uniform hypergraphs $F$, of the absolute difference between the number of induced copies of $F$ in $H$ and its expectation in the binomial random $r$-graph with the same number of vertices as $H$ and edge probability $p$. Let $u_k^{(r)}(n,p)$ be the minimum of $u_k^{(r)}(H,p)$ over all $n$-vertex $r$-uniform hypergraphs, and let $D_r(n,p)$ be the distance from $p\\binom nr$ to the nearest integer. For fixed $r\\ge3$, $k\\ge2r$ and $\\varepsilon>0$, the quantity $u_k^{(r)}(n,p)$ has order\n$\\max\\!\\left\\{D_r(n,p),p(1-p)\\right\\}n^{k-r}$\nwhenever $p(1-p)n^{\\lfloor r/2\\rfloor/(\\binom{2r-2}{r}-1)}\\ge\\varepsilon$. Using local moment estimates and switchings in a sparse reservoir, we construct one hypergraph with the nearest-integer edge count that controls all induced orders simultaneously.",
+   "abs": "https://arxiv.org/abs/2610.14712",
+   "pdf": "https://arxiv.org/pdf/2610.14712"
+  },
+  {
+   "id": "2610.15909",
+   "type": "new",
+   "title": "Two Linear Programs are Better than One",
+   "authors": [
+    "Alexander E. Black",
+    "Christoph Hertrich",
+    "Stefan Kober",
+    "Georg Loho"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CC",
+    "cs.DM",
+    "cs.LG",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The extension complexity $\\operatorname{xc}(P)$ of a polytope $P$ is the minimum number of facets of a polytope that projects onto it. Motivated by the complexity of neural networks, Hertrich and Loho introduced the virtual extension complexity $\\operatorname{vxc}(P)$ of a polytope $P$, which is the minimum of $\\operatorname{xc}(Q) + \\operatorname{xc}(R)$ among all polytopes $Q$ and $R$ such that $P+Q=R$. We show the following results pertaining to virtual extension complexity.\nFirst, we resolve the core open problem on the topic by showing the virtual extension complexity can be exponentially smaller than extension complexity. Second, we show there are matroid base polytopes with exponential virtual extension complexity by adapting a semi-algebraic counting argument by Hrubeš that extends the counting arguments of Rothvoss. Finally, we show that the maximum virtual extension complexity of a polygon with $n$ vertices is $\\Theta(\\sqrt{n})$. This resolves an analogue of a question on extension complexity of Fiorini, Rothvoss, and Tiwary in 2011 in the case of virtual extension complexity.",
+   "abs": "https://arxiv.org/abs/2610.15909",
+   "pdf": "https://arxiv.org/pdf/2610.15909"
+  },
+  {
+   "id": "2610.14563",
+   "type": "new",
+   "title": "Sharp projection inequalities for antichains in cone orders",
+   "authors": [
+    "Yuxian Dong",
+    "Lili Mu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We establish sharp projection inequalities for $k$-antichains under orders defined by open convex cones. For integers $n\\geq2$ and $k\\ge 1$, let $C\\subsetneq\\mathbb R^n$ be a nonempty open convex cone. A set $A\\subseteq\\mathbb R^n$ is a $k$-antichain with respect to the order $x\\prec_C y\\iff y-x\\in C$ if it contains no chain $x^1\\prec_C\\cdots\\prec_C x^{k+1}$. For every such set $A$ and every $v\\in C$, we prove \\[ \\mathcal H^{n-1}(A) \\leq k\\frac{\\|v\\|}{\\alpha_C(v)} \\mathcal H^{n-1}(P_v(A)), \\] where $P_v$ is the orthogonal projection onto $v^\\perp$, $\\mathcal H^{n-1}$ denotes normalized Hausdorff outer measure, and $\\alpha_C(v)$ is the minimum of $\\langle\\xi,v\\rangle$ over unit vectors in the dual cone $C^*$. In particular, every weak antichain $A\\subseteq\\mathbb R^n$ satisfies $\\mathcal H^{n-1}(A)\\leq\\mathcal H^{n-1}(\\Delta_i(A))$ for each $i$, where $\\Delta_i(x)=(x_j-x_i)_{j\\ne i}$. This proves the skewed projection conjecture of Engel, Mitsis, Pelekis and Reiher. As an application, we recover the bound $\\mathcal H^{n-1}(A)\\leq kn$ for $k$-antichains in the unit cube under the coordinatewise order.",
+   "abs": "https://arxiv.org/abs/2610.14563",
+   "pdf": "https://arxiv.org/pdf/2610.14563"
+  },
+  {
+   "id": "2610.16756",
+   "type": "new",
+   "title": "The nabla operator, Hall--Littlewood polynomials and LLT polynomials",
+   "authors": [
+    "Feng Gu",
+    "Mingyang Kang",
+    "Dun Qiu",
+    "Minhao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "45 pages",
+   "abstract": "Bergeron, Garsia, Haiman, and Tesler conjectured that $(-1)^{n-\\ell(\\mu)}\\nabla\\widetilde H_\\mu[X;0,t]$ and $\\nabla\\omega \\widetilde H_\\mu[X;0,t^{-1}]$ are Schur positive, and that $\\nabla\\omega \\widetilde H_\\mu[X;0,t^{-1}]-\\nabla\\omega \\widetilde H_\\nu[X;0,t^{-1}]$ is Schur positive when $\\mu$ dominates $\\nu$. The first statement follows from the compositional shuffle conjecture of Haglund, Morse, and Zabrocki, proved by Carlsson and Mellit. We prove the other two statements. All three statements also hold for $\\nabla^r$ with $r\\geq1$. The main new step is an identity: when $\\mu$ covers $\\nu$, the difference $\\omega \\widetilde H_\\mu[X;0,t^{-1}]-\\omega \\widetilde H_\\nu[X;0,t^{-1}]$ is minus a power of $t$ times one LLT polynomial. Using the Catalanimals and the Cauchy identity of Blasiak, Haiman, Morse, Pun, and Seelinger, we show that $\\nabla^r$ of this LLT polynomial is, up to sign, a positive sum of LLT polynomials. We also extend the main results to the Schiffmann algebra setting.",
+   "abs": "https://arxiv.org/abs/2610.16756",
+   "pdf": "https://arxiv.org/pdf/2610.16756"
+  },
+  {
+   "id": "2610.15024",
+   "type": "new",
+   "title": "Sharp lower bounds for bisections of graphs with bounded maximum degree",
+   "authors": [
+    "Qiwen Guo",
+    "Gregory Gutin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A bisection of a graph is a partition of its vertex set into two parts whose sizes differ by at most one. We prove that every graph with $m$ edges and maximum degree at most $k$ has a bisection of size at least $\\frac{k+1}{2k}m$ when $k$ is odd, and at least $\\frac{k+2}{2(k+1)}m$ when $k$ is even. Both bounds are sharp, with equality for complete graphs. This establishes the unweighted case of the bisection conjecture of Gerke, Gutin, Yeo and Zhou (arXiv 2024), removes the additive error from the corresponding bounds of Lee, Loh and Sudakov (JCTB 2013), and extends the odd-degree regular case proved by Bollobás and Scott (JGT 2004) to arbitrary graphs of bounded maximum degree. The proof combines the matching-and-pairing method with the Gallai--Edmonds decomposition. Hall's theorem controls the number of uncovered factor-critical components whose internal degrees are all even. A boundary-edge count bounds this obstruction by the total degree deficiency, while the remaining uncovered components supply the required pairing gain.",
+   "abs": "https://arxiv.org/abs/2610.15024",
+   "pdf": "https://arxiv.org/pdf/2610.15024"
+  },
+  {
+   "id": "2610.14032",
+   "type": "cross",
+   "title": "Polygons and coplanar points on submanifolds of codimension 2",
+   "authors": [
+    "Sohail",
+    "Sarkar"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO",
+    "math.DG"
+   ],
+   "primary": "math.MG",
+   "comments": "11 pages",
+   "abstract": "Problem 73 on Green's list of open problems asks whether a smooth submanifold of codimension two in $\\mathbb{R}^n$ must meet some affine two-plane in five points when $n$ is large. In this paper, we answer this question for every $n \\geq 6$. Every nonempty relatively open subset of such a submanifold contains the vertices of an affinely regular pentagon, and the bound $n \\geq 6$ is sharp for affinely regular pentagons. More generally, for every prime $p \\geq 5$, the graph of a continuous map from a ball in $\\mathbb{R}^{p-1}$ to $\\mathbb{R}^2$ contains an affinely regular $p$-gon. A second argument gives six coplanar points when $n \\geq 7$. Both proofs find the points by making the low Fourier modes of the graph map vanish along a circle.",
+   "abs": "https://arxiv.org/abs/2610.14032",
+   "pdf": "https://arxiv.org/pdf/2610.14032"
+  },
+  {
+   "id": "2610.14503",
+   "type": "new",
+   "title": "A sharp bound for the least signless Laplacian eigenvalue of triangle-free graphs",
+   "authors": [
+    "Dongxiu Cai",
+    "Zhengbo Chen",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages",
+   "abstract": "We prove that every finite simple triangle-free graph $G$ on $n\\geq1$ vertices satisfies $q_{\\min}(G)\\leq7n/50$, where $q_{\\min}(G)$ is the least eigenvalue of its signless Laplacian matrix $Q_G=D_G+A_G$, with $D_G$ the diagonal matrix of vertex degrees and $A_G$ the adjacency matrix. The constant is sharp, since the Higman--Sims graph and its balanced blow-ups attain equality, as shown by de Lima, Nikiforov and Oliveira (2016). This proves the bound conjectured by Balogh, Clemen, Lidický, Norin and Volec (2023). The proof uses five test column vectors associated with an ordered edge to obtain a matrix Rayleigh inequality. Our use of local Rayleigh inequalities together with flag-algebra semidefinite programming is inspired by Zhou (2026). We use semidefinite programming and rational approximation to find the required positive semidefinite matrices, and complete the proof by exact correction and verification.",
+   "abs": "https://arxiv.org/abs/2610.14503",
+   "pdf": "https://arxiv.org/pdf/2610.14503"
+  },
+  {
+   "id": "2610.14829",
+   "type": "new",
+   "title": "New bounds for off-diagonal hypergraph Ramsey numbers",
+   "authors": [
+    "David Conlon",
+    "Xiaoyu He",
+    "Jiaxi Nie",
+    "Logan Post"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "38 pages, 6 figures",
+   "abstract": "We study a conjecture of Conlon, Fox, Gunby, He, Mubayi, Suk, Verstraëte, and Yu, which characterizes the $3$-graphs $H$ for which the off-diagonal Ramsey number $r(H,n)$ is polynomial. We prove the conjecture for $3$-graphs with at most five tight components. Additionally, we show that the full conjecture is equivalent to its specialization to linear $3$-graphs. We prove quasipolynomial upper bounds for a class of `forward-doubleable' $3$-graphs, which includes the Fano plane. Finally, we give an exponential lower bound for `non-forward-laminar' $3$-graphs and use this to completely classify the Ramsey growth of a natural family of 3-graphs called chains.",
+   "abs": "https://arxiv.org/abs/2610.14829",
+   "pdf": "https://arxiv.org/pdf/2610.14829"
+  },
+  {
+   "id": "2610.16332",
+   "type": "cross",
+   "title": "Regularity of Totally Nonnegative Wonderful Compactification",
+   "authors": [
+    "Xuhua He",
+    "Kaitao Xie"
+   ],
+   "categories": [
+    "math.RT",
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.RT",
+   "comments": "34 pages",
+   "abstract": "Let $G$ be a split real semisimple group of adjoint type. We prove that the cellular decomposition of the totally nonnegative part of its wonderful compactification is a regular CW complex, confirming a conjecture of Galashin, Karp, and Lam. In particular, the closure of every cell is homeomorphic to a closed ball. The proof combines a Bruhat atlas compatible with total positivity and a CL-labeling of the augmented face poset. The atlas models the strata locally with open Richardson varieties in the flag variety of a larger Kac-Moody group and identifies their totally nonnegative cells.",
+   "abs": "https://arxiv.org/abs/2610.16332",
+   "pdf": "https://arxiv.org/pdf/2610.16332"
+  },
+  {
+   "id": "2610.15424",
+   "type": "new",
+   "title": "Every n points in the plane contain (m1 + o(1)) n points with no unit distance",
+   "authors": [
+    "Shisheng Li",
+    "Yong Su"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $f(n)$ be the largest integer such that every set of $n$ points in the plane contains $f(n)$ points no two at distance $1$, and let $m_1$ be the supremum of the upper densities of Lebesgue measurable planar sets with no two points at distance $1$. Larman and Rogers observed that $f(n) \\ge m_1 n$. We prove that $f(n)/n \\to m_1$; that is, $f(n) = (m_1 + o(1))n$. This is the first half of a conjecture of Dúcz and Varga, and with the bound $m_1 \\le 0.247$ of Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki it gives $f(n) \\le (0.247 + o(1))n$. The proof builds a random independent subset of the algebraic plane, invariant under algebraic translations and rotations, whose probability of containing the origin is at least the worst finite independence ratio, and turns it into a measurable planar set of at least that upper density. Its only non-classical input is the Haar rigidity theorem for wild character laws from the OpenAI preprint The Euclidean plane is not five-colorable, which has a machine-checked Lean proof. The whole argument has been formalized in Lean 4 on top of it.",
+   "abs": "https://arxiv.org/abs/2610.15424",
+   "pdf": "https://arxiv.org/pdf/2610.15424"
+  },
+  {
+   "id": "2610.16203",
+   "type": "new",
+   "title": "A Proof of the Erdős Matching Conjecture for Large Matchings via Sharp Tail Probability for Sums of i.i.d. Nonnegative Random Variables",
+   "authors": [
+    "Cheng Chi",
+    "Shuang Sun",
+    "Yan Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We resolve a conjecture of Łuczak, Mieczkowska and Šileikis on the maximal tail probability of sums of independent and identically distributed nonnegative random variables. Specifically, for every integer $k\\ge1$ and every $0\\le x\\le1/k$, we prove\n\\[\n\\sup_{\\mathbb E X_1\\le x}\\mathbb{P}(X_1+\\cdots+X_k\\ge1)\n=\\max\\{1-(1-x)^k,(kx)^k\\},\n\\] where the supremum is over nonnegative i.i.d.\\ random variables $X_1,\\ldots,X_k$. We also characterize all maximizing distributions.\nUsing this result, we prove the Erdős Matching Conjecture for every fixed $k\\ge3$, all sufficiently large $s$, and every $n\\ge k(s+1)$. More specifically, we show that in this range, the maximum number of edges in an $n$-vertex $k$-uniform hypergraph containing no $s+1$ pairwise disjoint edges is\n\\[\n\\max\\left\\{\n\\binom{k(s+1)-1}{k},\n\\binom nk-\\binom{n-s}{k}\n\\right\\}.\n\\] Moreover, every extremal family consists either of all $k$-sets meeting a fixed $s$-set or of all $k$-sets contained in a fixed $(k(s+1)-1)$-set.",
+   "abs": "https://arxiv.org/abs/2610.16203",
+   "pdf": "https://arxiv.org/pdf/2610.16203"
+  },
+  {
+   "id": "2610.16258",
+   "type": "new",
+   "title": "Elementary graphs are chromatic-choosable",
+   "authors": [
+    "Narayanan N",
+    "Nandana K. Vasudevan",
+    "K. Somasundaram"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "13 page, 5 figures, 1 table",
+   "abstract": "A graph is \\emph{elementary} if its edges can be coloured with two colours so that the two edges of every induced path on three vertices receive different colours. Elementary graphs are one of the two basic classes in the Chvátal--Sbihi decomposition of claw-free perfect graphs; they include all line graphs of bipartite multigraphs and all complements of bipartite graphs. We prove that every elementary graph $G$ satisfies $\\ch(G)=\\chi(G)=\\omega(G)$, confirming for this class the conjecture of Gravier and Maffray that claw-free graphs are chromatic-choosable. The proof combines the Maffray--Reed description of elementary graphs as augmentations of line graphs of bipartite multigraphs, Galvin's theorem, an extremal (edge-maximal) choice of counterexample, and a Hall-type lemma describing how list colourings of a complete graph minus a matching can fail.",
+   "abs": "https://arxiv.org/abs/2610.16258",
+   "pdf": "https://arxiv.org/pdf/2610.16258"
+  },
+  {
+   "id": "2610.14135",
+   "type": "new",
+   "title": "Reconstruction and Symmetry of Two-Token Graphs",
+   "authors": [
+    "Yuanming Luo",
+    "Hao Hu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We present a proof of the two-token graph reconstruction conjecture. Every finite simple graph $G,H$ of order at least three, $F_2(G) \\cong F_2(H)$ if and only if $G \\cong H$. We also classify the automorphism groups of two-token graphs whose connected roots have order at least five. Combining these results, we show that, for connected graphs $G,H$ of order at least five, every isomorphism $\\phi:F_2(G)\\to F_2(H)$ admits a factorization $\\phi=\\eta\\circ\\sigma^{(2)}$, where $\\sigma^{(2)}$ is induced by a graph isomorphism $\\sigma:G\\to H$, and $\\eta\\in \\operatorname{Aut}(F_2(H))$ is a product of twin-cut switches or Cartesian exchanges.",
+   "abs": "https://arxiv.org/abs/2610.14135",
+   "pdf": "https://arxiv.org/pdf/2610.14135"
+  },
+  {
+   "id": "2610.15069",
+   "type": "new",
+   "title": "How iterated sumsets grow under the assumption of small doubling",
+   "authors": [
+    "Dongchun Han",
+    "Qinghai Zhong"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $K>1$ be a real number and let $A\\subsetneq \\mathbb Z$ be a finite and nonempty subset. Suppose $|A+A|<K|A|$. A fundamental open problem is to characterize the size of higher iterated sumsets $nA = A+\\cdots+A$ ($n$-fold sumset). In 2004, Terry Tao formally posed the problem of determining the optimal growth function governing iterated sumsets of small-doubling sets. In this manuscript, we give a solution to this long-standing open problem for large enough $n$.",
+   "abs": "https://arxiv.org/abs/2610.15069",
+   "pdf": "https://arxiv.org/pdf/2610.15069"
+  },
+  {
+   "id": "2610.16703",
+   "type": "new",
+   "title": "Piercing boxes and products of trees",
+   "authors": [
+    "Wei Rao",
+    "Taehyun Eom",
+    "Minki Kim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "We give a new upper bound on the piercing number $\\tau(\\mathcal{F})$ of a finite family $\\mathcal{F}$ of axis-parallel rectangles in the plane when every $p$ members contain an intersecting pair. Namely, we prove $\\tau(\\mathcal{F}) = O(p(\\log\\log p)(\\log\\log\\log p))$, improving the factor $(\\log\\log p)^2$ in the best previously known bound to $(\\log\\log p)(\\log\\log\\log p)$. For each $d>2$, when $\\mathcal{F}$ is a finite family of axis-parallel boxes in $\\mathbb{R}^d$, this yields $\\tau(\\mathcal{F}) = O(p(\\log p)^{d-2}(\\log\\log p)(\\log\\log\\log p))$.\nWe also study an analogous problem replacing $\\mathbb{R}^d=\\mathbb{R}\\times\\cdots\\times\\mathbb{R}$ with the Cartesian product $T_1\\square\\cdots\\square T_d$ of trees $T_1,\\ldots,T_d$, and boxes with objects of the form $S_1\\square\\cdots\\square S_d$ where $S_i$ is a subtree of $T_i$. For a finite family of such objects under the same intersection assumption as above, we establish an upper bound $\\tau(\\mathcal{F})=O(p(\\log p)^{d-1})$ for each $d$. We also construct examples showing that this upper bound cannot be improved in order of magnitude.",
+   "abs": "https://arxiv.org/abs/2610.16703",
+   "pdf": "https://arxiv.org/pdf/2610.16703"
+  },
+  {
+   "id": "2610.14496",
+   "type": "new",
+   "title": "When Do Restricted Sumsets Cover a Finite Abelian Group?",
+   "authors": [
+    "Dongchun Han",
+    "Yuan Ren"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a subset $A$ of a finite abelian group $G$, let $\\Sigma_k(A)$ denote the set of sums of $k$ distinct elements of $A$, and let $\\Sigma(A)=\\bigcup_{k\\ge1}\\Sigma_k(A)$. The problem of determining when $\\Sigma(A)=G$ goes back to Erdős and Heilbronn. Nguyen and Vu later formulated the corresponding fixed-length question: for a prescribed $k$, when does $\\Sigma_k(A)=G$? For groups of odd order, we prove the sharp large-order threshold $|A|>|G|/3+1$, which forces $\\Sigma_k(A)=G$ throughout the entire middle range $4\\le k\\le |A|-4$. This determines the limiting thresholds posed by Girard, Griffiths and Hamidoune. If $p$ is the least prime divisor of $|G|$, then, for fixed odd $p$ and sufficiently large $|G|$, the exact threshold $|A|\\ge |G|/p+p-1$ forces covering throughout the middle range beginning at $2p-2$. Thus, throughout this range, prescribing the number of summands does not change the sharp covering threshold. For $3\\le k\\le2p-3$, the restricted and ordinary $k$-fold covering problems have the same asymptotic threshold. As an application to MDS elliptic codes on an elliptic curve $E/\\F_q$, we sharpen the half-scale conjecture of Li, Wan and Zhang, obtaining the sharp $1/3$-scale bound when $|E(\\F_q)|$ is odd and, more generally, the exact bound determined by the least prime divisor of $|E(\\F_q)|$.",
+   "abs": "https://arxiv.org/abs/2610.14496",
+   "pdf": "https://arxiv.org/pdf/2610.14496"
+  },
+  {
+   "id": "2610.14085",
+   "type": "cross",
+   "title": "Satisfiability and freezing in random integer programs",
+   "authors": [
+    "Dylan J. Altschuler",
+    "Ruben Ascoli",
+    "Will Perkins"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "Minimal AI usage. Comments welcome. 49 pages",
+   "abstract": "We study a model of a random centrally symmetric polytope and ask about the existence of points in the polytope with non-zero, integer coordinates. Our main results are the location of a sharp threshold for the existence of these integer points, a characterization of the typical empirical distribution of their coordinates, and showing that near the feasibility threshold these integer points are almost always totally isolated --- at linear Hamming distance to the nearest other integer point in the polytope.\nThe behavior of these random integer programs is related to that of the symmetric binary perceptron (the case when coordinates of points are $\\pm 1$-valued). The lack of symmetry in the set of potential solutions leads to new questions and phenomena, such as the distribution of the coordinate sizes in typical solutions, and requires the development of new information-theoretic techniques to deal with higher-dimensional optimization problems arising in the method of moments.",
+   "abs": "https://arxiv.org/abs/2610.14085",
+   "pdf": "https://arxiv.org/pdf/2610.14085"
+  },
+  {
+   "id": "2610.16605",
+   "type": "new",
+   "title": "$2$-large sets are sets of nil-Bohr recurrence",
+   "authors": [
+    "Ryan Alweiss",
+    "Sohail Farhangi"
+   ],
+   "categories": [
+    "math.CO",
+    "math.DS",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages and 1 figure",
+   "abstract": "A set $S$ of positive integers is $2$-large if every two-coloring contains arbitrarily long monochromatic arithmetic progressions with common difference in $S$. We prove that every such set meets every nil-Bohr neighborhood of $0$. This proves a conjecture of the first author and gives a sharp answer to a question of Host, Kra, and Maass.\nWe also show that, for every fixed nil-Bohr neighborhood \\(B\\) of \\(0\\) and every \\(\\eps>0\\), restricting the common difference to \\(B\\) increases the extremal number for \\(k\\)-term arithmetic progressions by at most a factor of \\(1+\\eps\\), provided \\(k\\) is sufficiently large.",
+   "abs": "https://arxiv.org/abs/2610.16605",
+   "pdf": "https://arxiv.org/pdf/2610.16605"
+  },
+  {
+   "id": "2610.15468",
+   "type": "cross",
+   "title": "FirstFit coloring process of random bipartite graphs and an online coloring lower bound in the random order model",
+   "authors": [
+    "Yaqiao Li",
+    "Xin Li"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "FirstFit colors each arriving vertex with the smallest positive integer absent from its previously colored neighborhood. We prove that this rule can require $n^{\\Omega(1)}$ many colors on certain bipartite graph of $n$ vertices even when the vertices arrive in a uniformly random order. This refutes the conjecture of Bosek, Gutowski, Lasoń, and Przybyło [BGLP24] that FirstFit uses a polylogarithmic expected number of colors on every bipartite graph in the random order model. We obtain the lower bound by analyzing the FirstFit coloring process on random bipartite graphs, where vertices arrive to either side with equal probability, and with an independent edge density $n^{-x}$ for some $0 < x < 1$. Our result can also be viewed as a qualitative strengthening of Kučera [Kuč91], who showed that, for every $\\epsilon > 0$, there are graphs with chromatic number at most $n^{\\epsilon}$ on which FirstFit uses $\\Omega(n/\\log n)$ colors in expectation under a uniformly random order. Our result shows that such poor behavior of FirstFit already occurs for $\\chi(G) = 2$.",
+   "abs": "https://arxiv.org/abs/2610.15468",
+   "pdf": "https://arxiv.org/pdf/2610.15468"
+  },
+  {
+   "id": "2610.13975",
+   "type": "cross",
+   "title": "The rhombic dodecahedral conjecture",
+   "authors": [
+    "Annalisa Cesaroni",
+    "Matteo Novaga"
+   ],
+   "categories": [
+    "math.MG",
+    "math.AP",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "17 pages",
+   "abstract": "We prove that every three-dimensional parallelohedron $P$ satisfies \\[ \\mathcal H^2(\\partial P)\\ge 12\\sqrt2\\,r(P)^2, \\] where $r(P)$ is the inradius of $P$, with equality if and only if $P$ is similar to the regular rhombic dodecahedron.",
+   "abs": "https://arxiv.org/abs/2610.13975",
+   "pdf": "https://arxiv.org/pdf/2610.13975"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.16555",
+   "type": "cross",
+   "title": "AI Discovery in Combinatorics: From Problems to Solutions and Back to Bigger Problems",
+   "authors": [
+    "Eugenio Cainelli",
+    "Lorenzo Luccioli",
+    "Alessandro Iraci",
+    "Giovanni Paolini"
+   ],
+   "categories": [
+    "cs.AI",
+    "cs.LG",
+    "math.CO"
+   ],
+   "primary": "cs.AI",
+   "comments": "15 pages",
+   "abstract": "We introduce $qt$Bench, a benchmark of 29 open problems in algebraic combinatorics. These problems ask for a simple combinatorial algorithm that explains given polynomial coefficients or identities. To help AI agents search for such algorithms, we provide a scaffold for playing with combinatorial objects, countering cheating attempts, and testing candidate solutions. To explore how far frontier AI systems can go on these problems, we collaborated with OpenAI, whose researchers obtained proposed solutions to several of them. This highlights bigger meta-problems: is AI discovery at scale ethical? How should these results be released? How should proof digestion be organized? We discuss these questions and give our views.",
+   "abs": "https://arxiv.org/abs/2610.16555",
+   "pdf": "https://arxiv.org/pdf/2610.16555"
+  }
+ ],
+ "listed_new": 82,
+ "listed_cross": 47
+}
