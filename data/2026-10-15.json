@@ -1,0 +1,573 @@
+{
+ "date": "2026-10-15",
+ "generated_at": "2026-10-15T03:00:40Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-15",
+ "screened": 57,
+ "screened_new": 39,
+ "screened_cross": 18,
+ "scored": 57,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.19960",
+   "type": "cross",
+   "title": "Nonlinear fixed-distance codes via real lifts of moment configurations",
+   "authors": [
+    "Sergey Yekhanin"
+   ],
+   "categories": [
+    "cs.IT",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "Let $A_q(n,d)$ denote the largest size of a code of length $n$ and minimum Hamming distance $d$ over an alphabet of $q$ symbols. For fixed $q\\ge2$ and $d\\ge4$ we construct codes with redundancy $n-\\log_q A_q(n,d)\\le(d-3)\\log_q n+O(\\sqrt{\\log n})$ for all large $n$. No algebraic structure is imposed on the alphabet, and the codes are not linear. For $d=4$ and $d=5$ the coefficient of $\\log_q n$ matches the Hamming bound, so the redundancy is determined up to lower-order terms. At distance four the codes are provably better than every linear code: by the polynomial-method bound for cap sets, $\\mathbb{F}_q$-linear codes with $q>2$ require a strictly larger coefficient in front of $\\log_q n$.\nThe construction imposes moment checksums over an auxiliary finite field, as BCH codes do, but one fewer than the distance would normally require. The affine-line theorem from prior work describes the dependencies left by these checks. We exclude them by placing the code positions inside a specially structured subset of the field, built from Behrend's sphere construction with the help of algebraic number theory.",
+   "abs": "https://arxiv.org/abs/2610.19960",
+   "pdf": "https://arxiv.org/pdf/2610.19960"
+  },
+  {
+   "id": "2610.18907",
+   "type": "new",
+   "title": "Ordinary and measurable colorings of Euclidean three-space",
+   "authors": [
+    "Mikhail Koshelev",
+    "Andrey Kupavskii",
+    "Vsevolod Voronov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A proper coloring of Euclidean space is a coloring that assigns different colors to points at distance one. Using the planar character-law rigidity theorem of OpenAI, we prove that every finite proper coloring of $\\R^3$ can be replaced by a proper Lebesgue-measurable coloring with the same number of colors. As a corollary we obtain that the ordinary and measurable chromatic numbers of $\\R^3$ are equal, and both lie between $7$ and $15$.",
+   "abs": "https://arxiv.org/abs/2610.18907",
+   "pdf": "https://arxiv.org/pdf/2610.18907"
+  },
+  {
+   "id": "2610.20407",
+   "type": "new",
+   "title": "Treewidth and the Product of Tree-Independence and Tree-Chromatic Numbers",
+   "authors": [
+    "Xinheng Lin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "For a graph $G$, let $\\mathrm{tw}(G)$, $\\mathrm{tree}\\text{-}\\alpha(G)$, and $\\mathrm{tree}\\text{-}\\chi(G)$ denote its treewidth, tree-independence number, and tree-chromatic number, respectively. We prove that every nonempty graph $G$ satisfies $\\mathrm{tw}(G)+1\\leq\\mathrm{tree}\\text{-}\\alpha(G)\\mathrm{tree}\\text{-}\\chi(G)(1+\\lfloor\\log_2(\\mathrm{tree}\\text{-}\\alpha(G))\\rfloor)$. This improves the quadratic bound of Koutsoutis, Krause, Liu, Redzic, and Ueckerdt. For every pair of integers $n,k\\geq2$, we construct a graph $G$ with $\\mathrm{tree}\\text{-}\\alpha(G)=n$, $\\mathrm{tree}\\text{-}\\chi(G)=k$, and $\\mathrm{tw}(G)=\\Omega(nk\\log_2 n)$. Thus the upper bound is best possible up to a constant factor.",
+   "abs": "https://arxiv.org/abs/2610.20407",
+   "pdf": "https://arxiv.org/pdf/2610.20407"
+  },
+  {
+   "id": "2610.20562",
+   "type": "new",
+   "title": "Hypergraphs with the smallest Hall ratio are still hard to colour",
+   "authors": [
+    "Veronica Bitonti",
+    "Freddie Illingworth",
+    "Pedram Noohi",
+    "Jane Tan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For $H$ a hypergraph, the Hall ratio $\\rho(H)=\\text{max}_{X\\subseteq V(H)}\\frac{\\lvert{X}\\rvert}{\\alpha(H[X])}$ is a natural lower bound for its chromatic number, and among non-empty $k$-uniform hypergraphs the smallest possible Hall ratio is $k/(k-1)$. For graphs ($k = 2$), having minimum Hall ratio $2$ forces chromatic number $2$. Nešetřil, Rödl, and Sales asked whether a similar phenomenon holds at higher uniformities. We answer this question negatively in a strong form, showing that for every $k \\geqslant 3$ there are $k$-uniform hypergraphs with Hall ratio exactly $k/(k-1)$ and arbitrarily large fractional chromatic number.",
+   "abs": "https://arxiv.org/abs/2610.20562",
+   "pdf": "https://arxiv.org/pdf/2610.20562"
+  },
+  {
+   "id": "2610.20443",
+   "type": "new",
+   "title": "Intersecting families of loose spanning hypertrees",
+   "authors": [
+    "Yury Person",
+    "Thomas Schweser"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "A loose hypertree is a hypergraph whose incidence graph is a tree. Let $b\\ge3$, $n\\equiv1\\pmod{b-1}$, and $s:=(n-1)/(b-1)$. We determine the largest $t$-intersecting families of loose spanning $b$-uniform hypertrees on $[n]$, simultaneously for every $1\\le t\\le s$, provided $n$ exceeds an explicit constant depending only on $b$. The extremal families consist of all such hypertrees containing a fixed $t$-edge loose forest whose component sizes are as equal as the divisibility condition permits. In particular, when $bt\\le n$, the extremal forests are matchings. We also prove a Hilton--Milner-type bound: if $n\\ge C_b(t+1)$, where $C_b$ depends only on $b$, every nontrivial $t$-intersecting family has at most $(s+1)r_{t+1}(n)$ members. Here $r_j(n)$ is the maximum possible number of loose spanning $b$-uniform hypertrees containing a fixed $j$-edge loose forest. For fixed constants $b,t$, this bound is asymptotically sharp and is $O_{b,t}(n^{2-b})r_t(n)$. The proofs combine exact forest enumeration with the intersection theorems of Kupavskii for spread families.",
+   "abs": "https://arxiv.org/abs/2610.20443",
+   "pdf": "https://arxiv.org/pdf/2610.20443"
+  },
+  {
+   "id": "2610.20101",
+   "type": "new",
+   "title": "Connectivity keeping pendant extensions of paths in $k$-connected triangle-free graphs",
+   "authors": [
+    "Menghan Ma",
+    "Qinghai Liu",
+    "Liping Zhang",
+    "Yanmei Hong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "Motivated by Mader's conjecture on connectivity keeping trees, we study the corresponding problem in triangle-free graphs.\nFor positive integers $k,m$, we first prove that every $k$-connected triangle-free graph $G$ with $\\delta(G)\\geq k+\\left \\lceil \\frac{m}{2} \\right \\rceil $ contains a path $P$ of order $m$ such that $G-V(P)$ remains $k$-connected. Moreover, if $\\kappa(G)=k$, then for every end $F$ of $G$ and every vertex $v\\in F$, the path $P$ can be chosen in $G[F]$ with $v$ as an endvertex. If $\\kappa(G)\\geq k+1$, then any vertex of $G$ can be chosen as an endvertex of $P$. This result confirms the conjecture of Luo, Tian and Wu on connectivity keeping trees in bipartite graphs for all paths, and it also sharpens Fujita's path theorem to the optimal minimum degree bound.\nFor an integer $i$ with $1\\leq i\\leq m-1$, let $P_m^+(i)$ denote the tree obtained from a path of order $m-1$ by adding one pendant vertex adjacent to its $i$th vertex. Let $(X,Y)$ be the bipartition of $P_m^+(i)$. We further prove that every $k$-connected triangle-free graph $G$ with $\\delta(G)\\geq k+\\max\\{|X|,|Y|\\}$ contains a subgraph $T\\cong P_m^+(i)$ such that $G-V(T)$ remains $k$-connected. The minimum degree bound is sharp, and the result confirms the bipartite conjecture for all pendant extensions of paths.",
+   "abs": "https://arxiv.org/abs/2610.20101",
+   "pdf": "https://arxiv.org/pdf/2610.20101"
+  },
+  {
+   "id": "2610.19363",
+   "type": "new",
+   "title": "Bicolored Eulerian quasisymmetric functions, affine lengths, and Theta operators",
+   "authors": [
+    "Hsin-Chieh Liao",
+    "Hai Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages",
+   "abstract": "We introduce a $q$-analogue of the bicolored Eulerian quasisymmetric functions by incorporating an additional grading arising from affine length, obtained by interpreting bicolored permutations as affine permutations. We also provide an intrinsic description of this refinement in terms of bicolored permutations by introducing notions of alignments and crossings, together with an explicit bijection identifying these statistics with the alignments and crossings in the existing literature. Finally, we prove that our refinement is symmetric by expressing it in terms of the Theta operators appearing in the Theta coinvariant Conjecture and the modified Macdonald symmetric functions. Assuming the Theta coinvariant conjecture implies the Schur-positivity of our refinement.",
+   "abs": "https://arxiv.org/abs/2610.19363",
+   "pdf": "https://arxiv.org/pdf/2610.19363"
+  },
+  {
+   "id": "2610.18876",
+   "type": "new",
+   "title": "Complete counterexamples to Mubayi's supersaturation conjecture for graphs",
+   "authors": [
+    "Liping Zhang",
+    "Qinghai Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $F$, its extremal number ${\\rm ex}(n,F)$ and extremal graphs denote the maximum number of edges in $F$-free graphs and the graphs attaining this maximum, respectively. Let $h_F(n,q)$ be the minimum number of copies of $F$ in an $n$-vertex graph with ${\\rm ex}(n,F)+q$ edges, and let $t_F(n,q)$ denote the\ncorresponding minimum obtained by adding $q$ edges to an extremal graph. Mubayi (2013) conjectured that for every non-$r$-partite stable $r$-uniform hypergraph $F$ with $r\\ge 2$, $h_F(n,q)\\ge q\\cdot t_F(n,1)$ holds for all sufficiently large $n$ and all integers $q\\ge 1$.\nIn this paper, we prove that Mubayi's conjecture fails in a stronger sense. For every integer $d\\ge 2$, we construct a family of non-$d$-partite stable graphs $F$ such that\n$h_F(n,q)< q\\cdot t_F(n,1)$ for all $1\\le q\\le O\\bigl(n^{4/ 3}\\bigr)$.\nIn particular, these examplesis completely refute Mubayi's conjecture.\n\\noindent\\emph{Key words}: extremal graph; supersaturation; chromatic number.",
+   "abs": "https://arxiv.org/abs/2610.18876",
+   "pdf": "https://arxiv.org/pdf/2610.18876"
+  },
+  {
+   "id": "2610.20545",
+   "type": "new",
+   "title": "The $k$-color poset Ramsey number of the diamond is $2k$",
+   "authors": [
+    "Tom Bohman",
+    "Will Cong",
+    "Quentin Dubroff",
+    "Teresa Huang",
+    "Zheyuan Li",
+    "BangTam Ngo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "The $k$-color Ramsey number of a poset $P$ is the smallest dimension $d$ such that any $k$-coloring of the $d$-dimensional Boolean lattice contains a monochromatic induced copy of $P$. For $ j\\ge 2$ the $j$-diamond is the poset that consists of a maximum element, a minimum element and an antichain of size $j$. We prove that the $k$-color Ramsey number of the $j$-diamond is at most $jk$. Colorings of the Boolean lattice that assign sets of the same size the same color provide matching lower bounds for $j \\in \\{2,3,4\\}$.",
+   "abs": "https://arxiv.org/abs/2610.20545",
+   "pdf": "https://arxiv.org/pdf/2610.20545"
+  },
+  {
+   "id": "2610.19558",
+   "type": "cross",
+   "title": "The Two-Level Poset Game is PSPACE-Complete",
+   "authors": [
+    "Kengo Hashimoto"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.DM",
+    "cs.GT",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "",
+   "abstract": "Poset games form a fundamental class of combinatorial games that includes classical games such as Nim and Chomp. Determining the outcome of a poset game is known to be PSPACE-complete even for posets of height at most three. However, the exact computational complexity of Two-Level Poset Game, played on posets of height at most two, has remained an open problem for over a decade. We resolve this problem by proving that Two-Level Poset Game is PSPACE-complete via a polynomial-time reduction from Avoid True on positive CNF formulas.",
+   "abs": "https://arxiv.org/abs/2610.19558",
+   "pdf": "https://arxiv.org/pdf/2610.19558"
+  },
+  {
+   "id": "2610.20259",
+   "type": "new",
+   "title": "Nonexistence of Strongly Regular Graphs via Gegenbauer Positivity and SRG Counting",
+   "authors": [
+    "Zhen-Qi Liao",
+    "Jiaxin Wang",
+    "Wei-Hsuan Yu",
+    "Jianfeng Cai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "This paper develops a natural extension of the multipoint spherical semidefinite method of Liao and Yu~\\cite{LY}, studying the interaction between semidefinite programming and strongly regular graph counting. Starting from the positive semidefinite kernels furnished by Gegenbauer polynomials, we express weighted kernel sums and counting identities in the same labelled induced-subgraph counts. Eliminating the counting equations gives a semidefinite feasibility problem. Numerical dual solutions guide the construction of rational certificates, whose contradiction identities are verified exactly. Our aim is a systematic method that treats many parameter sets through the same construction. For least eigenvalue $-3$, it gives new counting certificates for $(351,140,73,44)$, $(550,162,75,36)$, $(703,182,81,35)$ and $(1344,221,88,26)$, previously excluded by Liao and Yu~\\cite[Theorem~1]{LY}, and for six additional parameter sets: \\[ \\begin{array}{@{}lll@{}} (375,102,45,21), & (405,132,63,33), & (441,88,35,13),\\\\ (476,133,60,28), & (540,147,66,30), & (575,112,45,16). \\end{array} \\] Seven certificates use Gegenbauer positivity and counting information alone at the displayed orders. The cases $v=375,441,575$ additionally use proved short-vector restrictions, unique vertex extensions, and integer common-neighbour inequalities. The proofs end in displayed inequalities with incompatible signs. Their justification is given by the dual identities and the proved positivity and counting relations; accompanying code automates the longer rational arithmetic.",
+   "abs": "https://arxiv.org/abs/2610.20259",
+   "pdf": "https://arxiv.org/pdf/2610.20259"
+  },
+  {
+   "id": "2610.18944",
+   "type": "new",
+   "title": "Improved Sidorenko bound for hypergraph Turan densities",
+   "authors": [
+    "Shuyan Chen",
+    "Xinmin Hou",
+    "Xizhi Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Lean formalization is available at this https URL",
+   "abstract": "For every fixed integer $r\\ge3$, we prove that the Turán density of every $r$-uniform hypergraph $F$ with $m\\ge1$ edges satisfies $\\pi(F)\\le1-c_rm^{-(r-1)/r}$, where $c_r>0$ depends only on $r$. This improves Sidorenko's general bound, whose gap from $1$ is of order $m^{-1}$. Complete $r$-uniform hypergraphs show that the exponent $(r-1)/r$ is optimal. The proof combines a potential argument for partial embeddings with the Lovász Local Lemma.",
+   "abs": "https://arxiv.org/abs/2610.18944",
+   "pdf": "https://arxiv.org/pdf/2610.18944"
+  },
+  {
+   "id": "2610.19249",
+   "type": "new",
+   "title": "Graph binomial coefficients and a positivity conjecture of Guo and Krattenthaler",
+   "authors": [
+    "Madjid Mirzavaziri",
+    "Daniel Yaqubi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We investigate Conjecture 7.4 of Guo and Krattenthaler \\cite{GK}, which predicts that for every positive integer $n$, the polynomial \\[ P_n(q) = \\frac{(1-q)^2}{(1-q^{10n-1})(1-q^{15n-1})}\\qbin{30n}{5n} \\] has non-negative coefficients, except for $q^1$ and $q^{125n^2-25n+3}$, which equal $-1$. We study this problem through three main perspectives: First, by linking the boundary coefficients to the second differences of the partition function, we settle the first and last $25n+1$ coefficients via a novel partition injection. Second, by introducing a ``defect'' generalization of Andrews' classical lemma, we reduce the conjecture to an almost-unimodality property and employ a uniform saddle-point analysis to prove it analytically for all large $n \\ge 2\\cdot 10^{29}$. Finally, we connect these quotients to graph binomial coefficients, providing a natural orbit-counting interpretation via Burnside's lemma on directed cycles and paths.",
+   "abs": "https://arxiv.org/abs/2610.19249",
+   "pdf": "https://arxiv.org/pdf/2610.19249"
+  },
+  {
+   "id": "2610.16715",
+   "type": "cross",
+   "title": "The Online Steinitz Problem",
+   "authors": [
+    "Matteo Russo",
+    "Jiaye Wei"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "28 pages, 4 figures",
+   "abstract": "Inspired by Steinitz's celebrated result (1913) and recent online vector-balancing results of Kulkarni et al. (2024) and Aden-Ali (2026), we introduce the online Steinitz problem: $T$ vectors in $\\mathbb R^d$, each of $\\ell_2$-norm at most $1$ and with total sum zero, arrive one at a time and must be assigned immediately and irrevocably to unused positions of an array. The goal is to keep every prefix sum of the resulting order small. We first obtain deterministic prefix-discrepancy bounds of $O(\\log T)$ for $d=1$ and $O(\\sqrt T)$ for $d\\ge2$. Our main contribution is a general reduction that converts deterministic and randomized online vector-balancing algorithms, which assign signs to arriving vectors, into online ordering algorithms. Combined with recent vector-balancing results, this yields a randomized algorithm with prefix discrepancy $O(\\log T+\\sqrt{d\\log T})$ and running time $O(dT\\log T)$. The guarantee holds with high probability against an oblivious adversary. The reduction also gives bounds for sparse vectors and extends to inputs in arbitrary compact convex bodies. Finally, we prove matching lower bounds in both the deterministic and randomized cases.",
+   "abs": "https://arxiv.org/abs/2610.16715",
+   "pdf": "https://arxiv.org/pdf/2610.16715"
+  },
+  {
+   "id": "2610.20008",
+   "type": "new",
+   "title": "Avoiding a partial Latin square with an isotope of a given Latin square",
+   "authors": [
+    "Stijn Cambie",
+    "Ian M. Wanless"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 Pages",
+   "abstract": "For all sufficiently large $n$, we prove that every Latin square of order $n$ can be made to avoid any prescribed partial Latin square of order $n$ by permuting only its rows and columns. The proof combines Hall's theorem with elementary estimates for a random permutation.",
+   "abs": "https://arxiv.org/abs/2610.20008",
+   "pdf": "https://arxiv.org/pdf/2610.20008"
+  },
+  {
+   "id": "2610.19800",
+   "type": "new",
+   "title": "On several judicious partitioning problems of graphs and hypergraphs",
+   "authors": [
+    "Siwei Lin",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Judicious partition problems ask for vertex partitions of graphs or hypergraphs that optimize several quantities simultaneously. In this paper, we investigate judicious partitions of graphs and hypergraphs in which each class meets many edges and establish the following results. (1) Every hypergraph with nonnegative edge weights and all edges of size at most $2$ has a bipartition in which each vertex class meets edges of total weight at least $(w_1-\\Delta_1)/2+2w_2/3$, where $w_i$ is the total weight of the edges of size $i$, and $\\Delta_1$ is the maximum weight of an edge of size $1$. (2) Every hypergraph with all edges of size at most $3$ has a bipartition in which each vertex class meets at least $m_1/2+3m_2/4+7m_3/8+o(m_1+m_2+m_3)$ edges, where $m_i$ is the number of edges of size $i$. (3) For any integer $k\\ge4$, every graph with $m\\ge2(k-1)(k-2)$ edges has a partition into $k$ classes, each meeting at least $2m/(2k-1)$ edges. Both the coefficient of $m$ and the edge threshold are best possible. (4) For all sufficiently large $m$, every $4$-uniform hypergraph with $m$ edges has a partition into four classes, each meeting at least $4m/7$ edges. The first three statements are conjectures of Bollobás and Scott, and the last is a conjecture of Bollobás and Thomason on 4-uniform hypergraphs. All of the above results are best possible.",
+   "abs": "https://arxiv.org/abs/2610.19800",
+   "pdf": "https://arxiv.org/pdf/2610.19800"
+  },
+  {
+   "id": "2610.20149",
+   "type": "new",
+   "title": "Elementary Proofs of Commonality of the House Graph and $K_4$ with One Edge Subdivided",
+   "authors": [
+    "Hao Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "A graph $H$ is called common if the number of monochromatic copies of $H$ in a $2$-edge-coloring of a large complete graph is asymptotically minimized by the random coloring with an equal proportion of each color. The house graph and $K_4$ with one edge subdivided once are known to be common by the flag algebra method. Grzesik, Lee, Lidický, and Volec asked for ``human-friendly'' proofs of the commonality of these two graphs. In this short note, we give flag-algebra-free proofs that both graphs are common.",
+   "abs": "https://arxiv.org/abs/2610.20149",
+   "pdf": "https://arxiv.org/pdf/2610.20149"
+  },
+  {
+   "id": "2610.20391",
+   "type": "new",
+   "title": "Potatoes and Onions",
+   "authors": [
+    "Marcin Briański",
+    "Meike Hatzel",
+    "Karolina Okrasa",
+    "Michał Pilipczuk"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "This work has been accepted for presentation at SODA 2027",
+   "abstract": "The first major step in the theory of graph minors of Robertson and Seymour was the grid theorem, a fundamental duality result describing that any graph of sufficiently high treewidth must contain a large grid as a minor. Since this pioneering work, multiple grid theorems have been established in structural graph theory, linking various width parameters of combinatorial objects with the non-existence of grid-like obstructions. In particular, Kawarabayashi and Kreutzer [STOC'15] proved a variant of the grid theorem for directed graphs that links directed treewidth with the non-existence of topological minors of large cylindrical walls. On the other hand, to study immersions of undirected graphs $-$ another containment relation that focuses on edge-disjointness, rather than vertex-disjointness $-$ Wollan [JCTB'15] introduced a parameter, tree-cutwidth, and proved that it is dual to immersions of large walls.\nIn this work, we present a version of Wollan's parameter for directed graphs, the directed tree-cutwidth. The main result is a grid theorem for directed tree-cutwidth, establishing that it is dual to directed immersions of large cylindrical walls.",
+   "abs": "https://arxiv.org/abs/2610.20391",
+   "pdf": "https://arxiv.org/pdf/2610.20391"
+  },
+  {
+   "id": "2610.20414",
+   "type": "new",
+   "title": "The terminal leave in random greedy hypergraph matching",
+   "authors": [
+    "Peter Keevash"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages",
+   "abstract": "Let $G$ be the terminal graph of the random triangle-removal process started from $K_n$. We prove that $e(G)/n^{3/2}\\to1/(2\\sqrt2)$ in $L^2$. More generally, we obtain the analogous result for any fixed strictly $k$-balanced $k$-graph. Our main tool is a more general theorem on random greedy matchings in nearly regular uniform hypergraphs with few short cycles under a stability assumption on the survival equations.",
+   "abs": "https://arxiv.org/abs/2610.20414",
+   "pdf": "https://arxiv.org/pdf/2610.20414"
+  },
+  {
+   "id": "2610.20129",
+   "type": "new",
+   "title": "Cop number of $P_k$-free graphs without a claw or a fork",
+   "authors": [
+    "Uttam K. Gupta",
+    "Dinabandhu Pradhan",
+    "Rashmi Rekha Swain"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, 2 figures, 1 table",
+   "abstract": "In 2019, Liu proved that the cop number of any $(P_k, claw)$-free graph is at most $k-3$. In 2026, Clow and Meger improved and generalized the result of Liu by showing that every connected $(P_k, E)$-free graph has cop number at most $\\lceil \\frac{k-1}{2} \\rceil + 3$, where the graph $E$ is obtained by subdividing two edges of a claw. In this paper, we show that every $(P_k, claw)$-free graph $G$ has cop number at most $\\lceil \\frac{k-1}{2} \\rceil$. This improves the result of Clow and Meger on claw-free graphs. We further show that this bound can be improved to $\\lceil \\frac{k}{3}\\rceil$, when $G$ contains a hole of length at least $k-1$. We show that the cop number of any $(P_k, fork)$-free graph is at most $\\lceil \\frac{2(k-1)}{3} \\rceil$. This also improves the result of Clow and Meger on fork-free graphs for some values of $k$. We further show that every $(P_7, fork)$-free graph has cop number at most $3$, and this bound is tight.",
+   "abs": "https://arxiv.org/abs/2610.20129",
+   "pdf": "https://arxiv.org/pdf/2610.20129"
+  },
+  {
+   "id": "2610.20234",
+   "type": "new",
+   "title": "The parity module of a matroid",
+   "authors": [
+    "Tom Braden",
+    "June Huh",
+    "Jacob P. Matherne",
+    "Nicholas Proudfoot",
+    "Botong Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "63 pages",
+   "abstract": "We introduce the parity module of a matroid with coefficients in a field $\\mathbb{k}$. When $\\mathbb{k}$ has characteristic zero, we show that the parity module of a matroid is isomorphic to its intersection cohomology module, yielding a new intrinsic characterization of the latter. The structure and dimension of the parity module can vary depending on the characteristic, giving rise to characteristic-dependent generalizations of the Kazhdan-Lusztig and Z-polynomials of matroids. When the matroid is realizable over the complex numbers, the parity module is isomorphic to the hypercohomology of the parity sheaf supported on the arrangement Schubert variety of any such realization. We also introduce the notion of pure modules over any field $\\mathbb{k}$ and show that they satisfy a matroid analogue of the Beilinson-Bernstein-Deligne-Gabber decomposition theorem: Every pure module over the graded Möbius algebra decomposes as a direct sum of shifts of the parity modules of matroids obtained by restricting to flats.",
+   "abs": "https://arxiv.org/abs/2610.20234",
+   "pdf": "https://arxiv.org/pdf/2610.20234"
+  },
+  {
+   "id": "2610.19093",
+   "type": "new",
+   "title": "Finding non-bisimplicial and triad-free minimal separators",
+   "authors": [
+    "Maria Chudnovsky",
+    "Ilya Maier"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A $u\\hbox{-}v$ separator in $G$ is a set $S\\subseteq V(G)\\setminus\\{u,v\\}$ such that there is no $u\\hbox{-}v$ path in $G\\setminus S$. A minimal separator in $G$ is a set $S$ such that for some $u,v\\in V(G)\\setminus S$, $S$ is a $u\\hbox{-}v$ separator in $G$ but no proper subset of $S$ is. A set $S$ is bisimplicial if it is the union of at most two cliques. Recognizing graphs in which every minimal separator is the union of at most $k$ cliques is polynomial-time solvable for $k=1$ and NP-hard for every fixed $k\\geq 3$. We settle the remaining case $k=2$ by giving a polynomial-time algorithm to decide whether every minimal separator in a graph is bisimplicial.\nA set $S$ is triad-free if its independence number $\\alpha(S)$ is at most two. Given a graph $G$ and two vertices $u,v$, the problem of finding a $u\\hbox{-}v$ separator $S$ with $\\alpha(S)\\leq k$ had the same complexity gap: it was known to be polynomial-time solvable for $k=1$ and NP-hard for every fixed $k\\geq 3$. We resolve the remaining case $k=2$ by giving a polynomial-time algorithm that finds a triad-free $u\\hbox{-}v$ separator or determines that none exists.",
+   "abs": "https://arxiv.org/abs/2610.19093",
+   "pdf": "https://arxiv.org/pdf/2610.19093"
+  },
+  {
+   "id": "2610.19214",
+   "type": "cross",
+   "title": "Orthogonal partition by four hyperplanes",
+   "authors": [
+    "Alexey Fakhrutdinov",
+    "Platon Khamatov",
+    "Oleg R. Musin"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "12 pages",
+   "abstract": "We study orthogonal $(4,3)$-equipartitions of finite measures absolutely continuous with respect to Lebesgue measure: every three of four mutually orthogonal affine hyperplanes must divide each measure into eight equal parts. For every number $m$ of measures, we determine the exact dimension threshold of Musin's polynomial criterion and express it in terms of the binary expansion of $m$. The threshold coincides with the geometric lower bound precisely when $m=2^j-1$. Consequently, $\\Delta^*(2^j-1,4,3)=7\\cdot2^{j-1}-2$ for every $j\\geq1$.",
+   "abs": "https://arxiv.org/abs/2610.19214",
+   "pdf": "https://arxiv.org/pdf/2610.19214"
+  },
+  {
+   "id": "2610.19193",
+   "type": "cross",
+   "title": "A Bounded-Defect Construction for the Mondrian Art Problem",
+   "authors": [
+    "Cooper O'Kuhn",
+    "Freeman Slaughter"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "9 pages, email comments are welcome!",
+   "abstract": "We construct an infinite family of solutions to the Mondrian art problem with absolute defect bounded above by $280$, of side lengths $n_0 = 315$, $n_1 = 106785$, and $n_{j+2} = 340n_{j+1} - n_j$, where $n_j$ is congruent to $315 \\pmod{630}$. This absolute bound shows that the minimum defect does not necessarily increase with $n$, providing a counterexample to a conjecture which has been open since the problem's original proposal. Our design is derived from a well-known seven-rectangle dissection over the real quadratic field $\\mathbb{Q}(\\sqrt{19})$, with non-integer side lengths; we tailor the side lengths to be integers via an infinite Pell family. Using the same method, we devise a second family with defect $560$ that contains infinitely many side lengths which are divisible by any given positive integer, implying that for any $k$ there are infinitely many side lengths $n \\equiv 0 \\pmod{k}$ with defect bounded above by $560$. This constant bound offers a dramatic improvement on the previous quadratic bounds.",
+   "abs": "https://arxiv.org/abs/2610.19193",
+   "pdf": "https://arxiv.org/pdf/2610.19193"
+  },
+  {
+   "id": "2610.19450",
+   "type": "new",
+   "title": "Every cubic graph has four total dominating sets covering each vertex at most twice",
+   "authors": [
+    "Hyemin Kwon",
+    "Boram Park",
+    "Yoshio Sano"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages, 1 figure",
+   "abstract": "In 2018, Goddard and Henning conjectured that every cubic graph has four total dominating sets covering each vertex at most twice, and asked the analogous question for transversals of $3$-uniform $3$-regular hypergraphs. We prove the conjecture, which also answers the question in the affirmative.",
+   "abs": "https://arxiv.org/abs/2610.19450",
+   "pdf": "https://arxiv.org/pdf/2610.19450"
+  },
+  {
+   "id": "2610.19965",
+   "type": "new",
+   "title": "Proofs and disproofs of some conjectures on zero-sum problems of new types",
+   "authors": [
+    "Yang Li",
+    "San Ling",
+    "Zhonghua Sun",
+    "Shixin Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For integers $r\\ge1$ and $n\\ge2$, let $s_r(n)$ be the least $N$ such that every sequence of $N$ vectors in $\\Z^r$, each nonzero modulo $n$, contains $n$ terms whose sum is zero modulo $n$ but nonzero modulo $n^2$. Let $w_r(n)$ be the corresponding least $N$ when any nonempty subsequence is allowed. These constants were introduced as zero-sum problems of new types by Z.-W. Sun. We prove $s_r(n)\\ge(2^{r+1}-2)(n-1)+1$ by constructing an explicit sequence from a lattice polytope, \\emph{disproving} his conjecture $s_2(n)=4n+1$ for $n\\ge4$. We obtain $w_r(2)=2r+1$ by classifying all sequences avoiding such nonempty subsequences modulo $4$. We also \\emph{prove} Sun's conjecture $w_2(n)=4n-3$ for $n=2^k3^\\ell p$, where $p$ is a prime and $k,\\ell\\ge0$ are integers, by classifying the extremal sequences of length $4p-4$ modulo $p^2$ when $n=p$. For every fixed $n\\ge2$, we prove $w_r(n)/s(\\Z_n^r)=O_n(r^2/2^r)\\to0$ as $r\\to\\infty$, where $s(\\Z_n^r)$ is the classical Erdős-Ginzburg-Ziv constant, with an explicit threshold on $r$ for strict inequality. Thus, for every fixed modulus $n\\ge2$, Sun's proposed equality fails for sufficiently large $r$.",
+   "abs": "https://arxiv.org/abs/2610.19965",
+   "pdf": "https://arxiv.org/pdf/2610.19965"
+  },
+  {
+   "id": "2610.19775",
+   "type": "new",
+   "title": "On the Lattice Tilings by Lee Balls: Q-Polynomials, Group-Ring Equations, and a Decision Algorithm",
+   "authors": [
+    "Ang Xiao",
+    "Yue Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "More than 50 years ago, Golomb and Welch conjectured that no tilings of $\\mathbb{Z}^n$ by Lee balls of radius $r$ exist for $n \\geq 3$ and $r \\geq 2$. This conjecture remains open even under the additional assumption that the tiling is a lattice tiling. In general, there are two known effective approaches to the lattice case which are based on symmetric polynomials and on the arithmetic of group-ring equations, respectively.\nIn this paper, we develop both approaches. First, we determine all coefficients of the Q-polynomials associated with Lee balls; previously, only leading coefficients and certain special cases were known. Second, for arbitrary radii, we give necessary and sufficient conditions for the existence of lattice tilings by Lee balls in terms of group-ring equations, extending earlier results for radii $r=2$ and $3$.\nWe then derive new necessary conditions for such tilings. For every radius $3\\le r\\le 50$, we prove that the set of dimensions for which no lattice tiling exists has positive density in \\(\\mathbb{Z}^+\\). We also give an algorithm that combines the available necessary conditions and apply it to all pairs $(n,r)$ for which the corresponding Lee ball of radius $r$ and dimension $n$ has size less than $2^{30}$. Among these $1{,}358$ pairs, the combined method excludes $1{,}356$, leaving only $(n,r)=(35,3)$ and $(805,3)$.",
+   "abs": "https://arxiv.org/abs/2610.19775",
+   "pdf": "https://arxiv.org/pdf/2610.19775"
+  },
+  {
+   "id": "2610.19014",
+   "type": "new",
+   "title": "Internal partitions of $5$-regular and $8$-regular graphs",
+   "authors": [
+    "Siwei Lin",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An \\emph{internal partition} of a graph is a partition of its vertex set into two nonempty parts such that every vertex has at least half of its neighbors in its own part. DeVos asked whether, for every fixed positive integer $r$, all but finitely many $r$-regular graphs admit an internal partition. This was previously known to hold only for $r\\in\\{3,4,6\\}$. In this paper, we confirm this for $r\\in\\{5,8\\}$ by proving that every $r$-regular graph on at least $10^7$ vertices has an internal partition.",
+   "abs": "https://arxiv.org/abs/2610.19014",
+   "pdf": "https://arxiv.org/pdf/2610.19014"
+  },
+  {
+   "id": "2610.19119",
+   "type": "new",
+   "title": "A combinatorial proof of the Chan--Robbins--Yuen volume formula",
+   "authors": [
+    "Nurtas Shyntas"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, no figures",
+   "abstract": "The Chan--Robbins--Yuen polytope $\\mathrm{CRY}_{m+1}$ has normalized volume $\\prod_{j=1}^{m-1}C_j$, a product of Catalan numbers. Zeilberger proved the formula using the Morris constant-term identity; finding a combinatorial proof remained an open problem. We give such a proof by counting nonnegative integer flows. We add an extra edge from each vertex to a common sink and count flows according to how many of these edges carry positive flow. A double count proves a special case of a recurrence of Morales and Shi and gives these counts in terms of Narayana numbers. Deleting the first vertex then yields the Catalan product. We also give an explicit bijection for the recurrence and prove the corresponding reduction formula posed by Postnikov.",
+   "abs": "https://arxiv.org/abs/2610.19119",
+   "pdf": "https://arxiv.org/pdf/2610.19119"
+  },
+  {
+   "id": "2610.19974",
+   "type": "new",
+   "title": "Trivariate $P$- and $Q$-polynomial structures for interior shells of the Grassmann scheme",
+   "authors": [
+    "Yan Zhu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages",
+   "abstract": "Association schemes induced on the shells of the Grassmann scheme $Gr_q(N,a)$ form an important family in the study of multivariate $P$- and $Q$-polynomial structures. For $a<N/2$, the scheme induced on the furthest shell $X_a$ is the known bivariate $P$- and $Q$-polynomial scheme arising from attenuated spaces. In this paper, we prove that, for every $1\\leq i\\leq a-1$, the association scheme induced on the interior shell $X_i$ is both trivariate $P$-polynomial and trivariate $Q$-polynomial. The two structures share a common index set consisting of the lattice points of a bounded non-simplicial polyhedron. We establish the $P$-polynomial property through combinatorial interpretations of the intersection numbers. Using Dunkl's coordinate description of $X_i$ and the addition theorem, together with recurrence relations for the $q$-Hahn and $q$-Krawtchouk polynomials, we obtain the required vanishing and nonvanishing conditions for the Krein parameters, and hence the $Q$-polynomial structure. Motivated by this index set, we extend the notion of an $A_M$-Leonard pair from simplicial to polyhedral domains and show that every interior shell carries a polyhedral $A_3$-Leonard pair.",
+   "abs": "https://arxiv.org/abs/2610.19974",
+   "pdf": "https://arxiv.org/pdf/2610.19974"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.19236",
+   "type": "cross",
+   "title": "An oral history of FPSAC",
+   "authors": [
+    "Sam Hopkins"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "17 pages",
+   "abstract": "As its 40th anniversary nears, we present a history of the International Conference on Formal Power Series and Algebraic Combinatorics (FPSAC), through interviews with figures from its past, present, and future.",
+   "abs": "https://arxiv.org/abs/2610.19236",
+   "pdf": "https://arxiv.org/pdf/2610.19236"
+  }
+ ],
+ "listed_new": 39,
+ "listed_cross": 18
+}
