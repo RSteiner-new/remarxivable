@@ -1,0 +1,547 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T03:02:19Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-16",
+ "screened": 57,
+ "screened_new": 41,
+ "screened_cross": 16,
+ "scored": 57,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.22098",
+   "type": "new",
+   "title": "Barrier Log-Concavity of Large Forests",
+   "authors": [
+    "Vadim E. Levit"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages, 2 figures; optional 16-page quantitative supplement and verification code/data in ancillary files",
+   "abstract": "We prove that the independence sequence of every sufficiently large forest is strictly barrier log-concave: whenever $i_{k+1}>i_k$, one has $i_k^2>i_{k-1}i_{k+1}$. Consequently, every common downward coefficient tilt is unimodal, with one order threshold valid simultaneously for all $0<t\\le1$. As an application, we prove that every sufficiently large well-covered tree has a strictly log-concave independence polynomial. More generally, the latter conclusion holds for well-covered forests with sufficiently large matching number. Every sufficiently large forest with a palindromic independence polynomial is also strictly log-concave, with its modes at the central ranks. The proof establishes local coefficient-curvature estimates uniformly over forests of unbounded maximum degree and over activities tending to zero. Combined with the fixed-density theorem of Fang, Lu, Nevo, Yao, and Zheng, these estimates complete the strict log-concavity interval down to rank one through $\\lfloor17\\alpha/25\\rfloor$; the terminal fraction is inherited. The classical decreasing tail then yields the barrier property. A cumulative-coefficient corona theorem transfers barrier log-concavity of the base forest to full strict log-concavity of its leaf corona.",
+   "abs": "https://arxiv.org/abs/2610.22098",
+   "pdf": "https://arxiv.org/pdf/2610.22098"
+  },
+  {
+   "id": "2610.20817",
+   "type": "new",
+   "title": "The $A^A$ problem for finite ordered sets",
+   "authors": [
+    "Jonathan David Farley",
+    "George Grätzer"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "For ordered sets $X$ and $Y$, let $Y^X$ denote the ordered set of order-preserving maps from $X$ to $Y$, ordered pointwise. In 1984, D. Duffus asked whether $A^A\\cong B^B$ forces $A\\cong B$ when $A$ and $B$ are finite ordered sets. We prove that it does. The proof combines direct decompositions with an auxiliary ordering of connected ordered sets and a careful choice of intervals of maximum height. We then extend the reconstruction result to several forms of repeated exponentiation.",
+   "abs": "https://arxiv.org/abs/2610.20817",
+   "pdf": "https://arxiv.org/pdf/2610.20817"
+  },
+  {
+   "id": "2610.21506",
+   "type": "new",
+   "title": "Strong coloring numbers of grids",
+   "authors": [
+    "Piotr Micek",
+    "Torsten Ueckerdt"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For positive integers $n$ and $d$, the $d$-dimensional grid of side length $n$ is the graph $G(n,d)$ with vertex set $[n]^d$, in which two vertices are adjacent if they differ by $1$ in exactly one coordinate and agree in all the other coordinates. We determine, for every fixed $d$, the asymptotic growth in $r$ of the $r$th strong coloring numbers of these grids. More precisely for $n$ large enough, ${\\rm scol}_r(G(n,d)) = \\Omega_d\\bigl(r^{d-1}\\bigr)$ as $r\\to\\infty$. This matches an upper bound given by a volume packing argument, which holds more generally for touching graphs of unit balls in $\\mathbb R^d$. For the lower bound, we construct in $G(n,d)$ a bramble of order $\\Omega_d(n^{d-1})$ with each element of radius at most $dn$. This construction was found by OpenAI's GPT-5.6 Sol.",
+   "abs": "https://arxiv.org/abs/2610.21506",
+   "pdf": "https://arxiv.org/pdf/2610.21506"
+  },
+  {
+   "id": "2610.21577",
+   "type": "new",
+   "title": "Generalized Erdős--Ginzburg--Ziv Constants for finite abelian groups of rank three",
+   "authors": [
+    "Hanbin Zhang",
+    "Shiwen Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a finite abelian group with exponent $\\exp(G)$. For positive integer $k$, the generalized Erdős--Ginzburg--Ziv constant, denoted by $\\mathsf s_{k\\exp(G)}(G)$ is the least integer $\\ell$ such that every sequence of length at least $\\ell$ over $G$ has a zero-sum subsequence of length $k\\exp(G)$. In this paper, we prove that, for any $n\\ge 1$, \\[\\mathsf s_{3\\cdot 2^n}(C_{2^n}^3)=6\\cdot 2^n-3 \\quad\\text{and}\\quad \\mathsf s_{4\\cdot 3^n}(C_{3^n}^3)=7\\cdot 3^n-3. \\] This completes all the remaining cases in the study of $\\mathsf s_{kq}(C_q^3)$, where $q$ is a prime power and $k\\ge 3$. As a consequence, for every $k\\ge 3$, we have \\[ \\mathsf s_{kn}(C_n^3)=(k+3)n+O(\\frac{n}{\\log n}). \\] This verifies a conjecture of Kubertin asymptotically. Our approach combines the previous group ring techniques and a recent powerful generalization of the Chevalley-Warning and Ax-Katz theorems introduced by Grynkiewicz",
+   "abs": "https://arxiv.org/abs/2610.21577",
+   "pdf": "https://arxiv.org/pdf/2610.21577"
+  },
+  {
+   "id": "2610.22076",
+   "type": "cross",
+   "title": "On the structure of polynomial multicorrelation sequences arising from nilpotent actions",
+   "authors": [
+    "Jovan Andreevski",
+    "Felipe Hernández"
+   ],
+   "categories": [
+    "math.DS",
+    "math.CO"
+   ],
+   "primary": "math.DS",
+   "comments": "11 pages. Comments are welcome!",
+   "abstract": "We prove that every polynomial multicorrelation sequence arising from nilpotent actions admits a decomposition into a generalized nilsequence and a null-sequence. This resolves a long-standing question of Frantzikinakis concerning the structure of polynomial multicorrelation sequences of commuting transformations. Our proof builds upon ideas underlying the norm convergence theorem of Walsh.",
+   "abs": "https://arxiv.org/abs/2610.22076",
+   "pdf": "https://arxiv.org/pdf/2610.22076"
+  },
+  {
+   "id": "2610.22180",
+   "type": "cross",
+   "title": "A quadratic ancestor inequality for spanning trees",
+   "authors": [
+    "Gefei Cai"
+   ],
+   "categories": [
+    "math.PR",
+    "math-ph",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "9 pages",
+   "abstract": "We introduce a quadratic ancestor inequality for weighted spanning trees on finite undirected graphs and give two applications. First, for every finite $n$-vertex transitive graph, the expected distance in its uniform spanning tree (UST) between two independent uniform vertices is at least $\\sqrt{n}-1$, resolving a conjecture in [Benjamini--Kozma, Comm. Math. Phys. 259 (2005), 257--286]. Second, we prove that the growth exponent of three-dimensional loop-erased random walk (LERW) is at least 3/2.",
+   "abs": "https://arxiv.org/abs/2610.22180",
+   "pdf": "https://arxiv.org/pdf/2610.22180"
+  },
+  {
+   "id": "2610.21636",
+   "type": "new",
+   "title": "An Eventown Result for Multisets",
+   "authors": [
+    "Anirban Banerjee",
+    "Abisek Dewan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "We study an extension of the Eventown problem of sets to multisets on $[n] = \\{1,2,...,n\\}$. A multiset is called $m$-bounded if each element has multiplicity at most $m$. The intersection of two multisets is defined as the multiset in which each element has multiplicity equal to the minimum of its multiplicities in the two original multisets. A family of $m$-bounded multisets is called an Eventown family if every member and the intersection of every pair of distinct members has even cardinality, with cardinalities counted with multiplicities. We determine the maximum size $E_m(n)$ of such a family for every $m$ and $n$. We show that $\nE_{2q}(n)=(q+1)^n, $ and $ E_{2q+1}(n)=(q+1)^{n-2k}\\bigl((q+1)^2+1\\bigr)^k,$ where $k=\\lfloor n/2\\rfloor$. In particular, the case $m=1$ recovers the classical Eventown theorem for sets. We also characterize all extremal families for $m\\ge2$. For even $m$, the unique extremal family consists of all multisets in which every element has even multiplicity. For odd $m\\ge3$, every extremal family has a product structure arising from two explicit families on pairs of coordinates, together with an additional coordinate restricted to even multiplicities when $n$ is odd. Consequently, there are exactly $k+1$ extremal types up to permutations of the ground set.",
+   "abs": "https://arxiv.org/abs/2610.21636",
+   "pdf": "https://arxiv.org/pdf/2610.21636"
+  },
+  {
+   "id": "2610.21894",
+   "type": "new",
+   "title": "A family of algebras that connects positroids, the Theta conjecture, the Delta conjecture, and Eulerian quasisymmetric functions",
+   "authors": [
+    "Hai Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "55 pages",
+   "abstract": "We define a family of algebras $\\mathbb{Q}[\\mathbf{x}_n]/I_{n,a,b}$ whose Hilbert series, when $n\\le a+b\\le n+2$, $a>0$, and $0<b<n$, enumerate certain positroid cells by codimension. Equivalently, these series enumerate certain affine permutations by length. We determine the graded $\\mathfrak{S}_n$-module structure of these algebras by using exact sequences to derive an invertible recursion for their graded Frobenius characteristics when $a+b\\ge n$ and then passing to the limit $a\\rightarrow\\infty$. In particular, the graded Frobenius characteristic $\\mathrm{grFrob}(\\mathbb{Q}[\\mathbf{x}_{a+b-1}]/I_{a+b-1,a,b};q)=\\operatorname{rev}_q(\\omega((\\Theta_{e_{a-1}}\\Theta_{e_{b-1}}\\nabla e_1)\\mid_{t=0}))$, where $\\operatorname{rev}_q$ reverses the $q$-coefficients and the specialization $(\\Theta_{e_{a-1}}\\Theta_{e_{b-1}}\\nabla e_1)\\mid_{t=0}$ appears in the Theta conjecture. For $a,b\\ge1$, we also show that $e_a^\\perp\\mathrm{grFrob}(\\mathbb{Q}[\\mathbf{x}_{a+b}]/I_{a+b,a,b};q)=q^{\\binom{a}{2}}\\operatorname{rev}_q(\\omega((\\Delta_{e_{a-1}}^\\prime e_b)\\mid_{t=0}))$, where $\\Delta_{e_{k-1}}^\\prime e_n$ occurs in the Delta conjecture. In the three cases $a+b-n=0,1,2$, the ungraded Frobenius characteristics agree with three families of Eulerian quasisymmetric functions, respectively. We also construct an open subvariety of $(\\mathbb{P}^{k-1})^n$ whose rational Chow ring is isomorphic to $\\mathbb{Q}[\\mathbf{x}_n]/I_{n,k,n-k}$. This variety admits a stratification induced by certain positroids. Its strata need not be affine, and their codimension generating function equals $\\mathrm{Hilb}(\\mathbb{Q}[\\mathbf{x}_n]/I_{n,k,n-k};q)$.",
+   "abs": "https://arxiv.org/abs/2610.21894",
+   "pdf": "https://arxiv.org/pdf/2610.21894"
+  },
+  {
+   "id": "2610.21341",
+   "type": "new",
+   "title": "Matrix Completion Discriminants",
+   "authors": [
+    "Yoshiyuki Sekiguchi",
+    "Shin-ichi Tanigawa"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 2 figures",
+   "abstract": "We introduce the matrix completion discriminant of a graph as the Zariski closure of the set of partial symmetric matrices whose completion fibers fail to meet a rank stratum transversely. A clique-sum formula for the matrix completion discriminant is established for arbitrary graphs, while explicit defining equations for cycles are obtained in terms of iterated resultants. Using these results together with the analysis of $K_4$-minor-free graphs, we prove that for every cycle-completable graph, the discriminant factors into determinant factors from maximal cliques and resultant factors from chordless cycles.",
+   "abs": "https://arxiv.org/abs/2610.21341",
+   "pdf": "https://arxiv.org/pdf/2610.21341"
+  },
+  {
+   "id": "2610.21017",
+   "type": "new",
+   "title": "Crossing numbers of simplicial complexes",
+   "authors": [
+    "Alfredo Hubard",
+    "Cheikh Saliou Ndiaye",
+    "Oriol Solé-Pi"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages, 4 figures",
+   "abstract": "This paper studies crossing numbers of $d$-dimensional simplicial complexes drawn in $\\mathbb R^{2d}$ or $\\mathbb S^{2d}$. We clarify and generalize a number of known results and conjectures from the graph case to higher dimensions: the crossing lemma (including the exceptional case of two-dimensional complexes drawn in dimension $4$), a generalized Harary-Hill conjecture (and evidence for it), existence of a midrange crossing constant (in a weak sense), and upper bound constructions based on stochastic geometry (related to Sylvester's problem) and the cyclic polytope. Some of our results are new even in the case of graphs: we give a simple proof of the Harary-Hill conjecture for antipodal drawings, and sharpen the threshold above which the rectilinear and spherical crossing numbers of the Erdős-Rényi random graph behave like those of the complete graph.",
+   "abs": "https://arxiv.org/abs/2610.21017",
+   "pdf": "https://arxiv.org/pdf/2610.21017"
+  },
+  {
+   "id": "2610.21812",
+   "type": "new",
+   "title": "Orlik-Solomon algebras determine the Tutte polynomials of matroids of rank at most three",
+   "authors": [
+    "Jianxuan Luo",
+    "Tingzeng Wu",
+    "Hong-Jian Lai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "Let $\\mathcal{M}$ be a simple matroid of rank $r$ on the ground set $[n]=\\{1,\\ldots,n\\}$, let $T_{\\mathcal{M}}(x,y)$ denote its Tutte polynomial, and let $\\mathrm{OS}(\\mathcal{M})$ denote its Orlik-Solomon $\\mathbb{C}$-algebra. We say that $\\mathrm{OS}(\\mathcal{M})$ determines $T_{\\mathcal{M}}(x,y)$ if, for every simple matroid $\\mathcal{N}$, an isomorphism $\\mathrm{OS}(\\mathcal{M})\\cong\\mathrm{OS}(\\mathcal{N})$ of $\\mathbb{C}$-algebras, without regard to the grading, implies $T_{\\mathcal{M}}(x,y)=T_{\\mathcal{N}}(x,y)$. Falk conjectured that the Orlik-Solomon $\\mathbb{C}$-algebra of every simple matroid of rank three determines its Tutte polynomial. We prove that this holds for every simple matroid of rank at most three, thereby resolving Falk's conjecture.",
+   "abs": "https://arxiv.org/abs/2610.21812",
+   "pdf": "https://arxiv.org/pdf/2610.21812"
+  },
+  {
+   "id": "2610.21501",
+   "type": "new",
+   "title": "Ehrhart positivity for paving positroids",
+   "authors": [
+    "Feihu Liu",
+    "Zihao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A central conjecture of Ferroni, Jochemko, and Schröter posits that every positroid is Ehrhart positive. While Ehrhart positivity has recently been verified for notable classes such as lattice path matroids and series-parallel matroids, the general conjecture remains open. In this paper, we prove that the base polytope of any paving positroid has positive Ehrhart coefficients. This establishes a new class of Ehrhart positive positroids and provides substantial evidence supporting this conjecture.",
+   "abs": "https://arxiv.org/abs/2610.21501",
+   "pdf": "https://arxiv.org/pdf/2610.21501"
+  },
+  {
+   "id": "2610.21647",
+   "type": "new",
+   "title": "A simple classification of the special matchings in the symmetric group",
+   "authors": [
+    "Fabrizio Caselli",
+    "Mario Marietti"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We establish a simple characterization of special matchings of all Bruhat intervals in the symmetric group, yielding an explicit classification that depends only on the one-line notations of the endpoints. We also study extensions of graded posets by partial special matchings, proving the existence and uniqueness of such extensions and providing an explicit construction. Combining these results, we obtain a combinatorial algorithm for computing Kazhdan--Lusztig polynomials for an isomorphism-closed family of Bruhat intervals that includes all intervals whose bottom element has length at most one.",
+   "abs": "https://arxiv.org/abs/2610.21647",
+   "pdf": "https://arxiv.org/pdf/2610.21647"
+  },
+  {
+   "id": "2610.21053",
+   "type": "new",
+   "title": "Coefficient lifting for skew divided differences and triple Schubert coefficients",
+   "authors": [
+    "Byung-Hak Hwang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "19 papers. Comments are welcome",
+   "abstract": "Skew divided difference operators \\(\\partial_{w/v}\\), introduced by Macdonald, play an important role in the study of Schubert polynomials and their structure constants. For permutations \\(u,v,w\\in S_n\\), we show that the coefficient of each monomial \\(\\xx^\\alpha\\) in \\(\\partial_{w/v}\\SSch_u(\\xx;\\yy)\\), where \\(\\SSch_u(\\xx;\\yy)\\) is the double Schubert polynomial, is a single triple Schubert coefficient evaluated at \\(\\tb=0\\), whose indices form an explicit lift of \\((u,v,w)\\) to \\(S_{n+\\abs{\\alpha}}\\). As an application, we show that every coefficient of \\(\\partial_{w/v}\\SSch_u(\\xx)\\) is a single Schubert structure constant. This gives a new proof of Kirillov's conjecture that these coefficients are nonnegative.",
+   "abs": "https://arxiv.org/abs/2610.21053",
+   "pdf": "https://arxiv.org/pdf/2610.21053"
+  },
+  {
+   "id": "2610.21210",
+   "type": "new",
+   "title": "Local modifications in planar hypohamiltonian graphs",
+   "authors": [
+    "Samantha Durias",
+    "Sabrina Guerrero",
+    "Briana Jaiyen",
+    "Daniel Kaplan",
+    "Austin Lapine",
+    "Caleb Peralta",
+    "Akul Shrivastav"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, comments welcome",
+   "abstract": "We prove that for $n \\geq 36$ there exists a planar hypohamiltonian graph of order $n$. As a corollary, we prove that for $n \\geq 33$ there exists an almost hypohamiltonian planar graph of order $n$. Further, we exhibit over 100 planar hypohamiltonian graphs of order less than 40, including new graphs of orders 36, 37, 38, and 39.\nThe proof utilizes three local modifications that alter a graph $G$ by removing a subgraph $H$ and replacing it with $H'$ to form a new graph $G'$: a plus two modification, a plus three modification, and Thomassen's iterable plus four modification. The plus two modification preserves hypohamiltonicity in general, and the plus three modification preserves hypohamiltonicity in our cases of interest. This establishes the main result beginning with Tsai's order 34 examples.\nFurther, we conjecture that among planar hypohamiltonian graphs, Tsai's 34 vertex examples are the smallest order. The conjecture is based on previous results, constraints on the degree modulo 3, and experimentation with planar graphs consisting entirely of 4-gons and 5-gons.",
+   "abs": "https://arxiv.org/abs/2610.21210",
+   "pdf": "https://arxiv.org/pdf/2610.21210"
+  },
+  {
+   "id": "2610.21036",
+   "type": "new",
+   "title": "Linear bounds for rich-neighbor edge-colorings",
+   "authors": [
+    "Jiangxu Kong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An edge in a proper edge-coloring is rich if all edges adjacent to it receive pairwise distinct colors. A rich-neighbor edge-coloring is a proper edge-coloring in which every non-isolated edge is adjacent to a rich edge. The rich-neighbor chromatic index $\\rn(G)$ is the minimum number of colors in such a coloring. We prove that every loopless multigraph $G$ satisfies $\\rn(G)\\le3\\chi'(G)$, where $\\chi'(G)$ is the chromatic index. Exact values are also determined for complete bipartite graphs and complete graphs. For all positive integers $m,n$, $\\rn(K_{m,n})=m+n-1$, except that $\\rn(K_{2,2})=4$. For $n\\ge3$, $\\rn(K_n)=2n-3$, except that $\\rn(K_4)=6$ and $\\rn(K_6)=10$. Moreover, for $n\\ge7$, the rich edges in every optimal rich-neighbor edge-coloring of $K_n$ form a star forest.",
+   "abs": "https://arxiv.org/abs/2610.21036",
+   "pdf": "https://arxiv.org/pdf/2610.21036"
+  },
+  {
+   "id": "2610.21289",
+   "type": "new",
+   "title": "A universal framework for Hopf algebras in combinatorics",
+   "authors": [
+    "Farid Aliniaeifard",
+    "Stephanie van Willigenburg"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A universal framework for Hopf algebras in combinatorics provides a unified understanding of combinatorial objects. To establish such a framework, we dualize the theory of combinatorial Hopf algebras developed by Aguiar, Bergeron, and Sottile, obtaining the category of rooted Hopf algebras. An object in this category is a graded connected Hopf algebra equipped with a group-like element, called a root, in its completion. These roots dualize the character theory of combinatorial Hopf algebras and provide a natural way to extend Bernstein and raising operators to other rooted Hopf algebras. The resulting constructions extend Schur, Hall--Littlewood, and Macdonald functions to rooted Hopf algebras. As an application, we develop these constructions for symmetric functions in noncommuting variables.",
+   "abs": "https://arxiv.org/abs/2610.21289",
+   "pdf": "https://arxiv.org/pdf/2610.21289"
+  },
+  {
+   "id": "2610.20769",
+   "type": "cross",
+   "title": "Eccentricity Shortest Path: the structural parameter landscape",
+   "authors": [
+    "Anand Babu",
+    "Ashwin Jacob",
+    "Hitendra Kumar",
+    "R. B. Sandeep"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "74 pages, short abstract for arXiv",
+   "abstract": "The Eccentricity Shortest Path problem asks, given a connected graph and a nonnegative integer $R$, whether some shortest path is within distance $R$ of every vertex. We study its structural parameterized complexity. We give fixed-parameter algorithms for vertex-deletion distance to cographs, vertex-deletion distance to interval graphs, and bandwidth. The interval-deletion result answers a question of Bhyravarapu et al. (IWOCA 2023). We obtain XP algorithms for vertex-deletion distance to chordal graphs, clique-width, and rank-width, without requiring expressions or decompositions for the latter two. Consequently, the problem is polynomial-time solvable for every fixed treewidth, answering a question of Chakraborty et al. (2026). We also derive fixed-parameter tractability for treedepth and XP membership for diameter from earlier algorithms.\nWe prove $\\mathsf{W}[3]$-hardness for cutwidth, and hence pathwidth and treewidth, even on graphs of maximum degree at most five; $\\mathsf{W}[2]$-hardness for vertex clique-cover number; and NP-hardness on graphs of tree-independence number at most two. For maximum leaf number $\\ell$, we obtain an $O(\\ell^4)$-bit compression and a polynomial kernel. Finally, unless $\\mathsf{NP}\\subseteq\\mathrm{coNP}/\\mathrm{poly}$, we exclude polynomial kernels for bandwidth, feedback edge number, vertex-deletion distance to a clique, and vertex cover number. The last bound also excludes polynomial kernels for vertex-deletion distance to proper interval graphs.",
+   "abs": "https://arxiv.org/abs/2610.20769",
+   "pdf": "https://arxiv.org/pdf/2610.20769"
+  },
+  {
+   "id": "2610.20775",
+   "type": "cross",
+   "title": "The Lovász number is not alone: a continuum of Rényi points in the entanglement-assisted spectrum of graphs",
+   "authors": [
+    "Nidhal Mghirbi",
+    "Seth Douglas"
+   ],
+   "categories": [
+    "quant-ph",
+    "math.CO"
+   ],
+   "primary": "quant-ph",
+   "comments": "35 pages, 5 figures, 1 table. Version 1.2.1 of Zenodo record this https URL code: this https URL",
+   "abstract": "Li and Zuiddam's entanglement-assisted asymptotic spectrum of graphs consists of the normalized graph parameters that are additive under disjoint unions, multiplicative under strong products and monotone under entanglement-assisted cohomomorphisms; the entanglement-assisted Shannon capacity is their pointwise minimum. To our knowledge, the Lovász number $\\vartheta$ was its only known element. We find a continuum of others.\nThree quantities of Duan and Winter, $\\log_2\\vartheta$, the minimal Holevo capacity $C_{\\min}$ and the logarithm of the no-signalling simulation cost $\\Sigma$, are the smallest information radii of classical-quantum channels compatible with a graph, measured with Petz-Rényi divergences of orders $0$, $1$ and $2$. At order zero this is due to Schrijver (as credited by Dalai) and to Duan and Winter; at order one it is the min-max formula for the Holevo capacity. Interpolating in the order gives a family $\\vartheta_\\alpha$, $0\\le\\alpha\\le2$, and we prove that every member lies in the spectrum. The main step, multiplicativity under strong products for channels that need not factor, follows from an exact nesting identity for compressions. Sandwiched Rényi radii of order $\\beta\\in[1/2,\\infty]$ give the same family, at $\\alpha=2-1/\\beta$.\nOn the five-cycle the family takes every value in $[\\sqrt5,5/2]$. A Hilbert-Schmidt inequality for the pentagon gives $C_{\\min}(C_5)=\\log_2(5/2)$, proving a conjecture of Duan and Winter. We also settle the two open links of their inequality chain: the graph-level no-signalling simulation rate always equals its single-letter value $\\log_2\\Sigma(G)$, and a 32-vertex graph from the Mermin-Peres magic square has $C_{\\min}<\\log_2\\Sigma$, certified in exact rational arithmetic. Finally, $\\Sigma$ never exceeds the projective rank of the complement; a rank inequality for the same square makes this strict on a 1440-vertex graph.",
+   "abs": "https://arxiv.org/abs/2610.20775",
+   "pdf": "https://arxiv.org/pdf/2610.20775"
+  },
+  {
+   "id": "2610.21097",
+   "type": "new",
+   "title": "Decomposing multigraphs into two Class I subgraphs with prescribed maximum degrees",
+   "authors": [
+    "Yonglei Chen",
+    "Yan Cao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a finite loopless multigraph with maximum degree $\\Delta$ and $\\chi'(G)=\\Delta+k$, where $k\\ge0$. We prove that for every pair of positive integers $p,q$ satisfying $$p+q=\\Delta+k\\qquad\\text{and}\\qquad p,q\\le\\Delta,$$ the graph $G$ admits an edge decomposition into two spanning Class I subgraphs $H_p,H_q$ with $$\\Delta(H_p)=p \\qquad\\text{and}\\qquad \\Delta(H_q)=q.$$",
+   "abs": "https://arxiv.org/abs/2610.21097",
+   "pdf": "https://arxiv.org/pdf/2610.21097"
+  },
+  {
+   "id": "2610.22135",
+   "type": "new",
+   "title": "Unavoidable flats in GF(q)-representable matroids",
+   "authors": [
+    "Jim Geelen",
+    "Matthew E. Kroeker",
+    "Peter Nelson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "We show that, for any finite field $\\mathbb{F}$ and positive integer $k$, a simple $\\mathbb{F}$-representable matroid $M$ with sufficiently high rank contains a rank-$k$ flat which is either independent in $M$, or is a projective or affine geometry over a subfield of $\\mathbb{F}$. This generalizes a result for matroids representable over prime fields due to the first two authors. As a corollary, we obtain a Ramsey theorem for matroids representable over a finite field $\\mathbb{F}$. For an integer $k$, in any $2$-colouring of the points of an $\\mathbb{F}$-representable matroid of sufficiently high rank, there is a monochromatic rank-$k$ flat.",
+   "abs": "https://arxiv.org/abs/2610.22135",
+   "pdf": "https://arxiv.org/pdf/2610.22135"
+  },
+  {
+   "id": "2610.22218",
+   "type": "new",
+   "title": "Logical isomorphism and logical limit laws for small permutation classes and regular languages",
+   "authors": [
+    "Klas Marström",
+    "Eero Räty"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this paper we show that for each small permutation class $\\mathcal{F}$ there exists a regular language $L_\\mathcal{F}$ such that the monadic second-order TOTO logic on $\\mathcal{F}$ is isomorphic to classical monadic second-order logic on $L_\\mathcal{F}$.\nThanks to the fact that regular languages are closed under monadic second-order restrictions this shows that many subsets of $\\mathcal{F}$ have a well-behaved structure. In particular, this allows us to show that random permutations from any small permutation class satisfies convergence laws for both first-order logic and monadic second-order logic. In the latter case, the law is modular.\nOur proofs introduce a way of using the automaton description of regular languages to prove properties of generating functions which may be of independent interest. Potential applications include first-order limit laws for random words in some regular languages.",
+   "abs": "https://arxiv.org/abs/2610.22218",
+   "pdf": "https://arxiv.org/pdf/2610.22218"
+  },
+  {
+   "id": "2610.22021",
+   "type": "new",
+   "title": "The asymptotic Erd{ő}s--Frankl--Füredi cover-free conjecture",
+   "authors": [
+    "Xinqi Huang",
+    "Hong Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In 1985, Erd{ő}s, Frankl and F{ü}redi conjectured that the threshold $T(r)$ for the existence of an $r$-cover-free family with more members than points satisfies $T(r)=(1+o(1))r^2$. We confirm this conjecture by proving $T(r)\\ge r^2+r+2$ for every $r\\ge1$.",
+   "abs": "https://arxiv.org/abs/2610.22021",
+   "pdf": "https://arxiv.org/pdf/2610.22021"
+  },
+  {
+   "id": "2610.20649",
+   "type": "new",
+   "title": "Cotangent cohomology and higher-order obstructions of matroids",
+   "authors": [
+    "Qihang Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC"
+   ],
+   "primary": "math.CO",
+   "comments": "56 pages. Supplementary verification code and finite certificates included. An earlier version (Zenodo v3) was published on 23 September 2026: this https URL . This version adds higher-order obstruction results",
+   "abstract": "We show that matroid Stanley-Reisner rings can have essential deformation obstructions of arbitrarily high order over every field, even at corank three. For every $m\\ge3$, we construct a connected cosimple matroid with $m$ fine-homogeneous first-order deformation classes whose proper subcollections integrate jointly and whose pairwise primary cup products vanish. These classes define a joint flat family whose $(m-1)$-jet has no lift to order $m$, even without preserving the grading. For the duals of rank-three truncations of $U_{2,m}\\oplus U_{2,n}$, $m,n\\ge3$, every nonzero homogeneous class modulo the primary cup image is realized as a higher-order obstruction, and this quotient has an explicit module presentation with $m+n-2$ minimal homogeneous generators. The construction is based on a computation of the full multigraded second cotangent cohomology $T^2$ and its primary cup image in terms of flats and parallel classes of the dual matroid. This computation also proves that $T^2$ vanishes precisely when every connected component has corank at most two, equivalently when the matroid has no $U_{1,4}$-minor, settling the conjecture of Constantinescu, Klein, Nguyen, Singh, and Venturello. The same criterion characterizes formal smoothness of the affine deformation functor.",
+   "abs": "https://arxiv.org/abs/2610.20649",
+   "pdf": "https://arxiv.org/pdf/2610.20649"
+  },
+  {
+   "id": "2610.21921",
+   "type": "new",
+   "title": "On a conjecture of King-Tollu-Toumazet for rectangular Kostka coefficients",
+   "authors": [
+    "Deepanshu Prasad"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A conjecture of King, Tollu and Toumazet predicts the behavior of small Littlewood--Richardson coefficients under stretching: if $c^{\\nu}_{\\lambda,\\mu}=3$, then $c^{M\\nu}_{M\\lambda,M\\mu}$ equals $2M+1$ or $\\binom{M+2}{2}$ for every positive integers $M$. This corresponds to the Hilbert functions of a conic, or of the projective plane. We prove their conjecture for all rectangular Kostka coefficients $K_{\\lambda,\\mathbf{a}}$. We realize them as the weight multiplicities of the homogeneous coordinate ring of the Grassmannian $\\mathrm{Gr}(k,n)$, or equivalently the weight spaces of semi-invariants of the $n$-subspace quiver with dimension vector $\\beta=(k,1,1,\\dotsc,1)$. For a weight $\\sigma$, we show that if $\\beta$ is $\\sigma$-stable, then the dimension of the corresponding weight space is at least $n-2$ when $k=2$ and at least $4$ for every Grassmannian other than $\\mathrm{Gr}(2,4)$, $\\mathrm{Gr}(2,5)$ and $\\mathrm{Gr}(3,5)$. These three cases are precisely when the associated moduli space of $\\sigma$-stable representations has dimension at most two. Via $\\sigma$-stable decomposition, the two alternatives are determined as follows: $2M+1$ for $\\mathrm{Gr}(2,4)$, and $\\binom{M+2}{2}$ for $\\mathrm{Gr}(2,5)$ and $\\mathrm{Gr}(3,5)$.",
+   "abs": "https://arxiv.org/abs/2610.21921",
+   "pdf": "https://arxiv.org/pdf/2610.21921"
+  },
+  {
+   "id": "2610.22058",
+   "type": "new",
+   "title": "Multivariate $P$- and $Q$-polynomial structures of generalized Johnson association schemes",
+   "authors": [
+    "Hirotake Kurihara"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages",
+   "abstract": "Let $\\mathfrak X$ be a commutative association scheme of class $d$ on $X$. We construct the generalized Johnson association scheme $\\mathfrak J_{n,h}(\\mathfrak X)$ on partial maps from $[n]$ to $X$ with domains of size $h$. For $1\\le h\\le n-1$, we prove that $\\mathfrak J_{n,h}(\\mathfrak X)$ has $(d+1)$-variate $P$- and $Q$-polynomial structures. In particular, its multivariate $Q$-polynomial property answers affirmatively a problem posed for generalized Johnson association schemes arising from finite Gelfand pairs. We also determine the primitive idempotents and the two eigenmatrices, expressing the first eigenmatrix as a product of an Eberlein polynomial and a multivariate Krawtchouk polynomial, and the second eigenmatrix as a product of a Hahn polynomial and a multivariate Krawtchouk polynomial. For the multivariate factors, we use Mizukawa--Tanaka $(d+1,2d+2)$-hypergeometric functions. In an appendix, we identify the normalized columns of the second eigenmatrix with the known spherical functions in the finite Gelfand pair case. We also discuss the orthogonality relations and the imprimitivity arising from partial maps with the same domain, and explicitly describe the multivariate $P$- and $Q$-polynomial structures inherited by the blocks and the quotient.",
+   "abs": "https://arxiv.org/abs/2610.22058",
+   "pdf": "https://arxiv.org/pdf/2610.22058"
+  },
+  {
+   "id": "2610.21415",
+   "type": "new",
+   "title": "Ordinary lines, point degrees, and matroid density",
+   "authors": [
+    "Matthew E. Kroeker",
+    "Ben Lund"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "For every set of $n$ points in $\\mathbb{C}^d$ with full affine span, we prove that some point lies on at least $n+1-2n/(d+1)$ spanned lines, which is best possible in every dimension. By successive contraction, this implies the sharp bound $r+(\\ell-3)\\binom r2$ on the number of elements of a simple rank-$r$ complex-representable matroid excluding $U_{2,\\ell}$ as a minor, which removes the sufficiently-large-rank assumption from the bound of Geelen, Nelson, and Walsh. An arithmetic application shows that rank-$r$ integer matrices whose maximal minors have absolute value at most $\\Delta$ have at most $O(\\Delta r^2)$ distinct columns, resolving a question of Averkov and Schymura.\nWe prove that a set of $n$ points in $\\mathbb{C}^3$ determines at least $n^2/40$ ordinary lines whenever no plane contains more than $2n/3$ of the points. This answers a question of Basit, Dvir, Saraf, and Wolf. We also prove upper bounds on average line length and lower bounds on the number of points incident to many spanned lines in high-dimensional point sets.\nThe proofs combine contraction of concentrated flats with normalization of the point vectors and second- and fourth-moment estimates on their pairwise correlations. This approach builds on the design matrix method.",
+   "abs": "https://arxiv.org/abs/2610.21415",
+   "pdf": "https://arxiv.org/pdf/2610.21415"
+  },
+  {
+   "id": "2610.21263",
+   "type": "new",
+   "title": "The Rate of the Delsarte Bound for Binary Codes and Spheres",
+   "authors": [
+    "Andrew Salmon"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages, comments welcome",
+   "abstract": "We give the asymptotic rate of Delsarte's linear programming bound for binary codes and spherical codes. This extends previous work of the author which formulated and proved an analogue of the conjecture of Afkhami-Jeddi, Cohn, Hartman, de Laat, and Tajdini for binary codes, obtaining the rate of the Delsarte linear program at distance $1/2-1/\\pi$.\nThe lower bounds introduce ideas from potential theory into the study of Delsarte's bounds, whereby the measures underlying a system of orthogonal polynomials give an obstacle problem. We solve the resulting obstacle problem in the case of binary codes and spherical codes, obtaining a closed form for the lower bound in terms of elliptic integrals. For the upper bounds, we relate the $N$-qubit construction for binary codes used in previous work of the author to the constructions in OpenAI's Chapter 2 for spherical codes and observe that they both involve interlacing spectra. This leads to a variational problem involving measures constructed from these spectra under the Markov-Krein correspondence. This variational problem admits an exact solution and matches the lower bound.",
+   "abs": "https://arxiv.org/abs/2610.21263",
+   "pdf": "https://arxiv.org/pdf/2610.21263"
+  },
+  {
+   "id": "2610.20648",
+   "type": "new",
+   "title": "Connectivity and Diameter of Friends and Strangers Graphs Using Minimum Degree",
+   "authors": [
+    "Kai Mawhinney"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "54 pages, 36 figures",
+   "abstract": "Given graphs $X,Y$ on $n$ vertices, Defant and Kravitz defined the friends and strangers graph, denoted $\\mathrm{FS}(X,Y)$. The vertices of $\\mathrm{FS}(X,Y)$ are bijections $\\sigma:V(X)\\to V(Y)$, and two bijections $\\sigma$ and $\\sigma'$ are adjacent in $\\mathrm{FS}(X,Y)$ if they differ by a transposition $(ab)$ such that $a$ and $b$ are adjacent in $X$ and $\\sigma(a)$ and $\\sigma(b)$ are adjacent in $Y$. Our main result resolves a conjecture of Bangachev that if $X,Y$ are connected graphs and $2\\min\\{\\delta(X),\\delta(Y)\\}+3\\max\\{\\delta(X),\\delta(Y)\\}\\ge 3n$, then $\\mathrm{FS}(X,Y)$ is connected. The main step in the proof is showing that there exists an absolute constant $C$ such that for any adjacent vertices $a,b\\in V(X)$ and any vertex $\\sigma\\in V(\\mathrm{FS}(X,Y))$, $a$ and $b$ can swap positions in at most $C$ moves. Furthermore, we prove that if $X,Y$ are connected graphs satisfying the above minimum degree condition, then the diameter of $\\mathrm{FS}(X,Y)$ is $O(n^2/\\min\\{\\delta(X),\\delta(Y)\\})$, and that this is sharp as a bound on the maximum diameter of $\\mathrm{FS}(X,Y)$ in this regime. This work improves the diameter results of Akella and Li, and resolves many of their questions. Moreover, we show that even for disconnected graphs $X$ and $Y$, the same minimum degree condition implies that the diameter of any connected component of $\\mathrm{FS}(X,Y)$ is $O(n^2)$.",
+   "abs": "https://arxiv.org/abs/2610.20648",
+   "pdf": "https://arxiv.org/pdf/2610.20648"
+  },
+  {
+   "id": "2610.21381",
+   "type": "new",
+   "title": "Optimally large cuts in both directions",
+   "authors": [
+    "Frederic Folz",
+    "Mykhaylo Tyomkyn"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that for every integer $d\\ge2$ and all sufficiently large $m$, every digraph with $m$ edges and minimum outdegree at least $d$ has a vertex bipartition for which each directed cut is of size at least \\[\\left\\lceil\\frac{d-1}{2(2d-1)}m+\\frac{d^2}{2(2d-1)}\\right\\rceil.\\] The bound is sharp for infinitely many $m$. This answers for large graphs a question of Scott and proves a conjecture of Lee, Loh, and Sudakov. For $d=2$ we prove that $\\lceil m/6\\rceil$ is achievable for all $m$. We also establish a stability result characterizing near-extremal graphs.",
+   "abs": "https://arxiv.org/abs/2610.21381",
+   "pdf": "https://arxiv.org/pdf/2610.21381"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 41,
+ "listed_cross": 16
+}
