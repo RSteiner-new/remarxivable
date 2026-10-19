@@ -1,8 +1,16 @@
 {
  "site": "remarxivable",
  "category": "math.CO",
- "updated_at": "2026-10-16T03:02:19Z",
+ "updated_at": "2026-10-19T03:00:24Z",
  "days": [
+  {
+   "date": "2026-10-19",
+   "screened": 51,
+   "shown": 30,
+   "surveys": 1,
+   "status": "final",
+   "generated_at": "2026-10-19T03:00:24Z"
+  },
   {
    "date": "2026-10-16",
    "screened": 57,
