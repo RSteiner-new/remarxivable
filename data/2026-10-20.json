@@ -1,0 +1,565 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-20T03:06:29Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-20",
+ "screened": 101,
+ "screened_new": 72,
+ "screened_cross": 29,
+ "scored": 101,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.25902",
+   "type": "new",
+   "title": "Exact extremizers for $\\ell_p$-judicious bisections of triangle-free graphs",
+   "authors": [
+    "Shufei Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Balogh, Clemen and Lidický asked how large the minimum $\\ell_p$-norm of the internal-edge counts over balanced partitions of an $n$-vertex triangle-free graph can be. For each fixed $2<p<\\infty$ and all sufficiently large even $n$, we determine this value exactly for bisections and characterize all extremal graphs. They are precisely the complete bipartite graphs $K_{a,n-a}$ for which $a\\le n/2$ maximizes an explicit integer objective. All maximizing values of $a$ lie in an interval of length bounded in terms of $p$ alone. We also prove quantitative stability for the same range of $p$ and $n$: for sufficiently small $\\delta\\ge 0$, every $n$-vertex triangle-free graph with bisection value at least the asymptotic optimum minus $\\delta n^2$ is within $O_p(\\delta n^2+n)$ edge edits of a complete bipartite graph with the optimal limiting class ratio.",
+   "abs": "https://arxiv.org/abs/2610.25902",
+   "pdf": "https://arxiv.org/pdf/2610.25902"
+  },
+  {
+   "id": "2610.26294",
+   "type": "new",
+   "title": "Flip classes and elementary expansions of vertical-strip LLT polynomials",
+   "authors": [
+    "Per Alexandersson",
+    "Lilan Dai"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "After the substitution $q\\mapsto q+1$, vertical-strip LLT polynomials are weighted sums of strict $P$-partition generating functions indexed by orientations of decorated unit-interval graphs, with weight $q^{\\mathrm{asc}(\\theta)}$. A flip moves an ascending edge across a triangle while keeping its long edge. We show that the sum over every flip class is elementary-positive: it equals the sum of the elementary symmetric functions given by the highest reachable vertices of its orientations. This answers Hwang's question on the Schur positivity of LLT flip-class sums, and it holds for circular unit-interval graphs as well. Summing over classes gives a new proof of the elementary expansion of Alexandersson and Sulzgruber, and its circular analog, which was open. We also obtain a flip-class refinement of the elementary expansion of LLT cumulants.",
+   "abs": "https://arxiv.org/abs/2610.26294",
+   "pdf": "https://arxiv.org/pdf/2610.26294"
+  },
+  {
+   "id": "2610.25956",
+   "type": "new",
+   "title": "Turán coefficients of signed graphs",
+   "authors": [
+    "Junjie Wang",
+    "Yaoping Hou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We use spectral methods to determine Turán coefficients of signed graphs under containment that preserves negative edges and allows positive edges to be realized by either sign. For a fixed forbidden signed graph $\\sF$ with at least one edge, the coefficient $\\tht(\\sF)$ is the supremum of the weights $\\rho\\ge1$ for which every $\\sF$-free signed graph $\\sG$ of order $n$ satisfies $e^+(\\sG)+\\rho e^-(\\sG)\\le\\binom n2+o(n^2)$. We prove a variational characterization of the weighted extremal density and show that $\\tht(\\sF)=1+1/L(\\sF)$, where $L(\\sF)$ is the supremum of the adjacency spectral radii of $\\sF$-admissible graphs. The coefficient is infinite exactly when the underlying graph $F$ is bipartite, and equals one exactly when $F$ has no independent set meeting every negative edge. When $\\chi(F)=3$, the possible coefficients are exactly $1$, $3/2$, $1+1/\\sqrt3$, $(1+\\sqrt5)/2$, $1+1/\\sqrt2$, and $2$, each of which is realized by a signed graph. In this case, if $\\tht(\\sF)>1$, then $L(\\sF)$ is attained by an admissible graph on at most five vertices, and the order bound is sharp. More generally, when some path is inadmissible, we obtain explicit order bounds for connected admissible graphs with bounded maximum degree. We also derive restrictions on the algebraic degree and rational values of $\\tht(\\sF)$.",
+   "abs": "https://arxiv.org/abs/2610.25956",
+   "pdf": "https://arxiv.org/pdf/2610.25956"
+  },
+  {
+   "id": "2610.24842",
+   "type": "new",
+   "title": "The big cactus group, invariant tensors, and rectangular tableaux",
+   "authors": [
+    "Gabriel Frieden",
+    "Pavlo Pylyavskyy",
+    "Leonid Rybnikov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "38 pages, 4 figures",
+   "abstract": "The cactus group acts on tensor products of crystals and, through Bender--Knuth involutions, on semistandard Young tableaux. We show that the big cactus group $J'_n=\\pi_1^{\\mathfrak S_n}(\\overline M_{0,n}(\\mathbb R))$, $n\\ge3$, is obtained from the cactus group by imposing $n-1$ Dynkin-reversal relations, which say that conjugation by the full reversal acts on the Bender--Knuth generators by the Dynkin diagram automorphism; the quotient map is induced by forgetting the distinguished marked point. We give a second presentation, in which these relations are replaced by the requirement that every reduced word for the longest element of $\\mathfrak S_n$ adapted to an orientation of $A_{n-1}$ represents the full reversal. These relations also hold on rectangular tableaux, where every adapted reduced word therefore acts as evacuation, and on invariant tensors: for finite normal crystals of any complex semisimple Lie algebra, the cactus action on invariants factors through $J'_n$. We prove the latter combinatorially in type $A$ and in general via Gaudin eigenline coverings. Haiman's promotion relation follows from a single adapted-word relation, but for $n\\ge4$ it is strictly weaker than the whole family.",
+   "abs": "https://arxiv.org/abs/2610.24842",
+   "pdf": "https://arxiv.org/pdf/2610.24842"
+  },
+  {
+   "id": "2610.26615",
+   "type": "new",
+   "title": "Bootstrap percolation on the hypercube",
+   "authors": [
+    "Fengxing Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "This paper and V5 of arXiv:2503.12607[math.CO] supersede V1-V4 of arXiv:2503.12607[math.CO] as the results have been significantly improved and a main mistake has been fixed",
+   "abstract": "In this paper we obtain the critical probability $p_c(Q_{n},r)$ for bootstrap percolation with the infection threshold $r=f(n)n^a$ on the $n$-dimensional hypercube $Q_{n}$, where $0<a<1$ and $f(n)=n^{o(1)}$. More precisely, we obtain the exact first-order and second-order terms of $p_c(Q_{n},r)$ by extending the main theorem of Balogh, Bollob{á}s, and Morris (2009).",
+   "abs": "https://arxiv.org/abs/2610.26615",
+   "pdf": "https://arxiv.org/pdf/2610.26615"
+  },
+  {
+   "id": "2610.23989",
+   "type": "new",
+   "title": "Planar Disk Filters and Real Chromatic Roots at Beraha Numbers",
+   "authors": [
+    "Reza Mactabi"
+   ],
+   "categories": [
+    "math.CO",
+    "math-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "34 pages, 4 figures. Reproduction package (exact-certificate and audit scripts, run logs, SHA-256 manifest) included as ancillary files and archived at Zenodo, doi:https://doi.org/10.5281/zenodo.23371280",
+   "abstract": "We construct simple plane triangulations whose chromatic polynomials have real roots accumulating at every noninteger Beraha number $B_\\ell=4\\cos^2(\\pi/\\ell)$; the integer values $0,1,2,3$ are roots of $K_4$. The construction rests on the observation that a triangulated disk with four boundary vertices acts, inside a larger triangulation, as a transfer operator lying in a commutative three-parameter algebra. Rotating such disks by a quarter turn and composing them in series moves their eigenvalue triples around this algebra in a controllable way, and for every fixed $q\\in(B_{10},4)$ one can manufacture a finite disk whose two competing local eigenvalues are strictly dominated by the third -- a physical filter. Closing a grid of such disks between two poles produces a sphere triangulation, and a fused Temperley-Lieb trace identity accounts for its chromatic polynomial completely, sector by sector, with no appeal to semisimplicity at the root of unity itself -- generic semisimplicity enters only through polynomial identities continued from $\\delta>2$ -- and no singular higher Jones-Wenzl projectors. In the one-cap sector a Krein-type argument shows that every sweep word has exactly one expanding eigenvalue; Gram-form inertia controls every other sector uniformly in the width. At odd Beraha indices the trace coefficient of the expanding eigenvalue vanishes; at even indices two copies of that eigenvalue cancel between adjacent sectors, and a short real-variable lemma converts either situation into genuine real roots converging to the target. Indices below eleven are treated by elementary families, exact outward-rounded integer certificates, and one explicit disk at $B_{10}$ combined with Tutte's golden identity. All graphs are ordinary, simple, unweighted plane triangulations.",
+   "abs": "https://arxiv.org/abs/2610.23989",
+   "pdf": "https://arxiv.org/pdf/2610.23989"
+  },
+  {
+   "id": "2610.25227",
+   "type": "new",
+   "title": "An inclusion coupling of prefix laws and the Chan-Pak rank inequality for all finite posets",
+   "authors": [
+    "Jukka Tapio Virtanen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $P$ be a finite poset, let $x\\in P$, and let $N_k$ count its linear extensions in which $x$ occupies position $k$. We prove Chan and Pak's conjecture that, for all integers $a,h\\ge1$, \\[ (a+h-1)N_{a+h-1}N_a\\ \\ge\\ (a-1)N_{a-1}N_{a+h}+hN_aN_{a+h}. \\] The key result is an inclusion coupling of the laws of the set of elements preceding $x$, conditional on consecutive positions of $x$. We construct reversible exchange chains on the corresponding layers of order ideals and couple their generators so that the two prefix sets remain nested. Fishburn's correlation inequality gives monotonicity of endpoint probabilities; their unit total masses provide the rate bounds needed for the coupling. A stationary distribution of the coupled chain then has the required marginals. Normalized cover observables yield a four-term nonnegative certificate for the case $h=1$, and the general case follows by telescoping. The argument applies at every width and gives a proof of Stanley's log-concavity inequality with Fishburn's inequality as its sole external inequality.",
+   "abs": "https://arxiv.org/abs/2610.25227",
+   "pdf": "https://arxiv.org/pdf/2610.25227"
+  },
+  {
+   "id": "2610.25951",
+   "type": "new",
+   "title": "The existence of symmetric cyclic Steiner quadruple systems",
+   "authors": [
+    "Hengrui Liu",
+    "Tao Feng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "33 pages",
+   "abstract": "A Steiner quadruple system of order $v$, denoted by $\\operatorname{SQS}(v)$, is called cyclic if it admits $\\mathbb Z_v$ as a group of automorphisms acting regularly on its point set. A cyclic system is called symmetric cyclic, or S-cyclic, if the multiplier $-1$ preserves each block orbit individually. Grannell and Griggs conjectured in 1983 that such a system of order $v$ exists if and only if $v\\equiv2,4,10,20\\pmod{24}$ and every odd prime divisor $p$ of $v$ satisfies $p\\equiv1$ or $5\\pmod{12}$. This paper proves the conjecture. The main step is to construct an $S$-cyclic Steiner quadruple system of order $2p$ for every prime $p\\equiv1\\pmod4$. Together with existing reduction theorems, these constructions determine which finite abelian groups admit a symmetric group-invariant Steiner quadruple system.",
+   "abs": "https://arxiv.org/abs/2610.25951",
+   "pdf": "https://arxiv.org/pdf/2610.25951"
+  },
+  {
+   "id": "2610.25204",
+   "type": "new",
+   "title": "Crossing numbers of complete bipartite graphs",
+   "authors": [
+    "József Balogh",
+    "Nicholas Layman",
+    "Bernard Lidický",
+    "Florian Pfender",
+    "Gelasio Salazar",
+    "Sam Spiro",
+    "Jan Volec"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 5 figures",
+   "abstract": "Zarankiewicz's long standing conjecture states that the crossing number $cr(K_{m,n})$ of the complete bipartite graph is \\[ Z(m,n):=\\bigg\\lfloor{\\frac{m}{2}}\\bigg\\rfloor \\bigg\\lfloor{\\frac{m-1}{2}}\\bigg\\rfloor \\bigg\\lfloor{\\frac{n}{2}}\\bigg\\rfloor \\bigg\\lfloor{\\frac{n-1}{2}}\\bigg\\rfloor. \\] Using flag algebras, we show that $cr(K_{n,n}) \\geq 0.96936 \\cdot Z(n,n) + o(n^4)$. We also show that the rectilinear crossing number $\\overline{cr}(K_{n,n})$ of $K_{n,n}$ is at least $0.987\\cdot Z(n,n) + o(n^4)$. Additionally, we prove the following for complete bipartite graphs: if a drawing of $K_{n,n}$ contains no induced subdrawing of $K_{3,4}$ with exactly two crossings whose endpoints intersect in exactly one vertex, then it has at least $Z(n,n)+o(n^4)$ crossings. This is a local restriction inspired by Turán-type problems that gives an asymptotically tight result.\nA closely related conjecture is Hill's conjecture stating that the crossing number $cr(K_{n})$ of the complete graph $K_n$ is \\[ H(n):= \\frac14 \\left\\lfloor \\frac{n}{2} \\right\\rfloor \\left\\lfloor \\frac{n-1}{2} \\right\\rfloor \\left\\lfloor \\frac{n-2}{2} \\right\\rfloor \\left\\lfloor \\frac{n-3}{2} \\right\\rfloor \\] for all $n \\geq 3$. By an averaging argument, the asymptotic Zarankiewicz conjecture implies the asymptotic Hill conjecture. We improve the lower bound on $cr(K_{n})$ from $(0.985+o(1)) H(n)$ to $(0.9899+o(1)) H(n)$.\nBoth conjectures were claimed to be true in manuscripts by OpenAI dated Sep 23, 2026 and made public on Oct 6, 2026. This paper represents the state of knowledge before those publications and shows how far we can push the flag algebra method.",
+   "abs": "https://arxiv.org/abs/2610.25204",
+   "pdf": "https://arxiv.org/pdf/2610.25204"
+  },
+  {
+   "id": "2610.26300",
+   "type": "cross",
+   "title": "The rank of the random $k$-XORSAT matrix beyond satisfiability",
+   "authors": [
+    "Amin Coja-Oghlan",
+    "Maurice Rolvien"
+   ],
+   "categories": [
+    "math.PR",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "The random $k$-XORSAT matrix is an $m\\times n$ random matrix $\\mathbf A$ over $\\mathbb F_2$ that represents a random instance of the $k$-XORSAT problem. Each row of $\\mathbf A$ contains precisely $k\\geq3$ non-zero entries in random positions. The rows are drawn independently. The matrix $\\mathbf A$ is known to have full row rank for $m/n$ below the random $k$-XORSAT satisfiability threshold, which is known explicitly [Dubois, Mandler~2002; Pittel, Sorkin~2016]. Motivated by a problem from quantum game theory and refining a result of Cooper, Frieze and Pegden (2019), we determine the limiting distribution of the rank of $\\mathbf A$ beyond the satisfiability threshold.",
+   "abs": "https://arxiv.org/abs/2610.26300",
+   "pdf": "https://arxiv.org/pdf/2610.26300"
+  },
+  {
+   "id": "2610.26122",
+   "type": "new",
+   "title": "The Erdős--Ginzburg--Ziv theorem for finite groups",
+   "authors": [
+    "Yongke Qu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a finite group, and let $p$ be the smallest prime divisor of $|G|$. The Gao constant $\\mathsf{E}(G)$ is the least integer $\\ell$ such that every sequence over $G$ of length $\\ell$ contains a subsequence of length $|G|$ whose terms can be ordered to have product equal to the identity. In 1961, Erdős, Ginzburg and Ziv proved that every sequence of $2n-1$ integers has an $n$-term subsequence whose sum is divisible by $n$; equivalently, $\\mathsf{E}(C_n)\\leq 2n-1$, where $C_n$ denotes the cyclic group of order $n$. In this paper, we prove that $\\mathsf{E}(G)\\leq |G|+|G|/p-1$ whenever $G$ contains no cyclic subgroup of index $p$. Consequently, every finite non-cyclic group satisfies $\\mathsf{E}(G)\\leq |G|+|G|/p+p-2$, with equality if and only if $G$ contains a cyclic subgroup of index $p$. This establishes the conjectured upper bound for the Gao constant and provides a complete characterization of the equality case.",
+   "abs": "https://arxiv.org/abs/2610.26122",
+   "pdf": "https://arxiv.org/pdf/2610.26122"
+  },
+  {
+   "id": "2610.26579",
+   "type": "new",
+   "title": "Asymptotic Enumeration of $F$-decompositions in Typical Hypergraphs and of Universal Cycles",
+   "authors": [
+    "Danni Li",
+    "Bin Wang",
+    "Junxue Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this paper, we determine the asymptotic number of $F$-decompositions in typical hypergraphs. More precisely, let $F$ be a non-trivial $f$-vertex $k$-graph. We show that, for all sufficiently large $n$, every $n$-vertex $F$-divisible $(n^{-\\zeta},h,p)$-typical $k$-graph $G$ has $n^{\\frac{f-k+o_n(1)}{|F|}|G|}$ $F$-decompositions.\nAs an application, we asymptotically enumerate universal cycles for $k$-subsets of $[n]$, or equivalently, tight Euler tours of the complete $k$-graph $K_n^k$. For every $k\\ge2$ and all sufficiently large $n$ satisfying $k\\mid {n-1 \\choose k-1}$, the number of such universal cycles is $n^{(1-\\gamma(n)){n \\choose k}}$, where $0<\\gamma(n)=o_n(1)$. More generally, for $\\ell\\in[k-1]$, we show that a sufficiently typical $n$-vertex $k$-graph $G$ satisfying the corresponding divisibility condition has $n^{(k-\\ell-\\gamma'(n))|G|}$ Euler $\\ell$-tours, where $0<\\gamma'(n)=o_n(1)$.",
+   "abs": "https://arxiv.org/abs/2610.26579",
+   "pdf": "https://arxiv.org/pdf/2610.26579"
+  },
+  {
+   "id": "2610.25271",
+   "type": "new",
+   "title": "Inverse Zero-Sum Problems: The Property C and Property D Conjectures",
+   "authors": [
+    "Guoqing Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $C_n^r$ denote the direct sum of $r$ cyclic groups of order $n$, where $n\\ge2$ and $r\\ge1$. Properties C and D predict a uniform multiplicity structure for extremal zero-sum problems over $C_n^r$: every sequence of maximum length avoiding nonempty zero-sum subsequences of length at most $n$, or of length exactly $n$, respectively, should have the form $T^{n-1}$. We give negative answers to the general Property C problem posed by Gao, Hou, Schmid and Thangadurai \\cite[Open Problems 1.2]{GHST07} in 2007, and disprove the Property D conjecture proposed by Gao and Geroldinger \\cite[Conjecture 7.2]{GG06} in 2006.",
+   "abs": "https://arxiv.org/abs/2610.25271",
+   "pdf": "https://arxiv.org/pdf/2610.25271"
+  },
+  {
+   "id": "2610.25324",
+   "type": "new",
+   "title": "The Bellaterra graphs are Ramanujan",
+   "authors": [
+    "Olga Kharlampovich",
+    "Alina Vdovina"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Bellaterra automaton gives three involutions of every set of binary words of a fixed length. We identify their Schreier graph at level $n$ with a cubic arithmetic graph over $\\Q(\\sqrt{17})$, and prove that every nonconstant adjacency eigenvalue satisfies the Ramanujan bound. In particular, this proves Malyshev-Pak's Conjecture\nthat the Bellaterra graphs form a family of two-sided expanders.",
+   "abs": "https://arxiv.org/abs/2610.25324",
+   "pdf": "https://arxiv.org/pdf/2610.25324"
+  },
+  {
+   "id": "2610.25049",
+   "type": "new",
+   "title": "Proving the optimality of the product construction for the intersection--union problem",
+   "authors": [
+    "Fan Chang",
+    "Peter Frankl",
+    "Jian Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "44 pages",
+   "abstract": "Let $m(n,p,q)$ be the largest size of a family of subsets of $[n]$ whose members pairwise intersect in at least $p$ vertices and omit at least $q$ common vertices. We prove that a product on disjoint sets attains this maximum whenever $p,q\\ge2$ and $n\\ge2^{15}(p+q-2)^3$. Together with the second author's result for $p=1$ or $q=1$, this establishes Frankl's Intersection--Union Product Conjecture in a wide range.",
+   "abs": "https://arxiv.org/abs/2610.25049",
+   "pdf": "https://arxiv.org/pdf/2610.25049"
+  },
+  {
+   "id": "2610.24774",
+   "type": "new",
+   "title": "On dimension of posets excluding a standard example",
+   "authors": [
+    "Jędrzej Hodor",
+    "Piotr Micek",
+    "William T. Trotter"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "We prove that for every integer $d \\geq 3$, there exists $\\alpha <1$ such that the maximum dimension of an $n$-element poset containing no standard example of order $d$ as an induced subposet is $\\mathcal{O}_d(n^\\alpha)$. For $d=3$, we obtain an upper bound $\\mathcal{O}(n^{2/3}\\log n)$, while we also construct a family of $S_3$-free posets with dimension $\\Omega(n^{1/3}/\\log n)$. The proofs were found by OpenAI's ChatGPT-6 Astra.",
+   "abs": "https://arxiv.org/abs/2610.24774",
+   "pdf": "https://arxiv.org/pdf/2610.24774"
+  },
+  {
+   "id": "2610.24695",
+   "type": "new",
+   "title": "On Non-Uniform Baranyai Factorizations",
+   "authors": [
+    "Guorong Gao",
+    "Mingze Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a fixed nonempty finite set $L$ of positive integers and $k=\\max L\\ge2$, let $\\binom{[n]}{L}=\\bigcup_{\\ell\\in L}\\binom{[n]}{\\ell}$ denote the non-uniform hypergraph whose edge set consists of all $\\ell$-subsets of $[n]$ for $\\ell\\in L$. A $1$-factor of a hypergraph $H$ is a collection of pairwise disjoint edges whose union is $V(H)$. We say $H$ is $1$-factorable if $E(H)$ can be partitioned into $1$-factors. In this paper, we study the 1-factorability of $\\binom{[n]}{L}$. Earlier work of He, Huang, and Ma shows that, for all sufficiently large $n$, $1$-factorability can occur only in the residue classes $0$ and $-1$ modulo $k$: it always occurs in class $0$, whereas it occurs in class $-1$ only if $k-1\\in L$. We determine exactly when $1$-factorability occurs in this exceptional class. More precisely, we define a finite gcd-peeling algorithm on $L\\setminus\\{k-1,k\\}$ and prove that $\\binom{[qk-1]}{L}$ is $1$-factorable if and only if the algorithm accepts. As a consequence, our result provides a criterion for the $1$-factorability of $\\binom{[n]}{L}$ and confirms the conjecture posed by He, Huang, and Ma.",
+   "abs": "https://arxiv.org/abs/2610.24695",
+   "pdf": "https://arxiv.org/pdf/2610.24695"
+  },
+  {
+   "id": "2610.24442",
+   "type": "new",
+   "title": "A proof of the strong Erdős--Frankl--Füredi cover-free conjecture",
+   "authors": [
+    "Yanan Hu",
+    "Leilei Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages. Comments are welcome!",
+   "abstract": "A family of nonempty sets is $r$-cover-free if no member is contained in the union of at most $r$ other members. Let $T(r)$ denote the least $n$ for which there is an $r$-cover-free family on $n$ points with more than $n$ members. In this paper, we prove that $T(r)\\ge(r+1)^2$ for every integer $r\\ge1$, confirming the strong form of the Erdős--Frankl--Füredi cover-free conjecture. In particular, $T(r)=(r+1)^2$ whenever $r+1$ is a prime power.",
+   "abs": "https://arxiv.org/abs/2610.24442",
+   "pdf": "https://arxiv.org/pdf/2610.24442"
+  },
+  {
+   "id": "2610.24484",
+   "type": "new",
+   "title": "Erdős-Gyárfás Balanced Five-Colorings",
+   "authors": [
+    "Hai Xia",
+    "Stefan Szeider"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A coloring of the edges of a complete graph with $r$ colors is balanced if the edges among any $r+1$ vertices use all $r$ colors. Erdős and Gyárfás (1999) conjectured that for all $r\\ge3$ the complete graph $K_{r^2+1}$ has no balanced $r$-coloring. They proved the conjecture for $r=3$ and $r=4$. We prove the conjecture for $r=5$, the first new case settled in over two decades. There is no balanced $5$-coloring of $K_{26}$, and since $K_{25}$ has one, $K_{25}$ is the largest complete graph admitting a balanced $5$-coloring. We design a reduce--dispatch--enumerate workflow, where every machine step produces an artifact that can be independently checked. First, we use a machine-checked (Lean 4) proof to reduce the conjecture to a single extremal statement about the color class with the fewest edges: no graph on $26$ vertices has between $55$ and $65$ edges while every $6$ of its vertices span between $1$ and $11$ edges. We then search on the sparse class instead of its dense complement, which makes enumeration up to isomorphism feasible. With classical stability theorems for $K_6$-free graphs, we dispatch the five near-extremal edge counts analytically. For the exhaustive enumeration on the remaining six edge counts, we design efficient encodings with SAT modulo symmetries and parallel cube-and-conquer. We also certify all eleven edge counts: each of the $12{,}296$ subproblems carries a clausal refutation checked by the independent verifier drat-trim, and all $273{,}503{,}938$ symmetry-breaking clauses are also validated against the vertex permutations that justify them.",
+   "abs": "https://arxiv.org/abs/2610.24484",
+   "pdf": "https://arxiv.org/pdf/2610.24484"
+  },
+  {
+   "id": "2610.25047",
+   "type": "cross",
+   "title": "Approximating Independent Sets Using Additive Combinatorics",
+   "authors": [
+    "Shachar Lovett"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We give a deterministic quasi-polynomial time algorithm for approximating the largest independent set in a graph. We show that if an $N$-vertex graph contains an independent set of size $2^{-t} N$, then we can find an independent set of size $2^t$ in quasi-polynomial time, for all $t$ up to a constant factor of $(\\log N)^{1/3}$. This gives an approximation factor of $N / \\exp((\\log N)^{1/3})$, which has the same shape as known hardness results for quasi-polynomial time algorithms, up to a different exponent of the logarithm.\nThe algorithm builds on a structural principle: a graph containing a large independent set must also contain a large sparse structured set, and such a set can be found efficiently. A greedy algorithm then extracts an independent set from it. Our proof draws on tools in additive combinatorics, in particular spreadness and sifting, to obtain the combinatorial structural results. We then convert these to efficient algorithms using pseudo-marginals obtained by semidefinite programming.",
+   "abs": "https://arxiv.org/abs/2610.25047",
+   "pdf": "https://arxiv.org/pdf/2610.25047"
+  },
+  {
+   "id": "2610.26243",
+   "type": "new",
+   "title": "Families that intersect in an arithmetic progression",
+   "authors": [
+    "Andrey Kupavskii",
+    "Fedor Noskov",
+    "Georgy Sokolov",
+    "Nikolai Terekhov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "For $n\\in\\mathbb N$, let $\\mu_n$ be the uniform measure on $2^{[n]}$. A family $\\mathcal F \\subseteq2^{[n]}$ is called $k$-AP-intersecting if $F_1\\cap F_2$ contains a nonconstant $k$-term arithmetic progression for every $F_1, F_2\\in\\mathcal F$. Writing $m_k$ for the supremum of $\\mu_n(\\mathcal F)$ over all $n$ and all such families $\\mathcal F$, we prove \\[ 2^{-k}\\le m_k\\le32\\cdot 2^{-k}\\qquad(k\\ge3). \\]\nThis greatly improves a recent result of Gillott, who proved that $m_k \\leq k^{-1/3}$ for all sufficiently large $k$, and answers his question on $m_k$'s exponential decay. We also prove a similar bound for the corresponding cross-intersection problem.",
+   "abs": "https://arxiv.org/abs/2610.26243",
+   "pdf": "https://arxiv.org/pdf/2610.26243"
+  },
+  {
+   "id": "2610.24887",
+   "type": "new",
+   "title": "Erdős-Hajnal for excluding paths",
+   "authors": [
+    "Tung H. Nguyen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "38 pages including bibliography and appendices",
+   "abstract": "We prove the Erdős-Hajnal conjecture for excluding an arbitrary path. A major step in our proof is a novel Gyárfás path argument based on the ideas of bookkeeping blockades and splitting paths, which may be of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.24887",
+   "pdf": "https://arxiv.org/pdf/2610.24887"
+  },
+  {
+   "id": "2610.25828",
+   "type": "new",
+   "title": "Piercing spanned lines and hyperplanes",
+   "authors": [
+    "Ben Lund"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Motzkin, Grünbaum, and Erdős and Purdy asked how many noncollinear blue points can coexist with $t$ red points in the real plane if every blue-spanned line contains a red point. We prove that there are at most $2.35t-3$ blue points, even over the complex numbers. For the complex higher-dimensional problem of Campbell, Kroeker, and Lund, we prove $b_k(t)\\le1.40k^2t$. Colorings of cyclic Dowling geometries give a matching lower bound in order of magnitude for all $k\\ge2$ and $t\\ge3$. The planar proof uses frame normalization and a second-moment estimate; the higher-dimensional proof combines the degree bound of Kroeker and Lund with principal truncation.",
+   "abs": "https://arxiv.org/abs/2610.25828",
+   "pdf": "https://arxiv.org/pdf/2610.25828"
+  },
+  {
+   "id": "2610.26686",
+   "type": "new",
+   "title": "Proof of the Erdős-Szemerédi sunflower conjecture",
+   "authors": [
+    "Matija Bucić",
+    "Fankang He",
+    "Hyunwoo Lee"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In the 1970s, Erdős and Szemerédi conjectured that for any $n \\ge k-1\\ge 2$, any collection of subsets of $[n]$ not containing a $k$-sunflower has size at most $c_k^n$ for some $c_k<2$. In the $k=3$ case, this follows from the work of Croot, Lev, and Pach and Ellenberg and Gijswijt on the cap-set problem, through a reduction due to Alon, Shpilka, and Umans. We prove the conjecture for every $k \\ge 3$.",
+   "abs": "https://arxiv.org/abs/2610.26686",
+   "pdf": "https://arxiv.org/pdf/2610.26686"
+  },
+  {
+   "id": "2610.24281",
+   "type": "new",
+   "title": "The Heesch number in $\\mathbb{E}^3$ is unbounded",
+   "authors": [
+    "Bojan Bašić"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, 1 figure",
+   "abstract": "The Heesch number of a figure is the largest number of times that the figure can be surrounded by layers of its congruent copies. Heesch's problem asks whether finite Heesch numbers are bounded. We show that in the three-dimensional Euclidean space, and thus also in higher-dimensional Euclidean spaces, they are not: for every positive integer $h$, we construct a shape whose Heesch number is finite and at least $h$. The construction is explicit, and it starts from a four-point set of integers that does not tile the line, but packs long intervals.",
+   "abs": "https://arxiv.org/abs/2610.24281",
+   "pdf": "https://arxiv.org/pdf/2610.24281"
+  },
+  {
+   "id": "2610.25800",
+   "type": "new",
+   "title": "The Maximum Commute Time of Regular Graphs",
+   "authors": [
+    "Jing Huang",
+    "Xuezhu Liao",
+    "Jiaxin Tang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages",
+   "abstract": "For a connected simple regular graph $G$, let $\\tau(G)$ be the maximum commute time for simple random walk, and let $t_n$ be the maximum of $\\tau(G)$ over all such graphs of order $n$. Aldous and Fill conjectured that $t_n\\sim3n^2/2$. We determine $t_n$ exactly and classify all maximizers for every even $n\\geq10$ and every odd $n\\geq15$; both thresholds are best possible. The maximizers are cubic block chains joined by bridges at even orders and quartic block chains joined at cut vertices at odd orders. The exact formulas specify the linear corrections according to the order modulo four and five, respectively, and imply $\nt_n\\sim \\begin{cases} \\dfrac32 n^2, & n\\text{ even},\\\\[1mm] n^2, & n\\text{ odd}, \\end{cases} \\qquad n\\to\\infty. $\nThus the conjectured asymptotic formula holds along even orders but fails along odd orders. The proof combines unit-current potential orderings, cut-current inequalities, and sharp block resistance bounds, supplemented by finite computations in exact rational arithmetic.",
+   "abs": "https://arxiv.org/abs/2610.25800",
+   "pdf": "https://arxiv.org/pdf/2610.25800"
+  },
+  {
+   "id": "2610.26061",
+   "type": "new",
+   "title": "Single-graph rational exponents in mixed multicolour Ramsey theory",
+   "authors": [
+    "Yuang Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 1 figure",
+   "abstract": "For every rational number $\\gamma>1$, we construct a fixed bipartite graph $H_\\gamma$ such that $r_k(H_\\gamma;K_N)=\\Theta_{\\gamma,k}((N/\\log N)^\\gamma)$ for every fixed $k\\ge 3$. Here $r_k(H;K_N)=r(H,\\ldots,H,K_N)$, with $k$ copies of $H$. The lower bound uses a symmetric random algebraic graph which avoids a fixed rooted power and has sufficiently strong local density for the Alon-Rodl method. The main algebraic step establishes a nonzero obstruction within the full symmetric coefficient space; the upper bound uses the rooted graphs from the proof of the rational exponents conjecture. We also obtain induced even-cycle asymptotics in the same construction.",
+   "abs": "https://arxiv.org/abs/2610.26061",
+   "pdf": "https://arxiv.org/pdf/2610.26061"
+  },
+  {
+   "id": "2610.26737",
+   "type": "cross",
+   "title": "The sum-product conjecture holds for fixed-field lattice product constructions",
+   "authors": [
+    "Harrison Lemley",
+    "David Chew"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "25 pages",
+   "abstract": "We study fixed-field analogues of the lattice product construction recently used by Bloom, Sawin, Schildkraut, and Zhelezov to disprove the sum-product conjecture over the real numbers. These sets are of the form $A_n = P_nG_n \\subset F$, where $F$ is a fixed number field, $P_n$ can be rescaled to a set of algebraic integers whose conjugates are polynomially bounded in $|P_n \\setminus \\{0\\}|$, and $G_n$ occupies a positive proportion of a bounded box of scale $Y_n$ in a fixed positive-rank multiplicative lattice. We prove that these fixed-field constructions satisfy the sum-product conjecture, $\\max\\{|A_n+A_n|, |A_nA_n|\\} \\ge |A_n|^{2-o(1)}$ as $|A_n| \\to \\infty$, with no restriction on the relative growth of the two factors. More strongly, any fixed power saving in the product set forces an asymptotically maximal sumset: there exists $C > 0$ such that, for each fixed $\\delta \\in (0,1]$, if $|A_nA_n| \\le |A_n|^{2-\\delta}$ for all sufficiently large $n$, then $Y_n \\to \\infty$ and $|A_n+A_n|/|A_n|^2 = 1/2 + O_\\delta((\\log Y_n)^C/Y_n)$. In particular, the additive-box times unit-box construction of Bloom, Sawin, Schildkraut, and Zhelezov cannot produce sum-product counterexamples in any fixed totally real number field, at any relative scales. The proof combines a bound for factorizations of algebraic integers with a more general maximal-sumset theorem for coefficient sets whose nonzero-element ratios have small Weil height. The latter controls multiplication fibers and combines a lattice strip estimate with logarithmic separation derived from the theorems of Yu and Matveev.",
+   "abs": "https://arxiv.org/abs/2610.26737",
+   "pdf": "https://arxiv.org/pdf/2610.26737"
+  },
+  {
+   "id": "2610.26763",
+   "type": "new",
+   "title": "Small subgraphs of large minimum degree",
+   "authors": [
+    "Zach Hunter",
+    "Barnabás Janzer",
+    "Oliver Janzer",
+    "Benny Sudakov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 9 figures",
+   "abstract": "In 1991, Erdős, Faudree, Rousseau and Schelp asked to estimate the smallest $u=u(n,d,s)$ such that every $n$-vertex graph with average degree at least $d$ has a subgraph on at most $u$ vertices with minimum degree at least $s$. We resolve this problem up to polylogarithmic factors for all even values of $s$. More precisely, we prove that every $n$-vertex graph with minimum degree $d\\geq s$ has a subgraph on $O_s\\left(\\max\\left\\{\\frac{n}{d^{s/(s-2)}}(\\log n)^{180},\\log n\\right\\}\\right)$ vertices with minimum degree at least $s$, whenever $s\\ge 4$ is even. This improves a result of Janzer, Sudakov and Tomon, who obtained a similar conclusion for subgraphs of average degree at least $s$.\nWe also prove that for every positive integer $s$ and every $\\varepsilon>0$, there exists a finite family $\\mathcal{H}$ of graphs with minimum degree $s$ such that $\\operatorname{ex}(n,\\mathcal{H})=O(n^{2-2/s+\\varepsilon})$. This is tight and is the first result of similar kind that applies to odd values of $s$ greater than 3.",
+   "abs": "https://arxiv.org/abs/2610.26763",
+   "pdf": "https://arxiv.org/pdf/2610.26763"
+  },
+  {
+   "id": "2610.25715",
+   "type": "cross",
+   "title": "Big Ramsey degrees and structures in relational languages",
+   "authors": [
+    "Yifan Hu"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "",
+   "abstract": "We establish a precompact transfer theorem for big Ramsey structures and a uniform envelope theorem for valuation hypergraphs. These yield big Ramsey structures for generic injective relational structures in languages with finitely many symbols of each positive arity, answering the existence part of Problem 6.3.2 of Balko et al. (arXiv:2110.08409), and refute Conjecture 4.7 of Braunfeld et al. (arXiv:2301.13116). We also construct a finitely constrained free amalgamation class in a finite language of maximum arity three whose Fraïssé limit has infinite singleton big Ramsey degree, giving a negative answer to the existence question in Problem 6.3.3 of Balko et al.",
+   "abs": "https://arxiv.org/abs/2610.25715",
+   "pdf": "https://arxiv.org/pdf/2610.25715"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.25905",
+   "type": "new",
+   "title": "Invitation to torso parameters of annotated graphs",
+   "authors": [
+    "Maël Dumas",
+    "Jędrzej Hodor",
+    "Tomasz Mazur",
+    "Piotr Micek",
+    "Clément Rambaud",
+    "Giannos Stamoulis"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 4 figures",
+   "abstract": "An annotated graph is a pair $(G,S)$, where $G$ is a graph and $S$ is a subset of vertices of $G$. We present a unified approach for definitions of annotated versions of classical graph parameters such as treewidth, pathwidth, treedepth, etc. A generic way to incorporate a distinguished set of vertices into a graph parameter is via torsos. Given a graph $G$ and a subset $S'\\subseteq V(G)$, we define $\\mathrm{torso}_G(S')$ to be the graph with vertex set $S'$ in which distinct vertices $u,v\\in S'$ are adjacent if and only if there exists a $u$-$v$ path in $G$ whose internal vertices lie outside $S'$. Now let $\\mathrm{p}$ be any graph parameter. For an annotated graph $(G,S)$, we define the torso $\\mathrm{p}$ of $(G,S)$ by\n\\[\\mathrm{p}(G,S) = \\min\\{\\mathrm{p}(\\mathrm{torso}_G(S')) \\mid S \\subset S' \\subset V(G)\\}.\\] For a minor-closed class of annotated graphs $\\mathcal{C}$, we discuss equivalent conditions for $\\mathrm{p}(G,S)$ bounded for all $(G,S)\\in\\mathcal{C}$ in terms of annotated graphs excluded in $\\mathcal{C}$. In many cases, we collect known results from the literature. We include two new arguments for $\\mathrm{p}$ being the $2$-treedepth and the feedback vertex number. Among other statements, we also include a variant of the Erdős-Pósa property for annotated cycles. We propose some new research directions.",
+   "abs": "https://arxiv.org/abs/2610.25905",
+   "pdf": "https://arxiv.org/pdf/2610.25905"
+  }
+ ],
+ "listed_new": 72,
+ "listed_cross": 29
+}
