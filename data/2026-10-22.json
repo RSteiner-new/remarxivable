@@ -1,0 +1,553 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T03:00:26Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-22",
+ "screened": 49,
+ "screened_new": 36,
+ "screened_cross": 13,
+ "scored": 49,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.29291",
+   "type": "new",
+   "title": "Counting and constructing Latin tableaux",
+   "authors": [
+    "Spencer Daugherty",
+    "Michaela Fahnesock",
+    "Shawn Huxtable",
+    "Michael Larson",
+    "Nourah Al Munayes",
+    "Storey Peacock"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, comments welcome!",
+   "abstract": "Latin tableaux generalize Latin squares to Young diagrams and have interesting connections to linear algebra and Rota's basis conjecture. Conjecturally, a partition admits Latin tableaux if and only if it belongs to a special class called wide partitions. We prove that various classes of wide partitions admit Latin tableaux. We extend these classes further by showing that the number of Latin tableaux is weakly increasing over certain operations on wide partitions. Additionally, we establish an explicit formula for the number of Latin tableaux using (0,1)-matrices and matrix permanents.",
+   "abs": "https://arxiv.org/abs/2610.29291",
+   "pdf": "https://arxiv.org/pdf/2610.29291"
+  },
+  {
+   "id": "2610.28874",
+   "type": "new",
+   "title": "A sporadic simplicial arrangement of $51$ lines",
+   "authors": [
+    "Tomás S. R. Silva"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 1 figure, 1 table",
+   "abstract": "We construct a sporadic simplicial arrangement of $51$ lines in the real projective plane. It is obtained from the icosahedral arrangement $\\mathcal{A}(21,2)$ by adjoining the $30$ images of the line $y+\\sqrt{\\varphi}\\,z=0$ under the rotation group of the icosahedron, where $\\varphi=(1+\\sqrt5)/2$. Its intersection multiplicities are $t_2=120$, $t_3=190$, $t_5=36$, and $t_6=15$, with all other $t_r$ zero. These counts give equality in Melchior's inequality and hence prove simpliciality. The arrangement is irreducible, belongs to neither of the two known infinite families of irreducible simplicial arrangements, and is not supersolvable. It therefore disproves the $37$-line bound for sporadic arrangements conjectured by Cuntz and Mücksch. We give explicit coordinates, a finite incidence certificate, a geometric explanation of the parameter $\\sqrt{\\varphi}$, and a standalone exact-arithmetic verifier.",
+   "abs": "https://arxiv.org/abs/2610.28874",
+   "pdf": "https://arxiv.org/pdf/2610.28874"
+  },
+  {
+   "id": "2610.28691",
+   "type": "new",
+   "title": "Two q-Deformations of Narayana Polynomials: Rogers Moments, Hankel Positivity, and q-Narayana Kernels",
+   "authors": [
+    "Jiang Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages",
+   "abstract": "We study two $q$-deformations of the continuous interpolation between type $B$ and shifted type $A$ Narayana polynomials, both constructed from the continuous $q$-ultraspherical (Rogers) functional. The first consists of affine moments of ordinary powers. For fixed $0<q<1$ and $-1<\\beta<1$, we prove coefficientwise Hankel total positivity in the polynomial variable by a continuant comparison criterion. We also determine leading continuants, Hankel determinants, and extreme coefficients of arbitrary Hankel minors.\nThe second deformation uses Askey--Wilson basis products and yields a basic-hypergeometric Narayana kernel. We give two independent moment evaluations and prove that its row polynomials have simple negative zeros and are $\\gamma$-positive after palindromic normalization. An Askey--Wilson integral with base $q^2$ gives a continuous-parameter extension and a moment proof of the Krattenthaler--Wachs super $q$-Narayana expansion, including its integrality. An ordinary-power expansion also proves Pan's Touchard identity.\nFor fixed $0<q<1$ and $\\theta>-1$, we prove total positivity of the kernel triangle by a Jackson $q$-Bessel--Edrei factorization and strict total positivity of its associated square by a discrete moment representation. This gives a simultaneous $(\\theta,q)$-extension of Wang--Yang's theorems for type $A$ and type $B$ Narayana triangles and squares. We further establish coefficientwise total nonnegativity in $q$ through order two for the endpoint triangles. An exact triangular change of basis links the two deformations and explains their common classical limit.",
+   "abs": "https://arxiv.org/abs/2610.28691",
+   "pdf": "https://arxiv.org/pdf/2610.28691"
+  },
+  {
+   "id": "2610.29048",
+   "type": "new",
+   "title": "Proofs of Li, Wang and Guo's conjectures on (signless) Laplacian spectral radius",
+   "authors": [
+    "Hongzhang Chen",
+    "Jianxi Li",
+    "Xiaoyun Lv"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\mu(G)$ and $q(G)$ be the Laplacian and signless Laplacian spectral radii of a graph $G$. Li, Wang and Guo (2026) conjectured that, if $H$ with $|V(H)|\\geq 1$ is an induced subgraph of a graph $G$, then $\\mu(G)\\le\\max\\limits_{v\\in V(H)}\\mu(H_v^t)$ and $q(G)\\le\\max\\limits_{v\\in V(H)}q(H_v^t)$, where $t=e(G)-e(H)$ and $H_v^t$ is the graph obtained from $H$ by adding $t$ pendant edges to $v\\in V(H)$. We prove this conjecture by establishing a spectral comparison theorem for a broader family of positive semidefinite graph matrices which includes the Laplacian and signless Laplacian matrices. We also characterize all equality cases for the prescribed subgraph $H$ with $e(H)\\geq 1$ and $t\\geq 1$.",
+   "abs": "https://arxiv.org/abs/2610.29048",
+   "pdf": "https://arxiv.org/pdf/2610.29048"
+  },
+  {
+   "id": "2610.29275",
+   "type": "new",
+   "title": "A proof of Ward's conjecture on Griesmer codes",
+   "authors": [
+    "Haihua Deng",
+    "Weiye Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages, comments are welcome",
+   "abstract": "Let $C$ be an $[n,k,d]_q$ Griesmer code, where $q=p^f$ with $p$ prime, and write $e=\\nu_p(d)$. Ward conjectured that $C$ is $p^{\\max\\{0,e-f+1\\}}$-divisible. In this paper, we prove this conjecture.",
+   "abs": "https://arxiv.org/abs/2610.29275",
+   "pdf": "https://arxiv.org/pdf/2610.29275"
+  },
+  {
+   "id": "2610.29846",
+   "type": "new",
+   "title": "Permutations, Pattern Covers, Posets and Positivity: Part I: Patterns and Posets",
+   "authors": [
+    "Natasha Blitvić",
+    "Mohammed Slim Kammoun",
+    "Einar Steingrímsson"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "51 pages",
+   "abstract": "We study permutations covered by overlapping occurrences of a consecutive pattern. Special cases of this have been studied for consecutive patterns and via the cluster method. We study enumeration sequences obtained by repeating a fixed overlap. We elicit many structural properties of such pattern covers, mainly in terms of posets whose linear extensions are in bijection with the permutations in question. The enumeration of these permutations for different patterns gives rise to a great variety of sequences, many classical, but most of them not found in the OEIS. We conjecture that, essentially, all these sequences are moments of probability measures on the real line.\nWe develop an enumerative and order-theoretic framework for this. For overlap 1 we give a generating function whose coefficients enumerate permutations covered by any fixed pattern with any fixed number of occurrences. For overlap at most half the pattern length we derive a polynomial-time enumeration formula. We associate to each pattern, overlap, and number of occurrences a poset whose linear extensions are the corresponding permutations.\nThe regularity of this poset construction makes possible a structural analysis that in many cases leads to enumerative formulas for large classes of patterns. We prove uniform restrictions on the local structure of the Hasse diagrams, describe their branches (pendant chains) in terms of the corresponding patterns, and characterize when the poset is a tree or chain or subdivisions of a grid. Some of these constructions yield explicit families of formulas and explain unexpected equinumerations.\nIn a forthcoming paper we investigate the sequences arising here from a probabilistic perspective, viewing them both as point processes and as moment sequences. We also obtain integral and matrix representations for important overlap 1 and 2 classes of pattern-covering sequences.",
+   "abs": "https://arxiv.org/abs/2610.29846",
+   "pdf": "https://arxiv.org/pdf/2610.29846"
+  },
+  {
+   "id": "2610.28820",
+   "type": "cross",
+   "title": "A Matroidal Framework for Random Access in Linear Codes",
+   "authors": [
+    "Daniella Bar-Lev",
+    "Hiram H. López",
+    "Gretchen L. Matthews",
+    "Flavio Salizzoni"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "6 pages",
+   "abstract": "We study random access in linear codes when codeword symbols are sampled independently and uniformly with replacement. A code is recovery balanced if the expected number of samples required to recover a codeword coordinate is the same for every coordinate. We express the recovery expectations in terms of the associated matroid and derive a coordinatewise identity relating these values for a code and its dual. This proves that a linear code is recovery balanced if and only if its dual is recovery balanced, establishing a conjecture of Gruica et al. We further define the recovery balance for arbitrary matroids and show that asymptotically almost every sparse paving matroid is not recovery balanced.",
+   "abs": "https://arxiv.org/abs/2610.28820",
+   "pdf": "https://arxiv.org/pdf/2610.28820"
+  },
+  {
+   "id": "2610.29215",
+   "type": "cross",
+   "title": "Third and Fourth Moment Phenomena for Monochromatic Edges and Applications to Graph-Based Two-Sample Tests",
+   "authors": [
+    "Siva Athreya",
+    "Bhaswar B. Bhattacharya",
+    "Yogesh Dahiya",
+    "Karambir Das",
+    "Spandan Ghoshal",
+    "Sourish Maniyar",
+    "Elizabeth Sara Roy"
+   ],
+   "categories": [
+    "math.ST",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.ST",
+   "comments": "",
+   "abstract": "Given a graph sequence $\\{G_n\\}_{n\\in\\mathbb{N}}$, denote by $T_n$ the number of monochromatic edges when the vertices of $G_n$ are independently colored red or blue with probabilities $p$ and $1-p$, respectively. We characterize the asymptotic normality of $T_n$, after centering and scaling to unit variance, in terms of subgraph (motif) counts and standardized moments. One of the highlights of our results is a {\\it third moment phenomenon}: for every fixed $p\\in(0,1)\\backslash\\{\\frac12\\}$, asymptotic normality holds if and only if the standardized third moment converges to zero. The more familiar {\\it fourth moment condition}, which requires the standardized fourth moment to converge to $3$, gives an equivalent characterization except at the two exceptional probabilities $p=\\frac{1\\pm1/\\sqrt3}{2}$. At these values, the standardized fourth moment converges to $3$ for every graph sequence with a diverging number of edges, even when Gaussian convergence fails. In contrast, in the balanced case $p=\\frac12$, the fourth moment condition characterizes asymptotic normality, while the third moment condition is insufficient. These results identify three distinct regimes for moment characterizations of Gaussian convergence, determined by the coloring probability. We further show that the third moment condition remains sufficient in the sparse regime, where $p=p_n \\to 0$. As an application, we derive the limiting null distribution of two-sample statistics based on undirected $K$-nearest-neighbor graphs in the Poissonized setting, identifying sharp growth conditions on $K$ for asymptotic normality.",
+   "abs": "https://arxiv.org/abs/2610.29215",
+   "pdf": "https://arxiv.org/pdf/2610.29215"
+  },
+  {
+   "id": "2610.29813",
+   "type": "new",
+   "title": "The three-colour bipartite Ramsey number of sufficiently long even cycles",
+   "authors": [
+    "Jiangdong Ai",
+    "Yihan Yin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "For a bipartite graph $H$, let $\\operatorname{br}_3(H)$ be the least integer $N$ such that every three-colouring of $K_{N,N}$ contains a monochromatic copy of $H$. We prove that $\\operatorname{br}_3(C_{2n})=3n$ for all sufficiently large $n$, and give the lower bound for every $n\\ge2$. For the upper bound, we reduce a counterexample to a finite rational weighted profile. Cycle extension and vertex-cover arguments force the critical components to have six unique minimum covers which partition the profile. The remaining component supports give a contradiction.",
+   "abs": "https://arxiv.org/abs/2610.29813",
+   "pdf": "https://arxiv.org/pdf/2610.29813"
+  },
+  {
+   "id": "2610.29659",
+   "type": "new",
+   "title": "Small and Large Quasi-Kernels in General Digraphs",
+   "authors": [
+    "Daniel Rutschmann"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Preprint submitted to the Journal of Graph Theory",
+   "abstract": "In a digraph $D$, a set $Q$ of vertices is a quasi-kernel if $Q$ is an independent set and every vertex in $D$ can be reached from $Q$ via at most two edges. The small quasi-kernel conjecture by Erdős and Székely predicts that every source-free $n$-vertex digraph contains a quasi-kernel of size at most $n - n/2$. Chvátal and Lovász' 1974 work implies a bound of $n - \\sqrt{n}+1$. In 2024, Sprio shows the bound $n - \\frac{1}{4} \\sqrt{n \\log_2 n}$. We show that there always is a quasi-kernel of size at most $n - \\frac{1}{51}n^{2/3} / \\ln^{2/3}(n)$.\nFor the related large quasi-kernel conjecture by Spiro, we show that there always is a quasi-kernel $Q$ with $|N^+[Q]| \\ge 0.2917 \\cdot n^{2/3} / \\ln^{2/3}(n)$.",
+   "abs": "https://arxiv.org/abs/2610.29659",
+   "pdf": "https://arxiv.org/pdf/2610.29659"
+  },
+  {
+   "id": "2610.29893",
+   "type": "new",
+   "title": "A weighted inequality for matroid flats and log-concavity of Whitney numbers",
+   "authors": [
+    "Yuxian Dong",
+    "Yanxin Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "Using the Hodge-Riemann relations for matroid Chow rings, we establish a weighted inequality for flats of a loopless matroid. As applications, we prove the points-lines-planes conjecture and Brylawski's conjecture on the ultra-log-concavity of Whitney numbers of the first kind. We also characterize the cases of equality in both inequalities.",
+   "abs": "https://arxiv.org/abs/2610.29893",
+   "pdf": "https://arxiv.org/pdf/2610.29893"
+  },
+  {
+   "id": "2610.29737",
+   "type": "new",
+   "title": "Spanning bipartite quadrangulations in even triangulations of real projective spaces",
+   "authors": [
+    "Kengo Enami"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AT"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "We study spanning quadrangulations of even triangulations of real projective spaces, using the higher-dimensional notion of quadrangulation introduced by Kaiser and Stehl\\'ık. We prove that every even triangulation of $\\RP^d$, where $d\\ge 2$, admits a spanning bipartite quadrangulation. Moreover, such a triangulation admits a spanning non-bipartite quadrangulation if and only if it is not balanced; if it is balanced, every spanning quadrangulation is bipartite. Our proofs use coloring monodromy: its orbits yield bipartite quadrangulations, while a covering-space construction gives non-bipartite ones. %In dimension three, a bipartite quadrangulation can always be chosen to induce $K_{2,2}$ on each tetrahedron. More generally, we establish a sufficient condition for the existence of spanning bipartite quadrangulations on closed manifolds in terms of the monodromy action, and derive a consequence involving the fundamental group.",
+   "abs": "https://arxiv.org/abs/2610.29737",
+   "pdf": "https://arxiv.org/pdf/2610.29737"
+  },
+  {
+   "id": "2610.29044",
+   "type": "new",
+   "title": "Non-trivial intersecting families for direct products",
+   "authors": [
+    "Jian Wang",
+    "Biao Wu",
+    "Huajun Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages. No Generative AI tools were used at any stage",
+   "abstract": "A family of sets is intersecting if any two of its sets intersect, and non-trivial intersecting if there is not any element which appears in every set of the family. The study of intersection problems (or Erdős-Ko-Rado problems) on families of sets is one of the most important topics in extremal combinatorics. A natural extension of the Erdős-Ko-Rado problem in direct products setting was introduced by Frankl, and developed by Alon and Katona et al. In 2018, Kwan, Sudakov and Vieira [J. Combin. Theory, Ser. A 156 (2018), 44--60] determine the maximum size of a non-trivial intersecting direct product family under the assumption that the sizes of all parts are sufficiently large relative to the set sizes in all parts. Meanwhile, they raised the question of whether this result holds for the size of each part which depends only on its corresponding set size, and the question of characterizing the extremal families. In the present paper, we answere these two questions. Furthermore, the bounds on the size of each part in our result are best possible.1",
+   "abs": "https://arxiv.org/abs/2610.29044",
+   "pdf": "https://arxiv.org/pdf/2610.29044"
+  },
+  {
+   "id": "2610.29894",
+   "type": "new",
+   "title": "Hitting time for loose Hamilton cycles in the random hypergraph process",
+   "authors": [
+    "Jared León",
+    "Xizhi Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "62 pages, 6 figures",
+   "abstract": "The random hypergraph process starts with an empty hypergraph on $n$ vertices and adds a uniformly chosen missing edge at each step. For even $n$, we prove that, with high probability, a $3$-uniform loose Hamilton cycle appears when the last isolated vertex disappears. The approach developed here adapts arguments from Kahn's work on perfect matchings. It can also be extended to obtain the corresponding hitting-time theorems for $r=2$ and every fixed $r\\ge4$ satisfying $(r-1)\\mid n$. Furthermore, it can be used to estimate the numbers of loose Hamilton cycles at these hitting times for every fixed $r\\ge2$, up to a factor of $\\exp\\{o(n)\\}$.",
+   "abs": "https://arxiv.org/abs/2610.29894",
+   "pdf": "https://arxiv.org/pdf/2610.29894"
+  },
+  {
+   "id": "2610.28865",
+   "type": "new",
+   "title": "Tree-independence number VIII. 3PC-free graphs have logarithmic tree-independence number",
+   "authors": [
+    "Maria Chudnovsky",
+    "Julien Codsi",
+    "Ajaykrishnan E S",
+    "Daniel Lokshtanov",
+    "Ilya Maier"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A three-path-configuration is a graph consisting of three pairwise internally vertex-disjoint paths, the union of every two of which is an induced cycle of length at least four. A graph is 3PC-free if no induced subgraph of it is a three-path-configuration. We show that 3PC-free graphs have logarithmic tree-independence number, which is asymptotically best possible.",
+   "abs": "https://arxiv.org/abs/2610.28865",
+   "pdf": "https://arxiv.org/pdf/2610.28865"
+  },
+  {
+   "id": "2610.29469",
+   "type": "new",
+   "title": "An entropy proof of the commonality of apices of trees",
+   "authors": [
+    "Hao Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages; main proof only 3 pages",
+   "abstract": "A graph $H$ is called common if the number of monochromatic copies of $H$ in a $2$-edge-colouring of a large complete graph is asymptotically minimized by the random colouring with an equal proportion of each colour. Grzesik, Lee, Lidický and Volec conjectured that every $k$-apex of any connected Sidorenko graph is common. Recently, Kr{á}l', Krnc and Lamaison proved that the $k$-apex of any tree is common for $k\\leq 5$. In this paper, we extend their result by showing that for every positive integer $k$, the $k$-apex of any tree or any forest with average degree at least one is common. Our proof involves an application of the entropy method.",
+   "abs": "https://arxiv.org/abs/2610.29469",
+   "pdf": "https://arxiv.org/pdf/2610.29469"
+  },
+  {
+   "id": "2610.28828",
+   "type": "cross",
+   "title": "A counterexample to Gale's conjecture in $\\mathbb{R}^3$",
+   "authors": [
+    "Vsevolod Voronov"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "11 pages, 1 figure",
+   "abstract": "It is known that for every partition of the sphere $S^2$ of unit diameter into four parts, the largest diameter of a part is at least $\\sqrt{(3+\\sqrt{3})/6} = 0.88807\\dots$, and this bound is attained. The conjecture of D.~Gale (1953) asserts that no set in $\\mathbb{R}^3$ has a larger ratio. In this paper, we construct a $101$-point set $V\\subset\\mathbb{R}^3$ such that every partition of $V$ into four parts contains a part of diameter greater than $0.88928 \\, \\operatorname{diam} V$.",
+   "abs": "https://arxiv.org/abs/2610.28828",
+   "pdf": "https://arxiv.org/pdf/2610.28828"
+  },
+  {
+   "id": "2610.29979",
+   "type": "new",
+   "title": "On $k$-connected Sets in Matroids",
+   "authors": [
+    "Sean Boros",
+    "James Oxley"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 2 figures",
+   "abstract": "In 1966, Tutte defined $k$-connected matroids for each $k \\ge 2$. Robertson and Seymour built on Tutte's idea to define tangles as a way to identify highly connected parts of a matroid. Motivated by tangles, a set $Z$ in a matroid $M$ has been defined to be $3$-connected if, for each $j$ in $\\{1,2\\}$, there is no $j$-separation $(X,Y)$ of $M$ such that each of $|Z \\cap X|$ and $|Z \\cap Y|$ is at least $j$. This paper solves a problem of Whittle for $k= 3$ by proving that a minor-minimal matroid having $Z$ as a $3$-connected set has at most $3|Z| - 4$ elements. We also identify the matroids for which this bound is attained.",
+   "abs": "https://arxiv.org/abs/2610.29979",
+   "pdf": "https://arxiv.org/pdf/2610.29979"
+  },
+  {
+   "id": "2610.28780",
+   "type": "new",
+   "title": "Low-degree filtrations in ordinary and Lagrangian Grassmannian cohomology",
+   "authors": [
+    "Huan Xiong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "51 pages",
+   "abstract": "We prove the Hilbert-series formulas conjectured by Reiner--Tudose and by the Polymath Jr. Grassmannian group for the subalgebras of ordinary and Lagrangian Grassmannian cohomology generated in bounded degree. We determine the finite coefficient images underlying the proofs, together with the kernels of the coefficient and cancellation maps. We also construct bases adapted to the auxiliary ideal filtrations and identify the cancellation layers, as modules, with shifts of finite complete-intersection algebras. First-order deformations give the derivative inclusions needed to recover the filtration increments.\nWe disprove the two ordinary basis conjectures of the Polymath group. For every $r\\ge 2$, the span of each prescribed family has codimension one in weight $3r+2$ of $H^{2*}(\\operatorname{Gr}(2,3r+1);\\mathbb Q)$; replacing one index gives a basis in each of these components. More generally, each prescribed two-row family has codimension at most one in every weight. Weights are half the cohomological degrees, and all coefficients are rational.",
+   "abs": "https://arxiv.org/abs/2610.28780",
+   "pdf": "https://arxiv.org/pdf/2610.28780"
+  },
+  {
+   "id": "2610.29131",
+   "type": "new",
+   "title": "Small covers and the Four Color Theorem",
+   "authors": [
+    "Suyoung Choi",
+    "Ringi Kim"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AT"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, 8 figures",
+   "abstract": "We give a combinatorial proof that every simple convex $3$-polytope admits a small cover without using the Four Color Theorem. We also prove that the assertion that every simple plane triangulation admits a mod~$2$ characteristic function with at most five values is equivalent to the Four Color Theorem.",
+   "abs": "https://arxiv.org/abs/2610.29131",
+   "pdf": "https://arxiv.org/pdf/2610.29131"
+  },
+  {
+   "id": "2610.29773",
+   "type": "new",
+   "title": "Modulating flow polynomials and parity bias in homological walk counting",
+   "authors": [
+    "Ye Luo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "38 pages, 2 figures. Computational notebook and PDF export included as ancillary files",
+   "abstract": "Long weighted walks seem to sample mod-$t$ flows uniformly, but at even moduli a persistent parity bias survives. Writing $C_G(t)$ for the flow polynomial of a connected graph $G$ of genus $g$, the proportion of nowhere-zero flows under uniform sampling is $C_G(t)/t^g$. For arbitrary positive directed weights and all moduli, we determine the exact leading corrections for both closed walks and nonbacktracking closed walks, which we call circuits. Only the circuit result requires $g\\ge2$. For closed walks, the canonical character governs the leading correction through the canonical modulating flow polynomial $D_G$; for circuits, the period character, when it exists, governs the leading correction through the period modulating flow polynomial $D_{G,\\eta}$. At even moduli these give parity-dependent corrections: the two mechanisms coincide on nonbipartite graphs and separate only in the bipartite circuit problem. More generally, each integral-homology character $\\zeta$ determines a balanced-dichromatic specialization $D_{G,\\zeta}$. These polynomials form a character-indexed family whose finite-order members give Fourier coefficients of the nowhere-zero flow set and whose retained edge sets are the central sets of a gain semimatroid. We further show that $D_G$ is a cycle-matroid invariant and a signed-Tutte specialization satisfying signed deletion-contraction. Finally, an integral nowhere-zero approximation theorem implies that asymptotically almost every weighted circuit traverses every edge.",
+   "abs": "https://arxiv.org/abs/2610.29773",
+   "pdf": "https://arxiv.org/pdf/2610.29773"
+  },
+  {
+   "id": "2610.29904",
+   "type": "cross",
+   "title": "Kelly's conjectures on Condorcet winner probabilities for odd electorates",
+   "authors": [
+    "Seick Kim",
+    "Hocheol Shin"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "Let $C(m,n)$ denote the probability that, among $n$ independent uniformly random permutations of $m$ labels, there exists a label that precedes every other label in a strict majority of the permutations. We prove that $C(m,n)>C(m,n+2)$ for $m \\ge 3$ and odd $n \\ge 1$, and that $C(m,n)>C(m+1,n)$ for $m \\ge 2$ and odd $n \\ge 3$. These results establish Kelly's two monotonicity conjectures for odd electorates. The proofs use integral representations involving probabilities associated with sums of independent Bernoulli random variables.",
+   "abs": "https://arxiv.org/abs/2610.29904",
+   "pdf": "https://arxiv.org/pdf/2610.29904"
+  },
+  {
+   "id": "2610.29125",
+   "type": "new",
+   "title": "Integer Flows on Cyclic Covers of Graphs",
+   "authors": [
+    "Rong Luo",
+    "Yuying Ma",
+    "D. Christopher Stephens",
+    "Dong Ye"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 1 figure",
+   "abstract": "Graph covers preserve the local structure of a graph while allowing its global structure to change substantially. In this paper, we study how such changes in cyclic covers affect nowhere-zero flow properties. For a fixed integer $\\ell \\ge 2$, we show that for every bridgeless graph $G$, there exists an $\\ell$-fold cyclic cover of $G$ that admits a nowhere-zero $3$-flow if $\\ell$ is even and a nowhere-zero $4$-flow if $\\ell$ is odd. These bounds are best possible in general. For odd $\\ell$, we further investigate which bridgeless graphs admit an $\\ell$-fold cyclic cover with a nowhere-zero $3$-flow.",
+   "abs": "https://arxiv.org/abs/2610.29125",
+   "pdf": "https://arxiv.org/pdf/2610.29125"
+  },
+  {
+   "id": "2610.30123",
+   "type": "cross",
+   "title": "Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings",
+   "authors": [
+    "Frank Kammer",
+    "Sandra Kiefer",
+    "Johannes Meintrup"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "Full version of a paper accepted for publication at SODA 2027. 37 pages, 3 figures",
+   "abstract": "Temporal graphs are graphs whose edge relation changes in discrete time steps. The Temporal Exploration Problem (TEXP) asks for a temporal walk that visits all vertices. We show that every connected temporal graph with $n$ vertices can be explored in $O(qn\\log^3(n))$ time steps, where $q$ is the number of vertex color classes induced by the 2-dimensional Weisfeiler-Leman (2-WL) coloring. For small $q$, our bound substantially improves on the known worst-case bound of $\\Theta(n^2)$ in general connected temporal graphs. A corresponding walk can be constructed in deterministic polynomial time. The upper bound is complemented by lower bounds of $\\Omega(n\\log(n))$ when $q$ is constant and $\\Omega(qn)$ when $1 \\leq q \\leq n$.\nWe also apply our techniques to the Temporal Rendezvous Problem (TRP), in which two agents that do not communicate have to meet on a vertex of the temporal graph. Our exploration algorithm yields that, with only polynomial-time computational power, the agents can meet in $O(n\\log^3(n))$ time steps, leaving a gap of only $\\log^2(n)$ to the known lower bound.\nDogeas, Erlebach, Kammer, Meintrup, and Moses Jr. [ICALP'24] have shown an $O(rn^{1+\\epsilon})$ bound for TEXP, for every fixed $\\epsilon > 0$, where $r$ is the number of orbits, and an $O(n^{1+\\epsilon})$ bound for TRP. Both results require superpolynomial computation time. Our contribution improves upon these results in several ways. First, the dependence on $n$ in the upper bounds on the number of time steps is decreased from $n^{1+\\epsilon}$ to $n\\log^3(n)$ for both TEXP and TRP. Second, for TEXP, we bound the number of time steps linearly by the parameter q, which is efficiently computable and upper bounded by $r$. Third, we provide novel deterministic polynomial-time algorithms for both TEXP and TRP.",
+   "abs": "https://arxiv.org/abs/2610.30123",
+   "pdf": "https://arxiv.org/pdf/2610.30123"
+  },
+  {
+   "id": "2610.29522",
+   "type": "new",
+   "title": "Avoiding two cycles in Avoider--Enforcer games",
+   "authors": [
+    "Jovana Forcan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the strict and monotone $(1:b)$ Avoider--Enforcer games on the edges of the complete graph $K_n$. We prove that, for integers $n\\ge2$ and $b\\ge6n$, Avoider can keep his graph a forest after every move, except possibly the last. Thus, his final graph contains at most one cycle. This answers Question~10 of Clemens, Ehrenmüller, Person, and Tran, which asks whether a bias linear in $n$ is sufficient.",
+   "abs": "https://arxiv.org/abs/2610.29522",
+   "pdf": "https://arxiv.org/pdf/2610.29522"
+  },
+  {
+   "id": "2610.29197",
+   "type": "new",
+   "title": "The Local Dyadic Conjecture",
+   "authors": [
+    "Mahtab Alghasi",
+    "Bertrand Guenin",
+    "Levent Tunçel"
+   ],
+   "categories": [
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 1 figure",
+   "abstract": "A rational with denominator a power of two is said to be dyadic. A long standing conjecture of Paul Seymour predicts that for an ideal clutter, the dual of the set covering problem always admits an optimal solution where all variables take dyadic values. We present a local version of this conjecture, and motivate it by proving an important special case.",
+   "abs": "https://arxiv.org/abs/2610.29197",
+   "pdf": "https://arxiv.org/pdf/2610.29197"
+  },
+  {
+   "id": "2610.29115",
+   "type": "new",
+   "title": "On a conjecture concerning two-stack sortable permutations",
+   "authors": [
+    "Yongzhou Wen",
+    "Sherry H.F. Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The two-stack sortable permutations of length $n$ are known to be equinumerous with permutations of length $n$ avoiding the dashed patterns $3\\text{-}1\\text{-}4\\text{-}2$ and $2\\text{-}41\\text{-}3$. In this paper, we confirm an intriguing conjecture posed by Claesson, Kitaev, and Steingrímsson, which asserts that the quadruple $(\\comp,\\asc,\\ldr,\\rmax)$ is equidistributed on these two permutation classes. Here $\\comp$ and $\\asc$ count the number of components and ascents, respectively, $\\ldr$ denotes the length of the initial decreasing run, and $\\rmax$ denotes the number of right-to-left maxima. This is accomplished by constructing bijections between two-stack sortable permutations and $\\beta(1,0)$-trees.",
+   "abs": "https://arxiv.org/abs/2610.29115",
+   "pdf": "https://arxiv.org/pdf/2610.29115"
+  },
+  {
+   "id": "2610.29664",
+   "type": "cross",
+   "title": "Sharp spherical $L^p\\to L^4$ extension estimates over finite fields in odd dimensions",
+   "authors": [
+    "Thang Pham",
+    "Boqing Xue"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "20 pages",
+   "abstract": "Let $q$ be an odd prime power, let $d\\ge3$ be odd, and let $S_j=\\{\\xi\\in \\mathbb F_q^d:\\xi_1^2+\\cdots+\\xi_d^2=j\\}$, where $j\\ne 0$. We prove the sharp extension estimate ${L^{4(d+1)/(3d+1)}(S_j, d\\sigma)\\to L^4(\\mathbb F_q^d,dc)}$ whenever $\\eta_q((-1)^{(d-1)/2}j)=-1$, where $\\eta_q$ is the quadratic character. This confirms the odd-dimensional spherical extension conjecture of Koh, Pham, and Vinh over every finite field of odd characteristic. Together with the known estimate in the complementary sign class, this determines the sharp ${L^p\\to{L^4}}$ extension range for all nonzero-radius spheres in odd dimensions. We also apply the endpoint estimate to obtain sufficient conditions for the unique recovery of sparse signals from incomplete Fourier data.",
+   "abs": "https://arxiv.org/abs/2610.29664",
+   "pdf": "https://arxiv.org/pdf/2610.29664"
+  },
+  {
+   "id": "2610.29043",
+   "type": "new",
+   "title": "Every tournament of dichromatic number $10 k^2$ has a vertex whose out-neighborhood has dichromatic number more than $k$",
+   "authors": [
+    "Seokbeom Kim",
+    "Sang-il Oum"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "The dichromatic number of a tournament is the minimum number of colors needed to color the vertices so that no directed cycle is monochromatic. Nguyen, Scott, and Seymour (2025) asked whether every tournament with dichromatic number $2k$ has a vertex whose out-neighborhood induces a subtournament of dichromatic number at least $k$. We answer their question negatively by finding an example with dichromatic number $\\Omega(k^2)$. Furthermore, this quadratic bound is tight up to a constant factor; we show that for every integer $k \\geq 1$, every tournament of dichromatic number $\\Omega(k^2)$ contains a vertex whose out-neighborhood induces a subtournament of dichromatic number more than $k$. This improves the previous best bound $\\mathcal{O}(k^2\\log k)$ due to Colinot and Newman (2026). To show this, we prove that every tournament of fractional dichromatic number $c$ has a dominating set of size at most $5c-1$. The proof uses Brouwer's fixed point theorem.",
+   "abs": "https://arxiv.org/abs/2610.29043",
+   "pdf": "https://arxiv.org/pdf/2610.29043"
+  },
+  {
+   "id": "2610.29690",
+   "type": "cross",
+   "title": "Discrete homotopy of graphs and $k$-parabolic subspace arrangements",
+   "authors": [
+    "So Yamagata"
+   ],
+   "categories": [
+    "math.AT",
+    "math.CO"
+   ],
+   "primary": "math.AT",
+   "comments": "21 pages, 5 figures, 6 tables",
+   "abstract": "Discrete homotopy theory is a combinatorial homotopy theory defined for discrete objects. Barcelo--Severs--White conjectured that the homotopy groups of complements of $k$-parabolic subspace arrangements are isomorphic to the discrete homotopy groups of graphs associated with the Coxeter complexes. We show that this correspondence fails in general by giving a counterexample in degree two for the $4$-parabolic subspace arrangement of type $A_5$.",
+   "abs": "https://arxiv.org/abs/2610.29690",
+   "pdf": "https://arxiv.org/pdf/2610.29690"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 36,
+ "listed_cross": 13
+}
