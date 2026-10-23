@@ -1,0 +1,560 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T02:59:33Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-23",
+ "screened": 52,
+ "screened_new": 39,
+ "screened_cross": 13,
+ "scored": 52,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.31618",
+   "type": "new",
+   "title": "The Asymptotic Number of Anticodes in Hamming Spaces",
+   "authors": [
+    "Anna-Lena Horlemann",
+    "Ananthakrishnan Ravi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Two figures. Comments are welcome",
+   "abstract": "In the Hamming space $\\mathbb{F}_q^n$, a $d$-anticode is a subset in which every pair of points has Hamming distance at most $d$, or equivalently, a set of diameter at most $d$. Let $m_q(n,d)$ denote the maximum size of a $d$-anticode and let $\\mathcal{A}_q(n,d)$ be the family of all $d$-anticodes. We show that for fixed $q$, as $n\\to\\infty$, the total number of $d$-anticodes satisfies \\[ |\\mathcal{A}_q(n,d)|=2^{(1+o(1))m_q(n,d)} \\] for $4\\le d\\le n-1$, except when $q=2$ and $d=n-1$.\nWe also count linear $d$-anticodes, that is, subspaces of $\\mathbb F_q^n$ with diameter at most $d$. For fixed $q$ and $d$, their number is polynomial in $n$. For growing $d$, we determine the exponential order as $q^{\\Theta_q(d^2+d\\log_q(n/d))}$ in the sublinear regime and $q^{\\Theta(n^2)}$ when $d/n\\to\\alpha\\in(0,1)$. In the near-full regime $n-d=o(n)$, we obtain the sharper count $q^{(1/4+o(1))n^2}$. A random-generator construction further improves the binary lower bound for every fixed linear diameter.",
+   "abs": "https://arxiv.org/abs/2610.31618",
+   "pdf": "https://arxiv.org/pdf/2610.31618"
+  },
+  {
+   "id": "2610.31607",
+   "type": "new",
+   "title": "Quantum K-structure constants and cylindric Grothendieck polynomials for Grassmannians",
+   "authors": [
+    "Vassily Gorbounov",
+    "Christian Korff",
+    "Leonardo C. Mihalcea"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "nlin.SI"
+   ],
+   "primary": "math.CO",
+   "comments": "45 pages, 5 figures",
+   "abstract": "We use the partition functions of a five-vertex exactly solvable lattice model from statistical mechanics to give new combinatorial formulae for the Schubert structure constants of torus-equivariant quantum K-theory rings of Grassmannians. The proofs build on our earlier results where we identified the transfer matrices of these lattice models geometrically as multiplications by the Hirzebruch $\\lambda_y$ classes of the tautological subbundle and the (dual) quotient bundle. The structure constants are solutions of a system of linear equations with coefficients given by the partition function. This system may be solved explicitly by specializing the Hirzebruch parameter $y$ to an equivariant parameter, leading to explicit formulae using Cramer's rule. Furthermore, we give an alternative combinatorial construction of the partition functions in terms of sums over cylindric set-valued tableaux, which we call cylindric Grothendieck polynomials. The latter generalise McNamara's factorial skew Grothendieck and Yeliussizov's modified Grothendieck polynomials and can be thought of as an equivariant K-theoretic version of Postnikov's toric Schur function. We also provide new polynomial representatives for equivariant K-theory classes of Richardson varieties and their variants.",
+   "abs": "https://arxiv.org/abs/2610.31607",
+   "pdf": "https://arxiv.org/pdf/2610.31607"
+  },
+  {
+   "id": "2610.31533",
+   "type": "new",
+   "title": "Triple Quantum Schubert Calculus",
+   "authors": [
+    "Matthew J. Samuel"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "57 pages. Includes an appendix by Tongren Xiao and Yihua Yue proving triple quantum Schubert positivity. Algorithms implemented in the Python package schubmult",
+   "abstract": "We prove a triple quantum Pieri formula: the product of a quantum double Schubert polynomial $\\widetilde{\\mathfrak{S}}_u(x;y)$ by a quantum factorial elementary polynomial $\\widetilde{E}_{p,k}(x;z)$ in a second set of variables $z$ is a sum over chains in the quantum Bruhat graph, indexed by a quantum analogue of Sottile's relation, whose coefficients are monomials in the quantum parameters times polynomials in the differences $y_i-z_j$ with nonnegative integer coefficients, and which is Graham-positive at $z=y$. At $y=z=0$ it is the quantum Pieri rule of Ciocan-Fontanine and Postnikov; at $z=y$ it is an equivariant quantum Pieri rule for the complete flag variety, indexed by chains in the quantum Bruhat graph rather than, as in the rule of Huang and Li, by the data of a reduction to classical cohomology, and proved directly. A doubled Pieri formula, positive in the same senses, treats multiplication by the quantization of a product of two elementary polynomials in the same variables, which is not the product of the quantizations: it is two iterated Pieri steps with the incompatible pairs of chains omitted. More generally, the triple quantum Schubert structure constants $c_{u,v}^{w,d}(y;z)$, the coefficients of $\\widetilde{\\mathfrak{S}}_u(x;y)\\widetilde{\\mathfrak{S}}_v(x;z)$ in the basis $\\{\\widetilde{\\mathfrak{S}}_w(x;y)\\}$, are polynomials in the $y_i-z_j$ with nonnegative integer coefficients; the proof of this appears as an appendix. We extend the Peterson-Woodward comparison formula and the quantum-to-classical reduction of Leung-Li and Huang-Li to the triple constants, and we describe and prove correct the algorithms of schubmult, which compute products of arbitrary quantum double Schubert polynomials well beyond the reach of previous methods.",
+   "abs": "https://arxiv.org/abs/2610.31533",
+   "pdf": "https://arxiv.org/pdf/2610.31533"
+  },
+  {
+   "id": "2610.30373",
+   "type": "new",
+   "title": "Asymptotical results on the automorphism groups of canonical double cover of graphs",
+   "authors": [
+    "Bartłomiej Bychawski",
+    "Ademir Hujdurović",
+    "Đorđe Mitrović",
+    "Gabriel Verret"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "The canonical double cover $BX$ of a graph $X$ is the direct product $X\\times K_2$. A graph $X$ is stable if every automorphism of $BX$ is induced by automorphisms of $X$ and $K_2$, and unstable otherwise. We prove several asymptotic results on stable and unstable graphs. In particular, we show that the automorphism group of the canonical double cover of almost every graph has order $2$, and consequently that almost all graphs are stable. We also prove that the dominant sources of instability are having twins and being disconnected, in that order, and that graphs arising from a known construction are the next step in this hierarchy.",
+   "abs": "https://arxiv.org/abs/2610.30373",
+   "pdf": "https://arxiv.org/pdf/2610.30373"
+  },
+  {
+   "id": "2610.30654",
+   "type": "new",
+   "title": "NP-Hardness of Generalized-Turán Graph Modification Problems",
+   "authors": [
+    "Lior Gishboliner",
+    "Yevgeny Levanzov",
+    "Asaf Shapira"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For graphs $G, T$ and a graph-family $\\mathcal{H}$, let $ex(G,T,\\mathcal{H})$ denote the maximum possible number of copies of $T$ in an $\\mathcal{H}$-free subgraph of $G$. Alon and Shikhelman conjectured that for every family of graphs $\\mathcal{H}$ with $\\chi(H) > s$ for every $H \\in \\mathcal{H}$, it is NP-hard to compute $ex(G,K_s,\\mathcal{H})$, and even to approximate it up to additive error $n^{s-\\delta}$ on $n$-vertex graphs, for any fixed $\\delta > 0$. The case $s=2$ was established in a breakthrough result of Alon, Shapira and Sudakov. We prove the Alon-Shikhelman conjecture for finite families $\\mathcal{H}$. In particular, we obtain an elementary proof of the Alon-Shapira-Sudakov result when $\\mathcal{H}$ is finite.",
+   "abs": "https://arxiv.org/abs/2610.30654",
+   "pdf": "https://arxiv.org/pdf/2610.30654"
+  },
+  {
+   "id": "2610.31589",
+   "type": "new",
+   "title": "Conway's thrackle conjecture: a new upper bound of $\\frac43n$",
+   "authors": [
+    "Dániel Gábor Simon"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GN",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages, 2 figures",
+   "abstract": "A thrackle is a drawing of a graph in the plane in which every pair of edges meets exactly once, either at a common endpoint or at a proper crossing. Conway conjectured that every thrackle has at most as many edges as vertices. We prove that every thrackle on $n\\ge4$ vertices has at most $\\left\\lfloor4(n-1)/3\\right\\rfloor$ edges. The proof combines Pammer's computer-assisted verification of the conjecture for graphs on at most twelve vertices with a discharging argument in suitable plane and projective-plane embeddings.",
+   "abs": "https://arxiv.org/abs/2610.31589",
+   "pdf": "https://arxiv.org/pdf/2610.31589"
+  },
+  {
+   "id": "2610.30166",
+   "type": "new",
+   "title": "Exact Realization of Edge and Induced Three-Vertex Subgraph Counts",
+   "authors": [
+    "Hillel Schein"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages, 1 figure",
+   "abstract": "The study of three-vertex subgraph densities has developed along two complementary lines: exact finite realization in large graphs of a given order, and asymptotic approximate realization by sequences of graphs. We bridge these viewpoints for the edge density and the four induced three-vertex subgraph densities. By analyzing local modifications of finite samples from graphons, we show that, for any nonempty subset of these densities, every asymptotically feasible target vector lying a fixed positive distance from the boundary of the corresponding feasible region is realized exactly by a graph of every sufficiently large order, subject only to the natural arithmetic constraints. Thus, in the interior of these feasible regions, asymptotic feasibility implies exact finite realizability up to the unavoidable arithmetic obstructions.",
+   "abs": "https://arxiv.org/abs/2610.30166",
+   "pdf": "https://arxiv.org/pdf/2610.30166"
+  },
+  {
+   "id": "2610.30503",
+   "type": "new",
+   "title": "The linearity Conjecture",
+   "authors": [
+    "Peter Sziklai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Linearity Conjecture states that in the projective plane PG(2,$q$), $q=p^h$, every minimal blocking set (w.r.t. lines) is a linear point set over some subfield of ${\\mathbb F}_q$. This paper contains the proof of the Linearity Conjecture for $p^e\\ne 3,4$, where $e$ is the exponent of the blocking set. The text contains 3 concatenated parts. In Part 0, we give a guide for reading Parts 1 and 2. Part 1 develops a great part of the method, and the case $p^e=2$ is solved. In Part 2 we prove the Linearity Conjecture for $p^e\\geq 5$.",
+   "abs": "https://arxiv.org/abs/2610.30503",
+   "pdf": "https://arxiv.org/pdf/2610.30503"
+  },
+  {
+   "id": "2610.30700",
+   "type": "new",
+   "title": "On Arithmetic-Progression Biases in Random Partitions: Limiting Laws and the Li-Zhao Conjecture",
+   "authors": [
+    "Jiyou Li",
+    "Sicheng Zhao"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages",
+   "abstract": "Let $\\cR=\\{r+jm:j\\geq0\\}$ and $\\cS=\\{s+jm:j\\geq0\\}$ be disjoint arithmetic progressions of positive integers, and choose a partition of $n$ uniformly at random. We determine the limiting probability that the number of parts in $\\cR$ is larger than the number of parts in $\\cS$. More precisely, if $a=r/m$ and $b=s/m$, then this probability converges to $I_{1/2}(a,b)$, the regularized incomplete beta function. We prove the stronger distributional statement that, after multiplication by the partition saddle-point parameter, the difference of the two numbers of parts converges to $m^{-1}(\\log G_b-\\log G_a)$, where $G_a$ and $G_b$ are independent gamma variables. The proof uses the Boltzmann conditioning device for random partitions, a $q$-gamma evaluation of the unconditioned characteristic function, and a uniform Fourier estimate showing that conditioning on the total size does not change the limit. We also evaluate the finite-truncation limit studied by Li and Zhao. The two evaluations coincide, proving their conjecture on the commutation of the truncation and large-size limits.",
+   "abs": "https://arxiv.org/abs/2610.30700",
+   "pdf": "https://arxiv.org/pdf/2610.30700"
+  },
+  {
+   "id": "2610.30613",
+   "type": "new",
+   "title": "Asymptotically Sharp Length Thresholds for \\texorpdfstring{$q$}{q}-ary Codes with Distances \\texorpdfstring{$2$}{2} and \\texorpdfstring{$4$}{4}",
+   "authors": [
+    "Valjakas Djaljapayan",
+    "Yen-Chi Roger Lin",
+    "Wei-Hsuan Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For an integer $q\\ge5$, let $A_q(n,\\{2,4\\})$ be the largest cardinality of a subset of a $q$-ary Hamming space of length $n$ in which every two distinct words have distance $2$ or $4$. Set \\[ N(q)=\\left\\lceil\\max\\left\\{2q+1,\n\\frac{17+\\sqrt{8q^2+96q-95}}2\\right\\}\\right\\rceil. \\] We prove that $A_q(n,\\{2,4\\})=1+\\binom n2$ for every $n\\ge N(q)$. In particular, $N(q)=2q+1$ for $q\\ge26$. An explicit code of size $q(n-2)$ shows that the least eventual threshold $N_*(q)$ satisfies $N_*(q)\\ge2q-1$; consequently $2q-1\\le N_*(q)\\le2q+1$ for every $q\\ge26$. The argument applies to arbitrary integer alphabet sizes, without a linearity assumption. Its main ingredients are synchronization of symbols on intersecting supports, weighted bounds for $2$-intersecting families of four-sets, and a joint estimate for the weight-two and weight-four layers in a common-three-core configuration. No computational verification is required.",
+   "abs": "https://arxiv.org/abs/2610.30613",
+   "pdf": "https://arxiv.org/pdf/2610.30613"
+  },
+  {
+   "id": "2610.30369",
+   "type": "new",
+   "title": "Permutation classes need not have proper growth rates",
+   "authors": [
+    "Jay Pantone",
+    "Vincent Vatter"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "By the Marcus-Tardos Theorem (formerly the Stanley-Wilf Conjecture), every permutation class other than the class of all permutations has a finite upper growth rate, meaning that the $n$th root of the number of permutations of length $n$ in the class has a finite limit superior. It has long been conjectured that this limit superior is in fact always a proper limit. We disprove this by constructing a permutation class whose upper and lower growth rates differ. The construction uses grid classes with cubic row-column graphs of increasing girth, obtained from Haar graphs of finite 2-groups. The corresponding hereditary property of ordered graphs also disproves an analogous 2006 conjecture of Balogh, Bollobás, and Morris. Along the way, we show that every proper permutation class with a D-finite generating function has a proper growth rate. We also establish refined enumerative bounds for grid classes, which lead to a short proof of Albert and Vatter's generalization of Bevan's Theorem on the growth rates of grid classes.",
+   "abs": "https://arxiv.org/abs/2610.30369",
+   "pdf": "https://arxiv.org/pdf/2610.30369"
+  },
+  {
+   "id": "2610.30165",
+   "type": "new",
+   "title": "Connected graphs with equal independence number and radius",
+   "authors": [
+    "Xingzhi Zhan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "A classical theorem states that the independence number of any connected graph is at least its radius. In 2007, DeLaViña, Pepper, and Waller proved that every connected graph with equal independence number and radius is traceable. We first give a new short proof of this theorem and then prove two results for graphs of higher connectivity. (1) Every 2-connected graph with equal independence number and radius is Hamiltonian. (2) Every 3-connected graph with equal independence number and radius is Hamiltonian-connected and pancyclic. Several lemmas used in the proofs are of independent interest.",
+   "abs": "https://arxiv.org/abs/2610.30165",
+   "pdf": "https://arxiv.org/pdf/2610.30165"
+  },
+  {
+   "id": "2610.30335",
+   "type": "cross",
+   "title": "Simultaneous popular polynomial differences in higher dimensions",
+   "authors": [
+    "Guo-Dong Hong"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "13 pages",
+   "abstract": "We extend the simultaneous popular polynomial difference theorem of Conlon, Dong, and the author to polynomial shifts along prescribed directions in $\\mathbb{F}_p^D$. Let $P_1,\\ldots,P_k\\in\\mathbb{Z}[t]$ be linearly independent polynomials with zero constant terms, and let $v_1,\\ldots,v_k\\in\\mathbb{Z}^D\\setminus\\{0\\}$. We show that, for every $\\varepsilon>0$, every sufficiently large prime $p$, and every $A\\subseteq\\mathbb{F}_p^D$ of density $\\alpha$, there exists a nonzero $d\\in\\mathbb{F}_p$ such that \\[\n\\mathbb{E}_{\\underline{x}\\in\\mathbb{F}_p^D}\n\\mathbf{1}_A(\\underline{x})\n\\prod_{\\substack{1\\leq i\\leq k\\\\ \\omega_i=1}}\n\\mathbf{1}_A\\bigl(\\underline{x}+P_i(d)v_i\\bigr)\n\\geq \\alpha^{\\,1+\\sum_{i=1}^k\\omega_i}-\\varepsilon \\] simultaneously for every $\\omega\\in\\{0,1\\}^k$. The main new ingredient is a directional arithmetic regularity decomposition adapted to mixed directional box norms.",
+   "abs": "https://arxiv.org/abs/2610.30335",
+   "pdf": "https://arxiv.org/pdf/2610.30335"
+  },
+  {
+   "id": "2610.30712",
+   "type": "new",
+   "title": "Fuglede's conjecture holds in $\\mathbb{F}_{p}^{d}$ for $p=2,\\,d=8$ and $p=11,\\,d=3$",
+   "authors": [
+    "Samuel J. Ferguson",
+    "Joshua Iosevich"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "81 pages",
+   "abstract": "Fuglede's conjecture in $\\mathbb{F}_p^d$ says that a nonempty set tiles by translation if and only if it is spectral. We prove the conjecture in $\\mathbb{F}_2^8$ and $\\mathbb{F}_{11}^3$. Over $\\mathbb{F}_2$ we show more generally that the Fourier support of a nonconstant indicator of density different from one half contains a plane. Consequently every spectral set of density one quarter has a subspace tiling complement. This supplies one of the dimension-eight reductions left by Kadowaki; the others are completed using classified Hadamard matrices and perfect binary codes. In $\\mathbb{F}_2^9$ we prove that every tile is spectral and that every spectral set has power-of-two cardinality. All spectral cardinalities except $64$ are shown to tile, and we give further reductions of the remaining case. We also construct a spectral set of density one eighth whose Fourier support contains no three-dimensional subspace. For $\\mathbb{F}_{11}^3$ we extend the geometric method of Fallon, Mayeli, and Villano by using moment identities, polynomial plane profiles, weighted incidence counts, and exact finite computations. The computations and their verification programs are described in the appendices.",
+   "abs": "https://arxiv.org/abs/2610.30712",
+   "pdf": "https://arxiv.org/pdf/2610.30712"
+  },
+  {
+   "id": "2610.31513",
+   "type": "cross",
+   "title": "Closing All-Exp Gaps in Local Search for the Traveling Salesman Problem and Maximum Constraint Assignment",
+   "authors": [
+    "Sophia Heimann",
+    "Hung P. Hoang",
+    "Stefan Hougardy"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "36 pages",
+   "abstract": "We prove the all-exp property for the Traveling Salesman Problem with the $2$-opt neighborhood, and for $(3,2,2)$- and $(2,3,2)$-Maximum Constraint Assignment with the flip neighborhood. The all-exp property states that infinitely many instances have an initial solution from which every sequence of improving moves to a local optimum, and hence every run of local search, has exponential length. For the Traveling Salesman Problem, the all-exp property was previously known for every $k$-opt neighborhood with $k \\ge 3$, so our result for $2$-opt completes the picture for all $k$-kopt neighborhoods. In $(p,q,r)$-Maximum Constraint Assignment, each constraint involves at most $p$ variables, each variable occurs in at most $q$ constraints, and each domain has size $r$. Decreasing any of the parameters of $(3,2,2)$ or $(2,3,2)$ yields a problem in which every sequence of improving flips has polynomial length, so both Maximum Constraint Assignment results are tight. All three results settle long-standing open problems. Our proofs build on a common construction idea, which reveals a close connection between the local-search dynamics of the three problems.",
+   "abs": "https://arxiv.org/abs/2610.31513",
+   "pdf": "https://arxiv.org/pdf/2610.31513"
+  },
+  {
+   "id": "2610.30299",
+   "type": "new",
+   "title": "Cographs in chordal graphs",
+   "authors": [
+    "Sepehr Hajebi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$, let $\\text{cg}(G)$ be the maximum $k\\in \\mathbb N$ for which $G$ contains a $k$-vertex cograph as an induced subgraph. The Erdős-Hajnal conjecture asserts that for every proper hereditary graph class $\\mathcal{G}$, there exists $\\gamma\\in(0,1]$ such that every $n$-vertex graph $G\\in\\mathcal{G}$ satisfies $\\text{cg}(G)\\geq n^\\gamma$. This is still open; however, for some hereditary classes, one may guarantee much stronger bounds. For instance, every chordal graph $G$ on $n\\geq 2$ vertices satisfies $\\text{cg}(G)\\geq n/(2\\log n)$. Paul Seymour asked whether this bound is optimal up to a constant factor. We answer this affirmatively, even for interval graphs: For every integer $n\\geq 2$, we construct an $n$-vertex interval graph $G$ with $\\text{cg}(G)<64n/\\log n$.",
+   "abs": "https://arxiv.org/abs/2610.30299",
+   "pdf": "https://arxiv.org/pdf/2610.30299"
+  },
+  {
+   "id": "2610.30174",
+   "type": "new",
+   "title": "An elementary proof of a tight $Δ+1$ bound for the additive chromatic number",
+   "authors": [
+    "Alex Koutsoutis",
+    "Joseph Koutsoutis"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An additive coloring assigns positive integer labels to the vertices of a graph so that adjacent vertices have different sums of their neighbors' labels. The additive chromatic number $\\eta(G)$ is the least $k$ for which labels from $[k]$ suffice. We give an elementary orientation argument proving that every finite simple graph $G$ satisfies $\\eta(G) \\leq \\Delta(G) + 1$. This argument yields a $(\\Delta(G) + 1)$-additive-coloring in polynomial time and improves upon the current best bound of $\\eta(G) \\leq \\Delta(G)^{2} - \\Delta(G) + 1$, valid for $\\Delta(G) \\geq 2$, from Akbari, Ghanbari, Manaviyat, and Zare.",
+   "abs": "https://arxiv.org/abs/2610.30174",
+   "pdf": "https://arxiv.org/pdf/2610.30174"
+  },
+  {
+   "id": "2610.31499",
+   "type": "new",
+   "title": "Water Transport on 3-Spiders: Unbounded Lengths of Shortest Optimal Strategies",
+   "authors": [
+    "Guanheng Chen",
+    "Ran Tao",
+    "Tianyi Tao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a finite simple graph. An averaging operation selects a nonempty connected vertex set and replaces the weights of its vertices by their arithmetic mean. For a nonnegative initial weight function $\\omega:V(G)\\to\\mathbb R_{\\ge0}$ and a target vertex $x$, let $t(G,x,\\omega)$ denote the minimum number of averaging operations needed to attain the maximum reachable weight at $x$. Gollin et al.[1] proved, using the Axiom of Choice, that a finite optimal strategy exists for every finite graph, every nonnegative initial weight function and every target vertex; see Tao [2] for a simplified proof. We prove that the lengths of shortest optimal strategies on $3$-spiders have no uniform finite bound. In particular, these lengths cannot be bounded in terms of the maximum degree of the graph.",
+   "abs": "https://arxiv.org/abs/2610.31499",
+   "pdf": "https://arxiv.org/pdf/2610.31499"
+  },
+  {
+   "id": "2610.31516",
+   "type": "new",
+   "title": "Functions determining $(q+3)/2$ directions over the finite field with $q$ elements",
+   "authors": [
+    "Bence Csajbók"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $q=p^n$, where $p>2$ is prime. We prove that every $q$-set $U\\subseteq\\mathrm{AG}(2,q)$ determining exactly $(q+3)/2$ directions is affinely equivalent to the graph of $x^{(q+1)/2}$. For $n\\ge2$, we also prove that a $q$-set determining at most $(q+p)/2$ directions is either an affine $\\mathbb{F}_p$-linear set or affinely equivalent to this graph. The classification for $n=1$ is due to Lovász and Schrijver. For $n=2$, the classification and the stated stability result follow from results of Gács, Lovász, and Sz\\H onyi and the direction theorems of Blokhuis, Ball, Brouwer, Storme, and Sz\\H onyi, completed by Ball. These direction theorems establish affine $\\mathbb{F}_p$-linearity for functions with fewer than $(q+3)/2$ determined directions. Our proof uses Rédei polynomials, results of Gács, Lovász, and Sz\\H onyi on their coefficients, and an earlier polynomial comparison lemma of the author.",
+   "abs": "https://arxiv.org/abs/2610.31516",
+   "pdf": "https://arxiv.org/pdf/2610.31516"
+  },
+  {
+   "id": "2610.30185",
+   "type": "new",
+   "title": "Inverting Dependently Random Tournaments",
+   "authors": [
+    "Kada Williams"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\text{inv}(T)$ be the inversion index of the tournament $T$. Answering a question of Behague, we show that $\\text{inv}(T_1\\to T_2)=\\text{inv}(T_1)+\\text{inv}(T_2)$ does not even hold asymptotically.",
+   "abs": "https://arxiv.org/abs/2610.30185",
+   "pdf": "https://arxiv.org/pdf/2610.30185"
+  },
+  {
+   "id": "2610.30615",
+   "type": "new",
+   "title": "The Ternary and Quaternary Cases of the $\\{2,4\\}$-Distance Code Conjecture",
+   "authors": [
+    "Yen-Chi Roger Lin",
+    "Valjakas Djaljapayan",
+    "Wei-Hsuan Yu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For an integer $q\\ge2$, let $A_q(n,\\{2,4\\})$ be the largest cardinality of an unrestricted $q$-ary code of length $n$ in which any two distinct words have Hamming distance $2$ or $4$. We prove that \\[\nA_q(n,\\{2,4\\})=1+\\binom n2\n\\qquad(q\\in\\{3,4\\},\\ n\\ge6), \\] thereby settling the two remaining alphabet sizes in the conjecture of Boyvalenkov, Delchev, Zinoviev, and Zinoviev; the binary case was settled previously. The quaternary result implies the ternary result by alphabet inclusion. For $n\\ge16$, the quaternary upper bound is proved combinatorially. After normalizing one word to zero, the weight-four supports form a $2$-intersecting family; exact support intersections force symbol synchronization and restrict support multiplicities. We combine the nontrivial intersection theorem with matching arguments and a three-coordinate projection lemma. The finite lengths $6\\le n\\le13$ are handled by a complete Hamming-isometry reduction to exact clique decisions, and $n=14,15$ by a smaller exact weighted-clique relaxation. All finite decisions are reproduced by two standalone integer-only C++17 verifiers provided as supplementary source files.",
+   "abs": "https://arxiv.org/abs/2610.30615",
+   "pdf": "https://arxiv.org/pdf/2610.30615"
+  },
+  {
+   "id": "2610.30458",
+   "type": "cross",
+   "title": "Polynomial pathwidth for graphs vertex-coverable by few shortest paths and algorithms for quasi-shortest path covers",
+   "authors": [
+    "Li-Hsuan Chen",
+    "Florent Foucaud",
+    "Ling-Ju Hung",
+    "Ralf Klasing",
+    "Lucas Lorieau",
+    "Peter Rossmanith"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "21 pages, 1 figure",
+   "abstract": "We study how covering a graph by a small number of shortest or approximately shortest paths/walks constrains its treewidth and pathwidth. A path or walk is $(\\alpha,\\beta)$-quasi-shortest for $\\alpha\\geq1$ and $\\beta\\geq 0$ if each contiguous segment has length at most $\\alpha$ times the distance between its endpoints plus $\\beta$.\nFor graphs vertex-covered by $k$ shortest paths, we establish the first known polynomial pathwidth bound of $O(k^3)$. For edge-coverage, we improve the previously known $O(k^4)$ upper bound to $O(k^2\\log k)$. As a main ingredient of the proofs, we first show that if the vertices of a graph can be covered by $k$ $(\\alpha,\\beta)$-quasi-shortest paths or walks, then its treewidth is $O_{\\alpha,\\beta}(k^2)$; this is a consequence of the fact that such graphs have linear metric growth and the technique developed in [Campbell et al., E-JC 2023]. To obtain the above pathwidth upper bounds, we combine this result with techniques from the literature in a nontrivial way.\nOn the other hand, we show that there exist connected bipartite cubic graph whose edges can be covered by $k$ shortest paths and whose pathwidth is $\\Omega(k\\log k)$, providing the first superlinear lower bound. For graphs covered by $k=2$ $(\\alpha,0)$-quasi-shortest paths with $\\alpha>1$, we show that, unlike treewidth and unlike the case $\\alpha=1$ and $\\beta=0$ of exact shortest paths, the pathwidth may be unbounded.\nFinally, for every fixed rationals $\\alpha\\geq1$ and $\\beta\\geq 0$, we give XP algorithms with a running time of $n^{f(k,\\alpha,\\beta)}$ for some function~$f$ that decide whether the vertices of a graph can be covered by at most $k$ $(\\alpha,\\beta)$-quasi-shortest paths or walks. The algorithms combine our treewidth upper bounds with an algorithmic meta-theorem from [Dreier et al., LICS 2025].\n[abstract shortened to meet the arXiv requirements]",
+   "abs": "https://arxiv.org/abs/2610.30458",
+   "pdf": "https://arxiv.org/pdf/2610.30458"
+  },
+  {
+   "id": "2610.30730",
+   "type": "new",
+   "title": "Probabilistic and game thresholds",
+   "authors": [
+    "Rajko Nenadov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "Let $X$ be a finite set and $\\mathcal{F} \\subseteq 2^X$ a non-trivial increasing property. We show that the bias-threshold $b(\\mathcal{F})$ for the Picker-Chooser $\\mathcal{F}$-game satisfies $b(\\mathcal{F}) \\ge \\alpha / p_c(\\mathcal{F})$, where $p_c(\\mathcal{F})$ is the threshold for the property $\\mathcal{F}$ and $\\alpha > 0$ is an absolute constant. This proves that Picker-Chooser games satisfy one-sided ``probabilistic intuition''. The proof is based on the notion of influence from the theory of boolean functions.",
+   "abs": "https://arxiv.org/abs/2610.30730",
+   "pdf": "https://arxiv.org/pdf/2610.30730"
+  },
+  {
+   "id": "2610.31590",
+   "type": "cross",
+   "title": "Upper tail large deviations of regular subgraph counts in sparse random regular graphs",
+   "authors": [
+    "Anirban Basak",
+    "Shaibal Karmakar"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "56 pages, 2 figures",
+   "abstract": "For a $\\Delta$-regular connected graph $H$ we obtain the upper tail large deviations speed and rate function for the number of copies of $H$ in $\\mathbb{G}_n^d$, a random $d$-regular graph on $n$ vertices, in the regime $np^{\\Delta/2} \\gg (\\log n)^{1/(v_H-2)}$ and $p \\ll 1$, where $p:=d/n$ and $v_H$ is the number of vertices, and also identify the typical structure of $\\mathbb{G}_n^d$ conditioned on this upper tail event. For $\\Delta \\geq 3$, the speed and the rate function are same with those in the Erdős-Rényi setting. In contrast, for $\\Delta=2$ (i.e.~in case of cycles), due to the degree constraint in $\\mathbb{G}_n^d$, although speed remains the same the rate function turns out to be different. Moreover, conditioned on the upper tail event of cycle counts in $\\mathbb{G}_n^d$, we show that the random graph contains a disjoint collection of clique and biclique like structures with probability approaching to one, a stark contrast compared to the Erdős-Rényi setting.\nIn the complementary regime, i.e.~for $1 \\ll n^{v_H}p^{e_H} \\ll (\\log n)^{\\alpha^*_H/(\\alpha^*_H-1)}$, where $e_H$ is the number of edges in $H$, $\\alpha^*_H$ is the fractional independence number of $H$, and $H$ is a strictly balanced graph (and thus including the regular case), we show that the upper tail large deviations speed and rate function for the number of copies of $H$ match with those in the Erdős-Rényi setting. In this regime, we further show that almost all of the unlabeled copies of $H$ conditioned on the upper tail event are edge disjoint.",
+   "abs": "https://arxiv.org/abs/2610.31590",
+   "pdf": "https://arxiv.org/pdf/2610.31590"
+  },
+  {
+   "id": "2610.30283",
+   "type": "new",
+   "title": "Syzygy and Adjoint Matroids",
+   "authors": [
+    "Jaeho Shin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 5 figures",
+   "abstract": "We give a matroid-theoretic analogue of Gaussian elimination and use it to construct, for every matroid M, the syzygy matroid Syz(M) on the collection of circuits of M. Dualizing the construction yields the combinatorial adjoint Adj(M) on the collection of maximal proper flats of M, and the two are related by Adj(M) \\simeq Syz(M*). Neither construction depends on a realization. We determine Syz(M) when M is U_{k,k+3} or the Vamos matroid V_{8}. We also show that Adj(M) is an adjoint of M when M has rank 3. When M has rank 4 and V_{8} is a restriction of M, Adj(M) has rank 3 and is not an adjoint of M.",
+   "abs": "https://arxiv.org/abs/2610.30283",
+   "pdf": "https://arxiv.org/pdf/2610.30283"
+  },
+  {
+   "id": "2610.31638",
+   "type": "cross",
+   "title": "No Perfect Randomized Composition",
+   "authors": [
+    "Alexander Meiburg"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "56 pages",
+   "abstract": "Does computing a composition of total Boolean functions require the product of the randomized query complexities of its factors? We give a negative answer. There are families of total functions $f,g$ such that $R(f\\circ g) =\\Theta\\!\\left(\\frac1{\\log R(g)}\\right)R(f)R(g)$ This result requires first separating linearized query complexity $\\LR$, as well as noisy randomized query complexity $noisyR$, from standard randomized query complexity $R$. Both constructions essentially come from totalizing existing partial function separations, albeit via different techniques.\nBy adapting these techniques, we also construct total functions separating every adjacent pair in the chain from sabotage $RS$, max-conflict $\\bar{\\chi}$, and linearised query complexity $LR$. We show that AND-of-ORs separates conflict $\\chi$ from max-conflict $\\bar{\\chi}$ complexity and makes conflict and sabotage incomparable. Finally, randomized complexity can be smaller than its composition limit $R^*$ by the maximal factor $\\Theta(\\log R)$. The total--total composition separation is also formalized in Lean.",
+   "abs": "https://arxiv.org/abs/2610.31638",
+   "pdf": "https://arxiv.org/pdf/2610.31638"
+  },
+  {
+   "id": "2610.30719",
+   "type": "new",
+   "title": "Weighted odd-cycle transversals and fractional colorings of planar graphs",
+   "authors": [
+    "Xiaolan Hu",
+    "Jiaao Li",
+    "Zhouningxin Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We bound fractional chromatic numbers by establishing a connection with low-weight odd-cycle transversals. Let $\\ell\\geq 3$ be an integer and let $G$ be a graph of odd girth at least $\\ell$ whose odd-cycle covering polyhedron is integral. For every nonnegative weight vector $w=(w_v)_{v\\in V(G)}\\in \\mathbb{R}_{\\geq 0}^{V(G)}$, we obtain a set $Z\\subseteq V(G)$ such that $G-Z$ is bipartite and $w(Z)\\leq\\frac{mad(G)}{2\\ell}w(V(G))$. Here, $w(S)=\\sum_{v\\in S}w_v$ for any $S\\subseteq V(G)$, and $mad(G)$ denotes the maximum average degree of $G$. Consequently, if $mad(G)<2\\ell$, then $G$ has fractional chromatic number at most $\\frac{4\\ell}{2\\ell-mad(G)}$.\nAs applications, we prove that, for every positive integer $k$, every $n$-vertex planar graph of girth at least $2k+3$ has fractional chromatic number at most $\\frac{2k+1}{k}(1-\\frac{1}{kn+1})$, establishing the girth version of Naserasr's fractional coloring conjecture with a strict inequality. For $k=1$, we furthermore prove that the upper bound $\\frac{3n}{n+1}$ holds for every $n$-vertex triangle-free planar graph and this is attained for infinitely many values of $n$.",
+   "abs": "https://arxiv.org/abs/2610.30719",
+   "pdf": "https://arxiv.org/pdf/2610.30719"
+  },
+  {
+   "id": "2610.30662",
+   "type": "new",
+   "title": "Aleshin graphs are expanders",
+   "authors": [
+    "Olga Kharlampovich",
+    "Alina Vdovina"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the Aleshin level graphs are two-sided expanders. We establish linear diameter bounds for Belaterra and Aleshin graph families. At level $n$, the diameters of the Bellaterra and undirected Aleshin graphs are a $|V_n|=2^n$. This improves the quadratic diameter bounds of Malyshev and Pak to the correct order of growth. For the Aleshin graphs we obtain a normalized spectral gap of at least $1-2\\sqrt2/3$ and an edge-expansion constant of at least $3-2\\sqrt2$, thereby establishing a Malyshev--Pak's Conjecture with explicit constants. An exact calculation at level ten also proves that the undirected Aleshin graphs are not Ramanujan for any $n\\geq10$.",
+   "abs": "https://arxiv.org/abs/2610.30662",
+   "pdf": "https://arxiv.org/pdf/2610.30662"
+  },
+  {
+   "id": "2610.30711",
+   "type": "cross",
+   "title": "Complete Determination of the Gallai--van der Waerden Number \\(\\mathrm{GW}(r;3,3)\\)",
+   "authors": [
+    "Yuan Si"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "This paper completely determines the Gallai--van der Waerden number \\(\\mathrm{GW}(r;3,3)\\) for all integers \\(r\\ge 3\\):\n\\[\n\\mathrm{GW}(3;3,3)=\\mathrm{GW}(4;3,3)=9,\\qquad\n\\mathrm{GW}(r;3,3)=r\\quad (r\\ge 5).\n\\]",
+   "abs": "https://arxiv.org/abs/2610.30711",
+   "pdf": "https://arxiv.org/pdf/2610.30711"
+  },
+  {
+   "id": "2610.30382",
+   "type": "cross",
+   "title": "The longest increasing subsequences of Luce permutations and permutons",
+   "authors": [
+    "Jacopo Borga",
+    "Victor Dubach"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "28 pages. Comments welcome!",
+   "abstract": "We investigate the longest increasing subsequences (LIS) of random permutations distributed under the Luce model with weights $\\theta_1^{(n)} \\ge \\ldots \\ge \\theta_n^{(n)}$. Our first main result provides a general formula for the growth rate of the LIS. For example, we get that the LIS of Luce permutations with Sukhatme weights $\\theta_k^{(n)} = n-k+1$ grows like $\\sqrt{n}$. We also give simple conditions for the LIS to be of order $n^\\beta$, for any given $\\beta\\in[1/2,1)$. Our second main result states that, if the weights are of the form $\\theta_k^{(n)} = f\\big( (k-1)/n \\big)$ for a sufficiently regular function $f$, then the LIS divided by $2\\sqrt{n}$ converges in probability to a constant $K(f)$ described by a variational problem. Throughout, we make extensive use of coupling techniques; in particular, to prove our second main result, we argue that Luce random permutations behave similarly to random permutations sampled from the ``Luce permuton''.",
+   "abs": "https://arxiv.org/abs/2610.30382",
+   "pdf": "https://arxiv.org/pdf/2610.30382"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.30490",
+   "type": "new",
+   "title": "A note on the proof of Barnette's conjecture",
+   "authors": [
+    "Zhentao Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 3 figures",
+   "abstract": "Barnette's conjecture states that every cubic 3-connected bipartite planar graph has a Hamiltonian cycle. We present a digested exposition of OpenAI's generated proof of Barnette's conjecture \\cite{openai-barnette}.",
+   "abs": "https://arxiv.org/abs/2610.30490",
+   "pdf": "https://arxiv.org/pdf/2610.30490"
+  }
+ ],
+ "listed_new": 39,
+ "listed_cross": 13
+}
