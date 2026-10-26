@@ -1,0 +1,584 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T02:59:48Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-26",
+ "screened": 42,
+ "screened_new": 27,
+ "screened_cross": 15,
+ "scored": 42,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.32745",
+   "type": "cross",
+   "title": "The totally nonnegative wonderful compactification of G is a ball",
+   "authors": [
+    "Sam Evens",
+    "Steven N. Karp"
+   ],
+   "categories": [
+    "math.RT",
+    "math.CO"
+   ],
+   "primary": "math.RT",
+   "comments": "19 pages",
+   "abstract": "Let $\\overline{G}$ denote the wonderful compactification of a semisimple algebraic group $G$ of adjoint type. We use contractive flows to show that the totally nonnegative part of every $G \\times G$ orbit closure of $\\overline{G}$ is homeomorphic to a closed Euclidean ball. In particular, the totally nonnegative part of $\\overline{G}$ is homeomorphic to a closed ball.",
+   "abs": "https://arxiv.org/abs/2610.32745",
+   "pdf": "https://arxiv.org/pdf/2610.32745"
+  },
+  {
+   "id": "2610.32000",
+   "type": "new",
+   "title": "Polychromatic blocks and explicit lower bounds for multicolour van der Waerden numbers",
+   "authors": [
+    "Seonbin Kim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "Let $W(r,k)$ be the least $N$ such that every $r$-colouring of $\\{1,\\dots,N\\}$ contains a monochromatic $k$-term arithmetic progression. Many of the best lower bounds for $W(r,k)$ with $r\\ge3$ come from blow-up recurrences of Blankenship, Cummings and Taranchuk and of Xu, in which a known colouring is lengthened by a periodic block. Call an $h$-colouring of $Z_q$ $k$-polychromatic if every $k$-term progression with nonzero common difference meets each of the $h$ colours. The argument behind these recurrences shows that such a colouring gives $W(r,k)>q(W(r-\\lceil r/h\\rceil,k)-1)$ for all $r\\ge h$. We show that cubic, quartic, quintic and sextic residue colourings give $k$-polychromatic blocks with $q$ much larger than $k$ (e.g. $q=1,376,317$ for $h=3$ and $k=28$), and use them to get explicit lower bounds. For three colours and $9\\le k\\le28$ we improve on every published bound we know of, among them $W(3,9)>4,002,705$ and $W(3,28)>159,594,201,561,100,726$. For $3\\le r\\le6$ and $9\\le k\\le28$, $77$ of the $80$ cases improve on what the published bounds give under these recurrences and the other three tie. For $r=5$ and $12\\le k\\le15$ the best values come from palettes that are cyclic intervals of colours indexed by quintic residues. We checked every block by exhaustive enumeration and every base colouring by computer. We also prove that the block modulus is at most $(W(2,k)-1)/(k-1)$, so the method does not improve the asymptotics. For large $k$ the largest cubic block modulus lies between $k^{4-\\varepsilon}$ and $k^2 4^k$.",
+   "abs": "https://arxiv.org/abs/2610.32000",
+   "pdf": "https://arxiv.org/pdf/2610.32000"
+  },
+  {
+   "id": "2610.32219",
+   "type": "cross",
+   "title": "A Sharp Upper Bound for the Frobenius Number",
+   "authors": [
+    "Lin Chen",
+    "Tingwei Hu",
+    "Yuchen Mao",
+    "Guochuan Zhang"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "Let $0<a_1<\\cdots<a_n$ be integers with $n\\ge 2$ and $\\gcd(a_1,\\ldots,a_n)=1$. Their Frobenius number $F(a_1,\\ldots,a_n)$ is the largest integer that cannot be expressed as a nonnegative integer combination of $a_1,\\ldots,a_n$. Erdős and Graham proved the classical bound $F(a_1,\\ldots,a_n)\\le 2a_{n-1}\\lfloor a_n/n\\rfloor-a_n$, which depends on the two largest generators. Dixmier subsequently proved their conjecture $F(a_1,\\ldots,a_n)\\le a_n^2/(n-1)$, a bound depending only on $a_n$ and $n$ that removes the factor $2$ from the corresponding quadratic estimate. Following the Erdős--Graham approach, we remove the factor $2$ while retaining the dependence on $a_{n-1}$, and prove $F(a_1,\\ldots,a_n)\\le a_{n-1}\\lceil a_n/(n-1)\\rceil-a_n-1$. This bound can be substantially smaller than Dixmier's when $a_{n-1}$ is small relative to $a_n$. For every $n\\ge3$, we also construct infinitely many instances satisfying the reverse inequality, which shows that the bound is sharp.",
+   "abs": "https://arxiv.org/abs/2610.32219",
+   "pdf": "https://arxiv.org/pdf/2610.32219"
+  },
+  {
+   "id": "2610.32737",
+   "type": "new",
+   "title": "A probabilistic construction of maximum $h$-scattered subspaces",
+   "authors": [
+    "Alessandro Giannoni",
+    "Alessandro Neri"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $1\\le h\\le n-2$ and $g=\\gcd(n,h+1)$. We prove that, for every prime power $q$, a maximum $h$-scattered $\\mathbb{F}_q$-subspace of $V(r,q^n)$ exists whenever $(h+1)\\mid rn$ and $$r\\ge\\frac{h+1}{g}\\bigl(h(n-h-2)+1\\bigr).$$ In particular, for fixed $n$ and minimum distance $\\delta\\in\\{2,\\ldots,n-1\\}$, $\\mathbb{F}_{q^n}$-linear MRD codes of length $N$ exist for every $q$ and every sufficiently large $N$ such that $n$ divides $(n-\\delta+1)N$, with a bound on $N$ depending only on $n$ and $\\delta$. We take the $\\mathbb{F}_{q^s}$-span of the columns of a random matrix $A$ over the algebra $R=\\mathbb{F}_{q^n}\\otimes_{\\mathbb{F}_q}\\mathbb{F}_{q^s}$, for a suitable $s$. Such a subspace is maximum $h$-scattered if and only if the kernel of $A$ contains no nonzero vector whose expansion with respect to an $\\mathbb{F}_q$-basis of $\\mathbb{F}_{q^s}$ has rank weight at most $h+1$. When $\\gcd(n,s)=1$, $R$ is a field, and a first-moment argument, counting these vectors up to multiplication by $\\mathbb{F}_{q^n}^*\\mathbb{F}_{q^s}^*$, shows that with positive probability the kernel contains none of them if $s>h(n-h-2)$. When $d=\\gcd(n,s)>1$, $R$ is a product of $d$ fields, and vectors vanishing in some factors lie in the kernel with larger probability. We control them by proving that, for an $(h+1)$-dimensional $\\mathbb{F}_q$-subspace $D$ of $\\mathbb{F}_{q^n}$, the elements of $D\\otimes_{\\mathbb{F}_q}\\mathbb{F}_{q^s}$ vanishing outside $k$ given factors, $0<k<d$, form an $\\mathbb{F}_{q^s}$-space of dimension at most $(h+1)k/d$, with equality only if $D$ is linear over a subfield of $\\mathbb{F}_{q^n}$ larger than $\\mathbb{F}_q$. Taking $s=gr/(h+1)$ gives the bound on $r$. Finally, if $(n-h-1)\\mid(h+1)$, then for every $r$ satisfying the above inequality there is an $h$-scattered $\\mathbb{F}_q$-subspace of $V(r,q^n)$ of dimension $\\lfloor rn/(h+1)\\rfloor$, without a divisibility condition on $rn$.",
+   "abs": "https://arxiv.org/abs/2610.32737",
+   "pdf": "https://arxiv.org/pdf/2610.32737"
+  },
+  {
+   "id": "2610.32147",
+   "type": "cross",
+   "title": "Implicit Neural Representations for Variational Problems on Graphons",
+   "authors": [
+    "Taeyoung Kim",
+    "Jineon Baek",
+    "Joonkyung Lee",
+    "Hongseok Yang"
+   ],
+   "categories": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "math.CO"
+   ],
+   "primary": "stat.ML",
+   "comments": "Accepted at NeurIPS 2026. 35 pages, 18 figures, 10 tables",
+   "abstract": "We propose a neural exploratory framework for variational problems over graphons, i.e., symmetric measurable functions $[0,1]^2 \\to [0,1]$, that arise as limits of dense graph sequences. Such problems are central to two parts of the mathematical literature: extremal graph theory, which studies graph parameter optimisation under given restrictions, often for those graphs with a large number of vertices, and the large deviation theory of dense random graphs, which characterises the structure of rare events through constrained graphon optimisation. We represent graphons by implicit neural networks and optimise graphon objectives by gradient descent. Our design combines three ingredients: a multi-scale sinusoidal residual architecture biased toward sharp, step-like graphons; an embedded solver that enforces a single empirical density constraint and is differentiated by implicit differentiation; and symmetry-aware Monte Carlo estimators. On generalised Turán problems that previously required substantial human effort, our framework rediscovers known optimal graphons without human intervention. Applied to open instances, it produces candidate optima, including a previously unreported family of extremal structures. Applied to the variational problems from the large deviation theory of Erdős--Rényi random graphs, the framework produces new candidate optimal graphons across both upper- and lower-tail regimes for multiple pattern graphs; for the case of the triangle graph and the upper-tail regime, these candidates improve upon the best-known reference construction of Lubetzky and Zhao. The structures found by our framework have also led to new theorems on the optimal graphons for both families of problems.",
+   "abs": "https://arxiv.org/abs/2610.32147",
+   "pdf": "https://arxiv.org/pdf/2610.32147"
+  },
+  {
+   "id": "2610.32717",
+   "type": "new",
+   "title": "Total eight-colorings of maximal planar graphs of maximum degree six",
+   "authors": [
+    "Enqiang Zhu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "45 pages, 3 figures",
+   "abstract": "We prove that every finite simple maximal planar graph of maximum degree at most six admits a total eight-coloring. We first show that every proper vertex four-coloring of a subcubic graph extends to a total five-coloring. A curvature inequality for boundary walks then gives a matching decomposition of four-connected triangulations with degrees five and six, extending their prescribed vertex four-colorings to total eight-colorings. In a minimum counterexample, two local boundary colorings force the degree-four vertices to have disjoint neighborhoods. A characterization of the local extension obstructions permits these vertices to be restored simultaneously. The proof uses Hamiltonian-connectedness of four-connected planar graphs and the computer-assisted Four-Color Theorem; it requires no further computation.",
+   "abs": "https://arxiv.org/abs/2610.32717",
+   "pdf": "https://arxiv.org/pdf/2610.32717"
+  },
+  {
+   "id": "2610.32879",
+   "type": "cross",
+   "title": "The lower tail of triangle counts in sparse random graphs",
+   "authors": [
+    "Dong Huang",
+    "Shuangping Li"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "74 pages, 4 figures",
+   "abstract": "Let $T_n$ be the number of triangles in the Erdős-Rényi random graph $G(n,p)$ with $n^{-1/2}\\ll p\\ll1$ and fix $\\eta\\in(0,1)$. We study the large deviation rate of the lower tail event $T_n\\le\\eta\\mathbb{E}[T_n]$, and the typical structure of $G(n,p)$ conditioned on this event. By earlier work [16,19,21,49], both the rate and the structure are governed by a variational problem over graphons. In this work we solve this variational problem for every $\\eta\\in(0,1)$. We show that every minimizer is either a constant graphon or a step graphon with two blocks of equal size. Correspondingly, the conditioned graph is close to an Erdős-Rényi graph or to a symmetric stochastic block model with two blocks. These two regimes are separated by a first order phase transition at the threshold $\\eta_*=0.009217\\ldots$. This resolves a conjecture of Zhao [78] and an open problem of Janson and Warnke [39] on triangles. It thereby gives a complete description of the lower tail of triangle counts in this range of $p$.",
+   "abs": "https://arxiv.org/abs/2610.32879",
+   "pdf": "https://arxiv.org/pdf/2610.32879"
+  },
+  {
+   "id": "2610.32580",
+   "type": "new",
+   "title": "New approaches to the Erdős Distinct Subset Sums Problem",
+   "authors": [
+    "Aren Hasratyan",
+    "Miklós Ruszinkó"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We present a new method of reproving the best known lower bound of the Erdős distinct subset sums problem. Although our lower bound is asymptotically the same as in Dubroff, Fox and Xu, it is slightly better for the case when \\(n\\) is odd. Besides, we also provide a new lower bound on the second largest element \\(a_{n-1}\\).",
+   "abs": "https://arxiv.org/abs/2610.32580",
+   "pdf": "https://arxiv.org/pdf/2610.32580"
+  },
+  {
+   "id": "2610.31785",
+   "type": "new",
+   "title": "Principal specializations of the $t$-chromatic symmetric function",
+   "authors": [
+    "Aram Bingham",
+    "Kyle Celano",
+    "Patricia Commins",
+    "Rosa Orellana",
+    "Jianping Pan",
+    "Mary Claire Simone"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "37 pages, 5 figures, 1 table, 2 appendices",
+   "abstract": "We introduce the $t$-chromatic symmetric function $Z_G(\\mathbf{x};t)$, a variant of Stanley's chromatic symmetric function in which the variable $t$ records the number of distinct colors used in a proper coloring. Although $Z_G(\\mathbf{x};t)$ is equivalent to the chromatic symmetric function as a graph invariant, its principal specializations retain substantially more information than those of the chromatic symmetric function. This construction is motivated by the work of Bajo--Beck--Vindas-Meléndez on the $q$-chromatic polynomial and the conjecture of Loehr--Warrington that the $n$th principal specialization of the chromatic symmetric function distinguishes trees on at most $n$ vertices, both of which stem from Stanley's longstanding question of whether the chromatic symmetric function distinguishes trees. We determine the classes of caterpillars resulting from the second principal specialization of $Z_G(\\mathbf{x};t)$, showing that the second specialization already captures some of the structure of trees. We then prove that the third principal specialization distinguishes and explicitly reconstructs caterpillars with three spine vertices as well as elongated bistars. Finally, we conjecture, based on computational data, that the fourth principal specialization distinguishes all caterpillars.",
+   "abs": "https://arxiv.org/abs/2610.31785",
+   "pdf": "https://arxiv.org/pdf/2610.31785"
+  },
+  {
+   "id": "2610.32404",
+   "type": "new",
+   "title": "The chromatic number of $\\{\\mathrm{ISK}_4, \\textup{diamond}\\}$-free graphs",
+   "authors": [
+    "Qing Cui",
+    "Kaiyang Lan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Comments are welcome!",
+   "abstract": "An $\\mathrm{ISK}_4$ is a graph that is isomorphic to a subdivision of $K_4$; a \\textit{diamond} is $K_4$ minus one edge; and a \\textit{bowtie} consists of two triangles sharing exactly one vertex. Lévêque, Maffray, and Trotignon~(2012) conjectured that every $\\mathrm{ISK}_4$-free graph is $4$-colorable. Chen, Chen, Cui, Feng, and Liu~(2021) proved this for $\\{\\textup{diamond},\\textup{bowtie}\\}$-free graphs. We prove this conjecture for diamond-free graphs. Moreover, the bound is optimal.",
+   "abs": "https://arxiv.org/abs/2610.32404",
+   "pdf": "https://arxiv.org/pdf/2610.32404"
+  },
+  {
+   "id": "2610.32192",
+   "type": "new",
+   "title": "Identifying codes of Archimedean grids",
+   "authors": [
+    "Rudini Sampaio"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An identifying code of a graph is a dominating set $C$ such that the sets $N[v]\\cap C$ are pairwise distinct. The minimum density of an identifying code has been studied extensively for several infinite grids. It is known to be $1/4$ for the triangular grid and $7/20$ for the square grid, whereas for the hexagonal grid the problem is still open, between $5/12$ and $53/126$. These three grids are the regular members of the family of the eleven Archimedean grids. In this paper, we start a systematic study of identifying codes in this family. We determine the minimum density for five of the nine Archimedean grids for which it was not known: it is $2/3$ for the truncated hexagonal grid $3.12.12$, $3/7$ for the truncated square grid $4.8.8$, and $1/3$ for the trihexagonal (kagome) grid $this http URL$, the elongated triangular grid $3^3.4^2$ and the snub hexagonal grid $3^4.6$. All lower bounds are proved by the discharging method. For the three remaining non-regular Archimedean grids, we also obtain some bounds: the minimum density lies between $3/7$ and $13/30$ for the truncated trihexagonal grid $4.6.12$, between $1/3$ and $11/30$ for the rhombitrihexagonal grid $this http URL$, and between $2/7$ and $9/28$ for the snub square grid $3^this http URL$.",
+   "abs": "https://arxiv.org/abs/2610.32192",
+   "pdf": "https://arxiv.org/pdf/2610.32192"
+  },
+  {
+   "id": "2610.32677",
+   "type": "new",
+   "title": "Sharp asymmetric vertex-Ramsey properties of graphs",
+   "authors": [
+    "Robert Hancock",
+    "Joseph Hyde",
+    "Mael Kupperschmitt"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In 1992, Łuczak, Ruciński and Voigt showed that for any graph $H$, a parameter $m_1(H)$ - called the 1-density - governs the threshold at which the binomial random graph $G(n,p)$ inherits the vertex-Ramsey property. In 2000, Friedgut and Krivelevich showed this threshold is sharp for graphs satisfying a natural balancedness condition. In 1996, Kreuter showed that for any graphs $H_1, \\ldots, H_r$ with $m_1(H_1) \\geq \\cdots \\geq m_1(H_r)$, a parameter dependent only on $H_1$ and $H_2$ governs the threshold at which $G(n,p)$ inherits the `asymmetric' vertex-Ramsey property. We prove this threshold is sharp for graphs respecting natural balancedness conditions, including in the analogous hypergraph setting.",
+   "abs": "https://arxiv.org/abs/2610.32677",
+   "pdf": "https://arxiv.org/pdf/2610.32677"
+  },
+  {
+   "id": "2610.32954",
+   "type": "cross",
+   "title": "Acyclic 2-edge-coloured graphs: polynomial-time linkages and colouring hardness",
+   "authors": [
+    "Jørgen Bang-Jensen",
+    "Stéphane Bessy",
+    "Amadeus Reinald"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "21 pages, 4 figures",
+   "abstract": "A path or cycle in a $2$-edge-coloured graph is alternating if consecutive edges have different colours. These objects are natural analogues of paths and cycles in graphs, and even more so in digraphs. A well-studied class is that of acyclic $2$-edge-coloured graphs, that is, those forbidding alternating cycles. In particular, (acyclic) $2$-edge-coloured graphs generalize directed (acyclic) graphs (DAGs), but the complexity of problems on DAGs is much better understood than that of the corresponding problems on acyclic $2$-edge-coloured graphs. We investigate the complexity of two such problems, whose directed counterparts are well-known.\nOur first result is an $n^{O(k)}$-time algorithm for the alternating $k$-linkage problem on acyclic $2$-edge-coloured graphs. This problem asks for $k$ vertex-disjoint alternating paths joining $k$ prescribed pairs of vertices. This generalizes the directed $k$-linkage algorithm for DAGs. For every fixed $k$, this also yields a polynomial-time algorithm for finding $k$ internally vertex-disjoint alternating $(s,t)$-paths, solving an open problem by Abouelaoualim et al. from 2008.\nWe then consider the alternating chromatic number of $2$-edge-coloured graphs, defined as the minimum number of parts in a vertex partition such that each part induces an acyclic subgraph. This notion is analogous to the dichromatic number of digraphs, where it is known that deciding dichromatic number $2$ is NP-complete even on tournaments. Our second result is that deciding alternating chromatic number $2$ is NP-complete on complete $2$-edge-coloured graphs. Equivalently, deciding whether a graph can be partitioned into two induced threshold graphs is NP-complete.",
+   "abs": "https://arxiv.org/abs/2610.32954",
+   "pdf": "https://arxiv.org/pdf/2610.32954"
+  },
+  {
+   "id": "2610.31556",
+   "type": "cross",
+   "title": "The generic splitting type of the logarithmic bundle of an arrangement of at most sixteen lines is combinatorial",
+   "authors": [
+    "Cristian Anghel",
+    "Rares Stan"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "26 pages, 1 table. Theorem B is computer-assisted; the programs, the screening logs, the realizable classes and checksums of the enumeration output are in the ancillary files",
+   "abstract": "Let $\\mathcal{A}$ be an arrangement of $d$ lines in $\\mathbb{P}^2_\\mathbb{C}$ and let $\\mathcal{T}\\langle\\mathcal{A}\\rangle$ be its bundle of logarithmic vector fields. On a general line, $\\mathcal{T}\\langle\\mathcal{A}\\rangle$ splits as $\\mathcal{O}(-k)\\oplus\\mathcal{O}(k+1-d)$ with $k=\\min\\{\\mathrm{mdr}(\\mathcal{A}),\\lfloor\\frac{d-1}{2}\\rfloor\\}$, where $\\mathrm{mdr}$ is the minimal degree of a Jacobian syzygy. We prove that $k$ is determined by the intersection lattice whenever $d\\le16$, answering in this range a question of Cook, Harbourne, Migliore and Nagel. Since freeness can be read off from $k$ and $c_2(\\mathcal{T}\\langle\\mathcal{A}\\rangle)$, this strengthens Terao's freeness conjecture in this range; in particular we obtain a proof of Terao's conjecture for $14$ lines that uses it only for $13$ lines. For any number $d$ of lines, it follows that $\\mathrm{mdr}$ is determined by the lattice whenever $\\mathrm{mdr}\\le6$ and $2\\mathrm{mdr}\\le d-3$, and that Terao's conjecture holds for every free arrangement whose smaller exponent is at most $7$.\nThe proof reduces the question to critical arrangements: $2s+3$ lines, each containing at most $s+1$ intersection points, with $\\mathrm{mdr}=s$. For these, the inflection polynomial of the minimal derivation factors as $Q_\\mathcal{A} R$ with $R\\in H^0(\\mathcal{I}_Z^2(s-3))$, where $Z$ is the zero scheme of the derivation, of length $\\nu=c_2(\\mathcal{T}\\langle\\mathcal{A}\\rangle)-s(s+2)$. For $s\\le5$ this forces $\\nu\\le1$, and Chern class arguments then reduce everything to Terao's conjecture for $13$ lines. For $s=6$ we show $\\nu\\le3$, using a Riccati equation along multiple components of $R$, Ziegler's multirestriction, and local computations verified by computer algebra; an exhaustive enumeration of the 26,265,318 candidate lattices with $\\nu\\in\\{2,3\\}$ that satisfy Bojanowski's inequality completes the proof.",
+   "abs": "https://arxiv.org/abs/2610.31556",
+   "pdf": "https://arxiv.org/pdf/2610.31556"
+  },
+  {
+   "id": "2610.32787",
+   "type": "cross",
+   "title": "Structure and Exact Certification of Nonnegative Tensor Decompositions",
+   "authors": [
+    "Haoming Wang",
+    "Ming Yuan"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "math.AG",
+    "math.CO",
+    "stat.ML"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We study the structure and exact certification of nonnegative tensor decompositions supplied through rational factor matrices. Every failure of minimality or essential uniqueness contains an irreducible positive exchange between $p$ supplied terms and $q$ competing terms. A dimension count based on the Lovitz--Petrov splitting theorem bounds the effective order of such an exchange, the sum over the modes of the joint factor-span dimension minus one, by $p+q-2$, and this bound is attained at every supplied length $R\\ge2$. After eliminating ambient-row variables by the Farkas lemma, the resulting semialgebraic systems have fewer than $2R^2$ real variables. For input bit length $L$, this gives a deterministic $G(R)L^{O(R^2)}$-time algorithm that computes the nonnegative rank and an exact minimum-length decomposition, decides minimality and essential uniqueness, and returns exact witnesses when either property fails. The exponent is independent of the tensor order and the mode dimensions. For Lebesgue moment tensors, positive quadrature determines the nonnegative rank and the uniqueness behavior, and some rational length-$R$ inputs force a common field of degree at least $\\lfloor R/2\\rfloor!$ for any exact minimum-length output. As an illustration, an implementation resolves all 114 instances left inconclusive by earlier positive-scattering criteria, of which 95 are minimal and essentially unique and 19 are minimal but nonunique.",
+   "abs": "https://arxiv.org/abs/2610.32787",
+   "pdf": "https://arxiv.org/pdf/2610.32787"
+  },
+  {
+   "id": "2610.32499",
+   "type": "new",
+   "title": "An incidence approach to cross-intersection in semilattices",
+   "authors": [
+    "Sho Suda"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "We present an incidence-based method for product bounds on cross-intersecting families in finite graded meet-semilattices. The two families may lie in different rank or type fibres and may have different design strengths. The criterion separates global incidence parameters from two directional local counts and yields the sharp product bound, with equality only for full stars with a common centre.\nApplications include mixed subspace types relative to a fixed subspace, a type-restricted generator family in $Q^-(7,q)$, and mixed form ranks in symplectic spaces. The same short criterion gives several sharp results not obtained directly from the specific theorems and general criteria compared here. In the singular-space case, it also applies in an infinite parameter range beyond the natural star-ratio and weak-spreadness tests.",
+   "abs": "https://arxiv.org/abs/2610.32499",
+   "pdf": "https://arxiv.org/pdf/2610.32499"
+  },
+  {
+   "id": "2610.32035",
+   "type": "new",
+   "title": "Equifacetted polytopes whose facets are products of simplices: The simplicial prism case",
+   "authors": [
+    "Federico Castillo",
+    "Guillermo Piñeda-Villavicencio",
+    "José Alejandro Samper"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages, 10 figures, comments welcome",
+   "abstract": "We study \\emph{prismatical} polytopes, those all of whose facets are combinatorially isomorphic to the simplicial prism $\\Delta^{d-2}\\times\\Delta^1$. In dimension three these are exactly the cubical polytopes, so the class sits naturally between simplicial and cubical polytopes. In dimension four, $\\Delta^2\\times\\Delta^2$ is the simplest prismatical polytope and we can construct infinitely many by using connected sums. By fibreing a triangle over a triangulated polygon we construct infinitely many connected-sum-prime prismatical $4$-polytopes. Finally, we show that there are no prismatical $d$-polytopes for $d\\ge5$, answering a question of Perles and Shephard.",
+   "abs": "https://arxiv.org/abs/2610.32035",
+   "pdf": "https://arxiv.org/pdf/2610.32035"
+  },
+  {
+   "id": "2610.31980",
+   "type": "new",
+   "title": "Coefficient Positivity for Arborescence Ratios of Covering Digraphs",
+   "authors": [
+    "Muchen Ju",
+    "Junjie Ni",
+    "Kaixin Wang",
+    "Yihan Xiao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 5 figures. Lean formalization: this https URL",
+   "abstract": "For a directed graph with a chosen root, the arborescence polynomial sums the products of edge weights over all spanning trees directed toward that root. In a finite graph cover, each lifted edge inherits the variable of its base edge. At corresponding roots, the ratio of the cover's arborescence polynomial to the base polynomial is known to be an integer polynomial. We prove that every coefficient of this ratio is nonnegative, resolving the positivity conjecture of Pylyavskyy.\nThe key to the proof is to allow fibers of unequal size and replace the permutations defining a cover by arbitrary maps. For these more general systems, we prove a stronger coefficient-positivity theorem for a determinant derived from the graph Laplacian. The enlarged class is closed under two reductions: contraction of an edge over a base loop and elimination of a base vertex. Both yield nonnegative recurrences for the relevant coefficients in terms of smaller systems, allowing an inductive proof. We also pose the problem of finding a direct combinatorial interpretation of the coefficients.",
+   "abs": "https://arxiv.org/abs/2610.31980",
+   "pdf": "https://arxiv.org/pdf/2610.31980"
+  },
+  {
+   "id": "2610.32239",
+   "type": "new",
+   "title": "A counterexample to Tokareva's conjecture on sums of two bent functions",
+   "authors": [
+    "Yansong Feng",
+    "Hao Jiang",
+    "Guancheng Li",
+    "Tianyi Li",
+    "Lili Tang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "The counterexamples and proofs in this paper were obtained through large-scale automated reasoning with LLM agents while solving Problem~10 in NSUCRYPTO~2026 (MiniMax M3.1-Flash-Preview, 19 rounds of up to 100 independent agents between 12 and 18 October 2026, 1889 reports in all), paired with 8 rounds of independent audits (227 reports)",
+   "abstract": "It is well known that the sum of two bent functions on $\\mathbb{F}^n$ has algebraic degree at most $n/2$ for even $n\\ge 4$. Tokareva conjectured that the converse holds: every Boolean function with degree at most $n/2$ can be written as a sum of two bent functions. The conjecture has been verified for even $n\\leq 6$ and for several special classes of Boolean functions. We disprove this conjecture by showing that $x_1x_2(x_3x_4+x_5x_6+x_7x_8)$ is not a sum of two bent functions on $\\mathbb{F}^8$. We extend this construction to obtain counterexamples in every even dimension $n\\ge 8$. Using Shaporenko's reduction, we also obtain explicit counterexamples to Tokareva's derivative conjecture in every even dimension $n\\ge 10$.",
+   "abs": "https://arxiv.org/abs/2610.32239",
+   "pdf": "https://arxiv.org/pdf/2610.32239"
+  },
+  {
+   "id": "2610.31795",
+   "type": "new",
+   "title": "Affine Higher Bruhat Orders",
+   "authors": [
+    "Sara Billey",
+    "Herman Chau",
+    "Kevin Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The higher Bruhat orders are partial orders originally constructed by Manin and Schechtman, with an equivalent construction from Ziegler. These partial orders generalize the weak order on the symmetric group $\\mathfrak{S}_n$, and the second higher Bruhat order is a poset on commutation classes of reduced words for the longest element in ${\\mathfrak{S}}_n$, where covering relations correspond to braid relations. Like the weak order, each of the higher Bruhat orders is a ranked poset with unique minimal and maximal elements. Constructing analogs of the higher Bruhat orders in other settings is an area of recent interest, including recent work of Hothem for permutations in $S_{n}$. We give a construction that generalizes any interval $[\\mathrm{id},w]$ in the weak order where $w$ is an element of the affine symmetric group $\\widetilde{\\mathfrak{S}}_n$. Our construction recovers the classical higher Bruhat orders when $w$ is the longest element in $\\mathfrak{S}_n$. Paralleling the classical case, we show that the second higher Bruhat order is a ranked poset on commutation classes of reduced words for $w\\in \\widetilde{\\mathfrak{S}}_n$, allowing us to prove a conjecture due to Elias. When $w\\in \\mathfrak{S}_n$, we also establish results for our higher Bruhat orders that are direct analogs of numerous results in the classical higher Bruhat orders.",
+   "abs": "https://arxiv.org/abs/2610.31795",
+   "pdf": "https://arxiv.org/pdf/2610.31795"
+  },
+  {
+   "id": "2610.31837",
+   "type": "cross",
+   "title": "Presheaf structures governed by oriented matroids and pseudohyperplane arrangements",
+   "authors": [
+    "Basile Coron",
+    "Denis Lyskov"
+   ],
+   "categories": [
+    "math.AT",
+    "math.CO"
+   ],
+   "primary": "math.AT",
+   "comments": "35 pages, comments are welcome",
+   "abstract": "We study higher complements of pseudohyperplane arrangements and the specialization maps between them, induced by degenerations. We develop a presheaf formalism on oriented matroids and weak maps, which model degenerations. Our main constructions are the posets of weighted and weightwise topes, which provide functorial combinatorial models for higher complements and their specialization morphisms. Their presheaf structure yields a deletion-contraction homotopy pushout, from which we derive a uniform combinatorial proof of the integral cohomology presentation for all $n \\geq 2$. This presentation is natural with respect to weak maps and identifies cohomology rings with higher Orlik-Solomon algebras extending the known formulas for linear arrangements to non-realizable oriented matroids. Finally, we equip Deligne groupoids with a presheaf structure and identify them functorially with the fundamental groupoids of the complexified complements.",
+   "abs": "https://arxiv.org/abs/2610.31837",
+   "pdf": "https://arxiv.org/pdf/2610.31837"
+  },
+  {
+   "id": "2610.32875",
+   "type": "new",
+   "title": "The Turán number of Berge paths in connected hypergraphs",
+   "authors": [
+    "Yupei Li",
+    "Ruth Luo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A Berge path in a hypergraph is an alternating sequence of distinct vertices and edges $v_1,e_1, v_2, \\ldots, e_{k-1}, v_{k}$ such that $v_i, v_{i+1} \\in e_i$ for all $i \\in [k-1]$. Győri, Katona, and Lemons determined the maximum number edges in $r$-uniform, $n$-vertex hypergraphs without Berge paths on $k$ vertices. The extremal examples for their bounds are disconnected hypergraphs in which each component has either too few edges or too few vertices to contain such a Berge path.\nWe consider the setting in which the host hypergraph is connected. Let $\\operatorname{ex}^{\\mathrm{conn}}_r(n,\\mathcal{BP}_k)$ denote the maximum number of edges in an $n$-vertex, $r$-uniform, connected hypergraph that does not contain a Berge path on $k$ vertices. This number was determined by Zhang, Broersma, Győri, Tompkins, Wang for $k \\leq r+2$, and Zhao, Gerbner, Zhou for $k \\geq 2r+2$. In this paper, we resolved the remaining cases $r+3 \\leq k \\leq 2r+1$ when $n$ is sufficiently large, confirming a conjecture of Zhang, et al.",
+   "abs": "https://arxiv.org/abs/2610.32875",
+   "pdf": "https://arxiv.org/pdf/2610.32875"
+  },
+  {
+   "id": "2610.32353",
+   "type": "new",
+   "title": "Saturation in three-uniform Berge hypergraphs: the five-star spectrum and the $K_4$ saturation number",
+   "authors": [
+    "XuanYu Cao",
+    "Yuan Lai",
+    "Chunxiang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "For a graph \\(G\\), a hypergraph is Berge-\\(G\\)-saturated if it contains no Berge copy of \\(G\\), but adding any missing hyperedge creates one. We determine the complete saturation spectrum of three-uniform Berge five-stars for every order. For \\(n\\ge7\\), every integer from \\(\\lceil4n/3\\rceil-3\\) to \\(2n-5\\) occurs; the additional values depend only on \\(n\\) modulo five. The structural ingredient is a sharp bound on the remainder after deleting all complete five-vertex components: for an \\(n\\)-vertex, \\(m\\)-edge Berge-five-star-saturated hypergraph, this remainder has at most \\(15(2n-m)/7\\) vertices. We characterize all equality cases. We also prove that every three-uniform Berge-\\(K_4\\)-saturated hypergraph on \\(n\\ge7\\) vertices has at least \\(n\\) edges. Together with known constructions, this determines its saturation number for every order and settles the conjecture of Chen, He, and Xie; the new lower bound covers the previously unresolved orders \\(9\\le n\\le95\\). Both arguments use the distinct representatives forced by saturation to obtain local incidence constraints. For five-stars these constraints bound the size of the remainder and characterize equality. For \\(K_4\\), they reduce a putative counterexample to a configuration on at most eight vertices; incidence estimates and a sharp bound on the vertices covered by short cycles in a bipartite graph exclude all remaining cases.",
+   "abs": "https://arxiv.org/abs/2610.32353",
+   "pdf": "https://arxiv.org/pdf/2610.32353"
+  },
+  {
+   "id": "2610.32789",
+   "type": "new",
+   "title": "Triangle-Free Sets in Exact-Distance Hamming Graphs",
+   "authors": [
+    "Bence Csajbók",
+    "Padmini Mukkamala",
+    "Zoltán Lóránt Nagy"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "Let $T_q(n,r)$ be the largest size of a vertex set inducing a triangle-free subgraph of the graph on $[q]^n$ whose edges join words at Hamming distance $r$. We study this quantity for fixed alphabet size and fixed distance, with particular emphasis on the ternary cube. Alphabet restriction transfers the binary fixed-distance theorem of Balogh, Chen, and Li to give $T_q(n,2h)=O_h(q^n/n^h)$. We extend the known distance-one formula and distance-two order to arbitrary integer alphabet sizes, obtaining $T_q(n,1)=2q^{n-1}$ and $T_q(n,2)=\\Theta_q(q^n/n)$, and establish $T_3(n,4)=\\Theta(3^n/n^2)$. For general fixed distance, we prove \\[\nT_q(n,r)=\\Omega_{q,r}\\!\\left(\n\\frac{q^n\\sqrt{\\log n}}{n^{(r+\\lfloor r/2\\rfloor)/2}}\n\\right)\\qquad(q\\ge3), \\] while we show that $T_q(n,r)=\\Omega_{q,r}(q^n/n^{\\lfloor(q-1)r/q\\rfloor})$ holds for prime-power $q$ and $r\\ge2$ via the extended BCH parity-check constructions. At distance three, we construct coordinate weights avoiding bounded-coefficient three-term relations and obtain \\[ T_q(n,3)\\ge q^n/[n\\exp(O_q(\\sqrt{\\log n}))]. \\] Our main ternary construction combines cap partitions, multicolor triangle Ramsey colorings, and a quadratic map to obtain \\[\nT_3(n,3)=\\Omega\\!\\left(\n\\frac{\\log\\log n}{\\log n}\\,3^n\\right). \\] A coordinate-line counting argument gives the complementary upper bound $T_3(n,3)\\le(5/27+O(n^{-1}))3^n$, together with an explicit bound for every fixed $q\\ge3$. Whether the ternary density tends to zero remains open.",
+   "abs": "https://arxiv.org/abs/2610.32789",
+   "pdf": "https://arxiv.org/pdf/2610.32789"
+  },
+  {
+   "id": "2610.32086",
+   "type": "new",
+   "title": "The number of Tverberg partitions beyond prime powers",
+   "authors": [
+    "Matija Blagojević",
+    "Pavle V. M. Blagojević"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AT",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "Sierksma's conjecture asserts that every affine map $a\\colon\\Delta_{(d+1)(r-1)}\\longrightarrow\\mathbb{R}^d$ has at least $((r-1)!)^d$ unordered Tverberg partitions into $r$ parts. Until now, lower bounds growing with $d$ were known only when $r$ is a prime power. As one of our main results we prove that for every integer $r\\geq3$, every decomposition $r=kq+s$ into $q=p^\\alpha$ a prime power, $k\\geq1$ and $s\\geq0$, and every affine map $a$, the number $\\operatorname{Tv}(a)$ of unordered Tverberg partitions satisfies \\[\n\\operatorname{Tv}(a)\\ \\geq\\ \\frac{q}{r!}\\,\\Big(\\frac{q}{\\alpha+1}\\Big)^{\\big\\lceil\\frac{(r-1-2s)(d+1)}{2}\\big\\rceil}. \\]",
+   "abs": "https://arxiv.org/abs/2610.32086",
+   "pdf": "https://arxiv.org/pdf/2610.32086"
+  },
+  {
+   "id": "2610.32798",
+   "type": "new",
+   "title": "Proximity Theorem and FPT Algorithm for Minimum Group-labeled Matroid Bases",
+   "authors": [
+    "Siyue Liu",
+    "Taihei Oki",
+    "Chao Xu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $M$ be a matroid, let $\\ell:E(M)\\to G$ be a labeling of its elements by an abelian group, and let $F\\subseteq G$ be finite. A base is $F$-avoiding if the label sum of its elements is not in $F$. We prove that, for arbitrary costs, a min-cost $F$-avoiding base can be obtained from any min-cost base using at most $|F|$ exchanges. This resolves the weighted proximity conjecture by Hörsch, Imolay, Mizutani, Oki, and Schwarcz. Our main technical tool is to replace the assumption of Schrijver--Seymour Conjecture in Liu and Xu's earlier work with Kemperman--Scherk Theorem. The proximity theorem combined with approaches in earlier work gives an FPT algorithm that finds a min-cost $F$-avoiding base parameterized by $|G|$. We additionally give an FPT algorithm parameterized by $|F|$, answering a question of Hörsch et al.",
+   "abs": "https://arxiv.org/abs/2610.32798",
+   "pdf": "https://arxiv.org/pdf/2610.32798"
+  },
+  {
+   "id": "2610.31696",
+   "type": "cross",
+   "title": "Links of minimum degree and exact covering numbers",
+   "authors": [
+    "Alfonso Gippini Requeijo"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "11 pages, 1 figure, 1 table. Code, class lists, logs, DRAT proofs and a long version: this https URL",
+   "abstract": "The covering number $C(v,k,t)$ is the least number of $k$-subsets, called blocks, of a $v$-set such that every $t$-subset lies in one of them. We reduce the question whether a covering with $L$ blocks exists to the classification of links. If every point of such a covering lies in at least $r$ blocks and $(r+1)v>kL$, some point lies in exactly $r$ blocks, and its link, the blocks through it with the point removed, is a $(v-1,k-1,t-1)$-covering with $r$ blocks. It then suffices to list these links up to isomorphism, to prove the list complete, and to show that no link in the list extends to a covering with $L$ blocks. Completeness is certified by one unsatisfiable formula that excludes the listed classes, so the program that lists the links need not be trusted. In general the last two steps are decided by propositional satisfiability (SAT) solving, with every formula written by two separately implemented encoders and every refutation checked by a formally verified proof checker. For links with four blocks and $t=3$ we give the classification by hand, under a condition on the parameters. As an application we determine twenty-five covering numbers with $t\\in\\{3,4,5\\}$ in which the published lower bound was one less than the size of a known covering, among them $C(39,24,3)=9$.",
+   "abs": "https://arxiv.org/abs/2610.31696",
+   "pdf": "https://arxiv.org/pdf/2610.31696"
+  },
+  {
+   "id": "2610.32832",
+   "type": "cross",
+   "title": "Kazhdan--Lusztig Polynomials for permutations with $P_{\\mathrm{id},w}(1)=3$ and Irreducible Singular Locus",
+   "authors": [
+    "Gaston Burrull",
+    "Zhitong Alex Li",
+    "Shixuan Zeng"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "17 pages, 3 figures",
+   "abstract": "We determine the Kazhdan--Lusztig polynomial $P_{\\mathrm{id},w}(q)$ for permutations $w$ such that $P_{\\mathrm{id},w}(1)=3$ and the Schubert variety $X_w$ has irreducible singular locus. Let $h=h(w)$ be the minimum height $w(a)-w(d)$ of a $3412$-occurrence in $w$ at positions $a<b<c<d$, with $h=1$ when no such occurrence exists. We show that $P_{\\mathrm{id},w}(q)=1+q^h+q^{h+1}$ if exactly one of the patterns $3412$ and $4231$ occurs, and $P_{\\mathrm{id},w}(q)=1+q+q^h$ if both patterns occur. In the latter case, $h>1$. This proves the irreducible singular locus case of a 2009 conjecture of Billey and Weed.",
+   "abs": "https://arxiv.org/abs/2610.32832",
+   "pdf": "https://arxiv.org/pdf/2610.32832"
+  },
+  {
+   "id": "2610.32644",
+   "type": "new",
+   "title": "Off-diagonal Ramsey numbers of 3-graphs",
+   "authors": [
+    "Lior Gishboliner",
+    "Sepehr Hajebi",
+    "Xiangyu Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a conjecture of Conlon, Fox, Gunby, He, Mubayi, Suk, Verstraëte, and Yu that for a $3$-graph $H$, the off-diagonal Ramsey number $R(H,n)$ is polynomial in $n$ if and only if $H$ is isomorphic to a subgraph of the \"depth-$t$ iterated blowup\" $\\textsf{B}_t$ for an integer $t\\geq 0$. Here, the $3$-graphs $\\textsf{B}_t$ are defined recursively: $\\textsf{B}_0$ has one vertex, and $\\textsf{B}_t$ for $t\\geq 1$ is obtained from the disjoint union of three copies of $\\textsf{B}_{t-1}$ by adding all transversal hyperedges.",
+   "abs": "https://arxiv.org/abs/2610.32644",
+   "pdf": "https://arxiv.org/pdf/2610.32644"
+  },
+  {
+   "id": "2610.32527",
+   "type": "new",
+   "title": "The upper bounds on occupancy fraction and variance fraction for linear regular uniform hypergraphs",
+   "authors": [
+    "Weiyuan Zhang",
+    "Kexiang Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The hard-core model can be used to understand the number of independent sets in graphs in extremal graph theory. The occupancy and variance fractions are the expectation and variance, respectively, of the independent-set size, normalized by the number of vertices. We provide upper bounds on the occupancy and variance fractions of linear $d$-regular $r$-uniform hypergraphs for small positive fugacities. In proving these results, we use the cluster expansion and the abstract polymer models, two tools from statistical physics, to analyse auxiliary functions associated with independence polynomials, comparing their low-order coefficients and controlling the remainders uniformly in the number of vertices.",
+   "abs": "https://arxiv.org/abs/2610.32527",
+   "pdf": "https://arxiv.org/pdf/2610.32527"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.31865",
+   "type": "new",
+   "title": "Bounded compositions and products of chains, or bi(s)nomials everywhere from de Moivre's formula to spin multiplicities and constant-sum codes",
+   "authors": [
+    "Hacène Belbachir",
+    "José Ricardo G. Mendonça"
+   ],
+   "categories": [
+    "math.CO",
+    "math-ph"
+   ],
+   "primary": "math.CO",
+   "comments": "A \"perspectives\" paper (26 pages, 44 references) on generalized binomial (a.k.a. bi(s)nomial) coefficients and applications",
+   "abstract": "How many ways are there to select $k$ objects from $n$ types when type $i$ is available in only $s_{i}$ copies? For equal bounds, this is de Moivre's problem of obtaining a prescribed total with $n$ dice, now a textbook application of the principle of inclusion-exclusion. For arbitrary bounds, the answer is encoded by the rank polynomial $\\prod_{i=1}^{n}(1+x+\\cdots+x^{s_{i}})$. Its coefficients enumerate bounded compositions and submultisets, give, after normalization, the probability mass function of a sum of independent discrete uniform random variables, and are the weight multiplicities of a tensor product of $\\mathrm{SU}(2)$ representations. Most of these interpretations are classical but dispersed; here we place them in a common notation and document their provenance. A complement involution proves symmetry and boundary identities. For arbitrary bounds, lower-half first differences give both symmetric-chain starts and mixed-spin multiplicities, and the chain-length and irreducible-dimension profiles agree. Convolution gives log-concavity and the central mode. For equal bounds with fixed $s \\geq 1$ and even $ns$, local expansions give central asymptotics with explicit $1/n$ and $1/n^{2}$ corrections for the coefficient and its first difference. A Poisson limit gives the first boundary crossover of these differences at scale $k \\sim \\lambda n^{s/(s+1)}$, with factor $e^{-\\alpha\\lambda^{s+1}}$ when the proportion of bounds equal to the fixed minimum $s \\geq 1$ tends to $\\alpha>0$. Central first differences include the $s$-Catalan numbers, themselves Littlewood-Richardson coefficients; central layers yield maximum-size constant-sum codebooks for hash-based signatures. Under the polynomial binomial convention, the full inclusion-exclusion transform vanishes, and the omitted terms sum to the negative of the number of bounded compositions.",
+   "abs": "https://arxiv.org/abs/2610.31865",
+   "pdf": "https://arxiv.org/pdf/2610.31865"
+  }
+ ],
+ "listed_new": 27,
+ "listed_cross": 15
+}
