@@ -1,0 +1,575 @@
+{
+ "date": "2026-10-27",
+ "generated_at": "2026-10-27T03:01:15Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-27",
+ "screened": 112,
+ "screened_new": 79,
+ "screened_cross": 33,
+ "scored": 112,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.35003",
+   "type": "new",
+   "title": "The Choice Number of Random Graphs",
+   "authors": [
+    "Lanchao Wang",
+    "Jiasheng Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "In 1999, Alon, Krivelevich and Sudakov conjectured that the choice number and chromatic number of the random graph $G(n,p)$ are asymptotically equal whenever $np\\to\\infty$. We prove their conjecture, showing that, with high probability, $$ \\operatorname{ch}(G(n,p))=(1+o(1))\\chi(G(n,p)) $$ whenever $np\\to\\infty$. This improves the bound $\\operatorname{ch}(G(n,p))\\le(2+o(1))\\chi(G(n,p))$ for $np\\to\\infty$ and $p\\le0.9$ obtained by Krivelevich and Vu in 2001.\nOur proof distinguishes two cases according to the size of independent sets. When independent sets of growing size are available, we establish a sharper uniform independent-set estimate that eliminates the factor-two loss in the bound of Krivelevich and Vu. When independent sets have bounded size, we establish a deterministic result showing that, under a suitable uniform independent-set condition, a proper colouring with bounded colour-class sizes yields an asymptotically matching upper bound on the choice number.",
+   "abs": "https://arxiv.org/abs/2610.35003",
+   "pdf": "https://arxiv.org/pdf/2610.35003"
+  },
+  {
+   "id": "2610.34410",
+   "type": "cross",
+   "title": "Online Discrepancy of Sparse Random Vectors over Long Horizons",
+   "authors": [
+    "Nicola Wengiel"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "83 pages",
+   "abstract": "We study online vector balancing for independent sparse random vectors: each arrival is supported on a uniformly random set of $s$ of the $n$ coordinates, with nonzero entries equal to one (binary model) or independent random signs (signed model), and an online algorithm must sign each vector upon arrival. The prefix discrepancy is the largest $\\ell_\\infty$-norm of the signed sums up to the horizon $T$, the terminal discrepancy that of the sum at time $T$. For binary inputs with $2\\le s\\le n/2$ and $T=\\Theta(n)$, Altschuler and Tikhomirov showed that both are of order $\\sqrt{s}+\\log\\log n$; they asked how the prefix discrepancy depends on the horizon and whether a matching terminal bound holds at every prescribed time.\nOver long horizons, the two differ. For every fixed $s\\ge2$ and $c>0$, every online algorithm, even a randomized one that knows the horizon, incurs with high probability prefix discrepancy $\\Omega(\\log\\log n+(\\log T/\\log n)^{\\alpha_s})$ for $n\\le T\\le e^{cn}$, where $\\alpha_s=(2^{s-1}-1)/(2^s-1)$. For $s=2$, quadratic Greedy matches this bound; for fixed $s\\ge3$, we give an online algorithm with prefix discrepancy $O(\\log\\log n+(\\log T/\\log n)^{1/2})$. In contrast, a deterministic algorithm that knows neither the horizon nor the failure probability keeps the terminal discrepancy $O_k(\\sqrt{s}+\\log\\log n)$ at each prescribed time, with failure probability $n^{-k}$ for every fixed $k$, for $2\\le s\\le n/2$ (binary model) and $2\\le s\\le n$ (signed model); for $s=2$, quadratic Greedy itself does so. This answers their terminal question, and the same order is optimal for prefixes at all polynomial horizons $T\\ge n$.\nThe lower bound uses a finite safety game realized within the input law; the upper bounds use moments of elementary symmetric polynomials and, at terminal times, a $\\cosh$ potential or a translated gauge with a Foster inequality at every state.",
+   "abs": "https://arxiv.org/abs/2610.34410",
+   "pdf": "https://arxiv.org/pdf/2610.34410"
+  },
+  {
+   "id": "2610.33407",
+   "type": "new",
+   "title": "A quasi-polynomial $χ$-bound for $P_6$-free graphs",
+   "authors": [
+    "Shenwei Huang",
+    "Yidong Zhou",
+    "Yuwen Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "In this paper we prove that every graph $G$ with no induced six-vertex path satisfies $\\chi(G)\\le \\omega(G)^{c\\log_2\\omega(G)}$ for $c=45/\\log_2(4/3)<109$. The best previous bound was exponential in $\\omega(G)$. Our result is the first quasi-polynomial bound for $P_6$-free graphs and generalizes the bound for $P_5$-free graphs by Scott, Seymour, and Spirkl [Polynomial bounds for chromatic number. {IV}. {A} near-polynomial bound for excluding the five-vertex path. {\\em Combinatorica}, 43(5):845--852, 2023].",
+   "abs": "https://arxiv.org/abs/2610.33407",
+   "pdf": "https://arxiv.org/pdf/2610.33407"
+  },
+  {
+   "id": "2610.33322",
+   "type": "new",
+   "title": "A proof of Wang's planar D-coloring conjecture",
+   "authors": [
+    "Harshit Verma"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages. Ancillary files contain the certificates and verification scripts for the computer-assisted case of maximum degree 6",
+   "abstract": "We prove Wang's planar D-coloring conjecture. A D-coloring of a graph is a proper edge coloring in which every subgraph isomorphic to $K_4$ minus an edge is rainbow. Wang conjectured that every planar graph of maximum degree $\\Delta$ has a D-coloring with 9 colors if $\\Delta=4$, 10 colors if $\\Delta=5$, and $2\\Delta-1$ colors if $\\Delta\\ge 6$. Hu, Kong and Wang proved the cases $\\Delta\\le 5$ and $\\Delta\\ge 33$. We prove the sharp bound $2\\Delta-1$ for every $\\Delta\\ge 6$, settling the remaining cases. The proof uses discharging; the case $\\Delta=6$ is computer-assisted.",
+   "abs": "https://arxiv.org/abs/2610.33322",
+   "pdf": "https://arxiv.org/pdf/2610.33322"
+  },
+  {
+   "id": "2610.34562",
+   "type": "cross",
+   "title": "Correlation inequalities for volume polynomials",
+   "authors": [
+    "June Huh",
+    "Mateusz Michałek",
+    "Botong Wang",
+    "Jian Xiao"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "",
+   "abstract": "We establish sharp correlation inequalities for volume polynomials associated with covers of multisets. These inequalities simultaneously generalize the Khovanskii--Teissier and reverse Khovanskii--Teissier inequalities for intersections of nef divisor classes on projective varieties. They also hold for volume polynomials arising from convex bodies and Hermitian matrices, recovering and extending classical results such as the Alexandrov--Fenchel inequality for mixed volumes of convex bodies and the Hadamard--Fischer inequality for determinants of positive semidefinite matrices. As a combinatorial application, we prove a negative correlation inequality for partitions of bases of matroids that are linearly realizable over a field.",
+   "abs": "https://arxiv.org/abs/2610.34562",
+   "pdf": "https://arxiv.org/pdf/2610.34562"
+  },
+  {
+   "id": "2610.33497",
+   "type": "cross",
+   "title": "Proof of the Langberg-Médard Multiple Unicast Conjecture",
+   "authors": [
+    "Kai Cai",
+    "Guangyue Han",
+    "Mengxi Yang",
+    "Wenan Zang"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "Let $\\mathcal{N}=(V,A,S, R)$ be a directed network, where $D=(V,A)$ is a digraph, $S=\\{s_1,s_2,\\ldots,s_k\\}\\subseteq V$ is a set of senders, and $R=\\{r_1,r_2,\\ldots,r_k\\}\\subseteq V$ is a set of receivers. We prove that if, for each $1\\le j \\le k$, there exist $k$ pairwise arc-disjoint directed paths in $D$, one from each $s_i$ to $r_j$, then the underlying undirected network of ${\\cal N}$, with unit capacities, admits a feasible $(s_1,s_2,\\ldots,s_k)$-$(r_1,r_2,\\ldots,r_k)$ multiflow of value $1$ for each pair $(s_i,r_i)$, $i=1,2,\\ldots,k$. This establishes the multiple unicast conjecture proposed by Langberg and Médard in 2009.",
+   "abs": "https://arxiv.org/abs/2610.33497",
+   "pdf": "https://arxiv.org/pdf/2610.33497"
+  },
+  {
+   "id": "2610.35213",
+   "type": "cross",
+   "title": "Falconer estimate for circular and cinematic Furstenberg problem",
+   "authors": [
+    "Xiang Xie"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "40 pages, 3 figures",
+   "abstract": "We prove the Falconer-type bound $\\dim_{\\mathrm H}F\\geq u+1$ for planar circular $(u,v)$-Furstenberg sets whenever $0<u\\leq1$, $0<v\\leq3$, and $2u+v\\geq3$. The same bound holds for smooth cinematic curve families. This resolves the circular Furstenberg conjecture of Green, Harris, Ou, Ren, and Tammen in its full Falconer range $2u+v\\geq3$.",
+   "abs": "https://arxiv.org/abs/2610.35213",
+   "pdf": "https://arxiv.org/pdf/2610.35213"
+  },
+  {
+   "id": "2610.34254",
+   "type": "new",
+   "title": "General-position sets and linear hypergraphs",
+   "authors": [
+    "Thang Pham",
+    "Le Quang-Ham",
+    "Boqing Xue"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "We prove that every linear hypergraph on $N$ vertices with edge sizes $O(\\sqrt N)$ and $O(N^2\\log N)$ triples contained in its edges has a subset of size $\\Omega(\\sqrt N)$ meeting each edge in at most two vertices. As an application, every set of $N$ planar points with at most $\\sqrt N$ collinear points contains $\\Omega(\\sqrt N)$ points in general position. This proves a conjecture of Payne and Wood and gives the optimal quadratic bound for a geometric Ramsey problem posed by Gowers.",
+   "abs": "https://arxiv.org/abs/2610.34254",
+   "pdf": "https://arxiv.org/pdf/2610.34254"
+  },
+  {
+   "id": "2610.33216",
+   "type": "cross",
+   "title": "Absorption probabilities of random walks without symmetry or general position",
+   "authors": [
+    "Artyom Bolotin",
+    "Dmitry Zaporozhets"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "Let $S_1,S_2,\\dots$ be a random walk in $\\mathbb R^d$ with independent identically distributed increments. We show that, for every distribution of the increments and for every $n\\ge1$, \\[ \\mathbb P\\bigl[0\\notin\\mathrm{conv}(S_1,\\dots,S_n)\\bigr] = \\sum_{m=1}^n\\frac1{m!}\\sum_{\\substack{k_1,\\dots,k_m\\ge1\\\\ k_1+\\dots+k_m=n}}\\frac{1}{k_1\\cdots k_m}\\,\\mathbb P\\bigl[0\\notin\\mathrm{conv}(S^{(1)}_{k_1},\\dots,S^{(m)}_{k_m})\\bigr], \\] where $S^{(1)},S^{(2)},\\dots$ are independent copies of the walk. No symmetry, general position or moment assumptions are needed. The result rests on a deterministic identity: for arbitrary vectors $x_1,\\dots,x_n$, the number of orderings for which the convex hull of the partial sums avoids the origin equals the number of permutations for which the convex hull of the cycle sums avoids it. We derive it from a permutation-averaging identity for valuations obtained in our earlier work. Consequences include the identities of Sparre Andersen and Spitzer, the distribution-free absorption probabilities of Kabluchko, Vysotsky and Zaporozhets, their generating function found by Petrov, Randon-Furling and Zaporozhets, and a formula for the probability that the origin is never absorbed.",
+   "abs": "https://arxiv.org/abs/2610.33216",
+   "pdf": "https://arxiv.org/pdf/2610.33216"
+  },
+  {
+   "id": "2610.34512",
+   "type": "new",
+   "title": "A graded version of the separator theorem for planar graphs",
+   "authors": [
+    "Nabil H. Mustafa",
+    "Janos Pach"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages, no figures",
+   "abstract": "We prove that every planar graph on $n$ vertices has a vertex ordering $v_1,v_2,\\ldots,v_n$ in which each prefix $\\{v_1,\\ldots,v_i\\}$ is joined to at most $C\\sqrt{i}$ elements of $\\{v_{i+1},\\ldots,v_n\\}$, where $C$ is an absolute constant. Consequently, every prefix can be separated from its complement by deleting $O\\left(\\sqrt{i}\\right)$ vertices lying entirely in its complement.",
+   "abs": "https://arxiv.org/abs/2610.34512",
+   "pdf": "https://arxiv.org/pdf/2610.34512"
+  },
+  {
+   "id": "2610.35225",
+   "type": "new",
+   "title": "Optimal $K_t$-free list colorings and the Pollyanna property of graphs with no triangular wheel",
+   "authors": [
+    "Hongyang Wang",
+    "Rong Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A wheel consists of an induced cycle of length at least four and a vertex with at least three neighbors on the cycle. Let $\\cal T$ be the class of graphs with no wheel containing a triangle. We prove that, for every $G\\in\\cal T$ and every integer $t\\ge3$, the $K_t$-free chromatic and choice numbers both equal $\\lceil{\\omega(G)/(t-1)}\\rceil$. We further prove that $\\cal T$ is $k$-strongly linear-Pollyanna for every integer $k\\ge2$, and hence is linear-Pollyanna. In particular, the class of wheel-free graphs is Pollyanna, answering Problem 10.2 of Chudnovsky, Cook, Davies and Oum.",
+   "abs": "https://arxiv.org/abs/2610.35225",
+   "pdf": "https://arxiv.org/pdf/2610.35225"
+  },
+  {
+   "id": "2610.33219",
+   "type": "new",
+   "title": "Explicit strong blocking sets and minimal codes from expander graphs using a new graph parameter",
+   "authors": [
+    "Anurag Bishnoi",
+    "Ioannis Kakatelis"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "A strong blocking set is a set of points in a finite projective space that intersects every hyperplane of the space in a spanning set of the hyperplane. These objects have been studied both in finite geometry and coding theory due to their equivalence with minimal codes. We give an explicit construction of strong blocking sets using expander graphs that improves the explicit construction of Alon et al. (Noga Alon, Anurag Bishnoi, Shagnik Das, Alessandro Neri, Strong blocking sets and minimal codes from expander graphs. Transactions of the American Mathematical Society ) by introducing a new geometrically motivated graph parameter that is better suited for this problem. Using this approach, we improve the constant $C$ in the explicit construction of a strong blocking set of size $C (q+1) k$ in the $(k - 1)$-dimensional projective space over $\\mathbb{F}_q$ for every prime power $q \\geq 7$.",
+   "abs": "https://arxiv.org/abs/2610.33219",
+   "pdf": "https://arxiv.org/pdf/2610.33219"
+  },
+  {
+   "id": "2610.35701",
+   "type": "new",
+   "title": "Degree-list Kempe equivalence for 3-connected graphs",
+   "authors": [
+    "Hongyang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "In a proper coloring, a Kempe change interchanges two colors on a connected component of the subgraph they induce. For a fixed list assignment $L$, a Kempe change is $L$-valid if it transforms an $L$-coloring into another $L$-coloring. We prove that if $G$ is a $3$-connected graph other than a complete graph or the triangular prism, and $L$ is a list assignment with $|L(v)|\\ge d_G(v)$ for every vertex $v$, then $G$ has a proper $L$-coloring and any two such colorings can be transformed into one another by a finite sequence of $L$-valid Kempe changes. This proves a conjecture of Chakraborty, Feghali and Mahmoud.",
+   "abs": "https://arxiv.org/abs/2610.35701",
+   "pdf": "https://arxiv.org/pdf/2610.35701"
+  },
+  {
+   "id": "2610.34905",
+   "type": "new",
+   "title": "The maximum spectral radius of connected graphs with prescribed order and size",
+   "authors": [
+    "Dragan Stevanović"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "45 pages, includes computer-assisted proofs and supplementary Python/SageMath verification programs",
+   "abstract": "In 1986, Brualdi and Solheid asked which connected graph of prescribed order and size has maximum adjacency spectral radius. We complete the classification for every feasible pair of parameters. We prove that no graph outside the dense and star threshold families is extremal, including at ties, and settle the range $n\\le e+1$, where the star candidate is not defined. The final comparison \\emph{between} the dense and star candidates is supplied by Damnjanović's Propositions~4.1--4.2, not reproved here. We combine an exact Bellman recursion with dense-core domination, fractional complete-split bounds, and a virtual-star inequality. Three remaining comparison families (J), (K1), and (K2) are established analytically and by exact polynomial and Sturm certificates. The exact certificates are implemented in Python/SymPy and SageMath.",
+   "abs": "https://arxiv.org/abs/2610.34905",
+   "pdf": "https://arxiv.org/pdf/2610.34905"
+  },
+  {
+   "id": "2610.34424",
+   "type": "new",
+   "title": "Graham's rearrangement conjecture in finite abelian groups",
+   "authors": [
+    "Peiru Kuang",
+    "Yan Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Graham conjectured in 1971 that every subset of the nonzero elements of a prime cyclic group admits an ordering with pairwise distinct nonempty partial sums. Recently, the work of Pham and Sauermann, together with earlier results, settled this conjecture for all sufficiently large primes. In this paper, we prove that there is an absolute integer $n_0$ such that every subset $S\\subseteq G\\setminus\\{0\\}$ of a finite abelian group with $|S|\\ge n_0$ admits such an ordering, which also solves a conjecture of Alspach and Liversidge for all sufficiently large sets.\nA key ingredient of our proof is a sufficient condition via additive dimension: If $|S|=n$ and $S$ contains a dissociated subset of size at least $\\Omega((\\log n)^2/\\log\\log n)$, then $S$ has an ordering in which no proper nonempty interval of consecutive terms sums to zero. This bound is within a factor of $O(\\log n/\\log\\log n)$ of the smallest possible additive dimension of an $n$-element set.",
+   "abs": "https://arxiv.org/abs/2610.34424",
+   "pdf": "https://arxiv.org/pdf/2610.34424"
+  },
+  {
+   "id": "2610.34038",
+   "type": "new",
+   "title": "Extremal 3-uniform hypergraphs without generalized 4-cycles",
+   "authors": [
+    "Leilei Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages. Comments are welcome!",
+   "abstract": "Let $f_r(n)$ be the maximum number of edges in an $n$-vertex $r$-uniform hypergraph in which all disjoint pairs of edges have distinct unions. In 1977, Erdős posed the problem of determining $f_r(n)$ and, in particular, asked whether $f_3(n)=O(n^2)$. Füredi later proved that $\\binom{n-1}{r-1}+\\left\\lfloor (n-1)/r\\right\\rfloor \\le f_r(n)<\\frac72\\binom{n}{r-1}$ for $r\\ge3$ and $n\\ge2r$. Motivated by his constructions, he further conjectured that $f_3(n)\\le\\binom{n}{2}$ for all sufficiently large $n$, and that, for each fixed $r\\ge4$, the lower bound is exact for all sufficiently large $n$. This is known as the Erdős--Füredi conjecture. In a recent breakthrough, Huang, Ma and Yang proved the conjecture for every fixed $r\\ge4$ and characterized all extremal hypergraphs. In this paper, we settle the remaining $3$-uniform case for every $n$. The bound is sharp whenever $n\\ge5$ and $n\\equiv1,5\\pmod{20}$. Our proof uses a local weight inequality and a transfer argument.",
+   "abs": "https://arxiv.org/abs/2610.34038",
+   "pdf": "https://arxiv.org/pdf/2610.34038"
+  },
+  {
+   "id": "2610.34307",
+   "type": "new",
+   "title": "Sharp bounds for Duke--Erdős--Rödl problems on cycle-connected subgraphs",
+   "authors": [
+    "Guorong Gao",
+    "Run Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "For $k\\ge2$, a graph is $C_{2k}$-connected if every two distinct edges lie together on an even cycle of length at most $2k$ in that graph. Let $f_k(n,m)$ be the largest number of edges in a $C_{2k}$-connected subgraph that every $n$-vertex graph with $m$ edges must contain. In this paper, we study two cycle-connected problems raised by Duke, Erdős and Rödl. First, Duke, Erdős and Rödl showed that $f_3(n,\\lfloor n^{2-\\beta}\\rfloor)=\\Theta(n^{2-3\\beta})$ for every fixed $0< \\beta<1/2$ and ask for the case of $\\beta\\ge 1/2$. We solve this problem in a stronger form by determining that the optimal range of $\\beta$ is $(0,2/3]$. Second, we prove that $f_2(n,\\binom n2-s)=(1/(2e)+o(1))n^3/s$ whenever $\\frac{s}{n}\\to\\infty$ and $s=o(n^2)$, determining the leading constant in an estimate of Duke, Erdős, and Rödl. The first result uses a finite-field construction and a count of three-edge paths. The second uses the known structure of $C_4$-connected graphs and estimates for complete bipartite subgraphs in a random graph.",
+   "abs": "https://arxiv.org/abs/2610.34307",
+   "pdf": "https://arxiv.org/pdf/2610.34307"
+  },
+  {
+   "id": "2610.35136",
+   "type": "new",
+   "title": "Sharp Bounds for Graph-Codes Avoiding Complete Bipartite Differences",
+   "authors": [
+    "Nader H. Bshouty"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $d_{K_{s,t}}(n)$ be the largest fraction of all graphs on $[n]$ in a family containing no two distinct members whose symmetric difference is a copy of $K_{s,t}$. We determine this maximum density for every fixed pair of positive integers $s,t$. If both part sizes are odd, it is known that the density is exactly $1/2$. Otherwise, let $2h$ be the largest even part size. We prove $$ d_{K_{s,t}}(n)=\\Theta_{s,t}(n^{-h}). $$ For $h>1$, this improves the general $O_{s,t}(1/n)$ upper bound obtained from Alon's two-copy gluing theorem~\\cite{Alon2024}. The sharp bounds for even stars were already proved by Alon and are recovered as special cases.\nThe upper bound uses the Frankl--Füredi forbidden-intersection theorem. For the lower bound, we construct binary linear codes using BCH codes. When exactly one part size is even, we assign to each edge the sum of the binary vectors assigned to its endpoints. When both part sizes are even, we identify these vectors with elements of a finite field and assign to each edge the product of its endpoint elements. In both cases, every copy of $K_{s,t}$ has a nonzero syndrome.",
+   "abs": "https://arxiv.org/abs/2610.35136",
+   "pdf": "https://arxiv.org/pdf/2610.35136"
+  },
+  {
+   "id": "2610.34944",
+   "type": "new",
+   "title": "On the product of nontrivial cross-intersecting families",
+   "authors": [
+    "Biao Wu",
+    "Huajun Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "Let $n\\geq2\\ell\\geq2k\\geq6$ and $n>k+\\ell$. We determine the maximum of $|\\mathcal A||\\mathcal B|$ over all nonempty, nontrivial cross-intersecting families $\\mathcal A\\subseteq\\binom{[n]}k$ and $\\mathcal B\\subseteq\\binom{[n]}\\ell$. The exact bound is $|\\mathcal A||\\mathcal B|\\leq\\max\\{M_1,M_2\\}$, where \\[ \\begin{aligned} M_1 &=\\left(\\binom{n-1}{k-1}-\\binom{n-\\ell-1}{k-1}+1\\right) \\left(\\binom{n-1}{\\ell-1}-\\binom{n-k-1}{\\ell-1}+1\\right),\\\\ M_2 &=\\left(\\binom{n-2}{\\ell-2}+1\\right) \\sum_{i=1}^{2} \\left(\\binom{n-i}{k-1}-\\binom{n-\\ell-i}{k-1}\\right). \\end{aligned} \\] Both terms are attained by explicit constructions: a Hilton--Milner-type pair and a two-point construction, respectively. We classify all equality cases, including the additional cross-triangle pairs when $k=\\ell=3$. Two structural results underlie the proof. First, we establish a restricted-lex comparison theorem showing that restricted lexicographic initial segments minimize disjointness neighborhoods, and characterize equality at the first nontrivial threshold. Second, a decomposition of critically shifted families into two parts with disjoint cores leads to a sharp product theorem, with equality characterized, for all cross-intersecting pairs admitting this decomposition, without additional nontriviality assumptions. Endpoint comparisons and reverse shifting complete the proof for unequal as well as equal uniformities.",
+   "abs": "https://arxiv.org/abs/2610.34944",
+   "pdf": "https://arxiv.org/pdf/2610.34944"
+  },
+  {
+   "id": "2610.34877",
+   "type": "new",
+   "title": "Rainbow maps and the number of graceful labelings of trees",
+   "authors": [
+    "Shisheng Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 2 figures. A Lean 4 formalization of the main theorem is included in the ancillary files (directory anc/lean)",
+   "abstract": "Let $\\tau(N)$ be the number of graceful labelings of trees with $N$ edges, that is, the number of spanning trees of the complete graph on $\\{0,1,\\dots,N\\}$ whose edges have distinct lengths. The answer to exercise this http URL-106 of The Art of Computer Programming states that, if an empirical observation of Anick is true, then $\\tau(n)=\\exp(n\\ln n-n\\ln(e/b)+O(\\log n))$ with $b\\approx0.636$, and that rigorous proofs are unknown. We prove that $|\\log\\tau(N)-(N\\log N-N\\log(e/b))|\\le152(1+\\log(N+1))^4$ for every $N\\ge3$, with $b=2/\\pi$. A rainbow map of order $N$ sends each vertex $k\\in\\{1,\\dots,N-1\\}$ to a vertex $f(k)\\in\\{0,\\dots,N\\}$ so that the lengths $|f(k)-k|$ are $1,\\dots,N-1$ in some order. Acyclic rainbow maps are exactly the graceful labelings, and all rainbow maps are counted by the Whitty numbers $W(N)$ (OEIS A134983). We show that $\\tau(N)\\le W(N)\\le\\tau(N)e^{151(1+\\log(N+1))^4}$ by a combinatorial argument: for fixed directions, rainbow maps are rook placements on a Ferrers board; a swap injection shows that a uniformly random rainbow map has $O(\\log^2N)$ cycles on average; and an inequality on the periods of a word shows that the $c$ cycles of a rainbow map can be removed by changing $O(c\\log N)$ edges. We also show that $W(N)$ is the total weight of a family of weighted Motzkin paths. This yields exact enumerations, an alternating sum for $W(N)$, and a representation of $W(N)$ as a moment of a continuous dual Hahn weight, from which $|\\log W(N)-(N\\log(2N/\\pi)-N)|\\le5(1+\\log(N+1))$. The main theorem has been formalized in Lean 4; its combinatorial half uses no axioms beyond those of Lean.",
+   "abs": "https://arxiv.org/abs/2610.34877",
+   "pdf": "https://arxiv.org/pdf/2610.34877"
+  },
+  {
+   "id": "2610.34607",
+   "type": "new",
+   "title": "A proof of the Grothendieck join-meet positivity",
+   "authors": [
+    "Peter L. Guo",
+    "Mingyang Kang",
+    "Jiaji Liu",
+    "Rui Xiong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages. Comments welcome!",
+   "abstract": "We prove the (signed) Grothendieck join--meet positivity $$ G_{\\lambda\\vee\\mu}G_{\\lambda\\wedge\\mu}\n-G_\\lambda G_\\mu \\in \\sum_{\\nu} \\mathbb{N}\\cdot (-1)^{|\\nu|-|\\lambda|-|\\mu|}G_\\nu $$ for stable Grothendieck polynomials using geometric Satake equivalence, thereby resolving a conjecture posed by Thomas and Yong.",
+   "abs": "https://arxiv.org/abs/2610.34607",
+   "pdf": "https://arxiv.org/pdf/2610.34607"
+  },
+  {
+   "id": "2610.35465",
+   "type": "new",
+   "title": "The Schur positivity of Lucas binomial differences",
+   "authors": [
+    "Lilan Dai",
+    "Dun Qiu",
+    "Weichen Wang",
+    "Minhao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For positive integers $a\\le b\\le c\\le d$ with $ad=bc$, we prove that the Lucas binomial coefficients satisfy $(-1)^{a+1}(L_{b,c}[X]-L_{a,d}[X])\\in\\mathbb{N}[e_1[X],e_2[X],h_2[X]]$, resolving Bergeron's conjecture on Schur positivity in two variables. We also prove the same positivity for $L_{u,v}[X]-e_1[X]^{uv-rs}L_{r,s}[X]$ when $rs<uv$. Using Lucas atoms, we establish $e$-positivity for degree-adjusted Lucas multinomial differences under dominance order.",
+   "abs": "https://arxiv.org/abs/2610.35465",
+   "pdf": "https://arxiv.org/pdf/2610.35465"
+  },
+  {
+   "id": "2610.33678",
+   "type": "new",
+   "title": "The chromatic number of a random graph with $o(n^{3/2})$ edges",
+   "authors": [
+    "Amin Coja-Oghlan",
+    "Mikhail Isaev",
+    "Mihyun Kang",
+    "Pavel Zakharov"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G(n,m)$ be the Erdos-Renyi random graph with $n$ vertices and $m$ edges and let $\\delta>0$. Alon and Krivelevich [Combinatorica 1997] proved that for any sequence $m\\leq n^{3/2-\\delta}$ there \\emph{exists} an integer sequence $q=q(n)$ such that the chromatic number of $G(n,m)$ equals either $q$ or $q+1$ with probability tending to one as $n\\to\\infty$. In this paper, we give an explicit formula for this sequence $q(n)$ and confirm their result under a less restrictive assumption that $m=o(n^{3/2})$. Furthermore, we show that for all but a vanishing proportion of the admissible values of $m$, the chromatic number of $G(n,m)$ equals $q$ with high probability.",
+   "abs": "https://arxiv.org/abs/2610.33678",
+   "pdf": "https://arxiv.org/pdf/2610.33678"
+  },
+  {
+   "id": "2610.35830",
+   "type": "cross",
+   "title": "Improved lattice-packing bounds in small dimensions",
+   "authors": [
+    "Nina Zubrilina"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "links to a GitHub repository with relevant numerical data",
+   "abstract": "We strengthen the upper bound on the density of a lattice packing in small dimensions. A lattice cannot have too many short vectors; we modify the Cohn--Elkies linear program accordingly by allowing the auxiliary function to be positive on a short interval beyond the minimum distance. For $11 \\leq n \\leq 16$, our bound is tighter than the three-point bound of Cohn, de Laat and Salmon. For $n \\in [17, 23] \\cup [25, 40] \\cup [43, 57] \\cup [62, 75]\\cup [83, 91]$, our bound lies below the published numerical values of the Cohn--Elkies bound.",
+   "abs": "https://arxiv.org/abs/2610.35830",
+   "pdf": "https://arxiv.org/pdf/2610.35830"
+  },
+  {
+   "id": "2610.34291",
+   "type": "new",
+   "title": "The Golomb--Welch conjecture for arbitrary centre sets",
+   "authors": [
+    "Bocong Chen",
+    "Jing Huang",
+    "Gaojun Luo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "58 pages",
+   "abstract": "We prove that for all $n\\ge3$ and $r\\ge2$, the Lee ball $B_n(r)$ does not\ntile $\\Z^n$ by translations, resolving the Golomb--Welch conjecture for\narbitrary centre sets and completing the existence classification of\nperfect Lee codes in $\\Z^n$.\nThe proof combines translation-invariant averaging, boundary contact\nidentities, and integer moment inequalities with coefficient comparisons\nin stable symmetric functions.\nConsequently, we obtain finite local obstructions, strict Banach density\ngaps for packings and coverings, and the nonexistence of exact measurable\nLee-ball towers.\nIn the lattice specialization, our result classifies the attainability of\nthe Lee bound for even-degree abelian Cayley graphs, excludes normal\ntopological coverings and Galois graph coverings for Lee-ball completions,\nand gives a strict node bound for lattice cubature as well as the\nnonexistence of subgroup-indexed orthogonal exponential bases on $B_n(r)$.",
+   "abs": "https://arxiv.org/abs/2610.34291",
+   "pdf": "https://arxiv.org/pdf/2610.34291"
+  },
+  {
+   "id": "2610.33283",
+   "type": "new",
+   "title": "Minimum orders of clique oddomorphism counterexamples",
+   "authors": [
+    "Michal Čertík"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "64 pages, main article and technical companion combined; includes computational provenance and verifier source",
+   "abstract": "An oddomorphism to $K_n$ is a proper colouring with $n$ colours in which every vertex is designated odd or even, every vertex has in each other colour class a number of neighbours of its own parity, and every colour class contains an odd number of odd vertices. We prove that an oddomorphism witness to $K_n$ on at most $n+6$ vertices contains a $K_n$ minor with every branch meeting the witness's specified odd set. The conclusion holds inside any graph containing the witness and therefore applies to weak oddomorphisms. The bound is sharp: for every $n\\ge8$ the minimum order of a graph admitting a weak oddomorphism to $K_n$ but having no $K_n$ minor is exactly $n+7$. The extremal example is a fifteen-vertex graph with an oddomorphism to $K_8$, obtained from the doubled theta graph of Kriesell and Mohr by adding one vertex adjacent to the seven roots; we give a structural proof that it has no $K_8$ minor, including their counting argument for the rooted case. A separate technical companion records further results on related root-apex graphs, an attachment theorem and a bounded nine-colour statement, together with their computational provenance; none of it is used here. The results do not resolve the unrestricted clique-target problem.",
+   "abs": "https://arxiv.org/abs/2610.33283",
+   "pdf": "https://arxiv.org/pdf/2610.33283"
+  },
+  {
+   "id": "2610.33803",
+   "type": "new",
+   "title": "Packing colourings of claw-free subcubic graphs",
+   "authors": [
+    "Federico Romaniello"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 2 figures",
+   "abstract": "We prove that every claw-free subcubic graph admits a \\packA-packing colouring, confirming a conjecture of Mortada, El Zein and Al Hajjar. The proof combines a reduction to line graphs of subdivided loopless cubic multigraphs with local colouring extensions. We also give a negative answer to their question on \\packB-packing colourings by constructing an infinite family of connected bridgeless claw-free cubic counterexamples. The smallest graph in this family has 36 vertices. More generally, we characterise the simple cubic graphs whose triangle expansions admit a \\packB-packing colouring in terms of gated independent odd-cycle transversals. This characterisation gives a classification for connected bridgeless claw-free cubic bases and shows that the double triangle expansion of a loopless cubic multigraph admits such a colouring if and only if the multigraph has a perfect matching.",
+   "abs": "https://arxiv.org/abs/2610.33803",
+   "pdf": "https://arxiv.org/pdf/2610.33803"
+  },
+  {
+   "id": "2610.35274",
+   "type": "new",
+   "title": "Regular Graphs Without Isomorphic Bisections",
+   "authors": [
+    "Elie Feinsilber"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is bisectable if its vertex set can be split into two sets inducing isomorphic subgraphs. Ando conjectured that every cubic graph is bisectable, and Das, Pokrovskiy, and Sudakov proved it for large enough connected cubic graphs. We give a constructive proof that, for every $d\\geq5$, there exists a non-bisectable $d$-regular graph of even order.",
+   "abs": "https://arxiv.org/abs/2610.35274",
+   "pdf": "https://arxiv.org/pdf/2610.35274"
+  },
+  {
+   "id": "2610.33850",
+   "type": "new",
+   "title": "Solving Large SDPs from Flag Algebra Problems",
+   "authors": [
+    "Bernard Lidický",
+    "Jan Volec"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages, 2 figures",
+   "abstract": "The flag algebra method is a general tool in extremal combinatorics, which has been useful in tackling open problems concerning graphs, hypergraphs, permutations, point sets, and other structures. The method establishes combinatorial inequalities via sums of squares, which are usually obtained by a semidefinite relaxation of the original combinatorial problem.\nA typical application of the method in graph theory starts with fixing a parameter $n$ followed by constructing a semidefinite program based on the (subgraph) structure of all $n$-vertex graphs. In the standard formulation before symmetry reductions, there is a coefficient constraint for every admissible $n$-vertex graph up to isomorphism. For 3-uniform hypergraphs, there are 2,136 of them on 6 vertices and 7,013,320 on 7 vertices. While solving the resulting program for $n=6$ is an easy task on any modern computer, the programs for $n = 7$ seems out of reach, mainly because the SDP solvers need too much RAM. Yet solving such programs for as large $n$ as possible is desirable because they typically yield better bounds for the original combinatorial problems.\nWe bypass the aforementioned memory requirements by linear programming with cutting planes. Although we do not guarantee that this cutting-plane procedure reaches an optimum in finitely many iterations, in many flag algebra instances it uses much less memory and yields improved bounds for well-known hypergraph Turán problems.\nWe use this method to obtain numerical bounds for Turán densities and codegree squared densities of several 3-uniform hypergraphs including the tetrahedron, where we obtained the upper bound 0.55753 and tetrahedron without one edge with a new upper bound 0.2865. It also allows to tackle bounds on Turán densities of 7-vertex 3-graphs using flag algebras, which was not possible before.",
+   "abs": "https://arxiv.org/abs/2610.33850",
+   "pdf": "https://arxiv.org/pdf/2610.33850"
+  },
+  {
+   "id": "2610.34372",
+   "type": "new",
+   "title": "Counting Admissible Sets of Integers: A Proof of the Erdős--Nicolas--Sárközy Conjecture",
+   "authors": [
+    "Guoqing Wang",
+    "Wenkai Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A finite set of positive integers is admissible if any two of its subsets with the same sum have the same cardinality. In 1991, Erdős, Nicolas and Sárközy conjectured that $\\log a(N)\\asymp\\sqrt N$, where $a(N)$ denotes the number of nonempty admissible subsets of $\\{1,\\ldots,N\\}$. We prove this conjecture by showing that there are absolute constants $c,C>0$ such that $\\exp(c\\sqrt N)\\le a(N)\\le\\exp(C\\sqrt N)$ for every integer $N\\ge4$. The same bounds hold for the number of admissible sets with maximum $N$. For the upper bound, we show that every sufficiently large admissible set $A\\subseteq\\{1,\\ldots,N\\}$ contains a subset of proportional size whose doubling constant is $O(N/|A|^2)$.",
+   "abs": "https://arxiv.org/abs/2610.34372",
+   "pdf": "https://arxiv.org/pdf/2610.34372"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.34444",
+   "type": "new",
+   "title": "Proof of the Harary--Hill conjecture: an exposition",
+   "authors": [
+    "Martin Balko"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "The Harary--Hill conjecture states that the crossing number of the complete graph $K_n$ is exactly $\\frac{1}{4}\\left\\lfloor\\frac{n}{2}\\right\\rfloor \\left\\lfloor\\frac{n-1}{2}\\right\\rfloor \\left\\lfloor\\frac{n-2}{2}\\right\\rfloor \\left\\lfloor\\frac{n-3}{2}\\right\\rfloor$. We present a streamlined variant of the proof of this conjecture recently announced by OpenAI (2026). Although the original proof is relatively short, it is quite difficult to follow. We simplify several steps and provide a concise and accessible exposition of the proof. We also combine this new result with known reductions to determine the crossing numbers of several other graph families.",
+   "abs": "https://arxiv.org/abs/2610.34444",
+   "pdf": "https://arxiv.org/pdf/2610.34444"
+  },
+  {
+   "id": "2610.33692",
+   "type": "cross",
+   "title": "On the isomorphism problem of Cayley digraphs",
+   "authors": [
+    "Péter P. Pálfy"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "7 pages",
+   "abstract": "A finite group $G$ is called a DCI-group provided any two Cayley digraphs $Cay(G,S)$ and $Cay(G,T)$ are isomorphic iff the two connection sets $S$ and $T$ are images of each other via automorphisms of the group $G$. Building on the vast literature on CI- and DCI-groups we present an updated list of possible DCI-groups. In addition, we give an alternative proof that does not rely on deep results from group theory. We also point out the three most important open problems related to the classification of DCI-groups.",
+   "abs": "https://arxiv.org/abs/2610.33692",
+   "pdf": "https://arxiv.org/pdf/2610.33692"
+  }
+ ],
+ "listed_new": 79,
+ "listed_cross": 33
+}
