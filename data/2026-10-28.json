@@ -1,0 +1,588 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28T03:00:57Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-10-28",
+ "screened": 65,
+ "screened_new": 43,
+ "screened_cross": 22,
+ "scored": 65,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.36290",
+   "type": "new",
+   "title": "Cops and Robbers on Graphs without Long or Short Holes",
+   "authors": [
+    "Alexander Clow"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 Pages",
+   "abstract": "In 2019, Sivaraman conjectured that every $P_k$-free graph has cop number at most $k-3$ for $k\\geq 5$. Chudnovsky, Norin, Seymour, and Turcotte proved $P_5$-free graphs have cop number at most $2$. For $k\\geq 6$ Sivaraman's conjecture remains widely open. There is little evidence to believe Sivaraman's conjecture is optimal, making the discovery of substantially better bounds interesting, even for subclasses of $P_k$-free graphs. We consider this problem for graphs with no long holes, which generalizes $P_k$-free graphs, that also have some forbidden shorter holes. Specifically, we show that for $t\\geq 13$, $(C_4,\\dots, C_{t}, C_k,C_{k+1},\\dots)$-free graphs have cop number at most $\\lceil \\frac{k-2}{\\lfloor \\frac{t}{4}\\rfloor }\\rceil+1$. Taking $C_{k-1}$, which has cop number $2$ whenever $k\\geq 5$, demonstrates that this bound is tight up to a small constant factor for infinity many pairs $k$ and $t$. The proof relies on showing that in graphs without short holes, the closed neighbourhood of a short induced path can be guarded by $1$ cop, even when these paths are not geodesics. Additionally, for $t\\geq 2$ we show that $(C_{t+2},C_{t+3},C_k, C_{k+1},\\dots, )$-free graphs have cop number at most $(t-1)\\lceil \\frac{(k-2)}{t}\\rceil$. This show that $(C_4,C_5,C_k,C_{k+1},\\dots)$-free graphs have cop number at most $\\lceil \\frac{k-2}{2}\\rceil$, extending work by Clow and Meger on $(P_k,\\text{claw}, \\text{butterfly}, C_4,C_5)$-free graphs to a substantially more general class.",
+   "abs": "https://arxiv.org/abs/2610.36290",
+   "pdf": "https://arxiv.org/pdf/2610.36290"
+  },
+  {
+   "id": "2610.37053",
+   "type": "new",
+   "title": "A sparse canonical Rado theorem",
+   "authors": [
+    "Zhenzhen Lou",
+    "Guangfu Wang",
+    "Man Wu",
+    "Zhifei Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Canonical Ramsey theory studies structured colour patterns in colourings with arbitrarily many colours. Lefmann's canonical Rado theorem extends the canonical van der Waerden theorem of Erdős and Graham to partition-regular linear systems. Recently, Alvarado, Kohayakawa, Morris, Mota and Ortega proved a sparse canonical van der Waerden theorem for random set $[n]_p$.\nIn this paper, we prove a sparse canonical Rado theorem. For every irredundant partition-regular matrix $A$ of positive rank with $k\\ge3$ columns, and every prescribed partition witnessing the columns condition, if $p\\ge Cn^{-1/m(A)}$, then with probability at least $1-e^{-cnp}$ every colouring of $[n]_p$ contains $$\\Omega\\big(p^k n^{k-\\rank(A)}\\big)$$ canonical solutions of $A\\mathbf x=0$ with distinct coordinates. A matching 0-statement holds when the prescribed partition has one or at least three blocks; the Schur equation shows that it can fail for two-block patterns. For every prescribed partition, we also establish a robust threshold at the same scale under deletion of a fixed positive proportion of the random set.",
+   "abs": "https://arxiv.org/abs/2610.37053",
+   "pdf": "https://arxiv.org/pdf/2610.37053"
+  },
+  {
+   "id": "2610.37512",
+   "type": "cross",
+   "title": "Coprime matchings of divisor sets",
+   "authors": [
+    "Max A. Alekseyev"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "For a positive integer $n$, let $D(n)$ be its set of positive divisors and put $N:=\\tau(n)=|D(n)|$. We characterize the arithmetic progressions $\\mathcal P$ of length $N$ that admit a bijection with $D(n)$ pairing relatively prime integers. Such a coprime matching exists if and only if, for every prime $p\\mid n$, at most $N/(\\nu_p(n)+1)$ terms of $\\mathcal P$ are divisible by $p$, where $\\nu_p(n)$ is the exponent of $p$ in $n$. Call $n$ an $M$-number if $p^p\\nmid n$ for every prime $p$. We prove that $D(n)$ can be matched with every primitive arithmetic progression of length $N$, meaning one whose first term and common difference are coprime, if and only if $n$ is an $M$-number. This proves a conjecture of McNew and Pomerance. We call $n$ \\emph{matchable} if $D(n)$ admits a coprime matching with the primitive arithmetic progression $\\{1,2,\\ldots,N\\}$. The general criterion implies that $n$ is matchable if and only if $\\lfloor N/p\\rfloor\\le N/(\\nu_p(n)+1)$ for all $p\\mid n$. We explicitly classify the matchable non-$M$-numbers, settle a conjectured divisor criterion, and prove that every divisor of a matchable integer is matchable. A Vandermonde determinant gives the required matchings under bounds on the prime exponents, while a partition into shorter progressions handles the remaining cases.",
+   "abs": "https://arxiv.org/abs/2610.37512",
+   "pdf": "https://arxiv.org/pdf/2610.37512"
+  },
+  {
+   "id": "2610.37136",
+   "type": "new",
+   "title": "On additive bases of finite abelian groups",
+   "authors": [
+    "Weidong Gao",
+    "Hanbin Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "Let $G$ be a finite abelian group, let $p$ be the smallest prime divisor of $|G|$, and let $c_0(G)$ be the least integer $t$ such that every regular sequence over $G$ of length at least $t$ is an additive basis. Additive bases have been extensively studied in additive combinatorics, and the exact value of $c_0(G)$ has been determined for many groups of rank at least three and some groups of rank two (in which case groups of the form $C_p\\oplus C_{pn}$ turn out to be exceptional). In this paper, we continue the study of $c_0(G)$ and obtain the following results.\n(1) Together with known results, we prove that $c_0(G)=|G|/p+p-2$ for all abelian groups $G$ with $\\text{rank}(G)\\geq 3$.\n(2) For distinct odd primes $p<q$, we determine \\[ c_0(C_p\\oplus C_{pq})=pq+2p-3,\\qquad c_0(C_q\\oplus C_{pq})=q^2+p-2. \\]\n(3) Let $p$ be an odd prime, let $2\\leq a\\leq b$, and let $n$ be a positive integer with no prime divisor smaller than $p$. Then \\[ c_0(C_{p^a}\\oplus C_{p^bn})=p^{a+b-1}n+p-2. \\]\n(4) For every odd integer $n\\geq 3$, we prove \\[ c_0(C_3\\oplus C_{3n})=3n+3. \\]\nTherefore, $c_0(G)$ is determined except possibly for groups of the form $C_p\\oplus C_{pn}$ with $p\\geq 5$.",
+   "abs": "https://arxiv.org/abs/2610.37136",
+   "pdf": "https://arxiv.org/pdf/2610.37136"
+  },
+  {
+   "id": "2610.36566",
+   "type": "new",
+   "title": "Helly theorems for lattice of flats of a matroid",
+   "authors": [
+    "Amir Jafari",
+    "Kiumars Kaveh"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "A basis of a matroid is adapted to a flat if it contains a basis of the flat. We prove that a family of flats in a rank r matroid has a common adapted basis whenever every subfamily of at most r+1 flats does. The ground set and the family may be infinite; only the rank must be finite. This result, in particular, contains Klyachko's vector space Helly theorem for subspaces. As an application, we obtain a splitting criterion for tropical toric vector bundles on projective spaces. As a secondary application, we derive quadratic bounds for the Helly number for distributive generation in the lattice of flats.",
+   "abs": "https://arxiv.org/abs/2610.36566",
+   "pdf": "https://arxiv.org/pdf/2610.36566"
+  },
+  {
+   "id": "2610.37125",
+   "type": "new",
+   "title": "Enumeration of zero-sum subsequences: A proof of Bialostocki-Lotspeich conjecture",
+   "authors": [
+    "Guoqing Wang",
+    "Xiangneng Zeng"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $C_n$ be a cyclic group of order $n\\ge 2$, and let $S=g_1\\cdot\\ldots\\cdot g_{\\ell}$ be a sequence over $C_n$, with repetitions allowed. We denote by $\\mathsf N_0^n(S)$ the number of subsets $I\\subseteq[1,\\ell]$ with $|I|=n$ and $\\sum_{i\\in I}g_i=0$. A conjecture proposed by Bialostocki and Lotspeich in 1992 states that $$\\mathsf N_0^n(S)\\ge \\binom{\\lfloor |S|/2\\rfloor}{n}+ \\binom{\\lceil |S|/2\\rceil}{n}.$$ Several partial results toward this conjecture are known. In this paper, we prove this conjecture completely.",
+   "abs": "https://arxiv.org/abs/2610.37125",
+   "pdf": "https://arxiv.org/pdf/2610.37125"
+  },
+  {
+   "id": "2610.36675",
+   "type": "cross",
+   "title": "New upper bounds for average kissing numbers",
+   "authors": [
+    "Mark Bockhaus",
+    "Alexey Glazyrin"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "A packing of balls in Euclidean space is a set of balls with non-overlapping interiors. For a finite packing of balls, its average contact number is the average number of balls tangent to a ball in this packing, that is, twice the total number of tangencies divided by the number of balls. The average kissing number of the space is defined as the supremum of average contact numbers over all finite ball packings. In this paper, we present a new semidefinite programming approach to average kissing numbers and improve upon known upper bounds in all dimensions \\(3\\) through \\(30\\). In particular, we provide the first improvements to the upper bounds in dimensions \\(10\\) through \\(30\\) obtained from kissing numbers. We also fully solve the average kissing number problem in dimensions \\(8\\) and \\(24\\) by showing that the average kissing numbers coincide with the kissing numbers, 240 and 196560, respectively. These values are limits of average contact numbers of finite subpackings from the \\(E_8\\) and Leech lattices.",
+   "abs": "https://arxiv.org/abs/2610.36675",
+   "pdf": "https://arxiv.org/pdf/2610.36675"
+  },
+  {
+   "id": "2610.37010",
+   "type": "new",
+   "title": "Resolving a Problem of Lv and Koolen on the Smallest Eigenvalue of Distance-Regular Graphs",
+   "authors": [
+    "Zhen-Mu Hong",
+    "Fu-Tao Hu",
+    "Chenhui Lv"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\Gamma$ be a distance-regular graph with valency $k$, diameter $D\\ge3$, and eigenvalues $k=\\theta_0>\\theta_1>\\cdots>\\theta_D$. Put $b\\coloneqq b_1/(\\theta_1+1)$, and let $1=u_0>u_1>\\cdots>u_D$ be the standard sequence associated with $\\theta_1$. Lv and Koolen asked whether the negative of the smallest eigenvalue of a distance-regular graph can be bounded above in terms of its diameter $D$ and the parameter $b$ alone. In this paper, we answer this question affirmatively by proving that $-\\theta_D\\le\\prod_{i=2}^D(1-u_i)/(u_1-u_i) <(b+1)^{D-1}$. Equality in the product bound holds if and only if $\\Gamma$ is $Q$-polynomial with respect to the primitive idempotent corresponding to $\\theta_1$. For every integer $D\\ge4$, we further establish the explicit bound $-\\theta_D\\le b^{D-1}+b^{D-2} +\\frac{27}{2}(D-2)b^{D-3}$ whenever $b\\ge\\max\\{8,\\sqrt{12(D-2)}\\}$. Both leading coefficients are best possible for each fixed $D\\ge4$. The proof uses a spectral product theorem of Micchelli and Willoughby applied to Schur multiplication in the Bose--Mesner algebra.",
+   "abs": "https://arxiv.org/abs/2610.37010",
+   "pdf": "https://arxiv.org/pdf/2610.37010"
+  },
+  {
+   "id": "2610.37532",
+   "type": "cross",
+   "title": "Relative distality and incidence bounds in positive characteristic",
+   "authors": [
+    "Mira Tartarotti"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "30 pages",
+   "abstract": "We prove Szemerédi-Trotter-type incidence bounds for algebraic relations in any field $F$ admitting a valuation with finite residue field. This includes $\\mathbb F_q(t)$, $\\mathbb F_q((t))$, and all finitely generated extensions of finite fields. Bays and Martin show that any algebraic $K_{d,s}$-free relation $E\\subseteq F^k\\times F^\\ell$ admits a power-saving in the classical Zarankiewicz bound of Kővári, Sós, and Turán. Answering a question of the authors, we show that this power-saving is uniform in $F$: There is some $\\epsilon>0$ depending only on $d$ and the complexity of $E$ (and not on $F$) such that for $A\\subseteq F^k$ and $B\\subseteq F^\\ell$, the number of edges $|E(A,B)|$ is at most $O(|A|^{1-\\epsilon}|B|^{1-\\frac{1-\\epsilon}{d}}+|A|+|B|)$. For the case where $A$ is a set of points and $B$ is a set of lines in $F^2$ and $E$ is the incidence relation, we prove the explicit bound $O(|P|^{\\frac{8}{9}}|L|^{\\frac{5}{9}}+|P|+|L|)$. As the central ingredient of the proof, we introduce the model-theoretic notion of distality relative to a definable set. We begin developing this notion and prove that the theory of algebraically closed valued fields is distal relative to the residue field. An application of a result of Chernikov, Peterzil, and Starchenko, based on work of Chernikov, Galvin, and Starchenko, yields our incidence bounds.",
+   "abs": "https://arxiv.org/abs/2610.37532",
+   "pdf": "https://arxiv.org/pdf/2610.37532"
+  },
+  {
+   "id": "2610.37315",
+   "type": "new",
+   "title": "The maximum size of intersecting $k$-graphs with covering number $k$",
+   "authors": [
+    "Peter Frankl",
+    "Jian Wang",
+    "Yaoran Yang",
+    "Yutong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "Let $m(k)$ be the maximum size of an intersecting $k$-graph with covering number $k$. In the present paper, it is proved that for all $k>e^{32}$, \\[\nm(k)\\ge k^k\\exp\\bigl(-50\\sqrt{k\\log k}\\bigr). \\] Together with Zakharov's upper bound \\cite{Z}, this implies $m(k)=k^k\\exp\\bigl(-k^{1/2+o(1)}\\bigr)$.",
+   "abs": "https://arxiv.org/abs/2610.37315",
+   "pdf": "https://arxiv.org/pdf/2610.37315"
+  },
+  {
+   "id": "2610.36895",
+   "type": "new",
+   "title": "The unilateral 2-linkage problem",
+   "authors": [
+    "Jørgen Bang-Jensen",
+    "Xiaoying Chen",
+    "Panpan Cheng",
+    "Jin Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study a new variant of the classical linkage problem for digraphs, which we call {\\bf unilateral linkages.} A digraph $D$ is {\\bf unilaterally $\\bm{k}$-linked} if it satisfies that for every choice of $2k$ distinct vertices $s_1,s_2,\\ldots{},s_k,t_1,t_2,\\ldots{},t_k$ there are vertex disjoint directed paths $P_1,\\ldots{},P_k$ in $D$ such that $P_i$ is either an $(s_i,t_i)$-path or a $(t_i,s_i)$-path for each $i\\in [k]$. This is a relaxation of the property of $D$ being $k$-linked, where we insist that each $P_i$ must go from $s_i$ to $t_i$. Clearly every $k$-linked digraph is also unilaterally $k$-linked.\nIt is easy to see that the unilateral linkage problem is NP-complete for general digraphs and that it is trivial for semicomplete digraphs (digraphs with no pair of non-adjacent vertices). We show how Thomassen's construction of highly connected digraphs which are not 2-linked can be modified to show that there is no connectivity which guarantees that a digraph is unilaterally 2-linked. We show that every 4-strong split digraph and every 5-strong semicomplete multipartite digraph is unilaterally 2-linked. Both bounds are best possible. A digraph is {\\bf co-bipartite} if its vertex set can be covered by two induced semicomplete digraphs. We prove that every 6-strong co-bipartite digraph is unilaterally 2-linked. Here we do not know whether the correct answer is 5. We also prove that every 16-strong digraph with independence number at most 2 is unilaterally 2-linked.",
+   "abs": "https://arxiv.org/abs/2610.36895",
+   "pdf": "https://arxiv.org/pdf/2610.36895"
+  },
+  {
+   "id": "2610.36483",
+   "type": "new",
+   "title": "Log-concavity of longest increasing subsequence",
+   "authors": [
+    "Yupeng Li"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "We prove a conjecture proposed by Chen that, for every fixed $n$, the sequence $(a_{n,k})_{k=1}^n$ is log-concave, where $a_{n,k}$ counts permutations of $[n]$ whose longest increasing subsequence has length $k$.",
+   "abs": "https://arxiv.org/abs/2610.36483",
+   "pdf": "https://arxiv.org/pdf/2610.36483"
+  },
+  {
+   "id": "2610.36648",
+   "type": "new",
+   "title": "An upper bound of 61 for the Ramsey number $R(3,3,3,3)$",
+   "authors": [
+    "Milos Tatarevic"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 3 figures",
+   "abstract": "We improve the upper bound on the classical Ramsey number $R(3,3,3,3)$ from 62 to 61. The proof is based on a global incidence count, classifications of small neighborhoods and exhaustive SAT computations. We formalize the mathematical reductions in Lean and refute every resulting formula with two SAT solvers.",
+   "abs": "https://arxiv.org/abs/2610.36648",
+   "pdf": "https://arxiv.org/pdf/2610.36648"
+  },
+  {
+   "id": "2610.37539",
+   "type": "new",
+   "title": "The packing and covering number of trees are local",
+   "authors": [
+    "Caelan Atamanchuk",
+    "Simon Briend",
+    "Serte Donderwinkel",
+    "Elaine Herrera"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "For a graph, its $r$-packing number is the size of the largest $r$-separated set and its $r$-covering number is the size of the smallest $r$-net. We show that the $r$-covering number and $r$-packing number are continuous in the fringe topology on locally finite trees. This recovers convergence results by Meir and Moon for e.g. uniform binary trees, uniform plane trees, uniform Polyá trees and random recursive trees, and proves new results for many other tree models, such as size-conditioned Bienaymé trees, simply generated trees, $m$-ary search trees, the minimum spanning tree of the complete graph and preferential attachment trees. Moreover, our formulation provides an intuitive interpretation of the limiting constant, that also provides an easy route for explicit computations in the case of size-conditioned Bienaymé trees. Our method relies on the definition of a canonical minimum $r$-net, and a relation between covering numbers and packing numbers due to Meir and Moon.",
+   "abs": "https://arxiv.org/abs/2610.37539",
+   "pdf": "https://arxiv.org/pdf/2610.37539"
+  },
+  {
+   "id": "2610.37408",
+   "type": "new",
+   "title": "High powers of grids in random geometric graphs and thresholds for wide spanning structures",
+   "authors": [
+    "Alberto Espuny Díaz"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Using results of Leighton and Shor and of Shor and Yukich, we present a connection between $d$-dimensional bandwidth and (sharp) thresholds in $d$-dimensional random geometric graphs: namely, that the sharp threshold for a given graph property in random geometric graphs is determined by its $d$-dimensional bandwidth, and vice versa, whenever the $d$-dimensional bandwidth of this property grows sufficiently fast (at least polylogarithmically) with the order of the graphs. This connection provides a number of corollaries, such as new information about the sharp thresholds for containing different spanning subgraphs in $1$-dimensional random geometric graphs, as well as asymptotically tight bounds for the $d$-dimensional bandwidth of structures such as graphs of bounded treewidth or genus, giving an asymptotic resolution to several problems raised by Chung in 1988.",
+   "abs": "https://arxiv.org/abs/2610.37408",
+   "pdf": "https://arxiv.org/pdf/2610.37408"
+  },
+  {
+   "id": "2610.37399",
+   "type": "cross",
+   "title": "Representation and abelianization growth, particularly along expanding sequences",
+   "authors": [
+    "Urban Jezernik"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.GR",
+   "comments": "",
+   "abstract": "We study two obstructions to a finite group $G$ having a generating $d$-tuple whose Cayley graph has spectral gap at least $\\epsilon$. Lubotzky and Weiss proved that such a gap forces $\\mathrm{ab}_k(G)$, the largest order of the abelianization of a subgroup of index at most $k$, to be $\\exp(O_\\epsilon(dk))$, while de la Harpe, Robertson and Valette proved that it forces $\\mathrm{rep}_k(G)$, the number of irreducible complex representations of degree at most $k$, to be $\\exp(O_\\epsilon(dk^2))$. We show that the first bound implies the second, and in fact implies it with $k^2$ replaced by $k\\log k$. For this, we prove that every finite $d$-generated group satisfies the inequality $\\mathrm{rep}_k(G)\\leq\\exp((d-1)k\\log k+O(dk))\\cdot\\mathrm{ab}_k(G)$, regardless of its spectral gap. The leading term $(d-1)k\\log k$ is attained by powers of alternating groups, and it disappears for groups without large alternating sections. The proof reduces to counting the finite primitive subgroups of $\\mathrm{GL}_m(\\mathbf{C})$, and we show that there are at most $\\exp(O(\\log^4m))$ of them up to conjugacy and scalars. Wigderson asked whether $k^2$ in the second bound can be lowered to $k$, so our result answers his question up to a logarithm. We do not know whether the logarithm is actually needed. For powers of alternating groups, the natural candidates, we show that a spectral gap keeps the number of factors a fixed power below the maximum allowed by $d$-generation, and that random generators have spectral gap tending to $0$ already for superpolynomially many factors.",
+   "abs": "https://arxiv.org/abs/2610.37399",
+   "pdf": "https://arxiv.org/pdf/2610.37399"
+  },
+  {
+   "id": "2610.36127",
+   "type": "new",
+   "title": "Trace-minimal graphs maximizing the number of spanning trees",
+   "authors": [
+    "Pablo Romero",
+    "Louis Petingi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A classical problem in spectral graph theory is to determine, among all simple graphs with a fixed number of vertices and edges, those that maximize the number of spanning trees. Such graphs are called $t$-optimal. Petingi and Rodríguez [Discr. Math. 244 (2002), 351-373] reduced the construction of infinitely many $t$-optimal graphs to the determination of almost-regular graphs with a minimum number of induced $3$-paths, known as almost-regular $\\nu$-min graphs. They conjectured that the class of $d$-regular $\\nu$-min graphs is invariant under the addition or deletion of copies of the complete graph $K_{d+1}$, which would provide a method to construct large families of $t$-optimal graphs. This conjecture was recently verified for $d\\in \\{1,2,3,4,5\\}$ by Gong et al. [Discr. Math. 349(4), 2026].\nIn this work, we establish an asymptotic version of this conjecture. We prove that the class of $d$-regular $\\nu$-min graphs on at least $n$ vertices is invariant under the addition or deletion of copies of $K_{d+1}$ whenever $d\\geq 3$ and $n\\geq d^3$. In addition, we introduce a new method to construct $t$-optimal graphs based on the concept of trace-minimal graphs, originally introduced by Ábrego et al. [Linear Algebra Appl. 412 (2006), 161-221]. As a consequence, we obtain infinitely many graphs that are both trace-minimal and $t$-optimal.",
+   "abs": "https://arxiv.org/abs/2610.36127",
+   "pdf": "https://arxiv.org/pdf/2610.36127"
+  },
+  {
+   "id": "2610.37173",
+   "type": "new",
+   "title": "Optimal path decompositions of sparse random graphs",
+   "authors": [
+    "Jifu Lin",
+    "Heng Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "Let $\\operatorname{odd}(G)$ be the number of odd-degree vertices of a graph $G$. We prove that, if $p=o(1)$ and $np/\\log n\\to\\infty$, then with probability tending to one the random graph $G(n,p)$ has an edge decomposition into exactly $\\operatorname{odd}(G)/2$ paths. This confirms a conjecture of Glock, Kühn and Osthus from 2016. The proof combines a key lemma with cycle decompositions of random graphs.",
+   "abs": "https://arxiv.org/abs/2610.37173",
+   "pdf": "https://arxiv.org/pdf/2610.37173"
+  },
+  {
+   "id": "2610.36620",
+   "type": "new",
+   "title": "Diameter Bounds and Finiteness of Graphs from Local Intersection Data",
+   "authors": [
+    "Kaizhe Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We extend the Bakry--Émery curvature framework on graphs, broadening its applications and strengthening the resulting diameter bounds. We study diameter bounds and finiteness for amply regular graphs, distance-regular graphs, $(s,c,a,k)$-graphs, and locally strongly regular graphs. In particular, for an amply regular graph with parameters $(v,k,\\lambda,\\mu)$, we prove that \\[{\\rm{diam}}(G)\\le4+8\\log\\frac{k}{\\lambda+2}\\] when $\\mu>2$ and $k\\ge3\\lambda^2/\\mu$, improving the previous linear bound $4k/(\\lambda+4)$ to a logarithmic bound.\nWe also address several related conjectures. In their monograph \\emph{Distance-Regular Graphs}, Brouwer, Cohen, and Neumaier conjectured that every amply regular graph with $\\mu>1$, except the icosahedron, satisfies ${\\rm{diam}}(G)\\le2k/(\\lambda+2)$. We confirm this bound when $\\mu>\\lambda+1$ and give counterexamples to the conjecture with $\\mu=\\lambda$. For amply regular graphs with $\\mu\\ge\\lambda$ and $\\mu>1$, we obtain ${\\rm{diam}}(G)\\le 2k/\\mu+1$. This proves the Qiao--Park--Koolen conjecture.\nIn 1983, Terwilliger conjectured that every $(s,c,a,k)$-graph with $c>1$ is finite. We prove this conjecture when $s>2$, $c>2$, and $(s,c)\\ne(4,3)$. Moreover, we prove Weetman's finiteness conjecture for locally strongly regular graphs when the local parameter $\\mu>1$, and disprove his stronger conjecture that every strongly regular graph is an $\\mathscr{S}$-graph. We also prove that every graph whose local graphs all have rank 3 is finite, which in particular proves a conjecture of Soicher in 1992.",
+   "abs": "https://arxiv.org/abs/2610.36620",
+   "pdf": "https://arxiv.org/pdf/2610.36620"
+  },
+  {
+   "id": "2610.36417",
+   "type": "new",
+   "title": "Fuglede's conjecture holds in eight dimensions over the field with two elements",
+   "authors": [
+    "Samuel J. Ferguson",
+    "Joshua Iosevich"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages. Programs, data, certificates, and verification logs are included as ancillary files. Standalone treatment of selected results from the preliminary preprint arXiv:2610.30712, with a new, simpler dimension-seven proof",
+   "abstract": "Fuglede's conjecture in a finite abelian group says that a nonempty subset tiles by translation if and only if it is spectral, meaning that the space of complex-valued functions on the subset has an orthogonal basis consisting of restrictions of group characters. We prove the conjecture in the eight-dimensional vector space over the field with two elements. In fact, every spectral set and every tile in this space has a tiling complement which is a linear subspace. We first prove that the Fourier support of a nonempty proper subset of density different from one half contains a two-dimensional subspace. Consequently, every spectral set of density one quarter has a subspace tiling complement. This gives a simpler proof of Kadowaki's dimension-seven result, replacing his use of the classification of Hadamard matrices of order 32 by the classical five classes of order 16. Our dimension-eight proof uses exact finite verifications involving Hadamard matrices of order 32 and perfect codes of length 15. We include the proofs of the reductions used from Kadowaki's preprint, so that neither positive result depends on his dimension-seven theorem. Finally, we give an elementary spectral example of density one eighth in dimension nine whose Fourier support contains no three-dimensional subspace. Thus, the Fourier-support argument at quarter density does not extend in this form to eighth density. Dimension nine is the only case still unresolved over the field with two elements, and this obstruction shows why the present Fourier-support method cannot resolve it as it stands.",
+   "abs": "https://arxiv.org/abs/2610.36417",
+   "pdf": "https://arxiv.org/pdf/2610.36417"
+  },
+  {
+   "id": "2610.36461",
+   "type": "new",
+   "title": "Linear Programming Upper Bounds for the Coil-in-the-Box Problem",
+   "authors": [
+    "Kevin M. Byrnes",
+    "Eric T. Harley",
+    "Florin Spinu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Let $S_n$ denote the maximum length of a coil in the $n$-dimensional hypercube $Q_n$, i.e., a simple cycle whose induced subgraph has no additional chords. We combine classical square-counting identities and structural properties of maximum coils with new valid combinatorial inequalities into a parameterized linear program whose optimal value provides an upper bound for $S_n$. For $n\\ge13$, we construct two analytic dual feasible solutions. Their objective values yield upper bounds on $S_n$, and the smaller value is the exact optimum of the parameterized LP. One dual solution results in the bound \\[ S_n\\le 2^{n-1} \\frac{8n(n-1)(5n-14)} {40n^3-131n^2+4n+136-(5n-14)\\lfloor3n/4\\rfloor}, \\] which improves upon the upper bounds in Lukito, Lukito-van Zanten, and Zémor for $13\\le n\\le19853$. The second yields the upper bound \\[ S_n\\le 2^{n-1}\\left( 1-\\frac1{30\\sqrt{3n}}+O(n^{-1}) \\right), \\] improving upon the asymptotic upper bound of Zémor. Taken together, the two bounds improve upon the upper bounds for $S_n$ in Lukito, Lukito-van Zanten, and Zémor for every $n\\ge13$.",
+   "abs": "https://arxiv.org/abs/2610.36461",
+   "pdf": "https://arxiv.org/pdf/2610.36461"
+  },
+  {
+   "id": "2610.37423",
+   "type": "cross",
+   "title": "Sharp Bounds for Toral Eigenfunctions and Threefold Additive Energy on Circles",
+   "authors": [
+    "Guiyu Xie",
+    "Cheng Zhang"
+   ],
+   "categories": [
+    "math.AP",
+    "math.CO",
+    "math.NT",
+    "math.SP"
+   ],
+   "primary": "math.AP",
+   "comments": "",
+   "abstract": "For the lattice circle $P_n=\\{z\\in\\mathbb{Z}^2:|z|^2=n\\}$, we prove that the threefold additive energy $J_3(P_n)\\le C|P_n|^3$, with an absolute constant $C$. This establishes the optimal bound suggested by Krishnapur--Kurlberg--Wigman and Bombieri--Bourgain. We also prove a uniform weak $L^6$ bound for $L^2$-normalized eigenfunctions on the square torus, and hence uniform $L^p$ bounds for every $1\\le p<6$. This extends the classical $L^4$ bounds of Cooke and Zygmund and establishes Bourgain's conjecture in this range. Applications include mean-square convergence for $L^{6/5}$ observables and a logarithm-free remainder in the nodal length variance of arithmetic random waves.",
+   "abs": "https://arxiv.org/abs/2610.37423",
+   "pdf": "https://arxiv.org/pdf/2610.37423"
+  },
+  {
+   "id": "2610.37578",
+   "type": "new",
+   "title": "A cubic chromatic bound for capped graphs",
+   "authors": [
+    "Hongyang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "An ordered graph is capped if, for any four vertices $a<b<c<d$, the edges $ac$ and $bd$ imply the edge $ad$. We prove that every nonempty capped graph $G$ satisfies $\\chi(G)\\leq\\min\\{3^{\\omega(G)-1},18\\omega(G)^3\\}$, where $\\chi(G)$ and $\\omega(G)$ are its chromatic number and clique number. This proves a conjecture of Davies, Krawczyk, McCarty and Walczak.",
+   "abs": "https://arxiv.org/abs/2610.37578",
+   "pdf": "https://arxiv.org/pdf/2610.37578"
+  },
+  {
+   "id": "2610.37463",
+   "type": "cross",
+   "title": "Local Law and Eigenvector Delocalization for Random Lifts",
+   "authors": [
+    "Jiaoyang Huang",
+    "Ruizhe Xu"
+   ],
+   "categories": [
+    "math.PR",
+    "math-ph",
+    "math.CO",
+    "math.SP"
+   ],
+   "primary": "math.PR",
+   "comments": "70 pages; 9 figures",
+   "abstract": "We establish a quantitative local law for random $N$-lifts of a fixed finite connected simple graph with minimum degree at least three. Away from the singular energies of the universal-cover spectrum, we obtain high-probability entrywise Green's function estimates down to spectral scales $(\\log N)^C/N$, uniformly in the bulk and near regular edges and cusps. As a consequence, we establish complete eigenvector delocalization: every normalized eigenvector $u$ whose eigenvalue stays a small but fixed positive distance away from the singular energies satisfies $\\|u\\|_\\infty\\leq(\\log N)^C/\\sqrt{N}$ with high probability.",
+   "abs": "https://arxiv.org/abs/2610.37463",
+   "pdf": "https://arxiv.org/pdf/2610.37463"
+  },
+  {
+   "id": "2610.36586",
+   "type": "new",
+   "title": "Degree-truncated DP-colouring of $\\{K_4,K_{2,t}\\}$-minor-free graphs",
+   "authors": [
+    "Huan Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages 3 figures",
+   "abstract": "A graph $G$ is degree-truncated DP-$k$-colourable (respectively, degree-truncated $k$-choosable) if it is DP-$f$-colourable (respectively, $f$-choosable), where $f(v)=\\min\\{k,d_G(v)\\}$ for every vertex $v$. Hutchinson proved that every $2$-connected maximal outerplanar graph other than the triangle is degree-truncated $5$-choosable. Lo, Wang, Zhou and Zhu strengthened this result by proving that every $2$-connected $K_{2,4}$-minor-free graph other than cycles and complete graphs is degree-truncated DP-$5$-colourable.\nOuterplanar graphs are precisely the $\\{K_4,K_{2,3}\\}$-minor-free graphs. We study how the truncation threshold grows when $K_{2,3}$ is replaced by $K_{2,t}$, while $K_4$-minor remains excluded. A bound independent of $t$ is impossible, as shown by the family $\\{K_{2,n}| n\\ge 2\\}$. Let $\\mathcal S_t$ be the class of $2$-connected $\\{K_4,K_{2,t}\\}$-minor-free graphs other than cycles. Writing $\\chi^{\\text{\\sout{d}}}_{\\mathrm{DP}}(\\mathcal S_t)$ for the least truncation threshold valid throughout this class, we prove that, for every integer $t\\ge3$, \\[ \\left\\lfloor2\\sqrt{2t}\\right\\rfloor \\le \\chi^{\\text{\\sout{d}}}_{\\mathrm{DP}}(\\mathcal S_t) \\le \\left\\lceil4\\sqrt{2t}\\right\\rceil. \\]",
+   "abs": "https://arxiv.org/abs/2610.36586",
+   "pdf": "https://arxiv.org/pdf/2610.36586"
+  },
+  {
+   "id": "2610.36273",
+   "type": "new",
+   "title": "Characterizing $3$-graphs with Degenerate Codegree Turán Density",
+   "authors": [
+    "Dylan King",
+    "Simón Piga",
+    "Marcelo Sales",
+    "Bjarne Schülke"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Determining the Turán densities $\\pi(F)$, uniform Turán densities $\\pi_{\\therefore}(F)$, and codegree Turán densities $\\gamma(F)$ of $3$-graphs $F$ is a notoriously difficult problem in combinatorics. A landmark result by Erdős characterized the $3$-graphs whose Turán density is zero. Half a century later, Reiher, Rödl, and Schacht characterized the $3$-graphs whose uniform Turán density is zero. Recently, Ding, Lamaison, Liu, Wang, and Yang suggested a possible characterization of $3$-graphs whose codegree Turán density is zero, proved one direction of it, and conjectured the other. In this work we confirm this conjecture, completing the characterization of $3$-graphs with codegree Turán density zero. A particular difficulty of this result is that it is known that there are $3$-graphs with arbitrarily small codegree Turán density, contrasting the behavior of the normal and the uniform Turán density.\nSimilar results were independently announced by Chen, Fang, and Yang.",
+   "abs": "https://arxiv.org/abs/2610.36273",
+   "pdf": "https://arxiv.org/pdf/2610.36273"
+  },
+  {
+   "id": "2610.36179",
+   "type": "new",
+   "title": "Mutation-acyclicity in rank four is decidable but not semialgebraic",
+   "authors": [
+    "Kymani T. K. Armstrong-Williams",
+    "Edward Hirst",
+    "Blake Jackson",
+    "Kyu-Hwan Lee"
+   ],
+   "categories": [
+    "math.CO",
+    "hep-th",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages",
+   "abstract": "We prove that mutation-acyclicity of quivers on four vertices is decidable. If a four-vertex quiver $Q$ is mutation-acyclic, then some sequence of mutations takes it to an acyclic quiver without any arrow multiplicity exceeding $\\operatorname{max}\\{\\operatorname{ht}(Q),m(Q)\\}$, where $\\operatorname{ht}(Q)$ is the largest arrow multiplicity of $Q$ and $m(Q)$ is the Markov invariant of Fomin and Neville evaluated on the totally proper wiggle class of $Q$. A search within a computable form of this bound decides mutation-acyclicity of four-vertex quivers with $O(h^{24})$ states for input height $h\\ge1$. Together with a theorem of Caldero and Keller, it also decides mutation equivalence of two four-vertex quivers up to relabeling whenever one of them is mutation-acyclic. We conjecture that $\\operatorname{ht}(Q)$ alone suffices as the bound, which would reduce the search to $O(h^{6})$ states, and we verify this for all four-vertex quivers of height at most three. In the other direction, for every $n\\ge4$ we construct an affine family of connected $n$-vertex quivers whose nonnegative even members are mutation-acyclic and whose positive odd members are mutation-cyclic. Consequently, unlike in rank three, no fixed finite Boolean combination of polynomial equations and strict polynomial inequalities in the arrow weights (i.e., a semialgebraic criterion) decides mutation-acyclicity of $n$-vertex quivers, even allowing polynomials that are not mutation-invariant. Finally, we correct the criterion for four-vertex quivers of height at most two stated in our earlier paper, and recover its classification counts with short certificates. The calculations in the proof of the height bound are verified by computer for all values of their parameters.",
+   "abs": "https://arxiv.org/abs/2610.36179",
+   "pdf": "https://arxiv.org/pdf/2610.36179"
+  },
+  {
+   "id": "2610.36207",
+   "type": "new",
+   "title": "On the diameter and distribution of Sidon sets",
+   "authors": [
+    "Daniel Carter",
+    "Kevin O'Bryant",
+    "Terence Tao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "33 pages, 9 figures",
+   "abstract": "A Sidon set is a set $\\mathcal{A}$ of integers with the property that if $0\\neq a-b=c-d$ and $a,b,c,d\\in\\mathcal{A}$, then $(a,b)=(c,d)$. Our main result is an improved and explicit bound on the diameter of a Sidon set: if $\\mathcal{A}$ is a Sidon set with $k\\ge 1$ elements, then\n\\[\\operatorname{diam}(\\mathcal{A}) \\ge k^2 \\left(\\frac{1}{1 + 0.945/\\sqrt{k}}-\\frac{0.945}{\\sqrt k}\\right) -1;\\] in particular, $\\operatorname{diam}(\\mathcal{A})\\ge k^2-1.89 k^{3/2}$. This implies that if $\\mathcal{A}\\subseteq[1,N]$ is a Sidon set, then $|\\mathcal{A}| \\le N^{1/2}+0.945 \\, N^{1/4}+0.447$. Our technique also gives an improved bound for the case of large $k$, namely $\\operatorname{diam}(\\mathcal{A}) \\ge k^2-1.88607 k^{3/2}$ for $k\\ge 483$. A $\\gamma$-Golomb ruler is a set $\\mathcal{A}$ of integers with the property that there are not $\\gamma+1$ distinct pairs $(a_i,b_i)\\in\\mathcal{A}^2$ with $0\\neq a_1-b_1=\\cdots=a_{\\gamma+1}-b_{\\gamma+1}$. Our diameter bounds extend in a natural way to the case of Golomb rulers. Our techniques can also be adapted to address a number of questions on the distribution of Golomb rulers: we provide upper bounds on the two quantities $\\left|a_\\ell-a_1 -\\frac{\\ell-1}{k-1}(a_k-a_1)\\right|$ and $\\max_{1\\le i<k} (a_{i+1}-a_i)$, where $\\mathcal{A}=\\{a_1<\\dots<a_k\\}$ is a $\\gamma$-Golomb ruler with $\\operatorname{diam}(\\mathcal{A})\\le (k^2-bk^{3/2})/\\gamma$ (where $b\\in \\mathbb{R}$ is a free parameter).",
+   "abs": "https://arxiv.org/abs/2610.36207",
+   "pdf": "https://arxiv.org/pdf/2610.36207"
+  },
+  {
+   "id": "2610.36522",
+   "type": "new",
+   "title": "Constructions for Nearly Diagonal Book Ramsey Numbers",
+   "authors": [
+    "Stephen Chung",
+    "William J. Wesley"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 1 figure",
+   "abstract": "The Ramsey number $R(G_1,G_2)$ is the smallest positive integer $n$ such that for every graph $H$ on $n$ vertices, either $H$ contains a copy of $G_1$ or the complement $\\overline H$ contains a copy of $G_2$. Ramsey numbers involving the book graphs $B_n$, which consist of $n$ triangles sharing a common edge, have attracted recent attention, especially in the ``nearly diagonal'' case $R(B_{n-1},B_n)$. Rousseau and Sheehan showed the upper bound $R(B_{n-1},B_n) \\le 4n-1$ nearly fifty years ago, but no general matching lower bound construction is known. This paper gives several new infinite families of $n$ for which $R(B_{n-1},B_n) = 4n-1$.\nSome of the main results in this paper were found with assistance from the Station, a multi-agent AI system. These results also appeared in a larger work on autonomous mathematical discovery by the authors and Du in arXiv:2608.23691. This paper is a follow-up to that work: we give complete proofs of the book Ramsey results and discuss their connections to objects in combinatorial design theory.",
+   "abs": "https://arxiv.org/abs/2610.36522",
+   "pdf": "https://arxiv.org/pdf/2610.36522"
+  },
+  {
+   "id": "2610.37616",
+   "type": "new",
+   "title": "Generic tensor products are not maximal",
+   "authors": [
+    "Mykhaylo Tyomkyn"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct tensor products of uniform matroids which are strictly freer than their generic linear tensor products. In particular, the generic tensor product of two copies of $U_{7,9}$ is not maximal. More generally, for every $a,b\\ge2$, this holds for $U_{7,a+7}$ and $U_{7,b+7}$. The construction disproves the uniform tensor-product formulation of Mason's conjecture. Its dual is a relaxation of an explicit circuit-hyperplane of a generic birigidity matroid. By the author's representability theorem, the resulting matroids are non-representable over every field. We also obtain full-rank counterexamples to the Jackson--Tanigawa hyperconnectivity conjecture in every dimension $d\\ge2$.",
+   "abs": "https://arxiv.org/abs/2610.37616",
+   "pdf": "https://arxiv.org/pdf/2610.37616"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2610.35968",
+   "type": "cross",
+   "title": "On the frieze patterns by Conway and Coxeter",
+   "authors": [
+    "Anna Felikson",
+    "Pavel Tumarkin"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.HO",
+   "comments": "This survey was written in November 2025 for the prospected book with a tentative title 'The Conway Book', in preparation",
+   "abstract": "The story of frieze patterns started in 1970s with a paper by Coxeter and two short papers by Conway and Coxeter, one listing questions and the other providing brief answers. During the first three decades it was followed by only a handful of papers observing some further properties of the same objects. Then Propp (2005) and Caldero and Chapoton (2006) established connections between frieze patterns and the recent theory of cluster algebras introduced by Fomin and Zelevinsky in early 2000s. Since then the theory of frieze patterns exploded with new results, and frieze patterns found a wide spectrum of connections in various domains of mathematics, including combinatorics, geometry, representation theory and integrable systems. The literature on frieze patterns grew vastly and continues to expand. In this note we give a brief overview of some of the directions emerging from the papers by Conway and Coxeter and single out core ideas which were later replayed in different contexts.",
+   "abs": "https://arxiv.org/abs/2610.35968",
+   "pdf": "https://arxiv.org/pdf/2610.35968"
+  },
+  {
+   "id": "2610.35944",
+   "type": "cross",
+   "title": "When Polynomial Multiplication Counts Geometry: Schubert Polynomials and Monk's Rule",
+   "authors": [
+    "Ryan Bansal"
+   ],
+   "categories": [
+    "math.HO",
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "15 pages, 3 figures",
+   "abstract": "We give a geometric introduction to Schubert polynomial multiplication through point-line flags in the complex projective plane. Moving a prescribed point onto a prescribed line gives a family with local equation $au=\\lambda$, whose limiting curve has two components. The incidence equations and their local multiplicities give a two-term divisor product, using the standard intersection product on classes of algebraic cycles. Permutation labels and Schubert polynomials express the same decomposition as an instance of Monk's rule. For three incidence conditions, each allowing either a point on a prescribed line or a line through a prescribed point, the product has degree six. Under explicit general-position assumptions, direct construction and local equations give six distinct solutions of multiplicity one.",
+   "abs": "https://arxiv.org/abs/2610.35944",
+   "pdf": "https://arxiv.org/pdf/2610.35944"
+  }
+ ],
+ "listed_new": 43,
+ "listed_cross": 22
+}
