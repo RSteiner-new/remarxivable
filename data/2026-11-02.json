@@ -1,0 +1,546 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02T03:00:26Z",
+ "status": "final",
+ "source": "https://arxiv.org/catchup/math.CO/2026-11-02",
+ "screened": 47,
+ "screened_new": 35,
+ "screened_cross": 12,
+ "scored": 47,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2610.40691",
+   "type": "new",
+   "title": "Sharp bounds, stability, and arithmetic fluctuations for induced pentagons",
+   "authors": [
+    "Youwen Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "59 pages, 1 figure",
+   "abstract": "We prove that every graph with $m>0$ edges contains at most $\\frac{3}{2\\sqrt{2}}(\\frac{m}{5})^{5/2}$ induced pentagons. Equality holds precisely for balanced blow-ups of the Clebsch graph, together with isolated vertices. The bound and equality classification extend to arbitrary nonnegative vertex weights and to all graphons, including fractional graphons. Moreover, a deficit of $\\varepsilon$ in the normalized ratio can be repaired by $O(\\sqrt{\\varepsilon}m)$ edge edits on the original vertex set, producing an exactly balanced Clebsch blow-up and isolates. The exponent $1/2$ is optimal. We further separate the linear cost of adjacency errors from the quadratic cost of class imbalance. This yields an arithmetic description of the finite-edge deficit and its explicit second-order term, with a uniform power-saving remainder. For each fixed integer $j$, the exact extremal count at $m=40k^2+j$ is eventually an integer coefficient polynomial in $k$, computable by a finite enumeration; we do not quantify its threshold of validity. The proof combines global variational conditions, an active-density bound, and an exact rational certificate on the $1,044$ graphs of order seven. A positive-slope identity permits a single rational reference density. An exact conditional span excludes triangles at equality, after which degree and codegree identities determine the Clebsch structure. All finite certificates admit independent verification using integer arithmetic.",
+   "abs": "https://arxiv.org/abs/2610.40691",
+   "pdf": "https://arxiv.org/pdf/2610.40691"
+  },
+  {
+   "id": "2610.41502",
+   "type": "new",
+   "title": "Sink polynomials of line graphs and weighted matching polynomials",
+   "authors": [
+    "Per Alexandersson",
+    "Leonardo Saud Maia Leite"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 5 figures",
+   "abstract": "Chromatic quasisymmetric functions and unicellular LLT polynomials give symmetric-function interpretations of graph orientations counted by sinks. For natural unit interval graphs, we prove that the acyclic sink polynomial is real-rooted for every nonnegative ascent weight. Equivalently, the elementary coefficients of the chromatic quasisymmetric function, grouped by partition length, form a real-rooted polynomial. The Carlsson--Mellit relation expresses this polynomial as a plethystic specialization of the corresponding LLT polynomial, and the Hessenberg correspondence gives an interpretation in cohomology. More generally, the acyclic sink polynomial is real-rooted for chordal claw-free graphs, and the all-orientations sink polynomial is real-rooted for every claw-free graph. We also study a real-rooted polynomial counting joint minima in local edge orders. It agrees with the acyclic sink polynomial of the line graph exactly for forests. An exact formula for unicyclic roots gives a line-graph counterexample to acyclic sink real-rootedness.",
+   "abs": "https://arxiv.org/abs/2610.41502",
+   "pdf": "https://arxiv.org/pdf/2610.41502"
+  },
+  {
+   "id": "2610.40882",
+   "type": "new",
+   "title": "Foatic Homomesy",
+   "authors": [
+    "Peter Mao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "37 pages",
+   "abstract": "Using a unified method of identifying a telescoping function for each statistic-action pair, we prove conjectures of La Croix and Roby, and of Sheridan-Rossi that various permutation statistics, such as the number of fixed points, are homomesic under Foatic actions: compositions of the Foata bijection and dihedral symmetries of one-line notation. Underlying these results is a family of bijective identities relating permutation statistics across the Foata bijection; one of them --- an unexpected invariance of the number of right-to-left minima under reverse-complement, proved by an explicit bijection --- may be of independent interest. The telescoping functions also turn out to be shared among some Foatic actions, implying that mixing certain actions still yields a constant average on closed walks.",
+   "abs": "https://arxiv.org/abs/2610.40882",
+   "pdf": "https://arxiv.org/pdf/2610.40882"
+  },
+  {
+   "id": "2610.40863",
+   "type": "new",
+   "title": "The Cranston--Li--Su--Wang--Xu (2026) conjecture is true",
+   "authors": [
+    "Dave Goel"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 1 table. Lean 4 proof: this https URL",
+   "abstract": "Let $A$ be a finite abelian group. A nowhere-zero $A$-flow of a graph gives every edge a direction and a non-zero value in $A$, so that at every vertex the sum of the values on the entering edges equals the sum on the leaving edges. Such a flow can be changed along a cycle: going around the cycle, add a fixed non-zero element of $A$ to the value of every edge that points forward and subtract it from the value of every edge that points backward. The Cranston--Li--Su--Wang--Xu (2026) conjecture states that if $A$ has at least four elements, then in every graph in which all degrees are even, any two nowhere-zero $A$-flows are joined by a chain of such changes through nowhere-zero $A$-flows. It also states that, for every integer $k\\ge 4$, the same holds for integer flows whose values are between $1$ and $k-1$ in absolute value, where each change adds a non-zero integer. We prove this conjecture. The core of the proof is an induction on the number of edges: if a flow enters a vertex $v$ along an edge $uv$ and leaves $v$ along an edge $vw$ with the same value, the two edges can be replaced by one edge $uw$, and the induction hypothesis applies to the smaller graph. So the main task is to change every flow into a flow with such a pair of edges. For nowhere-zero $A$-flows with $|A|\\ge 4$, replacing vertices of degree more than $4$ by triangles reduces the problem to graphs with all degrees at most $4$. For integer flows, a counting argument joins any two nowhere-zero flows with values in the cyclic group $\\mathbb{Z}_k$, $k\\ge 4$, by changes that add $1$, $-1$, $2$ or $-2$; every such chain gives a chain of integer flows with values between $1$ and $k-1$ in absolute value, and every integer flow of this chain reduces modulo $k$ to a flow of the given chain. All results of this paper are also proved in the Lean 4 proof assistant, from Lean's standard axioms alone.",
+   "abs": "https://arxiv.org/abs/2610.40863",
+   "pdf": "https://arxiv.org/pdf/2610.40863"
+  },
+  {
+   "id": "2610.40694",
+   "type": "new",
+   "title": "Four runners that are barely lonely",
+   "authors": [
+    "Hyunjun Yi",
+    "Karam Gill",
+    "Bryan Bu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "45 pages. Code, data and verification scripts are included as ancillary files",
+   "abstract": "For positive integers $v_1,\\dots,v_n$ let $\\mathrm{ML}(v_1,\\dots,v_n)=\\max_t\\min_i\\|v_it\\|$, where $\\|x\\|$ is the distance to the nearest integer. Kravitz asked which values below $1/n$ occur. For $n=4$, Jain and Kravitz showed that the values below $1/4$ are $m/(4m+2)$, $m\\ge2$, up to finitely many undetermined exceptions. We settle the four-runner case completely. A primitive quadruple has $\\mathrm{ML}<1/4$ if and only if it is, up to order, $\\{1,2,3,4k\\}$, or $\\{x,y,x+y,x+2y\\}$ with $\\gcd(x,y)=1$ and $y\\not\\equiv x,2x\\pmod 4$, or $\\{1,3,4,14\\}$. The values below $1/4$ are exactly $m/(4m+2)$ with $m\\ge2$, $m\\ne3$, so $3/14$ is the only exception, and Conjecture 4.1 of Fan and Sun holds. A density lemma bounds the length of a quadruple on neither critical subtorus by $512$, and an exact search over 800,816,099 quadruples completes the proof. The same method shows that the two-dimensional subtori of $(\\mathbb{R}/\\mathbb{Z})^4$ with loneliness below $2/5$ take exactly the three-runner values in that range, which between $1/3$ and $2/5$ are the fractions $p/q$ with $1\\le 2q-5p\\le 4$. Hence the accumulation points of the four-runner spectrum in $(0,2/5]$ are the three-runner values there, as Giri and Kravitz conjectured, and $9/25$ is not the loneliness of a two-dimensional subtorus. For every $n$, assuming the conjecture for $n-1$ and $n-2$ speeds, we prove $\\mathrm{ML}(v)>1/n-(n(n-1))^{n-2}/(2|v|)$, which is sharp in $|v|$, and that every $n$-tuple with $\\mathrm{ML}<1/n$ and $|v|\\ge n(n(n-1))^{2n-4}$ lies on a two-dimensional subtorus of loneliness $1/n$. This answers a question of Cordella. For five speeds, a two-dimensional subtorus of $(\\mathbb{R}/\\mathbb{Z})^5$ with loneliness below $2/9$ is the product of a coordinate circle with the circle of $\\{1,2,3,4\\}$ or $\\{1,3,4,7\\}$. We also give infinitely many subtori whose maximizers lie off every circle with a repeated speed.",
+   "abs": "https://arxiv.org/abs/2610.40694",
+   "pdf": "https://arxiv.org/pdf/2610.40694"
+  },
+  {
+   "id": "2610.41266",
+   "type": "new",
+   "title": "A note on decompositions into 3-chromatic graphs",
+   "authors": [
+    "Bertille Granet",
+    "Daniel Horsley",
+    "Jeffrey N. Santrio"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages, 1 figure",
+   "abstract": "Delcourt and Postle recently introduced the `discharging in the dual' proof technique, leading to a breakthrough proof of Nash-Williams' conjecture on triangle decompositions. Independently, and almost simultaneously, the first and second authors built on the `condensation' method of Bryant, Dukes, Horsley, Maenhaut and Montgomery to determine the decomposition threshold of all odd cycles of length at least $73$. In this note, we explain how the `discharging in the dual' and `condensation' methods can be combined to determine the decomposition threshold of cycles of any odd length, as well as the approximate decomposition threshold of a range of other $3$-chromatic graphs.",
+   "abs": "https://arxiv.org/abs/2610.41266",
+   "pdf": "https://arxiv.org/pdf/2610.41266"
+  },
+  {
+   "id": "2610.40712",
+   "type": "new",
+   "title": "Anti-concentration and Graham's rearrangement problem in finite abelian groups",
+   "authors": [
+    "Hoi H. Nguyen",
+    "Tuan Tran",
+    "Van H. Vu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $S$ be a subset of $n$ elements of a group $G$. An ordering $x_1,\\ldots,x_n$ of its elements is valid if the partial sums $x_1,x_1+x_2,\\ldots,x_1+\\cdots+x_n$ are pairwise distinct. This notion has a long history in combinatorial group theory, dated back to Gordon's works in early 1960.\nAlspach-Liversidge conjecture asserts that any subset of the nonzero elements of a finite abelian group $G$ has a valid ordering. This generalizes Graham's conjecture, which considers the case when the group $G$ is $\\mathbb{F}_p$, the cyclic group of prime order.\nGraham's conjecture has been solved recently, as a combination of results by Kravitz, Bedert and Kravitz, Müyesser and Pokrovskiy, Bedert, Bucić, Kravitz, Montgomery, and Müyesser, and Pham and Sauermann. Beside this, the only other case where Alspach-Liversidge conjecture has been confirmed is $G=\\mathbb{F}_2^k$, thanks to a recent result by Bedert, Bucić, Kravitz, Montgomery, and Müyesser.\nWe prove the Alspach-Liversidge conjecture in its full generality. Our proof combines ideas from many previous papers. In particular, we will use the probabilistic approach and the absorption method. Our new main technical ingredient is a Fourier-moment estimate, which is of independent interest. In particular, we can use it to show that the distribution of certain kinds of random sums in an abelian group has an almost uniform distribution.",
+   "abs": "https://arxiv.org/abs/2610.40712",
+   "pdf": "https://arxiv.org/pdf/2610.40712"
+  },
+  {
+   "id": "2610.41735",
+   "type": "new",
+   "title": "Maximum edge overlap between independent random regular graphs",
+   "authors": [
+    "Andrea D'Ascenzo",
+    "Riccardo Michielan"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Optimising the vertex correspondence can substantially increase the number of edges shared by two independent realisations of the same random graph. We quantify this phenomenon for uniformly random $d$-regular graphs and derive corresponding results for their edge-based graph edit distance. For every fixed $d\\geq 3$, we show that the maximum overlap is $n+\\Theta_{\\mathbb P}(n/\\log n)$, where the leading term $n$ arises from Hamiltonicity, while the surplus captures the optimal order of the excess beyond it. We establish explicit upper and lower bounds on the surplus. The upper bound is obtained by counting common cores of minimum degree at least two, while the lower bound is established using spanning factors consisting of cycles of the same logarithmic length. For the special case $d=2$, we show that the maximum overlap is $n-(1+o_{\\mathbb P}(1))\\log n$. The additional overlap achievable is also studied by rotating aligned Hamilton cycles, using a contiguity argument. As a by-product, we determine the asymptotic maximum overlap between unions of independent random perfect matchings under cyclic shifts.",
+   "abs": "https://arxiv.org/abs/2610.41735",
+   "pdf": "https://arxiv.org/pdf/2610.41735"
+  },
+  {
+   "id": "2610.41572",
+   "type": "new",
+   "title": "Perfect state transfer on unicyclic graphs",
+   "authors": [
+    "Xingkun Song"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "46 pages, 5 figures",
+   "abstract": "We characterize adjacency perfect state transfer in connected unicyclic graphs: the transfer vertices are opposite degree-two vertices of a four-cycle, and the two attached trees satisfy a characteristic-polynomial condition. Except for the four-cycle, the transfer pair is unique and the minimum transfer time is $\\pi/\\sqrt2$. Outside the four-cycle, we obtain sharp lower bounds of $46$ on the order and $10$ on the maximum degree, and classify all examples of maximum degree at most $20$. A finite inverse construction enumerates all realizations of a prescribed eigenvalue support at the transfer vertices. For supports of size at least seven, we establish the sharp maximum-degree lower bound of $21$. Every seven-element support $\\{0,\\pm\\sqrt2,\\pm u\\sqrt2,\\pm v\\sqrt2\\}$, with odd integers $3\\leq u<v$, is realizable, and every such realization has attachment depth at most four. Explicit branching rules give a minimum-order recurrence. Among all connected unicyclic graphs admitting perfect state transfer with seven-element eigenvalue support, the minimum order is $218$, attained uniquely up to isomorphism.",
+   "abs": "https://arxiv.org/abs/2610.41572",
+   "pdf": "https://arxiv.org/pdf/2610.41572"
+  },
+  {
+   "id": "2610.41286",
+   "type": "new",
+   "title": "On the Turán number for the Cartesian product of an odd cycle and a tree",
+   "authors": [
+    "Ya-Hong Chen",
+    "Yong Lu",
+    "Quan Sun",
+    "Qi Wu",
+    "Long-Tu Yuan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "Let $T$ be a fixed tree on at least two vertices. We determine the Turán number and all extremal graphs for the Cartesian product of an odd cycle $C_{2m+1}$ and $T$, for every fixed integer $m\\ge1$ and all sufficiently large $n$, in terms of its decomposition family. Every extremal graph is the join of an independent set and an extremal graph for that family. The proof combines the Erdős--Sós theorem with weak stability and progressive induction.",
+   "abs": "https://arxiv.org/abs/2610.41286",
+   "pdf": "https://arxiv.org/pdf/2610.41286"
+  },
+  {
+   "id": "2610.41060",
+   "type": "new",
+   "title": "An explicit bound on the extremal function for complete graph minors",
+   "authors": [
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Kostochka and Thomason independently proved that every graph with density at least $\\beta\\,t\\sqrt{\\log t}$ has a $K_t$ minor, for some constant $\\beta$. Thomason later proved that the least such density is $(0.319\\ldots+o(1))\\,t\\sqrt{\\log t}$. However, the $o(1)$ term in this formula is not explicit, so the formula gives no bound for any specific value of $t$. The goal of this paper is a bound of the form $\\beta\\,t\\sqrt{\\log t}$ that holds for every $t$, with $\\beta$ small. We prove that, for every integer $t\\geqslant2$, every graph with density at least $4.5\\,t\\sqrt{\\log t}$ has a $K_t$ minor.",
+   "abs": "https://arxiv.org/abs/2610.41060",
+   "pdf": "https://arxiv.org/pdf/2610.41060"
+  },
+  {
+   "id": "2610.41110",
+   "type": "new",
+   "title": "Deck Reconstruction for Restricted Word Classes",
+   "authors": [
+    "Krishna Angal",
+    "Ruben Ascoli",
+    "Simon X. He",
+    "Xiaoyu He",
+    "Logan Post",
+    "Arker Oke Soe",
+    "Olga Zhukova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "For a binary word $x\\in \\{0,1\\}^+$, the $k$-deck of $x$ is the multiset of all length-$k$ subsequences counted with multiplicity. The deck reconstruction problem asks for the minimum $k$ such that every word of a fixed length is uniquely determined by its $k$-deck. In this paper, we study deck reconstruction for several restricted classes of binary words, including words with exactly $s$ ones, words with at most $\\ell$ runs of ones, and words where the indices of ones are given by a monotone polynomial of degree $d$. We prove that for these classes of words, their reconstruction thresholds are bounded by a function of the structural complexity of the class.\nWe also study weak deck reconstruction, in which subwords may contain \"wildcard\" symbols that map to either 0 or 1. By generalizing a \"template lemma\" of Dudík and Schulman, we improve the upper bound in an open question about weak reconstruction from Dudík and Schulman. Finally, for the class of periodic words with period $d$, we prove that its in-class reconstruction threshold is equal to the general reconstruction threshold for words of length $d$, and give a general template construction producing further classes with the same threshold-preservation phenomenon.",
+   "abs": "https://arxiv.org/abs/2610.41110",
+   "pdf": "https://arxiv.org/pdf/2610.41110"
+  },
+  {
+   "id": "2610.40703",
+   "type": "new",
+   "title": "The Hibi--Li (2016) conjecture is fully resolved",
+   "authors": [
+    "Dave Goel"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 2 figures, 1 table. Lean 4 proof: this https URL",
+   "abstract": "Hibi and Li conjectured that the order polytope $\\mathcal{O}(P)$ of a finite poset $P$ has at most as many faces of each dimension as its chain polytope $\\mathcal{C}(P)$, and that equality in some dimension $k$ with $1\\leq k\\leq|P|-1$ forces the two polytopes to be unimodularly equivalent. Fourier proved the inequality in a 2026 preprint. Let $X$ be the five-element poset in which an element lies above two incomparable elements and below two other incomparable elements. Building on Fourier's proof, we show that if an $n$-element poset contains $X$ as an induced subposet, then, for every $k$ with $2\\leq k\\leq n-1$, its chain polytope has at least $\\binom{n-3}{k-2}$ more $k$-dimensional faces than its order polytope, and that for every $n\\geq5$ some $n$-element poset containing $X$ attains all these bounds at once. Since Hibi and Li showed that $\\mathcal{O}(P)$ and $\\mathcal{C}(P)$ are unimodularly equivalent exactly when $P$ does not contain $X$, this proves the equality statement for these $k$. For $k=1$ the equality statement is false: $\\mathcal{O}(X)$ and $\\mathcal{C}(X)$ have equally many edges (Hibi, Li, Sahara and Shikama) but are not unimodularly equivalent. With Fourier's inequality, these results settle the conjecture. Every result is formally verified in Lean 4, with only published results and two results of Fourier's preprint as axioms.",
+   "abs": "https://arxiv.org/abs/2610.40703",
+   "pdf": "https://arxiv.org/pdf/2610.40703"
+  },
+  {
+   "id": "2610.41357",
+   "type": "new",
+   "title": "Two-coloring the points of a projective plane",
+   "authors": [
+    "Aart Blokhuis",
+    "Ádám Markó",
+    "Tamás Szőnyi",
+    "Zsuzsa Weiner"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages",
+   "abstract": "Let us color the points of a projective plane of odd order $n$ with two colors, say red and blue. Erdős asked the question of determining the maximum number of balanced lines (that have the same number of red and blue points). The answer is $n^2$, and in the corresponding trivial coloring the unbalanced lines go through a point. In this paper, we consider the Galois plane $\\mathrm{PG}(2,q)$ and determine the number of unbalanced lines for a non-trivial coloring. The problem can also be generalized to $(r,b)$-colored lines (see Definition 1.1) and in many cases we extend the results to the generalized problem. Our strongest result for Galois planes of prime order $p$ describes all 2-colorings with at most $\\max\\{3p+1,4p-22\\}$ not $(r,b)$-colored lines (see Theorem 5.13). Finally, in case of the generalized problem, we allow even more not $(r,b)$-colored lines if $r$ is small and the order is prime (for more details, see Theorem 5.18).",
+   "abs": "https://arxiv.org/abs/2610.41357",
+   "pdf": "https://arxiv.org/pdf/2610.41357"
+  },
+  {
+   "id": "2610.41631",
+   "type": "new",
+   "title": "Numerical Kawamata--Viehweg vanishing for rank-three matroids",
+   "authors": [
+    "Ronnie Cheng"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "We prove the numerical Kawamata--Viehweg conjecture for every matroid of rank three: the Euler characteristic of the inverse of an integral big and nef line bundle class is nonnegative. The proof reduces the conjecture to an inequality for a stone game.",
+   "abs": "https://arxiv.org/abs/2610.41631",
+   "pdf": "https://arxiv.org/pdf/2610.41631"
+  },
+  {
+   "id": "2610.41577",
+   "type": "new",
+   "title": "A Fan-Type Theorem for Hamiltonian Berge Cycles in 3-Uniform Hypergraphs",
+   "authors": [
+    "Ailian Chen",
+    "Yanqiang Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $H$ be a simple $3$-uniform hypergraph on $n\\ge7$ vertices, and put $\\tau_n=\\binom{\\lfloor(n-1)/2\\rfloor}{2}$. We prove that $H$ has a Hamiltonian Berge cycle if its $2$-shadow is $2$-connected, every pair at Berge distance two has an endpoint of hypergraph degree at least $\\tau_n+1$, and every pair of codegree one has both endpoints above $\\tau_n$. The distance-two threshold is sharp, and the order range cannot be extended to $n=4,5,6$. The proof separates two structural arguments. A low-degree endpoint of an extremal longest Berge path forces Hamiltonicity, independently of the order and the degree threshold. For high-degree endpoints, injective charging and its equality cases force pairs of codegree one that permit further rotations. The cases $n=7,8$ are settled by exhaustive verification, with a completeness proof and a second implementation using direct vertex--hyperedge cycle search.\nKeywords: Hamiltonian Berge cycle; Fan-type condition; 3-uniform hypergraph; longest-path rotation; exhaustive verification.",
+   "abs": "https://arxiv.org/abs/2610.41577",
+   "pdf": "https://arxiv.org/pdf/2610.41577"
+  },
+  {
+   "id": "2610.41372",
+   "type": "new",
+   "title": "New results on openly disjoint cycles in regular digraphs",
+   "authors": [
+    "Bin Chen",
+    "Wenshen Wu",
+    "Meishaung Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Given a digraph \\(D\\), let \\(c(D)\\) be the largest size of a collection of openly disjoint directed cycles through a common vertex, and let \\(c_r\\) be the minimum of \\(c(D)\\) over all \\(r\\)-regular digraphs \\(D\\). In 2005, Seymour asked whether every \\(r\\)-regular digraph satisfies \\(c(D)=r\\). Mader answered Seymour's problem negatively for every \\(r\\ge 8\\), but conjectured that nevertheless \\(\\lim_{r\\to\\infty}c_r=\\infty\\). Recently, Steiner confirmed this conjecture by proving \\[ \\left\\lceil \\frac{3r}{22}\\right\\rceil \\le c_r \\le 7\\left\\lceil \\frac{r}{8}\\right\\rceil. \\] In this paper, we first answer Seymour's problem negatively for $r\\in \\{6,7\\}$, and then improve Steiner's bound to \\[ \\left\\lceil \\frac{r}{6}\\right\\rceil \\le c_r \\le 5\\left\\lceil \\frac{r}{6}\\right\\rceil.\\]",
+   "abs": "https://arxiv.org/abs/2610.41372",
+   "pdf": "https://arxiv.org/pdf/2610.41372"
+  },
+  {
+   "id": "2610.41353",
+   "type": "new",
+   "title": "Separating hash families with large universe II",
+   "authors": [
+    "Xin Wei",
+    "Gennian Ge"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17pages",
+   "abstract": "For fixed integers $t,k\\ge 2$, put $N=(t-1)(k-1)+1$. We prove that the maximum universe size of a $t$-perfect hash family of length $N$ over an alphabet of size $q$ satisfies $ p_t(N,q)\\ge q^{k-o(1)}$. Together with monotonicity in the length, this gives a positive answer to a question of Blackburn, Etzion, Stinson and Zaverucha for every choice of feasible parameters. Our proof combines the Nash--Williams--Tutte theorem, a graph-theoretic elimination argument, and a solution-free-set theorem established in our previous work.",
+   "abs": "https://arxiv.org/abs/2610.41353",
+   "pdf": "https://arxiv.org/pdf/2610.41353"
+  },
+  {
+   "id": "2610.41155",
+   "type": "new",
+   "title": "Changing parameters in Hall-Littlewood functions",
+   "authors": [
+    "Aritra Bhattacharya",
+    "Ziyi Dai",
+    "Qilin Hou",
+    "Edward Tong"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the transition coefficients $b_{\\lambda,\\mu}(q,t)$ of the Hall--Littlewood $P$-functions $P_\\lambda(t)$ expanded in the basis $P_\\mu(q)$. We find a tableaux formula when $\\lambda$ is a hook shape which generalizes term-by-term Lascoux-Schutzenberger's charge formula as well as Macdonald's monomial expansion formula for Hall-Littlewood functions. We conjecture that $b_{\\lambda,\\mu}(t+1,t)\\in\\mathbb{Z}_{\\ge0}[t]$ and prove it when $\\lambda$ is a hook shape, when $\\lambda$ has two-columns and some more simple cases. We prove that $b_{\\lambda,\\mu}(t+n,n)\\in\\mathbb{Z}_{\\ge0}[t]$ for every $n\\in\\mathbb{Z}_{\\ge0}$, extending work of Alexandersson, and we record a stability property and some reduction principles.",
+   "abs": "https://arxiv.org/abs/2610.41155",
+   "pdf": "https://arxiv.org/pdf/2610.41155"
+  },
+  {
+   "id": "2610.41340",
+   "type": "new",
+   "title": "Clique-factors in randomly perturbed hypergraphs",
+   "authors": [
+    "Yulin Chang",
+    "Jie Han",
+    "Patrick Morris",
+    "Lin Sun"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this paper we establish the following result for clique-factors in randomly perturbed hypergraphs when the cliques are large enough. For integers $k \\geq 3$ and $t\\geq t_0(k)$, we show that for every $\\alpha> 0$, there exists $C>0$ such that for sufficiently large $n\\in(t+1)\\mathbb{N}$, the union of a $k$-uniform hypergraph on $n$ vertices with minimum codegree at least $\\alpha n$ and a binomial random $k$-uniform hypergraph $H^{(k)}(n,p)$ with $p\\geq Cn^{-{t/\\binom{t+1}{k}}}$ on the same vertex set contains a $K_{t+1}^{(k)}$-factor asymptotically almost surely. The bound on $p$ is asymptotically best possible and extends the graph case, resolved by Balogh, Treglown and Wagner. In particular, we have $t_0(3)=3$, which implies that our result applies to every $t\\ge 3$ for $3$-uniform hypergraphs. Together with the previously established result for perfect matchings, this covers all possible clique sizes for $3$-uniform hypergraphs.",
+   "abs": "https://arxiv.org/abs/2610.41340",
+   "pdf": "https://arxiv.org/pdf/2610.41340"
+  },
+  {
+   "id": "2610.41385",
+   "type": "new",
+   "title": "The lattice of antichains of intervals: Dyck paths, level sets, and sweep dimension",
+   "authors": [
+    "Paolo Boldi",
+    "Sebastiano Vigna"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Clarke-Cormack-Burkowski lattice $\\mathcal{E}_n$ is the lattice of antichains of intervals of the chain $\\{0,1,\\dots,n-1\\}$, the algebraic structure underlying minimal-interval semantics, a query semantics used in information retrieval. We give an explicit, elementary anti-isomorphism between $\\mathcal{E}_n$ minus its top element and the Stanley lattice of Dyck words of semilength $n+1$ (an anti-isomorphism whose existence is implicit in work of Ferrari and Munarini), under which the rank of an antichain is $\\binom{n+1}{2}$ minus the area of the associated Dyck word. Hence the rank generating function of $\\mathcal{E}_n\\setminus\\{\\top\\}$ is the reverse of the Carlitz-Riordan $q$-Catalan polynomial. Using a local limit theorem for the area of random-walk excursions, we confirm unconditionally an asymptotic formula of Takács: the size $\\lambda_n$ of the largest level set of $\\mathcal{E}_n$ satisfies $\\lambda_n\\sim\\kappa\\,4^{n+1}/(n+1)^3$, where $\\kappa\\approx1.0807$. Finally, for the antichains of intervals of an arbitrary finite poset $P$ we study the sweep dimension, the minimum number of linear orders needed to separate every interval from every element outside it. It equals the Dushnik-Miller dimension of the lattice of convex subsets of $P$, it is the least $k$ for which $P$ maps into $\\mathbb{R}^k$ so that every interval is the preimage of an upper orthant, and it lies between $\\max(2,w)$ and $2w$, where $w$ is the width of $P$, both bounds being tight. Antichains of intervals embed, preserving joins, into $k$-dimensional staircase regions.",
+   "abs": "https://arxiv.org/abs/2610.41385",
+   "pdf": "https://arxiv.org/pdf/2610.41385"
+  },
+  {
+   "id": "2610.41581",
+   "type": "new",
+   "title": "On sparse universally rigid graphs in $\\mathbb{R}$",
+   "authors": [
+    "Ole Gabsdil",
+    "Ezra Hirschi",
+    "Julien Portier"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is said to be 1-universally rigid if, for any generic realization of its vertices on the real line, the realization cannot be deformed out of the line in any higher-dimensional Euclidean space while preserving all edge lengths. In this paper, we investigate the sparsity of 1-universally rigid graphs in different manners.\nFirst, we show that an Erdős-Rényi random graph $G(n,p)$ is 1-universally rigid with high probability whenever $p \\geq C\\log n \\cdot \\log\\log n/n$ for some sufficiently large constant $C>0$. These techniques also imply the existence of 1-universally rigid graphs of arbitrarily large girth, which resolves a problem suggested by Dantas e Moura, Jordán, and Silverman in a non-constructive manner. We also study how sparse a 1-universally rigid graph can be, proving that there exists an absolute constant $\\varepsilon>0$ such that every sufficiently large 1-universally rigid graph on $n$ vertices has at least $(3/2+\\varepsilon)n$ edges. This breaks the natural $3/2$ barrier arising from degree-2 extensions and makes progress towards a question of Jordán and Nguyen.",
+   "abs": "https://arxiv.org/abs/2610.41581",
+   "pdf": "https://arxiv.org/pdf/2610.41581"
+  },
+  {
+   "id": "2610.41096",
+   "type": "new",
+   "title": "Unavoidable flats in matroids excluding a uniform minor",
+   "authors": [
+    "Wayne Ge"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "We extend a theorem of Geelen, Kroeker, and Nelson on unavoidable flats in $\\operatorname{GF}(q)$-representable matroids. For all integers $1\\le a\\le b$ and $n\\ge1$, we prove that every simple matroid of sufficiently large rank with no $U_{a,b}$-minor has a rank-$n$ flat whose restriction is free or isomorphic to a projective or affine geometry over a finite field.",
+   "abs": "https://arxiv.org/abs/2610.41096",
+   "pdf": "https://arxiv.org/pdf/2610.41096"
+  },
+  {
+   "id": "2610.41555",
+   "type": "new",
+   "title": "Haiman's conjecture for n <= 10: Kazhdan-Lusztig positivity of monomial immanants",
+   "authors": [
+    "Keith McNulty"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "Companion to arXiv:2610.39021. Code: doi:https://doi.org/10.5281/zenodo.23730750%3B data: doi:https://doi.org/10.5281/zenodo.23532289",
+   "abstract": "Haiman conjectured that for every partition $\\lambda\\vdash n$ and every $w\\in S_n$ the polynomial $c_{\\lambda,w}(q)$, a monomial character of the Hecke algebra evaluated at the Kazhdan-Lusztig basis, has non-negative integer coefficients and is symmetric and unimodal, and he verified this by computer for $n\\le7$. We verify it for every $n\\le10$. A stability lemma reduces the statement to $n=10$, which we settle by an exact computation that stores only the 1,252,173,030 pairs $(x,w)$ in $S_{10}$ with $x$ maximal in its double coset for the descent sets of $w$, and takes the traces of the standard basis from the class polynomials of Geck and Pfeiffer. Every stored Kazhdan-Lusztig polynomial agrees with du Cloux's Coxeter3, and the coefficients pass several independent checks, including a comparison at all 16,796 codominant $w$ with chromatic quasisymmetric functions computed from colourings.\nConsequently, for $n\\le10$ every monomial immanant is a non-negative integer combination of Kazhdan-Lusztig immanants, Stembridge's monomial immanant conjecture holds, and a class-function immanant is non-negative on totally non-negative matrices if and only if it is non-negative at the block matrices $J_\\mu$. We use this to describe the order of normalised irreducible-character immanants on totally non-negative matrices for $n\\le10$, and to prove Pate's inequalities there. On the full span of permutation monomials we give a Newton-polytope criterion for the coefficient of $\\mathrm{Imm}_w$ to be non-negative throughout the totally non-negative cone, show that for $n=4,5$ this happens exactly when $X_w$ is smooth, and check by exact computation for $n\\le10$ the proof of this for all $n$ given in a companion paper.",
+   "abs": "https://arxiv.org/abs/2610.41555",
+   "pdf": "https://arxiv.org/pdf/2610.41555"
+  },
+  {
+   "id": "2610.40696",
+   "type": "new",
+   "title": "Asymptotic stability of clique-saturating edges near Turán thresholds",
+   "authors": [
+    "Xianglei Chen",
+    "Changxiang He"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $f_{p+1}(n,m)$ denote the minimum number of $K_{p+1}$-saturating edges in an $n$-vertex $K_{p+1}$-free graph with $m$ edges. In this paper, we investigate the stability of this parameter near the Turán thresholds, with particular emphasis on the role of the minimum degree. We introduce the refined parameter $f_{p+1,p}(n,m,\\delta)$. It is defined for $K_{p+1}$-free graphs on $n$ vertices with $m$ edges, minimum degree $\\delta$, and containing at least a copy of $K_p$. For every fixed integer $p\\ge3$, we establish a stability result when the number of edges is $\\mathrm{ex}(n,K_p)+o(n^2)$, showing that \\[\nf_{p+1,p} (n,m,\\delta)=\\left(\\frac{(p-2)^2}{2(p-1)^3}+o(1)\\right)n^2, \\ \\text{for }\\ m=\\mathrm{ex}(n,K_p)+o(n^2), \\ \\delta\\geq \\left(\\frac{p-2}{p-1}+o(1)\\right)n. \\] We further obtain a stability theorem in the regime where the number of edges is quadratically smaller than $\\operatorname{ex}(n,K_{p+1})$. More precisely, for $0 \\leq c< \\frac{1}{2p(3p-1)}$, \\[ f_{p+1,p} (n,m,\\delta)=\\left(\\frac{1}{2p}+o(1)\\right)n^2, \\ \\text{for }\\\nm=\\operatorname{ex}(n,K_{p+1})-(c+o(1))n^2, \\ \\delta\\geq \\left(\\frac{p-1}{p}-2c+o(1)\\right)n. \\]",
+   "abs": "https://arxiv.org/abs/2610.40696",
+   "pdf": "https://arxiv.org/pdf/2610.40696"
+  },
+  {
+   "id": "2610.41371",
+   "type": "new",
+   "title": "$K_r$-Packings in Graphs with $t_{r-1}(n)+k$ Edges",
+   "authors": [
+    "Hanzhi Bai",
+    "Fuhong Ma",
+    "Jin Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages",
+   "abstract": "Fix an integer $r\\ge 3$. Let $K_r$ denote the complete graph on $r$ vertices and $t_{r-1}(n)$ the Turán number for $K_r$. For each integer $k$ satisfying $0\\le k \\le \\binom{n}{2}-t_{r-1}(n)$, $\\rev{\\phi_r(n,k)}$ denotes the minimum, over all $n$-vertex graphs with $t_{r-1}(n)+k$ edges, of the maximum size of a $K_r$-packing \\rev{(a family of edge-disjoint copies of $K_r$)} in the graph. The problem of characterizing the behavior of $\\phi_r(n,k)$ has a long history and dates back to Erdős for the case $r=3$. \\rev{Győri} proved that $\\phi_r(n,k)=(1-o(1))k$ whenever $k=o(n^2)$. We characterize the range of $k$ for which $\\phi_r(n,k)=(1-o(1))k$, showing that this equality holds if and only if $k=o(n^2)$. Moreover, we obtain an \\rev{asymptotic} upper bound (which falls below $1$) for $\\phi_r(n,k)/k$ whenever $k/n^2$ converges to a constant $\\delta$ satisfying $0 < \\delta \\le \\frac{1}{2(r-1)}$.",
+   "abs": "https://arxiv.org/abs/2610.41371",
+   "pdf": "https://arxiv.org/pdf/2610.41371"
+  },
+  {
+   "id": "2610.41620",
+   "type": "cross",
+   "title": "List 3-Coloring in tame classes of graphs in quasipolynomial time",
+   "authors": [
+    "Paweł Rzążewski"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "A class of graphs $\\mathcal{G}$ is tame if there is a constant c such that every $n$-vertex graph in $\\mathcal{G}$ has at most $n^c$ minimal separators. Many important graph classes are tame, including chordal graphs, permutation graphs, and circle graphs. Several fundamental problems, most notably Max Weight Independent Set, can be solved in polynomial time on every tame class, which explains in a unified way their tractability on all these classes.\nWe show that List 3-Coloring can be solved in quasipolynomial time on every tame class of graphs.",
+   "abs": "https://arxiv.org/abs/2610.41620",
+   "pdf": "https://arxiv.org/pdf/2610.41620"
+  },
+  {
+   "id": "2610.41125",
+   "type": "cross",
+   "title": "Bounds for lattice points in terms of volume and successive minima",
+   "authors": [
+    "Jun Wang",
+    "Fei Xue"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "18 pages, 1 figure",
+   "abstract": "We prove, in every dimension, the upper bound conjectured by Betke, Henk and Wills for the lattice-point enumerator in terms of volume and successive minima. For every convex body $K\\subset R^n$ and full-rank lattice $\\Lambda$, we establish $$ \\#(K\\cap\\Lambda)\\le\\frac{\\mathrm{vol}_n(K)}{\\det\\Lambda}\\prod_{i=1}^n\\left(1+\\frac{i\\lambda_i}{2}\\right), $$ where $\\lambda_i$ are the successive minima of $(K-K)/2$ with respect to $\\Lambda$. Equality holds precisely for lattice translates of positive integral dilates of unimodular simplices. We also prove $$ \\#(\\mathrm{int}K\\cap\\Lambda)\\ge\\frac{\\mathrm{vol}_n(K)}{\\det\\Lambda} \\left(1-\\frac{n}{4}\\sum_{i=1}^{n-1}\\lambda_i-\\frac{n}{2}\\lambda_n\\right), $$ which implies the lower estimate with factor $1-\\frac{1}{2}\\sum_{i=1}^n i\\lambda_i$. In dimension two we prove the lower bound with factor $(1-\\lambda_1/2)(1-\\lambda_2)$ when $\\lambda_2\\le1$. We also observe that a conjectured product lower bound for origin-symmetric bodies fails in dimension three. The proofs combine geometric compression, lattice-cell counts in coordinate sections, and an elementary coefficient comparison.",
+   "abs": "https://arxiv.org/abs/2610.41125",
+   "pdf": "https://arxiv.org/pdf/2610.41125"
+  },
+  {
+   "id": "2610.41668",
+   "type": "new",
+   "title": "Proper conflict-free degree-choosability of graphs with maximum average degree less than $8/3$",
+   "authors": [
+    "Huijuan Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A proper coloring $\\varphi$ of a graph $G$ is called proper conflict-free if, for every non-isolated vertex $v$, some color appears exactly once in its open neighborhood $N_G(v)$. For a nonnegative integer $k$, a graph $G$ is proper conflict-free $(\\mathrm{degree}+k)$-choosable if, for every list assignment $L$ satisfying $|L(v)|\\ge d_G(v)+k$ for each $v\\in V(G)$, there exists a proper conflict-free coloring $\\varphi$ of $G$ with $\\varphi(v)\\in L(v)$ for each $v\\in V(G)$. We prove that every connected graph other than the $5$-cycle $C_5$ with maximum average degree less than $8/3$ is proper conflict-free $(\\mathrm{degree}+2)$-choosable. This improves the maximum average degree bound $18/7$ of Kashima, Škrekovski and Xu, and removes the assumption $g(G)\\ge7$ from the $8/3$ theorem of Qi, Song and Cao. As an immediate consequence, our theorem also yields that every planar graph of girth at least $8$ is proper conflict-free $(\\mathrm{degree}+2)$-choosable.",
+   "abs": "https://arxiv.org/abs/2610.41668",
+   "pdf": "https://arxiv.org/pdf/2610.41668"
+  },
+  {
+   "id": "2610.41203",
+   "type": "new",
+   "title": "Rainbow Hamiltonian paths in graph collections under edge-size conditions",
+   "authors": [
+    "Xiaoxue Zhang",
+    "Lihua You"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\mathbf{G}=\\{G_1,\\dots,G_{n-1}\\}$ be a collection of not necessarily distinct graphs of order $n$ on the same vertex set $V$. A path $P$ with $V(P)\\subseteq V$ is called \\emph{rainbow} in $\\mathbf{G}$, if there exists an injection $\\phi\\colon E(P)\\to [n-1]$ such that $e\\in E(G_{\\phi(e)})$ for each $e\\in E(P)$. In this paper, we show that if $n\\ge3$, $e(G_i)> \\binom{n-2}{2}+2$ for each $i\\in[n-1]$ and $G_j$ is connected for some $j\\in[n-1]$, then there exists a rainbow Hamiltonian path in $\\mathbf{G}$ unless $n=6$ with $G_1=G_2=\\dots=G_{5}\\cong K_2\\vee 4K_1$, or $n=8$ with $G_1=G_2=\\dots=G_{7}\\cong K_3\\vee 5K_1$. This corrects Theorem 6 in [Graphs Combin., \\textbf{41}(6)(2025), 119] and relaxes its hypothesis from requiring all $G_i$ to be connected to only requiring that at least one $G_i$ is connected, where $i\\in[n-1]$. Moreover, we show that if $n\\ge2$ and $e(G_i)\\ge \\binom{n-1}{2}$ for each $i\\in[n-1]$, then $\\mathbf{G}$ contains a rainbow Hamiltonian path unless $G_1=G_2=\\dots=G_{n-1}\\cong K_{n-1}\\cup K_1$, or $n=4$ with $G_1=G_2=G_3\\cong K_{1,3}$. As a consequence, Theorem 2 of [Discrete Math., \\textbf{347}(2024), 114128] follows immediately.",
+   "abs": "https://arxiv.org/abs/2610.41203",
+   "pdf": "https://arxiv.org/pdf/2610.41203"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 35,
+ "listed_cross": 12
+}
