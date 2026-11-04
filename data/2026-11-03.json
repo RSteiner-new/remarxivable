@@ -1,15 +1,409 @@
 {
  "date": "2026-11-03",
- "generated_at": "2026-11-03T03:48:19Z",
+ "generated_at": "2026-11-04T03:32:09Z",
  "status": "final",
- "source": "https://arxiv.org/catchup/math.CO/2026-11-03",
- "screened": 5,
- "screened_new": 1,
- "screened_cross": 4,
- "scored": 5,
- "shown": 5,
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 155,
+ "screened_new": 97,
+ "screened_cross": 58,
+ "scored": 155,
+ "shown": 30,
  "order": "random",
  "papers": [
+  {
+   "id": "2611.01338",
+   "type": "new",
+   "title": "Threshold existence for random NAE-$k$-SAT and random hypergraph $2$-colourability",
+   "authors": [
+    "Pavel Zakharov"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The existence of limiting threshold densities for random hypergraph $2$-colourability and random NAE-$k$-SAT was conjectured in earlier work, including Achlioptas and Moore [RANDOM 2002] and Coja-Oghlan and Panagiotou [STOC 2012]. We prove these conjectures for all $k\\geq 3$. We also show that $\\alpha^{\\mathrm{2-col}}_k \\leq \\alpha^{\\mathrm{NAE}}_k$ for each $k\\geq 3$.",
+   "abs": "https://arxiv.org/abs/2611.01338",
+   "pdf": "https://arxiv.org/pdf/2611.01338"
+  },
+  {
+   "id": "2611.01509",
+   "type": "new",
+   "title": "Every $k$-Quasi-Planar Graph Has Linearly Many Edges",
+   "authors": [
+    "Ankan Sadhu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 1 figure",
+   "abstract": "For every fixed integer $k\\ge2$, we prove that every simple graph on $n$ vertices drawn in the plane with no $k$ pairwise crossing edges has at most $C_kn$ edges, where $C_k$ depends only on $k$. We allow any finite number of proper crossings between two edges, including edges with a common endpoint. For $n\\ge3$, removing a small disk around each vertex turns the drawing into a family of arcs on a sphere with $n$ boundary circles. Each arc joins two different boundary circles, and different edges have different unordered pairs of endpoint circles. The arcs are therefore essential and pairwise nonhomotopic, with endpoints allowed to move along their boundary circles during a homotopy. Any family of pairwise intersecting lifts to the universal cover projects to distinct graph edges that cross pairwise. Its size is consequently at most $k-1$. Beeker and Lazarovich's theorem on surface patterns then bounds the number of arcs. Their estimate is linear in the size of a triangulation, and an explicit triangulation of the $n$-holed sphere has linearly many edges and triangles.",
+   "abs": "https://arxiv.org/abs/2611.01509",
+   "pdf": "https://arxiv.org/pdf/2611.01509"
+  },
+  {
+   "id": "2611.03190",
+   "type": "new",
+   "title": "Asymptotically Optimal Weighted Edge Colorings via Local Bin Packing",
+   "authors": [
+    "Rishikesh Gajjala",
+    "Arindam Khan"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.DS"
+   ],
+   "primary": "math.CO",
+   "comments": "94 pages",
+   "abstract": "We study weighted edge coloring, where each edge of a graph $G$ has a weight in $(0,1]$, and colors are assigned so that the incident weight of each color at every vertex is at most one. The objective is to minimize the number of colors, denoted by $\\chi'_w(G)$. This generalizes classical edge coloring (all weights are one) and bin packing ($G$ is a star). Two natural lower bounds are the maximum weighted degree $\\Delta_w(G)$ and the maximum local bin-packing number $\\mathrm{bp}(G)$: the maximum, over vertices, of the minimum number of unit bins needed to pack the incident weights. We have $\\lceil\\Delta_w(G)\\rceil\\le\\mathrm{bp}(G)\\le\\chi'_w(G)$. How closely these local lower bounds approximate the global optimum is a longstanding open problem. Our main result establishes an asymptotic weighted analogue of Vizing's theorem: every simple graph admits a coloring using at most $(1+o(1))\\mathrm{bp}(G)$ colors. Thus local bin packings can be made globally consistent with asymptotically vanishing relative loss, even in nonbipartite graphs. Our local-to-global rounding framework coordinates feasible local packing distributions into a partial coloring, leaving only $o(\\mathrm{bp}(G))$ uncolored weight at every vertex. For bipartite multigraphs, we prove $\\chi'_w(G)\\le(2+o(1))\\Delta_w(G)$, establishing the Chung--Ross conjecture [SICOMP'91] asymptotically. For loopless multigraphs, we obtain the exact bound $\\chi'_w(G)\\le3\\lceil\\Delta_w(G)\\rceil$. Both leading coefficients are optimal, giving weighted analogues of the classical Kőnig--Shannon bounds. Further upper and lower bounds show that the classical factor-$3/2$ separation does not persist with the local bin-packing benchmark. We also disprove the exact weighted-degree conjecture of Feige and Singh [ESA'08]. Our upper bounds have polynomial-time algorithms, and their existence statements are formalized in Lean 4.",
+   "abs": "https://arxiv.org/abs/2611.03190",
+   "pdf": "https://arxiv.org/pdf/2611.03190"
+  },
+  {
+   "id": "2611.03236",
+   "type": "new",
+   "title": "The strong fractional choice number can exceed the choice number",
+   "authors": [
+    "Yangyan Gu",
+    "Rongxing Xu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages, 3 figures",
+   "abstract": "Erdős, Rubin and Taylor asked whether every $(a,b)$-choosable graph is $(am,bm)$-choosable for all positive integers $a,b,m$. Dvořák, Hu and Sereni disproved this by constructing a $4$-choosable graph that is not $(8,2)$-choosable, and asked whether a $3$-choosable graph can fail to be $(6,2)$-choosable. As a weakening, Li and Zhu asked whether every $k$-choosable graph is $(kb+1,b)$-choosable for all positive integers $k,b$. Equivalently, Xu and Zhu asked whether $\\operatorname{ch}_f^s(G)\\le\\operatorname{ch}(G)$ for every graph $G$. Here $\\operatorname{ch}(G)$ is the choice number of a graph $G$, and $\\operatorname{ch}_f^s(G)$ is the strong fractional choice number of $G$, which is defined as the infimum of the real numbers $r$ such that $G$ is $(a,b)$-choosable for all positive integers $a,b$ with $a/b\\ge r$. In this paper, we prove that, for all integers $t\\ge0$ and $b\\ge7t+2$, there is a planar graph $G$ with choice number three that is not $(3b+t,b)$-choosable. For $(b,t)=(2,0)$, our construction gives an affirmative answer to the question of Dvořák, Hu and Sereni. This family answers the questions of Li and Zhu and of Xu and Zhu negatively, and shows that the supremum of $\\operatorname{ch}_f^s(G)-\\operatorname{ch}(G)$ over graphs of choice number three is at least $1/7$. We further prove that, for all integers $k\\ge4$, $t\\ge0$ and $b\\ge3t+2$, there is a graph $G$ with $\\operatorname{ch}(G)=k$ that is not $(kb+t,b)$-choosable. For every $k\\ge4$, this establishes the stronger lower bound $1/3$ on the supremum of $\\operatorname{ch}_f^s(G)-\\operatorname{ch}(G)$. The latter construction also produces simpler versions of the counterexamples of Dvořák, Hu and Sereni. It is worth mentioning that the core gadgets in both constructions are very simple. The former is an eight-vertex graph, and the latter is the six-vertex wheel $W_5$.",
+   "abs": "https://arxiv.org/abs/2611.03236",
+   "pdf": "https://arxiv.org/pdf/2611.03236"
+  },
+  {
+   "id": "2611.00388",
+   "type": "cross",
+   "title": "Online carpooling against an oblivious adversary",
+   "authors": [
+    "Yuhao Lei"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "14 pages, 2 figures",
+   "abstract": "In the online carpooling problem, edges on $n$ vertices arrive one at a time and must be oriented immediately, so as to keep the difference between the indegree and the outdegree of every vertex small. We give a randomized online algorithm which bounds the largest absolute difference over the first $T$ edges by $O((\\log T)^{1/3})$ with high probability on every input sequence fixed in advance. This proves a conjecture of Kulkarni, Reis and Rothvoss and matches the known worst case lower bound. The algorithm keeps the law of the discrepancy vector dominated in the convex order by a Gaussian measure, and forces the endpoint with the smaller discrepancy to receive the edge whenever the two discrepancies are far apart. In the analysis we show that a vertex of discrepancy $D$ is preceded by a set of $O(D)$ vertices with total discrepancy $\\Omega(D^2)$.",
+   "abs": "https://arxiv.org/abs/2611.00388",
+   "pdf": "https://arxiv.org/pdf/2611.00388"
+  },
+  {
+   "id": "2611.00629",
+   "type": "new",
+   "title": "Multivariate diagonal harmonics: character polynomials and proofs of two conjectures of Bergeron",
+   "authors": [
+    "Eren Ercan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "65 pages; no figures",
+   "abstract": "We prove Bergeron's Hook-Components and Coefficient-Length conjectures for the Vandermonde polarization module and full diagonal harmonics in every rank and number of alphabets. Hook-label characters are elementary skewings of the alternating character, and the maximal Schur length in label $\\mu$ is $n-\\mu_1$. We compute character and dimension polynomials of diagonal coinvariants in every bosonic--fermionic superspace for $D\\ge3$, $n\\ge\\max\\{D,2D-6\\}$, answering Church--Ellenberg--Farb's character and dimension questions. For augmented commutative algebras in characteristic zero, we construct natural two-Schur presentations and filtered free resolutions with one Schur generator in each homological degree. For polynomial algebras, specialization to orthogonal idempotents identifies the first unstable correction for every nonempty tail $\\tau$ and degree $D>|\\tau|$. The stable threshold $n\\ge D+\\tau_1$ is sharp when the row dimension is at least $\\ell(\\tau)$. First parabolic algebras recover finite jets, their multiplication and their maps. Selected-label lifts give uniform Vandermonde generation through degree $D$ for $D\\ge3$, $n\\ge2D-3$, and disjoint-label products generate every first occurrence for positive integral row weights. Constructive degree reflection determines all two-column moment homology and generates its first syzygies from degree $n+1$; two-column Vandermonde generation reduces to degree $n-1$. Invariants and harmonics separate through the character range and through degree $n$ in two alphabets. The hook identities also give the fully graded sign component of the $t=0$, $(1,2)$-superspace Theta conjecture.",
+   "abs": "https://arxiv.org/abs/2611.00629",
+   "pdf": "https://arxiv.org/pdf/2611.00629"
+  },
+  {
+   "id": "2611.01972",
+   "type": "new",
+   "title": "The equality $s(G)=η(G)+\\exp(G)-1$ fails for $G=C_2^7\\oplus C_6$",
+   "authors": [
+    "Guoqing Wang",
+    "Xiangneng Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a finite abelian group. The Erdős-Ginzburg-Ziv constant $\\mathsf{s}(G)$ is the smallest positive integer $\\ell$ such that every sequence over $G$ of length at least $\\ell$ contains a zero-sum subsequence of length $\\exp(G)$. The short zero-sum constant $\\eta(G)$ is defined similarly, with the requirement that the zero-sum subsequence is nonempty and has length at most $\\exp(G)$. It is known that $\\mathsf{s}(G)\\ge \\eta(G)+\\exp(G)-1.$ A conjecture proposed by W. Gao in 2003, which has been widely studied in zero-sum theory, predicts that $$ \\mathsf{s}(G)=\\eta(G)+\\exp(G)-1 $$ for every nontrivial finite abelian group $G$. In this paper, we prove that this conjecture fails for the group $C_2^7\\oplus C_6$.",
+   "abs": "https://arxiv.org/abs/2611.01972",
+   "pdf": "https://arxiv.org/pdf/2611.01972"
+  },
+  {
+   "id": "2611.01795",
+   "type": "cross",
+   "title": "Dimension bounds for finite-volume hyperbolic Coxeter polytopes",
+   "authors": [
+    "Lizi Guo",
+    "Fangting Zheng"
+   ],
+   "categories": [
+    "math.GT",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.GT",
+   "comments": "77 pages",
+   "abstract": "We prove that a finite-volume hyperbolic Coxeter polytope has dimension at most $81$, substantially improving Prokhorov's bound of $995$. A refinement of Prokhorov's method gives the intermediate bound $162$, while an extension of Vinberg's planar-angle comparison to the finite-volume setting yields the sharper bound. Both arguments combine improved weighting functions with estimates using cusp geometry to control weight contributions of angles at ideal vertices or edges incident to them.",
+   "abs": "https://arxiv.org/abs/2611.01795",
+   "pdf": "https://arxiv.org/pdf/2611.01795"
+  },
+  {
+   "id": "2611.00950",
+   "type": "new",
+   "title": "The size and structure of graphs with a unique $k$-factor",
+   "authors": [
+    "Zixuan Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 0 figues",
+   "abstract": "For integers $n>k\\ge1$ with $nk$ even, let $m(n,k)$ be the maximum size of a graph of order $n$ with a unique $k$-factor. In 1964, Hetyei and in 1984, Hendry [\\emph{J. Combin. Theory Ser. B} \\textbf{37} (1984), 53--63] proved $m(n,1)=n^2/4$ for even $n$ and $m(n,2)=\\lfloor n(n+1)/4\\rfloor$, respectively. In 2000, Johann [\\emph{J. Graph Theory} \\textbf{35} (2000), 227--243] showed that $m(n,k)=nk/2+\\binom{n-k}{2}$ for $k>n/2$ and $kn$ even and $m(n,k)=n^2/4+(k-1)n/4$ for $n=2kq$, where $q$ is a positive integer. Later, Volkmann [\\emph{Combinatorica} \\textbf{24} (2004), 531--540] proved $m(n,k)=k^2+\\binom{n-k}{2}$ for $n/3\\le k<n/2$ and $kn$ even, and he determined $m(n,3)$. In this paper, we determine $m(n,k)$ for all admissible pairs, proving the size conjecture posed by Volkmann. We also prove that every extremal graph with $2\\le k\\le n-2$ has a universal vertex whose neighbors in the unique factor are precisely its degree-$k$ vertices. In particular, this result confirms Volkmann's structural conjecture.",
+   "abs": "https://arxiv.org/abs/2611.00950",
+   "pdf": "https://arxiv.org/pdf/2611.00950"
+  },
+  {
+   "id": "2611.00572",
+   "type": "new",
+   "title": "Total dominating sets and four-colorings of planar triangulations",
+   "authors": [
+    "Hyemin Kwon",
+    "Boram Park",
+    "Yoshio Sano"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, 3 figures",
+   "abstract": "In 2018, Goddard and Henning conjectured that every planar triangulation on at least four vertices has two disjoint total dominating sets. It was proved by Francis, Illickan, Jose, and Rajendraprasad in 2024. As a strengthening of this result, Goddard and Henning also conjectured that every planar triangulation with at least four vertices has a proper $4$-coloring with color classes $C_1,C_2,C_3,C_4$ such that $C_1\\cup C_2$ and $C_3\\cup C_4$ are total dominating sets. In this paper, we disprove this conjecture: for every $n\\ge 36$ there is a planar triangulation with $n$ vertices without such a coloring. As another strengthening of the result by Francis, Illickan, Jose, and Rajendraprasad, they conjectured that every near-triangulation has a $4$-coloring, not necessarily proper, in which every vertex $v$ sees at least $\\min \\{ \\operatorname{deg}(v),3 \\}$ colors on its neighbors. We prove this conjecture for all planar triangulations.",
+   "abs": "https://arxiv.org/abs/2611.00572",
+   "pdf": "https://arxiv.org/pdf/2611.00572"
+  },
+  {
+   "id": "2611.02128",
+   "type": "new",
+   "title": "A hitting-time version of Kotzig's conjecture in random graphs",
+   "authors": [
+    "Stefan Glock",
+    "Lyuben Lichev",
+    "Amedeo Sgueglia"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 4 figures",
+   "abstract": "A family of perfect matchings on the same vertex set is said to have the Kotzig property if the union of any pair of matchings forms a Hamilton cycle. Kotzig famously conjectured that, when $n$ is even, the complete graph on $n$ vertices can be decomposed into $n-1$ perfect matchings with the Kotzig property. A closely related conjecture of Wormald states that, for fixed $d \\ge 3$, whp a random $d$-regular graph contains $d$ perfect matchings with the Kotzig property. Recently, the first and third authors considered a version of these problems for the binomial random graph $G(n,p)$ and proved that, for every fixed $k$, there is $C=C(k)$ such that whp $G(n,C\\log n/n)$ contains $k$ perfect matchings with the Kotzig property. We strengthen this result by showing a hitting time version: for every fixed $k$, whp the hitting time in the random graph process for finding $k$ edge-disjoint perfect matchings with the Kotzig property is the same as the hitting time for a graph with minimum degree $k$. This is a generalisation of the celebrated result of Bollobás and Frieze for even $n$ establishing the hitting time for $k$ edge-disjoint Hamilton cycles. The proof uses several ideas. We first design a coupling, via a randomised algorithm, of the random graph at the hitting time with $k$ almost-independent perfect matchings and a set of random reservoir edges, which may be of independent interest. We then prove various statistical properties of these matchings, in particular concerning the cycle structure of the $2$-factors formed by pairs of matchings. This includes a novel concept of ``shuffledness'', which we establish through a careful exposure argument and a concentration inequality for random permutations. Finally, we show that the initial $2$-factors can be merged into Hamilton cycles, using the random reservoir edges, by analysing certain Pósa-type rotations via branching processes.",
+   "abs": "https://arxiv.org/abs/2611.02128",
+   "pdf": "https://arxiv.org/pdf/2611.02128"
+  },
+  {
+   "id": "2611.02963",
+   "type": "cross",
+   "title": "Full-Rank Constructions of Explicit Lossless Expanders and Good Small-Set qLTCs",
+   "authors": [
+    "Yali Aharon-Holzman",
+    "Michael Ilan",
+    "Assaf Reiner",
+    "Amnon Ta-Shma"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.DS",
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "cs.CC",
+   "comments": "32 pages, 1 figure",
+   "abstract": "We construct explicit two-sided lossless expanders whose binary adjacency matrices have full rank, and use them to obtain explicit asymptotically good quantum LDPC codes whose specified X- and Z-check matrices have full row rank and satisfy small-set soundness, or confinement, on a linear range. Our lossless expanders are a variant of those of Hsieh, Lubotzky, Mohanty, Reiner, and Zhang, with a free action of a finite 2-group. Under such an action, injectivity and surjectivity of the adjacency matrix are detected on a fixed-size matrix indexed by vertex orbits. Adding a sparse factor to the gadget at the middle vertices of a single type then enforces full rank, with a controlled loss in expansion. To obtain the 2-group action, we observe that reducing the generators of the Lubotzky-Phillips-Sarnak Ramanujan graphs modulo powers of 2, instead of modulo an odd prime, gives Ramanujan Cayley graphs on finite 2-groups. This construction may be of independent interest. Plugging two such expanders into the balanced product of Lin and Hsieh gives the quantum codes, since full rank of the input graphs is inherited by the check matrices. Our construction supplies the code family sought by Hong, Guo, and Lucas. Applying their analysis, within their framework and under their dynamical assumptions, gives quantum memories whose free-energy density is analytic at every positive temperature and whose guaranteed lifetime is $exp(\\Omega(N))$ at sufficiently low fixed positive temperature, where N is the blocklength. This improves the previously guaranteed stretched-exponential timescale.",
+   "abs": "https://arxiv.org/abs/2611.02963",
+   "pdf": "https://arxiv.org/pdf/2611.02963"
+  },
+  {
+   "id": "2611.00591",
+   "type": "new",
+   "title": "A spectral Moore problem and the Yang-Koolen conjecture",
+   "authors": [
+    "Vishal Gupta"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "We study the maximum order $v(k,\\theta)$ of a connected $k$-regular graph whose second largest eigenvalue is at most $\\theta$. For every real $\\theta\\geq1$, we prove that \\[ T(\\theta) =\\limsup_{k\\to\\infty}\\bigl(v(k,\\theta)-2k\\bigr) =2\\left\\lfloor1+\\frac{\\theta^2}{4}\\right\\rfloor. \\] In particular, $T(\\theta)>2\\theta$ for every real $\\theta\\geq4$, disproving the Yang-Koolen conjecture. We also determine $v(k,\\theta)$ for all sufficiently large $k$ on explicit intervals of $\\theta$. We prove a jump in the second largest eigenvalue above $1$. For each fixed $1\\leq\\theta<2$ and all sufficiently large $k$, every connected $k$-regular graph of order at least $2k+2$ whose second largest eigenvalue is at most $\\theta$ is the crown graph. For $\\theta=\\sqrt2$, we prove that $v(k,\\sqrt2)=2k+2$ for every $k\\geq13$. Finally, we obtain two new upper bounds on $v(k,\\theta)$.",
+   "abs": "https://arxiv.org/abs/2611.00591",
+   "pdf": "https://arxiv.org/pdf/2611.00591"
+  },
+  {
+   "id": "2611.01068",
+   "type": "new",
+   "title": "Claw-free perfect graphs are chromatic-choosable",
+   "authors": [
+    "Suchismita Mishra",
+    "Narayanan Narayanan",
+    "Umesh Shankar"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "33 pages, 8 figures",
+   "abstract": "We prove that every claw-free perfect graph $G$ satisfies $\\ch(G)=\\chi(G)=\\omega(G)$. More strongly, if $S$ is a clique of simplicial vertices of $G$ and $k\\ge\\omega(G)$, every proper precoloring of $S$ extends to a proper coloring of $G$ from arbitrary lists of size $k$ on $V(G)\\setminus S$. The proof has three coloring steps: a mixed-list theorem for cobipartite graphs, a precoloring-extension theorem for elementary graphs built on Galvin's kernel method and a homogeneous-pair exchange argument, and a polynomial method (Combinatorial Nullstellensatz) argument for graphs of interval type in which a Vandermonde factor is transferred across each incomplete pair. The three coloring steps are assembled along the structure theorems of Chvátal--Sbihi, Maffray--Reed and Chudnovsky--Seymour, using double clique cutsets for composition. As a consequence, every perfect line graph is chromatic-choosable, recovering the theorem of Peterson and Woodall. Our precoloring extension theorem also resolves a conjecture posed by Chudnovsky and Seymour.",
+   "abs": "https://arxiv.org/abs/2611.01068",
+   "pdf": "https://arxiv.org/pdf/2611.01068"
+  },
+  {
+   "id": "2611.02063",
+   "type": "new",
+   "title": "Extremal zero-sum sequences without elements of maximal order",
+   "authors": [
+    "Yongke Qu",
+    "Guoqing Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages",
+   "abstract": "Let $\\mathsf D(G)$ denote the Davenport constant of a finite abelian group $G$, the maximal length of a minimal zero-sum sequence over $G$. Gao and Geroldinger conjectured that every minimal zero-sum sequence of length $\\mathsf D(G)$~\\cite[Conjecture~6.1]{GG99} and every zero-sumfree sequence of length $\\mathsf D(G)-1$~\\cite[Conjecture~4.1]{GG06} contains an element of order $\\exp(G)$. We disprove both conjectures by proving a density-one theorem: for every fixed finite abelian group $H$ of exponent $M=2^ap^b$, where $a\\ge2$, $b\\ge1$, and $p$ is an odd prime, the set of integers $r\\ge0$ for which $G_r=C_2^r\\oplus H$ admits a minimal zero-sum sequence of length $\\mathsf D(G_r)$ with no term of order $M$ has natural density one.",
+   "abs": "https://arxiv.org/abs/2611.02063",
+   "pdf": "https://arxiv.org/pdf/2611.02063"
+  },
+  {
+   "id": "2611.01963",
+   "type": "new",
+   "title": "The Erdős--Hajnal property for paths",
+   "authors": [
+    "Shenwei Huang",
+    "Yidong Zhou",
+    "Yuwen Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages, 1 figure",
+   "abstract": "The well-known Erdős-Hajnal conjecture states that for any graph $H$, there is a constant $c=c(H)>0$ such that every $n$-vertex graph $G$ with no induced copies of $H$ contains a clique or an independent set of size at least $n^{c}$. In this paper, we prove that the Erdős-Hajnal conjecture holds for every path.",
+   "abs": "https://arxiv.org/abs/2611.01963",
+   "pdf": "https://arxiv.org/pdf/2611.01963"
+  },
+  {
+   "id": "2611.03145",
+   "type": "cross",
+   "title": "Reed-Muller Codes are Optimal Binary Linear 3-Query LCCs",
+   "authors": [
+    "Oliver Janzer",
+    "Peter Manohar"
+   ],
+   "categories": [
+    "cs.IT",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "We prove that any linear $3$-query locally correctable code $C \\colon \\mathbb{F}_2^k \\to \\mathbb{F}_2^n$ with constant correction radius must have length $n \\geq 2^{\\Omega(\\sqrt{k})}$. This improves on the prior best lower bound of $2^{\\Omega(\\sqrt{k/\\log k})}$, due to [AG24], and shows that the folklore construction of linear $3$-LCCs from Reed-Muller codes, which achieve length $n = 2^{O(\\sqrt{k})}$, is optimal up to constant factors in the exponent. Our proof builds on the approach of [KM24a], further refined in [Yan24,KM24b], that uses \"chain derived equations\" in combination with Kikuchi graphs. The crux of our argument is to show that a certain edge-coloured Kikuchi graph has a unique colour cycle: a cycle in which some colour is used exactly once. We do this by controlling the distribution of colours at each vertex in the graph using a random walk mixing argument and a novel hypergraph decomposition based on edge expansion of the hypergraph's \"flattening\" into a graph.",
+   "abs": "https://arxiv.org/abs/2611.03145",
+   "pdf": "https://arxiv.org/pdf/2611.03145"
+  },
+  {
+   "id": "2611.00663",
+   "type": "new",
+   "title": "$K_h$-Minor-Free Graphs Have Balanced Separators of Size $O(h\\sqrt{n})$",
+   "authors": [
+    "Jonathan Conroy",
+    "Hung Le",
+    "Jack Spalding-Jamieson"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that every $K_h$-minor-free graph with $n$ vertices has a balanced separator of size $O(h\\sqrt{n})$ for any parameter $h \\in \\mathbb{N}$, resolving the conjecture posed by Alon, Seymour, and Thomas [AST90] in 1990. The proof is elementary, building on the combinatorial framework by Le [Le26]. A key new idea of the proof is the existence of a short hitting walk on vertex expanders: given $k$ large (not necessarily disjoint) subsets of vertices, there is a walk of length $O(k/\\psi(G))$ hitting every subset, where $\\psi(G)$ is the vertex expansion. This technical result substantially improves on an analogous lemma by Alon, Seymour, and Thomas [AST90] in an important parameter setting, where the previous lower bound [Kot00] does not apply.",
+   "abs": "https://arxiv.org/abs/2611.00663",
+   "pdf": "https://arxiv.org/pdf/2611.00663"
+  },
+  {
+   "id": "2611.03169",
+   "type": "new",
+   "title": "An Erdős-Pach-Pollack-Tuza theorem for oriented diameter",
+   "authors": [
+    "Jiangdong Ai",
+    "Bin Chen",
+    "Yaokun Feng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 2 figures",
+   "abstract": "The oriented diameter of a bridgeless graph is the minimum diameter of its strong orientations. Erdős, Pach, Pollack and Tuza proved that every connected graph of order $n$ and minimum degree $\\delta\\ge 2$ has diameter at most $3n/(\\delta+1)-1$, which is sharp up to an additive constant. Cochran and Wang conjectured that the oriented diameter obeys the same bound up to an absolute additive constant. We prove this conjecture: every bridgeless graph of order $n$ and minimum degree $\\delta$ has a strong orientation of diameter at most $3n/(\\delta+1)+10^{17}$. Thus the bound of Erdős, Pach, Pollack and Tuza for the diameter carries over to the oriented diameter, with only the additive constant changed; in particular, the coefficient $3$ is best possible.",
+   "abs": "https://arxiv.org/abs/2611.03169",
+   "pdf": "https://arxiv.org/pdf/2611.03169"
+  },
+  {
+   "id": "2611.03468",
+   "type": "cross",
+   "title": "The Optimizer's Windfall: Bounding Hindsight Gain under Random Restrictions",
+   "authors": [
+    "Xiaohui Bei",
+    "Wenhao Wu"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "Suppose an optimization problem is randomly restricted, independently on each variable, and re-optimized after the restriction is revealed. For multilinear objectives, every fixed solution is unbiased after rescaling, but re-optimizing introduces an upward bias. We bound this excess, the hindsight gain, over products of arbitrary compact local domains in Euclidean unit balls. For interactions $A=(A_e)_e$ among $r$ distinct variables and independent random weights $\\zeta_i$, the gain is at most $O_r(\\|A\\|_F M^{(r-1)/2}\\sigma_{\\max})$, where $\\|A\\|_F^2$ is the sum of squared coefficients, $M=\\sum_i\\mathbb{E}\\zeta_i^2$, and $\\sigma_{\\max}^2=\\max_i\\mathrm{Var}(\\zeta_i)$; only second moments are needed. Under uniform retention with probability $p$, we sharpen this to $O_r(p^{r-1/2}\\sqrt{1-p}\\,n^{(r-1)/2}\\|A\\|_F)$, which is tight for every fixed $r$ and $p\\in(0,1)$. Our proof combines a comparison principle along a single support direction with tensor projection, vector contraction, and repeated thinning. Applications: (i) For fixed arity and alphabet size, solving the subproblem induced by $O(\\varepsilon^{-2})$ sampled variables estimates a dense Max-$r$CSP optimum within $\\pm\\varepsilon n^r$, and this sample size is optimal. (ii) The same approach estimates MaxCut and the distance to bipartiteness within $\\pm\\varepsilon n^2$ using $O(\\varepsilon^{-4})$ nonadaptive queries and $O(\\varepsilon^{-2})$ examined vertices, both optimal. (iii) We answer a question of Yufei Zhao: vertex percolation at rate $p$ preserves the max-cut fraction whenever $p\\,e(G)/v(G)\\to\\infty$, and this condition is sharp. (iv) For bounded $r$-local quantum Hamiltonians of fixed local dimension, $O(\\varepsilon^{-3})$ uniformly sampled particles suffice to estimate the ground-state energy within $\\pm\\varepsilon n^r$, improving the previous $O(\\varepsilon^{-6}\\log(1/\\varepsilon))$ bound.",
+   "abs": "https://arxiv.org/abs/2611.03468",
+   "pdf": "https://arxiv.org/pdf/2611.03468"
+  },
+  {
+   "id": "2611.01895",
+   "type": "cross",
+   "title": "Optimal asymptotic bounds for design curves on manifolds",
+   "authors": [
+    "Martin Ehler"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO",
+    "math.NA"
+   ],
+   "primary": "math.MG",
+   "comments": "",
+   "abstract": "A spherical $t$-design is a finite set of points on the $d$-dimensional unit sphere such that averaging any polynomial of degree at most $t$ over these points gives its exact spherical average. We study the corresponding notion for curves, where point averages are replaced by normalized arclength integration. For fixed $d\\ge 2$, the length of such curves is known to be bounded below by a positive multiple of $t^{d-1}$ as $t\\to\\infty$. We show that this asymptotic order is attained: for every $d\\ge 2$, there exists a constant $C_d>0$ such that, for every positive integer $t$ and every prescribed length $L\\ge C_dt^{d-1}$, there is a simple spherical $t$-design curve of length $L$. This establishes the analogue for curves of the theorem of Bondarenko, Radchenko, and Viazovska, which resolved the Korevaar-Meyers conjecture for spherical design points. More generally, we prove the corresponding result on closed, connected Riemannian manifolds of dimension $d\\ge 2$, where eigenfunctions of the Laplace-Beltrami operator substitute for polynomials. The proof combines a geometric construction of curves with continuously adjustable local lengths and an application of Brouwer's degree theorem.",
+   "abs": "https://arxiv.org/abs/2611.01895",
+   "pdf": "https://arxiv.org/pdf/2611.01895"
+  },
+  {
+   "id": "2611.00956",
+   "type": "new",
+   "title": "Strong complete immersions in graphs with independence number two",
+   "authors": [
+    "Zijian Deng",
+    "Chuanshu Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every graph $G$ with independence number at most two contains a strong immersion of $K_{\\chi(G)}$. This strengthens Dahlke's theorem for weak immersions and establishes the Lescure--Meyniel conjecture for this class of graphs.",
+   "abs": "https://arxiv.org/abs/2611.00956",
+   "pdf": "https://arxiv.org/pdf/2611.00956"
+  },
   {
    "id": "2611.00100",
    "type": "cross",
@@ -29,79 +423,186 @@
    "pdf": "https://arxiv.org/pdf/2611.00100"
   },
   {
-   "id": "2611.00126",
+   "id": "2611.03151",
    "type": "new",
-   "title": "Graphs with three distinct distance eigenvalues, one of which is zero",
+   "title": "Counterexamples to Relaxed Multiplication in List Coloring",
    "authors": [
-    "Suil O"
+    "Xiaolan Hu",
+    "Jiao Li"
    ],
    "categories": [
     "math.CO"
    ],
    "primary": "math.CO",
-   "comments": "11 pages",
-   "abstract": "Koolen, Hayat and Iqbal asked for the connected graphs whose distance matrix has exactly three distinct eigenvalues, the middle one being $0$. The examples they gave, namely the Johnson graphs, the Hamming graphs and the halved cubes, are distance-regular. In this note, we show that the distance spectrum of such a graph is $\\{\\rho,0,-c\\}$ with integers $c\\ge2$ and $c\\mid\\rho$. For $c=2$ the graphs are exactly the cocktail party graphs, and for $c=3$ they are exactly the Cartesian product $K_3\\,\\square\\,K_3$ of two triangles, the Petersen graph and its complement. We also show that such a graph need not be transmission-regular: Seidel switching the lattice graph $K_6\\,\\square\\,K_6$ with respect to a line and the triangular graph $T(11)$ with respect to a maximal clique of size $10$ gives graphs on $36$ and $55$ vertices with distance spectra $\\{54,0^{(26)},(-6)^{(9)}\\}$ and $\\{81,0^{(45)},(-9)^{(9)}\\}$. Among the graphs of diameter $2$ obtained by switching a strongly regular graph with smallest eigenvalue $-2$ with respect to one part of an equitable partition, these two are the only ones that have exactly three distance eigenvalues and are not transmission-regular. We also observe that the transmission-regular graphs with exactly three distinct distance eigenvalues, the smallest one being $-3$, are exactly the complements of the strongly regular graphs with smallest eigenvalue $-2$ other than the cocktail party graphs.",
-   "abs": "https://arxiv.org/abs/2611.00126",
-   "pdf": "https://arxiv.org/pdf/2611.00126"
+   "comments": "",
+   "abstract": "Jiang and Zhu [J. Combin. Theory Ser. B, 137 (2019) 112--117] asked whether every $k$-choosable graph is $(km+1:m)$-choosable for every positive integer $m$. We answer this question negatively by constructing a graph with chromatic number and choice number $k$ that is not $(km+1:m)$-choosable for every $k\\ge3$ and $m\\ge10$. More generally, for integers $k\\ge3$, $m\\ge2$, and $t\\ge0$, satisfying $m>8t+\\epsilon$, where $\\epsilon\\in\\{0,1\\}$ is the parity of $m$, we construct such a graph that is not $(km+t:m)$-choosable. This also answers negatively the equivalent question of Xu and Zhu [SIAM J. Discrete Math., 36 (2022) 2585--2601] asking whether the strong fractional choice number of every graph is at most its choice number. This also indicates that, for each $k\\ge3$, the supremum of the strong fractional choice numbers of graphs with choice number $k$ is at least $k+1/8$. When $t=0$, our construction yields counterexamples to multiplication for every $k\\ge3$ and $m\\ge2$. In particular, it yields a $3$-choosable graph on $91$ vertices that is not $(6:2)$-choosable, answering a question of Dvořák, Hu and Sereni [ Adv. Comb. (2019), Paper No. 5].",
+   "abs": "https://arxiv.org/abs/2611.03151",
+   "pdf": "https://arxiv.org/pdf/2611.03151"
   },
   {
-   "id": "2611.00098",
-   "type": "cross",
-   "title": "Comments on \"Multidimensional Costas Arrays and Their Periodicity\"",
+   "id": "2611.01772",
+   "type": "new",
+   "title": "An approximate cactus-decomposition for vertex-connectivity",
    "authors": [
-    "Shiv Munagala"
+    "Romain Bourneuf",
+    "Johannes Carmesin",
+    "Jan Kurkofka",
+    "Tim Planken"
    ],
    "categories": [
-    "cs.IT",
-    "math.CO"
+    "math.CO",
+    "cs.DM"
    ],
-   "primary": "cs.IT",
-   "comments": "Comment arXiv:2208.02378",
-   "abstract": "Rubio and Torres conjectured that a multidimensional Costas array, defined by a bijection between two boxes of integer points whose domain has at least as many dimensions as its image, can stay Costas in every window of its periodic extension only if its order is a power of two fixed by the dimension of the domain. We give a four-dimensional periodic Costas array of order $6$, with a two-dimensional domain and a two-dimensional image, so the conjecture is false. The verification reduces to $36$ windows. It has been confirmed by computer and in the Lean proof assistant. The array also meets with equality the pigeonhole bound that Rubio and Torres use for their non-existence results, so that bound is tight.",
-   "abs": "https://arxiv.org/abs/2611.00098",
-   "pdf": "https://arxiv.org/pdf/2611.00098"
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The classical cactus theorem of Dinitz, Karzanov and Lomonosov from 1976 states that the minimum edge-cuts of a connected graph are displayed by a cactus. For vertex-separations, Tutte's theorem gives an exact cactus-decomposition for connectivity $2$, but exact cactus-decompositions fail for higher connectivity. Extending earlier approximate cactus-decomposition results for connectivities $3$ and $4$ by Carmesin and Kurkofka [FOCS 2023] and Kurkofka and Planken [SODA 2026] to all connectivities, we prove that for every $k\\in\\mathbb{N}$ there is a constant $d=d(k)$ such that every $k$-connected graph $G$ admits a cactus-decomposition displaying $k$-separations such that every $k$-separation of $G$ has edit-distance at most $d$ to a displayed separation. Our proof develops tools that may be useful beyond this result. The first is a three-dimensional version of the classical corner-diagram method, which we use to show that triples of crossing $k$-separations have a controlled two-dimensional behaviour. The second is a covering-space approach for studying local crossing patterns from a global perspective. Third, we advance the theory of flowers, which originated in matroid theory.",
+   "abs": "https://arxiv.org/abs/2611.01772",
+   "pdf": "https://arxiv.org/pdf/2611.01772"
   },
   {
-   "id": "2611.00070",
+   "id": "2611.02483",
    "type": "cross",
-   "title": "The covering radius of RM(1,9) is precisely 242",
+   "title": "Large independent sets via neighborhood block dynamics, Glauber dynamics, and local occupancy",
    "authors": [
-    "Xiang-Dong Hou",
-    "Evelyn Sabo",
-    "Freeman Slaughter"
-   ],
-   "categories": [
-    "cs.IT",
-    "math.CO"
-   ],
-   "primary": "cs.IT",
-   "comments": "9 pages",
-   "abstract": "Let $\\text{RM}(r,n)$ be the $r$th order Reed-Mullet code of length $2^n$, and let $\\rho(r,n)$ denote its covering radius. It is known that $242\\le\\rho(1,9)\\le 244$, and the determination of $\\rho(1,9)$ is a long-standing open question. We give a computer-assisted proof that $\\rho(1,9)=242$, leveraging the classification of the $349$ orbits in $\\text{RM}(3,9)/\\text{RM}(2,9)$ under $\\text{GL}(9,2)$ [1,3]. The notebook to verify the computer search portion, Verify_RM(1,9).ipynb, contains all data and recomputes each check, and may be found in the repository this https URL.",
-   "abs": "https://arxiv.org/abs/2611.00070",
-   "pdf": "https://arxiv.org/pdf/2611.00070"
-  },
-  {
-   "id": "2611.00094",
-   "type": "cross",
-   "title": "Combinatorial Algorithms for Partial Inverse Min-Max Spanning Tree Problem under the Weighted Sum Hamming Distance",
-   "authors": [
-    "Qingzhen Dong",
-    "Xianyue Li",
-    "Xiaowen Kong"
+    "Ewan Davies",
+    "Brian Tan"
    ],
    "categories": [
     "cs.DS",
     "math.CO"
    ],
    "primary": "cs.DS",
+   "comments": "28 pages",
+   "abstract": "Local occupancy can be used to bound the expected size of a hard-core independent set. The framework of locally stationary distributions shows that for triangle-free graphs, despite slow mixing at the relevant fugacity parameter, standard Glauber dynamics can be used to find sets close to the local occupancy guarantee. We improve the application of this framework to the hard-core model by replacing a conditional mixing argument with a more direct approach based on a short sequence of single-site updates that, from every initial configuration, achieves the required occupancy inequality. In general graphs, naive conditional mixing estimates or certain problematic structures in the neighborhood can in principle incur running time cost exponential in the maximum degree $\\Delta$. We design short update sequences that, via our relaxed criterion, yield running times polynomial in $\\Delta$ for graphs with a hereditary bound $b$ on the density of $K_{t,t}$ subgraphs in neighborhoods. Our methods handle the case where $t$ and $b$ can grow with the maximum degree, and the resulting algorithm attains the random graph shattering threshold when they grow sufficiently slowly. That is, we give improved local occupancy parameters and a short update sequence analysis which together show that Glauber dynamics finds independent sets of size $(1-o(1))n(\\log\\Delta)/\\Delta$ in time polynomial in $n$ and $\\Delta$ whenever $t$ and $b$ are constant or grow suitably slowly. In a similar regime, we also establish that the (correspondence) chromatic number is at most $(1+o(1))\\Delta/\\log\\Delta$ which improves upon prior results by a factor of at least $4$ in the case $t\\ge 4$.",
+   "abs": "https://arxiv.org/abs/2611.02483",
+   "pdf": "https://arxiv.org/pdf/2611.02483"
+  },
+  {
+   "id": "2611.03636",
+   "type": "cross",
+   "title": "Get Permanent Results Faster by Counting Stars",
+   "authors": [
+    "Radu Curticapean"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "16 pages",
+   "abstract": "We show that $n \\times n$ permanents can be computed with $O^*{(2-\\varepsilon)^n}$ arithmetic operations over every commutative ring, for $\\varepsilon = 10^{-40}$. This solves a problem stated in Knuth's The Art of Computer Programming. Our algorithm implements the classical Binet--Minc identity with dynamic programming and careful bookkeeping. It also gives algebraic branching programs of size $O^*{(2-\\varepsilon)^n}$.",
+   "abs": "https://arxiv.org/abs/2611.03636",
+   "pdf": "https://arxiv.org/pdf/2611.03636"
+  },
+  {
+   "id": "2611.01577",
+   "type": "new",
+   "title": "Sharp Bounds for Edge Mappings of Graphs",
+   "authors": [
+    "Zhanping Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
    "comments": "",
-   "abstract": "Given a connected weighted graph G=(V, E, w) and a forest F of G, the goal of partial inverse min-max spanning tree problem is to change the weight function as little as possible, so that there is a min-max spanning tree with respect to the new weight function containing F. In this paper, we study this problem under the weighted sum Hamming distance. We take the alternative set of the maximum edge weight in F with respect to the optimal weight function as a key factor, and further consider the case of this problem under the restriction of this factor. On this basis, a polynomial time algorithm with time complexity O(|V|^4) is proposed to solve this problem.",
-   "abs": "https://arxiv.org/abs/2611.00094",
-   "pdf": "https://arxiv.org/pdf/2611.00094"
+   "abstract": "The study of extremal problems for set mappings was initiated by Erdős and Hajnal in 1958. Alon and Caro, and later Caro, Patkós, Tuza and Vizer, studied related problems for edge mappings of graphs. For a graph $G$ with $n$ vertices and $m$ edges, let $g_0(G)$ be the minimum integer $N$ such that every mapping $f:E(K_N)\\to E(K_N)$ satisfying $f(e)\\cap e=\\varnothing$ for every $e\\in E(K_N)$ admits a copy $G^*$ of $G$ in $K_N$ with $f(e)\\notin E(G^*)$ for every $e\\in E(G^*)$. Gishboliner, Jin and Sudakov conjectured that $g_0(G)=O(n+m/\\sqrt n)$. In this paper, we disprove this conjecture by constructing a family of graphs. We then prove that $g_0(G)=O(n+m^{3/4})$. Furthermore, for every $n\\ge2$ and $m$ satisfying $\\lceil n/2 \\rceil\\leq m\\leq \\binom{n}{2}$, there exists a graph $G_*$ with $n$ vertices, $m$ edges and no isolated vertices satisfying $g_0(G_*)=\\Omega(n+m^{3/4})$. Thus the upper bound is best possible in terms of $n$ and $m$.",
+   "abs": "https://arxiv.org/abs/2611.01577",
+   "pdf": "https://arxiv.org/pdf/2611.01577"
+  },
+  {
+   "id": "2611.01368",
+   "type": "cross",
+   "title": "An $\\mathsf{FPRAS}$ for Mixed Volumes",
+   "authors": [
+    "Xiaoyu Chen",
+    "Kuikui Liu"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.CC",
+    "cs.CG",
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We design the first fully polynomial-time randomized approximation scheme ($\\mathsf{FPRAS}$) to estimate the mixed volume of $n$ arbitrary compact convex sets in $\\mathbb{R}^{n}$ specified by weak membership oracles. This disproves a longstanding conjecture of Gurvits (2009). $\\textbf{AI Disclosure}$ The main ideas were generated entirely by GPT 6 Astra. The purpose of this paper is to provide a human-written exposition of the algorithm.",
+   "abs": "https://arxiv.org/abs/2611.01368",
+   "pdf": "https://arxiv.org/pdf/2611.01368"
+  },
+  {
+   "id": "2611.01915",
+   "type": "new",
+   "title": "Quadratic bounds for intersecting hypergraphs: An affirmative answer to a question of Duke and Erdős",
+   "authors": [
+    "Guoqing Wang",
+    "Linlin Wang",
+    "Jun Yue"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "Let $m(k,b)$ denote the minimum number of edges in an intersecting $k$-uniform hypergraph in which every $(k-1)$-set of vertices is disjoint from at least $b$ edges, with $m(k,b)=+\\infty$ if no such hypergraph exists. Duke and Erdős [Congressus Numerantium (1980)] asked whether $m(k,k)=o(k^4)$ is possible. In this paper, we answer this question affirmatively and determine the order of growth of $m(k,k)$ by proving that $k^2+1\\leq m(k,k)\\leq Ck^2$ for all sufficiently large $k$, where $C$ is an absolute constant. More generally, we show that $m(k,b)=\\Theta(kb)$ for all sufficiently large odd $k$ and every integer $b$ with $k\\leq b\\leq (k-1)(k-3)/2$, where the implied constants are independent of $k$ and $b$.",
+   "abs": "https://arxiv.org/abs/2611.01915",
+   "pdf": "https://arxiv.org/pdf/2611.01915"
   }
  ],
- "surveys": [],
- "listed_new": 1,
- "listed_cross": 4,
- "note": "When this page was built, arXiv's listing for 3 November 2026 showed only these five entries and no replacements, so the day's announcement appears to have been incomplete."
+ "surveys": [
+  {
+   "id": "2611.03427",
+   "type": "new",
+   "title": "Proving the Komlós conjecture slowly",
+   "authors": [
+    "Lawrence Hollom"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 5 figures",
+   "abstract": "The Komlós conjecture was a long-standing open problem in discrepancy theory until it was recently solved in a flurry of AI developments. We give a motivated exposition of an elementary proof of the conjecture due to Karingula and Lovett, as well as a counterexample to the strong Komlós conjecture due to Kintali, aiming to introduce the ideas in a gentle and explained manner in order to ease the understanding of the proofs. We conclude with several problems which remain open.",
+   "abs": "https://arxiv.org/abs/2611.03427",
+   "pdf": "https://arxiv.org/pdf/2611.03427"
+  },
+  {
+   "id": "2611.03515",
+   "type": "new",
+   "title": "The proof of the Harary--Hill conjecture: a detailed exposition and an extension to rotation systems",
+   "authors": [
+    "Gelasio Salazar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Harary--Hill conjecture states that the crossing number $\\ucr{K_n}$ of the complete graph $K_n$ is $Z(n):=\\frac{1}{4}\\lfloor\\frac{n}{2}\\rfloor\\lfloor\\frac{n-1}{2}\\rfloor\\lfloor\\frac{n-2}{2}\\rfloor\\lfloor\\frac{n-3}{2}\\rfloor$ for all $n\\ge 3$. In October 2026 OpenAI uploaded to GitHub a proof of this conjecture. The proof is very short, but it relies on polynomial methods that are not part of the standard techniques used by many combinatorialists, and it is written with very little motivation or explanation. Since we found the proof very hard to follow, we decided to write this paper, which contains a complete proof of the conjecture written for mathematicians who are more familiar with combinatorics than with polynomial methods. In fact we prove a more general result on rotation systems of $K_n$, from which the Harary--Hill conjecture easily follows. Namely, we show that for every rotation system $\\Pi$ of $K_n$ the number of $4$-vertex subsystems of $\\Pi$ realizable as drawings of $K_4$ with one crossing, plus three times the number of non-realizable $4$-vertex subsystems of $\\Pi$, is at least $Z(n)$. The statement and proof of our result are purely combinatorial and do not involve drawings at all.",
+   "abs": "https://arxiv.org/abs/2611.03515",
+   "pdf": "https://arxiv.org/pdf/2611.03515"
+  },
+  {
+   "id": "2611.02424",
+   "type": "cross",
+   "title": "Around the Clock. New Twists on Fitch Cheney's Five-Card Trick",
+   "authors": [
+    "Doron Levy",
+    "Yaakov Malinovsky"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "",
+   "abstract": "Fitch Cheney's five-card trick is one of the purest two-person effects in card magic, and it has attracted mathematicians for more than seventy five years. This article retells the effect and its classic method, surveys how far it can be pushed, and presents several new results that matter to performers. We give a version of Cheney's method that needs no fixed first suit and no fixed ``lowest card'': shifting every card one step in rank and one step in suit shifts the display in the same way. A heckler who may swap two neighboring cards of the display defeats every method with a full deck. We show that a 29-card deck is the largest for which such a swap can be corrected, and that the corresponding maximum is 14 cards if any two cards may be swapped. We give simple methods that achieve both bounds. Finally, we make Berlekamp's arithmetic method for the 124-card deck independent of where the numbering starts. We also describe a pocket version with eight cards.",
+   "abs": "https://arxiv.org/abs/2611.02424",
+   "pdf": "https://arxiv.org/pdf/2611.02424"
+  }
+ ],
+ "listed_new": 97,
+ "listed_cross": 58
 }
