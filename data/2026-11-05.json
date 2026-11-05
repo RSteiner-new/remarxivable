@@ -1,0 +1,567 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05T04:50:48Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 66,
+ "screened_new": 39,
+ "screened_cross": 27,
+ "scored": 66,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.05631",
+   "type": "new",
+   "title": "On Diameter Graphs Problems: A proof of Brass's Conjecture",
+   "authors": [
+    "Gyivan Lopez-Campos"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 4 figures",
+   "abstract": "The diameter graph of a finite set $S\\subset\\mathbb{R}^d$ has vertex set $S$ and two points are adjacent when their distance equals $\\operatorname{diam} S$. In this paper we study the following question: given $k$ and $d$, is there a constant $c=c(k,d)$ such that from every finite point set $S\\subset\\mathbb{R}^d$ one can remove at most $c$ points so that the subgraph of the diameter graph induced by the remaining points is $k$-colorable? Brass conjectured that such a constant exists for $d=3$ and $k=3$. We prove this conjecture by showing that at most one point needs to be removed. We also answer a question of Dol'nikov, showing that for every positive integer $m$, there exist a finite point set $S\\subset\\mathbb{R}^3$ in which every subset of smaller diameter has less than $(|S|-m)/2$ points.",
+   "abs": "https://arxiv.org/abs/2611.05631",
+   "pdf": "https://arxiv.org/pdf/2611.05631"
+  },
+  {
+   "id": "2611.06747",
+   "type": "cross",
+   "title": "Fixed-Radius Neighbourhoods in Three-Dimensional Unit-Cube Graphs",
+   "authors": [
+    "Guangjian Zhang"
+   ],
+   "categories": [
+    "cs.CG",
+    "math.CO"
+   ],
+   "primary": "cs.CG",
+   "comments": "30 pages",
+   "abstract": "We prove Conjecture 4 of Chan, Chang, Gao, Kisfaludi-Bak, Le, and Zheng (SoCG 2026): for every fixed integer $r\\ge0$, the radius-$r$ neighbourhoods of a unit-cube graph in $\\mathbb{R}^3$ have bounded VC-dimension. Our bound is $2^{2^{O(r)}}$, independent of the number of vertices. The main ingredient is a VC-dimension bound for reachability through arbitrary fixed-length sequences of three-dimensional generalized dominance relations. Its proof uses groups ordered in two coordinates, with neighbouring groups acting as barriers that preserve this invariant when one layer is removed. Combining these bounds with the existing interval-representation framework, we obtain a Las Vegas algorithm that, for every fixed integer $\\Delta\\ge1$, decides whether a graph given by $n$ cube centres has diameter at most $\\Delta$ in expected $O_\\Delta(n^{2-\\varepsilon_\\Delta})$ time, for an explicit constant $\\varepsilon_\\Delta>0$. Finally, for every integer $r\\ge7$, we construct unit-cube graphs with rational centres whose radius-$r$ neighbourhoods have VC-dimension $\\Omega(r^3)$.",
+   "abs": "https://arxiv.org/abs/2611.06747",
+   "pdf": "https://arxiv.org/pdf/2611.06747"
+  },
+  {
+   "id": "2611.06362",
+   "type": "new",
+   "title": "Four-colour counterexamples for monochromatic path partitions",
+   "authors": [
+    "Zhen Liu",
+    "Chuanshu Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In 1989, Gyárfás conjectured that the vertex set of every $r$-edge-coloured complete graph can be partitioned into at most $r$ monochromatic paths. The case $r=2$ follows from a theorem of Gerencsér and Gyárfás, and Pokrovskiy proved the conjecture for $r=3$. Recently, Li and Wang disproved the conjecture for all sufficiently large $r$, leaving open the smallest number of colours for which it fails. We show that this number is four. For every integer $n\\geq118$, we construct a four-edge-colouring of $K_n$ in which every monochromatic path partition contains at least five paths. We also construct, for every integer $n\\geq60$, a four-edge-colouring of $K_{n,n}$ in which every monochromatic path partition contains at least eight paths, disproving Pokrovskiy's conjectured bound $2r-1$ for balanced complete bipartite graphs when $r=4$.",
+   "abs": "https://arxiv.org/abs/2611.06362",
+   "pdf": "https://arxiv.org/pdf/2611.06362"
+  },
+  {
+   "id": "2611.05430",
+   "type": "cross",
+   "title": "On the most informative Boolean function under noise",
+   "authors": [
+    "Dimiter Kramer",
+    "Mert Saglam"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "17 pages, 2 figures",
+   "abstract": "Let $X$ be a uniform random bit string and $Y$ be obtained by flipping each bit of $X$ independently with probability $p$. Let $C$ be a random bit obtained as a function of $Y$. We show that $\\mathbf{I}(C:X)\\le \\mathbf{I}(Y_1:X)$ for all $p\\in[0,1]$, which resolves a conjecture posed by Courtade and Kumar in 2013.",
+   "abs": "https://arxiv.org/abs/2611.05430",
+   "pdf": "https://arxiv.org/pdf/2611.05430"
+  },
+  {
+   "id": "2611.06757",
+   "type": "new",
+   "title": "Proof of two conjectures on the log-concavity of partition ranks and cranks",
+   "authors": [
+    "Jianxi Mao",
+    "Wenle Shi",
+    "Bao-Xuan Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $M(m,n)$ and $N(m,n)$ denote the numbers of partitions of $n$ with crank $m$ and rank $m$, respectively. Ji and Zang proved that the crank sequence $(M(m,n))_{|m|\\le n-1}$ is unimodal for every $n\\ge44$. Bringmann, Man, and Rolen subsequently established the unimodality of the rank sequence $(N(m,n))_{|m|\\le n-2}$ for every $n\\ge39$. Ji and Zang also conjectured that $(M(m,n))_{|m|\\le n-71}$ is log-concave for every $n\\ge72$, and that $(N(m,n))_{|m|\\le n-72}$ is log-concave for every $n\\ge73$. In this paper, we prove both conjectures.",
+   "abs": "https://arxiv.org/abs/2611.06757",
+   "pdf": "https://arxiv.org/pdf/2611.06757"
+  },
+  {
+   "id": "2611.06470",
+   "type": "new",
+   "title": "How many sorted projections determine n points in k dimensions?",
+   "authors": [
+    "Christopher Gorham Lester",
+    "Raymond Hau Sørensen"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.IT",
+    "cs.LG"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages, 5 figures",
+   "abstract": "Let $d_1,\\dots,d_m$ be directions in $\\mathbb{R}^k$, where $k\\ge 2$. A multiset $X$ of $n$ points of $\\mathbb{R}^k$ projects to the $m$ multisets of numbers $\\{\\{x\\cdot d_j : x\\in X\\}\\}$, or equivalently to the $m$ sorted lists of these numbers. How many directions are needed for these projections to determine every multiset of $n$ points? Two simple bounds are known in every dimension: more than $(k-1)\\log_2 n$ directions are always needed, and $(k-1)n+1$ directions in general position always suffice. In the plane much more is known: Matousek, Privetivy and Skovron showed that almost every choice of $O(\\log n \\log\\log n)$ directions suffices. Whether anything similar holds in higher dimensions was left open by Dym, Wellershoff, Tsoukanis, Levy and Balan. We observe that two lemmas of Hair and Sahai, proved for list recovery of random linear codes, answer that question, and by tightening their argument we show that in every dimension almost every choice of $(4k-2)\\ln(2n)\\ln(k\\log_2 2n)+k+1$ directions suffices. For $k\\le 10$ this beats the linear bound once $n$ is larger than about 100: for example, 144 directions suffice for multisets of 1000 points in the plane, and an exact computation lowers this to 133. Letting some of the random blocks in their argument fail removes a factor $\\log k$: almost every choice of $O(k\\log n\\log\\log n)$ directions suffices, uniformly in $k$ and $n$. We also show that $2k-1$ directions never determine three points, so that the logarithmic lower bound is not tight; that every $m$ directions in the plane fail on some pair of multisets of size $O(1.78^m)$, improving the bound $O(1.80^m)$ of Matousek, Privetivy and Skovron; and that for each $k$, $m$ and $n$, either almost every choice of $m$ directions works or almost none does.",
+   "abs": "https://arxiv.org/abs/2611.06470",
+   "pdf": "https://arxiv.org/pdf/2611.06470"
+  },
+  {
+   "id": "2611.06744",
+   "type": "new",
+   "title": "A family of symmetric counterexamples to the bent sum decomposition conjecture",
+   "authors": [
+    "Máté Róbert Kepes",
+    "Anita Kercsó-Molnár",
+    "Viczián András"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "In this paper, we provide an infinite family of counterexamples to Tokareva's conjecture on sums of two bent functions. The conjecture states that every Boolean function in an even number of variables $n$ of algebraic degree at most $n/2$ can be written as the sum of two bent functions. We show that for every $n=2^k\\geq 8$, the symmetric function $F_n=1+\\sigma_2+\\sigma_4+\\sigma_6+\\cdots+\\sigma_{n/2}$ has degree $n/2$ and cannot be written as a sum of at most two bent functions. Here $\\sigma_j$ is the elementary symmetric Boolean polynomial of degree $j$. Furthermore, we show that the eight-variable member of this family can be represented as the sum of exactly three bent functions. Using the connection between bent-sum decompositions and derivatives of bent functions, we also obtain an infinite family of balanced Boolean functions that cannot be derivatives of bent functions.",
+   "abs": "https://arxiv.org/abs/2611.06744",
+   "pdf": "https://arxiv.org/pdf/2611.06744"
+  },
+  {
+   "id": "2611.05421",
+   "type": "cross",
+   "title": "Isosceles sets in Euclidean spaces of dimension nine to twenty-two",
+   "authors": [
+    "Hyunjun Yi"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "15 pages, 1 table",
+   "abstract": "A finite set of points in $\\mathbb{R}^d$ is isosceles if every three of its points form an isosceles triangle. Erdős asked in 1946 for the largest size $\\mathrm{iso}(d)$ of an isosceles set in $\\mathbb{R}^d$. The answer was known for $d\\le 8$, the last cases being due to Ionin. We prove that $\\mathrm{iso}(d)=\\binom{d+1}{2}+1$ for $9\\le d\\le 21$ and $\\mathrm{iso}(22)=276$, and that the extremal set is unique: for $d\\le21$ it is the set of midpoints of the edges of a regular simplex together with its centroid, and for $d=22$ it is the McLaughlin configuration together with its centre. For $10\\le d\\le22$ every isosceles set with more than $\\binom d2+3$ points is a two-distance set or a spherical two-distance set together with its centre, and the number $\\binom d2+3$ is attained. The proof combines Blokhuis' decomposition of isosceles sets into mutually orthogonal two-distance sets, for which we give a short self-contained proof (the key step is a special case of Gallai's theorem on edge colourings without rainbow triangles), with the recent determination of the maximum two-distance sets in $\\mathbb{R}^d$ for $9\\le d\\le22$ and with the known maximum sizes of spherical two-distance sets. In dimension nine this gives only $\\mathrm{iso}(9)\\le47$, and the exact value $46$ requires an additional argument about eight-dimensional two-distance sets with at least $44$ points. We also show that $\\mathrm{iso}(23)=\\max\\{g(23),278\\}$, where $g(23)$ is the largest size of a two-distance set in $\\mathbb{R}^{23}$, so that $278\\le\\mathrm{iso}(23)\\le575$.",
+   "abs": "https://arxiv.org/abs/2611.05421",
+   "pdf": "https://arxiv.org/pdf/2611.05421"
+  },
+  {
+   "id": "2611.06081",
+   "type": "new",
+   "title": "On the Cameron-Praeger conjecture for Steiner 6-designs",
+   "authors": [
+    "Ximin Wang",
+    "Zheng Huang",
+    "Weijun Liu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A long-standing and far-reaching conjecture of Cameron and Praeger (1993) asserts that no non-trivial block-transitive $6$-$(v,k,\\lambda)$ designs exist. Huber (2010) reduced the Steiner case ($\\lambda=1$) to a single infinite family of possible exceptions, where the automorphism group is $G=\\PGaL(2,p^e)$ acting on the points of the projective line, with $p\\in\\{2,3\\}$ and $e$ an odd prime power. In this paper, we resolve this final case. By combining orbit-stabiliser analysis for the action of specific involutions in $\\PGaL(2,p^e)$ with the modular arithmetic constraints derived from the design parameters, we prove that no such Steiner 6-designs can exist for any admissible $q$. This completes the proof that the Cameron-Praeger conjecture is true for the important case of non-trivial Steiner 6-designs.",
+   "abs": "https://arxiv.org/abs/2611.06081",
+   "pdf": "https://arxiv.org/pdf/2611.06081"
+  },
+  {
+   "id": "2611.05568",
+   "type": "new",
+   "title": "Non-redundant Independence Atoms",
+   "authors": [
+    "Attila Sali",
+    "Jun Yan"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DB"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Independence atom is a key concept in relational database theory. In the present paper, we prove that the maximum possible size of a non-redundant set of independence atoms on $n$ attributes is asymptotically $(1+o(1))\\binom{n}{\\floor{n/2}}$. It turns out that this problem is closely related to two extremal set theory problems, the Katona-Tarján question on ``V''-free families of subsets of $[n]$ for the lower bound, and Kleitman's bound on union-free families for the upper bound.",
+   "abs": "https://arxiv.org/abs/2611.05568",
+   "pdf": "https://arxiv.org/pdf/2611.05568"
+  },
+  {
+   "id": "2611.05423",
+   "type": "new",
+   "title": "The Borodin--Kostochka inequality from degree 750",
+   "authors": [
+    "Lizhong Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "55 pages: 24 pages of main text and references; 31 pages of appendices",
+   "abstract": "We prove that every finite simple graph $G$ with maximum degree at least $750$ satisfies $\\chi(G)\\le\\max\\{\\omega(G),\\Delta(G)-1\\}$. The proof starts with a random partial colouring and completes it on large cliques using a list-colouring condition that remains valid as the rest of the graph is coloured. Disjoint stars provide the required colours. We estimate the number of stars that can be chosen after the clique colours have been exposed, while keeping their endpoint set fixed. A common exponential-moment argument reduces intervals of packing sizes to endpoint comparisons. More detailed neighbourhood estimates handle the remaining vertices. The final probability inequalities are verified by directed rational and interval arithmetic.",
+   "abs": "https://arxiv.org/abs/2611.05423",
+   "pdf": "https://arxiv.org/pdf/2611.05423"
+  },
+  {
+   "id": "2611.06269",
+   "type": "new",
+   "title": "Small 5-chromatic unit-distance graphs in disks of radius 3/2, 5/4 and 23/20",
+   "authors": [
+    "Chandan Shukla"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 4 figures; ancillary files contain the graphs, 5-colourings and an exact verification script",
+   "abstract": "We give three explicit unit-distance graphs in the plane with chromatic number 5 whose vertices lie in small disks: a graph with 773 vertices inside an open disk of radius 3/2, one with 5713 vertices inside an open disk of radius 5/4, and one with 8168 vertices inside an open disk of radius 23/20. The smallest examples previously reported for these radii have 11725, 11725 and 31171 vertices. All coordinates are exact elements of Q(sqrt3, sqrt5, sqrt11). In each case 5-chromaticity is certified by an explicit 5-colouring and a DRAT proof that no 4-colouring exists. The 773-vertex graph is vertex-critical.",
+   "abs": "https://arxiv.org/abs/2611.06269",
+   "pdf": "https://arxiv.org/pdf/2611.06269"
+  },
+  {
+   "id": "2611.06886",
+   "type": "new",
+   "title": "Off-Diagonal Induced Ramsey Numbers",
+   "authors": [
+    "Bruno Andrades",
+    "Marcelo Campos",
+    "Rafael Filipe",
+    "Anastasiia Kats"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "Given graphs $F$ and $H$, the induced Ramsey number $r_{\\mathrm{ind}}(F,H)$ is the smallest integer $n$ for which there exists a graph $G$ on $n$ vertices such that every red-blue colouring of $E(G)$ contains either a blue induced copy of $F$ or a red induced copy of $H$. A conjecture of Kohayakawa, Prömel and Rödl asserts that, for every fixed graph $F$, this number is polynomial in $v(H)$. We prove this conjecture, showing that there is an absolute constant $C > 0$ such that $$r_{\\mathrm{ind}}(F,H) \\leq v(H)^{Cv(F)^2}$$ for all graphs $F$ and $H$. The proof combines a variant of a random geometric construction of Kohayakawa, Prömel and Rödl with the hypergraph container method.",
+   "abs": "https://arxiv.org/abs/2611.06886",
+   "pdf": "https://arxiv.org/pdf/2611.06886"
+  },
+  {
+   "id": "2611.06017",
+   "type": "new",
+   "title": "Finiteness of Non-decomposable Critically Frustrated Signed Graphs",
+   "authors": [
+    "Zhiqian Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A signed graph $(G,\\sigma)$ is a graph $G$ with a signature $\\sigma$ labeling each edge with a positive or negative sign. Two signatures of $G$ are switching equivalent if one is obtained from the other by sequentially changing the signs of all edges in an edge-cut. The frustration index of a signed graph $(G, \\sigma)$ is the minimum number of negative edges among all signatures switching equivalent to $\\sigma$. A signed graph is critically $k$-frustrated if it has frustration index $k$, and the removal of any edge decreases its frustration index. A critically $k$-frustrated signed graph is prime if it is irreducible and contains no two edge-disjoint negative cycles. Steffen and Naserasr et al. asked if there are only finitely many prime critically $k$-frustrated signed graphs for any positive integer $k$. The cases $k\\leq 3$ were proved to be true by Cappello et al., and later, the cases $k=4$ and $5$ were verified by Z. Wang. In this paper, the author proves the conjecture by a topological argument.",
+   "abs": "https://arxiv.org/abs/2611.06017",
+   "pdf": "https://arxiv.org/pdf/2611.06017"
+  },
+  {
+   "id": "2611.06310",
+   "type": "new",
+   "title": "Hamiltonicity and cycle factors in k-quasi-transitive digraphs of large diameter",
+   "authors": [
+    "Hao Zhang",
+    "Panpan Cheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A digraph is $k$-quasi-transitive if the endpoints of every directed path of length $k$ are adjacent. In this paper, we prove that every strong non-bipartite $k$-quasi-transitive digraph of diameter at least $k+2$ is Hamiltonian when $k\\ge7$ is odd. Moreover, combined with the known even case, for $k\\ge6$, we also prove that a strong bipartite $k$-quasi-transitive digraph of diameter at least $k+2$ is Hamiltonian if and only if it has a cycle factor. These answer two problems posed by Alva-Samos and Hernández-Cruz affirmatively [Journal of Graph Theory \\textbf{96} (2021) 310--325].",
+   "abs": "https://arxiv.org/abs/2611.06310",
+   "pdf": "https://arxiv.org/pdf/2611.06310"
+  },
+  {
+   "id": "2611.05634",
+   "type": "new",
+   "title": "Linear-length cycles in the supercritical percolated hypercube",
+   "authors": [
+    "Michael Anastos"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $Q_p^d$ be the random subgraph of the $d$-dimensional binary hypercube obtained by retaining each edge independently with probability $p$. A long-standing folklore conjecture states that the emergence of the giant component in $Q_p^d$, at $p\\approx 1/d$, is accompanied by the emergence of cycles of linear length. We confirm this conjecture and determine the order of the longest cycle near the phase transition. Specifically, for every sufficiently small constant $\\varepsilon>0$, we show that if $p=(1+\\varepsilon)/d$, then with high probability the longest cycle of $Q_p^d$ has length $\\Theta(\\varepsilon^2 2^d)$. The dependence on $\\varepsilon$ is optimal up to constant factors.",
+   "abs": "https://arxiv.org/abs/2611.05634",
+   "pdf": "https://arxiv.org/pdf/2611.05634"
+  },
+  {
+   "id": "2611.06845",
+   "type": "cross",
+   "title": "Matching Random Point Sets with Minimum Distortion",
+   "authors": [
+    "Itai Benjamini",
+    "Mark Braverman",
+    "Elad Tzalik",
+    "Georgii Zakharov"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.PR",
+   "comments": "47 pages, 9 figures. Includes a six-page technical overview explaining the main ideas and proof techniques",
+   "abstract": "How well can two independent random samples from a metric measure space be matched while preserving pairwise distances? Concretely, given two independent copies, each of $n$ points sampled from the space, what is their typical metric distortion as finite $n$-point metric spaces? We prove that the space $[0,1]$ equipped with the uniform measure already exhibits a rich behavior. We show that with high probability the distortion of the two independent samples is $n^{2/3}$ up to polylogarithmic factors. The lower bound reflects two competing obstructions. A bijection that maps points close to their original positions or their reflections in $[0,1]$ must expand the smallest gaps, in both directions. On the other hand, we show that large displacement from both the identity and reflection itself forces large distortion. Balancing these obstructions yields the lower-bound exponent $2/3$. For the upper bound, we construct a partial matching of the points that maps each gap between consecutive points of length $d\\lesssim n^{-4/3}$ to a pair at distance $\\widetilde{O}(dn^{1/3})$, with analogous control in the reverse direction. We then use a delicate multiscale oscillation construction to extend this partial matching to a low-distortion bijection.",
+   "abs": "https://arxiv.org/abs/2611.06845",
+   "pdf": "https://arxiv.org/pdf/2611.06845"
+  },
+  {
+   "id": "2611.06804",
+   "type": "cross",
+   "title": "Monadically Dependent Graph Classes Have Almost Bounded Merge-Width",
+   "authors": [
+    "Jan Dreier",
+    "Nikolas Mählmann",
+    "Michał Pilipczuk",
+    "Szymon Toruńczyk"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "cs.LO",
+    "math.CO",
+    "math.LO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "A graph class $\\mathcal{C}$ is monadically dependent if one cannot interpret all graphs in vertex-colored graphs from $\\mathcal{C}$ using a fixed formula of first-order logic. We prove that every monadically dependent graph class has almost bounded merge-width, thereby confirming a conjecture of the first and the last author [STOC '25]. Our proof is algorithmic and the witnessing decompositions in the form of merge sequences can be computed in nearly-cubic time. This is a step towards the proof of fixed-parameter tractability of model checking first-order logic on monadically dependent graph classes, which is achieved in a companion paper.",
+   "abs": "https://arxiv.org/abs/2611.06804",
+   "pdf": "https://arxiv.org/pdf/2611.06804"
+  },
+  {
+   "id": "2611.06857",
+   "type": "cross",
+   "title": "Deterministic Fault-Tolerant Connectivity Oracles with Subquadratic Space",
+   "authors": [
+    "Merav Parter",
+    "Elad Tzalik"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "A fault-tolerant (FT) connectivity oracle for an $n$-vertex graph $G=(V,E)$ determines whether $G- F$ is connected for any query set $F\\subseteq E$. When the number of failures is unrestricted, prior constructions exhibited a sharp contrast between randomization and determinism: randomized oracles use only $\\widetilde{O}(n)$ space [Duan and Pettie, SICOMP 2020], whereas no deterministic construction was known to improve upon storing $G$ explicitly, requiring $\\Theta(n^2)$ bits in the worst case. The promise that $F\\subseteq E$ is essential for subquadratic space: allowing arbitrary queries $F\\subseteq V\\times V$ forces quadratic space. For queries containing at most $f$ failures, Khanna, Konrad, and Putterman [SODA 2027] recently constructed deterministic oracles using $\\widetilde{O}(\\sqrt{f}n)$ space that also report approximate distances with polylogarithmic stretch. Their result improves upon the classical $O(fn)$ space bound for deterministic connectivity oracles [Pătraşcu and Thorup, FOCS 2007], but offers no space savings over storing $G$ when $f=\\Theta(n^2)$. We present the first deterministic connectivity oracles with subquadratic space for failure sets of unrestricted size, using $\\widetilde{O}(n^{7/4})$ space. We also establish the first polynomial separation between deterministic and randomized connectivity oracles, proving that every deterministic oracle requires $\\widetilde{\\Omega}(n^{3/2})$ bits in the worst case. For queries containing at most $f$ failures, we obtain deterministic connectivity oracles using $\\widetilde{O}(f^{2/5}n)$ space, improving the dependence on $f$ in the bound of Khanna et al., and prove a lower bound of $\\widetilde{\\Omega}(f^{1/4}n)$ bits.",
+   "abs": "https://arxiv.org/abs/2611.06857",
+   "pdf": "https://arxiv.org/pdf/2611.06857"
+  },
+  {
+   "id": "2611.06860",
+   "type": "new",
+   "title": "Largest Sperner families with bounded VC-dimension",
+   "authors": [
+    "Gennian Ge",
+    "Hanyu Wang",
+    "Zixiang Xu",
+    "Yixuan Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "A conjecture of Frankl proposed in the 1980s states that for $n\\ge2d$, every Sperner family $\\mathcal{F}\\subseteq 2^{[n]}$ of VC-dimension at most $d$ has at most $\\binom{n}{d}$ members. We prove this conjecture for every fixed $d$ and large $n$, and show that equality holds only when $\\mathcal{F}$ is $\\binom{[n]}{d}$ or $\\binom{[n]}{n-d}$.",
+   "abs": "https://arxiv.org/abs/2611.06860",
+   "pdf": "https://arxiv.org/pdf/2611.06860"
+  },
+  {
+   "id": "2611.06604",
+   "type": "cross",
+   "title": "A Sub-$3^n$ Upper Bound on the Number of Stable Matchings",
+   "authors": [
+    "Ken-ichi Kawarabayashi",
+    "Hikaru Wada",
+    "Masataka Yoneda"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "56 pages, 12 figures",
+   "abstract": "We study the problem of determining the maximum number of stable matchings. This classical counting problem was posed by Knuth and has been studied for five decades. We obtain a new $2.999^n$ upper bound on the number of stable matchings with $n$ men and $n$ women. This improves the best-known previous result by Palmer and Pálvölgyi. This result gets much closer to the well-known lower bound $\\frac{2.28^n}{\\text{poly}(n)}$. We refine their entropy-based framework by capturing broader structural relationships among stable matchings. To capture these relationships, we introduce new frameworks, including cones and supports. This establishes the $3.332^n$ bound. We also exploit relationships among local structures and use a charging argument to improve the bound to $2.999^n$.",
+   "abs": "https://arxiv.org/abs/2611.06604",
+   "pdf": "https://arxiv.org/pdf/2611.06604"
+  },
+  {
+   "id": "2611.06753",
+   "type": "new",
+   "title": "The Exact Number of Pentagons in Book-Free Graphs",
+   "authors": [
+    "Wentao Hu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "Let $B_k$ denote the book consisting of $k$ triangles sharing a common edge. We prove that there exist absolute constants $\\rho>0$ and $N$ such that, for every pair of integers $n,k$ with $n\\ge N$ and $2\\le k\\le \\rho n$, writing $n=5q+r$ with $0\\le r<5$, \\[ \\operatorname{ex}(n,C_5,B_k)=q^{\\,5-r}(q+1)^r, \\] with the balanced complete $C_5$-blow-ups as the only extremal graphs. The linear order of this range is best possible since for all sufficiently large $n$, the formula fails whenever $k\\ge0.14n$.",
+   "abs": "https://arxiv.org/abs/2611.06753",
+   "pdf": "https://arxiv.org/pdf/2611.06753"
+  },
+  {
+   "id": "2611.06917",
+   "type": "cross",
+   "title": "Using topology to reveal all mutually unbiased bases in dimension six",
+   "authors": [
+    "Mateo Cárdenes Wuttig",
+    "Joseph Tindall"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists. Here we use the topology of the space of complex Hadamard matrices, which describe transitions between MUBs, to characterize all sets in dimension six. We prove that every mutually unbiased triple belongs to a two-parameter family or is a single isolated triple built from the Fourier matrix. Since none of them extend to a fourth basis, this also proves that no four MUBs exist. Our proof rests on a new topological result that all order-six complex Hadamard matrices except Tao's form a connected space. Connectedness reduces the classification of triples to finitely many overlapping four-dimensional phase balls. We certify with interval arithmetic that these balls cover the space and for every pair of MUBs represented in a ball, we then determine all third bases that extend it. Dimension six is now the first non-prime-power dimension in which all sets of MUBs are classified.",
+   "abs": "https://arxiv.org/abs/2611.06917",
+   "pdf": "https://arxiv.org/pdf/2611.06917"
+  },
+  {
+   "id": "2610.29898",
+   "type": "cross",
+   "title": "A Sharp Dynamic Haussler Lemma",
+   "authors": [
+    "Shihao Shao",
+    "Dacheng Tao"
+   ],
+   "categories": [
+    "cs.LG",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.LG",
+   "comments": "53 pages. Sharp asymptotic bounds unchanged. Strengthened fixed-class lower-bound construction, expanded technical overview, and clarified proofs",
+   "abstract": "Haussler's covering lemma (JCTA 1995) gives the sharp $(C/\\delta)^d$ metric-entropy bound for binary VC classes under normalized $\\ell_1$ distance. We prove a sharp global dynamic analogue for bounded real-valued classes in normalized $\\ell_p$, for every $1\\le p<\\infty$. Writing $d=\\operatorname{sfat}_{\\varepsilon/32}(\\mathcal F)$, we obtain a global dynamic cover of size at most $(C/\\varepsilon^p)^d$ for every horizon and $0<\\varepsilon<1/2$. Here a single family of deterministic causal experts, fixed independently of the instance sequence, covers every target on every sequence. For $0<\\varepsilon<1/4$, a matching worst-case lower bound $(c/\\varepsilon)^{pd}$ holds already for binary classes on one fixed sequence, even with real-valued experts. The constants are universal, independent of $p$. For $p=2$, this resolves the horizon-independent sequential $\\ell_2$ covering problem of Rakhlin, Sridharan, and Tewari (PTRF 2015) in a stronger global form. For $p=1$, it gives the sharp $(C/\\delta)^{\\operatorname{Ldim}(\\mathcal H)}$ global dynamic covering bound for binary classes, resolving questions of Alon, Ben-Eliezer, Dagan, Moran, Naor, and Yogev (STOC 2021) and Malliaris and Moran (Trans. AMS 2024). Our proof combines rank-decreasing correction schedules and accurate sampled prefixes with exact continuations after target identification. Shared-parent routing distributes these continuations among eligible prefixes, eliminating the logarithmic overhead.",
+   "abs": "https://arxiv.org/abs/2610.29898",
+   "pdf": "https://arxiv.org/pdf/2610.29898"
+  },
+  {
+   "id": "2611.06494",
+   "type": "cross",
+   "title": "A $2.81^n$ upper bound on the number of stable matchings",
+   "authors": [
+    "Ebrahim Ghorbani",
+    "Matthias Mnich"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We study the maximum number ${\\rm SM}(n)$ of stable matchings in an instance with $n$ men and $n$ women. Karlin, Oveis Gharan, and Weber (STOC 2018) proved the first single-exponential upper bound; their argument gives ${\\rm SM}(n)\\le 2^{17n}$ for sufficiently large $n$. Palmer and Pálvölgyi (FOCS 2021) improved this bound to $3.55^n+O(1)$. We prove that ${\\rm SM}(n)<2.81^n$. This brings the exponential base closer to $2.28$, the base of the best known lower bound. More precisely, we bound the number of stable matchings in each instance in terms of each person's number of stable partners, where a stable partner is someone matched to that person in at least one stable matching. Our proof assigns each person a weight determined by this number and uses these weights to bound the number of stable matchings by induction.",
+   "abs": "https://arxiv.org/abs/2611.06494",
+   "pdf": "https://arxiv.org/pdf/2611.06494"
+  },
+  {
+   "id": "2611.06250",
+   "type": "cross",
+   "title": "A Polynomial Erdős-Pósa bound for Eulerian digraphs",
+   "authors": [
+    "Esther Galby",
+    "Roohani Sharma",
+    "Bart van der Steenhoven"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "In [Combinatorica 1996], Reed, Robertson, Seymour and Thomas proved Younger's conjecture dating back to 1973 that states that directed cycles have the Erdős-Pósa property. Specifically, they showed that every directed graph $D$ contains either $k$ arc-disjoint cycles or a set of at most $f(k)$ arcs that intersect every directed cycle. The function $f$, depending only on $k$, is however notoriously large--in fact, not even elementary. The first improvement on this function was only very recently provided by Hatzel, Kreutzer, Milani, and Muzi [FOCS 2024] who showed that $f$ can be taken to be an exponential tower of height $8$. In this work, we improve this function to $O(k^4)$ in the case where the digraph is Eulerian. This also answers an open question by Wahlström [Springer Monographs in Mathematics 2018] who asked explicitly when Eulerian digraphs have a polynomial Erdős-Pósa property. The only other known result about Erdős-Pósa on Eulerian digraphs is a result from Seymour [Combinatorica 1996] who showed that $f(k)=k$ when the Eulerian digraph admits a linkless embedding in 3-space, and such an equality is not possible for general Eulerian digraphs. We also complement our positive result, by showing that the result of Seymour cannot be extended to give a linear bound ($O(k)$) on general Eulerian digraphs, by showing that even on Eulerian digraphs the lower bound for the Erdős-Pósa property is $\\Omega(k \\log k)$.",
+   "abs": "https://arxiv.org/abs/2611.06250",
+   "pdf": "https://arxiv.org/pdf/2611.06250"
+  },
+  {
+   "id": "2611.06468",
+   "type": "new",
+   "title": "Cycles in Regular Multipartite Tournaments",
+   "authors": [
+    "Yufei Chang",
+    "Zhilan Wang",
+    "Shuo Wei",
+    "Jin Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16pages",
+   "abstract": "We study balanced cycles in regular multipartite tournaments. A cycle in a $c$-partite tournament is $k$-balanced if it contains exactly $k$ vertices from each partite class. We prove that there exists an absolute integer $r_0$ such that every regular $c$-partite tournament with each partite class size of $r\\ge r_0$ contains a $k$-balanced cycle for every $1\\le k\\le r$ when $c=3$ or $c\\ge5$, and for every $2\\le k\\le r$ when $c=4$. In particular, our result confirms three conjectures of Volkmann and Winzen for large regular multipartite tournaments. We also confirm Yeo's conjecture on the existence of $(p,q)$-cycle factors for large regular $c$-partite tournaments $G$ with $c\\ge4$, where a $(p,q)$-cycle factor is a pair of vertex-disjoint cycles of lengths $p$ and $q$ spanning $G$.",
+   "abs": "https://arxiv.org/abs/2611.06468",
+   "pdf": "https://arxiv.org/pdf/2611.06468"
+  },
+  {
+   "id": "2611.06776",
+   "type": "cross",
+   "title": "Finding full immersions is fixed-parameter tractable in labeled tour graphs",
+   "authors": [
+    "Hadas Barabash",
+    "Jim Geelen",
+    "Rose McCarty",
+    "Caleb McFarland",
+    "Paul Wollan"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We give an $O_H(n^5)$-time algorithm to test whether an $n$-vertex labeled tour graph has a full immersion isomorphic to a labeled tour graph $H$. A labeled tour graph is a connected $4$-regular graph whose edges are labeled by binary vectors of fixed length. To obtain a full immersion, a vertex may be removed only by pairing up its four incident edges and \"splitting off\" both pairs, summing the labels within each pair. Even for one-bit labels, no polynomial-time algorithm was previously known for arbitrary fixed $H$. Our main tool is of independent interest: we give an algorithmic min-max theorem that, in particular, characterizes the maximum number of odd-length circuits in a rooted circuit decomposition of an Eulerian graph. Our results have implications for vertex-minors, whose study is motivated by applications in quantum networking, connections with graph minor theory, and the goal of developing an irrelevant vertex technique for dense graphs. For vertex-minors, circle graphs play the same role as planar graphs do for graph minors. As a corollary of our main theorem, we obtain a fixed-parameter tractable algorithm for apex-vertex-minor testing in $k$-apex circle graphs. We also prove an irrelevant vertex theorem for such graphs of large rank-width. More broadly, our results are essential to forthcoming work of three of the authors proving a structure theorem for graphs with a forbidden vertex-minor. There, our min-max theorem plays the role of both the algorithmic $A$-paths and Two Paths Theorems.",
+   "abs": "https://arxiv.org/abs/2611.06776",
+   "pdf": "https://arxiv.org/pdf/2611.06776"
+  },
+  {
+   "id": "2611.05622",
+   "type": "new",
+   "title": "Almost All 3-uniform Hypergraphs are Class 1",
+   "authors": [
+    "Arnab Chaterjee",
+    "Asaf Ferber",
+    "Marcelo Sales",
+    "Mason Shurman"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The chromatic index $\\chi'(H)$ of a hypergraph $H$ is the smallest number of colors needed to color its edges so that no two adjacent edges share the same color. The chromatic index is trivially bounded below by the maximum degree $\\Delta(H)$, and when $\\chi'(H)= \\Delta(H)$, we say that $H$ is Class 1. It is well known that almost every 2-graph is Class 1, and we extend this result to 3-graphs. We show for $n^{-2/3-1/200}\\leq p \\leq 0.99$ that the $3$-uniform binomial random hypergraph $H\\sim H_{n,p}^{(3)}$ is Class 1 with high probability. We also show that this result doesn't hold for uniformities above $3$. For a broad range of $p$, when $k \\geq 4$ and $k \\nmid n$, the hypergraph $H \\sim H_{n,p}^{(k)}$ is with high probability not Class 1.",
+   "abs": "https://arxiv.org/abs/2611.05622",
+   "pdf": "https://arxiv.org/pdf/2611.05622"
+  },
+  {
+   "id": "2611.06699",
+   "type": "new",
+   "title": "Polylogarithmic bound for the Gyárfás-Sumner conjecture",
+   "authors": [
+    "Martin Bierbaumer",
+    "Matija Bucić"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The classical Gyárfás-Sumner conjecture asserts that for any fixed forest $F$, any graph $G$ not containing $F$ as an induced subgraph, with bounded clique number $\\omega(G)$, has bounded chromatic number $\\chi(G)$. Recently, Nguyen, Scott, and Seymour proved that every such graph has chromatic number at most $|G|^{o(1)}$. We improve this bound to a polylogarithmic one $(\\log |G|)^{O(1)}$.",
+   "abs": "https://arxiv.org/abs/2611.06699",
+   "pdf": "https://arxiv.org/pdf/2611.06699"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 39,
+ "listed_cross": 27
+}
