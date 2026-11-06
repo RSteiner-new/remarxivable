@@ -1,0 +1,593 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T04:59:34Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 62,
+ "screened_new": 46,
+ "screened_cross": 16,
+ "scored": 62,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.07118",
+   "type": "new",
+   "title": "Perfect Partitions of Regular Bipartite Graphs",
+   "authors": [
+    "Melanie J. Ferreri",
+    "Archana L. Parameswaran",
+    "Gexin Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $I_{n,n}$ be a fixed perfect matching of the complete bipartite graph $K_{n,n}$, and let $L_{n,1}=K_{n,n}-I_{n,n}$. A perfect set of $L_{n,1}$ is a $1$-factorization of $L_{n,1}$, that is, a set of $n-1$ pairwise edge-disjoint perfect matchings whose union is $E(L_{n,1})$; a perfect partition of $L_{n,1}$ is a partition of the set of all perfect matchings of $L_{n,1}$ into perfect sets. Brualdi, Chiang, and Li (2005) asked whether $L_{n,1}$ admits a perfect partition. Identifying both sides of the bipartition with $[n]=\\{1,2,\\ldots ,n\\}$, the perfect matchings of $L_{n,1}$ are exactly the derangements of $[n]$, the perfect sets correspond bijectively to the reduced Latin squares of order $n$, and the perfect partitions are exactly the perfect matchings of the $(n-1)$-uniform hypergraph whose vertices are the derangements of $[n]$ and whose edges are the perfect sets. We first give, for every $n$, a constructive lower bound on the maximum number of pairwise disjoint perfect sets of $L_{n,1}$. We then show that $L_{5,1}$ has exactly $42$ distinct perfect partitions and that $L_{6,1}$ has at least $82$ distinct perfect partitions; these are the first examples demonstrating that perfect partitions need not be unique. Finally, we exhibit two distinct perfect partitions of $L_{7,1}$, resolving the $n=7$ open problem raised by Brualdi et al.",
+   "abs": "https://arxiv.org/abs/2611.07118",
+   "pdf": "https://arxiv.org/pdf/2611.07118"
+  },
+  {
+   "id": "2611.07908",
+   "type": "new",
+   "title": "The parity of the number of missing integers in partitions",
+   "authors": [
+    "Julia Q.D. Du",
+    "Gurinder Singh"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "34 pages",
+   "abstract": "Missing integers in partitions have been studied by many authors. A missing integer of a partition is a positive integer smaller than its largest part that does not occur as a part. We investigate parity biases for the number of missing integers in partitions and overpartitions. For every integer $c\\ge2$, we prove that the coefficients $a_c(n)$ of $(-cq;q)_\\infty/(-q;q)_\\infty$ are eventually strictly positive and provide an effectively computable threshold. The proof uses the circle method, combining a saddle-point analysis on the major arc with explicit uniform estimates on the minor arcs. Specializing to $c=2$ and $c=3$, and verifying the remaining finite cases, we show that partitions and overpartitions of $n$ with an even number of missing integers outnumber those with an odd number for $n>34$ and $n>27$, respectively. We further prove that, for $n>10$, the difference between the numbers of ordinary partitions with an even and an odd number of missing integers is smaller than the number of partitions of $n$ into distinct parts. These results confirm three conjectures of Bhoria, Eyyunni and Santra. We also give a combinatorial interpretation of $a_c(n)$ for every integer $c\\ge4$ in terms of colored partitions, generalizing the partition and overpartition interpretations of Bhoria, Eyyunni and Santra for $c=2$ and $c=3$, respectively.",
+   "abs": "https://arxiv.org/abs/2611.07908",
+   "pdf": "https://arxiv.org/pdf/2611.07908"
+  },
+  {
+   "id": "2611.07351",
+   "type": "new",
+   "title": "Two-row Schur times Schubert via parallel classes of positroid varieties",
+   "authors": [
+    "Tianyi Yu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Schubert structure constants are intersection numbers of Schubert varieties. Finding positive combinatorial formulas for these constants remains a major open problem. We resolve this problem when one of the indexing permutations corresponds to a two-row partition. Our approach uses increasing chains, introduced by Sottile for the one-row case, and builds on the skew Schubert functions studied by Bergeron and Sottile. The key step is to connect increasing chains and these functions with the parallel classes of positroid varieties.",
+   "abs": "https://arxiv.org/abs/2611.07351",
+   "pdf": "https://arxiv.org/pdf/2611.07351"
+  },
+  {
+   "id": "2611.08071",
+   "type": "new",
+   "title": "Diameter bounds for complexes that are close to flag or close to normal",
+   "authors": [
+    "Bruno Benedetti",
+    "Giuliamaria Menara"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "The Hirsch problem asks how large the diameter of the dual graph of a simplicial complex can be, in terms of its number of vertices. For normal complexes, the classical bounds are the Larman-Barnette bound, which is linear for fixed dimension, the Kalai-Kleitman bound, which is quasi-polynomial, and the Adiprasito-Benedetti bound n-d, which however holds only for flag complexes. After sharpening the Larman-Barnette and the Kalai-Kleitman bounds, we study how the three bounds deteriorate when flagness or normality is weakened. We give three ways to quantify the distance from flagness, and in each case we bound the diameter in a way that interpolates between the Adiprasito-Benedetti and the Larman-Barnette bounds. We also quantify the distance from normality by a parameter q, and obtain a bound that is a polynomial of degree q in n. Finally, we conjecture a statement on flag layered families that would imply an interpolation between the Adiprasito-Benedetti and the Kalai-Kleitman bounds.",
+   "abs": "https://arxiv.org/abs/2611.08071",
+   "pdf": "https://arxiv.org/pdf/2611.08071"
+  },
+  {
+   "id": "2611.08289",
+   "type": "new",
+   "title": "Fourier level inequalities on the discrete cube via complex hypercontractivity and Riesz transforms",
+   "authors": [
+    "Fan Chang",
+    "Zhenyu Li",
+    "Guanghui Wang",
+    "Mingrui Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CA",
+    "math.FA",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages, comments welcome!",
+   "abstract": "Eldan's level-$1{:}3$ inequality is a central tool in his second-order correlation inequalities for increasing Boolean functions. His proof is going to Gaussian space and uses an entropy estimate for second Hermite tensors. We give a direct proof on the discrete hypercube. For increasing real-valued functions $f,g:\\{0,1\\}^n\\to\\mathbb R$, we prove $$ W_3[f,g]\\ge -2W_1[f,g]\\log\\!\\left(\\frac{\\sqrt{\\mathrm{Var}(f)\\mathrm{Var}(g)}}{W_1[f,g]}\\right). $$ The proof combines complex hypercontractivity with the discrete Riesz transforms. We also give a short proof of a level-$1:d$ inequality obtained by Keller and Kindler. As an application, we recover Eldan's correlation inequality with a slight improvement. If $f,g:\\{0,1\\}^n\\to\\{0,1\\}$ are increasing and $g$ is antipodal, then $$ \\mathrm{Cov}(f,g)\\ge \\frac1{24}\\,\\frac{\\sum_i\\mathrm{Inf}_i[f]\\mathrm{Inf}_i[g]}{\\sqrt{\\log\\!\\left(4e\\sqrt{\\mathrm{Var}(f)\\mathrm{Var}(g)}/(\\sum_i\\mathrm{Inf}_i[f]\\mathrm{Inf}_i[g])\\right)}}, $$ where the square-root logarithm cannot be improved as shown in the OR--majority example.",
+   "abs": "https://arxiv.org/abs/2611.08289",
+   "pdf": "https://arxiv.org/pdf/2611.08289"
+  },
+  {
+   "id": "2611.07856",
+   "type": "new",
+   "title": "Three-critical hypergraphs of maximum local edge connectivity two",
+   "authors": [
+    "Jun Yue"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a hypergraph \\(G\\), let \\(\\chi(G)\\) denote its chromatic number and \\(\\lambda(G)\\) the maximum, over pairs of distinct vertices, of the minimum size of an edge cut separating the pair. A hypergraph is \\(3\\)-critical if its chromatic number is three and every proper subhypergraph is two-colorable. In this paper, we give a recursive characterization of the \\(3\\)-critical hypergraphs with \\(\\lambda(G)\\le2\\). We prove that these are precisely the hypergraphs generated from ordinary odd cycles and an explicit family of labeled-tree hypergraphs by admissible Toft splits. This characterization includes a necessary and sufficient condition for a prescribed split to preserve \\(\\lambda\\le2\\). The condition involves only cuts in the first factor and the two traces on the split edge. More generally, we establish an exact cut formula for splits at degree-\\(k\\) vertices of \\((k+1)\\)-critical hypergraphs, for every \\(k\\ge2\\). We further prove that the smallest member of this critical class outside the family generated by hyperwheels and both forms of the Hajós join has eight vertices and is unique up to isomorphism. Together, these results resolve two issues left open by Schweser, Stiebitz, and Toft in \\emph{Journal of Combinatorics} (2022): the characterization of hypergraphs with \\(\\lambda(G)=2\\) and \\(\\chi(G)=3\\), and whether hyperwheels and Hajós joins suffice to generate all \\(3\\)-critical hypergraphs in this connectivity range.",
+   "abs": "https://arxiv.org/abs/2611.07856",
+   "pdf": "https://arxiv.org/pdf/2611.07856"
+  },
+  {
+   "id": "2611.07661",
+   "type": "cross",
+   "title": "A Universal Threshold Theory for Local Properties of Random Linear Codes",
+   "authors": [
+    "Vinayak M. Kumar",
+    "Ray Li",
+    "Jonathan Mosheiff",
+    "Gilad Shavit"
+   ],
+   "categories": [
+    "cs.IT",
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "Thresholds for local properties tell us which guarantees to expect from random linear codes (RLCs) and help us carry those guarantees over to structured codes. A monotone property is $b$-local if a collection of at most $b$ codewords can witness its satisfaction or failure, as in list decoding and list recovery. The threshold of $\\mathcal P$ is the code dimension at which the probability that an RLC in $\\mathbb{F}_q^n$ satisfies $\\mathcal P$ crosses $1/2$ in a sharp transition. We show that the threshold of a $b$-local property $\\mathcal P$ is within $O(b)$ dimensions of the expectation threshold. This is the dimension predicted by the best union bound over covers of $\\mathcal P$: families of subspaces such that the span of every witness contains at least one member. This gives a general derandomization statement: Any decreasing local property satisfied by RLCs at a given rate holds at a similar rate for pseudorandom ensembles that fool the cover union bound. In addition to previously studied ensembles, these include codes whose parity-check matrix is sampled from a small-bias distribution. Because our threshold characterization applies to all local properties, this derandomization also reaches properties beyond the scope of earlier reductions, including maximum loads in linear hashing for arbitrary input sets, rank-metric list decoding, and list decoding from insertion-deletion errors and burst errors. Our theorem unifies and strengthens prior works on row-symmetric and coordinate-wise linear characterizations, which located the threshold to within $O(q^{2b}\\log_q n)$ and $O(b^2+nb/\\log_2 q)$ dimensions, respectively. We obtain $O(b)$ error for every $b$-local property, independently of alphabet size. Under suitable pseudorandomness bounds, the rate loss vanishes for every $b=o(n)$, compared to $b=O(\\log n)$ for earlier frameworks.",
+   "abs": "https://arxiv.org/abs/2611.07661",
+   "pdf": "https://arxiv.org/pdf/2611.07661"
+  },
+  {
+   "id": "2611.08230",
+   "type": "new",
+   "title": "The probabilistic bound for perfect hashing is sharp only for binary alphabets",
+   "authors": [
+    "Shitao Li",
+    "Minjia Shi"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We investigate the optimal asymptotic rate $R_q$ of perfect $q$-hash codes, a fundamental extremal problem in combinatorics, information theory, and computer science. Let $B_q=-\\log_2(1-q!/q^q)/(q-1)$ denote the classical probabilistic lower bound. We prove that $R_q=B_q$ if and only if $q=2$, establishing an explicit strict improvement for every $q\\ge3$ and settling the first assertion of a conjecture of Xing and Yuan (Combinatorica 43 (2023), 347--366). More significantly, we show that, for every $\\eta>0$, $R_q\\ge B_q+\\exp(-(2+\\eta)q)$ for all sufficiently large integers $q$. This improves the previously known increments of scale $\\exp(-3q+O(\\ln q))$ by an exponential factor. We also establish a structural limitation of the concatenation method. For pairwise uniform inner codes of subexponential length, the resulting rate bound exceeds $B_q$ by at most $\\exp(-3q+o(q))$. Thus, exponentially long inner codes are necessary to achieve the new improvement scale within this framework. Our proofs combine Fourier analysis, high-dimensional simplex codes, additive permutation counts, and entropy bounds for hypergraph matchings. We further strengthen lower bounds from short inner codes and improve several known numerical estimates.",
+   "abs": "https://arxiv.org/abs/2611.08230",
+   "pdf": "https://arxiv.org/pdf/2611.08230"
+  },
+  {
+   "id": "2611.08143",
+   "type": "cross",
+   "title": "First-Order Model Checking on Monadically Dependent Graph Classes",
+   "authors": [
+    "Jan Dreier",
+    "Nikolas Mählmann",
+    "Szymon Toruńczyk"
+   ],
+   "categories": [
+    "cs.LO",
+    "cs.DM",
+    "cs.DS",
+    "math.CO",
+    "math.LO"
+   ],
+   "primary": "cs.LO",
+   "comments": "",
+   "abstract": "Monadically dependent graph classes are those in which first-order logic cannot encode all graphs. They include all nowhere dense classes and all classes of bounded twin-width. We show that first-order model checking is fixed-parameter tractable on every monadically dependent graph class. Together with the known hardness result for hereditary classes that are not monadically dependent, this gives a complete characterization of the hereditary graph classes with fixed-parameter tractable first-order model checking. This resolves a central open problem in algorithmic model theory. Our proof combines ideas from structural graph theory (graph decompositions), finite model theory (locality of first-order logic), and model theory (counting types). In particular, we show that in monadically dependent classes, tuples of fixed length have only $|U|^{O(1)}$ types of fixed quantifier rank over any set of parameters $U$.",
+   "abs": "https://arxiv.org/abs/2611.08143",
+   "pdf": "https://arxiv.org/pdf/2611.08143"
+  },
+  {
+   "id": "2611.07292",
+   "type": "cross",
+   "title": "Ultrahomogeneous hypertournaments",
+   "authors": [
+    "Rob Sullivan"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "",
+   "abstract": "A $k$-hypertournament is a higher-arity generalisation of a tournament, consisting of a set together with an irreflexive $k$-ary relation such that the automorphism group of each substructure of size $k$ is the alternating group $\\mathrm{A}_k$. We show that, for each $k \\geq 3$, there are continuum-many non-isomorphic countable ultrahomogeneous $k$-hypertournaments, answering a question of Cherlin.",
+   "abs": "https://arxiv.org/abs/2611.07292",
+   "pdf": "https://arxiv.org/pdf/2611.07292"
+  },
+  {
+   "id": "2611.08432",
+   "type": "new",
+   "title": "An improved minimum degree threshold for fractional clique decompositions in partite graphs",
+   "authors": [
+    "Sean Longbrake",
+    "Michael Simkin",
+    "Liana Yepremyan",
+    "Michael Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "33 pages, 2 figures",
+   "abstract": "We prove a Dirac-type condition for an $r$-partite graph to admit a fractional clique decomposition: every sufficiently large $r$-partite graph with $n$ vertices in each part and partite minimum degree at least $(1 - \\frac{1}{30r^2}) n$ admits a fractional $K_r$-decomposition, subject to necessary divisibility conditions. This implies the same upper bound on the asymptotic minimum degree threshold for $r$-partite graphs to admit a $K_r$-decomposition, using a well-known reduction.",
+   "abs": "https://arxiv.org/abs/2611.08432",
+   "pdf": "https://arxiv.org/pdf/2611.08432"
+  },
+  {
+   "id": "2611.06998",
+   "type": "cross",
+   "title": "Resolving Tusnády's Problem",
+   "authors": [
+    "Nicola Wengiel"
+   ],
+   "categories": [
+    "math.CA",
+    "cs.CG",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "33 pages",
+   "abstract": "We prove a lower bound of $\\Omega_d((\\log N)^{d-1/2})$ for the worst-case combinatorial discrepancy of $N$-point sets with respect to anchored boxes in every fixed dimension $d\\ge3$. Together with Nikolov's upper bound of the same order and Wei's planar lower bound, this settles Tusnády's problem: the discrepancy of axis-parallel boxes is $\\Theta_d((\\log N)^{d-1/2})$ in every fixed dimension $d\\ge2$. The proof combines smoothed product test functions, sampling discretization, and an entropy argument for conditioned Gaussian vectors.",
+   "abs": "https://arxiv.org/abs/2611.06998",
+   "pdf": "https://arxiv.org/pdf/2611.06998"
+  },
+  {
+   "id": "2611.08109",
+   "type": "new",
+   "title": "The Calkin--Wilf problems on $\\ell$-ary partition functions",
+   "authors": [
+    "Michael Coons"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "In their 1998 precursor to their celebrated paper ``Recounting the rationals,'' Calkin and Wilf listed nine open problems related to the function $b_{k,\\ell}(n)$, the number of partitions of $n$ into powers of $\\ell$ with each part appearing at most $k$ times. In this short paper, we answer five of their eight remaining open problems. As a consequence of our results, we extend and generalise results of both Carlitz and Reznick, and answer an open question of Reznick.",
+   "abs": "https://arxiv.org/abs/2611.08109",
+   "pdf": "https://arxiv.org/pdf/2611.08109"
+  },
+  {
+   "id": "2611.07117",
+   "type": "new",
+   "title": "An improved lower bound for maximal partial Room squares",
+   "authors": [
+    "Peter Horak",
+    "Dongryul Kim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages, 1 figure",
+   "abstract": "We establish a new asymptotic lower bound for the volume of a maximal partial Room square of even order $n$. We prove that its volume is at least $\\frac{2\\sqrt{66}-6}{57}n^2-O(n)$, improving the leading coefficient $1/8$ in the lower bound obtained by Meszka and Rosa. The proof combines two counting arguments, one based on a transversal of empty cells and the other on the graph of occurring symbol pairs.",
+   "abs": "https://arxiv.org/abs/2611.07117",
+   "pdf": "https://arxiv.org/pdf/2611.07117"
+  },
+  {
+   "id": "2611.06985",
+   "type": "new",
+   "title": "Every $r$-regular Hamiltonian graph with $r\\geq 17$ contains a second Hamilton cycle",
+   "authors": [
+    "Haiyang Liu",
+    "Xu Liu",
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "A conjecture of Sheehan states that every Hamiltonian $4$-regular graph contains a second Hamilton cycle. A natural problem is to find the smallest positive integer $k$ such that every Hamiltonian $r$-regular graph contains a second Hamilton cycle when $r\\geq k$. Thomassen proved that $k\\leq 300$. Improving Thomassen's result, Haxell, Seamone, and Verstra{ë}te proved that $k\\leq 23$. We improve this bound by proving that every $r$-regular Hamiltonian graph contains a second Hamilton cycle whenever $r\\geq 17$. Our new idea is to establish a transversal theorem for set systems on a cycle using Harris's results on the Moser--Tardos algorithm for Local Lemma. We then apply Thomassen's theorem on independent dominating sets to obtain a second Hamilton cycle. For $r\\ge 18$, we also give some algorithms to find such a transversal.",
+   "abs": "https://arxiv.org/abs/2611.06985",
+   "pdf": "https://arxiv.org/pdf/2611.06985"
+  },
+  {
+   "id": "2611.07290",
+   "type": "new",
+   "title": "Rational Turán exponents of a single $k$-uniform hypergraph",
+   "authors": [
+    "Chang Liu",
+    "Jue Dai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a fixed $k$-uniform hypergraph $F$, let $\\mathrm{ex}_k(n,F)$ denote the maximum number of edges in an $F$-free $k$-uniform hypergraph on $n$ vertices. We prove that for every integer $k\\ge2$ and every rational $r\\in[0,1]$ there exists a $k$-uniform hypergraph $F_{k,r}$ such that \\begin{equation*} \\mathrm{ex}_k(n,F_{k,r})=\\Theta(n^{k-r}). \\end{equation*} The case $k=2$ is the rational exponents conjecture of Erdős and Simonovits \\cite{Erdos1988}, also known as Erdős problem \\#571 \\cite{BloomErdoswebsite}; a proof was announced in September 2026 and is expounded by Conlon et al.\\ \\cite{Conlon-Janzer-Jiang-Kim-Lee-Liu-Longbrake-Yepremyan}. For $k\\ge3$ the theorem extends their result to $k$-uniform hypergraphs. In the single-hypergraph setting, this strengthens Fitch's finite-family theorem \\cite{Fitch} by realizing each exponent with a single forbidden $k$-uniform hypergraph for $0\\le r\\le1$. We also show, via an explicit two-edge construction, that for $k\\ge4$ this strengthening fails for $\\lceil k/2\\rceil<r\\le k-1$: no single $k$-uniform hypergraph $F$ then satisfies $\\mathrm{ex}_k(n,F)=\\Theta(n^{k-r})$. The main result of this paper has been formalized in Lean 4, conditional on two explicitly stated axioms.",
+   "abs": "https://arxiv.org/abs/2611.07290",
+   "pdf": "https://arxiv.org/pdf/2611.07290"
+  },
+  {
+   "id": "2611.07407",
+   "type": "new",
+   "title": "The Higman-Sims graph and a geometric construction of the Steiner system $S(3,6,22)$",
+   "authors": [
+    "Mahdi Ebrahimi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Higman-Sims graph is the unique strongly regular graph with parameters $(100,22,0,6)$. In this paper, we show that the only distance-regular antipodal double cover of the Higman-Sims graph is its bipartite double cover. Our main tool is a geometric construction of the Steiner system $S(3,6,22)$.",
+   "abs": "https://arxiv.org/abs/2611.07407",
+   "pdf": "https://arxiv.org/pdf/2611.07407"
+  },
+  {
+   "id": "2611.08253",
+   "type": "cross",
+   "title": "All minimum cuts of symmetric submodular functions",
+   "authors": [
+    "Chao Xu"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We compute Cunningham's canonical decomposition of a symmetric submodular function on $n$ elements in $O(n^3)$ time. The decomposition represents all minimum cuts in linear space. For the pair $s,t$ produced by Queyranne's algorithm, we construct in $O(n^2)$ time a digraph representing exactly the minimum $st$-cuts of the function. Using this construction in Chekuri and Xu's decomposition algorithm gives the cubic bound.",
+   "abs": "https://arxiv.org/abs/2611.08253",
+   "pdf": "https://arxiv.org/pdf/2611.08253"
+  },
+  {
+   "id": "2611.07421",
+   "type": "new",
+   "title": "Prescribed Color Patterns in Tight Hamilton Cycles and Spanning Trees",
+   "authors": [
+    "Lirong Deng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages, 1 figure",
+   "abstract": "We compare transversal and pattern thresholds for two spanning structures. For every fixed $k\\ge 3$ and $\\alpha>0$, we prove that every sufficiently large $n$-vertex $k$-graph collection with minimum codegree at least $(1/2+\\alpha)n$ contains a tight Hamilton cycle with any prescribed color pattern. Hence the transversal and pattern thresholds for tight Hamilton cycles coincide asymptotically. For spanning trees, we show that for every $\\alpha>0$ there exists $c=c(\\alpha)>0$ such that every $n$-vertex graph collection with minimum degree at least $(1/2+\\alpha)n$ contains every $n$-vertex tree with maximum degree at most $n^c$ and any prescribed color pattern. On the other hand, we construct spanning trees of maximum degree $\\sqrt n+1$ whose pattern threshold exceeds their transversal threshold by a positive linear term.",
+   "abs": "https://arxiv.org/abs/2611.07421",
+   "pdf": "https://arxiv.org/pdf/2611.07421"
+  },
+  {
+   "id": "2611.07138",
+   "type": "new",
+   "title": "An extremal unimodular lattice of rank 37",
+   "authors": [
+    "Eric Kubischta"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct an extremal unimodular lattice of rank 37, resolving the last undetermined optimal minimum in ranks at most 48. The construction begins with the Cayley table of $\\mathbb{Z}/13\\mathbb{Z}$, assigning a vector of norm four to each cell. We prove that the resulting incidence lattice has exactly 26 unimodular completions of minimum four, all isometric. The resulting Cayley lattice $\\Lambda$ has automorphism group $\\mathrm{AGL}(1,13)\\times C_6$ and is $s$-extremal, with shadow minimum $13/4$ and kissing number $35\\,594$. An explicit $4$-frame in $\\Lambda$ yields a Type I self-dual $\\mathbb{Z}/4\\mathbb{Z}$-code of length 37 and minimum Euclidean weight 16, resolving the corresponding open case in coding theory.",
+   "abs": "https://arxiv.org/abs/2611.07138",
+   "pdf": "https://arxiv.org/pdf/2611.07138"
+  },
+  {
+   "id": "2611.07104",
+   "type": "cross",
+   "title": "A second eigenvalue lower bound for the directed configuration model",
+   "authors": [
+    "Charles Bordenave",
+    "Yizhe Zhu"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "26 pages, 1 figure",
+   "abstract": "We prove a high-probability lower bound for the second eigenvalue in modulus of the transition matrix of the simple random walk on a directed configuration model with minimal out-degree at least two and maximal degree not too large. The lower bound matches the upper bound found by Coste (2021) on the same model. Our proof bypasses the need to establish convergence of the empirical eigenvalue distribution. Instead, it reduces the spectral lower bound to a central limit theorem for the trace of the transition matrix at powers much larger than the logarithmic scale, a range that previous results failed to reach. Both the general strategy and the central limit theorem might be of independent interest.",
+   "abs": "https://arxiv.org/abs/2611.07104",
+   "pdf": "https://arxiv.org/pdf/2611.07104"
+  },
+  {
+   "id": "2611.07924",
+   "type": "new",
+   "title": "Clique partitions and distinct color sets in list colorings",
+   "authors": [
+    "Jun Yue"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For an \\(n\\)-vertex graph \\(G\\) and an integer \\(m\\ge n\\), let \\(f'(G,m)\\) be the minimum number of distinct color sets used by proper colorings from \\(m\\)-element lists that are disjoint at distinct nonadjacent vertices. A clique-partition assignment gives a common list to the vertices of each part of a clique partition and uses disjoint lists on different parts. In this paper, we construct a graph on \\(20\\) vertices for which these assignments do not attain \\(f'(G,20)\\), and a fixed graph on \\(25\\) vertices for which they fail to attain the minimum for every allowed list size. For every triangle-free graph \\(G\\) on \\(n\\ge2\\) vertices, we prove \\[ f'(G,m)=\\binom{m}{2}^{\\nu(G)}m^{n-2\\nu(G)} \\qquad (m\\ge n), \\] where \\(\\nu(G)\\) is the size of a maximum matching, and characterize all minimizing assignments in terms of maximum matchings. For clique blow-ups of each fixed odd cycle of length at least five, we determine the minimum up to constant factors uniformly over the blow-up size and all allowed list sizes, and obtain an exponential separation from the clique-partition value. We also prove that a noncomplete graph \\(G\\) satisfies \\(f'(G,n)=n^2\\) if and only if all edges of its complement have a common endpoint. These results disprove the general clique-partition conjecture of Gravier, Maffray, and Mohar (\\emph{Discrete Mathematics}, 2003) and its extension by Wu and Zhang (\\emph{Applied Mathematics Letters}, 2006), while establishing both triangle-free conjectures.",
+   "abs": "https://arxiv.org/abs/2611.07924",
+   "pdf": "https://arxiv.org/pdf/2611.07924"
+  },
+  {
+   "id": "2611.07145",
+   "type": "new",
+   "title": "An improved bound for the intersection of two longest cycles in $k$-connected graphs",
+   "authors": [
+    "Juan Gutiérrez"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A conjecture attributed to Smith states that in every $k$-connected graph, every pair of longest cycles intersects in at least $k$ vertices. We prove that every two longest cycles in a $k$-connected graph on $n$ vertices intersect in at least $\\min\\{k,10k-n-30\\}$ vertices. Consequently, Smith's conjecture holds whenever $k\\ge \\frac{n+30}{9}$. This improves the previous bound of $\\frac{n+16}{7}$ for $n>33$ and also implies a bound of $\\frac{n+22}{9}$ for paths instead of cycles.",
+   "abs": "https://arxiv.org/abs/2611.07145",
+   "pdf": "https://arxiv.org/pdf/2611.07145"
+  },
+  {
+   "id": "2611.08265",
+   "type": "new",
+   "title": "Some polynomial spaces are Euclidean balls",
+   "authors": [
+    "Yuxian Dong",
+    "Wenle Shi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages",
+   "abstract": "In this paper, we establish a matrix criterion for a space to be homeomorphic to a closed Euclidean ball. As applications, we prove that the normalized space of $K$-Lorentzian polynomials on an arbitrary open convex cone $K$ is homeomorphic to a closed Euclidean ball, giving an affirmative answer to Brändén and Leake's question, and we also settle Brändén's conjecture that the normalized space of homogeneous multiaffine real stable polynomials is homeomorphic to a closed Euclidean ball. In addition, our results show that the normalized space of homogeneous $K$-stable polynomials of degree $d$ is homeomorphic to a closed Euclidean ball.",
+   "abs": "https://arxiv.org/abs/2611.08265",
+   "pdf": "https://arxiv.org/pdf/2611.08265"
+  },
+  {
+   "id": "2611.08375",
+   "type": "new",
+   "title": "New results on cyclic and ordered Ramsey numbers",
+   "authors": [
+    "Gaurav Kucheriya",
+    "Jan Petr",
+    "Jun Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages, 3 figures, 2 tables",
+   "abstract": "Inspired by the work of Poljak, Bašić, Damnjanović, Stevanović, and Stošić used the Kissat SAT solver in a recent paper to systematically determine the small cyclic and ordered Ramsey numbers of several families of graphs. By studying the patterns in their data, Bašić et al. formulated 15 conjectures on cyclic and ordered Ramsey numbers. In this paper, we confirm 9 of their conjectures, trace confirmations of 2 more to existing literature, and, perhaps surprisingly, disprove another one.",
+   "abs": "https://arxiv.org/abs/2611.08375",
+   "pdf": "https://arxiv.org/pdf/2611.08375"
+  },
+  {
+   "id": "2611.07082",
+   "type": "new",
+   "title": "Seeking the dense half in $K_4$-free graphs",
+   "authors": [
+    "Ignacy Buczek",
+    "Andrzej Grzesik",
+    "Piotr Kuc"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that every $K_4$-free graph on $n$ vertices has a balanced bipartition such that neither part contains more than $0.0671n^2 + o(n^2)$ edges. This improves the previous best bound of $0.074n^2$ by Xu and Zhang. We also formulate a conjecture that the tight bound for this problem is $\\frac{425}{6498}n^2 \\approx 0.0654n^2$, and present a construction showing that it would be best possible.",
+   "abs": "https://arxiv.org/abs/2611.07082",
+   "pdf": "https://arxiv.org/pdf/2611.07082"
+  },
+  {
+   "id": "2611.06964",
+   "type": "new",
+   "title": "Hypergraphs with zero uniform Turán density at intermediate levels",
+   "authors": [
+    "Heng Li",
+    "Xizhi Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An $r$-uniform hypergraph $H$ is uniformly dense with respect to $j$-graphs if, up to a small error, at least a prescribed proportion of the $r$-cliques of every $j$-uniform hypergraph on the same vertex set are edges of $H$. For a forbidden hypergraph $F$, its uniform Turán density at level $j$ is the supremum of these density bounds over arbitrarily large $F$-free hypergraphs with the error tending to zero. For every $r\\ge4$ and $1\\le j\\le r-3$, this paper proves that this Turán density is zero precisely when $F$ admits a vertex ordering in which every $(j+1)$-set shared by two edges occupies the same positions in both edges. This generalizes the zero-density characterizations of Erdős at $j=0$ and of Reiher, Rödl, and Schacht at $j=r-2$, and establishes the latter authors' proposed extension to the remaining nontrivial levels. Consequently, at level $j$, every positive uniform Turán density of a possibly infinite forbidden family is at least $N^{-N}$, where $N=\\binom r{j+1}$. The proof combines hypergraph regularity with adjacent exchanges in spreadable random hypergraphs.",
+   "abs": "https://arxiv.org/abs/2611.06964",
+   "pdf": "https://arxiv.org/pdf/2611.06964"
+  },
+  {
+   "id": "2611.07733",
+   "type": "new",
+   "title": "On the classification of $2$-distance-primitive graphs of small valency",
+   "authors": [
+    "Xing Zhang",
+    "Xue Wang",
+    "Jun-Jie Huang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A non-complete vertex-transitive graph is called 2-distance-primitive if a vertex stabilizer acts primitively on both the first and second distance neighborhoods of the vertex. Recently, Ruan, Liu and Jin [Discrete Math. 347 (2024), 113978] showed that every connected 2-distance-primitive graph of valency at most 9 either belongs to certain known families or satisfies a collection of further restrictions, with the socle of a vertex stabilizer isomorphic to $\\mathrm{PSL}(2,7)$ or $\\mathrm{PSL}(2,8)$. In this paper, we resolve these remaining cases and thereby obtain a complete classification of connected 2-distance-primitive graphs of valency at most 9. We also give a short proof of the main result of Ruan, Liu and Jin and identify additional graphs omitted from their list.",
+   "abs": "https://arxiv.org/abs/2611.07733",
+   "pdf": "https://arxiv.org/pdf/2611.07733"
+  },
+  {
+   "id": "2611.07266",
+   "type": "cross",
+   "title": "Quadratic Extractors",
+   "authors": [
+    "Gautam Chandrasekaran",
+    "Jesse Goodman",
+    "David Zuckerman"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.CR",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "",
+   "abstract": "A quadratic source is a random variable $X\\sim\\mathbb{F}_2^n$ generated by applying $n$ quadratics to a hidden uniform string. Previously, the best-known explicit extractor for this model required min-entropy roughly $k=n-\\sqrt{\\log n}$. In this paper, we give an explicit construction for min-entropy $k=\\mathrm{polylog}(n)$. Even for the special case of $2$-local sources, where each bit of $X$ depends on two hidden uniform bits, achieving an entropy requirement below $k=\\sqrt{n}$ was an important open problem. This is because such sources provably cannot be reduced (in a black-box manner) to our most powerful general-purpose seedless extractor, known as a sumset extractor. Our new extractor bypasses this barrier, providing the first explicit construction to go beyond sumset extraction.",
+   "abs": "https://arxiv.org/abs/2611.07266",
+   "pdf": "https://arxiv.org/pdf/2611.07266"
+  },
+  {
+   "id": "2611.08455",
+   "type": "new",
+   "title": "Tusnády's problem and online two-sample thinning",
+   "authors": [
+    "Yuhao Lei"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "40 pages, 5 figures",
+   "abstract": "We determine the sharp order of discrepancy in Tusnády's problem in every fixed dimension $d\\ge 2$. The largest combinatorial discrepancy of $N$ points in $\\mathbb{R}^d$ with respect to axis-parallel boxes is $\\Theta_d((\\log N)^{d-1/2})$, extending Wei's planar result and matching Nikolov's upper bound. More strongly, with high probability, this lower bound holds simultaneously for every subset obtained by deleting at most a sufficiently small fixed fraction of a uniform $N$-point sample. We apply this geometric estimate to online thinning of two independent samples of size $n$ from an unknown common distribution, where observations must be kept or discarded upon arrival. For every fixed dimension $k\\ge 1$ and expected deletion budget $\\rho n$, with $0<\\rho<2$, we prove that the minimax expected prefix discrepancy over lower orthants is $\\Theta_{k,\\rho}((\\log n)^{k+1/2})$. In dimension one, the optimal terminal discrepancy is instead $\\Theta_\\rho((\\log\\log n)^{3/2})$, giving a sharp separation between the prefix and terminal objectives. For $k\\ge 2$, we obtain terminal bounds differing by a factor of $\\log n$. The lower bounds are based on Gaussian small-ball estimates for box-incidence matrices, while the upper bounds use stationary Metropolis thinning and, in one dimension, a terminal cancellation procedure.",
+   "abs": "https://arxiv.org/abs/2611.08455",
+   "pdf": "https://arxiv.org/pdf/2611.08455"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2611.07314",
+   "type": "new",
+   "title": "On the number of edges in quasiplanar graphs",
+   "authors": [
+    "János Pach",
+    "Gábor Tardos",
+    "Ji Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A $k$-quasiplanar graph is a graph drawn in the plane with no $k$ pairwise crossing edges. Pach, Shahrokhi, and Szegedy conjectured that every such graph on $n$ vertices has $O_k(n)$ edges. ChatGPT produced a proof of this conjecture. Here, we present a simplified, self-contained version of that proof.",
+   "abs": "https://arxiv.org/abs/2611.07314",
+   "pdf": "https://arxiv.org/pdf/2611.07314"
+  },
+  {
+   "id": "2611.06981",
+   "type": "cross",
+   "title": "The Spectral Theory of Cographs: A Survey, Organized by Graph Matrix",
+   "authors": [
+    "Pallabi Manna",
+    "Santanu Mandal",
+    "Fernando C. Tura"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "",
+   "abstract": "Cographs, the $P_4$-free graphs, are exactly the graphs obtained from a single vertex by repeated disjoint union and complementation. They contain the threshold graphs, $\\mathcal{C}$-graphs and form one of the primary areas for spectral graph theory. This survey is organized by matrix: after a preliminary section, there is one section for each of the adjacency, Laplacian, signless Laplacian, distance, eccentricity, Seidel, distance Laplacian and distance signless Laplacian matrices. Within each section we collect what is known for general cographs, for the subclass of $\\mathcal{C}$-graphs, and where relevant, for threshold graphs. We highlight the results from the recent years, including the foundational work of Mohammadian et al., Jacobs et al., Ghorbani, Li et al., Niu et al., Lou et al., Wang at al., Mandal et al. Two structural facts are used throughout: every connected cograph has diameter at most $2$, which ties all four distance-type matrices to the adjacency and Laplacian matrices, and the partition of the vertex set into twin classes is equitable for every one of the eight matrices, giving a uniform description of each spectrum (for the Laplacian this is the twin-reduction theory of Barik--Reddy, which we present in detail). Besides surveying the literature, we record several consequences, and mark them as such: an exact decomposition of the eccentricity matrix of a connected cograph, yielding an eigenvalue-free interval for the eccentricity spectrum of all connected cographs; the full distance Laplacian spectrum and its extremal eigenvalues; an eigenvalue-free interval for the distance signless Laplacian valid for every connected graph of diameter at most $2$; an interlacing theorem tying the distance spectrum to the adjacency spectrum. A comparison table across all eight matrices and a list of open problems close the paper.",
+   "abs": "https://arxiv.org/abs/2611.06981",
+   "pdf": "https://arxiv.org/pdf/2611.06981"
+  }
+ ],
+ "listed_new": 46,
+ "listed_cross": 16
+}
