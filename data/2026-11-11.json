@@ -1,0 +1,565 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T05:00:30Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 76,
+ "screened_new": 57,
+ "screened_cross": 19,
+ "scored": 76,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.13415",
+   "type": "new",
+   "title": "Hamilton cycles in vertex-transitive graphs of prime-power order",
+   "authors": [
+    "Farzad Maghsoudi",
+    "Dragan Marušič",
+    "Bobby Miraftab"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is vertex-transitive if, for any two vertices, there is an automorphism mapping one to the other. We prove that every connected vertex-transitive graph of order $p^n$, where $p$ is a prime and $p^n\\geq 3$, has a hamiltonian cycle. Our main tool extends Witte's theorem [JCTB (1986)] on Cayley digraphs of $p$-groups.",
+   "abs": "https://arxiv.org/abs/2611.13415",
+   "pdf": "https://arxiv.org/pdf/2611.13415"
+  },
+  {
+   "id": "2611.13065",
+   "type": "cross",
+   "title": "Combinatorial optimization with bounded subdeterminants",
+   "authors": [
+    "Samuel Fiorini",
+    "J. Pascal Gollin",
+    "Tony Huynh",
+    "Simon Keil",
+    "O-joung Kwon",
+    "Sang-il Oum",
+    "Roohani Sharma",
+    "Stefan Weltge"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "cs.DS",
+   "comments": "25 pages",
+   "abstract": "We take a first step toward a broader study of classical combinatorial optimization problems through the maximum subdeterminants of their standard integer programming formulations, yielding new positive results for several famous (NP-hard) problems. An integer matrix is totally $\\Delta$-modular if every square submatrix has determinant of absolute value at most $\\Delta$. For every fixed $\\Delta$, it has been known that maximum clique, maximum stable set, and minimum vertex cover can be solved in polynomial time on instances for which the coefficient matrix of the natural formulation is totally $\\Delta$-modular. We extend this list by showing that the same holds for many other problems, including the weighted versions of maximum cut, the traveling salesman problem, feedback vertex set, odd cycle transversal, dominating set, max 2-sat, induced matching, and cluster vertex deletion, as well as for $k$-colorability and graph isomorphism. Our proofs reveal several new ways in which bounded subdeterminants impose combinatorial structure: they bound the size or maximum degree of the input graph, bound packings of cycles and other obstructions, or yield decompositions into tractable graph classes such as forests, chordal graphs, graphs of bounded treewidth, and graphs of bounded linear mim-width.",
+   "abs": "https://arxiv.org/abs/2611.13065",
+   "pdf": "https://arxiv.org/pdf/2611.13065"
+  },
+  {
+   "id": "2611.14475",
+   "type": "cross",
+   "title": "Explicit restricted isometries with $k=m^{2/3-o(1)}$",
+   "authors": [
+    "Christian Kümmerle",
+    "Dustin G. Mixon"
+   ],
+   "categories": [
+    "math.FA",
+    "cs.IT",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.FA",
+   "comments": "16 pages",
+   "abstract": "We construct an explicit family of real $m\\times n$ restricted isometries with $m\\to\\infty$, $m/n\\to 0$, $\\delta_k\\to 0$, and $k=m^{2/3-o(1)}$. We combine Gershgorin's circle theorem with a flat RIP estimate to reduce the problem to choosing a large vertex set in a strongly regular graph with the property that every small subset spans few edges. We select this vertex set using an incidence geometric result due to Zahl. The proof only uses the entrywise absolute value of the Gram matrix despite the conventional wisdom that such proof techniques exhibit a barrier of $m^{1/2}$. We prove that this barrier is actually $m^{2/3}$, and we show that our particular construction exhibits the same barrier.",
+   "abs": "https://arxiv.org/abs/2611.14475",
+   "pdf": "https://arxiv.org/pdf/2611.14475"
+  },
+  {
+   "id": "2611.13281",
+   "type": "cross",
+   "title": "Constant query LCCs over the reals",
+   "authors": [
+    "Zeev Dvir"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "11 pages",
+   "abstract": "This note describes a new construction, found by ChatGPT Astra, of constant query Locally Correctable Codes (LCCs) over the real numbers. Prior constructions of constant query LCCs were exclusive to fields of positive characteristic and were conjectured not to exist over the reals. The construction uses low degree polynomial evaluations over an integer grid, together with a novel sampling procedure which outputs, for a given grid point $P$, a random quadratic curve through $P$ which intersects the grid in many other points (the decoding queries). The sampler is `smooth' in the sense that no grid point is queried with high probability. These codes have the additional property that the queried locations (the curve/grid intersections) are all nearby grid points.",
+   "abs": "https://arxiv.org/abs/2611.13281",
+   "pdf": "https://arxiv.org/pdf/2611.13281"
+  },
+  {
+   "id": "2611.13608",
+   "type": "new",
+   "title": "Triangles without a common vertex",
+   "authors": [
+    "Dongxiu Cai",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "Let $G$ be a graph with $m$ edges, $t(G)$ triangles, and adjacency spectral radius $\\lambda(G)>\\sqrt m$. Li, Feng and Peng (2025) conjectured that $t(G)\\ge\\sqrt m-O(1)$ if no vertex belongs to every triangle of $G$. We prove the stronger bound $t(G)\\ge\\lambda(G)-C$ for an absolute constant $C$, and give an explicit choice of $C$. The proof bounds the sum of the squared adjacency eigenvalues other than the largest and smallest. Interlacing and matrix perturbation estimates then restrict the neighbourhood of a vertex corresponding to a largest entry of a Perron vector to two disjoint edges and isolated vertices. A weighted count of the triangles completes the proof.",
+   "abs": "https://arxiv.org/abs/2611.13608",
+   "pdf": "https://arxiv.org/pdf/2611.13608"
+  },
+  {
+   "id": "2611.13050",
+   "type": "new",
+   "title": "Koszul duality and determinant formulas for affine hyperplane arrangements",
+   "authors": [
+    "Jens Niklas Eberhardt",
+    "Carl Mautner"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For real affine hyperplane arrangements, we prove Lam's determinant conjecture for the inverse Varchenko matrix restricted to bounded chambers. The proof combines Lam's comparison of twisted intersection forms with the period determinant formula of Varchenko, Loeser-Sabbah and Douai-Terao. For normal crossing arrangements, we introduce the taut path algebra and the chamber intersection algebra and establish a Koszul duality between them, yielding an explicit multivariate formula for the inverse Varchenko matrix. After specializing the parameters to $q$, its restriction to bounded chambers is a scalar multiple of the $q$-intersection matrix, proving a determinant conjecture of the authors. We also discuss how the Koszul duality results generalize to affine oriented matroids.",
+   "abs": "https://arxiv.org/abs/2611.13050",
+   "pdf": "https://arxiv.org/pdf/2611.13050"
+  },
+  {
+   "id": "2611.14140",
+   "type": "new",
+   "title": "Davenport Constants of High-Dimensional Integer Sets",
+   "authors": [
+    "Stefan Kuhlmann",
+    "Timm Oertel",
+    "Nicola Wengiel"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Davenport constant of a finite set of integer vectors is the maximum length of an irreducible zero-sum sequence over that set. For nonempty sets closed under negation, it equals the largest $\\ell_1$-norm of a Graver basis element of the matrix formed by those vectors. We study extremal and average-case versions in growing dimension, with applications to integer programming. For integer cubes $[-R,R]^d \\cap \\mathbb{Z}^d$ and the sign cube $\\{-1,1\\}^d$, totally unimodular encodings improve on the upper bounds from direct circuit decomposition, while random perturbations of Hadamard matrices give new lower bounds. A key ingredient is a uniform affine Bernoulli variant of Nguyen and Wood's surjectivity theorem. In every sufficiently large dimension the sign-cube lower bound is $d^{d/2}2^{-d-o(d)}$, and the integer-cube lower bound is $R^d d^{d/2}2^{-o(d)}$ uniformly for polynomially bounded integer radii. For random sign-cube sequences of even length conditioned on summing to zero, we prove a sharp threshold from irreducibility to reducibility at $d\\log d/\\log 4$, far below the extremal scale. For fixed $p$ and $R$, we determine exact exponential rates for lattice $\\ell_p$-balls when $p=1$, $R\\geq3$, or $2\\leq p<\\infty$, $\\lfloor R^p\\rfloor\\geq3$. For each fixed integer $k\\geq3$, we determine the exponential rate of the worst-case $\\ell_1$-distance from an optimal LP vertex to the nearest integer optimum in standard-form programs with ternary matrices having at most $k$ nonzero entries per column.",
+   "abs": "https://arxiv.org/abs/2611.14140",
+   "pdf": "https://arxiv.org/pdf/2611.14140"
+  },
+  {
+   "id": "2611.14160",
+   "type": "new",
+   "title": "Zero-sum Ramsey numbers of forests and complete bipartite graphs",
+   "authors": [
+    "Linlin Wang",
+    "Guoqing Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "For a graph $G$ and an integer $m\\ge2$ dividing $e(G)$, where $e(G)$ denotes the number of edges of $G$, the zero-sum Ramsey number $R(G,\\mathbb Z_m)$ is the least $N$ such that every $\\mathbb Z_m$-labeling of $E(K_N)$ contains a copy of $G$ whose edge labels sum to zero. Bialostocki and Dierker (1990) [4] conjectured that $R(F,\\mathbb Z_{e(F)})/R(F,2)\\to1$ uniformly over all forests $F$ as $e(F)\\to\\infty$, where $R(F,2)$ is the two-color Ramsey number, and Caro (1991) [9] conjectured that $R(tG,\\mathbb Z_t)=t(|V(G)|+d)-d$ for $t\\ge2$ disjoint copies of $G$, where $d=\\operatorname{def}_t(G)$ is the defect. We disprove the first conjecture by an infinite family of trees. Building on the work of Caro and on his joint work with Provstgaard, we obtain infinitely many counterexamples to the second conjecture, and we determine the zero-sum Ramsey numbers of a class of graphs: for powers of two $q\\ge2$ we characterize all $s,k\\ge1$ satisfying $R(K_{s,kq},\\mathbb Z_q)=s+kq$, and we prove $R(mK_{q,q},\\mathbb Z_m)=2qm+m/\\gcd(m,q)-1$ for every $m\\ge2$.",
+   "abs": "https://arxiv.org/abs/2611.14160",
+   "pdf": "https://arxiv.org/pdf/2611.14160"
+  },
+  {
+   "id": "2611.14190",
+   "type": "cross",
+   "title": "Affine Springer fibers, Cherednik algebra modules and Hilbert schemes: torus link case",
+   "authors": [
+    "Pablo Boixeda Alvarez",
+    "Thomas Hameister",
+    "Xinchun Ma"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "",
+   "abstract": "For a pair of positive integers $M,N$ with GCD $d$, we relate the bigraded $S_N\\times S_d$-Frobenius characters of the homology of the positive part of a homogeneous affine Springer fiber for $\\mathrm{GL}_N$ of slope $M/N$ to a direct sum of the associated graded of minimal supported modules of type $A_{N-1}$ rational Cherednik algebra at the same slope, and to the equivariant K-theory of a coherent sheaf on the Hilbert scheme of points on the plane. For the first object, we use the Hessenberg paving of Goresky-Kottwitz-Macpherson; for the second and third objects, we resort to an explicit Hodge module on $\\mathfrak{sl}_N$. The bridge between them is a non-coprime shuffle theorem of Kim-Oh.",
+   "abs": "https://arxiv.org/abs/2611.14190",
+   "pdf": "https://arxiv.org/pdf/2611.14190"
+  },
+  {
+   "id": "2611.13660",
+   "type": "new",
+   "title": "Judicious $r$-partitions of $r$-uniform hypergraphs",
+   "authors": [
+    "Siwei Lin",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Bollobás and Thomason conjectured that every $r$-uniform hypergraph with $m$ edges admits an $r$-partition such that each class meets at least $rm/(2r-1)$ edges. In this paper, we establish a lower bound of $(11-\\sqrt{13})m/18$ for every $r\\ge 2$. This improves Haslegrave's bound $rm/(3r-4)$ for every $r\\ge 8$.",
+   "abs": "https://arxiv.org/abs/2611.13660",
+   "pdf": "https://arxiv.org/pdf/2611.13660"
+  },
+  {
+   "id": "2611.13585",
+   "type": "cross",
+   "title": "Approximating graphic TSP by b-matchings",
+   "authors": [
+    "Swati Gupta",
+    "Mehrdad Sohrabi",
+    "Levent Tunçel"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO",
+    "math.OC"
+   ],
+   "primary": "cs.DS",
+   "comments": "72 pages, 30 figures",
+   "abstract": "We give a polynomial-time algorithm for graphic TSP that returns a tour of length at most $\\frac{89}{64}=\\frac{7}{5}-\\frac{3}{320}$ times the value of the subtour relaxation. This improves the long-standing ratio $\\frac75$ of Sebő and Vygen and shows that the integrality gap of the subtour LP on graphic instances is at most $\\frac{89}{64}\\approx 1.3906$. We optimize a non-linear objective function over an odd-join polytope, which uses (i) a new removable system of edges, and (ii) reconnection of subtours if the graph is disconnected. This approach gives a $\\frac{13}{10}$-approximation algorithm for $4$-regular $4$-vertex-connected graphs, improving the $\\frac43$ of Newman, and a $\\frac43$-approximation for $k$-vertex-connected graphs of maximum degree at most $k+1$, for every $k\\ge 3$. For the general graphic TSP, we construct a feasible point in the odd-join polytope, using an optimal vertex from the Subtour linear programming relaxation of TSP, which helps us bound the approximation factor by 89/64.",
+   "abs": "https://arxiv.org/abs/2611.13585",
+   "pdf": "https://arxiv.org/pdf/2611.13585"
+  },
+  {
+   "id": "2611.13959",
+   "type": "new",
+   "title": "Triangle Factors in the Semi-Random Graph Process",
+   "authors": [
+    "Olaf Parczyk",
+    "Eva Schinzel"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages, 8 figures",
+   "abstract": "The semi-random graph process is a single player game which starts with an empty graph on $n$ vertices and in each round the player is offered a random vertex and connects it to a vertex selected according to some strategy $\\mathcal{S}$. The goal is, in as few rounds as possible, to arrive at a graph that satisfies some graph property $\\mathcal{P}$. The main contribution of this work is to show that there is a strategy $\\mathcal{S}$ which creates a $K_3$-factor in at most $2.929329 \\, n$ rounds w.h.p.",
+   "abs": "https://arxiv.org/abs/2611.13959",
+   "pdf": "https://arxiv.org/pdf/2611.13959"
+  },
+  {
+   "id": "2611.14384",
+   "type": "new",
+   "title": "Tolerance complexes of chordal graphs and squarefree symbolic powers",
+   "authors": [
+    "S Selvaraja"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages, 1 figure, 1 table",
+   "abstract": "For a simplicial complex $K$ and an integer $t\\ge0$, the $t$-tolerance complex $\\mathcal{T}_t(K)$ consists of the sets that become faces of $K$ after deleting at most $t$ of their elements. Kim and Lew conjectured that if $K$ is $d$-Leray, then $\\mathcal{T}_t(K)$ is $(\\eta(d+1,t+1)-1)$-Leray (the Leray conjecture), and that if $K$ is $d$-collapsible, then $\\mathcal{T}_t(K)$ is $(\\eta(d+1,t+1)-1)$-collapsible (the collapsibility conjecture), where $\\eta$ is the Erdős--Gallai number. We prove the collapsibility conjecture for $d=1$ when $t\\le3$ or $\\dim K\\le4$, and for all $t$ when $K$ is the clique complex of a subtree graph of a spider, a class of chordal graphs containing all interval and split graphs; in particular, it holds for nerves of finite families of intervals. For every $d$, we prove both conjectures when $K$ has at most $d+1$ facets, when $K$ has nonzero homology in its top dimension, and when the Stanley--Reisner ideal of $K$ is squarefree stable. The Stanley--Reisner ideal of $\\mathcal{T}_t(K)$ is the $(t+1)$-st squarefree symbolic power of that of $K$, so the Leray conjecture becomes a regularity bound. Using this, we prove the Leray conjecture for flag complexes when $t\\le3$, and for all $t$ for independence complexes of bipartite and chordal graphs, and we show that it is preserved under joins. We also construct chordal graphs $H$ for which the Leray number of $\\mathcal{T}_t(\\mathrm{Cl}(H))$ exceeds its Helly dimension by an arbitrarily large amount, and others for which it depends on the field. Finally, we reduce the case $t=1$ of the Leray bound for $d$-collapsible complexes to a question on intersections of links.",
+   "abs": "https://arxiv.org/abs/2611.14384",
+   "pdf": "https://arxiv.org/pdf/2611.14384"
+  },
+  {
+   "id": "2611.13380",
+   "type": "new",
+   "title": "Positive Codegree Density of Suspensions of Graphs",
+   "authors": [
+    "Haiwen Luo"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages. Comments are welcome",
+   "abstract": "We determine the exact positive codegree density of suspensions of graphs $S^r(G)$ when $\\chi(G)=t$ and $t-2$ is prime power. The value is $\\gamma^+(S^{r}(G)) = \\frac{(t-3)(t-2)^{r-1}}{(t-2)^r-1}$. The case of suspensions of $K_4$ gives the positive codegree density of daisies, answering a question of Balogh, Halfpap, Lidický and Palmer. The lower bound construction is from Ellis, Ivan and Leader, while we establish the corresponding upper bound based on a weighted graph inequality.",
+   "abs": "https://arxiv.org/abs/2611.13380",
+   "pdf": "https://arxiv.org/pdf/2611.13380"
+  },
+  {
+   "id": "2611.14327",
+   "type": "new",
+   "title": "Characterizing Fixed-Treewidth Planar Graphs",
+   "authors": [
+    "Laura Merker",
+    "Samuel Schneider",
+    "Torsten Ueckerdt"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We give the first inductive characterization of planar graphs of treewidth $k$ for each $k \\geq 3$. Our definition generalizes the well-known inductive definition of planar $3$-trees and the recent definition of so-called planar quasi-$4$-trees [Förster, 2024]. As a key step, which may be of independent interest, we show that every planar triangulation $G$ of treewidth $k$ admits a tree decomposition of width $k$ where each adhesion set induces a cycle in $G$. As an application of planar quasi-$4$-trees, we show that planar graphs of treewidth at most $4$ have vertex arboricity at most $2$. That is, the vertex-set of every planar graph of treewidth at most $4$ can be partitioned into two sets that each induce a forest.",
+   "abs": "https://arxiv.org/abs/2611.14327",
+   "pdf": "https://arxiv.org/pdf/2611.14327"
+  },
+  {
+   "id": "2611.13698",
+   "type": "new",
+   "title": "The Proof of the Alon--Kim Conjecture",
+   "authors": [
+    "Chengshuo Qiao",
+    "Zhijun Lu",
+    "Huimin Song"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "In 1997, Alon and Kim proposed an asymptotic edge-coloring bound motivated by a bound on the number of edges in intersecting uniform hypergraphs. The Alon--Kim conjecture asserts that, for fixed integers $k\\ge t\\ge1$ and $\\varepsilon>0$, every $k$-uniform multihypergraph $H$ in which any two distinct edges intersect in at most $t$ vertices satisfies $\\chi'(H)\\le(t-1+\\frac{1}{t}+\\varepsilon)\\Delta(H)$ whenever $\\Delta(H)$ is sufficiently large. In this paper, we prove the Alon--Kim conjecture. Our method combines finite-dimensional convex optimization with probabilistic methods.",
+   "abs": "https://arxiv.org/abs/2611.13698",
+   "pdf": "https://arxiv.org/pdf/2611.13698"
+  },
+  {
+   "id": "2611.14070",
+   "type": "new",
+   "title": "Treewidth versus Hadwiger number: Graph classes with dominated balanced separators are quasi-linearly treewidth-Hadwiger bounded",
+   "authors": [
+    "Clément Dallard",
+    "J. Pascal Gollin",
+    "Andrea Munaro"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages",
+   "abstract": "In a hereditary graph class $\\mathcal{G}$, the treewidth of a graph in $\\mathcal{G}$ is bounded by a function of the size of a largest clique minor of the graph if and only if the class $\\mathcal{G}$ excludes some planar graph as an induced minor. Campbell et al. (arXiv 2024) conjectured that such a bounding function can always be chosen to be linear. We verify this conjecture for several classes of graphs (including even-hole-free graphs) and show that if a hereditary graph class $\\mathcal{G}$ has dominated binary-weighted balanced separators, then the bounding function can be taken to be in ${O(h \\log h)}$, where $h$ is the Hadwiger number. We say that $\\mathcal{G}$ has dominated binary-weighted balanced separators if, for every ${G \\in \\mathcal{G}}$ and every $\\mathsf{w} \\colon V(G) \\to \\{0,1\\}$, there is a set ${D \\subseteq V(G)}$ of bounded size so that deleting the closed neighbourhood $N_G[D]$ of $D$ leaves each component with at most a fixed fraction of the total weight of $G$. Our result reduces the quasi-linear weakening of the conjecture of Campbell et al. to a conjecture of Gartland and Lokshtanov stating that every graph class excluding a planar graph as an induced minor admits dominated binary-weighted balanced separators.",
+   "abs": "https://arxiv.org/abs/2611.14070",
+   "pdf": "https://arxiv.org/pdf/2611.14070"
+  },
+  {
+   "id": "2611.13439",
+   "type": "new",
+   "title": "Claw-free minimal bricks",
+   "authors": [
+    "Guantao Chen",
+    "Yuying Ma"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "A graph $G$ is called a \\emph{brick} if it is $3$-connected and $G-\\{u,v\\}$ has a perfect matching for every pair of distinct vertices $u,v\\in V(G)$. A brick is \\emph{minimal} if deleting any edge results in a graph that is no longer a brick. A graph is \\emph{claw-free} if it contains no induced $K_{1,3}$. Plummer proved that every $3$-connected claw-free graph of even order is a brick. In this paper, we completely characterize all claw-free minimal bricks. Apart from $K_4$ and the six-vertex wheel $W_5$, they are precisely the line graphs of graphs obtained from loopless $3$-edge-connected cubic multigraphs by subdividing every edge outside a matching of even size exactly once. Consequently, every claw-free minimal brick of order $n$ contains at least $4n/5$ cubic vertices and at least $4n/5$ edges joining cubic vertices. Both bounds are sharp. This establishes the conjectures of Norine and Thomas and of Lovász for claw-free minimal bricks in sharp quantitative forms. We also show that, for a claw-free minimal brick of order at least $8$, deleting an edge leaves a matching covered graph if and only if the edge lies in a triangle.",
+   "abs": "https://arxiv.org/abs/2611.13439",
+   "pdf": "https://arxiv.org/pdf/2611.13439"
+  },
+  {
+   "id": "2611.13847",
+   "type": "new",
+   "title": "Counting $K_4$-saturating non-edges in Nosal graphs",
+   "authors": [
+    "Yongtao Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 3 figures and 1 table. We proposed several spectral extremal problems for readers. Any suggestions are welcome",
+   "abstract": "A non-edge of a $K_4$-free graph is $K_4$-saturating if adding it creates a copy of $K_4$, and $f(G)$ counts these non-edges. Erdős and Tuza showed that the minimum of $f$ over $n$-vertex $K_4$-free graphs jumps from zero to a quadratic quantity once the number of edges exceeds $\\lfloor n^2/4\\rfloor$. Balogh and Liu [J. Combin. Theory Ser. B 109 (2014)] determined the asymptotic size of this jump. In this paper, we study the jump phenomenon at Nosal's spectral threshold $\\lambda(G)>\\sqrt m$, where $\\lambda (G)$ is the spectral radius and $m$ is the number of edges. This spectral threshold does not involve the order, and its boundary contains unbalanced graphs far below the Mantel threshold. We prove that every $K_4$-free graph $G$ with $\\lambda(G)>\\sqrt m$ satisfies $f(G)+ \\frac{1}{2}q(G)> \\frac{1}{9} \\lambda(G)^2$, where $q(G)$ counts the vertices in triangles. The constant $\\frac{1}{9}$ is best possible, and the triangle-free case of this inequality reduces to Nosal's theorem. Consequently, the minimum of $f$ over $K_4$-free graphs with $m$ edges jumps from $0$ to $\\frac19m+O(\\sqrt m\\,)$ at the Nosal threshold, and the error order $\\sqrt m$ is best possible. For large $\\lambda(G)$, we also prove $f(G)>\\frac19\\lambda(G)^2-\\frac13\\lambda(G)$, and graphs on the boundary $\\lambda(G)^2=m$ attain this value. In the extremal graphs, the three edges of every triangle have booksizes in the ratio $4:1:1$, so these graphs are different from those of Balogh and Liu. We also show that the spectral Mantel condition $\\lambda(G)>\\lambda(T_{n,2})$ forces asymptotically fewer $K_4$-saturating non-edges than the condition $e(G)>\\lfloor n^2/4\\rfloor$. Our proof transfers the Balogh-Liu theorem through a weighted blow-up and replaces the choice of an extremal edge by a zero-sum comparison over all edges of a neighborhood.",
+   "abs": "https://arxiv.org/abs/2611.13847",
+   "pdf": "https://arxiv.org/pdf/2611.13847"
+  },
+  {
+   "id": "2611.13580",
+   "type": "new",
+   "title": "The minimum number of cycles of length $0$ modulo $k$ in graphs with no proper $k$-coloring",
+   "authors": [
+    "Ilkyoo Choi",
+    "Kamil Sieniawski"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Consider an integer $k\\geq 3$. Toft and Tuza observed that every graph with no proper $k$-coloring has a cycle of length $0$ modulo $k$. Brewster, McGuinness, Moore, and Noel conjectured the following quantitative strengthening: every graph with no proper $k$-coloring has at least $\\frac{(k+1)!}{2k}$ cycles whose lengths are divisible by $k$. The conjecture is sharp, as demonstrated by the complete graph on $k+1$ vertices. Kim and Picollelli confirmed the conjecture for $k=3$. We establish the conjecture for every $k\\geq 3$. In other words, we determine the minimum number of cycles of length $0$ modulo $k$ in a graph with no proper $k$-coloring.",
+   "abs": "https://arxiv.org/abs/2611.13580",
+   "pdf": "https://arxiv.org/pdf/2611.13580"
+  },
+  {
+   "id": "2611.14513",
+   "type": "cross",
+   "title": "Online Graph Coloring: Competitive Ratios Separating Randomized and Deterministic Algorithms",
+   "authors": [
+    "Ken-ichi Kawarabayashi",
+    "Hirotaka Yoneda",
+    "Masataka Yoneda"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We study online coloring, focusing on the competitive ratio. The best previously known results were (1) a lower bound of $\\Omega(n / \\log^2 n)$ for both deterministic and randomized algorithms by Halldórsson and Szegedy (1994), (2) an upper bound of $O(n / \\log n)$ for randomized algorithms by Halldórsson (1997), and (3) an upper bound of $O(n / \\log \\log n)$ for deterministic algorithms by Kawarabayashi, Yoneda, and Yoneda (2025). In this paper, we improve these results as follows: 1. A new lower bound of $\\Omega(n / \\log n)$ for deterministic algorithms. 2. A new upper bound of $O(n (\\log \\log n)^2 / \\log^2 n)$ for randomized algorithms. 3. A new upper bound of $O(n / (\\log \\log n)^{2-\\varepsilon})$ for deterministic algorithms for every fixed $\\varepsilon>0$. For randomized algorithms, we nearly close the gap between the lower and upper bounds; the remaining gap is only $O((\\log \\log n)^2)$. We establish the asymptotic separation between randomized and deterministic online graph coloring. Against an oblivious adversary, a polynomial-time randomized algorithm achieves a competitive ratio asymptotically smaller than any deterministic algorithm can guarantee, even with unlimited computation.",
+   "abs": "https://arxiv.org/abs/2611.14513",
+   "pdf": "https://arxiv.org/pdf/2611.14513"
+  },
+  {
+   "id": "2611.14194",
+   "type": "new",
+   "title": "You Can Have It All: Small sparse induced-universal graphs for minor-closed classes",
+   "authors": [
+    "Vida Dujmović",
+    "Cyril Gavoille",
+    "Gwenaël Joret",
+    "Piotr Micek",
+    "Pat Morin",
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "Extends the results in arXiv:2605.06616 to produce induced-universal graphs with $n^{1+o(1)}$ edges and vertices",
+   "abstract": "We show that, for every fixed proper minor-closed graph class $\\mathcal{G}$ and every positive integer $n$, there exists a graph $U_n$ with $n^{1+o(1)}$ vertices and edges such that every $n$-vertex graph in $\\mathcal{G}$ is isomorphic to an induced subgraph of $U_n$. This result generalizes and unifies the results of Dujmović et al. (J. ACM 2021) on induced-universal graphs and the results of Esperet, Joret, and Morin (J. London Math. Soc. 2023) on sparse induced-universal graphs from planar graphs to all proper minor-closed graph classes. It simultaneously improves the previous bounds for the number of vertices in induced-universal graphs (previously $O(n^2)$ obtained as a corollary of a result of DeVos et al. (J. Comb. Theory, Ser. {B} 2004) and a result of Gavoille and Labourel (ESA 2007)) and the number of edges in subgraph-universal graphs (previously $O(n^{3/2})$ by Babai et al. (Theory and Practice of Combinatorics 1982)).",
+   "abs": "https://arxiv.org/abs/2611.14194",
+   "pdf": "https://arxiv.org/pdf/2611.14194"
+  },
+  {
+   "id": "2611.13749",
+   "type": "new",
+   "title": "Beyond Frankl's conjecture: Maximum sum of sizes of cross-intersecting families with restricted conditions",
+   "authors": [
+    "Zhen Jia",
+    "Qing Xiang",
+    "Jimeng Xiao",
+    "Huajun Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages",
+   "abstract": "Let $\\mathcal{F}$ and $\\mathcal{G}$ be two families of subsets of $[n]$. We say that $\\mathcal{F}$ and $\\mathcal{G}$ are \\emph{cross-intersecting} if $F \\cap G \\neq \\emptyset$ for all $F \\in \\mathcal{F}$ and $G \\in \\mathcal{G}$. Let $n, k_1, k_2, m, r, t$ be positive integers satisfying $n > k_1 + k_2$. Suppose that $\\mathcal{F} \\subseteq \\binom{[n]}{k_1}$ and $\\mathcal{G} \\subseteq \\binom{[n]}{k_2}$ are two cross-intersecting families such that $\\left\\{F \\in \\binom{[n]}{k_1} : |F \\cap [m]| \\geq r\\right\\} \\subseteq \\mathcal{F}$ and $\\mathcal{F}$ is $t$-intersecting. In this paper, we determine the maximum sum $|\\mathcal{F}| + |\\mathcal{G}|$ under these assumptions. By taking $k_1=k_2+t-1$, $m = k_2+t+s-1$ and $r=k_2+t-1$ for $s\\ge 0$, our result recovers a conjecture of Frankl \\cite{frankl2016new}, which was recently confirmed by Wu, Feng, and Li \\cite{wu2025proof}. Further, we establish a complete characterization of all extremal families. Our approach extends the Ahlswede--Khachatrian generating set method to handle the simultaneous constraints of cross-intersection and $t$-intersection, subject to additional structural conditions.",
+   "abs": "https://arxiv.org/abs/2611.13749",
+   "pdf": "https://arxiv.org/pdf/2611.13749"
+  },
+  {
+   "id": "2611.13394",
+   "type": "new",
+   "title": "Edge-coloring spectra of odd-fold graph covers and counterexamples to a conjecture",
+   "authors": [
+    "Runze Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Comments are welcome!",
+   "abstract": "For a loopless multigraph $G$ and an odd integer $\\ell\\ge3$, let $\\Delta(G)$ be the maximum degree of $G$, let $s_\\ell(G)$ be the minimum chromatic index of a cyclic $\\ell$-fold cover of $G$, and let \\begin{align*} L_\\ell(G):=\\max\\left\\{ \\Delta(G),\\ \\max_{\\substack{S\\subseteq V(G)\\\\ |S|\\ge3\\text{ odd}}} \\left\\lceil\\frac{2\\ell|E(G[S])|}{\\ell|S|-1}\\right\\rceil \\right\\}. \\end{align*} In this paper, we prove the sharp upper bound \\begin{align*} s_\\ell(G)\\le\\max\\{\\Delta(G)+1,L_\\ell(G)\\}. \\end{align*} For every nonempty bridgeless cubic graph $H$, we construct two $3\\ell$-regular graphs, one a multigraph and the other a simple graph. In each case, the minimum chromatic indices over cyclic and over all $\\ell$-fold covers both equal the chromatic index of the multigraph obtained by replacing each edge of $H$ with $\\ell$ parallel edges. Taking $H$ to be the Petersen graph gives both multigraph and simple graph counterexamples to a conjecture of Chen, van der Holst, Luo, and Ma, which asserts that $s_\\ell(G)=L_\\ell(G)$ always holds. When $G$ is connected and $L_\\ell(G)>\\Delta(G)$, we determine the common spectrum of its connected cyclic and arbitrary $\\ell$-fold covers. We give polynomial-time algorithms to compute $L_\\ell(G)$ and the spectrum endpoints. For fixed $\\ell$, we also construct in polynomial time a connected cyclic cover with any prescribed chromatic index in the spectrum.",
+   "abs": "https://arxiv.org/abs/2611.13394",
+   "pdf": "https://arxiv.org/pdf/2611.13394"
+  },
+  {
+   "id": "2611.13479",
+   "type": "new",
+   "title": "Log-Concavity in Narayana Transforms and Stack-Sorting Fibers",
+   "authors": [
+    "Colin Defant"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages, 6 figures",
+   "abstract": "Given a permutation $\\pi$ of size $n$, let $D_\\pi(x)$ denote the descent polynomial of the fiber of $\\pi$ under West's stack-sorting map. We prove that $D_\\pi(x)$ is ultra-log-concave of order $n-1$ and, therefore, log-concave. More generally, we prove that a multivariate refinement of $D_\\pi(x)$ recording ascent tops and descent tops is the basis generating polynomial of a laminar matroid. We deduce a result about simplex integration from Brändén and Huh's theory and apply it to weighted matchings, obtaining a refinement of the log-concavity of $D_\\pi(x)$ that incorporates the peak statistic on the stack-sorting fiber of $\\pi$. These results imply the log-concavity of certain sums of products of Narayana polynomials over the lattice points of integral binary nestohedra. A complementary argument shows that replacing the monomials of a homogeneous real-stable polynomial with nonnegative coefficients by products of shifted Narayana polynomials produces a real-rooted polynomial; we discuss several applications. The results in this paper were formalized in Lean by AxiomProver.",
+   "abs": "https://arxiv.org/abs/2611.13479",
+   "pdf": "https://arxiv.org/pdf/2611.13479"
+  },
+  {
+   "id": "2611.13066",
+   "type": "new",
+   "title": "Monochromatic or rainbow triangles in the triangular lattice",
+   "authors": [
+    "Till Rauch-Müller",
+    "Arsenii Sagdeev"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages, 11 figures, no AI",
+   "abstract": "Erdős, Graham, Montgomery, Rothschild, Spencer, and Straus conjectured that for each non-equilateral triangle $\\operatorname{T}$, every 2-coloring of the plane contains a congruent copy of $\\operatorname{T}$ with monochromatic vertex set. We confirm this conjecture for triangles with a ratio $\\sqrt{7/3}$ between two side lengths. We further prove that every coloring of the plane, regardless of the number of colors used, contains congruent copies of 36 specific triangles with monochromatic or rainbow vertex sets, partially answering a question of Gehér, Sagdeev, and Tóth. Both these results were obtained by considering finite configurations on the triangular lattice.",
+   "abs": "https://arxiv.org/abs/2611.13066",
+   "pdf": "https://arxiv.org/pdf/2611.13066"
+  },
+  {
+   "id": "2611.14177",
+   "type": "new",
+   "title": "The elliptic Hall algebra and the combinatorics of affine Springer fibers",
+   "authors": [
+    "Donghyun Kim",
+    "Jaeseong Oh"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "Commments are welcome!",
+   "abstract": "For coprime positive integers $m,n$ and $k\\ge1$, we study the symmetric functions $e_k[-X^{m,n}Y]\\cdot1$ arising from the elliptic Hall algebra action. We identify their $\\omega_X$-transforms with the normalized bigraded Frobenius characteristics computed by Boixeda Alvarez--Hameister--Ma for the torus-equivariant Borel--Moore homology of the positive parts of homogeneous affine Springer fibers. We introduce cyclic LLT polynomials and determine their monomial expansions, yielding explicit monomial formulas for these elliptic Hall algebra expressions in terms of cyclic parking functions. These results extend the affine Springer fiber identity and monomial formula of Carlsson--Mellit from integral slopes to arbitrary positive rational slopes.",
+   "abs": "https://arxiv.org/abs/2611.14177",
+   "pdf": "https://arxiv.org/pdf/2611.14177"
+  },
+  {
+   "id": "2611.14178",
+   "type": "new",
+   "title": "Coxeter cubes on the graph associahedron and separable elements",
+   "authors": [
+    "Harrison Gimenez",
+    "SuHo Oh"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages, 7 figures",
+   "abstract": "A Coxeter cube is a Boolean lattice inside a finite Coxeter group $W$ such that every square is a Coxeter square in the sense of Dyer and Wang. A Coxeter cube of full dimension based at the identity, which we call a based cube, is the same as a partition of the positive roots into inversion sets with one simple root in each block. These partitions were studied by Dimitrov, Gigliotti, Ossip, Paquette and Wehlau under the name of fine decompositions, and by Hohlweg and Pons as partitions of $w_0$. We show that the based cubes of $W$ form a point configuration in the graph associahedron $K(\\Gamma)$ of the Coxeter diagram $\\Gamma$ of $W$. The vertices of $K(\\Gamma)$ are the based cubes whose blocks are parabolic. Every other based cube lies in the interior of an edge or of a cubical face, and we count the based cubes on each edge using the Coxeter arrangement. We also characterize the elements of $W$ that occur as vertices of based cubes. For the cubes at the vertices of $K(\\Gamma)$ these are exactly the separable elements of Gaetz and Gao, and for arbitrary based cubes they satisfy a similar condition.",
+   "abs": "https://arxiv.org/abs/2611.14178",
+   "pdf": "https://arxiv.org/pdf/2611.14178"
+  },
+  {
+   "id": "2611.13693",
+   "type": "new",
+   "title": "Rotating Walks, Derandomized Squares, and Permutation Conjugated Walks",
+   "authors": [
+    "Vedat Levi Alev",
+    "Shravas Rao"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Using the recent strong convergence results of Bordenave and Collins (Annals of Mathematics) and Chen et al. (Annals of Mathematics), we study the average case behavior of rotating random walks of Cohen and Maor (STOC 2023) and the derandomized square construction of Rozenman and Vadhan (RANDOM 2005). Concretely, we prove a conjecture of Cohen et al. (ITCS 2025) regarding the average case behavior of derandomized squaring for random graphs and show that the existential bounds of Cohen and Maor for their rotating random walk construction hold with high-probability for random graphs. Using the results of O'Donnell and Wu (FOCS 2020), we can in polynomial time construct a family of graphs and rotations which almost saturate the bounds of Cohen and Maor, and meet the bounds conjectured by Cohen et al. for all vertex-transitive auxiliary graphs of fixed degree in the derandomized square. Finally, we study independent random permutation conjugates of deterministic regular graph adjacency matrices. We prove quantitative weak convergence to freely independent tree adjacency operators when the degrees are fixed and the girths tend to infinity. Separately, a covering argument gives deterministic spectral lower bounds for polynomials with non-negative coefficients, recovering the lower bound of Cohen et al. for rotating walks.",
+   "abs": "https://arxiv.org/abs/2611.13693",
+   "pdf": "https://arxiv.org/pdf/2611.13693"
+  },
+  {
+   "id": "2611.14131",
+   "type": "new",
+   "title": "Euclidean Ramsey Theory for Lines and Finite Configurations",
+   "authors": [
+    "Ryan Hoff",
+    "Gary Hu",
+    "Yumo Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Comments welcome!",
+   "abstract": "A classical question in Euclidean Ramsey theory, posed by Erdős, Graham, Montgomery, Rothschild, Spencer, and Straus, asks which finite configurations $X\\subset\\mathbb E^2$ must appear in blue under every red--blue coloring of the plane having no red pair of points distance one apart. For $m \\ge 2$, let $\\ell_m$ denote the line of $m$ points with consecutive points distance one apart. Tsaturian showed that $\\ell_5$ is unavoidable; we improve this to $\\ell_7$. Additionally, we show that in every three-coloring of the plane in which two colors contain no $\\ell_2$, the third color must contain an $\\ell_3$. To conclude our discussion on lines, we prove several related results on two-colorings of higher-dimensional Euclidean spaces where both colors avoid longer lines. Our methods also extend to other point configurations. In any two-coloring of the plane in which one color contains no $\\ell_2$, we show that the other color must contain both a regular pentagon of side length one and a unit square together with its center. We also prove that every two-coloring of three-dimensional space contains either a monochromatic unit square or a monochromatic noncoplanar tetrahedron with four edges of length one and two of length $\\sqrt{2}$. Our proofs combine Székely's averaging inequalities for distance-avoiding sets with the Fourier-analytic and linear-programming methods of de Oliveira Filho and Vallentin, together with a theorem on rotation-invariant measures from OpenAI's recent work on the Hadwiger-Nelson problem.",
+   "abs": "https://arxiv.org/abs/2611.14131",
+   "pdf": "https://arxiv.org/pdf/2611.14131"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 57,
+ "listed_cross": 19
+}
