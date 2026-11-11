@@ -1,0 +1,581 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T09:46:13Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 94,
+ "screened_new": 68,
+ "screened_cross": 26,
+ "scored": 94,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.11593",
+   "type": "new",
+   "title": "Kronecker coefficients of large degree and Littlewood-Richardson inequalities",
+   "authors": [
+    "Zachary Slonim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages. Includes a Declaration of AI use",
+   "abstract": "We prove that Kronecker coefficients are uniformly asymptotic to $f^\\lambda f^\\mu f^\\nu/n!$ when all three irreducible dimensions are at least $\\sqrt{n!}\\,e^{-A\\sqrt n}$, for any fixed $A>0$. This strengthens a conjecture of Pak, Panova and Yeliussizov. For triple staircase and triple square partitions, we obtain relative asymptotics with respective limiting factors $e^{-1/24}$ and $e^{-1/3}$. For Littlewood-Richardson (LR) coefficients, we bound the sum of the three dimension deficits by the LR coefficient deficit times $O(\\log n)$, proving their Conjecture 5.5 and extending it to arbitrary fixed size proportions. We also construct vanishing LR coefficients with three Plancherel dimension sequences and determine the exact stabilization threshold of the largest LR coefficient with one input size fixed.",
+   "abs": "https://arxiv.org/abs/2611.11593",
+   "pdf": "https://arxiv.org/pdf/2611.11593"
+  },
+  {
+   "id": "2611.10408",
+   "type": "cross",
+   "title": "Sharp Logarithmic-Product Bounds for List Replicability of Sign Matrices",
+   "authors": [
+    "Guangjian Zhang"
+   ],
+   "categories": [
+    "cs.LG",
+    "math.CO"
+   ],
+   "primary": "cs.LG",
+   "comments": "292 pages",
+   "abstract": "List replicability measures how many accurate hypotheses suffice to contain the output of a learning rule with arbitrarily high confidence. We prove that every nonempty class of $m$ binary concepts on $n$ domain points has list replicability at most $805\\ln(2m)\\ln(2n)$. This resolves the logarithmic-product conjecture of Blondal, Hatami, Hatami, Lalov, and Tretiak. Hanner matrices give lower bounds of the same order, for square matrices and for explicit families with unequal logarithmic aspect ratios. The upper bound is obtained by constructing nested acyclic sets in the faces of a cube. A critical-point estimate supplies highly connected regions, weighted cell attachments keep the sets compatible across faces, and a cubical carrier theorem converts them into accurate finite covers and learning rules. Appending one constant coordinate turns list replicability into an exact geometric quantity, the face width, and graph-orientation classes satisfy exact product formulas. In particular, there are explicit classes with list replicability $4k+1$ and equivariant index $3k$, so the additive gap between the two is unbounded. We also develop entropy-tilting and two-sided Gibbs constructions, give combinatorial upper bounds adapted to structured matrices, compute exact values on classical families, and study the index of Paley matrices.",
+   "abs": "https://arxiv.org/abs/2611.10408",
+   "pdf": "https://arxiv.org/pdf/2611.10408"
+  },
+  {
+   "id": "2611.11677",
+   "type": "cross",
+   "title": "The cohomology of finite simple groups is unbounded",
+   "authors": [
+    "Chris Bowman",
+    "Damian de la Fuente",
+    "Nicolas Libedinsky",
+    "David Plaza"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.GR",
+   "comments": "",
+   "abstract": "In every fixed positive degree, we show that the cohomology of finite simple groups, algebraic groups and quantum groups, with coefficients in simple modules, can have arbitrarily large dimension. In particular, we disprove Guralnick's conjecture.",
+   "abs": "https://arxiv.org/abs/2611.11677",
+   "pdf": "https://arxiv.org/pdf/2611.11677"
+  },
+  {
+   "id": "2611.10654",
+   "type": "new",
+   "title": "A Lie-theoretic approach to the type $C_n^{(1)}$ partitions of Capparelli, Meurman, Primc and Primc",
+   "authors": [
+    "Xiangyu Ding"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Capparelli, Meurman, Primc and Primc (CMPP) extended the frequency conditions in Gordon's partition theorem to paths in coloured arrays. Their conjecture for type $C_n^{(1)}$ identifies the generating function of admissible arrays with a principally specialized character. We prove this conjecture for arbitrary boundary data by constructing an ordered Poincaré--Birkhoff--Witt (PBW) basis of the corresponding integrable highest weight module. A decomposition of the admissible arrays and a tensor product argument establish linear independence of the corresponding monomial vectors. To prove spanning, we use relations from annihilating fields and PBW bases for modules over finite Levi subalgebras. Principal specialization then yields the conjectured product. The same basis identifies the number of parts with the degree in the associated graded module for the PBW filtration.",
+   "abs": "https://arxiv.org/abs/2611.10654",
+   "pdf": "https://arxiv.org/pdf/2611.10654"
+  },
+  {
+   "id": "2611.12453",
+   "type": "new",
+   "title": "Exact local spectral thresholds for loose and tight Hamilton cycles in $3$-graphs",
+   "authors": [
+    "Pei Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "49 pages, 1 figure",
+   "abstract": "For an $n$-vertex $3$-uniform hypergraph $H$, let $\\sigma(H)$ denote the minimum adjacency spectral radius of its vertex links. We determine the exact thresholds for $\\sigma(H)$ that force loose and tight Hamilton cycles for all sufficiently large admissible orders, and give constructions showing that each bound is best possible. The loose threshold is $(1+\\sqrt{13})n/8+O(1)$, with two forms according to $n$ modulo four. The tight threshold is $2n/3+O(1)$, with four forms determined by $n$ modulo three and, when $3\\mid n$, modulo nine. The resulting spectral conditions and the corresponding minimum vertex degree conditions do not imply one another. For loose cycles, we combine fractional packing stability and absorption with exact completion near a space barrier. For tight cycles, spectral stability and rooted sampling reduce the problem to three extremal configurations. We resolve these configurations by controlling the spectral loss caused by missing triples and constructing short paths that extend to Hamilton cycles, including in the presence of exceptional vertices.",
+   "abs": "https://arxiv.org/abs/2611.12453",
+   "pdf": "https://arxiv.org/pdf/2611.12453"
+  },
+  {
+   "id": "2611.12582",
+   "type": "new",
+   "title": "Exact codegree Turán densities of even zycles",
+   "authors": [
+    "Shuaichao Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We determine the exact codegree Turán density of the $3$-uniform zycle $Z_\\ell$ for every even integer $\\ell\\ge 8$ with $3\\nmid\\ell$,showing that $\\gamma(Z_\\ell)=1/3$. More generally, we prove that $\\gamma(Z_\\ell)\\le 1/3$ for all even $\\ell\\ge 8$. Our results partially answer a question of Piga and Schülke [Bull. Lond. Math. Soc. 58 (2026), e70348] concerning the sharpness of their upper bound of $1/2$.",
+   "abs": "https://arxiv.org/abs/2611.12582",
+   "pdf": "https://arxiv.org/pdf/2611.12582"
+  },
+  {
+   "id": "2611.11970",
+   "type": "new",
+   "title": "Five-Entropic Matroids Are Quinary",
+   "authors": [
+    "Mohammad Hossein Kalantari",
+    "Shahram Khazaei"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A finite matroid is representable over a field if its elements can be assigned vectors over that field such that the rank of every subset equals the dimension of the span of its vectors. For an integer q >= 2, a matroid is q-entropic if there exists a random vector indexed by its ground set, with each coordinate taking values in a common q-element alphabet, such that the entropy of every marginal subvector equals the rank of the corresponding subset multiplied by log q. It remains open to determine for which values of q every q-entropic matroid is representable over a field. For q=2 and q=3, representability over F_q has long been known. More recently, it was established that every 4-entropic matroid is representable over F_4 and that the 6-entropic matroids are precisely the regular matroids, that is, those representable over every field. We settle the previously unresolved five-symbol case, proving that a finite matroid is 5-entropic if and only if it is representable over F_5. For the nontrivial implication, we use Matúš's equivalence between entropic and partition representations. We show that a degree-five partition representation induces, on each embedded U_{2,4}-minor, an F_5-linear representation after coordinatewise relabeling, with a rescaling class independent of the chosen linearization. Using the foundation presentation of Baker and Lorscheid, we verify the compatibility relations among these local classes and thereby obtain a global F_5-representation.",
+   "abs": "https://arxiv.org/abs/2611.11970",
+   "pdf": "https://arxiv.org/pdf/2611.11970"
+  },
+  {
+   "id": "2611.12330",
+   "type": "new",
+   "title": "Cut Conditions, Integrality, and Obstructions for Directed Multiflows",
+   "authors": [
+    "Srinwanti Debgupta",
+    "Martin Skutella",
+    "Philipp Warode"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In contrast to the max-flow/min-cut theorem for single-commodity flows, the cut condition is necessary but not sufficient for the existence of directed multiflows, even with only two commodities. Poremba and Shepherd (IPCO 2023) conjecture that the cut condition is sufficient for all capacities and demands on a directed two-commodity topology if and only if it contains neither of two specific topologies as a relevant minor. We prove this conjecture. As a consequence, the fractional and integral flow-cut gaps of every directed two-commodity topology coincide and are either 1 or 2. We then investigate stronger necessary conditions for multiflow feasibility and their implications for integrality. We introduce a hierarchy of five conditions, ranging from the classical cut condition through conditions based on blocking edge sets and binary edge lengths to the linear programming dual characterization of fractional feasibility. The corresponding classes of sufficient topologies are strictly nested. We extend the Nagamochi-Ibaraki theorem: whenever one of the first four conditions is sufficient on a topology, integral capacities and demands satisfying that condition admit an integral multiflow, computable in polynomial time. Finally, we prove that recognizing topologies on which any of these four conditions is sufficient is coNP-complete, even for two commodities.",
+   "abs": "https://arxiv.org/abs/2611.12330",
+   "pdf": "https://arxiv.org/pdf/2611.12330"
+  },
+  {
+   "id": "2611.12451",
+   "type": "new",
+   "title": "A proof of the Theta conjecture",
+   "authors": [
+    "Haojun Bai",
+    "Feng Gu",
+    "Zhuowei Lin",
+    "Dun Qiu",
+    "Minhao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "61 pages, 2 figures",
+   "abstract": "We prove the touching refinement of the Theta conjecture of Interdonato and Iraci, giving a formula for $\\Theta_{e_\\ell}\\Theta_{e_k}\\nabla E_{d,j}$ as a weighted sum over parking functions with decorated rises and valleys and touch number $j$. Summing over $j$ gives the Theta conjecture. As corollaries, we prove the valley Delta conjecture of Haglund, Remmel, and Wilson and its generalized version proposed by Qiu and Wilson. Our proof compares algebraic and combinatorial recurrences using an extension of the plethystic substitution $X\\mapsto(q-1)X$ to quasisymmetric functions. The algebraic recurrence follows from an endomorphism constructed by D'Adderio, Interdonato, Iraci and Pagaria on the Dyck path algebra of Carlsson and Mellit. The combinatorial recurrence is obtained by introducing signed labels and deleting the main diagonal. The two recurrences have the same initial conditions, which identifies the corresponding generating functions.",
+   "abs": "https://arxiv.org/abs/2611.12451",
+   "pdf": "https://arxiv.org/pdf/2611.12451"
+  },
+  {
+   "id": "2611.11414",
+   "type": "new",
+   "title": "The strong cylinder conjecture and Rédei's factorization conjecture in three dimensions",
+   "authors": [
+    "Haihua Deng",
+    "Weicong Li",
+    "Weiye Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "44 pages, comments are welcome",
+   "abstract": "In this paper, we prove the strong cylinder conjecture, that is, for every prime $p$, a set of $p^2$ points in $\\mathbb F_p^3$ that meets every affine plane in a multiple of $p$ points is a union of $p$ distinct parallel affine lines. We use this result to resolve Rédei's 1970 factorization conjecture in three dimensions: if $A,B\\subseteq\\mathbb F_p^3$ contain zero and every vector in $\\mathbb F_p^3$ has a unique expression $a+b$ with $a\\in A$ and $b\\in B$, then one of the two sets is contained in a plane through zero.",
+   "abs": "https://arxiv.org/abs/2611.11414",
+   "pdf": "https://arxiv.org/pdf/2611.11414"
+  },
+  {
+   "id": "2611.12172",
+   "type": "new",
+   "title": "A Rooted Structure Theorem for $5$-Connected Graphs and $K_6^-$-Minors",
+   "authors": [
+    "Ken-ichi Kawarabayashi",
+    "Alexandre Simon"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 12 figures",
+   "abstract": "Jorgensen conjectured that every $6$-connected graph with no $K_6$-minor is apex. For a $6$-connected graph containing a $K_4$ on vertices $a_1,\\dots,a_4$, being apex is equivalent to $G-a_i$ having a planar embedding with the other three roots on a common face for some $i$, so that for such graphs the conjecture becomes a rooted planarity statement. Robertson, Seymour, and Thomas showed that the failure of the corresponding three-rooted planarity is witnessed by a legless tripod. We introduce a four-root structure, called a frame, that extends this certificate, and prove a structural theorem: every $5$-connected graph containing a frame rooted at four prescribed vertices contains a subgraph of one of five explicit types, denoted $A$--$E$. This theorem does not depend on the edges among the roots. As an application, we show that when the four roots span a $K_4^-$, each of the five configurations yields a $K_6^-$-minor. Together with a planar argument for the case without a frame and an induction based on a theorem of Kawarabayashi, this gives a proof that every non-planar $5$-connected graph contains a $K_6^-$-minor. This statement also follows from a recent theorem of Lo; our proof is independent and is driven by the rooted structure theorem, whose method we expect to apply to Jorgensen's conjecture with other target configurations.",
+   "abs": "https://arxiv.org/abs/2611.12172",
+   "pdf": "https://arxiv.org/pdf/2611.12172"
+  },
+  {
+   "id": "2611.11280",
+   "type": "new",
+   "title": "Impropriety and resilience of the chromatic number",
+   "authors": [
+    "Ross J. Kang",
+    "Colin McDiarmid"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "We show that, for $p$ bounded away from $1$ and $np\\to\\infty$, the chromatic number of the binomial random graph $G_{n,p}$ is resilient to removal of a subgraph $H$ with $o(n \\log(np))$ edges. It follows that the same assertion holds with $H$ being a subgraph of maximum degree $o(\\log(np))$; and both these results are best possible up to a constant factor. We also prove corresponding results for the random $r$-regular graph $G_{n,r}$, when $r\\to\\infty$ and $r/n$ is bounded away from $1$, where $H$ has $o(n\\log r)$ edges or maximum degree $o(\\log r)$. Our results rely on a natural connection between chromatic resilience to edge removal and improper graph colouring. This work provides counterpoint to the work of Sudakov and Vu (2008) and Alon and Sudakov (2010), which treated chromatic resilience for $G_{n,p}$ subject to the addition, rather than removal, of edges.",
+   "abs": "https://arxiv.org/abs/2611.11280",
+   "pdf": "https://arxiv.org/pdf/2611.11280"
+  },
+  {
+   "id": "2611.11002",
+   "type": "cross",
+   "title": "The Herzog--Schönheim Conjecture for Solvable Groups",
+   "authors": [
+    "Murali Menon"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "",
+   "abstract": "The Herzog--Schönheim conjecture states that if a group is partitioned into finitely many, and at least two, cosets of subgroups, then two of these subgroups have the same index. We prove the conjecture for all solvable groups, finite or infinite. Sun's bound on unions of cosets, applied in a quotient, is combined with divisibility restrictions on local indices relative to the subgroup generated by the $p$-elements, where $p$ is the largest prime divisor of the order of a minimal counterexample. These restrictions are obtained by counting fixed points in a primitive solvable quotient. This suffices except at the prime $7$, where the counting bound narrowly fails and an additional overlap argument is needed. The proof has been formalized in Lean~4 with mathlib.",
+   "abs": "https://arxiv.org/abs/2611.11002",
+   "pdf": "https://arxiv.org/pdf/2611.11002"
+  },
+  {
+   "id": "2611.12199",
+   "type": "new",
+   "title": "Hilton's Conjecture on Uncomplemented Incomparable Families",
+   "authors": [
+    "Yuejian Peng",
+    "Zilong Yan",
+    "Cheng Zhao"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A family ${\\mathcal A}\\subseteq 2^{[n]}$ is \\emph{uncomplemented} if it contains no set together with its complement. Families ${\\mathcal A}_1,\\ldots,{\\mathcal A}_t$ are \\emph{strongly incomparable} if every set in one family is incomparable with every set in another family. In 1976, Hilton conjectured that if ${\\mathcal A}_1,\\ldots,{\\mathcal A}_t\\subseteq 2^{[n]}$ are uncomplemented and strongly incomparable, then $$\\sum_{i=1}^t |{\\mathcal A}_i|\\le 2^{n-1}.$$ We confirm this conjecture by a matrix rank argument that encodes incomparability and uncomplementedness in the same matrix, which is quite different from the earlier methods on this problem. We also study weak incomparability, in which the same set may occur in different families. Goldwasser, Hilton and Zheng conjectured an upper bound in this setting and claimed that their conjecture is equivalent to Hilton's conjecture. We give counterexamples to their conjecture for every $t\\ge3$ and identify the error in the claimed equivalence. We then propose a replacement conjecture and confirm it when $t$ is large. The upper bound $2^{n-1}$ in Hilton's conjecture can be attained if some families are allowed to by empty. It is natural to consider the maximum size of $\\sum_{i=1}^t |{\\mathcal A}_i|$ for uncomplemented and strongly incomparable families ${\\mathcal A}_1,\\ldots,{\\mathcal A}_t\\subseteq 2^{[n]}$ when all families are required to be non-empty. Denote this maximum number by $M(n,t)$. We show that \\[ 2^{n-1}-1\\le M(n,t)\\le 2^{n-1} \\] for $n\\ge3$ and $3\\le t\\le n$.",
+   "abs": "https://arxiv.org/abs/2611.12199",
+   "pdf": "https://arxiv.org/pdf/2611.12199"
+  },
+  {
+   "id": "2611.11476",
+   "type": "cross",
+   "title": "On the Complexity of Extending Prescribed Linear Forests to Hamiltonian Cycles in Hypercubes",
+   "authors": [
+    "Huazhong Lü",
+    "Tingzeng Wu"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "",
+   "abstract": "Let $Q_n$ be the $n$-dimensional hypercube, and let $P\\subseteq E(Q_n)$ be a set of prescribed edges. It is known that, for $n\\ge 2$, every such set $P$ with $|P|\\leq 2n-3$ whose edges form a linear forest is contained in a Hamiltonian cycle of $Q_n$. This bound is sharp for general linear forests. The computational complexity of deciding whether a prescribed edge set of a hypercube can be extended to a Hamiltonian cycle was posed as an open question by Dvořák [SIAM J. Discrete Math. 19 (2005) 135--144]. We prove that the problem is NP-complete even when the prescribed edges form a spanning linear forest with no isolated vertices. We give a polynomial-time reduction from a restricted 3-SAT problem, using local spanning path-forest gadgets for variables and clauses that are uniformly embedded in the hypercube. The same reduction therefore establishes NP-hardness of two versions of Hamiltonian-cycle extension problems for general prescribed edge sets.",
+   "abs": "https://arxiv.org/abs/2611.11476",
+   "pdf": "https://arxiv.org/pdf/2611.11476"
+  },
+  {
+   "id": "2611.12519",
+   "type": "new",
+   "title": "Chvátal's Toughness Conjecture for Dense Almost Regular Graphs",
+   "authors": [
+    "Songling Shan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Chvátal's toughness conjecture asserts that there is a constant $t_0$ such that every $t_0$-tough graph on at least three vertices is Hamiltonian. Most partial results on this conjecture concern graphs with a restricted structure, such as chordal graphs and $H$-free graphs for small linear forests $H$. We confirm the conjecture with $t_0=4$ for dense almost regular graphs, without any structural assumption: for every $\\alpha>0$, there exist $\\varepsilon>0$ and $n_0$ such that every $4$-tough graph $G$ on $n\\ge n_0$ vertices with $\\delta(G)\\ge\\alpha n$ and $\\Delta(G)-\\delta(G)\\le\\varepsilon n$ is Hamiltonian. This result also bears on a conjecture of Bollobás and, independently, Häggkvist from the 1970s that every $k$-connected $D$-regular graph on $n$ vertices with $D\\ge n/(k+1)$ is Hamiltonian. This conjecture is false for every $k\\ge4$, even for large $n$. Our result shows that its conclusion holds for all large $n$ when $k$-connectivity is replaced by $4$-toughness, and that the degree condition can then be weakened to $D\\ge\\alpha n$ for an arbitrarily small fixed $\\alpha>0$. We also construct $3/2$-tough regular non-Hamiltonian graphs of linear degree, showing that the constant $4$ cannot be replaced by $3/2$.",
+   "abs": "https://arxiv.org/abs/2611.12519",
+   "pdf": "https://arxiv.org/pdf/2611.12519"
+  },
+  {
+   "id": "2611.12055",
+   "type": "new",
+   "title": "Equality in the direction bound over prime fields",
+   "authors": [
+    "Peter Sziklai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $p$ be prime. We prove that a noncollinear set of $2m+1\\le p$ points in $\\AG(2,p)$ determines exactly $m+2$ directions if and only if, up to an affine transformation, it consists of the origin and a coset of a multiplicative subgroup of order $m$ on each coordinate axis. Thus equality is possible precisely when $m\\mid p-1$. This extends the Lovász--Schrijver classification for $2m+1=p$.",
+   "abs": "https://arxiv.org/abs/2611.12055",
+   "pdf": "https://arxiv.org/pdf/2611.12055"
+  },
+  {
+   "id": "2611.10624",
+   "type": "cross",
+   "title": "A Simple Computer-Assisted Proof of the 5/6-Bound for Real-Period Pinwheel Scheduling",
+   "authors": [
+    "Hiroshi Fujiwara",
+    "Grzegorz Gutowski",
+    "Katsuhisa Ouchi",
+    "Alexander Wolff"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "In pinwheel scheduling with real periods, an instance consists of $n$ tasks with real periods $1\\le a_1\\le a_2\\le\\cdots\\le a_n$. The goal is to find a schedule that assigns one task to each day indefinitely such that, for every task $i\\in\\{1,\\dots,n\\}$ and every positive integer $\\ell$, task $i$ occurs at least $\\ell$ times in every block of $\\lceil\\ell a_i\\rceil$ consecutive days. Given an instance $(a_1,a_2,\\dots,a_n)$, its dimension is $n$, its density is $\\sum_{i=1}^n1/a_i$, and its potential is $\\sum_{i=1}^{n-1}1/a_i$. We prove that every real-valued instance of density at most 5/6 admits a periodic schedule of period length less than $4\\cdot2^n$. For integer periods, the 5/6 density bound was a long-standing conjecture settled by Kawamura using a computer-assisted proof [STOC 2024, PNAS 2026]. Our result confirms the real-period conjecture of Fujiwara, Miyagi, and Ouchi [DMTCS 2026]. Our computer-assisted proof builds on Kawamura's ideas while using fewer explicit schedules. It combines dimension reduction by folding with nine satisfiability modulo theories (SMT) checks over linear real arithmetic. A set of 14287 explicit periodic schedules contains a schedule for every instance of dimension at most 8 and density at most 5/6, and for every instance of dimension 9 and potential at most 5/6. Folding is used to reduce every instance of larger dimension and potential at most 5/6 to an instance of dimension 9 and the same potential bound. We also prove that every real-valued instance with minimum period at least 4 and density at most 17/20=0.85 admits a periodic schedule of period length less than $19\\cdot2^n$. The density bound 17/20 is tight and improves the 0.84-bound of Mishra, Rho, and Kleinberg [arXiv 2025] for integer periods. It also resolves the $a_1=4$ case of Kawamura's 2025 conjecture that integer-valued instances of density at most $1-(a_1-1)/(a_1(a_1+1))$ are schedulable.",
+   "abs": "https://arxiv.org/abs/2611.10624",
+   "pdf": "https://arxiv.org/pdf/2611.10624"
+  },
+  {
+   "id": "2611.12153",
+   "type": "new",
+   "title": "The strong cylinder conjecture over prime fields",
+   "authors": [
+    "Peter Sziklai"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $p$ be prime and let $S\\subseteq\\mathbb F_p^3$ have $p^2$ points, with every affine plane meeting $S$ in a multiple of $p$ points. We give a self-contained argument that $S$ is a union of $p$ parallel lines.",
+   "abs": "https://arxiv.org/abs/2611.12153",
+   "pdf": "https://arxiv.org/pdf/2611.12153"
+  },
+  {
+   "id": "2611.11205",
+   "type": "new",
+   "title": "Independence number and odd dominating models",
+   "authors": [
+    "Ken-ichi Kawarabayashi",
+    "David R. Wood",
+    "Jung Hon Yip"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "v1",
+   "abstract": "A dominating $K_t$-model, introduced by Illingworth and Wood [J. Graph Theory, 2025], is a sequence $(T_1,\\dots,T_t)$ of pairwise vertex-disjoint subtrees of $G$ such that every vertex of $T_j$ has a neighbour in $T_i$ for $1\\leq i<j\\leq t$. Let $\\text{had}_{\\text{d}}(G)$ denote the maximum order of such a model. We prove two dominating-model analogues of improvements to the classical Duchet-Meyniel bound [Ann. Discrete Math., 1982]. The first extends a result of Kawarabayashi, Plummer, and Toft [J. Combin. Theory Ser. B, 2005]. Every $n$-vertex graph $G$ with $\\alpha(G)\\geq2$ satisfies $\\text{had}_{\\text{d}}(G)\\geq(n+\\omega(G))/(2\\alpha(G)-1)$. Second, we prove a constant-factor improvement of the Duchet-Meyniel bound for dominating models: every graph $G$ satisfies $\\text{had}_{\\text{d}}(G)>0.51075n/\\alpha(G)$. This qualitatively extends the results of Fox [SIAM J. Discrete Math., 2010] and Balogh and Kostochka [Discrete Math., 2011]. An odd dominating $K_t$-model is a dominating $K_t$-model with an assignment of one of two colours to each vertex of $V(T_1)\\cup\\dots\\cup V(T_t)$, such that every edge of each $T_i$ is bichromatic and, for $1\\leq i<j\\leq t$, some edge between $T_i$ and $T_j$ is monochromatic. Let $\\text{had}_{\\text{od}}(G)$ denote the maximum order of such a model. Our constant-factor improvement of the Duchet-Meyniel bound relies on our next result: every claw-free graph $G$ satisfies $\\text{had}_{\\text{od}}(G)\\geq 2\\chi(G)/3$, generalising a result of Chudnovsky and Fradkin [J. Graph Theory, 2010]. The factor 2/3 is asymptotically best possible. For $t\\geq2$, we prove that every $n$-vertex graph with no odd dominating $K_t$-model has independence number at least $(n+t-1)/(2t-2)$. For the stronger notion in which every vertex of $T_j$ has a neighbour of the same colour in $T_i$, we prove the analogous results with $(n+t-1)/(2t-2)$ replaced by $(n+t-1)/(3t-3)$.",
+   "abs": "https://arxiv.org/abs/2611.11205",
+   "pdf": "https://arxiv.org/pdf/2611.11205"
+  },
+  {
+   "id": "2611.10919",
+   "type": "new",
+   "title": "Vertex splitting, global rigidity and nondegenerate equilibrium stresses",
+   "authors": [
+    "James Cruickshank"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove Whiteley's conjecture that every nontrivial vertex split of a generically globally rigid graph preserves generic global rigidity in \\(\\mathbb{R}^d\\), for all \\(d\\geq1\\). We give two proofs of the stronger assertion that the split graph is infinitesimally rigid at every generic coincident realisation of the two split vertices. Both proofs use maximum-rank equilibrium stress matrices and then apply the coincident-rigidity criterion of Cruickshank, Jackson and Tanigawa. The second construction also shows that every generically globally rigid graph admits a nondegenerate equilibrium stress of maximum rank at every generic realisation, establishing a conjecture of Jordán and Tanigawa.",
+   "abs": "https://arxiv.org/abs/2611.10919",
+   "pdf": "https://arxiv.org/pdf/2611.10919"
+  },
+  {
+   "id": "2611.11345",
+   "type": "new",
+   "title": "Extremal graphs for Alon's graph coupon-collector conjecture",
+   "authors": [
+    "Xingchao Deng",
+    "Guoqing Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15pages",
+   "abstract": "Let \\(G\\) be a finite simple graph without isolated vertices. Starting with every vertex uncovered, at each step sample a vertex uniformly and independently and cover one of its uncovered neighbors, chosen uniformly, if any. Let \\(\\cc(G)\\) denote the expected number of steps required to cover all vertices. Alon conjectured that disjoint unions of \\(K_{d+1}\\) maximize \\(\\cc(G)\\) among \\(d\\)-regular graphs of a prescribed order whenever such unions exist. In this paper, we disprove this conjecture for every fixed \\(d\\ge2\\) and give a complete characterization of the extremal graphs for \\(d=2\\) at every order \\(n\\ge3\\). In particular, all but at most six vertices of any such extremal graph lie in four-cycle components.",
+   "abs": "https://arxiv.org/abs/2611.11345",
+   "pdf": "https://arxiv.org/pdf/2611.11345"
+  },
+  {
+   "id": "2611.12444",
+   "type": "new",
+   "title": "Sampling Colorings on $G(n, d/n)$ via Glauber Dynamics",
+   "authors": [
+    "Leon Schiller"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DS",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the mixing time of Glauber dynamics for sampling uniformly from the proper $q$-colorings of sparse Erdős-Rényi random graphs $G(n,d/n)$. Our main result establishes that with probability $1-o(1)$ over the draw of $G$, Glauber dynamics is rapidly mixing for every $q\\geq d+d^{1/2+\\varepsilon}$, given any fixed $0<\\varepsilon\\leq1/2$ and any sufficiently large fixed $d$. In particular, the surplus of colors above $d$ is sublinear and close to $\\sqrt{d}$. The achieved color range therefore approaches the tree uniqueness threshold and improves over the previously best achievable number of colors $q > 1.763 d$ due to Efthymiou, Hayes, Stefankovic, and Vigoda [SODA 2018]. Moreover, our mixing-time bound is $O(n^{2+o_d(1)})$, and hence almost quadratic as $d\\rightarrow\\infty$. Our proof is based on establishing a spectral gap for block dynamics resulting from a suitable decomposition of $G(n,d/n)$ into blocks and singleton vertices, ensuring that every high-degree vertex is encapsulated within a block. Our main technical contribution is a novel way of establishing rapid mixing of block dynamics via an integrated Bochner-Bakry-Émery approach, which we expect to have applications beyond sampling colorings. We further devise a new block decomposition of $G(n,d/n)$ that strengthens and simplifies similar constructions used in previous work. Finally, to compare block and Glauber dynamics, we establish a novel recursive separator decomposition of tree-like blocks, together with a coupling argument that avoids the need for nearly uniform color marginals at vertices adjacent to hubs. This comparison argument might be of independent interest.",
+   "abs": "https://arxiv.org/abs/2611.12444",
+   "pdf": "https://arxiv.org/pdf/2611.12444"
+  },
+  {
+   "id": "2611.11187",
+   "type": "new",
+   "title": "The $(t-1)$-chromatic Ramsey number of cycles for three colours",
+   "authors": [
+    "Amir Khamseh",
+    "Mohammad Hassan Safareh"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For integers $t\\ge 2$ and $\\ell\\ge 3$, let $R^t_{t-1}(C_\\ell)$ be the least integer $n$ such that every colouring of the edges of $K_n$ with $t$ colours contains a cycle of length $\\ell$ whose edges use at most $t-1$ colours. Bucić and Khamseh determined the analogous number for paths and asked for its value for cycles. We answer this question for three colours: we show that $R^3_2(C_\\ell)=\\ell+\\lfloor(\\ell+1)/6\\rfloor$ for every $\\ell\\ge 11$, and we determine the values for $3\\le \\ell\\le 10$.",
+   "abs": "https://arxiv.org/abs/2611.11187",
+   "pdf": "https://arxiv.org/pdf/2611.11187"
+  },
+  {
+   "id": "2611.10899",
+   "type": "cross",
+   "title": "New lower bounds for even and odd values of the partition function",
+   "authors": [
+    "Liuquan Wang"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "15 pages",
+   "abstract": "Let $N_{\\mathrm{odd}}(X)$ and $N_{\\mathrm{even}}(X)$ denote the numbers of integers $0\\leq n< X$ for which the ordinary partition function $p(n)$ is odd and even, respectively. The Parkin--Shanks conjecture predicts that $N_{\\mathrm{odd}}(X)$ and $N_{\\mathrm{even}}(X)$ are both asymptotic to $X/2$. Bellaïche and Nicolas proved that $N_{\\mathrm{even}}(X)\\gg \\sqrt{X} \\log \\log X$, while Zheng, building on work of Ono and Swaminathan, recently proved that $N_{\\mathrm{odd}}(X)\\gg \\sqrt{X}$. We improve both bounds simultaneously by proving $\\min\\{N_{\\mathrm{odd}}(X), N_{\\mathrm{even}}(X)\\}\\gg X^{3/4}/(\\log X \\log \\log X)$.",
+   "abs": "https://arxiv.org/abs/2611.10899",
+   "pdf": "https://arxiv.org/pdf/2611.10899"
+  },
+  {
+   "id": "2611.11513",
+   "type": "cross",
+   "title": "Induced-Minor-Free Graphs Admit a Star-Based Separator of Size $\\tilde{O}(\\sqrt{n})$",
+   "authors": [
+    "Arnold Filtser",
+    "Nikolai Karol",
+    "Hung Le",
+    "Florian Lehner"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "Given an $H$-induced-minor-free graph $G$ with $n$ vertices, we construct a balanced separator of $G$ consisting of $\\tilde{O}(|V(H)|\\sqrt{n})$ star subgraphs. Our result is an induced-minor-free analog of the famous separator theorem for $H$-minor-free graphs by Alon, Seymour, and Thomas [J. Amer. Math. Soc., 1990]. A key idea in our construction is a new decomposition of $H$-induced-minor-free graphs, analogous to the cop decomposition for $H$-minor-free graphs by Andreae [J. Combin. Theory Ser. B, 1986]. We also discuss several algorithmic applications of our result.",
+   "abs": "https://arxiv.org/abs/2611.11513",
+   "pdf": "https://arxiv.org/pdf/2611.11513"
+  },
+  {
+   "id": "2611.12781",
+   "type": "new",
+   "title": "Average distance and maximum induced linear forest",
+   "authors": [
+    "Mathieu Bouchard",
+    "Alain Hertz"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "This paper establishes a conjecture dating back to 2009. It is 18 pages long and contains 4 figures",
+   "abstract": "Let G be a connected graph of order n, let {\\mu}(G) denote its average distance, and let L(G) denote the maximum order of an induced linear forest of G, that is, of an induced subgraph whose components are chains. Hansen, Hertz, Kilani, Marcotte and Schindl conjectured that {\\mu}(G) {\\le} L(G)/2, which can be written as 4W(G) {\\le} L(G)n(n-1), where W(G) is the Wiener index of G. This inequality strengthens their bound {\\mu}(G) {\\le} F(G)/2, where F(G) is the maximum order of an induced forest, as well as Chung's classical bound {\\mu}(G) {\\le} {\\alpha}(G). In this paper we prove the conjecture for all connected graphs.",
+   "abs": "https://arxiv.org/abs/2611.12781",
+   "pdf": "https://arxiv.org/pdf/2611.12781"
+  },
+  {
+   "id": "2611.10883",
+   "type": "new",
+   "title": "The Brualdi--Quinn conjecture on strong edge-coloring holds fractionally and asymptotically",
+   "authors": [
+    "Rong Luo",
+    "Gexin Yu",
+    "Xiangqian Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages. Comments are welcome",
+   "abstract": "Let $G$ be a bipartite graph with parts $A$ and $B$, and let $\\Delta_A$ and $\\Delta_B$ be the maximum degrees of the vertices in $A$ and in $B$, respectively. Brualdi and Quinn conjectured that the strong chromatic index of $G$ is at most $\\Delta_A\\Delta_B$. We prove that the fractional strong chromatic index of $G$ is at most $\\Delta_A\\Delta_B$, and that the conjecture holds asymptotically: $\\chi_s'(G)\\le(1+o(1))\\Delta_A\\Delta_B$ as $\\max\\{\\Delta_A,\\Delta_B\\}\\to\\infty$. The error term is $12(\\ln\\Delta)^{1/2}\\Delta^{-1/4}$ with $\\Delta=\\max\\{\\Delta_A,\\Delta_B\\}$. Both results rest on a smart partition of edges and Lovász Local Lemma.",
+   "abs": "https://arxiv.org/abs/2611.10883",
+   "pdf": "https://arxiv.org/pdf/2611.10883"
+  },
+  {
+   "id": "2611.11056",
+   "type": "new",
+   "title": "Non-log-concave $τ$-polynomials of regular graphs",
+   "authors": [
+    "Meiqiao Zhang",
+    "Fengming Dong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For any simple graph $G$ on $n$ vertices, write its chromatic polynomial in the rising factorial basis as $P(G,x)=\\sum_{j=0}^{n}(-1)^{n-j}c_j x^{\\langle j\\rangle}$, where $x^{\\langle j\\rangle}=\\prod_{i=0}^{j-1}(x+i)$ for any $j\\ge 1$ and $x^{\\langle0\\rangle}=1$. Brenti (1992) introduced the $\\tau$-polynomial and its augmented version, defined by $$\\tau(G,x)=\\sum_{j=0}^{n}c_jx^j, \\qquad \\overline{\\tau}(G,x)=\\sum_{j=0}^{n}j!c_jx^j.$$ He asked whether $\\tau(G,x)$ always has only real roots and whether $\\overline{\\tau}(G,x)$ always has a log-concave coefficient sequence. In this paper, we show that for any integer $d\\ge 4$, there exists an integer $h_d$ such that, for every connected $d$-regular graph $G$ of girth at least $h_d$, the coefficient sequence of $\\tau(G,x)$ fails to be log-concave. This failure also occurs for $\\overline{\\tau}(G,x)$, and Newton's inequalities imply that $\\tau(G,x)$ has nonreal roots. Thus both questions have counterexamples among regular graphs of arbitrarily large girth.",
+   "abs": "https://arxiv.org/abs/2611.11056",
+   "pdf": "https://arxiv.org/pdf/2611.11056"
+  },
+  {
+   "id": "2611.11543",
+   "type": "cross",
+   "title": "Infinite sumsets via model theory",
+   "authors": [
+    "Amador Martin-Pizarro",
+    "Daniel Palacín"
+   ],
+   "categories": [
+    "math.LO",
+    "math.CO"
+   ],
+   "primary": "math.LO",
+   "comments": "",
+   "abstract": "We prove versions of (variations of) Erdős sumset and $B+B+t$ conjectures asked by Kra, Moreira, Richter and Robertson for semigroups equipped with pairwise commuting non-algebraic definable Keisler measures. Our results use model-theoretic methods involving the existence of \\emph{many} coheir independent tuples in every definable relation of positive density.",
+   "abs": "https://arxiv.org/abs/2611.11543",
+   "pdf": "https://arxiv.org/pdf/2611.11543"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2611.12104",
+   "type": "new",
+   "title": "Permutons",
+   "authors": [
+    "Jacopo Borga",
+    "Valentin Féray",
+    "Peter Winkler"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "Survey paper. 64 pages, many pictures",
+   "abstract": "Permutons are limit structures for large permutations. Intrinsically, a permuton is a familiar mathematical object: a probability measure on the unit square with uniform marginals. The compact space of permutons completes the set of permutations of all sizes under a natural topology; each permuton is not only a limit of permutations but also a generator of random permutations. Since their (relatively recent) discovery as a tool for understanding the behavior of large (possibly random) permutations, permutons have proved remarkably fruitful, with dozens of fascinating connections to combinatorics and probability. We review the fundamentals of permutons, sometimes providing new, shorter proofs, and give an account of some of their myriad applications. The survey concludes with a long list of open problems. An extensive -- but not comprehensive -- bibliography is appended.",
+   "abs": "https://arxiv.org/abs/2611.12104",
+   "pdf": "https://arxiv.org/pdf/2611.12104"
+  },
+  {
+   "id": "2611.10143",
+   "type": "cross",
+   "title": "Discrete Spoilers: Introducing Abstract Undergraduate Mathematics Using Graph Theory",
+   "authors": [
+    "Fernando Diaz-Diaz"
+   ],
+   "categories": [
+    "math.HO",
+    "math.CO"
+   ],
+   "primary": "math.HO",
+   "comments": "16 pages, 4 figures",
+   "abstract": "Students often have serious difficulties with many key concepts of the undergraduate mathematics curriculum. We argue that many of these difficulties can be eased by explicitly separating the key ideas from the technical details. To do so, we present finite graphs as a setting where the basic concepts appear more transparently, because on a graph most proofs only require basic techniques from linear algebra. We illustrate this approach in three areas that cover a large part of the curriculum. First, we explain basic operators from vector calculus, such as the gradient and the divergence, through the incidence matrix of a graph. Second, we show that the diffusion equation has a simple solution on a graph. We also solve the graph Dirichlet problem, in which the values at some vertices are fixed. Third, we introduce a second incidence matrix that illustrates homology, cohomology and the Helmholtz decomposition in a simple way. Finally, we outline how to apply this approach to other branches of mathematics.",
+   "abs": "https://arxiv.org/abs/2611.10143",
+   "pdf": "https://arxiv.org/pdf/2611.10143"
+  }
+ ],
+ "listed_new": 68,
+ "listed_cross": 26
+}
