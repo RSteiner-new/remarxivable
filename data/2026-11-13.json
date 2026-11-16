@@ -1,0 +1,606 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T09:45:06Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 113,
+ "screened_new": 75,
+ "screened_cross": 38,
+ "scored": 113,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.16775",
+   "type": "cross",
+   "title": "Novel upper bounds for Borsuk numbers from contact points and spherical partitions",
+   "authors": [
+    "Alexander Tolmachev"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "34 pages, 5 figures",
+   "abstract": "Let $b(n)$ be the least $m$ such that every bounded set in $\\mathbb{R}^n$ of positive diameter can be partitioned into $m$ sets of smaller diameter. We prove that \\[ b(4)\\le6,\\qquad b(5)\\le12,\\qquad b(6)\\le31,\\qquad b(7)\\le45,\\qquad b(8)\\le89, \\] and that \\[ b(n)\\le1+2^{n-1}\\left(\\tfrac{39}{64}\\right)^{\\lfloor(n-1)/8\\rfloor} \\qquad\\text{for every } n\\ge9 ; \\] for instance, $b(9)\\le157$ and $b(17)\\le24337$. Further constructions give, for example, $b(10)\\le289$ and $b(13)\\le2313$. These bounds improve Lassak's bound $b(n)\\le2^{n-1}+1$ of 1982 in every dimension $n\\ge4$. In dimension four they also improve the recent bounds $b(4)\\le8$ (Tolmachev and Voronov, May 2026) and $b(4)\\le7$ (Arman, Bondarenko, Prymak and Radchenko, October 2026); the bound $b(4)\\le6$ was announced independently by Chalmers in November 2026. The bounds for $n\\ge7$ have analytic proofs: a quantitative form of Lassak's reduction to coverings of the sphere is combined with normal partitions of weighted vector configurations, for which the smallest inner product within a region is estimated explicitly. The bound for $n=6$ uses a covering of $S^4$ by thirty sets, checked in rational arithmetic. For $n=4,5$ three contact points of the circumscribed ball reduce the problem to a four-parameter family of bodies, which is split by finitely many power diagrams; that all parts have diameter less than one is verified by a computer program with rigorous error control.",
+   "abs": "https://arxiv.org/abs/2611.16775",
+   "pdf": "https://arxiv.org/pdf/2611.16775"
+  },
+  {
+   "id": "2611.14817",
+   "type": "cross",
+   "title": "Tripod Reordering: A 33-Queue Layout of Planar Graphs",
+   "authors": [
+    "Sergey Pupyrev"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "A queue layout of a graph consists of a linear order of the vertices and a partition of the edges into queues so that no two edges in a single queue are nested. The minimum number of queues needed in a queue layout of a graph is called its queue number. A planar product structure theorem of Dujmović, Joret, Micek, Morin, Ueckerdt, and Wood (JACM, 2020) states that every planar graph is a subgraph of the strong product of a graph of simple treewidth at most $3$, a clique $K_3$, and a path. The result has been used to show that the queue number of planar graphs is at most $49$. Recently, Bekos, Gronemann, and Raftopoulou (Algorithmica, 2023) investigated how the general approach based on the product structure can be optimized for planar graphs. They claim that an appropriate reordering of the three vertices associated with each bag in the product structure decomposition, called a tripod, reduces the queue number of planar graphs to $42$. We first highlight a gap in their queue layout algorithm: one of the choices required by the algorithm is not guaranteed to exist. Then we show how to address the limitation and provide an alternative tripod reordering mechanism that reduces the upper bound on the queue number of planar graphs to $33$. As a corollary, bipartite planar graphs have queue number at most $22$.",
+   "abs": "https://arxiv.org/abs/2611.14817",
+   "pdf": "https://arxiv.org/pdf/2611.14817"
+  },
+  {
+   "id": "2611.16957",
+   "type": "new",
+   "title": "Ramsey numbers of loose triangles versus cliques",
+   "authors": [
+    "Ayush Basu",
+    "Abhishek Dhawan",
+    "Abhishek Methuku"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "An $r$-uniform loose triangle $C_3$ consists of three edges that intersect pairwise in exactly one vertex and have no vertex common to all three. For graphs, this is the usual triangle, and the Ramsey number $R(C_3,K_t)$ has order of magnitude $t^2/\\log t$ by celebrated results of Ajtai, Komlós, and Szemerédi and of Kim. Kostochka, Mubayi, and Verstraëte proved that $R(C_3,K_t^{(r)})=O_r(t^{3/2})$ for every fixed $r\\ge3$ and showed that this bound is sharp up to a logarithmic factor. Motivated by the logarithmic saving in the graph case, they conjectured in 2013 that the upper bound could be improved to $o(t^{3/2})$.This conjecture has since received significant attention and has been reiterated in several papers. We prove the conjecture by showing that, for every fixed $r\\ge3$, \\[ R(C_3,K_t^{(r)}) =O_r\\left(\\frac{t^{3/2}}{\\sqrt{\\log\\log t}}\\right). \\]",
+   "abs": "https://arxiv.org/abs/2611.16957",
+   "pdf": "https://arxiv.org/pdf/2611.16957"
+  },
+  {
+   "id": "2611.15299",
+   "type": "new",
+   "title": "Small classes have linear neighbourhood complexity",
+   "authors": [
+    "John Sylvester",
+    "Viktor Zamaraev",
+    "Maksim Zhukovskii"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages, 6 figures",
+   "abstract": "A hereditary graph class is small if it contains at most $n!c^n$ labelled graphs on $n$ vertices for some constant $c$. Small classes include proper minor-closed classes and classes of bounded twin-width. We prove that every small class has linear neighbourhood complexity, that is, in every graph in the class, vertex neighbourhoods intersect any $k$-vertex set in only $O(k)$ distinct ways. This resolves a conjecture of Bonnet, Duron, and the first two authors (ITCS 2025) and makes the algorithmic, structural, and representation consequences of linear neighbourhood complexity available for every small class. In particular, every small class admits an adjacency labelling scheme with $O(\\log^2 n)$-bit labels, improving the previous $O(\\log^3 n)$ bound.",
+   "abs": "https://arxiv.org/abs/2611.15299",
+   "pdf": "https://arxiv.org/pdf/2611.15299"
+  },
+  {
+   "id": "2611.17136",
+   "type": "cross",
+   "title": "On the multidimensional polynomial Szemerédi theorem",
+   "authors": [
+    "Danqing He",
+    "Xuancheng Shao"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "",
+   "abstract": "We study the multidimensional polynomial Szemerédi theorem over prime fields. Let $P_1,\\dots,P_m\\in\\F_p[t]^k$ be block independent vector polynomials of degree at most $d$, with $P_i(0)=0$ for every $i$. We prove that there is a constant $c=c(k,m,d)>0$ such that, for every sufficiently large prime $p$, every set $A\\subset\\F_p^k$ with $|A|\\ge p^{k-c}$ contains a configuration $x,x+P_1(t),\\dots,x+P_m(t)$ with $t\\in\\F_p\\setminus\\{0\\}$.",
+   "abs": "https://arxiv.org/abs/2611.17136",
+   "pdf": "https://arxiv.org/pdf/2611.17136"
+  },
+  {
+   "id": "2611.15327",
+   "type": "new",
+   "title": "The maximum product of nontrivial cross $t$-intersecting families",
+   "authors": [
+    "Biao Wu",
+    "Huajun Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "44 pages",
+   "abstract": "Let $\\mathcal A$ and $\\mathcal B$ be nonempty families of $k$-subsets of $\\{1,\\ldots,n\\}$ such that $|A\\cap B|\\ge t$ for all $A\\in\\mathcal A$ and $B\\in\\mathcal B$, and suppose that each family has fewer than $t$ common elements. For $k\\ge t+2\\ge4$ and $n\\ge(t+1)(k-t+1)$, we prove \\[ |\\mathcal A||\\mathcal B|\\le\\max\\{h_t(n,k)^2,b_t(n,k)^2\\}, \\] where \\[ h_t(n,k)=\\binom{n-t}{k-t}-\\binom{n-k-1}{k-t}+t,\\quad b_t(n,k)=(t+2)\\binom{n-t-2}{k-t-1}+\\binom{n-t-2}{k-t-2}. \\] The bound is sharp, and we characterize all extremal pairs, whose families have equal sizes but need not coincide. The proof combines clique lifts, exchanges of generating families and a density inequality for cross-intersecting uniform layers. This gives a product version of the Hilton--Milner--Frankl theorem throughout the Erdős--Ko--Rado range. In particular, it answers a question of Wen and Lv on whether a threshold of order $kt$ suffices for the sharp product bound.",
+   "abs": "https://arxiv.org/abs/2611.15327",
+   "pdf": "https://arxiv.org/pdf/2611.15327"
+  },
+  {
+   "id": "2611.14906",
+   "type": "new",
+   "title": "The frustration index of fully frustrated hypercubes",
+   "authors": [
+    "Lujia Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The frustration index of a signed graph is the minimum number of edges meeting every negative cycle. Let $F_n$ be the frustration index of the signed $n$-cube $Q_n$ in which every square is negative. Using signings constructed from weighted cubes, we prove that for every positive integer $r$, \\[ F_{r^2+1}=(r^2-r+1)2^{r^2-1}. \\] When $4\\mid r$, our construction also gives the exact value $F_n=(n-r-p/4)2^{n-2}$ in the six dimensions $n=r^2+1+pr/2$, $p\\in\\{\\pm1,\\pm2,\\pm3\\}$. In dimension nine an argument with integral eigenvectors gives $F_9=772$. By varying one weight in the construction for $r^2+1$, we obtain $F_n=(n-\\sqrt n+O(n^{-1/2}))2^{n-2}$ for arbitrary $n$. The values at $n=r^2+1$ show that the error term has the best possible order. Taking the positive edges of an optimal signing gives a square-free subgraph of $Q_n$ with at least $(n+\\sqrt n-O(n^{-1/2}))2^{n-2}$ edges whose complement is also square-free.",
+   "abs": "https://arxiv.org/abs/2611.14906",
+   "pdf": "https://arxiv.org/pdf/2611.14906"
+  },
+  {
+   "id": "2611.15512",
+   "type": "new",
+   "title": "Every rank-three matroid is Z-Rayleigh",
+   "authors": [
+    "Qinghong Zhao",
+    "Xiangqian Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages",
+   "abstract": "We prove that every matroid of rank or corank at most three is $Z$-Rayleigh: its multivariate Tutte polynomial satisfies the Rayleigh inequalities for every positive weighting and every parameter $0<q\\le1$. This settles a conjecture of Mani and answers the rank-$3$ spanning-correlation question of Cocks and the correlated-matroid question of Semple and Welsh. For simple rank-$3$ matroids, we obtain an explicit decomposition of each spanning-set Rayleigh difference into the corresponding basis Rayleigh difference, positively weighted squares, and a polynomial with nonnegative coefficients. A second identity compares the normalized multivariate Tutte Rayleigh difference with $(1-q)^2$ times the spanning-set difference, with a remainder of the form $q(1-q)R(q,x)$, where $R$ has nonnegative coefficients. The proof uses the bipartite incidence graph of the lines through two fixed elements and Wagner's theorem that rank-$3$ matroids are basis-Rayleigh. The rank bound is sharp, since a rank-four matroid can fail even the basis Rayleigh inequalities.",
+   "abs": "https://arxiv.org/abs/2611.15512",
+   "pdf": "https://arxiv.org/pdf/2611.15512"
+  },
+  {
+   "id": "2611.15027",
+   "type": "new",
+   "title": "Sidorenko inequalities and symmetry-forcing for graph orientations",
+   "authors": [
+    "Jiaxi Nie",
+    "Fan Wei"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 this http URL are welcome!",
+   "abstract": "We study directed graphs whose homomorphism densities never increase or never decrease when the host edge directions are randomized. We call these properties oriented Sidorenko (OS) and oriented anti-Sidorenko (OAS), respectively. A directed graph is symmetry-forcing if equality between its original and randomized densities forces quasi-random edge directions. We characterize connected OS directed graphs in terms of weakly norming graphs and show that they are symmetry-forcing exactly when their underlying graphs contain a cycle. We also prove that a connected graph is step forcing exactly when it is step Sidorenko and contains a cycle, giving a negative answer to a question of Doležal et al. Both forcing results follow from a characterization of strict convexity: the homomorphism density functional of a graph is strictly convex on nonnegative kernels exactly when the graph is weakly norming and contains a cycle. On the OAS side, we construct an infinite symmetry-forcing family and a nonbipartite example. We also classify OS and OAS orientations of stars, paths, and cycles.",
+   "abs": "https://arxiv.org/abs/2611.15027",
+   "pdf": "https://arxiv.org/pdf/2611.15027"
+  },
+  {
+   "id": "2611.17183",
+   "type": "new",
+   "title": "New bounds on the boxicity of Kneser graphs",
+   "authors": [
+    "L. Sunil Chandran",
+    "Suraj Kumar Sahoo"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G=(V,E)$, the boxicity $\\operatorname{box}(G)$ is the least integer $d$ such that $G$ is the intersection graph of axis-parallel boxes in $\\mathbb{R}^d$. The Kneser graph $K(n,k)$ is the graph whose vertex set corresponds to the family of $k$ sized subsets of an $n$ sized ground set, and a pair of vertices are adjacent if and only if the corresponding sets are disjoint. In this short paper, we provide new bounds for the boxicity of $K(n,k)$. We first show that for $k\\ge 2$ and $n\\ge 2k+1$, $\\operatorname{box}(K(n,k))\\ge n-2k$, thereby improving the lower bounds of Caoduro and Lichev [Discrete Mathematics 346(5):113333 (2023)] when $n\\geq 3k+1$ and $k\\ge 3$. The proof of this result uses the topological method and follows a strategy similar to Greene's proof of the Kneser's conjecture on the chromatic number of $K(n,k)$. We also show that for $k\\ge 2$, $t\\ge 1$ and $n=2k+t$, $\\operatorname{box}(K(2k+t,k)) \\leq O( t^3\\log(2k+t) ).$ In particular, for every $t=t(k)\\ge1$ with $t^3\\log k=o(k)$, $\\operatorname{box}(K(2k+t,k))=o(k)$. This is the first upper bound on the boxicity of $K(n,k)$ that is sublinear in $n$. We also show that for large enough $k$, $\\operatorname{box}(K(2k+1,k))\\le \\frac{3\\ln (2k+1)}{\\ln\\ln (2k+1)}$.",
+   "abs": "https://arxiv.org/abs/2611.17183",
+   "pdf": "https://arxiv.org/pdf/2611.17183"
+  },
+  {
+   "id": "2611.17168",
+   "type": "new",
+   "title": "Discrete Helicity on Graphs: Pfaffian Energies and Clique Bounds",
+   "authors": [
+    "Jingqi Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "43 pages",
+   "abstract": "We introduce a helicity functional of each order on graphs for real-valued edge forms, and give it a unified local Pfaffian realization. Motivated by the continuous energy inequality, we further construct a discrete version of helicity energy, and prove sharp Maclaurin inequalities for these energies. In particular, a special case of these Maclaurin inequalities yields a lower bound on the clique number, depending on the choice of edge form. As an application, we use this certificate to prove that every nonempty $d$-regular graph with smallest adjacency eigenvalue at least $-3$ satisfies $\\omega(G)\\ge d\\,g(\\eta)-C$, where $C$ is an absolute constant and $g(\\eta)$ is a rank-dependent coefficient taking values between $1/4$ and $1/3$. Building on the structural results of Koolen, Yang and Yang, this improves the known clique-number bound to the optimal leading constant $1/4$, whose asymptotic sharpness follows from Yang and Koolen's construction.",
+   "abs": "https://arxiv.org/abs/2611.17168",
+   "pdf": "https://arxiv.org/pdf/2611.17168"
+  },
+  {
+   "id": "2611.17205",
+   "type": "new",
+   "title": "Forbidden subset sums in a linear range: an inverse theorem and the Erdős-Graham irregularity problem",
+   "authors": [
+    "Mateo Matijasevick"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 1 figure, Lean verification",
+   "abstract": "For $c>0$ let $f_c(n)$ be the largest size of a set $A\\subseteq\\{1,\\dots,\\lfloor cn\\rfloor\\}$ such that $n$ is not a sum of distinct elements of $A$. Erdős and Graham asked whether $f_c(n)$ depends on $n$ in an irregular way (Erdős Problem \\#361). We prove that $f_c(n)=\\lfloor cn\\rfloor-\\lceil n/2\\rceil$ for $c\\ge 1$, while for $0<c<1$ the ratio $f_c(n)/n$ has $\\limsup$ equal to $c/2$, attained along odd $n$, and, along the integers $n$ whose least non-divisor equals a prime power $q$, tends to \\[ \\max\\Bigl\\{\\frac cq,\\; c-\\frac12+\\frac{1-c}{q}\\Bigr\\} \\qquad\\text{whenever } 2^{q-2}\\min\\{c,1-c\\}\\le 1 . \\] Consequently $f_c(n)/n$ converges if and only if $c\\ge1$; for $0<c<1$ it has at least two limit points, and arbitrarily many as $c\\to0^+$ or $c\\to1^-$. For $c=1/2$ the set of limit points is exactly $\\{1/6,1/4\\}$. The upper bounds follow from an inverse theorem of independent interest: if $s\\ge1$, $q$ is the least positive integer not dividing $s$, and $\\varepsilon>0$, then every $A\\subseteq\\{1,\\dots,E\\}$ with $|A|\\ge E/q+\\varepsilon T$ has a subset summing to $sT$, uniformly for all sufficiently large $T$ and all $E\\le sT/2^{q-2}$. For $s=2$, this extends Alon's theorem on subsets of $\\{1,\\dots,N\\}$ with no subset sum equal to $2N$. The results for $c\\ge1$ and the $\\limsup$, as well as the limits and the inverse theorem for $q\\in\\{2,3\\}$, have been formalized and machine-checked in the Lean~4 proof assistant.",
+   "abs": "https://arxiv.org/abs/2611.17205",
+   "pdf": "https://arxiv.org/pdf/2611.17205"
+  },
+  {
+   "id": "2611.15358",
+   "type": "new",
+   "title": "The minimum size of the 3-dimensional torus",
+   "authors": [
+    "Seunghun Lee",
+    "Geunho Lim",
+    "Eran Nevo"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GT"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 2 figures",
+   "abstract": "We prove a conjecture of Kühnel, Lassmann, and Lutz, first asked in 1984, that the minimal number of vertices in a triangulation of the $3$-dimensional torus is $15$.",
+   "abs": "https://arxiv.org/abs/2611.15358",
+   "pdf": "https://arxiv.org/pdf/2611.15358"
+  },
+  {
+   "id": "2611.16295",
+   "type": "new",
+   "title": "Polynomial Swap Coboundary Expansion with Applications to LTCs and PCPs",
+   "authors": [
+    "Yotam Dikstein",
+    "Izhar Oppenheim",
+    "Inga Valentiner-Branth"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "63 pages",
+   "abstract": "Swap coboundary expansion, introduced independently by Bafna--Minzer and Dikstein--Dinur, is a local-to-global property that underlies agreement tests in the low-acceptance regime and recent constructions of succinct PCPs. Previous works obtained bounds of $\\exp(-O(\\sqrt{r}))$ for the $r$-swap coboundary expansion of Chapman--Lubotzky complexes. We establish the first inverse-polynomial bounds for bounded-degree complexes: suitable skeleta of Kac--Moody--Steinberg (KMS) complexes have $r$-swap coboundary expansion at least $r^{-O(1)}$. Our theorem supplies a key ingredient in forthcoming work of Ben Yaacov--Dikstein--Liu, which obtains local tests for sparse algebraic codes with guarantees even at arbitrarily small acceptance probability. These tests use $\\exp(\\operatorname{poly}(1/\\varepsilon))$ queries and guarantee that any word accepted with probability at least $\\varepsilon$ agrees with a codeword on an $\\varepsilon^{O(1)}$ fraction of coordinates. Separately, substituting our bound into the existing analysis of Bafna--Minzer--Vyas--Yun improves the soundness dependence of their two-query PCP construction, giving perfect completeness, soundness $\\varepsilon$, and proof length $n(\\log n)^{\\exp(\\operatorname{poly}(1/\\varepsilon))}$. Our proof exploits the product structure of the groups arising in KMS complexes. The main new ingredient is a decomposition lemma for Dehn functions, which separates the analysis of group relations into independent problems on much smaller factors, with only polynomial overhead.",
+   "abs": "https://arxiv.org/abs/2611.16295",
+   "pdf": "https://arxiv.org/pdf/2611.16295"
+  },
+  {
+   "id": "2611.14689",
+   "type": "cross",
+   "title": "Foliations, free cores, and Terao's conjecture for seventeen lines",
+   "authors": [
+    "Felipe Monteiro",
+    "Henrique N. Sá Earp",
+    "Tomás S. R. Silva"
+   ],
+   "categories": [
+    "math.AG",
+    "math.CO"
+   ],
+   "primary": "math.AG",
+   "comments": "27 pages, 3 tables",
+   "abstract": "We prove that freeness is determined by the intersection lattice for arrangements of seventeen lines in the complex projective plane. The proof reduces a possible counterexample to smaller arrangements whose realisation spaces can be computed. A minimal logarithmic derivation defines a foliation; its inflection divisor and a local singularity count imply that the non-free member of a counterexample is nearly free with exponents $(7,10)$. Deleting four lines then produces a thirteen-line arrangement whose second Chern class is controlled by a combinatorial deficit. When the deficit is four, the remaining arrangement is free with exponents $(6,6)$. An exact covering argument places the necessary thirteen-line cores in four finite classes, containing $3{,}829{,}691$ lattices. We compute their realisation spaces and reconstruct all relevant seventeen-line extensions, including specialisations of positive-dimensional families. Among the candidate lattices, exactly sixteen admit a non-free realisation; they are rigid and have no free realisation. Together with the known cases, this establishes Terao's conjecture for central arrangements of at most seventeen planes in $\\mathbb{C}^3$.",
+   "abs": "https://arxiv.org/abs/2611.14689",
+   "pdf": "https://arxiv.org/pdf/2611.14689"
+  },
+  {
+   "id": "2611.17197",
+   "type": "new",
+   "title": "Matching statistics in regular hypergraphs and applications",
+   "authors": [
+    "Hyunwoo Lee"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "67 pages",
+   "abstract": "For fixed $k\\ge3$, we determine the first sublinear correction to the logarithm of the matching partition function for a class of $n$-vertex $d$-regular $k$-uniform hypergraphs, uniformly for activities in each fixed compact interval of $(0,\\infty)$.Our hypotheses include every regular linear hypergraph of polynomial degree and a class of nonlinear hypergraphs described by higher codegrees and intersection patterns, which we introduce here. The weighted counting estimate implies an averaged version of Kahn's conjecture: under the uniform measure, the expected number of uncovered vertices is $(1+o(1))nd^{-1/k}$, with concentration and large deviations on this scale. The proof combines a novel variant of random greedy counting, based on short stages and regular completions, with a new entropy method that uses intersection patterns to control reconstruction after deleting matching edges. We highlight the following applications. (i) Partial transversals in Latin squares. Every Latin square of order $n$ has $(n/e^2)^n\\exp((3+o(1))n^{2/3})$ partial transversals. Also, almost all partial transversals have $(1+o(1))n^{2/3}$ missing cells. (ii) Linear $3$-uniform hypergraphs. There are $(n/e^2)^{n^2/6}\\exp((1/2+o(1))n^{5/3})$ linear $3$-uniform hypergraphs on $[n]$, and almost all have $n^2/6-(1/6+o(1))n^{5/3}$ edges. (iii) Matroids of fixed rank. For each fixed $r\\ge4$, the number $m(n,r)$ of rank-$r$ matroids on $[n]$ satisfies $\\log m(n,r)=\\frac{n^{r-1}}{r!}(\\log n-r+1)+\\left(\\frac1{(r-1)!}+o(1)\\right)n^{r-1-1/r}$, refining the estimates of van der Hofstad, Pendavingh and van der Pol.",
+   "abs": "https://arxiv.org/abs/2611.17197",
+   "pdf": "https://arxiv.org/pdf/2611.17197"
+  },
+  {
+   "id": "2611.16377",
+   "type": "new",
+   "title": "Universal optimality on finite Lee tori",
+   "authors": [
+    "Tao Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.IT"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages",
+   "abstract": "We study subsets of finite Lee tori that minimize pair energy among sets of the same cardinality for every discretely completely monotone potential. At half occupancy on a product of even cycles, the two checkerboards minimize both total pair energy and maximum individual energy. They are the only minimizers for every nonconstant classical completely monotone potential on $(0,\\infty)$, proving the checkerboard conjecture of Bouman, Draisma, and van Leeuwaarden for this class. At the independence number of the distance one graph on $\\Z_q^n$, universally optimal sets exist exactly when $q$ is even, $q=3$, $n=1$, or $(q,n)=(5,2)$. In these cases they are precisely the maximum independent sets and form a single Lee isometry class. At density $1/5$ in $\\Z_5^n$, $n\\ge2$, universal optimality is characterized by a weighted count of pairs at distances one and two. We prove these results using integer box occupancy bounds that strengthen Fourier linear programming and, in the quinary case, Fourier certificates with a common zero set.",
+   "abs": "https://arxiv.org/abs/2611.16377",
+   "pdf": "https://arxiv.org/pdf/2611.16377"
+  },
+  {
+   "id": "2611.17237",
+   "type": "new",
+   "title": "Permutation patterns and higher connectivity in inversion graphs",
+   "authors": [
+    "Emil Verkama"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "36 pages, 14 figures",
+   "abstract": "We prove that any permutation $\\pi \\in S_n$ whose inversion graph is $k$-connected has at least $\\frac{k+1}{2}n - C$ inversions, where $C$ depends only on $k$. In particular, inversion graphs beat the general lower bound $\\frac{kn}{2}$ for the number of edges in a $k$-connected graph. Furthermore, we characterize the permutation patterns $\\sigma$ having the property that if $\\pi$ avoids $\\sigma$, then the bound improves to $kn - C$. The collection of patterns is $\\mathrm{Av}(321, 2341, 4123)$, and it is independent of $k \\geq 2$. This work is motivated by a result of Linusson and Verkama (2025) that can be reinterpreted as stating that any $1324$-avoiding permutation whose inversion graph satisfies a certain weaker notion of $2$-connectivity must have at least $2n - C$ inversions. Our final result gives a characterization of the patterns having this stronger property.",
+   "abs": "https://arxiv.org/abs/2611.17237",
+   "pdf": "https://arxiv.org/pdf/2611.17237"
+  },
+  {
+   "id": "2611.14909",
+   "type": "cross",
+   "title": "Explicit Subspace Evasive Sets via Subspace Designs",
+   "authors": [
+    "Joshua Brakensiek",
+    "Yeyuan Chen",
+    "Mahdi Cheraghchi",
+    "Rohan Goyal",
+    "Venkatesan Guruswami",
+    "Aaron Putterman",
+    "Zihan Zhang"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "27 pages",
+   "abstract": "Given a finite field $\\mathbb F_q$, we say that a set $A\\subseteq \\mathbb F^n_q$ is an $(r,c)$ subspace evasive set if and only if for any affine subspace $U\\subseteq \\mathbb F^n_q$ with bounded dimension $\\dim(U)\\leq r$, the intersection size $|A\\cap U|$ is at most $c$. The probabilistic method shows the existence of $(r,c)$ subspace evasive sets with $|A| = q^{(1-\\epsilon) n}$ with $c = O(r/\\epsilon)$. However, the best explicit constructions by Dvir--Lovett (STOC 2012) and Ben-Aroya--Shinkar (CJTCS 2013) have $c$ growing as an exponential function of $r$. Here, we give an explicit construction of such subspace evasive set that achieves the intersection bound $c=O(\\min(r\\log(r/\\epsilon)/\\epsilon, r^2/\\epsilon))$ when both $r$ and $1/\\epsilon$ are constants. Our approach is simple and the key idea is to compose subspace design codes (Guruswami-Xing, STOC 2013) with a suitably chosen ``local'' subspace evasive set. As a corollary, we give the first construction of an explicit (strongly) capacity-achieving list-recoverable code with nearly optimal list size, circumventing all previously-known barriers to construction.",
+   "abs": "https://arxiv.org/abs/2611.14909",
+   "pdf": "https://arxiv.org/pdf/2611.14909"
+  },
+  {
+   "id": "2611.16231",
+   "type": "cross",
+   "title": "A Polynomial Bound on Split Rank",
+   "authors": [
+    "Avinash Bhardwaj",
+    "Vishnu Narayanan"
+   ],
+   "categories": [
+    "math.OC",
+    "math.CO"
+   ],
+   "primary": "math.OC",
+   "comments": "",
+   "abstract": "We prove that the split rank of a rational pure-integer polyhedron is polynomially bounded in its input length, resolving a conjecture of Basu, Conforti, Di Summa, and Jiang. If the defining system has dense binary encoding length $L$, then $O((L+1)^9)$ split rounds suffice to reach the integer hull in arbitrary dimension.",
+   "abs": "https://arxiv.org/abs/2611.16231",
+   "pdf": "https://arxiv.org/pdf/2611.16231"
+  },
+  {
+   "id": "2611.16140",
+   "type": "new",
+   "title": "The lower boundary of the $\\{K_2,K_{p},K_{q}\\}$-profile",
+   "authors": [
+    "Grigoriy Blekherman",
+    "Annie Raymond"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "33 pages, 1 figure",
+   "abstract": "We determine the asymptotically sharp minimum number of $q$-cliques that appear in any $n$-vertex graph with $\\gamma n^2$ edges and $\\delta n^{p}$ $p$-cliques for $q>p>2$. The question of determining the minimum number of $r$-cliques that appear in any $n$-vertex graph with $\\gamma n^2$ edges was previously resolved by Razborov for $r=3$, Nikiforov for $r=4$ and Reiher for all $r\\geq 5$. For all $r\\geq 3$, the minimum is attained by a complete multipartite graph where all parts are equal except for one that can be smaller or by a limit of such graphs. Very recently, Ma, Wang and Zhu as well as Li, Liu and Zhang showed that the same construction is also a minimizer for the number of $r$-cliques when the number of $s$-cliques is fixed for any $2\\leq s<r$. A minimizer in our setting is the disjoint union of the same complete multipartite graph with an independent set. This establishes the lower boundary of the three-dimensional $\\{K_2, K_p, K_q\\}$-profile.",
+   "abs": "https://arxiv.org/abs/2611.16140",
+   "pdf": "https://arxiv.org/pdf/2611.16140"
+  },
+  {
+   "id": "2611.16654",
+   "type": "new",
+   "title": "Exact Turán densities of even zycles",
+   "authors": [
+    "Shuaichao Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We determine the exact Turán density of the $3$-uniform zycle $Z_\\ell$ for every even integer $\\ell\\ge 4$ with $3\\nmid\\ell$, showing that $\\pi(Z_\\ell)=5/9$. More generally, we prove that $\\pi(Z_\\ell)\\le 5/9$ for all even $\\ell\\ge 4$. In the range of equality, we also establish a stability theorem, showing that every almost extremal $Z_\\ell$-free $3$-graph is close in edit distance to the classical Turán construction.",
+   "abs": "https://arxiv.org/abs/2611.16654",
+   "pdf": "https://arxiv.org/pdf/2611.16654"
+  },
+  {
+   "id": "2611.14988",
+   "type": "new",
+   "title": "Thin Edges in Braces",
+   "authors": [
+    "Tong Zhang",
+    "Wei Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A connected graph with at least two vertices is matching covered if each of its edges is contained in a perfect matching. A bipartite matching covered graph is a brace if no nontrivial cut meets every perfect matching in exactly one this http URL edge $e$ of a brace $G$ is thin if $G-e$ is matching covered and its retract is a brace. Every brace can be reduced to $K_2$ or $C_4$ by successively deleting thin edges and taking retracts. Indeed, Carvalho, Lucchesi and Murty proved that every brace of order at least six has at least two thin edges. They conjectured that there exists a positive constant $c$ such that every brace of order $n\\ge6$ has at least $cn$ thin edges. In this paper, we prove that every simple brace of order $n\\ge6$ has at least $\\left\\lceil\\frac{n+2}{6}\\right\\rceil$ thin edges and that every brace of order $n$, withparallel edges allowed, has at least $\\frac{n}{13}$ thin edges. This proves the conjecture. Moreover, we prove that every cubic brace of order $n$ has at least $\\left\\lceil\\frac{n+1}{5}\\right\\rceil$ thin edges for $n\\ge6$ and that the coefficient $\\frac15$ is best possible.",
+   "abs": "https://arxiv.org/abs/2611.14988",
+   "pdf": "https://arxiv.org/pdf/2611.14988"
+  },
+  {
+   "id": "2611.15486",
+   "type": "new",
+   "title": "Independent sets in regular uniform hypergraphs",
+   "authors": [
+    "An Chang",
+    "Lusheng Fang",
+    "Guorong Gao",
+    "Caihong Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that, for all integers $r\\ge 2$ and $d\\ge 1$, every finite simple $d$-regular $r$-uniform hypergraph $H$ on $n$ vertices satisfies \\[ \\operatorname{ind}(H)\\le \\operatorname{ind}(H_d^r)^{n/(rd)}, \\] with equality if and only if $H$ is a disjoint union of copies of $H_d^r$. Here $\\operatorname{ind}(G)$ denotes the number of independent sets in $G$, and $ H_d^r$ is the $d$-regular $r$-partite $r$-graph on $rd$ vertices obtained by taking all $r$-sets consisting of one vertex from a fixed $d$-vertex set and one of $d$ pairwise disjoint $(r-1)$-sets partitioning the remaining vertices. This settles the conjecture of Balogh, Bollobás and Narayanan, who proved the bound for quasi-bipartite hypergraphs.",
+   "abs": "https://arxiv.org/abs/2611.15486",
+   "pdf": "https://arxiv.org/pdf/2611.15486"
+  },
+  {
+   "id": "2611.17022",
+   "type": "new",
+   "title": "Large diameter for $(Δ+2)$-colouring reconfiguration",
+   "authors": [
+    "Wouter Cames van Batenburg"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 2 figures",
+   "abstract": "Given a graph $G$ and an integer $k$, the reconfiguration graph $\\mathcal{R}_{k}(G)$ has the proper $k$-colourings of $G$ for vertices, two of which are adjacent if and only if they differ on precisely one vertex of $G$. In $2022$, Cambie, Cranston and the author proved that the diameter of $\\mathcal{R}_{\\Delta+2}(G)$ is at most $n+2\\mu$, and put forth a collection of conjectures that in its strongest and most beautiful form would imply that the diameter of $\\mathcal{R}_{\\Delta+2}(G)$ is precisely equal to $n + \\mu$, for every graph $G$ with $n$ vertices, matching number $\\mu$ and maximum degree $\\Delta$. Here we disprove most of those conjectures. Our constructions have reconfiguration diameter at least $n+\\frac{3}{2}\\mu-2$. We also provide counterexamples that are $\\Delta$-regular, we show that every graph has reconfiguration diameter at least $n+\\frac{1}{2} \\mu$, and we advertise an extension to hypergraphs. It is now much more mysterious how the diameter behaves, so we propose a number of open problems.",
+   "abs": "https://arxiv.org/abs/2611.17022",
+   "pdf": "https://arxiv.org/pdf/2611.17022"
+  },
+  {
+   "id": "2611.16649",
+   "type": "new",
+   "title": "On 2-Homogeneous Colourings of Cubic Bipartite Graphs",
+   "authors": [
+    "Rong-Xia Hao",
+    "Jianbing Liu",
+    "Federico Romaniello"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, 1 table",
+   "abstract": "A proper vertex colouring is 2-homogeneous if every open neighbourhood contains exactly two colours. We show that every cubic bipartite graph admits a 2-homogeneous colouring with at most four colours, proving a conjecture of Janicová, Madaras, Soták and Lužar. For 3-connected det-extremal cubic bipartite graphs, we establish the stronger bound $\\chi_h^{(2)}(G) = 3$, showing that every such graph admits a fall 3-colouring.",
+   "abs": "https://arxiv.org/abs/2611.16649",
+   "pdf": "https://arxiv.org/pdf/2611.16649"
+  },
+  {
+   "id": "2611.15376",
+   "type": "new",
+   "title": "Set-coloring Ramsey numbers with multiple intersections",
+   "authors": [
+    "Guantao Chen",
+    "Laihao Ding",
+    "Qiong Fan",
+    "Xiaolan Hu",
+    "Suyun Jiang",
+    "Chunxiang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages",
+   "abstract": "For integers $r\\ge s\\ge t\\ge1$, we introduce the Ramsey number $R(G;r,s,t)$, defined as the least $N$ such that every assignment of an $s$-element subset of $[r]$ to each edge of $K_N$ yields a copy of $G$ whose edges have at least $t$ colors in common. This generalizes the classical set-coloring Ramsey number $R(G;r,s)=R(G;r,s,1)$, studied since the work of Erdos, Hajnal, and Rado. We show that $t$ cannot in general be eliminated by reparametrization: infinitely many quadruples $(G;r,s,t)$ satisfy $R(G;r,s,t)\\ne R(G;a,b)$ for every $a\\ge b\\ge1$. Writing $\\alpha=\\binom{r}{t}/\\binom{s}{t}$, the shadow inequality $R(G;r,s,t)\\le R(G;\\binom{r}{t},\\binom{s}{t},1)$ and the recent proof of the Erdos--Sos conjecture imply $R(T_n;r,s,t)\\le\\lfloor\\alpha(n-2)\\rfloor+2$ for every $n$-vertex tree $T_n$. For stars, we obtain packing bounds and exact values under suitable divisibility conditions. For paths and even cycles $G$ of order $n$, we improve the upper bound to $R(G;r,s,t)\\le(\\alpha-\\gamma+o(1))n$ as $n\\to\\infty$, for fixed $r>s\\ge t\\ge1$ and some $\\gamma=\\gamma(r,s,t)>0$. We also prove that, for fixed $s,t$, the tree bound is asymptotically sharp for paths as $r,n\\to\\infty$, and for even cycles when $n\\to\\infty$ first and then $r\\to\\infty$. For cliques $K_n$, we transfer known bounds of Conlon et al. for ordinary set-coloring Ramsey numbers to the general parameter $t$, obtaining two-sided exponential bounds. For each fixed $n\\ge3$, we identify an explicit piecewise-linear function $\\Phi_n$ that determines a growth threshold. If $s/r\\to\\sigma$ and $t/r\\to\\tau$ as $r\\to\\infty$, with $0<\\tau\\le\\sigma<1$, then $R(K_n;r,s,t)=O(1)$ when $\\tau<\\Phi_n(\\sigma)$, whereas $R(K_n;r,s,t)\\ge\\exp(cr)$ for some $c>0$ when $\\tau>\\Phi_n(\\sigma)$.",
+   "abs": "https://arxiv.org/abs/2611.15376",
+   "pdf": "https://arxiv.org/pdf/2611.15376"
+  },
+  {
+   "id": "2611.15755",
+   "type": "new",
+   "title": "Asymptotically Optimal Bounds for Counting Near-Minimum Circuits in Regular Matroids",
+   "authors": [
+    "Robert P. Streit"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages",
+   "abstract": "For a regular matroid on $m$ elements with positive weights and weighted girth $g_w$, we prove that the number of circuits of weight at most $\\alpha g_w$ is bounded by $(Km)^{2\\alpha}$, for every real $\\alpha\\ge1$ and an absolute constant $K$. This improves the previous $m^{O(\\alpha^2)}$ bound of Gurjar and Vishnoi and matches classic graph cut and cycle counting bounds of Karger and Subramanian. We also show this is asymptotically optimal for all real $\\alpha\\geq 1$ under the Erdős girth conjecture, while unconditional optimality holds for half-integer $\\alpha$ by prior results. As consequences, we resolve a recent conjecture by Khanna, Putterman, and Song implying the existence of a parallel basis search algorithm for regular matroids terminating in logarithmically many rounds of independence queries, and obtain improved bounds on the number of near-minimum weight codewords in regular codes and near-shortest vectors in totally unimodular lattices under $\\ell_p$-norms.",
+   "abs": "https://arxiv.org/abs/2611.15755",
+   "pdf": "https://arxiv.org/pdf/2611.15755"
+  },
+  {
+   "id": "2611.16338",
+   "type": "new",
+   "title": "Total edge irregularity strength of cubic graphs",
+   "authors": [
+    "Aleams Barra",
+    "Suhadi Wido Saputro",
+    "Hajime Tanaka"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "We show that every finite simple cubic graph on $n$ vertices has total edge irregularity strength $n/2+1$, confirming the Ivančo-Jendrol' conjecture for cubic graphs. The key step is to algorithmically construct a $\\{1,n/2+1\\}$-vertex labeling such that half of the vertices are labeled $1$ and the average degree of the subgraph induced by them is close enough to two. We extend such a labeling to a total edge irregular $(n/2+1)$-labeling, possibly after a local adjustment to a single vertex.",
+   "abs": "https://arxiv.org/abs/2611.16338",
+   "pdf": "https://arxiv.org/pdf/2611.16338"
+  },
+  {
+   "id": "2611.14754",
+   "type": "new",
+   "title": "Modular $n$-queens in higher dimensions",
+   "authors": [
+    "Zachary Halberstam",
+    "Mitchell Lee",
+    "Carl Schildkraut"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "A chess queen in $d$-dimensions can move any distance in the direction of any edge or diagonal of the $d$-dimensional hypercube. (That is, a queen can move from a position $x$ to $x+cv$ for any $c$ and any nonzero $v\\in\\{-1,0,1\\}^d$.) We prove that one can place $n^{d-1}$ non-attacking queens on the $d$-dimensional modular board $(\\mathbb Z/n\\mathbb Z)^d$ if and only if all prime factors of $n$ exceed $2^d$. The $d=3$ case of this result is a conjecture of van Rees from 1981. Our proof involves both human ideas and substantial AI assistance.",
+   "abs": "https://arxiv.org/abs/2611.14754",
+   "pdf": "https://arxiv.org/pdf/2611.14754"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2611.17198",
+   "type": "cross",
+   "title": "Patterns, Distances, and Structure in Sparse Sets",
+   "authors": [
+    "Paige Bright"
+   ],
+   "categories": [
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.CA",
+   "comments": "30 pages, 3 figures. To appear in the Springer volume 'Discrete Harmonic Analysis' in the Bolyai Society Lecture Notes Series",
+   "abstract": "A central theme in modern harmonic analysis, with strong connections to Ramsey theory, is the tension between randomness and structure: to what extent can a \"large\" set avoid prescribed configurations, and when must such patterns inevitably appear? The answer depends delicately on how size is measured, with notions such as Hausdorff dimension, Fourier dimension, and density leading to strikingly different phenomena. In this mini-course, we explore this theme through two complementary perspectives. On one hand, we study translation-invariant linear patterns, a natural class of Euclidean Ramsey-type configurations. On the other hand, we investigate distance sets of sparse subsets of Euclidean space, which encode metric configurations of pairs of points. Together, these results illustrate a unifying principle: while sparse sets may avoid individual configurations, sufficiently strong analytic or geometric conditions enforce the emergence of Ramsey-type structure. The course will emphasize key ideas, methods, and examples, aiming to provide an accessible entry point to current developments at the interface of harmonic analysis, geometric measure theory, and Euclidean Ramsey theory. Lectures are by Malabika Pramanik.",
+   "abs": "https://arxiv.org/abs/2611.17198",
+   "pdf": "https://arxiv.org/pdf/2611.17198"
+  },
+  {
+   "id": "2611.17155",
+   "type": "cross",
+   "title": "Algebraic and geometric aspects of Demazure weaves",
+   "authors": [
+    "Roger Casals"
+   ],
+   "categories": [
+    "math.SG",
+    "math.CO",
+    "math.GT",
+    "math.RT"
+   ],
+   "primary": "math.SG",
+   "comments": "106 pages, 46 figures",
+   "abstract": "These are notes to supplement my talks at the Current Developments in Mathematics Conference in 2026. They are an expository account of recent work in the study of braid varieties and their relation to low-dimensional contact and symplectic topology. A driving theme is the development and use of Demazure weaves to construct cluster algebra structures on the coordinate rings of such braid varieties.",
+   "abs": "https://arxiv.org/abs/2611.17155",
+   "pdf": "https://arxiv.org/pdf/2611.17155"
+  },
+  {
+   "id": "2611.16769",
+   "type": "cross",
+   "title": "On the randomized lattice-point count problem",
+   "authors": [
+    "Steffen Schlie"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "20 pages",
+   "abstract": "Counting (integer) lattice points in a convex body $K$ has a rich history, beginning with the famous circle problem imposed by Gauss in 1834. Clearly, the number of covered lattice points depends on the position, orientation, size, and shape of $K$ in a delicate way. In 1947, Kendall was the first to consider a randomized version of this problem by allowing random translations of $K$. In this survey, we aim to provide an overview of the current state of research on the \\emph{randomized lattice-point count problem}, i.e.\\ on the distribution of the lattice-point count under random rotations and translations of $K$. As it turns out, even the variance is far from being well-understood, leaving multiple open questions for future research. The motivation for the present work grew out of the author's research interest in a related combinatorial problem, dealing with the convex hull of all covered lattice points.",
+   "abs": "https://arxiv.org/abs/2611.16769",
+   "pdf": "https://arxiv.org/pdf/2611.16769"
+  }
+ ],
+ "listed_new": 75,
+ "listed_cross": 38
+}
