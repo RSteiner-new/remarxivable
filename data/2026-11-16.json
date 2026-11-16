@@ -1,0 +1,548 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T04:41:17Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 39,
+ "screened_new": 29,
+ "screened_cross": 10,
+ "scored": 39,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.17443",
+   "type": "new",
+   "title": "$A_1^{(1)}$-Grounded partitions at levels $1$ and $2$, Part II: affine crystal structure",
+   "authors": [
+    "Benedek Dombos",
+    "Jihyeug Jang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "This is the second part of a revised version of the previous manuscript: arXiv:2508.02664",
+   "abstract": "Grounded partitions are coloured partitions with difference conditions, introduced by Dousse and Konan, that are in bijection with the paths of the Kyoto path model of Kang, Kashiwara, Misra, Miwa, Nakashima and Nakayashiki. We describe the affine crystal structure on the grounded partitions arising from the level $1$ and level $2$ perfect crystals of type $A_1^{(1)}$. At level $1$, grounded partitions are naturally identified with $2$-restricted partitions, and the affine crystal structure is given by Kleshchev's modular branching rule for symmetric groups in characteristic $2$. At level $2$, we give explicit bracketing rules which make grounded partitions into affine crystal graphs of highest weights $2\\Lambda_0$, $\\Lambda_0+\\Lambda_1$, and $2\\Lambda_1$. We prove this by constructing explicit graph isomorphisms with the asymptotic model of Ariki and Mathas, whose vertices are Kleshchev multipartitions arising from Ariki-Koike algebras. Finally, we erase the $0$-arrows, which leaves the crystal graphs of the restrictions to the Levi subalgebra, and decompose them into finite strings. This decomposition gives new $q$-series identities at levels $1$ and $2$.",
+   "abs": "https://arxiv.org/abs/2611.17443",
+   "pdf": "https://arxiv.org/pdf/2611.17443"
+  },
+  {
+   "id": "2611.17378",
+   "type": "new",
+   "title": "A $19/5$ lower bound for the four-dimensional Erdős box problem",
+   "authors": [
+    "Dean Matthew Menezes"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages",
+   "abstract": "For every power $q\\ge2$ of~$2$, we construct a box-free subset of $[q^5]^4$ with $q^{19}$ points, improving the lower-bound exponent in the four-dimensional Erdős box problem from $15/4$ to $19/5$. In fact, $[q^5]^4$ partitions into $q$ isomorphic box-free sets. The proof uses a finite-field rectangle lemma and orthogonality in a four-dimensional bilinear space. We also deduce a uniform bound $f_4(n)\\ge2^{-19/20}n^{19/5}$ and a lower bound for grid-coloring numbers.",
+   "abs": "https://arxiv.org/abs/2611.17378",
+   "pdf": "https://arxiv.org/pdf/2611.17378"
+  },
+  {
+   "id": "2611.17567",
+   "type": "cross",
+   "title": "A proof of the Jamneshan-Tao conjecture by embedding nilspaces in nilmanifolds",
+   "authors": [
+    "Pablo Candela",
+    "Diego González-Sánchez",
+    "Balázs Szegedy"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO",
+    "math.DS"
+   ],
+   "primary": "math.GR",
+   "comments": "26 pages",
+   "abstract": "We prove that every compact finite-rank nilspace admits a continuous injective morphism into a toral nilspace of the same step, and hence into a connected filtered nilmanifold. Combining this embedding theorem with the general nilspace inverse theorem, we establish the Jamneshan-Tao conjecture and extend its conclusion to second-countable compact abelian groups. This yields an inverse theorem for Gowers norms on all such groups, in which the correlating functions factor through morphisms into nilmanifolds. The proof relies on substantial foundations developed in nilspace theory over the past decade, particularly the general nilspace inverse theorem and the representation of compact finite-rank nilspaces as quotients of free nilspaces.",
+   "abs": "https://arxiv.org/abs/2611.17567",
+   "pdf": "https://arxiv.org/pdf/2611.17567"
+  },
+  {
+   "id": "2611.18296",
+   "type": "new",
+   "title": "From Butson Hadamard switching to graph switching and back",
+   "authors": [
+    "Aida Abiad",
+    "Ronan Egan",
+    "Stef Mohnen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Switching is a local operation that preserves specified properties of a combinatorial object. It has been used to derive constructions of inequivalent Hadamard matrices and nonisomorphic cospectral graphs. In this paper we investigate the relation between these constructions for real and Butson Hadamard matrices. We show that, while equivalent matrices have isomorphic associated graphs, the converse can fail for Butson matrices. We prove that a character decomposition determines the graph spectrum from the singular values of entrywise powers. For prime phase, we also observe that the spectrum depends only on the order and phase; for composite phase, a switching preserving the Butson property can change it. We show that Orrick's closed-quadruple and Hall-set switchings correspond to Wang-Qiu-Hu switching, up to graph isomorphism. Going in the other direction, we characterise when the Godsil-McKay and Wang-Qiu-Hu reflections preserve the Butson property and give phase-multiplicity conditions for the corresponding graph switchings. Finally we also relate block switching to cyclic graph switching under a phase-balance condition, automatic at prime phase. These results provide a basis for transferring tools and techniques between matrix switching and graph switching.",
+   "abs": "https://arxiv.org/abs/2611.18296",
+   "pdf": "https://arxiv.org/pdf/2611.18296"
+  },
+  {
+   "id": "2611.17357",
+   "type": "new",
+   "title": "Log-concavity of rank and crank statistics for integer partitions",
+   "authors": [
+    "Jianxi Mao",
+    "Wenle Shi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "74 pages",
+   "abstract": "Let $M(m,n)$ and $N(m,n)$ denote the numbers of partitions of $n$ with crank $m$ and rank $m$, respectively. Ji and Zang [Adv. Math. 2021] conjectured that $M(m,n)$ is log-concave in $m$ for $n\\ge72$ and $|m|\\le n-72$, and that $N(m,n)$ is log-concave in $m$ for $n\\ge73$ and $|m|\\le n-73$. In this paper, we prove these two conjectures.",
+   "abs": "https://arxiv.org/abs/2611.17357",
+   "pdf": "https://arxiv.org/pdf/2611.17357"
+  },
+  {
+   "id": "2611.18193",
+   "type": "new",
+   "title": "Graphs attaining Haemers' toughness bound",
+   "authors": [
+    "Yifan Li",
+    "Cheng Yeaw Ku"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Haemers \\cite{Haemers2020} conjectured that every connected noncomplete graph $G$ satisfies $t(G)\\geqslant\\mu_2/(\\mu_n-\\delta)$, where $t(G)$ is the toughness of $G$, $\\mu_2$ and $\\mu_n$ are its algebraic connectivity and Laplacian spectral radius, and $\\delta$ is its minimum degree. Greaves and Zhu \\cite{GreavesZhu2026} recently proved this conjecture, leaving the equality case open. We characterize all graphs attaining equality: a graph attains equality if and only if its complement has a complete component whose order is at least the Laplacian spectral radius of every other component. Equivalently, its algebraic connectivity and independence number sum to its order. We also determine all vertex cuts attaining the toughness, and show that for regular graphs, the equality graphs are exactly the complete multipartite graphs with parts of equal size.",
+   "abs": "https://arxiv.org/abs/2611.18193",
+   "pdf": "https://arxiv.org/pdf/2611.18193"
+  },
+  {
+   "id": "2611.17855",
+   "type": "new",
+   "title": "On configurations that are nearly generalised polygons",
+   "authors": [
+    "Sam Adriaensen",
+    "John Bamberg",
+    "Jason Williford"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 comments",
+   "abstract": "Payne (1972) introduced nearly generalised $n$-gons as $(s+1)$-regular bipartite graphs of girth $2n$ with small excess over the Moore bound. Biggs and Ito (1980) proved nonexistence of such graphs if $s > 1$ and $n > 3$, leaving open the existence of regular antipodal planes. We revisit this problem from several equivalent viewpoints. First we show that a regular antipodal plane of order $s$ is equivalent to a balanced weighing matrix whose support is the incidence matrix of a biplane with parameters \\[ 2-\\left(\\frac{s^2+s+2}{2},\\,s+1,\\,2\\right). \\] This gives short determinant and local-arithmetic obstructions to existence. We then formulate the question of signing a biplane as an affine linear system over $\\mathbb F_2$, and use this formulation to prove that no regular antipodal plane of order $s$ exists with $4\\le s\\le 14$. Finally, we give further equivalent formulations in terms of sharply deranged families of permutations and mutually orthogonal array-bic squares. These translations provide new computational and structural approaches to Payne's conjecture that regular antipodal planes exist only for $s=2,3$.",
+   "abs": "https://arxiv.org/abs/2611.17855",
+   "pdf": "https://arxiv.org/pdf/2611.17855"
+  },
+  {
+   "id": "2611.18483",
+   "type": "cross",
+   "title": "Rigidity of the moving particle lemma for the interchange process",
+   "authors": [
+    "Joe P. Chen"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "28 pages",
+   "abstract": "Let $G=(V,c)$ be a finite connected weighted graph. We establish the exact conditions for attaining equality in the moving particle lemma for the interchange process on $G$ subject to a unit voltage drop across two terminal vertices $x\\neq y \\in V$. First, equality can occur only in irreducible representations indexed by partitions with at most two rows. We then show that the equality phenomenon beyond the constant and linear sectors is already visible in the two-particle exclusion process. Such equality occurs in exactly two cases: either the harmonic $x$--$y$ voltage is $\\frac12$ on every nonterminal vertex, and the induced nonterminal graph $G[V\\setminus\\{x,y\\}]$ is disconnected; or the harmonic voltage is constant on each connected component of $G[V\\setminus \\{x,y\\}]$, and both voltage values $a$ and $1-a$, with $0\\le a<\\frac12$, occur. In each case we compute the equality kernel in every degree and particle sector. The resulting decomposition gives the complete equality kernel for exclusion and, through the regular representation, for the interchange process.",
+   "abs": "https://arxiv.org/abs/2611.18483",
+   "pdf": "https://arxiv.org/pdf/2611.18483"
+  },
+  {
+   "id": "2611.17885",
+   "type": "new",
+   "title": "Goodman-type lower bounds for graph homomorphism densities",
+   "authors": [
+    "Taeyoung Kim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 2 figures, 1 table",
+   "abstract": "For a finite graph $H$ with $v(H)$ vertices, chromatic number $\\chi(H)$, and chromatic polynomial $P_H$, define $\\Phi_H(p)=(1-p)^{v(H)}P_H((1-p)^{-1})$. This polynomial interpolates the homomorphism densities of $H$ in balanced complete multipartite graphons. We study the lower bound $t(H,W)\\ge\\Phi_H(p)$ on the homomorphism density of $H$ in graphons $W$ of edge density $p>1-1/(\\chi(H)-1)$, which generalises Goodman's triangle bound. We prove the inequality for chordal graphs whose maximal cliques have equal size, for trivially perfect graphs, and for joins of a clique and an odd cycle. The proofs use entropy along clique trees and a convexity criterion for adding a universal vertex. We also prove that a nonbipartite graph satisfies the inequality at all sufficiently high edge densities if and only if its girth is odd. For a graph on $n$ vertices whose girth is odd, the bound holds whenever $p>1-(72n^{12})^{-1}$. The proof combines Whitney's forest expansion with a spectral comparison of cycle densities. Finally, among the $117$ nonbipartite graphs on at most six vertices with no isolated vertices or isolated edges, exactly $94$ satisfy the bound. The main results are formally verified in Lean 4.",
+   "abs": "https://arxiv.org/abs/2611.17885",
+   "pdf": "https://arxiv.org/pdf/2611.17885"
+  },
+  {
+   "id": "2611.18391",
+   "type": "cross",
+   "title": "Color Refinement Distinguishes Connected Rooted Outerplanar Graphs",
+   "authors": [
+    "Louann Coste (DI-ENS)",
+    "M{ó}nika Csik{ó}s (IRIF (UMR\\_8243))",
+    "Laurent Viennot (DI-ENS",
+    "ARGO)"
+   ],
+   "categories": [
+    "cs.DM",
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "Color refinement, also known as the $1$-dimensional Weisfeiler-Leman algorithm ($1$-WL), is a classical near-linear-time heuristic for graph isomorphism, which also captures the expressive power of message-passing graph neural networks. A long line of work asks on which graph classes $1$-WL, or its higher-dimensional variant $k$-WL, identifies every graph; the least such $k$ is the WL-dimension of the class. Planar graphs have WL-dimension at most $3$ (Kiefer, Ponomarenko and Schweitzer, 2019), and whether $2$-WL already distinguishes all planar graphs is a central open problem. We bring new insight on this question for outerplanar graphs, whose WL-dimension is $2$. We show that color refinement, i.e. 1-WL, distinguishes connected rooted outerplanar graphs: two non-isomorphic such graphs receive different stable colorings once a single vertex, the root, is individualized. The root is necessary, as there are non-isomorphic $2$-connected outerplanar graphs that color refinement does not distinguish. Our result extends to pseudo-rooted graphs, in which the stable coloring merely contains a singleton color class, and to non-connected graphs whose components all contain such a class. Consequently, the $(1,1)$-WL test of Rattan and Seppelt (2023) distinguishes all outerplanar graphs. We proceed by inversion: we reconstruct a connected rooted outerplanar graph, up to isomorphism, from its color graph, the weighted quotient of the graph by its stable color classes, together with its root color. The reconstruction runs in time linear in the output size and is canonical, which yields a near-linear-time canonization algorithm for these graphs. Our main tool is a dichotomy lemma, formalized in Rocq: in a rooted outerplanar graph with an equitable coloring, every block either receives pairwise distinct colors or admits a color-preserving mirror symmetry fixing its vertex closest to the root.",
+   "abs": "https://arxiv.org/abs/2611.18391",
+   "pdf": "https://arxiv.org/pdf/2611.18391"
+  },
+  {
+   "id": "2611.18059",
+   "type": "new",
+   "title": "Compatible zero-sum partitions of finite Abelian groups and their applications",
+   "authors": [
+    "Ahmet Batal",
+    "Sylwia Cichacz"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $(\\Gamma,+)$ be a finite Abelian group and let $g\\in\\Gamma\\setminus\\{0\\}$. A partition of $\\Gamma$ is called $g$-compatible if no part contains both $x$ and $x+g$. For a prescribed involution $h$ and odd $r\\ge3$, we prove that $\\Gamma$ admits an $h$-compatible partition into zero-sum $r$-element sets if and only if $r$ divides $|\\Gamma|$ and $\\Gamma$ has at least three involutions. Moreover, the partition can be chosen so that the multigraph whose vertices are its parts and whose edges are the pairs $\\{x,x+h\\}$ is Hamiltonian and has a proper edge coloring with $r$ colors. We also give examples, for groups of odd order and for even block sizes, in which zero-sum partitions exist but compatible ones do not. We give two applications of these partitions. For block size three, we obtain complete mappings whose cycles are precisely the parts of the partition. We also construct Hamiltonian $r$-regular $\\Gamma$-distance-magic graphs admitting $0$ and every involution of $\\Gamma$ as magic constants.",
+   "abs": "https://arxiv.org/abs/2611.18059",
+   "pdf": "https://arxiv.org/pdf/2611.18059"
+  },
+  {
+   "id": "2611.17584",
+   "type": "new",
+   "title": "The Ulam sequence grows subexponentially",
+   "authors": [
+    "Noah Kravitz"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the $n$-th element of the Ulam sequence, a somewhat mysterious recursively-defined sequence of positive integers, has size $e^{O(\\sqrt{n})}$; previous upper bounds were exponential in $n$. Our argument uses an additive-combinatorial lemma, possibly of independent interest, about covering finite difference sets with multiplicatively short intervals. The proofs are due to ChatGPT.",
+   "abs": "https://arxiv.org/abs/2611.17584",
+   "pdf": "https://arxiv.org/pdf/2611.17584"
+  },
+  {
+   "id": "2611.18474",
+   "type": "new",
+   "title": "Efficient Reconfiguration of Independent Transversals",
+   "authors": [
+    "Sahab Hajebi",
+    "Penny Haxell"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 2 figures",
+   "abstract": "We study the reconfiguration of independent transversals in graphs with a prescribed vertex partition. Given a graph $G$ with a vertex partition $\\mathcal{V}=(V_1,\\ldots,V_m)$, an independent transversal is an independent set containing exactly one vertex from each part $V_i$ of $\\mathcal{V}$. The reconfiguration problem concerns transforming one independent transversal into another through a sequence of local changes, while preserving the independent transversal property at every step. For any fixed $r\\in\\mathbb{N}$ and $\\epsilon>0$, we present a polynomial-time algorithm that, given an $r$-claw-free graph $G$ with a vertex partition $\\mathcal{V}=(V_1,\\ldots,V_m)$ and two independent transversals $S$ and $R$, either finds a polynomial-length reconfiguration path between $S$ and $R$, or identifies a nonempty set of partition classes $\\mathcal{B}\\subseteq\\mathcal{V}$ such that the subgraph induced by their union admits a strong dominating set of size at most $(2+\\epsilon)|\\mathcal{B}|$. Our result provides an algorithmic counterpart to recent connectivity results for the reconfiguration graph of all independent transversals, and establishes polynomial bounds on its diameter under suitable conditions. As a specific application, we obtain a polynomial-time algorithm for reconfiguring perfect matchings in $r$-uniform bipartite hypergraphs $H=(A,B,E)$, that either produces a polynomial-length reconfiguration path between two given perfect matchings or identifies a subset $S\\subseteq A$ whose link hypergraph $E_S$ in $B$ has a small cover.",
+   "abs": "https://arxiv.org/abs/2611.18474",
+   "pdf": "https://arxiv.org/pdf/2611.18474"
+  },
+  {
+   "id": "2611.18058",
+   "type": "new",
+   "title": "Perfect Matching Complexes of $3\\times 2n$ Grid Graph",
+   "authors": [
+    "Himanshu Chandrakar",
+    "Trung Chau",
+    "Shuchita Goyal",
+    "Rahul Karki",
+    "B. Subhash"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AT"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages, 1 figure, Comments are welcome!",
+   "abstract": "The perfect matching complex of a simple graph $G$ is an abstract simplicial complex whose facets (maximal faces) are precisely the perfect matchings of $G$. In this article, we study the topology of the perfect matching complex of the $3\\times 2n$ grid graph and show that it is homotopy equivalent to a wedge of $f_{n-1}$ copies of $(n-1)$-dimensional spheres, where $f_{k}$ denotes the $k$-th Fibonacci number. This proves a particular case of the conjecture given by Chandrakar and Singh for perfect matching complex of grid graphs.",
+   "abs": "https://arxiv.org/abs/2611.18058",
+   "pdf": "https://arxiv.org/pdf/2611.18058"
+  },
+  {
+   "id": "2611.17657",
+   "type": "new",
+   "title": "Schreier Sets And the Product of Fibonacci And Catalan Numbers",
+   "authors": [
+    "Kevin Beanland",
+    "Hung Viet Chu",
+    "Carrie E. Finch-Smith"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "First, we introduce strictly super-Schreier sets, which provide a new combinatorial interpretation of products of Fibonacci and Catalan numbers. Second, we show that the numbers of sets in higher-order Schreier families do not satisfy any linear recurrence relation, thus answering a question in the existing literature.",
+   "abs": "https://arxiv.org/abs/2611.17657",
+   "pdf": "https://arxiv.org/pdf/2611.17657"
+  },
+  {
+   "id": "2611.18358",
+   "type": "cross",
+   "title": "Quadratic APN Functions of $\\mathbb{F}_2^{10}$ with a Self-Equivalence of Prime Order",
+   "authors": [
+    "Emanuele Bellini"
+   ],
+   "categories": [
+    "cs.IT",
+    "cs.CR",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "",
+   "abstract": "Almost perfect nonlinear (APN) functions of $\\mathbb{F}_2^n$ have the lowest possible differential uniformity. The only known APN permutation in even dimension, in dimension six, is equivalent to a quadratic APN function with a nontrivial linear self-equivalence; no APN permutation is known for even $n \\geq 8$. In a published collection of about 3.8 million quadratic APN classes of dimension eight, at most 0.34% have a nontrivial linear self-equivalence. In dimension ten, the 25 literature classes considered here all have one. We study all quadratic APN functions of $\\mathbb{F}_2^{10}$ with such a self-equivalence, which usually confines them to a much smaller linear space. Up to conjugacy and power similarity, self-equivalences of prime order have 299 types. We settle 298 of them. Elementary lemmas exclude 280 types, and exhaustive searches confirm this for 242 of them. The other 18 types are settled by exhaustive searches with exact equivalence certificates. Up to extended affine equivalence, the 298 types contain 29 classes of quadratic APN functions, four of them new. This also classifies the quadratic APN functions with coefficients in a subfield. Exactly 24 classes contain one with coefficients in $\\mathbb{F}_4$, and all 3 that contain one with coefficients in $\\mathbb{F}_{32}$ are among them. The open type consists of the quadratic canonical triplicate functions. They correspond to maximum additive Hermitian rank-distance codes. Three different searches find only the invariants of 16 classes, all among the 29. We conjecture there are no others. No quadratic APN function in the 298 settled types is Carlet-Charpin-Zinoviev equivalent to a permutation.",
+   "abs": "https://arxiv.org/abs/2611.18358",
+   "pdf": "https://arxiv.org/pdf/2611.18358"
+  },
+  {
+   "id": "2611.18384",
+   "type": "new",
+   "title": "From Diagonal Coloring to Proper Vertex Labelings Distinguishing Adjacent Facial Sums",
+   "authors": [
+    "Zhou Guofei"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this paper we study proper vertex labelings of 3-connected plane graphs that give distinct boundary-vertex sums to faces sharing an edge. Let $\\lambda(G)$ be the least $k$ for which labels from $\\{0,\\ldots,k\\}$ suffice, and let $\\laml(G)$ be its arbitrary-real-list counterpart. Our two main results are an eight-element list theorem for fullerenes and the universal bound $\\lambda(G)\\le708587$ for all 3-connected plane graphs. We establish structural nine- and eight-color bounds, classify triangulations whose vertices of degree at least five form an independent set, and determine their exact diagonal chromatic numbers. We also prove closure under triangular sums for $q\\ge7$ diagonal colors, with an optimal uniform threshold. For cubic 3-connected plane graphs we obtain $\\lambda\\le14$, improving to $\\lambda\\le9$ in the bipartite case.",
+   "abs": "https://arxiv.org/abs/2611.18384",
+   "pdf": "https://arxiv.org/pdf/2611.18384"
+  },
+  {
+   "id": "2611.17386",
+   "type": "cross",
+   "title": "TSP instances that require exponentially many subtour elimination constraints",
+   "authors": [
+    "Eleonora Vercesi",
+    "Austin Buchanan"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "We construct pathological TSP instances that require exponentially many subtour elimination constraints (SECs) in the sense that, if a smaller collection of SECs is imposed, then the Dantzig-Fulkerson-Johnson model returns a disconnected solution costing less than an optimal tour. For asymmetric instances on $n$ vertices, we prove a growth rate of \\(\\Omega(\\phi^n)\\), where \\(\\phi\\approx 1.618\\) is the golden ratio. A node-splitting reduction gives metric instances with \\(\\Omega(\\phi^{n/2})\\) growth. We also give instances in the plane under the Euclidean, Rectilinear, and Maximum metrics that require exponentially many SECs. Concorde struggles on them, with solve times growing exponentially despite tiny integrality gaps.",
+   "abs": "https://arxiv.org/abs/2611.17386",
+   "pdf": "https://arxiv.org/pdf/2611.17386"
+  },
+  {
+   "id": "2611.18518",
+   "type": "new",
+   "title": "Polytopal realization of double root free subword complexes",
+   "authors": [
+    "Zijun Li"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "22 pages",
+   "abstract": "We give a convex geometric sufficient condition for a convex polytope to realize a spherical subword complex. Using this criterion, we first prove that each root independent spherical subword complex is polytopal, for any Coxeter group. Then we prove the polytopality of double root free subword complexes, for any Coxeter groups. To prove this, we construct a polytope in an auxiliary vector space whose image under a natural affine map is the usual brick polytope. In the complex Kac-Moody case, the polytope is integral, with vertices in the character lattice of the torus of unfolded galleries in a thick building. In finite Lie types, in double root free cases, these tori are precisely the corresponding braid varieties.",
+   "abs": "https://arxiv.org/abs/2611.18518",
+   "pdf": "https://arxiv.org/pdf/2611.18518"
+  },
+  {
+   "id": "2611.17748",
+   "type": "new",
+   "title": "Exponential Double and Multiple Riordan Arrays as Fiber Products",
+   "authors": [
+    "Tian-Xiao He"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A double Riordan array has nonzero entries only in positions $(n,k)$ with $n+k$ even, and its even and odd parts are Riordan arrays with the same multiplier function. We develop this observation systematically, with the emphasis on exponential double and exponential multiple Riordan arrays. Using generalized Riordan arrays with respect to a sequence $(c_n)$, we show that the double Riordan group, the exponential double Riordan group, the multiple Riordan group, and the exponential multiple Riordan group are fiber products of (generalized) Riordan groups over the Lagrange group. For exponential double and exponential multiple Riordan arrays this yields product and inverse formulas without square or $\\ell$th roots, valid over any field of characteristic zero; an abelian normal subgroup with quotient the Lagrange group and a corresponding splitting; subgroups isomorphic to the Riordan group; an iterated split-extension description of the multiple groups; and a characterization of elements of finite order, including the fact that over ${\\mathbb R}$ every element of finite order is an involution. We show that the $\\ell$th power of the production matrix is the direct sum of the production matrices of the compressions, give an explicit formula for it in terms of partial Bell polynomials, and characterize these arrays by a shared $A$-sequence. Finally, we reverse the construction. Two Riordan arrays with a common multiplier can always be interleaved into a unique double Riordan array, and into an ordinary Riordan array exactly when their first functions satisfy one more condition. Examples include Pascal-, Catalan-, Morgan--Voyce-, and ballot-type arrays.",
+   "abs": "https://arxiv.org/abs/2611.17748",
+   "pdf": "https://arxiv.org/pdf/2611.17748"
+  },
+  {
+   "id": "2611.17839",
+   "type": "new",
+   "title": "Weighted Euler transforms, real-rootedness, and $γ$-positivity",
+   "authors": [
+    "Yinuo Cheng",
+    "Guoce Xin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "For $a>0$ and a polynomial $F$ of degree $m$, let $H_{a,F}$ denote the weighted Euler numerator of $F$, defined as the numerator of the generating function $\\sum_{k\\ge0}(a)_kF(k)x^k/k!$ with denominator $(1-x)^{a+m}$. For every $a>0$, we show the following preservation result: if the numerators $H_{a,F}$ and $H_{a,G}$ have only real nonpositive zeros, then the same holds for $H_{a,FG}$. The proof relies on an explicit multiplication formula in falling-factorial coordinates and a characterization of multiplier sequences for generalized Laguerre bases due to Brändén and Ottergren. Furthermore, when the symmetric degrees coincide with the ordinary degrees of the input polynomials, the same operation preserves $\\gamma$-positivity. For positive integers $a=r$, the weight is the Ehrhart polynomial of the standard simplex $\\Delta_{r-1}$. This yields geometric preservation theorems for products with a single simplex factor, as well as applications to Gorenstein polytopes and a Reeve tetrahedron example.",
+   "abs": "https://arxiv.org/abs/2611.17839",
+   "pdf": "https://arxiv.org/pdf/2611.17839"
+  },
+  {
+   "id": "2611.18076",
+   "type": "new",
+   "title": "Upper bounds for the number of spanning forests of a graph",
+   "authors": [
+    "Tingzeng Wu",
+    "Shuxin Lu",
+    "Xiangshuai Dong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a simple graph on $n$ vertices, and let $F(G)$ denote the number of spanning forests of $G$. Bencs and Csikvári proved that every $r$-regular graph $G$ with $r\\ge 2$ satisfies $F(G)\\le r^n$. Motivated by this result, they conjectured that if $G$ has minimum degree at least $3$, then $F(G)\\leq \\prod_{i=1}^n d_i$, where $(d_1, d_2, \\dots, d_n)$ is the degree sequence of $G$. In this paper, we prove that graphs with minimum degree at least $n/3$ $(n\\geq7)$ satisfy $F(G)\\leq \\prod_{i=1}^n d_i$. We also construct a counterexample to the conjecture. We therefore further study the enumeration of spanning forests in general graphs, proving an upper bound in terms of the degree sequence and characterizing the extremal graphs attaining this bound. In addition, using the matrix-forest theorem, we obtain an upper bound for the number of spanning forests of a connected graph in terms of its algebraic connectivity, and characterize the extremal graphs attaining this bound.",
+   "abs": "https://arxiv.org/abs/2611.18076",
+   "pdf": "https://arxiv.org/pdf/2611.18076"
+  },
+  {
+   "id": "2611.16156",
+   "type": "cross",
+   "title": "Many more odd zeta values are irrational",
+   "authors": [
+    "Stéphane Fischler",
+    "Li Lai",
+    "Johannes Sprang",
+    "Wadim Zudilin"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CA",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "17 pages",
+   "abstract": "We prove that for any sufficiently large odd integer $s$, there exist at least \\[ 2.78 \\, \\sqrt{\\frac{s \\log\\log s}{\\log s}} \\] irrational values among $\\zeta(3), \\zeta(5), \\dots, \\zeta(s)$, where $\\zeta$ is the Riemann zeta function. This improves on the best known estimate by a constant factor times $\\sqrt{ \\log\\log s}$. The proof combines the elimination technique and an arithmetic lemma of Fischler--Sprang--Zudilin, the hypergeometric constructions of Lai--Yu, and the Hankel determinant method that appeared in the proof that $\\zeta(5)$ is irrational posted by Fauzan on September 17, 2026.",
+   "abs": "https://arxiv.org/abs/2611.16156",
+   "pdf": "https://arxiv.org/pdf/2611.16156"
+  },
+  {
+   "id": "2611.17358",
+   "type": "new",
+   "title": "Automatic $n$-dimensional recurrences over finite $p$-groups with negative predecessor coordinates",
+   "authors": [
+    "Bogdan Dumitru",
+    "Mihai Prunescu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study $n$-dimensional recurrences on $\\mathbb{N}^n$ over finite $p$-groups. The rules are ordered products of group endomorphisms, with a $p$-automatic additional sequence and compatible $p$-automatic boundary data. For finite, nonempty, lexicographically positive predecessor sets, we prove automaticity whenever at most one coordinate contains entries of both signs. This covers all such systems for $n=1$ and $n=2$. For $n\\ge3$, lexicographic positivity alone is insufficient: a fixed three-dimensional recurrence with a single nonzero boundary value is nonautomatic in base $p$ for every prime $p$. For nonnegative predecessors, we give a direct automaton construction and explicit state bounds in the abelian case. Negative coordinates are treated using algebraic power-series division, lifting modulo prime powers, central subgroups and boundary-preserving coordinate changes. A two-parameter family with a specified rule and a single boundary seed admits an exact automaticity criterion modulo prime powers. We also give nonabelian examples and finite computational certificates, including a proof of a previously proposed formula counting nonzero Delannoy residues modulo $27$.",
+   "abs": "https://arxiv.org/abs/2611.17358",
+   "pdf": "https://arxiv.org/pdf/2611.17358"
+  },
+  {
+   "id": "2611.17489",
+   "type": "new",
+   "title": "Isolation of $k$-cliques in uniform hypergraphs",
+   "authors": [
+    "Mattea Baluci",
+    "Peter Borg"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "A copy of a hypergraph $F$ is called an $F$-copy. For any integers $k$ and $r$ with $2 \\leq r \\leq k$, let $K_k^r$ denote the complete $r$-uniform hypergraph whose vertex set is $[k] = \\{1, 2, \\dots, k\\}$ (that is, the edges of $K_k^r$ are the $r$-element subsets of $[k]$). Given an $r$-uniform $m$-edge hypergraph $H$, the $K_k^r$-isolation number of $H$, denoted by $\\iota(H, K_k^r)$, is the size of a smallest subset $D$ of the vertex set of $H$ such that the closed neighbourhood $N[D]$ of $D$ intersects the vertex sets of the $K_k^r$-copies contained by $H$ (equivalently, $H-N[D]$ contains no $K_k^r$-copy). We prove that if $H$ is connected and not a $K_k^r$-copy, then $$\\iota(H, K^r_k) \\le \\left \\lfloor \\frac{(r-1)m + 1}{(r-1)(\\binom{k}{r}+1) + 1} \\right \\rfloor.$$ The bound is best possible. This is a solution to a problem of Li, Zhang and Ye. We also provide an alternative proof for $r < k$. Both proofs introduce new ideas for establishing bounds on isolation parameters.",
+   "abs": "https://arxiv.org/abs/2611.17489",
+   "pdf": "https://arxiv.org/pdf/2611.17489"
+  },
+  {
+   "id": "2611.17999",
+   "type": "new",
+   "title": "Additive cubes are avoidable over $\\{0,1,2,3\\}$, $\\{0,1,4\\}$ and $\\{0,2,5\\}$",
+   "authors": [
+    "Damien Jamet",
+    "Matthieu Rosenfeld"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.FL"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that additive cubes are avoidable over the alphabet $\\{0,1,2,3\\}$, thereby solving a long-standing question initiated by Pirillo and Varricchio in 1994. By extending the reduction and spectral machinery of Cassaigne, Currie, Schaeffer, and Shallit (2014), we prove that the search for additive cubes in such morphic images reduces to a finite graph traversal. We exhibit eight explicit morphisms from $\\{0,1,3,4\\}^*$ to $\\{0,1,2,3\\}^*$ of length 3 whose images on the Cassaigne \\textit{et al.} infinite word contain no additive cubes.",
+   "abs": "https://arxiv.org/abs/2611.17999",
+   "pdf": "https://arxiv.org/pdf/2611.17999"
+  },
+  {
+   "id": "2611.17812",
+   "type": "new",
+   "title": "Closed formulas for the permanents of structured matrices",
+   "authors": [
+    "M. Fazeel Anwar"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We give finite formulas for permanents of structured matrices and prove polynomial bounds for their evaluation. Over any field, the permanent of a matrix of bounded rank-width can be computed from the matrix alone, answering a question of Lyaudet. In characteristic $p>0$, the bound is $p^{O(k)}n^{O(1)}$, where $k$ is the rank-width. In characteristic zero, a determinant formula treats Cauchy matrices with an added polynomial of fixed degrees in the row and column nodes. This includes polynomial perturbations of Hilbert matrices and dense Toeplitz and Hankel families. For ordered cuts we give a single determinant; in positive characteristic, rational diagonal sequences give a fixed rational generating function for the Toeplitz permanents. We also give formulas for cycle weights and hook immanants. For translation matrices we obtain signed determinant formulas and classify the supports for which the permanent is the coefficientwise absolute value of the determinant. Further formulas cover cyclic block matrices, residue supports, and bands bounded on one side.",
+   "abs": "https://arxiv.org/abs/2611.17812",
+   "pdf": "https://arxiv.org/pdf/2611.17812"
+  },
+  {
+   "id": "2611.17360",
+   "type": "new",
+   "title": "Positive Dual Certificates for Real Separated Subset Sums: Chamber Optimality of the Conway-Guy and Bohman Sets, and Exact Values up to Eight",
+   "authors": [
+    "Esther Notik"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages. Certificate data and checking programs: this https URL",
+   "abstract": "Let $f_R(n)$ be the least possible largest element of a set of $n$ positive reals whose $2^n$ subset sums are pairwise at least 1 apart, and let $f_Z(n) \\ge f_R(n)$ be the corresponding integer quantity of the Erdős distinct subset sums problem. Fixing the signs of all signed relations $\\varepsilon\\cdot x$, $\\varepsilon \\in \\{-1,0,1\\}^n$, decomposes the real problem into polyhedral chambers, on each of which it is a linear program. We prove that for every $n$ the Conway-Guy set is the unique optimum of its chamber. The proof is an explicit positive dual certificate consisting of $n$ signed relations that are tight at the Conway-Guy set and unit lower triangular in gap coordinates; the relations are described by blocks of consecutive coordinates together with the positions $n - k(k+1)/2$, and tightness reduces to an identity of the Conway-Guy sequence proved by induction. We then show, by a branch-and-bound over chambers in which every leaf carries an exact rational certificate, that $f_R(n) = f_Z(n)$ for all $n \\le 8$; in particular $f_R(7) = 44$ and $f_R(8) = 84$. We then prove the same for both of Bohman's families, which first improve on Conway-Guy at $n = 12$ ($1159 < 1164$): every Bohman set is the unique optimum of its chamber, with a block-triangular certificate given by explicit formulas. Finally we exhibit chambers whose optimal vertex is not an integer point.",
+   "abs": "https://arxiv.org/abs/2611.17360",
+   "pdf": "https://arxiv.org/pdf/2611.17360"
+  },
+  {
+   "id": "2611.18353",
+   "type": "cross",
+   "title": "Cover times of random recursive trees and linear preferential attachment trees",
+   "authors": [
+    "Omer Angel",
+    "Christina Goldschmidt",
+    "Peleg Michaeli"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "15 pages, 1 figure",
+   "abstract": "We study the cover times of uniform random recursive trees and linear preferential attachment trees, including the negative-parameter models corresponding to random $d$-ary increasing trees. We prove explicit limits in probability and expectation when the cover times are rescaled by $n (\\log n)^2$. In particular, for the uniform random recursive tree the cover time is close to $e n (\\log n)^2$ with high probability.",
+   "abs": "https://arxiv.org/abs/2611.18353",
+   "pdf": "https://arxiv.org/pdf/2611.18353"
+  },
+  {
+   "id": "2611.17465",
+   "type": "new",
+   "title": "Dimension bounds for higher Bruhat orders",
+   "authors": [
+    "Daria Poliakova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 3 figures",
+   "abstract": "We study the Dushnik-Miller dimension of higher Bruhat orders. For the inclusion order $B_{\\mathrm{inc}}(n,k)$, with $k$ fixed, we prove that the order of dimension growth is $n^k$, by exhibiting standard examples for the lower bound and explicit systems of coordinates for the upper bound. A recent Turán-system construction of Gao, Kuang, Pikhurko and Wang gives an upper coefficient within a factor smaller than $4$ of the lower coefficient. For the genuine higher Bruhat order $B(n,k)$, we construct for every fixed $k\\ge3$ a standard example of order $n^{2k+1}$. We leave it open whether a polynomial upper bound on this dimension exists.",
+   "abs": "https://arxiv.org/abs/2611.17465",
+   "pdf": "https://arxiv.org/pdf/2611.17465"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 29,
+ "listed_cross": 10
+}
