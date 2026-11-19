@@ -1,0 +1,543 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T05:00:22Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 67,
+ "screened_new": 52,
+ "screened_cross": 15,
+ "scored": 67,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.23686",
+   "type": "new",
+   "title": "Connectivity of Matroids with Breadth-Critical Tangles",
+   "authors": [
+    "Zhuo Li",
+    "Zhen Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct an explicit infinite sequence of nonnegative integers $(s_0,s_1,\\ldots)$ such that, for every $k\\ge2$, every finite matroid with a breadth-critical tangle of order at least $k$ is $(s_0,s_1,\\ldots,s_{k-2})$-connected. The constants $s_i$ depend only on $i$. This proves a conjecture of Brettell, Jowett, Oxley, Semple, and Whittle.",
+   "abs": "https://arxiv.org/abs/2611.23686",
+   "pdf": "https://arxiv.org/pdf/2611.23686"
+  },
+  {
+   "id": "2611.23269",
+   "type": "cross",
+   "title": "The Bapat-Sunder eigenvalue conjecture fails over the reals",
+   "authors": [
+    "Logan R. Chalmers"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages. Originally submitted as submit/7962729 in August 2026; resubmitted following a successful appeal. Certificate data and exact verification code: this https URL",
+   "abstract": "In 1986 Bapat and Sunder asked whether $\\operatorname{per}(A)$ is the largest eigenvalue of $F_A=[a_{i,j}\\operatorname{per}(A(i,j))]$ for every positive semidefinite Hermitian $A$, where $A(i,j)$ deletes row $i$ and column $j$. Drury disproved this over the complex field in 2018 and conjectured that the property holds for real positive semidefinite matrices. We disprove Drury's conjecture with a rank-$4$, $32\\times32$ integer Gram matrix and an integer vector whose Rayleigh quotient exceeds $\\operatorname{per}(A)$; verification uses integer arithmetic. Together, the two counterexamples resolve the Bapat-Sunder eigenvalue conjecture negatively over both fields. Counterexamples exist of every order $n\\ge32$. As an application to quantum optics, the violation yields a $36$-mode orthogonal interferometer and a direction of relative arrival-time delays among $32$ photons with identical-variance Gaussian wave packets along which every sufficiently small nonzero delay increases the probability that all photons are detected within four designated output modes.",
+   "abs": "https://arxiv.org/abs/2611.23269",
+   "pdf": "https://arxiv.org/pdf/2611.23269"
+  },
+  {
+   "id": "2611.23460",
+   "type": "new",
+   "title": "Antidirected paths on five vertices in 5-chromatic digraphs",
+   "authors": [
+    "Hussein Karneeb"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every 5-chromatic digraph containing no copy of the regular tournament on five vertices contains both antidirected paths on five vertices. This answers a question posed by El Sahili in 2004. The proof uses an edge bound for 5-critical graphs to constrain the out-degrees in a counterexample and obtain a contradiction by constructing a proper 4-colouring.",
+   "abs": "https://arxiv.org/abs/2611.23460",
+   "pdf": "https://arxiv.org/pdf/2611.23460"
+  },
+  {
+   "id": "2611.23488",
+   "type": "cross",
+   "title": "Narrower arithmetic progressions in the primes",
+   "authors": [
+    "Xuancheng Shao"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "24 pages",
+   "abstract": "For each fixed $k\\geq 3$ and $\\delta > 0$, we prove that every subset of the primes up to $X$ of relative density at least $\\delta$ contains a non-trivial $k$-term arithmetic progression with common difference $O_{k,\\delta,\\varepsilon}((\\log X)^{k\\cdot 2^{k-3}+\\varepsilon})$, for any $\\varepsilon>0$. This improves the previous exponent $(k-1)2^{k-2}$. The main ingredient is a relative Szemerédi theorem for narrow progressions under weaker linear forms conditions.",
+   "abs": "https://arxiv.org/abs/2611.23488",
+   "pdf": "https://arxiv.org/pdf/2611.23488"
+  },
+  {
+   "id": "2611.23647",
+   "type": "new",
+   "title": "Removable forests in $k$-connected and $k$-edge-connected graphs",
+   "authors": [
+    "Xu Liu",
+    "Bo Ning"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "We prove the forest conjecture of Clay and Jordán: Let $k\\ge1$ be an integer and let $F$ be a forest with $m$ vertices and $e$ edges. If a $k$-connected graph $G$ has minimum degree at least $\\max\\{k+e,m-1\\}$, then it contains a copy of $F$ whose edge deletion preserves $k$-connectivity. We also prove the $k$-edge-connectivity version.",
+   "abs": "https://arxiv.org/abs/2611.23647",
+   "pdf": "https://arxiv.org/pdf/2611.23647"
+  },
+  {
+   "id": "2611.23641",
+   "type": "new",
+   "title": "Almost all vertex-transitive graphs and digraphs are Cayley",
+   "authors": [
+    "Ning Su",
+    "Binzhou Xia"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that almost all vertex-transitive digraphs are Cayley digraphs, and that almost all vertex-transitive graphs are Cayley graphs, as the number of vertices tends to infinity through all positive integers. The proportions of Cayley objects are at least $1-2^{-n/4+o(n)}$ for digraphs and $1-2^{-n/24+o(n)}$ for graphs. This proves the McKay--Praeger conjecture and its digraph analogue.",
+   "abs": "https://arxiv.org/abs/2611.23641",
+   "pdf": "https://arxiv.org/pdf/2611.23641"
+  },
+  {
+   "id": "2611.24775",
+   "type": "new",
+   "title": "A disproof of the van Emde Boas--Kruyswijk conjecture on the Davenport constant",
+   "authors": [
+    "Weidong Gao",
+    "Alfred Geroldinger",
+    "Guoqing Wang",
+    "Xiangneng Zeng"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Davenport constant $D(G)$ of a finite abelian group $G$ is the smallest positive integer $\\ell$ such that every sequence $S$ with terms from $G$ and with length $|S| \\ge \\ell$ has a nontrivial zero-sum subsequence. A long-standing conjecture, first proposed by van Emde Boas and Kruyswijk in 1969, states that $D(C_n^r)=r(n-1)+1$ for all positive integers $n$ and $r$. In this paper, we disprove this conjecture by showing that $D(C_6^r)>5r+1$ for every $r\\ge23$.",
+   "abs": "https://arxiv.org/abs/2611.24775",
+   "pdf": "https://arxiv.org/pdf/2611.24775"
+  },
+  {
+   "id": "2611.24238",
+   "type": "new",
+   "title": "Counting shorter even cycles in graphs forbidding an even cycle",
+   "authors": [
+    "Zhuoran Han",
+    "Yaojun Chen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "For graphs $H$ and $F$, the generalized Turán number $\\operatorname{ex}(n,H,F)$ is the maximum number of copies of $H$ in an $n$-vertex $F$-free graph. Let $C_m$ be a cycle on $m$ vertices. Liu and Wu (2026) proved that, for fixed integers $k>\\ell\\ge 2$, $\\operatorname{ex}(n,C_{2\\ell},C_{2k})=\\left(\\frac{(k-1)_\\ell}{2\\ell}+o(1)\\right)n^\\ell$, where $(k-1)_\\ell=(k-1)\\cdots(k-\\ell)$. In this paper, we determine the exact value of $\\operatorname{ex}(n,C_{2\\ell},C_{2k})$ for all sufficiently large $n$ and characterize the unique extremal graph.",
+   "abs": "https://arxiv.org/abs/2611.24238",
+   "pdf": "https://arxiv.org/pdf/2611.24238"
+  },
+  {
+   "id": "2611.23559",
+   "type": "new",
+   "title": "3-Cube-Free Sets in Cyclic Groups",
+   "authors": [
+    "Žarko Ranđelović"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "A set is called $3$-cube-free if it contains no configuration of the following form: $\\{x,y,z,x+y,x+z,y+z,x+y+z\\}$. We study the maximum density of $3$-cube-free sets in finite cyclic groups. As observed by Meng, every $3$-cube-free subset of $\\mathbb Z_m$ has size at most $2m/3$, and this bound is sharp whenever $3\\mid m$. Our main result shows that there exists an absolute constant $\\varepsilon>0$ such that, for every $m$ not divisible by $3$, every $3$-cube-free subset of $\\mathbb{Z}_m$ has size at most $\\left(2/3-\\varepsilon\\right)m$. Thus, in this setting, the natural $2/3$ barrier can be uniformly improved. Long and Wagner conjectured that every $3$-cube-free subset of $\\mathbb Z_{2^n}$ has size at most $5\\cdot 2^n/8$. We also establish this conjecture for 3-cube-free sets whose density in the layer of odd residues is at least $2/3$. Together with induction, this reduces the conjecture to the case where this density lies in $(5/8,2/3)$.",
+   "abs": "https://arxiv.org/abs/2611.23559",
+   "pdf": "https://arxiv.org/pdf/2611.23559"
+  },
+  {
+   "id": "2611.24343",
+   "type": "new",
+   "title": "Intersections of Odd Polygons Revisited",
+   "authors": [
+    "Eyal Ackerman"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "It is shown that the maximum number of intersection points between the boundaries of a simple $m$-gon and a simple $n$-gon is $mn-(m+n)+3$ for any odd integers $m,n \\ge 3$. The previous best upper bound was $mn-(m+n)+C$, for some huge constant $C$.",
+   "abs": "https://arxiv.org/abs/2611.24343",
+   "pdf": "https://arxiv.org/pdf/2611.24343"
+  },
+  {
+   "id": "2611.24735",
+   "type": "new",
+   "title": "A disproof of the El-Zahar--Erdős conjecture",
+   "authors": [
+    "Chenghua Liu",
+    "Boning Meng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "El-Zahar and Erdős asked whether every graph of bounded clique number and sufficiently large chromatic number contains two vertex-disjoint induced subgraphs, each of large chromatic number, with no edge between them. We give a negative answer even for triangle-free graphs. For every integer $g \\ge 4$, we show by a probabilistic argument that there exist graphs of girth at least $g$ and arbitrarily large chromatic number in which any two vertex-disjoint induced subgraphs that each require at least seven colors are joined by an edge.",
+   "abs": "https://arxiv.org/abs/2611.24735",
+   "pdf": "https://arxiv.org/pdf/2611.24735"
+  },
+  {
+   "id": "2611.24441",
+   "type": "new",
+   "title": "An additive-square-free word over an alphabet of size 6",
+   "authors": [
+    "Jeffrey Shallit"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An additive square over $\\mathbb{N}$ is two consecutive nonempty blocks of the same length and same sum. For example, 1423 is an additive square, since 14 and 23 both have length 2 and sum 5. Solving a problem that has been open for more than 50 years, we give an example of an infinite word over a 6-letter subset of N that avoids additive squares.",
+   "abs": "https://arxiv.org/abs/2611.24441",
+   "pdf": "https://arxiv.org/pdf/2611.24441"
+  },
+  {
+   "id": "2611.24564",
+   "type": "new",
+   "title": "Asymptotic probabilities in random Latin squares",
+   "authors": [
+    "Lenka Kopfová",
+    "Matthew Kwan",
+    "Richard Montgomery",
+    "Kalina Petrova"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, 4 figures",
+   "abstract": "We introduce some new general techniques for studying asymptotic probabilities in random Latin squares. Using these techniques, we obtain an asymptotic formula for the probability that a given 'small' partial Latin square $H$ is present in a uniformly random $n\\times n$ Latin square (as conjectured by Divoux-Kelly-Kennedy-Sidhu). As applications, we determine which configurations are likely to appear in random Latin squares (resolving a conjecture of Allsop-Morris), we determine the asymptotic distribution of the number of $3\\times 3$ Latin subsquares in a uniformly random $n\\times n$ Latin square (resolving conjectures of McKay-Wanless and Kwan-Sah-Sawhney), and we show that the first two rows of a random $n\\times n$ Latin square are statistically indistinguishable from a random derangement (answering a conjecture of Cameron and Cavenagh-Greenhill-Wanless).",
+   "abs": "https://arxiv.org/abs/2611.24564",
+   "pdf": "https://arxiv.org/pdf/2611.24564"
+  },
+  {
+   "id": "2611.24019",
+   "type": "new",
+   "title": "Covering dense $r$-graphs by perfect matchings",
+   "authors": [
+    "Jingchao Lai",
+    "Danyi Li",
+    "Weigen Yan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a matching-covered graph $G$, let $\\tau(G)$ denote the minimum number of perfect matchings needed to cover all edges of $G$. An $r$-regular graph $G$ is said to be an $r$-graph if $|\\partial(X)|\\geq r$ for each odd set $X\\subseteq V(G)$, where $\\partial(X)$ denotes the set of edges with precisely one end in $X$. The generalized Berge conjecture, which was proposed by Mazzuoccolo (J. Graph Theory, 73 (2013) 377-385) and equivalent to the generalized Berge-Fulkerson Conjecture posed by Seymour (Proc. London Math. Soc., 38 (1979) 423-460), states that $\\tau(G)\\leq 2r-1$ for every $r$-graph $G$, while the 1-factorization conjecture, first explicitly formulated by Chetwynd and Hilton (Proc. London Math. Soc., 50 (1985) 193-206), states that $\\tau(G)=r$ for every $r$-graph $G$ of order $2n$ with $r\\ge n$. These conjectures are still open. In this paper, we obtain the following two main results: 1. Let $G$ be an $r$-graph of order $2n$. If $r\\ge n$, then $\\tau(G)\\leq 2r-1$, which implies that the generalized Berge conjecture holds for $r\\ge n$, and a linear upper bound of $\\tau(G)$ in the 1-factorization conjecture is obtained. 2. Let $G$ be an $r$-graph of order $2n$. If $r\\ge 2n/3$, then $\\tau(G)\\leq 4r$, which implies that a linear upper bound of $\\tau(G)$ in the generalized Berge conjecture is obtained if $r\\geq 2n/3$. Our main approach combines equitable proper edge-colorings, matching extension techniques, and applications of Edmonds's perfect matching polytope theorem.",
+   "abs": "https://arxiv.org/abs/2611.24019",
+   "pdf": "https://arxiv.org/pdf/2611.24019"
+  },
+  {
+   "id": "2611.24832",
+   "type": "new",
+   "title": "List packing for graphs with small arboricity",
+   "authors": [
+    "Stijn Cambie",
+    "Wouter Cames van Batenburg",
+    "Xuding Zhu"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "10 pages (of which 2 for the main proofs)",
+   "abstract": "We prove that every graph $G$ whose edge set is the union of $r$ forests has list packing number at most $2^r$. This means that for all $k\\ge 2^r$ and every list-assignment $L$ with lists of size $k$, the graph $G$ admits $k$ disjoint proper $L$-colourings. While for large $r$ this bound is far from optimal, for $r\\in\\{1,2\\}$ it is sharp. As a direct corollary of the case $r=2$, we obtain that every triangle-free planar graph has list packing number at most $4$, thus improving upon a result of Dvořák, Masařík, Musílek and Pangrác and providing the optimal answer to a question of Dvořák, Postle and Norin on (weighted) $\\epsilon$-flexibility of such graphs. As a corollary of the case $r=3$, we obtain a short alternative proof that every $K_5$-minor-free (and hence every planar) graph has list-packing number at most $8$, matching the state of the art. All results above also hold for the stronger notion of correspondence packing.",
+   "abs": "https://arxiv.org/abs/2611.24832",
+   "pdf": "https://arxiv.org/pdf/2611.24832"
+  },
+  {
+   "id": "2611.23478",
+   "type": "new",
+   "title": "Unique-maximum colourings of planar graphs with respect to neighbourhoods",
+   "authors": [
+    "Jelena Sedlar",
+    "Riste Škrekovski"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, 1 figure",
+   "abstract": "A colouring of the vertices of a graph by positive integers is a unique-maximum colouring with respect to open (resp. closed) neighbourhoods if the maximum colour appears exactly once in the open (resp. closed) neighbourhood of every vertex. Fabrici, Lužar, Rindošová and Soták (Discrete Appl. Math. 324 (2023) 80-92) conjectured that four colours suffice for closed neighbourhoods in planar graphs. We prove this conjecture by colouring a suitable independent dominating set with the three largest colours. They further conjectured that six colours suffice if the colouring is also proper. We disprove this conjecture by a planar graph which needs seven colours, and we show that seven colours always suffice. For open neighbourhoods, we show that eight colours suffice, even for proper colourings, which improves the previous bound of ten. In the proper case, our graph again needs seven colours. If the colouring need not be proper and the graph has no vertices of degree 2, then six colours suffice.",
+   "abs": "https://arxiv.org/abs/2611.23478",
+   "pdf": "https://arxiv.org/pdf/2611.23478"
+  },
+  {
+   "id": "2611.24593",
+   "type": "new",
+   "title": "The number of $k$-factors of a random regular graph",
+   "authors": [
+    "Katerina Adler",
+    "Simi Haber"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "Let $Z_k(G)$ be the number of $k$-factors ($k$-regular spanning subgraphs) of a uniformly random simple $d$-regular graph $G\\sim G(n,d)$, where $d\\ge 3$ and $1\\le k\\le d-1$ are fixed integers such that $dn$ and $kn$ are even. We determine the asymptotic second moment of $Z_k(G)$ and show that $Z_k(G)/\\mathbb{E} Z_k(G)$ converges in distribution to an explicit random variable $W$ that depends on the short-cycle counts of $G$ but not on $k$. Moreover, for any $1\\le k,\\ell\\le d-1$, the normalised counts on the same graph satisfy $Z_k(G)/\\mathbb{E} Z_k(G) - Z_\\ell(G)/\\mathbb{E} Z_\\ell(G) \\to 0$ in probability, and, since $W>0$ almost surely, their ratio converges to $1$ in probability. This extends results of Bollobás--McKay and Janson for $k=1$ and Robalewska for $k=2$ to all $1\\le k\\le d-1$. In the pairing model, the second moment reduces to a one-dimensional lattice sum over the overlap of two $k$-factors. We evaluate this sum using the Poisson-binomial representation of the hypergeometric distribution, exponential tilting, and a uniform local limit theorem.",
+   "abs": "https://arxiv.org/abs/2611.24593",
+   "pdf": "https://arxiv.org/pdf/2611.24593"
+  },
+  {
+   "id": "2611.24034",
+   "type": "new",
+   "title": "Incidence methods for algebraic expanders over arbitrary fields",
+   "authors": [
+    "Yao Zhi"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "0",
+   "abstract": "Let $A\\subset F$ be finite, $N=|A|$, $p=\\operatorname{char}F$ (with $p=\\infty$ in characteristic zero), and $L=1+\\log(2N)$. In the range $N\\le p^{1/2}$, we establish \\[ |AA+A|\\gg N^{129/85}L^{-72/85}. \\] This improves the long-standing $3/2$-exponent bound for $AA+A$ in positive characteristic in the range $N\\le p^{1/2}$, without any assumption on the multiplicative doubling of $A$. We further establish uniform expansion bounds with exponents $129/85$ and $32/21$ for four families of three-variable product--quotient expanders, together with refined estimates over prime fields. For $\\lambda\\in F^\\times$ and $N\\le p^{1/2}$, our four-variable bounds include \\[ |AA+\\lambda AA|\\gg N^{214/135}L^{-7/9},\\qquad |AA-AA|\\gg_\\varepsilon N^{6681/4175-\\varepsilon} \\quad(\\varepsilon>0). \\] In particular, several three- and four-variable targets admit uniform lower bounds with exponents greater than $3/2$ in the large-characteristic range. We also prove bounds with exponent $49/38$ for shifted products and shifted quotients, and for quadratic-image sumsets when $\\operatorname{char}F\\ne 2$, as well as characteristic-sensitive estimates for $AA+\\lambda A/A$ and $(A-A)^\\times/(A-A)^\\times$. The proofs combine higher-energy inequalities, regularisation, and point--line incidences.",
+   "abs": "https://arxiv.org/abs/2611.24034",
+   "pdf": "https://arxiv.org/pdf/2611.24034"
+  },
+  {
+   "id": "2611.24574",
+   "type": "new",
+   "title": "The number of cycles in a random 2-factor of a random regular graph",
+   "authors": [
+    "Katerina Adler",
+    "Simi Haber"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 4 figures",
+   "abstract": "We study the number of cycles $X$ in a uniformly random 2-factor $F$ of a random $d$-regular graph on $n$ vertices (in the pairing model) for any fixed $d\\ge 3$. When the pairing $P$ and the 2-factor $F\\subseteq P$ are chosen uniformly at random together, the probability generating function of $X$ is $\\Gamma(n+\\tfrac u2)\\Gamma(\\tfrac12)/\\bigl(\\Gamma(n+\\tfrac12)\\Gamma(\\tfrac u2)\\bigr)$, which does not depend on $d$. Consequently, $X$ has mean $\\tfrac12\\log n+O(1)$ and variance $\\tfrac12\\log n+O(1)$, satisfies a central limit theorem, and equals $1$ (so that $F$ is a Hamilton cycle) with probability $\\Theta(n^{-1/2})$. Using an exact formula for the second moment of the cycle generating polynomial together with small subgraph conditioning, we transfer these results to a uniformly random 2-factor of a fixed random regular graph.",
+   "abs": "https://arxiv.org/abs/2611.24574",
+   "pdf": "https://arxiv.org/pdf/2611.24574"
+  },
+  {
+   "id": "2611.24740",
+   "type": "new",
+   "title": "An Upper Bound on the Proportional Choice Number of a Graph",
+   "authors": [
+    "Kevin Grace",
+    "Jeffrey A. Mudrock"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "8 pages",
+   "abstract": "Proportional choosability is a list analogue of equitable coloring introduced in 2019 that imposes both upper and lower bounds on color class sizes based on the availability of each color. The proportional choice number of a graph $G$, denoted by $\\chi_{pc}(G)$, is the smallest positive integer $k$ such that $G$ is proportionally $k$-choosable. A recently proposed conjecture states that for any graph $G$ with at least one edge, $\\chi_{pc}(G) \\leq \\Delta(G) + \\text{col}(G) - 1$, where $\\Delta(G)$ is the maximum degree of $G$ and $\\text{col}(G)$ is its coloring number. In this paper, we prove this conjecture using a generalization of Edmonds' matroid intersection theorem due to Aharoni and Berger, in which one of the matroids is replaced with an abstract simplicial complex. As a consequence, we can completely determine the proportional choice number of every path: $\\chi_{pc}(P_1)=1$, $\\chi_{pc}(P_n)=2$ for $2 \\leq n \\leq 5$, and $\\chi_{pc}(P_n)=3$ for $n \\geq 6$. This resolves a question about paths that has remained open since the introduction of proportional choosability.",
+   "abs": "https://arxiv.org/abs/2611.24740",
+   "pdf": "https://arxiv.org/pdf/2611.24740"
+  },
+  {
+   "id": "2611.24865",
+   "type": "new",
+   "title": "The limits of inertia bounds on graph powers",
+   "authors": [
+    "Aida Abiad",
+    "Nils Van de Berg",
+    "Sam Mattheus"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "We investigate the tightness of inertia and inertia-type bounds related to graph powers. This class of graphs appears in several contexts, such as the theory of distance-regular graphs, quantum information theory and coding theory. They are a priori not covered by previous separation constructions involving locally sparse graphs, see Kwan and Wigderson (2024), or Alon's pseudorandom graphs, see Elphick, Tang and Zhang (2025). Instead, we apply the latter's lower bound for complements of pseudorandom graphs to random graphs and random Cayley graph constructions, whose graph-power structure is ensured by additive combinatorial arguments. From this we are able to conclude that also for graph powers there can be a large gap between inertia bounds and the actual independence number. For the inertia-type bound, which is based on polynomials, we achieve even larger separation by considering sequences of graphs whose spectrum converges to a continuous distribution. Our methods draw from several areas of mathematics, ranging from additive combinatorics and probabilistic methods, to character sums over finite fields and arithmetic geometry.",
+   "abs": "https://arxiv.org/abs/2611.24865",
+   "pdf": "https://arxiv.org/pdf/2611.24865"
+  },
+  {
+   "id": "2611.24544",
+   "type": "new",
+   "title": "Treewidth 3 in the Product Structure Theorem for Bounded Degree Graphs in Minor-Closed Classes",
+   "authors": [
+    "Vida Dujmović",
+    "Robert Hickingbotham",
+    "Pat Morin",
+    "David R. Wood"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages, 4 figures, written by humans",
+   "abstract": "We show that, for all positive integers $t$ and $\\Delta$, there exists an integer $c$ such that, for every $K_t$-minor-free graph $G$ with maximum degree at most $\\Delta$, there exists a graph $H$ of treewidth at most $3$ and a path $P$ such that $G$ is isomorphic to a subgraph of the strong product $H\\boxtimes P\\boxtimes K_c$. This improves on a previous result of Dujumović, Esperet, Micek, Walczak, and Wood (2022) by bounding the treewidth of $H$ independently of $t$ and $\\Delta$. As an immediate consequence we obtain a bound of $O(r^4)$ on the $r$-weak colouring number of bounded-degree graphs from any proper minor-closed graph class.",
+   "abs": "https://arxiv.org/abs/2611.24544",
+   "pdf": "https://arxiv.org/pdf/2611.24544"
+  },
+  {
+   "id": "2611.23333",
+   "type": "new",
+   "title": "Classification of Forbidden 0-1 Patterns by Their Extremal Function",
+   "authors": [
+    "Jesse Geneson",
+    "Seth Pettie"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "This paper concerns the maximum weight of $n\\times n$ 0-1 matrices that avoid some pattern $P$, denoted $\\operatorname{ex}(n,P)$. Furedi and Hajnal initiated a research program of classifying all patterns according to their extremal function, but to date, only the weight-4 patterns are completely understood. In this paper we make progress on several fronts of the classification problem. A pattern is light if its columns have weight 1 and linear if $\\operatorname{ex}(n,P)=O(n)$. We characterize the set of weight-5 linear light patterns, and the set of weight-5 linear patterns more generally. Along the way we identify several new infinite classes of linear patterns, which support the Pettie-Tardos conjecture on characterizing all linear light patterns. It was known that there exist infinitely many minimally nonlinear patterns. We identify a specific infinite set of minimally nonlinear patterns. We also prove that there are $2^{\\Omega(r)}$ weight-$r$ minimally nonlinear patterns, and that every minimally nonlinear pattern has extremal function $O(n\\log n)$, with the exception of the 4-cycle. We classify many of the outstanding weight-5 patterns according to their extremal function, leaving only a small set remaining. The newly classified weight-5 patterns have extremal function $\\Theta(n)$ or $\\Theta(n\\alpha(n))$. We also exhibit a large number of weight-6 patterns with extremal function $\\Theta(n\\log n/\\log\\log n)$, which is notable in that this function had not been encountered before for any single pattern $P$, though it was known to be the correct extremal function for a pair of forbidden patterns.",
+   "abs": "https://arxiv.org/abs/2611.23333",
+   "pdf": "https://arxiv.org/pdf/2611.23333"
+  },
+  {
+   "id": "2611.23292",
+   "type": "new",
+   "title": "Log-concavity for alternating Eulerian polynomials",
+   "authors": [
+    "Lijie Wang",
+    "Sainan Zheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Alternating Eulerian polynomials enumerate permutations by the alternating descent statistic introduced by Chebikin. We prove that their coefficient sequences are log-concave, verifying a conjecture of Lin, Ma, Wang and Wang. Our proof combines a factorization involving reciprocal quadratic factors, estimates for ordinary Eulerian zeros, and a log-concavity criterion for products of such factors. The required finite verifications use exact integer arithmetic. As applications, we obtain log-concavity for the distribution of $3$-descents, a local limit theorem for alternating descents, and bounds for the largest coefficient. We also give a Lorentzian reformulation of the main theorem.",
+   "abs": "https://arxiv.org/abs/2611.23292",
+   "pdf": "https://arxiv.org/pdf/2611.23292"
+  },
+  {
+   "id": "2611.24720",
+   "type": "new",
+   "title": "Balanced Simplicial Complexes for the $γ$-Vectors of Zig-Zag Eulerian Polynomials",
+   "authors": [
+    "Wenle Shi",
+    "Lijie Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "In this paper, we construct a simplicial complex whose $f$-vector equals the $\\gamma$-vector of the descent polynomial of an arbitrary canonically labeled rank-one poset. As an application, we prove Petersen and Zhuang's conjecture that the $\\gamma$-vector of the normalized zig-zag Eulerian polynomial is the $f$-vector of a balanced simplicial complex.",
+   "abs": "https://arxiv.org/abs/2611.24720",
+   "pdf": "https://arxiv.org/pdf/2611.24720"
+  },
+  {
+   "id": "2611.24606",
+   "type": "new",
+   "title": "Combinatorial Properties of The Giant Under Supercritical Percolation",
+   "authors": [
+    "Sahar Diskin",
+    "Mihyun Kang",
+    "Michael Krivelevich",
+    "Itay Markbreit"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study combinatorial properties, such as diameter and long paths and cycles, of the giant component of percolated graphs. Such combinatorial properties are well studied for classical graphs such as pseudo-random graphs and the hypercube. We aim to obtain similar results for extensive families of $d$-regular $n$-vertex graphs. Specifically, assuming expansion properties of the host graph, we show a typical vertex expansion by a factor of $1/d\\log d$ in the giant component of the percolated subgraph. As a consequence, we obtain bounds on various combinatorial properties of the giant component. For example, a bound of $O\\left(d\\log^2 d+\\log n\\right)$ on the typical diameter of the giant component of the percolated subgraph. In addition, we construct graphs with very good vertex and edge expansion, but having large diameter, showing that the diameter of the percolated subgraph is not necessarily typically logarithmic in the number of the vertices of the graph. We also present good expanders such that their percolated subgraph typically contains a bad expanding set.",
+   "abs": "https://arxiv.org/abs/2611.24606",
+   "pdf": "https://arxiv.org/pdf/2611.24606"
+  },
+  {
+   "id": "2611.23295",
+   "type": "new",
+   "title": "Local connectivity of friends-and-strangers graphs with a star",
+   "authors": [
+    "Jiaxiang Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Given two finite simple graphs $X$ and $Y$ with the same number of vertices, the vertex set of the friends-and-strangers graph $\\FS(X,Y)$ consists of all bijections from the vertices of $X$ to the vertices of $Y$. Two bijections are adjacent exactly when one is obtained from the other by swapping the images of two adjacent vertices of $X$, while leaving all other images unchanged, and the two swapped images are adjacent in $Y$. For $n\\ge2$, let $\\Star_n$ be the star on $n$ vertices. Krishnan and Li [Electron. J. Combin. 33 (2026), no. 3, Paper P3.41] conjectured that, for $n\\ge3$, whenever $\\FS(X,\\Star_n)$ is connected, the maximum number of pairwise internally vertex-disjoint paths between any two distinct vertices is equal to the smaller of their degrees. We prove this conjecture. More precisely, if $\\FS(X,\\Star_n)$ is connected, then $X$ must be $2$-connected, and the conjectured equality holds for every pair of distinct vertices. We further prove the stronger result that, whenever $X$ is $2$-connected, the same equality holds in every connected component of $\\FS(X,\\Star_n)$.",
+   "abs": "https://arxiv.org/abs/2611.23295",
+   "pdf": "https://arxiv.org/pdf/2611.23295"
+  },
+  {
+   "id": "2611.24505",
+   "type": "new",
+   "title": "Katona's Shadow Equality Persists under Bounded VC-Dimension",
+   "authors": [
+    "Xiaochen Zhao",
+    "Gennian Ge"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "Katona's intersecting-shadow theorem states that every $t$-intersecting $r$-uniform family has size at most that of its $(r-t)$-shadow, with equality precisely for complete $r$-uniform families on $2r-t$ points. We prove that both the shadow inequality and its equality classification remain valid under the substantially weaker assumption that the VC-dimension is at most $r-t$. By contrast, bounded VC-dimension and $t$-intersection do not, in general, yield the same extremal bounds in the corresponding cardinality problem.",
+   "abs": "https://arxiv.org/abs/2611.24505",
+   "pdf": "https://arxiv.org/pdf/2611.24505"
+  },
+  {
+   "id": "2611.24432",
+   "type": "new",
+   "title": "Induced matching treewidth in classes with a forbidden structure",
+   "authors": [
+    "Valia Mitsou",
+    "Paweł Rzążewski",
+    "Giannos Stamoulis"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Induced matching treewidth is a tree-decomposition based parameter where we bound the size of an induced matching whose every edge intersects a single bag of the decomposition. It is known that many computational problems can be solved efficiently in graphs of bounded induced matching treewidth. In this paper we are interested in understanding what classes of graphs have bounded induced matching treewidth. We provide dichotomy theorems for all classes defined by excluding a single graph with respect to six basic containment relations: (induced) subgraph, (induced) topological minor, and (induced) minor. Furthermore, we study the case where the input graph has minimum degree at least 2, as well as the more restrictive case where it is 2-connected. This can be assumed without loss of generality for many computational problems. It turns out that for classes excluding some graph as an induced minor, this restrictions yield some new cases of bounded induced matching treewidth. As a consequence, our results imply new algorithmic results, as well as the existence of balanced separators dominated by a constant number of vertices in the considered classes. This confirms some special cases of two conjectures of Gartland and Lokshtanov.",
+   "abs": "https://arxiv.org/abs/2611.24432",
+   "pdf": "https://arxiv.org/pdf/2611.24432"
+  },
+  {
+   "id": "2611.24131",
+   "type": "new",
+   "title": "Non-bipartite spectral extremal graphs forbidding a three-chromatic color-critical graph",
+   "authors": [
+    "Bo Dong",
+    "Cunxiang Duan",
+    "Attila Sali",
+    "Ligong Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is color-critical if it contains at least one color-critical edge. For every fixed three-chromatic color-critical graph $H$, we determine the maximum spectral radius of an $n$-vertex non-bipartite $H$-free graph and characterize the unique extremal graph for all sufficiently large $n$. The extremal graph belongs to one of three graph families: $J_n(s,t)$, $\\mathrm{ST}_2(n-1)$ or $L_n(s,t)$. Explicit conditions on $H$ determine the family and its exact parameters. This paper generalizes the results for books and theta graphs to all three-chromatic color-critical graphs. Furthermore, an three-chromatic example demonstrates that spectral extremal graphs are not necessarily edge-extremal, disproving a conjecture of Fang and Lin [J. Algebraic Combin., 2026].",
+   "abs": "https://arxiv.org/abs/2611.24131",
+   "pdf": "https://arxiv.org/pdf/2611.24131"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 52,
+ "listed_cross": 15
+}
