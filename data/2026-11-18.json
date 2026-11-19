@@ -1,0 +1,568 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T07:05:01Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 59,
+ "screened_new": 45,
+ "screened_cross": 14,
+ "scored": 59,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.21868",
+   "type": "new",
+   "title": "The Conic Tverberg plus minus",
+   "authors": [
+    "Egor Kolpakov"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove a Tverberg type theorems: Given a set $A\\subset \\mathbb{R}^d$ and an affine subspaces $L_1,...,L_m\\subset \\mathbb{R}^d$. In some conditions there is a partition $A_1, ..., A_m, B_1, ..., B_m$ of $A$ such that the sets $L_i\\cup A_i\\cup B_i$ for $i=1,...,m$ have common barycentre with negative masses in $B_i$ and positive masses in $A_i$. The case $B_1=...=B_m=L_1=...=L_m=\\varnothing$ is Tverberg's classical theorem. The case $L_1=...=L_m=\\varnothing$ gives a partial answer to the question of Barany-Soberon about the possible number of negative masses.",
+   "abs": "https://arxiv.org/abs/2611.21868",
+   "pdf": "https://arxiv.org/pdf/2611.21868"
+  },
+  {
+   "id": "2611.21665",
+   "type": "cross",
+   "title": "A Proof of the Achlioptas-Friedgut Convergence Conjecture",
+   "authors": [
+    "Gaia Carenini"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "Comments are welcome!",
+   "abstract": "For every fixed integer $q\\ge3$, we show that the $q$-colourability transition in a sparse random graph takes place at a limiting edge density, thus proving the Achlioptas-Friedgut convergence conjecture. The proof adapts the argument we recently introduced to settle the satisfiability conjecture.",
+   "abs": "https://arxiv.org/abs/2611.21665",
+   "pdf": "https://arxiv.org/pdf/2611.21665"
+  },
+  {
+   "id": "2611.22182",
+   "type": "cross",
+   "title": "On Contractibility of Geometric Joins",
+   "authors": [
+    "Dohyeon Lee"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "3 pages",
+   "abstract": "The geometric join of a family of sets in $\\mathbb R^d$ is the union of the convex hulls of all colorful sets. For every $d \\geq 4$, we construct $\\lceil\\frac{(d-1)^2}{2}\\rceil$ sets in $\\mathbb R^d$ whose geometric join is not contractible, disproving the conjecture of Bárány, Holmsen, and Karasev that the geometric join of at least $d+1$ sets is contractible.",
+   "abs": "https://arxiv.org/abs/2611.22182",
+   "pdf": "https://arxiv.org/pdf/2611.22182"
+  },
+  {
+   "id": "2611.22824",
+   "type": "new",
+   "title": "An extremal question of Erdős et al. on cycles",
+   "authors": [
+    "Zhiyong Gan",
+    "Zhiliang Tan",
+    "Yi Huang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages, 2 figures, submitted to Journal of Combinatorial Theory, Series B",
+   "abstract": "This paper addresses an extremal problem on long cycles proposed by Erdős, Faudree, Schelp and Simonovits in 1989. Let \\(2\\le k\\le d<n\\) be positive integers. For an n-vertex simple graph G, let \\(\\theta_+^G\\) count vertices of degree at least d, and \\(C_{\\ge k+1}\\) denote a cycle of length at least \\(k+1\\). The original conjecture claimed that G contains a \\(C_{\\ge k+1}\\) whenever \\(\\theta_+^G \\ge \\lfloor k/2 \\rfloor \\lfloor (n-1)/d \\rfloor+2\\). Li, Ma and Ning disproved it with infinite counterexamples and gave linear lower bounds. Gan, Yi and Jiang later obtained piecewise sufficient conditions depending on the parity of k, whose bounds are sharp only when \\(k=d\\) and loose for \\(k\\ne d\\). We derive a new sufficient condition for \\(C_{\\ge k+1}\\). For odd \\(k=d\\), we use Woodall's sharp bound \\(\\theta_+^G \\ge k(n-2)/(2(k-1))+1\\). For all other admissible parameters, our threshold is unified and independent of the parity of k: \\(\\theta_+^G \\ge \\lfloor k/2 \\rfloor (n-1)/d + (n-d-1)\\lfloor k/2 \\rfloor/(d(d-\\lfloor k/2 \\rfloor))+1\\). We construct \\(C_{\\ge k+1}\\)-free graphs to prove tightness for all admissible k. This resolves this long-standing Erdős-type extremal problem concerning high-degree vertices and long cycles.",
+   "abs": "https://arxiv.org/abs/2611.22824",
+   "pdf": "https://arxiv.org/pdf/2611.22824"
+  },
+  {
+   "id": "2611.22346",
+   "type": "new",
+   "title": "Minimum degree thresholds for even cycle residues",
+   "authors": [
+    "Hojin Chu",
+    "Masaki Kashima",
+    "Shun-ichi Maezawa",
+    "Boram Park"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Dean's conjecture asserts that, for every integer $m\\ge3$, every graph of minimum degree at least $m$ has a cycle whose length is divisible by $m$. This degree bound is best possible for odd $m$. For every integer $k\\ge2$, we prove that every graph of minimum degree at least $2k-1$ has a cycle whose length is congruent to $r$ modulo $2k$ for every even $r\\not\\equiv2\\pmod{2k}$. Consequently, $2k-1$ is the sharp minimum degree threshold for a cycle whose length is divisible by $2k$. For bipartite graphs, we prove that minimum degree at least $k$ guarantees the same residue classes for every $k\\ge4$, and we characterize their end-blocks when no cycle has length congruent to $2$ modulo $2k$. The bipartite degree bound is also sharp, and the exclusion of residue $2$ is necessary even for connected graphs of arbitrarily large order.",
+   "abs": "https://arxiv.org/abs/2611.22346",
+   "pdf": "https://arxiv.org/pdf/2611.22346"
+  },
+  {
+   "id": "2611.22037",
+   "type": "new",
+   "title": "Cubic graphs with circumference ratio 21/22 and cyclic connectivity 5",
+   "authors": [
+    "Ján Mazák"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct a cyclically $5$-connected cubic graph of order $22m$ and circumference $21m$ for every $m\\geq 3$. Consequently, the shortness coefficient of the class of cyclically $5$-connected cubic graphs is at most $21/22$, improving the previously known upper bound of $24/25$. We also demonstrate how I-reductions, which delete an edge and suppress its two end-vertices, can be used to prove cyclic connectivity.",
+   "abs": "https://arxiv.org/abs/2611.22037",
+   "pdf": "https://arxiv.org/pdf/2611.22037"
+  },
+  {
+   "id": "2611.21673",
+   "type": "new",
+   "title": "Gallai's path decomposition conjecture for $K_5$-minor-free graphs",
+   "authors": [
+    "Junhao Zhang",
+    "Qinghai Liu",
+    "Yanmei Hong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages,5 figures",
+   "abstract": "Gallai conjectured that the edges of every connected graph on $n$ vertices can be partitioned into at most $\\ceil{n/2}$ paths. We prove that every connected $K_5$-minor-free graph other than $K_3$ and $K_5-e$ admits such a partition into at most $\\floor{n/2}$ paths. The two exceptions require $\\ceil{n/2}$ paths. In a smallest counterexample we find a $4$-connected planar part containing four vertices of degree five. Their neighborhoods meet the boundary in at most one vertex. This allows us to apply the planar configurations of Blanché, Bonamy, and Bonichon and to realize the reduced graph as a minor of the original graph.",
+   "abs": "https://arxiv.org/abs/2611.21673",
+   "pdf": "https://arxiv.org/pdf/2611.21673"
+  },
+  {
+   "id": "2611.22528",
+   "type": "new",
+   "title": "Flip Combinatorial Invariance for flipclasses with small residues",
+   "authors": [
+    "Francesco Esposito",
+    "Mario Marietti",
+    "Giovanni Paolini"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We establish (Normal) Flip Combinatorial Invariance for flipclasses with no residues longer than 8. Actually, we show more generally that all flipclasses of finite type with no residues longer than 8 have only one increasing path. For flipclasses of Weyl type, these are precisely the flipclasses having only one increasing path. This marks a refinement of the classical Combinatorial Invariance of Kazhdan--Lusztig polynomials.",
+   "abs": "https://arxiv.org/abs/2611.22528",
+   "pdf": "https://arxiv.org/pdf/2611.22528"
+  },
+  {
+   "id": "2611.22058",
+   "type": "new",
+   "title": "Positivity in symmetric webs and block permanents",
+   "authors": [
+    "Daniel Tubbenhauer"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "31 pages, many figures, Lean verification available, comments welcome",
+   "abstract": "We use symmetric webs to prove Marcus's block-permanent inequality for up to four blocks of every size, for five blocks of size at least three, and for any fixed number of blocks above an explicit logarithmic bound on the block size. The proof idea is easy: Bending strands in the Schur relation turns the comparison into a calculation with squared norms.",
+   "abs": "https://arxiv.org/abs/2611.22058",
+   "pdf": "https://arxiv.org/pdf/2611.22058"
+  },
+  {
+   "id": "2611.22110",
+   "type": "new",
+   "title": "Real-Rootedness and Log-Concavity of Zigzag Eulerian Polynomials",
+   "authors": [
+    "Ethan Torres"
+   ],
+   "categories": [
+    "math.CO",
+    "math.CV"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that the zigzag Eulerian polynomials have only real, negative, simple zeros, and hence strictly log-concave coefficients, settling the first two parts of a conjecture of Petersen and Zhuang. Real-rootedness in combinatorics is usually proved inside a single algebraic framework, such as interlacing or stability. Our proof rests on a different premise: different parts of a zero set become visible in different representations of the same polynomial, and classical tools suffice once each part is viewed in the right one. The bridge between representations is a local rule. Forgetting the order in which a bounded-jump path visits positions leaves only a nearest-neighbor condition on sorted gaps, which makes an encoding via a transfer matrix much simpler to see. From there the argument passes to complex analysis. The sizes of the matrix's eigenmodes locate the zeros at the two ends of the negative axis, through Rouché's theorem. In a logarithmic coordinate the generating function becomes a combination of derivatives of the hyperbolic secant, akin to the classical derivative polynomials, and the arguments of its nearest poles produce a sine that fixes the signs between consecutive central zeros. The zeros are thus read off from the poles of an associated kernel. More broadly, the proof suggests that combinatorial polynomials defined by local constraints carry analytic structure, in their spectra and in the poles of their kernels, that is complementary to the usual algebraic methods and that classical complex analysis can exploit directly.",
+   "abs": "https://arxiv.org/abs/2611.22110",
+   "pdf": "https://arxiv.org/pdf/2611.22110"
+  },
+  {
+   "id": "2611.21913",
+   "type": "cross",
+   "title": "An upper bound on non-overlapping codes",
+   "authors": [
+    "Simon R. Blackburn"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "22 pages",
+   "abstract": "Non-overlapping codes (also known as bifix-free codes or strong comma-free codes) have now been studied for over 60 years as part of information theory, with regular new applications appearing and much recent interest. Let $X$ be a binary non-overlapping code of length $n$. The paper contains a self-contained proof that \\[ |X|\\leq \\left(\\frac{5}{6e} +O(n^{-1})\\right)\\frac{2^n}{n} \\] as $n\\rightarrow\\infty$. This improves, by a factor of $5/6$, the best previously known bound due to Levenshtein (1970). The paper builds on work by Fimmel, Michel, Pirot, Sereni and Strüngmann (2019), and by Stanovnik, Mo\\v skon and Mraz (2024).",
+   "abs": "https://arxiv.org/abs/2611.21913",
+   "pdf": "https://arxiv.org/pdf/2611.21913"
+  },
+  {
+   "id": "2611.22089",
+   "type": "new",
+   "title": "Toroidal Obstructions with No K_5 Minor",
+   "authors": [
+    "Austin Ulrigg"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Finding the complete set of forbidden minors for the torus remains an open problem. We determine the complete list of toroidal minor obstructions with no $K_5$ minor and prove that there are exactly $74$, each with between $10$ and $14$ vertices. Combined with the known classification of toroidal obstructions with no $K_{3,3}$ minor, this determines every toroidal obstruction that excludes one of the forbidden minors for planarity. The proof uses three-vertex cuts to show that, apart from $K_{3,7}$, every three-connected obstruction in this class has two distinct independent triples, each the common neighborhood of at least two degree-three vertices. The classification proceeds by considering the possible intersections of these triples and reduces each case by planarity tests and enumeration of the possible graph forms. From the $74$ minor obstructions we also obtain a complete list of $381$ topological obstructions for the torus with no $K_5$ minor.",
+   "abs": "https://arxiv.org/abs/2611.22089",
+   "pdf": "https://arxiv.org/pdf/2611.22089"
+  },
+  {
+   "id": "2611.22881",
+   "type": "new",
+   "title": "Equivalence of Small and Large Quasi-kernels",
+   "authors": [
+    "Sam Spiro"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages. The proofs are due to Astra 6, the writing is our own. Comments welcome!",
+   "abstract": "A quasi-kernel of a digraph $D$ is an independent set which can reach every vertex of $D$ by a directed path of length at most 2. The Small Quasi-kernel Conjecture states that every $n$-vertex source-free digraph $D$ contains a quasi-kernel $Q$ with $|Q|\\le n/2$, and the Large Quasi-kernel Conjecture states that every $n$-vertex digraph $D$ contains a quasi-kernel $Q$ with $|N^+[Q]|\\ge n/2$. Our main result shows for any $\\frac{1}{2}<\\beta<1$ an equivalence between the following two statements: \\[\\textrm{Every }n\\textrm{-vertex source-free digraph contains a quasi-kernel with } |Q|\\le n-\\Omega(n^\\beta).\\] \\[\\textrm{Every }n\\textrm{-vertex digraph contains a quasi-kernel with } |N^+[Q]|\\ge \\Omega(n^{2-\\frac{1}{\\beta}}).\\] That is, any sublinear bound for one problem is equivalent to a corresponding sublinear bound for the other. This combined with previous work establishing an equivalence for linear bounds shows that the two problems are largely equivalent to each other. We additionally give a slight refinement to the recent breakthrough of Rutschmann for these problems which, together with the result above, gives the best known bounds of $n-\\Omega(n^{3/4})$ and $\\Omega(n^{2/3})$ for the Small and Large Quasi-kernel Conjectures, respectively. Our proofs are due to ChatGPT's Astra 6; the writing is all our own.",
+   "abs": "https://arxiv.org/abs/2611.22881",
+   "pdf": "https://arxiv.org/pdf/2611.22881"
+  },
+  {
+   "id": "2611.22909",
+   "type": "new",
+   "title": "Minimum outdegree forcing directed cycles",
+   "authors": [
+    "Andrzej Grzesik",
+    "Justyna Jaworska",
+    "Piotr Kuc"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Caccetta-Häggkvist conjecture, one of the best known open problems on oriented graphs, asserts that every oriented graph on $n$ vertices with minimum outdegree at least $n/\\ell$ contains a directed cycle of length at most $\\ell$. Motivated by it, Kelly, Kühn and Osthus asked for the minimum degree condition that forces a directed cycle of length exactly $\\ell$. The semidegree version of this problem was recently solved, but the methods used there rely on bounding the directed diameter, which requires control over the indegrees. In the setting of the Caccetta-Häggkvist conjecture, where only the outdegrees are bounded, the answer was known only for $\\ell$ not divisible by $3$. We determine the optimal minimum outdegree forcing a directed cycle of length $\\ell$ for every sufficiently large $\\ell$ and $n$. This establishes the outdegree version of the Kelly-Kühn-Osthus conjecture for all large $\\ell$, up to a small correction of the additive term, which in general cannot be avoided.",
+   "abs": "https://arxiv.org/abs/2611.22909",
+   "pdf": "https://arxiv.org/pdf/2611.22909"
+  },
+  {
+   "id": "2611.21670",
+   "type": "new",
+   "title": "Resistance-regular graphs need not be regular",
+   "authors": [
+    "Murad ul Islam Khan",
+    "Ghulam Haidar"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A connected graph is resistance-regular if the sum of the effective resistances from a vertex to all other vertices does not depend on the vertex, or equivalently if the Moore-Penrose inverse of its Laplacian has constant diagonal. Walk-regular graphs have this property, and Zhou, Wang and Bu asked in 2016 whether every resistance-regular graph is regular, a question that also arises in the study of graphs with constant resistance curvature. We answer this question in the negative and examine both what resistance-regularity forces and how far from regular such graphs can be. On the spectral side, we prove that a connected graph is walk-regular if and only if the first $m-1$ powers of its Laplacian pseudoinverse have constant diagonal, where $m$ is the number of distinct nonzero Laplacian eigenvalues. Because resistance-regularity constrains only the first power, it forces regularity when $m\\le2$ and allows at most two vertex degrees when $m=3$. Any non-regular resistance-regular graph has minimum degree at least $3$ and a connected complement, and an exhaustive computer search shows that it must have at least $13$ vertices. For every even $p\\ge4$, we construct a resistance-regular graph on $4p$ vertices with degrees $2p-2$ and $2p-1$, obtaining closed formulas for its Laplacian spectrum and for all pairwise effective resistances. Using module blow-ups, we then construct $n$-vertex resistance-regular graphs whose two degrees differ by $(\\sqrt{4n+1}-5)/4$ for infinitely many $n$, as well as examples with three and four distinct degrees, whereas the maximum and minimum degrees of any resistance-regular graph on $n$ vertices differ by less than $n/2$. We close by conjecturing that in a resistance-regular graph the sum of squared resistances at a vertex increases strictly with its degree.",
+   "abs": "https://arxiv.org/abs/2611.21670",
+   "pdf": "https://arxiv.org/pdf/2611.21670"
+  },
+  {
+   "id": "2611.21979",
+   "type": "new",
+   "title": "Laplacian Eigenvectors of Generically Weighted Graphs Have Pairwise Distinct Coordinates",
+   "authors": [
+    "Santiago Pineda Montoya",
+    "Edisson Gallego González",
+    "Jaiberth Porras Barrera",
+    "Johan Heriberto Rúa Muñoz"
+   ],
+   "categories": [
+    "math.CO",
+    "math.SP"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 1 figure",
+   "abstract": "Poignard, Pereira and Pade conjectured that, for a generic choice of the nonzero weights of a given graph, the Fiedler vector of the weighted Laplacian has pairwise distinct coordinates. We give a proof that also covers every nonconstant eigenvector. For each connected graph on n vertices we construct a nonzero homogeneous polynomial with integer coefficients in the edge weights, of degree n(n-1)(n^2-n+2)/4, which vanishes at a positive weighting exactly when the Laplacian has a repeated eigenvalue, an eigenvector with a zero coordinate, or a nonconstant eigenvector with two equal coordinates. The exceptional weights therefore lie in an algebraic hypersurface, which gives structural genericity in the sense of Poignard, Pereira and Pade; algebraically independent weights are never exceptional, and there are good integer weights not exceeding the degree plus one. The polynomial is a product of Krylov determinants. Its nonvanishing follows by induction on trees: when a leaf is attached with a small weight, a cut identity gives the first-order profile of the new eigenvector and separates the coordinates that coincide in the limit. Exact small cases show that exceptional weightings need not be symmetric.",
+   "abs": "https://arxiv.org/abs/2611.21979",
+   "pdf": "https://arxiv.org/pdf/2611.21979"
+  },
+  {
+   "id": "2611.21664",
+   "type": "new",
+   "title": "Co-edge-regular graphs with two $λ$-values and four distinct eigenvalues",
+   "authors": [
+    "Suil O"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "A connected $k$-regular graph $G$ on $n$ vertices is co-edge-regular if any two distinct non-adjacent vertices have the same number of common neighbors. For adjacent vertices $u$ and $v$, let $\\lambda(u,v)=|N(u)\\cap N(v)|$. Ge and Koolen asked whether the theorem of Neumaier on strongly regular graphs with fixed smallest eigenvalue extends to co-edge-regular graphs with exactly four distinct eigenvalues in which $\\lambda(u,v)$ takes exactly two values over the edges $uv$. In this paper, we answer this question. For every integer $t\\ge2$ there is $n_t$ such that if $G$ is such a graph with smallest eigenvalue at least $-t$, $n\\ge n_t$, and $k<n-2-(t-1)^2/4$, then either $G$ is a clique extension of a strongly regular graph, or $G$ is obtained from a strongly regular graph with a Hoffman coloring by adding all edges inside the color classes. Consequently, $G$ is a clique extension of a strongly regular graph, a $p\\times q$ grid with $p\\ne q$, or the block graph of a resolvable Steiner $2$-design in which every parallel class is made into a clique.",
+   "abs": "https://arxiv.org/abs/2611.21664",
+   "pdf": "https://arxiv.org/pdf/2611.21664"
+  },
+  {
+   "id": "2611.23097",
+   "type": "new",
+   "title": "New bounds on simplex-avoiding sets in two dimensions",
+   "authors": [
+    "Domonkos Czifra",
+    "Ákos Dúcz",
+    "Péter Madarasi",
+    "Dániel Varga",
+    "Pál Zsámboki"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages, 3 figures, 2 tables. Exact rational certificates and verification code available at this https URL",
+   "abstract": "We study extremal densities of measurable subsets of metric spaces avoiding prescribed finite geometric configurations. We prove two new upper bounds for three-point avoidance problems: a measurable subset of $S^2$ containing no orthonormal basis has normalized spherical measure at most $7/11$, and a measurable subset of $\\mathbb{R}^2$ containing no unit equilateral triangle has upper Banach density at most $9/16$. The first bound appears to be the first improvement over the trivial averaging bound for this problem, while the second improves the previously best known upper bound. The proofs are applications of the geometric fractional chromatic number method introduced by Ambrus et al. For this purpose, we formulate the method in a framework that applies both to compact homogeneous spaces and to Euclidean spaces with upper Banach density.",
+   "abs": "https://arxiv.org/abs/2611.23097",
+   "pdf": "https://arxiv.org/pdf/2611.23097"
+  },
+  {
+   "id": "2611.22552",
+   "type": "new",
+   "title": "On (Pathwidth, Clique)-boundedness",
+   "authors": [
+    "Amir Nikabadi"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every $(\\pw,\\omega)$-bounded class of graphs has bounded tree-independence number, answering a question of Bešter Štorgel, Dallard, Lozin, Milanič, and Zamaraev. We deduce this from a bound on the tree-independence number of graphs with neither $\\B_\\rho$ nor $K_{\\sigma,\\sigma}$ as an induced minor, where $\\B_\\rho$ is the complete binary tree of height $\\rho$ and the bound depends only on $\\rho$ and $\\sigma$. We then obtain an asymptotically sharp bound on the path-independence number of $n$-vertex graphs in any $(\\pw,\\omega)$-bounded class. The lower-bound examples also give counterexamples to a conjecture of Hickingbotham and Joret. We further prove that, for every forest $F$ and every $\\ell\\in\\N$, there is a constant $k=k(F,\\ell)\\in\\N$ such that every graph $G$ with no induced theta or $\\ell$-long prism and no induced subgraph isomorphic to $F$ satisfies tree-independence number at most $k$. This proves a strengthened form of a conjecture of Chudnovsky, Hajebi, and Trotignon. Finally, for every integer $s\\ge2$, we characterize the forests $F$ for which excluding $F$ as an induced minor and $K_{s,s}$ as an induced subgraph bounds tree-independence number. This extends the characterization of Bonnet, Duhamel, and Hickingbotham, who considered bounded pathwidth with $K_{s,s}$ excluded as a subgraph.",
+   "abs": "https://arxiv.org/abs/2611.22552",
+   "pdf": "https://arxiv.org/pdf/2611.22552"
+  },
+  {
+   "id": "2611.22622",
+   "type": "new",
+   "title": "The Cooperstein conjecture and additive alternating $d$-codes",
+   "authors": [
+    "Paolo Santonastaso"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $\\bigwedge^2 V$ be the second exterior power of a vector space $V$ over a finite field. The Cooperstein conjecture asserts a dimension bound for flats external to varieties consisting of points of bounded rank in $\\mathrm{PG}(\\bigwedge^2 V)$. This geometric problem can be translated into a question about linear spaces of alternating matrices whose nonzero elements have rank at least a prescribed value. For matrices of odd order, the sharp cardinality bound was already established by Delsarte and Goethals (1975). In this paper, we prove the Cooperstein conjecture for matrices of even order and, more generally, we prove its additive analogue by determining, for all admissible parameters, the maximum size of an additive subgroup of alternating matrices in which every nonzero matrix has at least the prescribed rank. Our proof uses Pfaffian equations to characterize alternating matrices of rank below the prescribed minimum. We study the minimal graded free resolutions of the corresponding Pfaffian rings. The Cohen--Macaulay property and the $a$-invariant of each Pfaffian ring determine the largest shift in its resolution. We use trace functions on evaluation quotients to construct polynomial indicators for the matrices of small rank in an additive subgroup. The largest shift controls their degrees, yielding the upper bound by a counting argument. Finally, we give explicit trace constructions attaining the bound.",
+   "abs": "https://arxiv.org/abs/2611.22622",
+   "pdf": "https://arxiv.org/pdf/2611.22622"
+  },
+  {
+   "id": "2611.23109",
+   "type": "cross",
+   "title": "Derandomized Sunflowers and Radical Lower Bounds",
+   "authors": [
+    "Bruno Cavalar",
+    "Théo Borém Fabris",
+    "Partha Mukhopadhyay",
+    "Srikanth Srinivasan",
+    "Amir Yehudayoff"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "Full version of FOCS 2026 paper",
+   "abstract": "Robust Sunflower lemmas imply that any large enough monotone DNF of width $w$ contains a sunflower, i.e., a DNF equivalent to the conjunction of a common core with a DNF that is heavily biased towards $1$. While these lemmas are typically proved in the context of the uniform distribution or i.i.d. distributions, they also hold for $O(w^2)$-wise independent distributions by Bazzi's theorem (Bazzi (SICOMP 2009); Tal (CCC 2017)), which states that width-$w$ DNFs cannot distinguish between such distributions and the uniform distribution. We prove a derandomization of robust sunflower lemmas for $O(w)$-wise independent distributions, which recovers the derandomization above with slightly weaker parameters. Notably, our result also holds for distributions whose marginals are \"locally independent\" and \"approximately identically\" distributed. It is not known whether such distributions fool general DNFs, which makes the derandomization via DNF-fooling techniques unavailable. Our proof of this derandomization is via the method of moments, which might be of independent interest. We apply this result to obtain improved separations between non-monotone arithmetic circuits and the radical of monotone circuits. Specifically, we construct an explicit family of multilinear polynomials $P_n$ that have small non-monotone arithmetic circuits such that any power of $P_n$ cannot be computed by monotone arithmetic circuits of sub-exponential size. This improves on a recent result of Cavalar, Fabris, Mukhopadhyay, Srinivasan and Yehudayoff (STOC 2026), who proved a non-explicit separation that was quasipolynomial. Our construction uses Nisan-Wigderson designs with an additional linear-algebraic expansion property.",
+   "abs": "https://arxiv.org/abs/2611.23109",
+   "pdf": "https://arxiv.org/pdf/2611.23109"
+  },
+  {
+   "id": "2611.22026",
+   "type": "new",
+   "title": "New necessary conditions on $h$-vectors of simplicial balls",
+   "authors": [
+    "Luz Elena Grisales Gómez",
+    "Satoshi Murai",
+    "Isabella Novik"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages",
+   "abstract": "Although the $h$-vectors of simplicial balls of dimension at most $4$ have been completely characterized, much less is known in dimensions $5$ and higher. We establish new necessary conditions on the $h$-vectors of simplicial balls in these dimensions. Together with the necessary conditions of Billera and Lee and the sufficient conditions of Kolins, our results yield a complete characterization of the $h$-vectors of $5$- and $6$-dimensional simplicial balls. We also give a characterization of $h$-vectors of simplicial balls of any dimension with neighborly boundary.",
+   "abs": "https://arxiv.org/abs/2611.22026",
+   "pdf": "https://arxiv.org/pdf/2611.22026"
+  },
+  {
+   "id": "2611.23018",
+   "type": "new",
+   "title": "An infinite family of bipartite hypotraceable graphs",
+   "authors": [
+    "Jorik Jooken"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "12 pages, 4 figures",
+   "abstract": "A graph is hypotraceable if it has no Hamiltonian path but every vertex-deleted subgraph does. In 1978, Grötschel asked whether a bipartite hypotraceable graph exists. We resolve this long-standing question in a strong sense by proving that such graphs exist for every sufficiently large even order. Moreover, we show that bipartite hypotraceable graphs can have $\\left(1/4+o(1)\\right)n^2$ edges, asymptotically attaining the maximum possible number of edges of a bipartite graph, and that there are at least $2^{(1/4+o(1))n^2}$ nonisomorphic examples of order $n$, as $n$ tends to infinity through even integers. Finally, we prove that every bipartite graph occurs as an induced subgraph of a bipartite hypotraceable graph.",
+   "abs": "https://arxiv.org/abs/2611.23018",
+   "pdf": "https://arxiv.org/pdf/2611.23018"
+  },
+  {
+   "id": "2611.23222",
+   "type": "new",
+   "title": "Sidorenko Inequalities in Oriented Graphs",
+   "authors": [
+    "Veronica Bitonti",
+    "Emma Hogan",
+    "Jonathan A. Noel",
+    "Dmitry Tsarev"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 3 figures. Comments welcome",
+   "abstract": "We introduce relative Sidorenko and relative anti-Sidorenko inequalities for oriented graphs, strengthening the corresponding well-studied notions for tournaments by allowing arbitrary host graphs. An orientation $\\vec H$ of a graph $H$ is relatively Sidorenko if $\\hom(\\vec H,\\vec G) \\ge 2^{-e(H)}\\hom(H,G)$ for every oriented graph $\\vec G$ with underlying graph $G$, and relatively anti-Sidorenko if the reverse inequality holds. We provide a complete characterisation of the class of connected relatively Sidorenko graphs in terms of weakly norming graphs, and exhibit several families of relatively Sidorenko and relatively anti-Sidorenko oriented graphs. Despite the substantially stronger definitions, many known tournament Sidorenko and anti-Sidorenko examples satisfy the relative inequalities, suggesting a broader theory of these phenomena in arbitrary host graphs and motivating several new structural and classification problems.",
+   "abs": "https://arxiv.org/abs/2611.23222",
+   "pdf": "https://arxiv.org/pdf/2611.23222"
+  },
+  {
+   "id": "2611.22023",
+   "type": "cross",
+   "title": "Single-Vertex Metropolis on Minor-Free Graphs: A General EPTAS",
+   "authors": [
+    "Daniel Skachkov",
+    "Yuriy Dorn"
+   ],
+   "categories": [
+    "cs.DS",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We consider a class of combinatorial optimization problems where the goal is to find a largest induced subgraph with a prescribed property. We assume that the property is preserved by taking induced subgraphs and disjoint unions, holds for all edgeless graphs, and can be tested in polynomial time. We study the single-vertex Metropolis process for this class of problems. We show that on graphs excluding an arbitrary fixed minor $H$, this process is a randomized efficient polynomial-time approximation scheme. Starting from any feasible solution on a graph with $n$ vertices, it finds a $(1-\\varepsilon)$-approximation within $\\exp(O_H(\\varepsilon^{-2})) n(n+\\log(1/\\delta))$ steps with probability at least $1-\\delta$. This includes maximum independent set, maximum induced forest, maximum induced bipartite subgraph, and maximum induced subgraph of degree at most one. The proof uses improving exchanges on one fixed division of the input graph into regions. A recursive separator construction performs each exchange inside a region of size $r$ in at most $2r$ moves, with temporary loss $O_H(\\sqrt r)$. We count move sequences through each transition and bound the probability of avoiding all near-optimal states. The general theorem bounds the number of Metropolis steps in terms of the temporary loss along improvement paths. We extend the result to bounded weight imbalance and give a weighted-star obstruction for unrestricted weights.",
+   "abs": "https://arxiv.org/abs/2611.22023",
+   "pdf": "https://arxiv.org/pdf/2611.22023"
+  },
+  {
+   "id": "2611.22760",
+   "type": "new",
+   "title": "Sharp lower bounds for weighted bisections of graphs with bounded maximum degree",
+   "authors": [
+    "Stefanie Gerke",
+    "Gregory Gutin",
+    "Anders Yeo",
+    "Yacong Zhou"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A bisection of a graph is a partition of its vertex set into two parts the sizes of which differ by at most one. We prove that every finite simple graph of maximum degree at most an odd positive integer $k$, with arbitrary nonnegative real edge weights, has a bisection of weight at least $(k+1)/(2k)$ times its total edge weight. The corresponding bound $(k+2)/(2(k+1))$ for even $k$ follows immediately. Both coefficients are best possible. Somewhat surprisingly, these are exactly the sharp coefficients known for maximum weighted cuts, despite the additional balance requirement.",
+   "abs": "https://arxiv.org/abs/2611.22760",
+   "pdf": "https://arxiv.org/pdf/2611.22760"
+  },
+  {
+   "id": "2611.22337",
+   "type": "new",
+   "title": "The Zaks--Perles--Wills volume conjecture I: three-dimensional lattice polytopes",
+   "authors": [
+    "Feihu Liu",
+    "Jinlong Tang",
+    "Sihao Tao",
+    "Zihao Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove the three-dimensional Zaks--Perles--Wills volume bound for lattice polytopes with $k\\ge3$ interior lattice points: the Euclidean volume of such a lattice polytope is at most $6(k+1)$, with equality if and only if the polytope is affinely unimodularly equivalent to $\\operatorname{conv}(0,2e_1,3e_2,6(k+1)e_3)$. The inequality is strict when the minimum lattice width is at least three. Together with the known cases $k=1,2$, this completely resolves the three-dimensional Zaks--Perles--Wills volume conjecture.",
+   "abs": "https://arxiv.org/abs/2611.22337",
+   "pdf": "https://arxiv.org/pdf/2611.22337"
+  },
+  {
+   "id": "2611.22031",
+   "type": "new",
+   "title": "An improved bound on the strong chromatic index via local flag algebras",
+   "authors": [
+    "Runze Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "Comments are welcome!",
+   "abstract": "A strong edge coloring is an edge coloring where two edges receive different colors if they are incident or joined by a third edge. For a graph $G$, the strong chromatic index of $G$, denoted by $\\chi'_s(G)$, is the minimum number of colors needed for a strong edge coloring of $G$. In this paper, using a local flag algebra method, we prove that for every graph $G$ of sufficiently large maximum degree $\\Delta$, $\\chi'_s(G)\\le 1.642\\Delta^2$, improving the previous best bound $1.73\\Delta^2$ due to Davey, Hurley, de Joannis de Verclos, Kang, and Volec.",
+   "abs": "https://arxiv.org/abs/2611.22031",
+   "pdf": "https://arxiv.org/pdf/2611.22031"
+  },
+  {
+   "id": "2611.22104",
+   "type": "new",
+   "title": "Directed triangles in oriented graphs without a directed cycle of length $3t$",
+   "authors": [
+    "Shuchao Li",
+    "Mingli Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For integers $k,\\ell\\ge 3$, let $\\operatorname{ex}(n,\\Cdir_k,\\Cdir_\\ell)$ denote the maximum number of directed cycles of length $k$ in an $n$-vertex oriented graph containing no directed cycles of length $\\ell$. Grzesik, Jaworska, Kielak, Kuc and Ślusarczyk~\\cite{GJ} systematically studied the generalized Turán problem for directed cycles and conjectured that, for every fixed integer $t\\ge 2$, $\\operatorname{ex}(n,\\Cdir_3,\\Cdir_{3t})=\\frac{t-1}{4}n^2+o(n^2)$. They proved this asymptotic formula for $t=2$. In this paper, we prove it for every fixed integer $t\\ge 3$, thereby confirming the conjecture.",
+   "abs": "https://arxiv.org/abs/2611.22104",
+   "pdf": "https://arxiv.org/pdf/2611.22104"
+  },
+  {
+   "id": "2611.21966",
+   "type": "new",
+   "title": "Supersaturation and reconfiguration diameter of independent transversals",
+   "authors": [
+    "Wouter Cames van Batenburg",
+    "Penny Haxell",
+    "Ross J. Kang",
+    "Ronen Wdowinski"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages, 1 figure",
+   "abstract": "Consider the collection of independent transversals of a vertex-partitioned graph of maximum degree $\\Delta$. It is a classic result that when all parts have size at least $2\\Delta$, the collection is nonempty. Recently, it was found that if the parts have size at least $2\\Delta+1$, then every pair of independent transversals is connected, within the collection, by a sequence of one-vertex reconfigurations. We prove, among other results, that there are exponentially many independent transversals when the parts have size at least $2\\Delta$, and that the reconfiguration diameter is at most linear in the number of parts when the parts have size at least $4\\Delta$.",
+   "abs": "https://arxiv.org/abs/2611.21966",
+   "pdf": "https://arxiv.org/pdf/2611.21966"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2611.21894",
+   "type": "cross",
+   "title": "Permutation groups, derangements and connections",
+   "authors": [
+    "Scott Harper"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "69 pages",
+   "abstract": "What is the chance that a random shuffling of a deck of cards leaves no card in its original place? More precisely, what is the chance that a random permutation has no fixed points? A permutation with no fixed points is known as a derangement. Questions about derangements, like the ones above, go back centuries, but there are also several unsolved problems in this very active area of permutation group theory. Based on a minicourse given at \"Groups and Algebras in Bicocca for Young Algebraists\" in June 2026, this survey provides a general introduction to permutation group theory, with a specific focus on derangements. The survey features modern methods for studying permutation groups, recent developments and open problems concerning derangements and connections between this topic and other areas, such as combinatorics, graph theory, number theory, representation theory and topology.",
+   "abs": "https://arxiv.org/abs/2611.21894",
+   "pdf": "https://arxiv.org/pdf/2611.21894"
+  }
+ ],
+ "listed_new": 45,
+ "listed_cross": 14
+}
