@@ -1,0 +1,560 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T07:03:31Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 64,
+ "screened_new": 51,
+ "screened_cross": 13,
+ "scored": 64,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.26330",
+   "type": "new",
+   "title": "Equality in the clique bound for critical graphs",
+   "authors": [
+    "Hongyang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A graph is $k$-critical if its chromatic number is $k$ and every proper subgraph is $(k-1)$-colorable. Gao and Ma (2023) proved that every $n$-vertex $k$-critical graph with $n > k \\ge 4$ contains at most $n - k + 3$ cliques of size $k - 1$, and asked which graphs attain this bound. We answer this question by showing that equality holds if and only if $n - k + 3$ is odd and the graph is isomorphic to the join of a complete graph on $k - 3$ vertices and a cycle of length $n - k + 3$. More generally, for $n>k\\ge3$, we determine when the size of a nonempty family of distinct $(k-1)$-cliques in an $n$-vertex $k$-critical graph attains the upper bound $s-k+3$, where $s$ is the number of vertices covered by the family. Equality holds if and only if the graph is such a join (with the complete part empty when $k = 3$) and the family consists of all its $(k-1)$-cliques.",
+   "abs": "https://arxiv.org/abs/2611.26330",
+   "pdf": "https://arxiv.org/pdf/2611.26330"
+  },
+  {
+   "id": "2611.25050",
+   "type": "new",
+   "title": "On the Erdős--Ginzburg--Ziv problem for $\\mathbb Z_n^3$",
+   "authors": [
+    "Dongchun Han",
+    "Hanbin Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The Erdős--Ginzburg--Ziv constant $\\mathsf s(\\mathbb Z_n^r)$ is the least positive integer $t$ such that every sequence of $t$ elements of $\\mathbb Z_n^r$ contains $n$ terms whose sum is zero. In this paper, we prove that $$\\mathsf s(\\mathbb Z_n^3)=9n+o(n)$$ for odd $n$. For every fixed $r\\ge 4$, we also show that $\\mathsf s(\\mathbb Z_n^r)\\le\\bigl(\\binom{2r-1}{r}+1\\bigr)n+o_r(n).$ Our approach combines Alon--Dubiner-type spectral expansion, Zakharov's convex-geometric framework, and restricted-sum ideas developed by Han and Ren.",
+   "abs": "https://arxiv.org/abs/2611.25050",
+   "pdf": "https://arxiv.org/pdf/2611.25050"
+  },
+  {
+   "id": "2611.26570",
+   "type": "cross",
+   "title": "On Romik's rationality conjectures for critical percolation",
+   "authors": [
+    "Melda Akyazi-Zavadski",
+    "Nathanaël Berestycki",
+    "Sunil Chhita"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "45 pages, 9 figures, results obtained without the use of AI",
+   "abstract": "The completely packed $O(1)$ loop model can be viewed as an interface representation of critical bond percolation on the square lattice. We consider submatching events, which prescribe how these interfaces pair finitely many consecutive boundary points. Romik's rationality conjectures predict that the probabilities of these events on the semi-infinite cylinder are given by specific rational functions, which even become dyadic rationals in the half-plane limit. We derive explicit Pfaffian formulae for the probability of $k$ nested arches on the semi-infinite cylinder of circumference $2N$, valid for $k<N$. We deduce that these probabilities are rational functions of $N$ and, by taking the limit $N\\to\\infty$, that the corresponding half-plane probabilities remain rational. This establishes key aspects of Romik's conjectures. Our proof uses identities of Fonseca and Zinn-Justin, derived through the qKZ formalism, which express these probabilities as ratios of enumeration numbers for totally symmetric self-complementary plane partitions (TSSCPPs). These plane partitions admit a dimer representation, allowing us to apply Kasteleyn theory. We evaluate the resulting hypergeometric sum using Zeilberger's and Gosper's algorithms and then take the half-plane limit $N\\to\\infty$. Along the way, we derive a somewhat simplified expression for the inverse Kasteleyn matrix entries (encoding correlations in TSSCPPs) of Ayyer and Chhita, which might be of independent interest.",
+   "abs": "https://arxiv.org/abs/2611.26570",
+   "pdf": "https://arxiv.org/pdf/2611.26570"
+  },
+  {
+   "id": "2611.26037",
+   "type": "new",
+   "title": "An improved Moore bound for girths seven and eleven",
+   "authors": [
+    "Frederik Garbe"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "23 pages, 4 figures",
+   "abstract": "Let $n(d,k)$ be the minimum number of vertices of a graph of minimum degree $d$ and girth at least $g=2k+1$. A simple counting argument gives the classical lower bound $n(d,k)\\ge m(d,k)=1+d\\sum_{i=0}^{k-1}(d-1)^i$, known as the Moore bound and dating back at least to 1960. Apart from complete graphs and odd cycles, graphs attaining this lower bound can exist only for girth $5$ and degrees $3,7$ and $57$ (Hoffman and Singleton 1960; Bannai and Ito 1973; Damerell 1973). Nevertheless, for more than sixty years this lower bound has not been substantially improved beyond an additive constant. For $k\\geq 3$, i.e. girth at least $7$, the best general bound was $n(d,k)\\ge m(d,k)+2$, due to Bannai and Ito (1981). We show that for fixed girth $7$ and growing degree $d$ we have $n(d,3)\\ge m(d,3)+(1-o(1))d/8$. Furthermore, for girth $11$ we have $n(d,5)\\ge m(d,5)+\\Omega(d^{3/5})$. In particular, the excess $n(d,k)-m(d,k)$, for $k\\in\\{3,5\\}$, tends to infinity with $d$ and is therefore generally unbounded, which answers a question of Bollobás from 1978. For the degree/diameter problem we obtain similar bounds. A graph of maximum degree $d$ and diameter $3$ or $5$ has at most $m(d,3)-\\Omega(\\sqrt{d})$ or $m(d,5)-\\Omega(d^{3/10})$ vertices, respectively. This answers a question of Bermond and Bollobás from 1981: for every constant $c$ there are $d$ and $k$ such that every graph of maximum degree $d$ and diameter $k$ has at least $c$ fewer vertices than the Moore bound.",
+   "abs": "https://arxiv.org/abs/2611.26037",
+   "pdf": "https://arxiv.org/pdf/2611.26037"
+  },
+  {
+   "id": "2611.26277",
+   "type": "new",
+   "title": "Dense induced bipartite subgraphs under local sparsity",
+   "authors": [
+    "Peiru Kuang",
+    "Jing Lin",
+    "Yan Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The study of dense induced bipartite subgraphs dates back to the work of Erdős, Faudree, Pach, and Spencer on triangle-free graphs. In this paper, we study this problem under different local sparsity conditions. First, we prove that for every fixed integer $t\\ge 2$ and all sufficiently large $d$, every $K_{t,t}$-free graph of minimum degree at least $d$ contains an induced bipartite subgraph of average degree at least $\\log d-16t\\log\\log d$. This follows from our bound $\\chi_f(G)\\le d/(\\log d-16t\\log\\log d)$ for every $d$-degenerate $K_{t,t}$-free graph $G$, which answers a problem of Allen, Dhawan, and Noel. For triangle-free $d$-degenerate graphs $G$, we prove that $\\chi_f(G)\\le(2.85+o(1))d/\\log d$, improving the leading constant 4 in the bound of Martinsson and Steiner. So every triangle-free graph of minimum degree at least $d$ contains an induced bipartite subgraph of average degree at least $(20/57-o(1))\\log d$. We also extend the study of a conjecture of Esperet, Kang, and Thomassé to graphs containing triangles. We prove that if $G$ has minimum degree at least $d$ and each edge belongs to at most $d/k^2$ triangles, where $k=\\lfloor\\log d/\\log\\log d\\rfloor$, then $G$ contains an induced bipartite subgraph of average degree $\\Omega(\\log d/\\log\\log d)$.",
+   "abs": "https://arxiv.org/abs/2611.26277",
+   "pdf": "https://arxiv.org/pdf/2611.26277"
+  },
+  {
+   "id": "2611.25153",
+   "type": "new",
+   "title": "\\textsc{Max-Cut} on Token Graphs",
+   "authors": [
+    "José Angel Alejandro-Soto",
+    "Paulo T. Araujo",
+    "Ruy Fabila-Monroy",
+    "Sergio Gerardo Gómez-Galicia",
+    "Mohamed Hibat-Allah",
+    "Md Moshiur Rahman Raj",
+    "Mahmud Ashraf Shamim",
+    "Ana Laura Trujillo-Negrete"
+   ],
+   "categories": [
+    "math.CO",
+    "cond-mat.str-el"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a graph on $n$ vertices, with a positive weight assigned to each edge. A cut of $G$ is a partition of its vertices into two sets $X$ and $Y$; the weight of $(X,Y)$ is the sum of the weight of the edges of $G$ with one endpoint in $X$ and the other endpoint in $Y$. The Max-Cut problem asks for the maximum weight, $m(G)$, of a cut of $G$. The $k$-token graph of $G$, is the graph, $F_k(G)$, whose vertices are the $k$-subsets of vertices of $G$, two of them being adjacent when their symmetric difference is an edge of $G$. The phase-reconstruction problem for Heisenberg antiferromagnets in physics can be rephrased as a Max-Cut problem on token graphs. Motivated by this, we study the Max-Cut problem on token graphs, mainly when all edges are assigned the same weight. Our main focus is to bound $m(F_k(G))$ in terms of $m(G)$. We prove that $m(F_k(G))\\geq\\binom{n-2}{k-1}m(G)$, and that this bound is tight up to a multiplicative factor of $1+O(k/n)$; in the case when $k=c \\cdot n$ for some constant $0 < c < 1$, we provide an example where this bound is off by a multiplicative constant factor. We also show bounds for $m(F_k(G))$ for various classes of graphs $G$. Finally, we consider the algorithmic complexity of finding $m(F_k(G))$, showing it to be NP-complete for a constant $k$, and giving evidence that, when the weights take finitely many values, it is not NP-hard for $k\\geq n^{\\delta}$ for any constant $\\delta>0$.",
+   "abs": "https://arxiv.org/abs/2611.25153",
+   "pdf": "https://arxiv.org/pdf/2611.25153"
+  },
+  {
+   "id": "2611.25011",
+   "type": "cross",
+   "title": "Near-Quadratic Sample Compression for All VC Classes",
+   "authors": [
+    "Yang Cai",
+    "Vineet Gupta",
+    "Yanchen Jiang",
+    "Christopher Liaw",
+    "Aranyak Mehta",
+    "Shay Moran",
+    "Grigoris Velegkas",
+    "Di Wang",
+    "Manfred K. Warmuth"
+   ],
+   "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.DS",
+    "math.CO",
+    "stat.ML"
+   ],
+   "primary": "cs.LG",
+   "comments": "",
+   "abstract": "The sample compression conjecture is a longstanding open problem in learning theory, originating in the work of Littlestone and Warmuth in the 1980s. At its heart is a connection between simplification and generalization: if a predictor consistent with a training sample is defined using only a small part of that sample, then it is likely to generalize. Sample compression schemes formalize this idea, and many natural learning algorithms can be analyzed this way. The sample compression conjecture of Floyd and Warmuth (1995) asserts that every binary concept class of VC dimension $d$ admits a sample compression scheme of size $O(d)$; a weaker conjecture asks only for size polynomial in $d$. Both have remained open: the first bound depending only on $d$, due to Moran and Yehudayoff (2016), is exponential in $d$. We prove the weaker conjecture by constructing a sample compression scheme of size $O(d^2 \\log^2 d)$.",
+   "abs": "https://arxiv.org/abs/2611.25011",
+   "pdf": "https://arxiv.org/pdf/2611.25011"
+  },
+  {
+   "id": "2611.25516",
+   "type": "new",
+   "title": "Rational Designs and Prouhet--Tarry--Escott Problems",
+   "authors": [
+    "Ryutaro Misawa",
+    "Masanori Sawa",
+    "Filip Špiranec"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "56 pages",
+   "abstract": "For every strength, we prove the existence of rational designs on spheres, orthogonal and unitary groups, real and complex Grassmannians, and ellipsoids that are defined by positive-definite quadratic forms with rational coefficients and have a rational point. This answers Bannai's Problem for these spaces, solves the problem of Cui--Xia--Xiang on rational spherical $4$-designs on the unit circle, and proves Xiang's conjecture in the stronger form of existence in every dimension. To this end, we introduce the $(G,\\mathcal{S})$-Prouhet--Tarry--Escott problem for an abelian group $G$ and a finite set of characters $\\mathcal{S}$ and develop its existence and minimality theory. We also prove a general theorem transforming integer-weighted rational designs into equi-weighted designs on distinct rational points. On the unit circle $\\mathbb{S}^1$, we determine the minimum sizes of rational spherical designs of strengths $4,5,6,7$ and show that they are respectively $2304,4608,9216,9216$. We also show that the minimum size of a rational spherical $5$-design on $\\mathbb{S}^2$ is $192$. We further apply our framework to prove a conjecture of Thuswaldner--Ziegler on sums of distinct units and to answer Mahabaduge's problem on convex equilateral lattice polygons affirmatively.",
+   "abs": "https://arxiv.org/abs/2611.25516",
+   "pdf": "https://arxiv.org/pdf/2611.25516"
+  },
+  {
+   "id": "2611.26280",
+   "type": "new",
+   "title": "Rainbow Matchings in $K_{r+1}$-free Graphs",
+   "authors": [
+    "Hongliang Lu",
+    "Xinxin Ma",
+    "Xing Peng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages",
+   "abstract": "Let $n,m,r$ be positive integers with $n\\ge 2m+2$, where $n$ is sufficiently large relative to $r$. Alon and Frankl determined the maximum number of edges in an $n$-vertex graph containing neither $K_{r+1}$ nor a matching of size $m+1$. In this paper, we establish a rainbow analogue of their result. More precisely, if $G_1,\\ldots,G_{m+1}$ are $K_{r+1}$-free graphs on a common vertex set of size $n$, each having more than $\\operatorname{ex}(n,\\{K_{r+1},M_{m+1}\\})$ edges, then $\\{G_1,\\ldots,G_{m+1}\\}$ admits a rainbow matching.",
+   "abs": "https://arxiv.org/abs/2611.26280",
+   "pdf": "https://arxiv.org/pdf/2611.26280"
+  },
+  {
+   "id": "2611.25662",
+   "type": "new",
+   "title": "Positive semidefiniteness of random submatrices",
+   "authors": [
+    "Rajko Nenadov",
+    "Lander Verlinde"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages",
+   "abstract": "Given a symmetric matrix $A \\in [-1,1]^{n \\times n}$, we estimate the probability that a random principal submatrix, obtained by taking each index independently with probability $p$, is positive semidefinite. As a corollary, we show that $O(\\varepsilon^{-1})$ indices chosen uniformly at random suffice for testing positive semidefiniteness with squared Frobenius distance threshold $\\varepsilon n^2$, thus nearly matching the lower bound of Bakshi, Chepurko, and Jayaram (``Testing Positive Semi-Definiteness via Random Submatrices'', FOCS 2020). The key ingredient is a dense model lemma for positive semidefinite matrices, proved using the hyperplane separation theorem and a contraction inequality for Rademacher random variables.",
+   "abs": "https://arxiv.org/abs/2611.25662",
+   "pdf": "https://arxiv.org/pdf/2611.25662"
+  },
+  {
+   "id": "2611.26229",
+   "type": "new",
+   "title": "Sharp topological overlap in every dimension",
+   "authors": [
+    "Sergey Norin"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a positive integer $d$ let $c_d^{\\mathrm{top}}$ (resp. $c_d^{\\mathrm{aff}}$) be the maximum $c$ such that, for every continuous (resp. affine) map from the $n$-dimensional simplex $\\Delta^n$ to $\\mathbb{R}^d$, some point of $\\mathbb{R}^d$ lies in the images of at least $(c-o(1))\\binom{n+1}{d+1}$ of the $d$-dimensional faces, as $n\\to\\infty$. We show that \\[ c_d^{\\mathrm{top}}=c_d^{\\mathrm{aff}}=\\frac{(d+1)!}{(d+1)^{d+1}}. \\] The second equality confirms a conjecture of Bukh, Matoušek, and Nivasch, who established the upper bound. The proof was found by GPT-6 Astra, following the directions of the author.",
+   "abs": "https://arxiv.org/abs/2611.26229",
+   "pdf": "https://arxiv.org/pdf/2611.26229"
+  },
+  {
+   "id": "2611.25381",
+   "type": "new",
+   "title": "Strong chromatic index of graphs with Ore-degree at most nine",
+   "authors": [
+    "Xiaoxue Hu",
+    "Jiangxu Kong",
+    "Yu Xue"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The strong chromatic index $\\chi_s^{\\prime}(G)$ of a graph $G$ is the minimum number of colors in an edgecoloring in which distinct edges at distance at most two in the line graph receive different colors. Let $\\theta(G)=\\max _{x y \\in E(G)}\\left(d_G(x)+d_G(y)\\right)$ denote the maximum edge weight, also called the Ore-degree, of $G$. We prove that every finite loopless multigraph $G$ with $\\theta(G) \\leq 9$ satisfies $\\chi_s^{\\prime}(G) \\leq 28$. For simple graphs, this improves the direct greedy bound from 32 to 28. In particular, it verifies the Erdős-Nešetřil conjecture for simple graphs of maximum degree five whose vertices of degree five form an independent set, using one fewer color than the conjectured bound of 29. When $\\theta(G)=9$, our bound is four colors above the bound of 24 predicted by the Ore-degree conjecture of Chen, Huang, Yu, and Zhou.",
+   "abs": "https://arxiv.org/abs/2611.25381",
+   "pdf": "https://arxiv.org/pdf/2611.25381"
+  },
+  {
+   "id": "2611.26259",
+   "type": "new",
+   "title": "An asymptotic bound for Yuster's independent transversal factor conjecture",
+   "authors": [
+    "Xin Zhang"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An $[r,n,1]$-graph has $r$ independent parts of size $n$, with a matching between each pair of parts. Yuster conjectured in 2021 that every such graph has a partition into independent transversals whenever $n\\ge 2\\lceil r/2\\rceil$. We prove that there is an absolute constant $A>0$ such that, for all sufficiently large $r$, this partition exists whenever $n\\ge\\lceil r+A r^{20/21}\\rceil$. Thus $f(r)\\le r+O(r^{20/21})$, where $f(r)$ is the least $n_0$ such that every $[r,n,1]$-graph has such a partition whenever $n\\ge n_0$. In particular, $f(r)/r\\to1$, giving an asymptotic form of the conjecture.",
+   "abs": "https://arxiv.org/abs/2611.26259",
+   "pdf": "https://arxiv.org/pdf/2611.26259"
+  },
+  {
+   "id": "2611.26429",
+   "type": "new",
+   "title": "Algebraic matroids with non-algebraic duals exist in any positive characteristic",
+   "authors": [
+    "Lukas Grund"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We show that for every field $K$ of positive characteristic there exists an algebraic matroid $M$ over $K$ such that the dual matroid $M^*$ is not algebraic over any field. Our conceptual proof relies on the theory of matroids over one-dimensional algebraic groups. As an application, we deduce that the classes of supports of realizable volume polynomials and of realizable covolume polynomials differ in positive characteristic.",
+   "abs": "https://arxiv.org/abs/2611.26429",
+   "pdf": "https://arxiv.org/pdf/2611.26429"
+  },
+  {
+   "id": "2611.25148",
+   "type": "new",
+   "title": "A refinement of Szemerédi's distinct-distance bound for points in general position",
+   "authors": [
+    "Péter Ágoston",
+    "Krishnendu Bhowmick"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages",
+   "abstract": "We prove that every collinear triple free set of $n\\ge4$ points in the Euclidean plane determines at least $\\lfloor n/3\\rfloor+1$ distinct distances. This refines the classical bound $\\lceil(n-1)/3\\rceil$ of Szemerédi that is based on counting isosceles triangles. The refinement is based on treating the diameters separately: they only appear on the convex hull, so for them, we can use the planar diameter theorem and Altman's theorem on distances in convex polygons.",
+   "abs": "https://arxiv.org/abs/2611.25148",
+   "pdf": "https://arxiv.org/pdf/2611.25148"
+  },
+  {
+   "id": "2611.26622",
+   "type": "new",
+   "title": "Quasipolynomial pyjamas",
+   "authors": [
+    "Sida Li"
+   ],
+   "categories": [
+    "math.CO",
+    "math.DS",
+    "math.NT"
+   ],
+   "primary": "math.CO",
+   "comments": "43 pages",
+   "abstract": "The ``pyjama stripe\" $E(\\varepsilon)$ is the set of all complex numbers whose real part lies within $\\varepsilon$ of the nearest integer. The Pyjama Problem asks whether, for each $\\varepsilon > 0$, there exists some union of finitely many rotations of $E(\\varepsilon)$ about the origin that covers the plane. This was answered in the affirmative by Manners. Kravitz and Leng subsequently showed that $\\exp(\\exp(\\exp(\\varepsilon^{-O(1)})))$ rotations suffice. In this paper, we prove an upper bound of \\[\\exp((\\log \\varepsilon^{-1})^{50000})\\] rotations. We also show that at least $(\\pi/2 + 0.003 + o(1))\\varepsilon^{-1}$ rotations are necessary, improving upon the natural lower bound of $(\\pi/2 + o(1))\\varepsilon^{-1}$.",
+   "abs": "https://arxiv.org/abs/2611.26622",
+   "pdf": "https://arxiv.org/pdf/2611.26622"
+  },
+  {
+   "id": "2611.26446",
+   "type": "cross",
+   "title": "Degree Lower Bounds for Symmetric Boolean Functions: Breaking the Prime-Gap Barrier",
+   "authors": [
+    "Xiaoming Sun",
+    "Chengu Wang"
+   ],
+   "categories": [
+    "cs.CC",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "",
+   "abstract": "We prove that every nonconstant symmetric Boolean function on $n$ variables has exact real polynomial degree at least $n-O(n^{1/3}(\\log n)^{2/3})$. This makes progress toward the conjecture of von zur Gathen and Roche that the degree is always at least $n-3$. The original prime-gap argument of von zur Gathen and Roche yields a degree deficit of $O(n^{0.525})$ using the theorem of Baker, Harman, and Pintz, or $O(n^{0.52})$ using an estimate claimed in a recent preprint. Our $\\widetilde{O}(n^{1/3})$ bound on the degree deficit improves upon the $\\widetilde{O}(\\sqrt{n})$ bound obtainable from the prime-gap approach, even assuming the Riemann hypothesis or Legendre's conjecture. Notably, our proof avoids prime-gap estimates entirely. The proof combines vanishing binomial moments with the arithmetic of linear recurrences. A quantitative form of the integer Hankel determinant method in the Pólya--Carlson theorem forces the function's values on a central interval of Hamming weights to satisfy a short rational recurrence. A second determinant argument bounds the number of characteristic roots near $-1$. Through the binomial transform, these roots can then be cancelled by a polynomial test of degree below the deficit. An integer annihilator and contour estimates make the test isolate the first failure of the recurrence, yielding a contradiction with the vanishing-moment conditions. If the recurrence agrees with the function on a sufficiently long interval, arithmetic height bounds instead force a bounded period, which is ruled out by a separate polynomial test. Every numbered result in the paper has been formally verified in Lean~4.",
+   "abs": "https://arxiv.org/abs/2611.26446",
+   "pdf": "https://arxiv.org/pdf/2611.26446"
+  },
+  {
+   "id": "2611.25505",
+   "type": "new",
+   "title": "Fixed-opening-set positivity for perfect matchings",
+   "authors": [
+    "Myungkyu Chae"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages",
+   "abstract": "For a perfect matching $M$ on $[2n]$, let $P_M$ be the interval order on its edges and let $\\operatorname{Open}(M)$ be the set of smaller endpoints of its edges. For an opening set $O$ that occurs for some matching, put $S_O=\\sum_{\\operatorname{Open}(M)=O}X_{\\operatorname{Inc}(P_M)}$ and $H_O=\\omega S_O$. We give explicit Schur and power-sum expansions of $H_O$ with nonnegative integer coefficients, and prove that $H_O$ is $h$-positive (equivalently, $S_O$ is $e$-positive). The Schur coefficients count standard tableaux of staggered skew shapes with prescribed entries in the left cells of distinguished dominoes. The Schur expansion follows from a Jacobi--Trudi sign-reversing involution on arrays with prescribed opener positions. For every partition $\\mu$ of $n$, a coefficient-transfer formula expresses $[h_\\mu]H_O$ as a positive scalar multiple of an elementary coefficient of the chromatic symmetric function of a clique blow-up of a path. This graph is a unit interval graph, so Hikita's theorem gives nonnegativity. The power-sum coefficients admit a cycle-type autocorrelation formula in terms of the restricted permutations from the Ferrers threshold model and an interpretation by alternating permutations with prescribed valley values and record partitions; we also obtain explicit threshold formulas. Further results include descent-set refinements, formulas for selected $h$-coefficients, and a rim-hook cancellation for the coefficient of $h_n$. These results refine the global matching identity of Amdeberhan, Shareshian, and Stanley.",
+   "abs": "https://arxiv.org/abs/2611.25505",
+   "pdf": "https://arxiv.org/pdf/2611.25505"
+  },
+  {
+   "id": "2611.26513",
+   "type": "new",
+   "title": "Hypergraph Hajnal-Szemerédi",
+   "authors": [
+    "Michelle Delcourt",
+    "Cicely Henderson",
+    "Thomas Lesgourgues",
+    "Luke Postle"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages plus references and appendix",
+   "abstract": "A seminal result of Hajnal and Szemerédi from 1970 asserts that every graph on $n$ vertices with $q\\;|\\;n$ and minimum degree at least $\\Big(1-\\frac{1}{q}\\Big)n$ admits a $K_q$-factor (a collection of vertex-disjoint copies of $K_q$ spanning all vertices). There has been sustained interest in extending this result to hypergraph $K_q^r$-factors. For general $q$ and $r$, Lu and Székely in 2007 showed that every large enough, $r$-graph $G$ with $q\\mid v(G)$ and $\\delta_{r-1}(G) \\ge \\left(1- \\frac{c}{q^{r-1}}\\right)v(G)$ admits a $K_q^r$-factor (where $c$ is a constant depending on $r$ but not $q$), and there have been various subsequent improvements to the constant (but not the order) of this bound over the ensuing decades. Meanwhile, results from codegree Turán theory show that $\\delta_{r-1}(G) \\ge \\left(1 - \\frac{c \\cdot \\log q}{q^{r-1}} \\right)v(G)$ is necessary. Surprisingly, our main result shows that the order of this upper bound is not correct and, in fact, the codegree $K_q^r$-factor threshold is much closer to this codegree Turán theory bound. In particular, we show that $\\delta_{r-1}(G) \\ge \\left( 1-c\\cdot \\frac{\\log^{1-1/(r-1)}q}{q^{r-1}}\\right)v(G)$ suffices for the existence of a $K_q^r$-factor. Our key contribution is showing the same is true for the fractional threshold. Inspired by the first and fourth author's recent proof of the Nash-Williams' Conjecture, we accomplish this by combining a linear programming framework with ideas from discharging. Additionally, we establish a technical result about finding large independent sets in sparse, non-uniform hypergraphs, which may be of independent interest.",
+   "abs": "https://arxiv.org/abs/2611.26513",
+   "pdf": "https://arxiv.org/pdf/2611.26513"
+  },
+  {
+   "id": "2611.26539",
+   "type": "new",
+   "title": "Large $k$-cross-free families",
+   "authors": [
+    "Jack H. Koolen",
+    "Anyuan Tian"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Two subsets $A,B$ of a finite set $X$ are crossing if $A\\cap B$, $A\\setminus B$, $B\\setminus A$, and $X\\setminus(A\\cup B)$ are all nonempty. A family is $k$-cross-free if it contains no $k$ pairwise crossing members. We construct such families on $n$ elements of size $(\\frac{1}{3}+o(1))kn\\log k$, where the asymptotic is taken as $k$ tends to infinity and is uniform over all integers $n\\ge k$. This disproves the uniform $O(kn)$ bound conjectured by Karzanov and Lomonosov. Our construction consists of cyclic intervals with at most one point deleted, together with their complements. We also prove an $O(kn\\log k)$ upper bound for $k$-cross-free families closed under all cyclic shifts of a fixed cyclic ordering of the ground set.",
+   "abs": "https://arxiv.org/abs/2611.26539",
+   "pdf": "https://arxiv.org/pdf/2611.26539"
+  },
+  {
+   "id": "2611.25164",
+   "type": "cross",
+   "title": "Convexity is overrated: Shortest paths on 4-polytopes are hard to compute",
+   "authors": [
+    "Igor Pak"
+   ],
+   "categories": [
+    "cs.CG",
+    "cs.CC",
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "cs.CG",
+   "comments": "64 pages, 2 figures",
+   "abstract": "We prove that computing geodesic distance on the boundary of a rational convex $4$-polytope is NP-hard. We then construct rational $4$-polytopes with two rational points joined by exponentially many shortest paths of equal rational length, disproving several conjectures along the way. For the same problem, we also prove SQRTSUM-hardness under deterministic polynomial-time Turing reductions. By a separate argument, we show that the square of the geodesic distance between distinct rational boundary points of a rational convex polytope is a totally positive multiquadratic number.",
+   "abs": "https://arxiv.org/abs/2611.25164",
+   "pdf": "https://arxiv.org/pdf/2611.25164"
+  },
+  {
+   "id": "2611.25346",
+   "type": "new",
+   "title": "A complete intersection theorem for sets of bounded size",
+   "authors": [
+    "Jing Gu",
+    "Biao Wu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "Let \\(1\\le t\\le k\\le n\\) and \\(2k<n+t\\). We prove that a largest \\(t\\)-intersecting family of subsets of \\([n]\\) of size at most \\(k\\) is obtained by taking all such subsets that contain at least \\(t+r\\) points of a fixed \\((t+2r)\\)-element set, for some \\(0\\le r\\le\\left\\lfloor\\frac{n-t}{2}\\right\\rfloor\\). This settles a conjecture of Ahlswede, Bey, Engel and Khachatrian from 2002.",
+   "abs": "https://arxiv.org/abs/2611.25346",
+   "pdf": "https://arxiv.org/pdf/2611.25346"
+  },
+  {
+   "id": "2611.25143",
+   "type": "new",
+   "title": "New lower bounds for six small hypergraph Ramsey numbers",
+   "authors": [
+    "Christian Lysenstøen"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 3 tables. The colourings and the programs that verify them are included as ancillary files",
+   "abstract": "Let $R(k,l;t)$ denote the least $n$ such that every colouring of the $t$-subsets of an $n$-set with two colours has $k$ points all of whose $t$-subsets have the first colour, or $l$ points all of whose $t$-subsets have the second. We give explicit colourings proving $R(4,5;3)\\ge 38$, $R(4,6;3)\\ge 71$, $R(5,5;3)\\ge 99$, $R(5,6;4)\\ge 201$, $R(6,6;4)\\ge 601$ and $R(6,6;5)\\ge 84$. The first three improve the bounds 35, 63 and 88 listed in Radziszowski's dynamic survey. The last three improve the listed bounds 67, 133 and 72, and for the two 4-uniform numbers also the values 159 and 317 of a recent data deposit. The colourings of 3-subsets are invariant under groups of affine maps $x\\mapsto ax+b$ of $\\mathbb{Z}_n$, for $n=37$, 69 and 97, in the last two cases with one further fixed point. Those of 4-subsets live on the projective line over $\\mathbb{F}_q$, for $q=199$ and $q=599$, and are invariant under $\\mathrm{PSL}(2,q)$ or $\\mathrm{PGL}(2,q)$, so each is given by a table of $q$ entries. For 5-subsets we show that, for every prime $q\\ge 5$, invariance under $\\mathrm{PGL}(2,q)$ forces six points all of whose 5-subsets have the same colour; our colouring is invariant under all affine maps of $\\mathbb{Z}_{83}$. By known constructions the bounds give $R(5,5,5;3)\\ge 9605$ and $R_k(5;3)\\ge 98^{2^{k-2}}+1$, and $R(6,7;4)\\ge 2001$, $R(7,7;4)\\ge 12001$ and $R(8,8;4)\\ge 588001$. The colourings, and programs that verify them, accompany the paper as ancillary files.",
+   "abs": "https://arxiv.org/abs/2611.25143",
+   "pdf": "https://arxiv.org/pdf/2611.25143"
+  },
+  {
+   "id": "2611.25244",
+   "type": "new",
+   "title": "A note on Turán densities of daisies and hypergraph products",
+   "authors": [
+    "Marko Pejić"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "14 pages",
+   "abstract": "The Turán density of an $r$-uniform hypergraph $\\mathcal H$ is defined as ${\\pi}(\\mathcal{H})=\\lim_{n\\rightarrow\\infty} \\operatorname{ex}(n,\\mathcal{H})/\\binom{n}{r}$, where $\\operatorname{ex}(n,\\mathcal H)$ denotes the largest number of edges in an $\\mathcal H$-free $r$-uniform hypergraph on $n$ vertices. For integers $r\\geq s\\geq2$ and $t\\geq s$, an $(r,s,t)$-daisy $\\mathcal D_r(s,t)$ is the $r$-uniform hypergraph consisting of all unions of a fixed $(r-s)$-set with the $s$-subsets of a disjoint $t$-set. We show that for every fixed $s\\geq3$, \\[ \\lim_{r\\rightarrow\\infty}{\\pi}(\\mathcal D_r(s,t))=1-O_s(t^{-(s-1)}) \\] as $t\\rightarrow\\infty$. This bound is best possible up to the implicit constant by a classical result of de Caen, and it answers, in a stronger form, a question of Ellis, Ivan and Leader, who asked for the case $s=3$. Moreover, we show a related result for matroid basis hypergraphs. We also consider Turán densities of hypergraph products, of which daisies are a special case. The product of two hypergraphs on disjoint vertex sets consists of all unions of an edge of the first with an edge of the second. For the product $\\mathcal H^d$ of $d$ disjoint copies of a fixed $r$-uniform hypergraph $\\mathcal H$ that is not $r$-partite, we show that $1-\\pi(\\mathcal H^d) \\rightarrow 0$ exponentially fast as $d\\rightarrow\\infty$, and we determine the exponential rate in terms of the minimum number of edges in a homomorphic image of $\\mathcal H$. This answers a question of Bollobás, Leader and Malvenuto up to a polynomial factor in $d$, and we further address a related question of theirs for products of two different hypergraphs.",
+   "abs": "https://arxiv.org/abs/2611.25244",
+   "pdf": "https://arxiv.org/pdf/2611.25244"
+  },
+  {
+   "id": "2611.26253",
+   "type": "new",
+   "title": "Combinatorial Dvoretzky Theory",
+   "authors": [
+    "Tomer Milo"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $P \\subset \\mathbb{R}^n$ be an $n$-dimensional polytope such that $P \\subset B_2^n$. Let $M^*(P)$ denote its mean width, and let $N$ be the number of facets (faces of dimension $n-1$) of $P$. We prove the following two bounds: (1) If $N \\leq e^n$, then \\[ M^*(P) \\leq 1 - \\frac{c}{\\log^2(\\frac{N}{n})}. \\] (2) For arbitrary $N$, \\[ M^*(P) \\leq 1 - \\frac{c}{n}N^{-\\frac{2}{n-1}}. \\] In both bounds, $c>0$ is an absolute constant.",
+   "abs": "https://arxiv.org/abs/2611.26253",
+   "pdf": "https://arxiv.org/pdf/2611.26253"
+  },
+  {
+   "id": "2611.25893",
+   "type": "new",
+   "title": "A very robust Ramsey theorem for hypergraph matchings",
+   "authors": [
+    "Peter Keevash",
+    "Peleg Michaeli"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages",
+   "abstract": "A fundamental result in Ramsey theory due to Alon, Frankl and Lovász gives an exact formula for the $q$-colour Ramsey numbers of matchings in $r$-uniform hypergraphs: if $n\\ge\\mathsf{AFL}_r(\\mathbf{t})=(r-1)\\|\\mathbf{t}\\|_\\infty+1+\\sum_{j=1}^q(t_j-1)$ then in any $q$-edge-colouring of $K^r_n$ there is some colour $j$ with a matching of size $t_j$. We show that a very weak quasirandomness assumption suffices for this Ramsey property: we can replace $K^r_n$ by any $r$-graph $H$ on at least $\\mathsf{AFL}_r(\\mathbf{t})+o(n)$ vertices that is a sublinear connector, meaning that it has no balanced $r$-partite holes of linear size. This generalises the result for $r=2$ (ordinary graphs) that we proved previously using a compression algorithm based on Gallai-Edmonds decompositions. This structure theory is unavailable in the hypergraph setting, so we combine two other proof methods, namely (a) simultaneous optimisation in all colours by clustering vertices using fractional cover weights from LP duality, and (b) local-to-global structure via random sampling and Kahn's matching theorem.",
+   "abs": "https://arxiv.org/abs/2611.25893",
+   "pdf": "https://arxiv.org/pdf/2611.25893"
+  },
+  {
+   "id": "2611.26226",
+   "type": "new",
+   "title": "The existence of generalized Steiner systems",
+   "authors": [
+    "Xuan Wang",
+    "Shitao Li",
+    "Minjia Shi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A generalized Steiner system $GS(t,w,n,q)$ is a $q$-ary constant-weight code of length $n$ and weight $w$ that has minimum distance at least $2(w-t)+1$ and attains the Johnson-type upper bound $(q-1)^t\\binom nt/\\binom wt$. For strengths $t=1$ and $t=2$, such systems were known to exist for all sufficiently large lengths satisfying the necessary divisibility conditions. For general fixed parameters, Liu and Shangguan (J. Combin.\\ Theory Ser.~A 209 (2025), 105955) proved that the Johnson-type bound is attained asymptotically, and asked whether it is attained with equality for all sufficiently large lengths satisfying these conditions. We answer this question affirmatively. We prove that, for fixed integers $q\\geq3$ and $w>t\\geq1$, a $GS(t,w,n,q)$ exists for every sufficiently large $n$ such that $\\binom{w-i}{t-i}$ divides $(q-1)^{t-i}\\binom{n-i}{t-i}$ for all $0\\leq i<t$. Moreover, the system can be chosen so that the supports of distinct codewords intersect in at most $t$ coordinates. Our proof assigns an independent random labelling to every set of $t+1$ coordinates, which turns large support intersections into conflicts in an exact covering problem, and then applies Keevash's decomposition theorem for labelled complexes.",
+   "abs": "https://arxiv.org/abs/2611.26226",
+   "pdf": "https://arxiv.org/pdf/2611.26226"
+  },
+  {
+   "id": "2611.25956",
+   "type": "new",
+   "title": "Schubert Calculus in the Eye of the Storm",
+   "authors": [
+    "Neil J.Y. Fan",
+    "Peter L. Guo",
+    "Changzheng Li",
+    "Rui Xiong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "37 pages",
+   "abstract": "We introduce new combinatorial objects, called storm diagrams, to study the torus-equivariant quantum $K$-theory of complete flag varieties $GL_n(\\mathbb{C})/B$. We consider the quantum product of an arbitrary Schubert class with a modified Hirzebruch $\\lambda_y$-class of a tautological subbundle. We show that its Schubert expansion coefficients are given by the total weights of storm diagrams. As applications, we establish Pieri rules for the torus-equivariant quantum $K$-theory of partial flag varieties $GL_n(\\mathbb{C})/P$. Our storm diagrams provide the first combinatorial model for a manifestly positive multiplication formula for partial flag varieties beyond the Chevalley case, with restrictions imposed on only one of the two Schubert classes.",
+   "abs": "https://arxiv.org/abs/2611.25956",
+   "pdf": "https://arxiv.org/pdf/2611.25956"
+  },
+  {
+   "id": "2611.25850",
+   "type": "new",
+   "title": "Weak Degeneracy with Availability for Planar Graphs",
+   "authors": [
+    "Zdeněk Dvořák",
+    "Evelyne Smith-Roberge"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "30 pages, 3 figures",
+   "abstract": "Every planar graph admits exponentially many proper colorings for any assignment of lists of five allowed colors to its vertices. In this paper, we show that very little beyond degeneracy is needed to prove that this statement holds. In particular, given a planar graph G (but not the list assignment), our argument provides an algorithm consisting entirely of instructions of the following form: ``Color the vertex v using any color c from its list, and remove c from the lists of neighbors of v.'' and ``For the edge uv, choose any k colors from the list of u, then color v by any color c from its list that does not appear among these k colors, and remove c from the lists of neighbors of v.'' For every assignment of lists of size five to vertices of G, following this algorithm in all possible ways guarantees that at least $2^{|V(G)|/7}$ different proper colorings of G are produced (and at least one color choice is guaranteed to be available in each step). We also show that this result has the following consequence: for every planar graph G, there exists a set $R\\subseteq V(G)$ of size at least 0.06|V(G)| such that G can be properly colored from any assignment of lists of size four to vertices in R and lists of size five to the rest of vertices of G. Moreover, these statements remain true even in stronger settings, such as for correspondence coloring.",
+   "abs": "https://arxiv.org/abs/2611.25850",
+   "pdf": "https://arxiv.org/pdf/2611.25850"
+  },
+  {
+   "id": "2611.25973",
+   "type": "new",
+   "title": "Proof of Stanley's Conjecture on the Leading Ehrhart Coefficients of the Birkhoff Polytope",
+   "authors": [
+    "Jiahang Liu",
+    "Jinlong Tang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $c(n,k)$ denote the coefficient of $r^{(n-1)^2-k}$ in the Ehrhart polynomial of the $n\\times n$ Birkhoff polytope. For every fixed nonnegative integer $k$, we prove that $c(n,k)/c(n,0)\\sim n^{3k}/(2^k k!)$ as $n\\to\\infty$, confirming a conjecture of Stanley.",
+   "abs": "https://arxiv.org/abs/2611.25973",
+   "pdf": "https://arxiv.org/pdf/2611.25973"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 51,
+ "listed_cross": 13
+}
