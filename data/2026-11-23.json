@@ -1,0 +1,547 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T04:32:22Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 56,
+ "screened_new": 42,
+ "screened_cross": 14,
+ "scored": 56,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.27519",
+   "type": "new",
+   "title": "Additive cubes are avoidable by a non-uniform morphism of length $6$ over $\\{0,a,b\\}$ (with $b \\ge 4$ and $\\gcd(a,b) = 1$)",
+   "authors": [
+    "Damien Jamet"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "cs.FL"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that additive cubes are avoidable over every ternary alphabet $\\{0, a, b\\}$ with $1 \\le a < b$, $\\gcd(a, b) = 1$, and $b \\ge 4$, thereby solving and extending Rao's~(2015) conjecture from $b \\ge 6$ down to $b \\ge 4$. Our construction applies a single dual pair of parameterized non-uniform morphisms of image length at most~$6$ to the additive-cube-free word $\\mathbf{w}$ of Cassaigne et al.~(2014). For $b \\ge 10$, we prove that every additive square in the image is an abelian square, reducing additive cubes to abelian cubes; the absence of abelian cubes and the $24$ finite cases with $4 \\le b \\le 9$ are then certified via the finite-graph method of Jamet and Rosenfeld~(2026).",
+   "abs": "https://arxiv.org/abs/2611.27519",
+   "pdf": "https://arxiv.org/pdf/2611.27519"
+  },
+  {
+   "id": "2611.26846",
+   "type": "new",
+   "title": "Large 4-tangles in matroids are characterized by large internally 4-connected minors",
+   "authors": [
+    "Nick Brettell",
+    "Johannes Carmesin",
+    "Tony Huynh",
+    "Matthew E. Kroeker",
+    "Florian Lehner",
+    "Geoff Whittle"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages, 1 figure",
+   "abstract": "Tangles were first introduced by Robertson and Seymour as an abstract way of treating highly connected substructures in graphs and matroids. For any truly highly connected substructure in a graph or matroid, all of the low-order separations in the object can be oriented towards it. This gives rise to a tangle. A standard question is whether every tangle of a given order in fact arises from some concrete highly connected substructure, such as a minor. It is well known that tangles of order two and three (in both graphs and matroids) are characterized by maximal $2$-connected and $3$-connected minors, respectively. For tangles of order four, it is necessary to consider a weaker notion of connectivity. Carmesin and Kurkofka showed that, for graphs, internal $4$-connectedness suffices. For matroids, Brettell, Jowett, Oxley, Semple and Whittle showed that $4$-tangles arise from weakly $4$-connected minors, that is, minors in which every $3$-separation has a side with at most four elements. In the latter case, the breadth of the tangle (a measure of its complexity) can be preserved exactly, but the authors also asked whether a stronger notion of $4$-connectivity could be used while preserving some fraction of the breadth. In this paper, we answer this question in the affirmative by showing that, in a matroid, any $4$-tangle of sufficiently large breadth is determined by an internally $4$-connected minor whose unique $4$-tangle also has large breadth.",
+   "abs": "https://arxiv.org/abs/2611.26846",
+   "pdf": "https://arxiv.org/pdf/2611.26846"
+  },
+  {
+   "id": "2611.27023",
+   "type": "new",
+   "title": "Nowhere-zero $9$-flows of signed graphs",
+   "authors": [
+    "Miaomiao Han",
+    "Jiaao Li",
+    "Rong Luo",
+    "Xiangqian Zhou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages. Welcome to comment",
+   "abstract": "In 1983, Bouchet conjectured that every flow-admissible signed graph admits a nowhere-zero $6$-flow. DeVos et al.\\ proved that every flow-admissible signed graph admits a nowhere-zero $11$-flow. In this paper, we show that every flow-admissible signed graph admits a nowhere-zero $9$-flow.",
+   "abs": "https://arxiv.org/abs/2611.27023",
+   "pdf": "https://arxiv.org/pdf/2611.27023"
+  },
+  {
+   "id": "2611.27657",
+   "type": "new",
+   "title": "The categorical graph minor conjecture and matching complexes",
+   "authors": [
+    "Jiangdong Ai",
+    "Yongtang Shi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In the graph minor category $\\mathcal G$ of Miyata, Proudfoot and Ramos, the morphisms are the ways of obtaining one connected graph from another by deleting and contracting edges. The categorical graph minor conjecture asserts that every submodule of a finitely generated $\\mathcal G^{\\mathrm{op}}$-module is finitely generated; it is known for graphs of bounded first Betti number. We disprove this conjecture: it fails for the module assigning to each graph the free module on its spanning trees, which is generated by one element. A quotient of this module has unbounded torsion. We prove, however, that the conjecture holds for all modules depending on a minor morphism only through the induced injection of edge sets. This applies to matching complexes. Let $M_d(G)$ be the complex of edge sets of $G$ spanning subgraphs of maximum degree at most $d$. We prove that the $\\mathcal G^{\\mathrm{op}}$-module $G\\mapsto H_i(M_d(G);\\mathbb Z)$ is finitely generated for all $i$ and $d$, which for $d=1$ confirms a conjecture recorded by Ramos, and that a positive integer depending only on $i$ annihilates the torsion of all these groups. The proofs combine Robertson and Seymour's labelled graph minor theorem with a new criterion: if a category has a faithful functor to finite sets and injections and, for every finite set of colours, its objects with coloured underlying sets are well-quasi-ordered by colour-preserving morphisms, then its representations over a left-Noetherian ring form a locally Noetherian category. Unlike the Gröbner method of Sam and Snowden, this criterion requires no ordering compatible with the morphisms.",
+   "abs": "https://arxiv.org/abs/2611.27657",
+   "pdf": "https://arxiv.org/pdf/2611.27657"
+  },
+  {
+   "id": "2611.27126",
+   "type": "new",
+   "title": "Independence number, clique number, and maximum degree",
+   "authors": [
+    "Xinmin Hou",
+    "Xiangyang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "We prove that for every integer $r \\ge 3$, every $K_r$-free graph $G$ on $n$ vertices with minimum degree $\\delta(G) > (5r-11)n/(5r-5)$ satisfies $\\alpha(G) \\ge n/(r-1)$. This resolves a conjecture posed by Brandt in 2001 and establishes the sharp minimum-degree threshold for guaranteeing an independent set of size at least $n/(r - 1)$ in $K_r$-free graphs.",
+   "abs": "https://arxiv.org/abs/2611.27126",
+   "pdf": "https://arxiv.org/pdf/2611.27126"
+  },
+  {
+   "id": "2611.26830",
+   "type": "new",
+   "title": "Polynomial sequences of Simplex pivots on 0/1-polytopes",
+   "authors": [
+    "Laura Sanità"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We study the number of Simplex pivots needed to solve linear programs over $0/1$-polytopes, starting from an arbitrary feasible basis and counting degenerate pivots. It has been known since the 1990s that from any extreme point of a 0/1-polytope there exists a monotone path of linear length to an optimal one. However, translating this into a polynomial sequence of Simplex pivots, i.e., improving basis exchanges, has remained an open question. We here provide an affirmative answer, showing that for every 0/1-polytope $\\mathcal P \\subseteq \\mathbb R^d$, an optimal basis can be reached with $O(d^3)$ Simplex pivots, independently of the number of inequalities and of the size of the coefficients.",
+   "abs": "https://arxiv.org/abs/2611.26830",
+   "pdf": "https://arxiv.org/pdf/2611.26830"
+  },
+  {
+   "id": "2611.26661",
+   "type": "new",
+   "title": "Möbius expansion and pointwise energy transfer over arbitrary fields",
+   "authors": [
+    "Yao Zhi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "0",
+   "abstract": "Let $F$ be a field of positive characteristic $p$, and let $A\\subset F^\\times$ have $N$ elements. We prove that, for every $\\lambda\\in F^\\times$, \\[ \\card{A+\\lambda A^{-1}}\\gg\\min\\{N^{10/9},(pN^2)^{1/3}\\}. \\] This improves the exponent $31/30$ to $10/9$ in the common small-set range. Over prime fields the bound strengthens to $\\min\\{N^{10/9},(pN)^{1/2}\\}$. Analogous bounds hold for $Af(A)$ when $f$ is a Möbius transformation satisfying the stated nondegeneracy conditions. In characteristic zero, the bound $N^{10/9}$ remains valid. No subfield-avoidance condition is required.",
+   "abs": "https://arxiv.org/abs/2611.26661",
+   "pdf": "https://arxiv.org/pdf/2611.26661"
+  },
+  {
+   "id": "2611.26721",
+   "type": "cross",
+   "title": "Littlestone Dimension and Its Dual",
+   "authors": [
+    "Pooya Hatami",
+    "Chavdar Lalov"
+   ],
+   "categories": [
+    "cs.LO",
+    "math.CO",
+    "math.LO"
+   ],
+   "primary": "cs.LO",
+   "comments": "8 pages, 2 figures",
+   "abstract": "The dual Littlestone dimension of a concept class $\\mathcal{H}\\subseteq\\{0,1\\}^{\\mathcal{X}}$, $\\operatorname{Ldim}^*(\\mathcal{H}):=\\operatorname{Ldim}(\\mathcal{H}^*)$, is the Littlestone dimension of the dual class $\\mathcal{H}^*$, obtained by exchanging the roles of domain points and hypotheses. A classical result of Shelah implies that $\\operatorname{Ldim}(\\mathcal{H})$ and $\\operatorname{Ldim}^*(\\mathcal{H})$ are finite simultaneously, and quantitative results of Hodges [Mathematika, 1981] imply the doubly exponential bound $\\operatorname{Ldim}(\\mathcal{H})\\le 2^{2^{O(\\operatorname{Ldim}^*(\\mathcal{H}))}}$. Malliaris and Moran [Trans. Amer. Math. Soc., 2024] asked whether this bound is optimal. We answer this by proving the improved bound \\[ \\operatorname{Ldim}(\\mathcal{H})\\le 2^{O(\\operatorname{Ldim}^*(\\mathcal{H})^2)}. \\] An exponential dependence is necessary, as witnessed by the class of all binary hypotheses on a finite domain.",
+   "abs": "https://arxiv.org/abs/2611.26721",
+   "pdf": "https://arxiv.org/pdf/2611.26721"
+  },
+  {
+   "id": "2611.27113",
+   "type": "cross",
+   "title": "The $n!$ theorem via quaternionic rotation of Cherednik algebras",
+   "authors": [
+    "Stephen Griffeth"
+   ],
+   "categories": [
+    "math.RT",
+    "math.CO"
+   ],
+   "primary": "math.RT",
+   "comments": "9 pages",
+   "abstract": "We give a proof of the $n!$ theorem based on the representation theory of Cherednik algebras and an analog of the rotation of complex structures arising from an action of the quaternions.",
+   "abs": "https://arxiv.org/abs/2611.27113",
+   "pdf": "https://arxiv.org/pdf/2611.27113"
+  },
+  {
+   "id": "2611.26768",
+   "type": "new",
+   "title": "Avoiding squares over words with lists of size three",
+   "authors": [
+    "Matthieu Rosenfeld"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every sequence of lists of size three admits an infinite square-free word, establishing that the Thue choice number of the path is three. More precisely, the number of compatible square-free words of length $n$ is at least $c(5/4)^n$, where $c>0$ is an absolute constant. The proof combines a computer-assisted construction of weights with the weighted counting method previously introduced by the author. We first consider words avoiding only squares of bounded period and use a finite state model to certify a uniform lower bound on their growth. The counting argument then controls the loss caused by excluding longer squares. The main new ingredient is a coarser description of the states, which makes the computation feasible without restricting the union of the lists. The same computation yields a deterministic polynomial-time strategy for constructing an infinite square-free word when each list is chosen adversarially after the preceding letters have been fixed.",
+   "abs": "https://arxiv.org/abs/2611.26768",
+   "pdf": "https://arxiv.org/pdf/2611.26768"
+  },
+  {
+   "id": "2611.27965",
+   "type": "cross",
+   "title": "Recognizing $k$-inducible Digraphs is NP-complete",
+   "authors": [
+    "Felix Brandt",
+    "Fabian Frank"
+   ],
+   "categories": [
+    "cs.CC",
+    "cs.GT",
+    "math.CO"
+   ],
+   "primary": "cs.CC",
+   "comments": "22 pages",
+   "abstract": "A digraph is k-inducible if its arcs correspond to the pairwise majority relation of a preference profile with k voters. By McGarvey's theorem, every asymmetric digraph is k-inducible for some k, but for every fixed k there are digraphs that are not k-inducible. Whether a digraph is 1-inducible or 2-inducible can easily be decided in polynomial time. The complexity of deciding whether a digraph is k-inducible for every fixed $k\\geq 3$ has been a long-standing open problem. We prove that deciding whether a tournament is 3-inducible is NP-complete and then leverage this result to show that deciding whether a digraph is k-inducible is NP-complete for every fixed $k\\geq 3$. Our results imply that, unless P=NP, k-inducible digraphs cannot be characterized by finitely many forbidden induced subdigraphs.",
+   "abs": "https://arxiv.org/abs/2611.27965",
+   "pdf": "https://arxiv.org/pdf/2611.27965"
+  },
+  {
+   "id": "2611.27781",
+   "type": "new",
+   "title": "On the factorization of Dirac hypergraphs",
+   "authors": [
+    "Yangyang Cheng",
+    "Stefan Glock",
+    "Andrew Lane"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "35 pages, 4 figures",
+   "abstract": "A celebrated result from the 70s due to Baranyai states that the complete $k$-uniform hypergraph on $n$ vertices decomposes into perfect matchings if $k\\mid n$. We prove a minimum degree version of this result. Note that a necessary condition for a $k$-uniform hypergraph $G$ on $n$ vertices to admit a decomposition into perfect matchings is that $G$ is vertex-regular and $k\\mid n$. We show that, if this is satisfied and, in addition, $G$ has minimum $(k-1)$-degree at least $(\\frac{1}{2}+o(1))n$, then it indeed decomposes into perfect matchings. The constant $1/2$ is optimal, as below this threshold, $G$ might not even contain a single perfect matching. This settles a conjecture of Glock, Kühn and Osthus from 2021.",
+   "abs": "https://arxiv.org/abs/2611.27781",
+   "pdf": "https://arxiv.org/pdf/2611.27781"
+  },
+  {
+   "id": "2611.26879",
+   "type": "new",
+   "title": "Small spherical 7-designs in prime dimensions",
+   "authors": [
+    "Andriy Bondarenko",
+    "Dmytro Mitin"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "For every prime $p\\ge 29$, we construct an antipodal spherical $7$-design on $S^{p-1}$ with $42(p-1)(p+2)^2$ points. The construction uses eigenlines of finite Weil operators.",
+   "abs": "https://arxiv.org/abs/2611.26879",
+   "pdf": "https://arxiv.org/pdf/2611.26879"
+  },
+  {
+   "id": "2611.26953",
+   "type": "new",
+   "title": "Counterexamples to a conjecture of Gao and Gu on weighted Catalan numbers",
+   "authors": [
+    "Ryota Inagaki",
+    "Dimana Pramatarova"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "6 pages, 1 figure",
+   "abstract": "We construct infinitely many counterexamples to a conjecture of Gao and Gu on when the 2-adic valuations of weighted Catalan numbers equal those of Catalan numbers.",
+   "abs": "https://arxiv.org/abs/2611.26953",
+   "pdf": "https://arxiv.org/pdf/2611.26953"
+  },
+  {
+   "id": "2611.27575",
+   "type": "new",
+   "title": "A proof of Cigler's quadratic recurrence for Hankel determinants of Motzkin path generating functions",
+   "authors": [
+    "Tianxing Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages; an earlier version is on Zenodo, doi: https://doi.org/10.5281/zenodo.24369438",
+   "abstract": "For an integer $k\\ge0$ let $a_{n,k}(x,c)$ be the generating polynomial of the Motzkin paths from $(0,0)$ to $(n,k)$ that never go below height $0$, where level steps have weight $c+x$ at height $0$ and weight $c$ at positive height, and let $D_{k,n}(x,c)=\\det(a_{i+j,k}(x,c))_{0\\le i,j\\le n-1}$. We prove that for all $k\\ge0$ and $n\\ge2k+2$ $$D_{k,n}D_{k,n-2k-2}-x^2D_{k,n-1}D_{k,n-2k-1}=(1-x^2)D_{k,n-k-1}^2,$$ a quadratic recurrence conjectured by J. Cigler in 2023 (eq. (18) of arXiv:2309.15557 and MathOverflow question 456683). As a by-product we obtain an expression of $D_{k,n}$ as a $k\\times k$ determinant built from Chebyshev polynomials reduced modulo $U_k-xU_{k-1}$, together with a bilinear identity for these $k\\times k$ determinants that holds for all integer shifts. We also give a proof of Cigler's companion conjecture that $D_{k,n}(x,c)$ equals the determinant of an explicit matrix $H_{k,n}(x)$ with entries $0$, $1$ and powers of $x$, and in particular does not depend on $c$; this statement has recently been proved by V. Jandhyala, and our proof was found independently. The proofs use Chebyshev polynomials, a model of $\\mathbb{Q}(x)[X]/(U_k-xU_{k-1})$ by antisymmetric Laurent polynomials, a lemma on complementary minors, and a three-term Plücker relation.",
+   "abs": "https://arxiv.org/abs/2611.27575",
+   "pdf": "https://arxiv.org/pdf/2611.27575"
+  },
+  {
+   "id": "2611.26650",
+   "type": "new",
+   "title": "The Manhattan cospectrality of the cocktail party graph",
+   "authors": [
+    "Irena M. Jovanović",
+    "Jelena Sedlar",
+    "Riste Škrekovski"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a graph $G$ of order $N$ with adjacency eigenvalues $\\lambda_{1}(G)\\geq \\cdots\\geq\\lambda_{N}(G),$ the cospectrality of $G$ is the smallest value of $\\sum_{i}\\left\\vert \\lambda_{i}(G)-\\lambda_{i}(H)\\right\\vert $ over all graphs $H$ of order $N$ not isomorphic to $G.$ Abdollahi and Zakeri (Ars Math. Contemp. 22(1) (2022) P1.06) conjectured that the cospectrality of the cocktail party graph $CP_{n}$ is attained exactly at the graph $H_{n}.$ This graph is obtained from $K_{1,2,\\ldots,2}$ by attaching a pendant vertex to the vertex of the part of size one. We prove this conjecture for every $n\\geq2$ by showing that only three explicit graphs (two for $n=2$) are at distance less than $2$ from $CP_{n}.$ We work with the complement of a competing graph. First we remove its components $K_{2}.$ Then we treat the case in which its main component has a dominating vertex. The remaining cases are reduced to finitely many small graphs. The proof is computer-assisted, and all computations concern explicit finite lists of graphs.",
+   "abs": "https://arxiv.org/abs/2611.26650",
+   "pdf": "https://arxiv.org/pdf/2611.26650"
+  },
+  {
+   "id": "2611.26781",
+   "type": "new",
+   "title": "Isolation in Random Graphs",
+   "authors": [
+    "Laurentiu Ploscaru"
+   ],
+   "categories": [
+    "math.CO",
+    "math.PR"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages paper plus 14 pages AI appendix",
+   "abstract": "We study isolation in the binomial random graph $G(n,p)$. When $p=o(1)$ and $np\\to\\infty$, allowing an $F$-free graph on the undominated vertices gives the same first-order asymptotics for every fixed forest $F$ as the domination number $\\gamma(G)$ in $G(n,p)$. For the ordinary isolation number $\\iota(G)$ ($F$ is an edge) we prove two-point concentration when $p$ is bounded away from $1$ and $np^2/(\\log n)^3\\to\\infty$. We also identify a transition in the gap $\\gamma(G)-\\iota(G)$ when $\\log(1/p)=o(\\log n)$. This gap tends to infinity in probability when $p$ is well below $(\\log\\log n/\\log n)^2$ and is at most one with high probability when $p$ is well above this scale. Finally, for every fixed graph $F$, we show that the classical minimum degree bound for domination is asymptotically sharp for $F$-isolation, even for regular host graphs.",
+   "abs": "https://arxiv.org/abs/2611.26781",
+   "pdf": "https://arxiv.org/pdf/2611.26781"
+  },
+  {
+   "id": "2611.27300",
+   "type": "cross",
+   "title": "Symplectic Matroids, Stabilizer Codes, and Quantum Secret-Sharing",
+   "authors": [
+    "Sayantan Ganguly"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An $\\mathbb{F}_q$-linear $[[n,k]]_q$ stabilizer code is represented by a totally isotropic subspace of $\\mathbb{F}_q^{2n}$ of dimension $n-k$, whose full-rank generator matrix has nonzero maximal minors on admissible column sets forming the bases of a representable symplectic matroid. Sarvepalli asked whether graphical symplectic matroids introduced by Chow give stabilizer codes with good parameters, when a Lagrangian matroid induces a quantum access structure, which code realizes it, and which polynomial carries the weight enumerator. We answer these questions. For a $3$-connected simple graph, every representation of a graphical symplectic matroid, over any field, gives a stabilizer code of distance exactly $2$, so the girth is not a lower bound. For a represented Lagrangian matroid and a dealer, we construct the dealer-shortened stabilizer code, its logical operators, an encoding isometry and explicit recovery maps, and we show that this is the code implemented by the stabilizer state through teleportation. A set of players recovers the secret, learns nothing, or learns part of it according to a rank formula on pairs of columns, which equals its mutual information with the dealer; for graph states it becomes a cut-rank condition. Over $\\F_2$ a symplectic matroid of any rank has only one representation, so the code, its access structure and its weight enumerators depend on the matroid alone; for $q\\ge3$ even the enumerator does not. Circuit-induced authorized sets always reconstruct when the matroid is self-dual, but not in general, and a six-qubit graph state shows that the two access structures can differ even then. Finally, a polynomial in the ranks of column pairs determines both weight enumerators.",
+   "abs": "https://arxiv.org/abs/2611.27300",
+   "pdf": "https://arxiv.org/pdf/2611.27300"
+  },
+  {
+   "id": "2611.26648",
+   "type": "new",
+   "title": "Extremal Ky Fan $p$-$k$ norms of graphs",
+   "authors": [
+    "Zhen Lin"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages",
+   "abstract": "We study a two-parameter extension of Nikiforov's extremal problems for graph norms, focusing on the quantity $$ S_{p,k}(G) = \\left(\\sum_{i=1}^{k}\\sigma_i(G)^p\\right)^{1/p}, $$ where $p\\ge1$, and $\\sigma_1(G) \\ge \\cdots \\ge \\sigma_n(G)$ are the singular values of the adjacency matrix of an $n$-vertex graph $G$. This quantity provides a common generalization of the Ky Fan $k$-norm and the Schatten $p$-norm, which correspond to the cases $p=1$ and $k=n$, respectively. We establish upper and lower bounds and characterize extremal and near-extremal graphs within specified parameter ranges. For each fixed $k \\ge 4$, we determine an explicit exponent $\\vartheta_k \\in [1,2)$ such that the balanced complete $k$-partite graph is the unique maximizer for all sufficiently large orders, and we characterize the unique graph attaining the second-largest value. In particular, this determines the maximum Ky Fan $4$-norm for all sufficiently large orders. At these exponents, any maximizer with a fixed edge deficit from the Turán graph's edge count belongs to an explicit finite family of complete $k$-partite graphs (whenever such a realization exists), whereas a fixed edge surplus is uniquely maximized by adding a star inside a largest part of the balanced graph. Furthermore, we quantify the relation between small absolute norm deficits and graph structure, demonstrating that relative near-optimality alone does not guarantee structural proximity. We also obtain a vertex-partition lower bound featuring an optimal universal remainder coefficient and complete equality conditions. These results provide structural answers to Nikiforov's norm questions in the two-parameter setting, linking extremal values to uniqueness, prescribed edge counts, and the structure of near-extremal graphs.",
+   "abs": "https://arxiv.org/abs/2611.26648",
+   "pdf": "https://arxiv.org/pdf/2611.26648"
+  },
+  {
+   "id": "2611.27284",
+   "type": "new",
+   "title": "The Four-Cycle Extremal Number of the Seven-Cube",
+   "authors": [
+    "Zheli Zhou",
+    "Haitong Ma",
+    "Ruofeng Yang",
+    "Tianzhi Ren",
+    "Kuan Yang",
+    "Shuai Li"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We give a computer-assisted proof that the largest number of edges in a four-cycle-free subgraph of the seven-dimensional hypercube is 304. In a hypothetical 305-edge subgraph, three-star counting and a local computational lemma force every degree to be four or five. A square-counting identity and an inequality for opposite facets then reduce the proof to five candidate facet profiles, excluded by two further local statements. The three computational statements concern only six-dimensional cubes and are certified by 21 propositional refutations.",
+   "abs": "https://arxiv.org/abs/2611.27284",
+   "pdf": "https://arxiv.org/pdf/2611.27284"
+  },
+  {
+   "id": "2611.27207",
+   "type": "new",
+   "title": "Tight Probabilistic Aspects of Friends-and-Strangers Graphs",
+   "authors": [
+    "Neil Krishnan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 4 figures",
+   "abstract": "Friends-and-strangers graphs, introduced by Defant and Kravitz, model arrangements of people on positions. We consider two graphs $X$ and $Y$ on $n$ vertices. The vertices of $X$ represent positions with edges denoting adjacencies while the vertices of $Y$ represent people with edges denoting friendships. Their \\emph{friends-and-strangers graph} is denoted by $\\mathsf{FS}(X,Y)$. Its vertices are all one-to-one placements of people on positions, and two placements are adjacent if one can swap two friends on adjacent positions to get from one placement to the other. A fundamental question is whether or not a friends-and-strangers graph is connected. A natural probabilistic analog is ``If $X$ and $Y$ are independently sampled Erdős--Rényi graphs with $n$ vertices and edge probability $p,$ what is the threshold probability for $\\mathsf{FS}(X,Y)$ to be connected with high probability?'' Alon, Defant, and Kravitz (2023) showed that $p = n^{-1/2+o(1)}$ is the threshold probability and conjectured that $p = \\Theta(n^{-1/2}).$ Milojević (2024) disproved this by showing $p = \\Omega(n^{-1/2}\\sqrt{\\log n})$ is necessary for connectivity with high probability. In this work, we prove a matching upper bound, thus establishing that the threshold is $p = \\Theta(n^{-1/2}\\sqrt{\\log n}).$",
+   "abs": "https://arxiv.org/abs/2611.27207",
+   "pdf": "https://arxiv.org/pdf/2611.27207"
+  },
+  {
+   "id": "2611.27562",
+   "type": "new",
+   "title": "Counting cliques in optimal $1$-planar graphs",
+   "authors": [
+    "Shuchao Li",
+    "Liwen Lian"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Extremal problems concerning the maximum number of cliques in $n$-vertex graphs from a given graph class have been widely investigated. In this contribution, we present several results on counting cliques that extend beyond the existing framework. Firstly, we address this problem for the class of optimal 1-planar graphs where we determine the maximum numbers of copies of $K_3$, $K_4$, and $K_5$ in an $n$-vertex optimal 1-planar graphs and characterize all extremal graphs. This resolves Question {\\b 8.1} of Gollin-Hendrey-Methuku-Tompkins-Zhang. Secondly, we prove that every 3-connected plane quadrangulation on $n\\geq14$ vertices has at most $2n-14$ 3-separators and characterize the corresponding extremal graphs. This confirms Conjecture {\\b 8.2} posed by Gollin-Hendrey-Methuku-Tompkins-Zhang. Lastly, we construct, for every integer $r\\geq1$, a simple 2-planar graph with $5r+3$ vertices and $44r+1$ triangles, thus disproving Conjecture {\\b 8.3} of theirs. Our proofs use radial graphs, tree decomposition and SPQR trees.",
+   "abs": "https://arxiv.org/abs/2611.27562",
+   "pdf": "https://arxiv.org/pdf/2611.27562"
+  },
+  {
+   "id": "2611.27000",
+   "type": "new",
+   "title": "The Order of the Inertia Bound for Random Graphs",
+   "authors": [
+    "Zhengbo Chen",
+    "Xiao-Dong Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "18 pages",
+   "abstract": "For an $n$-vertex graph $G$, let $n_{\\geq0}(G)$ be the minimum number of nonnegative eigenvalues among zero-diagonal Hermitian matrices supported on $G$, allowing zero edge weights. For $n\\geq2$ and $G\\sim G(n,1/2)$, we prove $n_{\\geq0}(G)\\geq c_2n/\\log(2n)$ with probability at least $1-\\exp(-c_1n\\log(2n))$, where $c_1,c_2>0$ are absolute constants. This proves a Hermitian extension of the Kwan--Wigderson conjecture. With high probability, $n_{\\geq0}(G)=\\Theta(n/\\log n)$ and $n_{\\geq0} G)/\\alpha(G)=\\Theta(n/(\\log n)^2)$, where $\\alpha(G)$ is the independence number. Using Alon's constructions, we obtain, for every sufficiently large $n$, a $n$-vertex graph $G$ with $\\alpha(G)=2$ and $n_{\\geq0}(G)=\\Omega(n^{1/3})$. For infinitely many $n$, we also obtain $n$-vertex graphs $H$ with Shannon capacity $3$ and $n_{\\geq0}(H)=\\Omega(n^{1/4})$.",
+   "abs": "https://arxiv.org/abs/2611.27000",
+   "pdf": "https://arxiv.org/pdf/2611.27000"
+  },
+  {
+   "id": "2611.27793",
+   "type": "new",
+   "title": "Extremal $K_t$-intersecting graph families for large $t$",
+   "authors": [
+    "Yijia Fang",
+    "Hao Huang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this paper, we show that for every sufficiently large positive integer $t$ and every integer $n \\ge t$, every $K_t$-intersecting family $\\mathcal{G}$ of graphs on vertex set $[n]$ has size at most $2^{\\binom{n}{2}-\\binom{t}{2}}$. Furthermore, when the equality is attained, $\\mathcal{G}$ must consist of all graphs on $[n]$ that contain some fixed copy of $K_t$. Our result settles a conjecture of Ellis, Filmus, and Friedgut for sufficiently large $t$. We also present a short proof for the odd-cycle-intersecting case, slightly different from the existing proofs in the literature.",
+   "abs": "https://arxiv.org/abs/2611.27793",
+   "pdf": "https://arxiv.org/pdf/2611.27793"
+  },
+  {
+   "id": "2611.26669",
+   "type": "new",
+   "title": "On the number of edge-disjoint $K_r$ in $K_{r+1}$-free graphs",
+   "authors": [
+    "Zhen Liu",
+    "Qinghou Zeng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Gy\\H ori and Keszegh [\\emph{Combinatorica} \\textbf{37} (2017), 1113--1124] proved that every $K_4$-free graph on $n$ vertices with $\\lfloor n^2/4\\rfloor+k$ edges contains at least $k$ pairwise edge-disjoint triangles. We extend this result to cliques of arbitrary fixed order. Specifically, we prove that for every fixed integer $r\\ge 3$ and all sufficiently large $n$, every $K_{r+1}$-free graph on $n$ vertices with $t_{r-1}(n)+k$ edges contains at least $k$ pairwise edge-disjoint copies of $K_r$, where $t_{r-1}(n)$ denotes the number of edges in the Turán graph $T_{r-1}(n)$. Moreover, equality holds if and only if $G$ is obtained from $T_{r-1}(n)$ by adding edges within one of its parts, with the added edges forming a triangle-free graph.",
+   "abs": "https://arxiv.org/abs/2611.26669",
+   "pdf": "https://arxiv.org/pdf/2611.26669"
+  },
+  {
+   "id": "2611.27275",
+   "type": "new",
+   "title": "On the Delandtsheer Conjecture",
+   "authors": [
+    "Zhilin Zhang",
+    "Shenglin Zhou"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "4 pages",
+   "abstract": "We prove the Delandtsheer Conjecture of 1988 that a line-primitive automorphism group of a finite linear space is point-primitive.",
+   "abs": "https://arxiv.org/abs/2611.27275",
+   "pdf": "https://arxiv.org/pdf/2611.27275"
+  },
+  {
+   "id": "2611.27934",
+   "type": "cross",
+   "title": "The Power of Sampling for Finding Far-Apart Bases in Matroids",
+   "authors": [
+    "Mayank Goswami",
+    "Vasilis Livanos",
+    "Pasin Manurangsi",
+    "Arturo Merino",
+    "GiBeom Park",
+    "Adarsh Srinivasan"
+   ],
+   "categories": [
+    "cs.DS",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DS",
+   "comments": "",
+   "abstract": "We study the geometry of matroids via the \\emph{diameter} and \\emph{dispersion} of the metric space of their bases. Given a matroid $M$, we ask if the diameter of its basis-exchange graph $\\mathcal{G}(M)$ can be approximated by sampling two uniformly random bases. As our main result, we show that their expected distance is always at least $1/16$ of the diameter of $\\mathcal{G}(M)$. While this might appear to follow from the edge-expansion properties established by Anari, Liu, Gharan and Vinzant (STOC'19), we show that this inutition is false by constructing a graph $G$ with edge-expansion at least $1$ for which sampling two random vertices does \\emph{not} give a constant-factor approximation to its diameter. We turn to finding $k\\geq 2$ maximally-diverse bases of a matroid, the $k$ (max--min) diversity problem. When $k=2$, the problem is solvable via matroid intersection. However, for $k\\geq 3$ no polynomial-time approximation or hardness is known, even for diverse spanning trees. We show that sampling $k\\geq 3$ bases provides a tight $\\Theta(\\log k)$ approximation. We then combine structural insights about the local density of $\\mathcal{G}(M)$ with classical LP-rounding techniques to obtain a polynomial-time $1/6$-approximation algorithm for the $k$-diversity problem in arbitrary matroids, the first constant-factor polynomial-time approximation for max--min diversity on any matroid. A key ingredient for our result is the \\emph{Farthest Matroid Basis} problem: given a collection of bases, find a new basis as far as possible from all of them. We give a polynomial-time $1/3$-approximation algorithm for this, which is our main algorithmic primitive for $k$ max--min diversity. We also show it is $W[1]$-hard when parameterized by the optimal distance. We also improve the $1/6$-approximation for $k$-diversity, for partition matroids and graphic matroids of constant arboricity.",
+   "abs": "https://arxiv.org/abs/2611.27934",
+   "pdf": "https://arxiv.org/pdf/2611.27934"
+  },
+  {
+   "id": "2611.26640",
+   "type": "new",
+   "title": "The maximum area of a snake polyomino in a $12 \\times n$ rectangle",
+   "authors": [
+    "Tong Niu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "41 pages",
+   "abstract": "A snake polyomino is a set of cells of the square lattice whose cells, under edge adjacency, induce a path. Let $T(m,n)$ be the largest number of cells of a snake polyomino contained in an $m \\times n$ rectangle, equivalently the largest number of vertices of an induced path in the grid graph $P_m \\times P_n$ (OEIS A360917). Blondin Massé and Goupil determined $T(m,n)$ for all $m \\le 5$ and proposed the general case as a conjecture; for $m = 12$, entry A397153 of the OEIS records a conjectured generating function, contributed by Goupil in July 2026, which has remained unproved. We prove it. For every $n \\ge 1$ other than $n \\in \\{2,3,\\dots,10,12\\}$ one has $T(12,n) = 44k + c_r$ where $n = 6k+r$ with $0 \\le r < 6$ and $(c_0,\\dots,c_5) = (5,12,19,27,34,42)$, and the ten remaining values are $18,26,33,40,47,55,62,70,77$ and $92$. The proof has two independent halves. The upper bound comes from a column-profile transfer system read in the max-plus semiring: a single entrywise inequality $v_{46} \\le 44 + v_{40}$ between two value vectors on its useful core propagates to all larger indices because the max-plus action is monotone and additively homogeneous. The lower bound comes from explicit periodic snakes, one for each residue class, which are checked against the definition of a snake and not against the transfer system. The same method settles every height up to $12$; heights $6$ through $11$ had no formula in the literature, and we record them as well.",
+   "abs": "https://arxiv.org/abs/2611.26640",
+   "pdf": "https://arxiv.org/pdf/2611.26640"
+  },
+  {
+   "id": "2611.26748",
+   "type": "new",
+   "title": "Generalized anti-Ramsey numbers",
+   "authors": [
+    "Deepak Bal",
+    "Jonathan Cutler"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "The anti-Ramsey number was introduced by Erdős, Simonovits, and Sós and is defined to be the maximum number of colors that can be used to color the edges of a graph to avoid a rainbow copy of some graph. One can generalize this by, instead of forbidding a rainbow copy of a graph, putting a cap on the number of colors that appear on any copy of that graph. To be precise, let $\\AR(G,H,q)$ be the maximum number of colors that can be used to color $E(G)$ so that every copy of $H$ sees at most $q$ colors. One can see that $\\AR(G,H,q)$ is nondecreasing in $q$. In this paper, we investigate the linear and quadratic thresholds of $\\AR(G,H,q)$ when $G=K_n$ and $H$ is connected.",
+   "abs": "https://arxiv.org/abs/2611.26748",
+   "pdf": "https://arxiv.org/pdf/2611.26748"
+  },
+  {
+   "id": "2611.27312",
+   "type": "cross",
+   "title": "A Geometric Approach to the Classification of Locally-APN Niho-Type Power Functions",
+   "authors": [
+    "Chenxu Wang",
+    "Jun Zhang"
+   ],
+   "categories": [
+    "cs.IT",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "12 pages",
+   "abstract": "Let $q=2^m$ with $m\\geq 2$. We develop a geometric approach to the classification of locally-APN Niho-type power functions over $\\mathbb{F}_{q^2}$. Our approach begins with a characterization of $\\mathbb{F}_q$-homogeneous functions: the conditions $D_F(a,F(a))=q$ and $D_F(a,b)\\leq 2$ for every $a\\in\\mathbb{F}_{q^2}^*$ and $b\\neq F(a)$ hold if and only if the projective graph of $F$ is a $(q+1)$-arc in $\\mathrm{PG}(3,q)$. For Niho-type power functions, this differential condition is equivalent to the locally-APN property. Applying the classification of $(q+1)$-arcs and the description of their stabilizers, we prove, for $m\\geq 3$, that $F_s(x)=x^{s(q-1)+1}$ is locally-APN if and only if $s\\equiv(2^k+1)^{-1}\\pmod{q+1}$ for some $1\\leq k\\leq 2m-1$ satisfying $\\gcd(k,m)=\\gcd(2^k+1,q+1)=1$. Together with the known case $m=2$ and the sufficient condition of Xie et al., this gives the complete classification and confirms the conjecture of Cui, Luo, and Xiang.",
+   "abs": "https://arxiv.org/abs/2611.27312",
+   "pdf": "https://arxiv.org/pdf/2611.27312"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 42,
+ "listed_cross": 14
+}
