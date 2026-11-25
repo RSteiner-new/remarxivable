@@ -1,0 +1,543 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T09:45:17Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 112,
+ "screened_new": 74,
+ "screened_cross": 38,
+ "scored": 112,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.28776",
+   "type": "cross",
+   "title": "A Proof of Blackburn's Conjecture on Non-Overlapping Codes",
+   "authors": [
+    "Yeow Meng Chee"
+   ],
+   "categories": [
+    "cs.IT",
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.IT",
+   "comments": "7 pages",
+   "abstract": "A code is non-overlapping if no nonempty proper prefix of a codeword is a suffix of a codeword. Let $S_n(q)$ be the largest size of a non-overlapping code of length $n$ over an alphabet of size $q$. Levenshtein proved that $S_n(q)\\le c_nq^n$, where $c_n=(1/n)\\bigl((n-1)/n\\bigr)^{n-1}$. The codes $I^{n-1}J$, where $I$ and $J$ partition the alphabet, attain this bound when $n$ divides $q$, and Blackburn conjectured that for every $n$ and all sufficiently large $q$, the best such code is a maximum non-overlapping code. We prove this conjecture. The proof uses generating functions for the nested partitions that describe maximal non-overlapping codes. We also show that only the codes $I^{n-1}J$ with $|I|=(n-1)q/n$ and their reversals meet Levenshtein's bound.",
+   "abs": "https://arxiv.org/abs/2611.28776",
+   "pdf": "https://arxiv.org/pdf/2611.28776"
+  },
+  {
+   "id": "2611.29726",
+   "type": "new",
+   "title": "Counting Eulerian Orientations in Regular Graphs",
+   "authors": [
+    "Srinjoy Srimani",
+    "Jacques Verstraete",
+    "Jason Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages",
+   "abstract": "Let $G$ be a pseudograph, and let $\\varepsilon(G)$ denote the number of Eulerian orientations of $G$. Lieb and Wu, and later Schrijver, showed that if $G$ has degree sequence $(d_1,d_2,\\dots,d_n)$, where each $d_i$ is a positive even integer, then \\[ \\varepsilon(G) \\geq \\prod_{i = 1}^n 2^{-d_i/2} \\binom{d_i}{d_i/2}.\\] Schrijver conjectured that for simple $d$-regular graphs, $\\varepsilon(G)\\leq\\varepsilon(K_{d+1})^{n/(d+1)}$, with equality attained by disjoint unions of cliques of order $d+1$. In this paper, we prove a multigraph bound that implies the known case $d=4$, and we also improve Schrijver's lower bound for $d$-regular graphs, using an inductive relation between $\\varepsilon(G)$ and the number $\\ell_i(G)$ of cycles of each possible length $i \\geq 1$ in $G$. We define \\[ \\ell(G) = \\sum_{i = 1}^n \\frac{\\ell_i(G)}{(d - 1)^i}\\] and we prove with $\\lambda = (d - 1)\\log(1 + 1/(d - 1))$ that for all $d \\geq 2$, \\[ \\varepsilon(G) \\geq \\exp(\\lambda \\ell(G)) \\cdot S_d(n),\\] where $S_d(n)$ denotes $2^{-dn/2}\\binom{d}{d/2}^n$. The bound sharply improves the lower bound of Lieb, Wu and Schrijver, and gives good estimates for $\\varepsilon(G)$ for various graphs, such as integer lattices. The bound is almost tight for random regular graphs, and we conjecture for each even $d \\geq 4$ that there exists a constant $c_d > 0$ such that $\\varepsilon(G) \\leq \\exp(c_d\\lambda \\ell(G)) \\cdot S_d(n)$ for every $n$-vertex $d$-regular pseudograph.",
+   "abs": "https://arxiv.org/abs/2611.29726",
+   "pdf": "https://arxiv.org/pdf/2611.29726"
+  },
+  {
+   "id": "2611.28580",
+   "type": "new",
+   "title": "The Gerards-Schrijver conjecture on the Edmonds-Johnson property is false",
+   "authors": [
+    "Alberto Del Pia"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.OC"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "An integral matrix $A$ has the Edmonds-Johnson property if, for all integral vectors $b,c,l,u$, the first Chvátal closure of $\\{x: b\\le Ax\\le c,\\ l\\le x\\le u\\}$ equals its integer hull. Gerards and Schrijver conjectured that a totally half-modular matrix has the Edmonds-Johnson property if and only if it has no minor equal to one of two specific matrices, of size $3\\times3$ and $3\\times4$. We disprove this conjecture. We give a totally half-modular $5\\times6$ matrix that does not have the Edmonds-Johnson property and has no minor equal to either matrix. It is a minimal obstruction: every proper minor has the Edmonds-Johnson property. The proofs work on a graph whose edges are the rows and bounds of the matrix, and on which the minor operations act by deleting, contracting and halving edges. For minimality, we reduce every proper minor to two classes of matrices known to have the Edmonds-Johnson property.",
+   "abs": "https://arxiv.org/abs/2611.28580",
+   "pdf": "https://arxiv.org/pdf/2611.28580"
+  },
+  {
+   "id": "2611.30371",
+   "type": "cross",
+   "title": "The limit shape of uniform random antichains in $[0,1]^d$",
+   "authors": [
+    "Andrew Elvey Price",
+    "Minjae Park"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "31 pages, 2 figures. Accompanying Lean formalization available at this https URL",
+   "abstract": "For each $d\\ge2$, we study $n$ independent uniform points in $[0,1]^d$, conditioned to form an antichain: no point is strictly smaller than another in every coordinate. We prove that the point cloud converges in Hausdorff distance to the closure of the hypersurface \\[\\mathcal S_d=\\left\\{\\mathbf x\\in(0,1)^d: \\sum_{i=1}^d\\Phi^{-1}(\\mathbf x_i)=0\\right\\}\\] in probability as $n\\to\\infty$, where $\\Phi$ is the standard normal cumulative distribution function. The proof also shows that the antichain probability $a_n$ satisfies $\\log a_n=-\\frac{n}{d-1}\\log n+\\beta_d n+o(n)$ for a finite constant $\\beta_d$. We identify the limiting empirical distribution and hence the limiting permuton of uniform random $d$-dimensional permutations avoiding a single pattern of size $2$.",
+   "abs": "https://arxiv.org/abs/2611.30371",
+   "pdf": "https://arxiv.org/pdf/2611.30371"
+  },
+  {
+   "id": "2611.30619",
+   "type": "new",
+   "title": "The Hamilton cycle space in the Erdős--Rényi random graph process",
+   "authors": [
+    "Hao Zhang",
+    "Wensheng Sun",
+    "Panpan Cheng"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G(n,m)$ denote the graph at step $m$ of the Erdős--Rényi random graph process on $n$ vertices. The process starts with the edgeless graph and adds one edge at each step, chosen uniformly at random from the missing edges. Let $\\tau_3$ be the first step at which the minimum degree of $G(n,m)$ reaches three. We answer a question of Christoph, Nenadov and Petrova [J. Combin. Theory Ser. B 176 (2026) 254--267] by proving that, as $n$ tends to infinity through odd integers, with high probability the Hamilton cycles of $G(n,m)$ span its cycle space over $\\Ftwo$ simultaneously for all $m\\ge\\tau_3$. On the same event, $G(n,m)$ is Hamilton-connected for every $m\\ge\\tau_3$.",
+   "abs": "https://arxiv.org/abs/2611.30619",
+   "pdf": "https://arxiv.org/pdf/2611.30619"
+  },
+  {
+   "id": "2611.30899",
+   "type": "new",
+   "title": "The number of non-isomorphic spanning trees in regular graphs",
+   "authors": [
+    "Csongor Beke"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages",
+   "abstract": "By a classical theorem of Otter, the number of non-isomorphic trees on $n$ vertices is $\\alpha^n\\exp(-o(n))$, where $\\alpha\\approx 2.956$ is Otter's constant. We prove that every connected $d$-regular graph $G$ on $n$ vertices contains $\\alpha^n\\exp(-o_d(n))$ non-isomorphic spanning trees, where $o_d(n)/n\\to0$ as $d\\to\\infty$.",
+   "abs": "https://arxiv.org/abs/2611.30899",
+   "pdf": "https://arxiv.org/pdf/2611.30899"
+  },
+  {
+   "id": "2611.28518",
+   "type": "new",
+   "title": "From two heptagrams to a 449-vertex 5-chromatic unit-distance graph",
+   "authors": [
+    "Marijn J. H. Heule",
+    "Benjamin Przybocki"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We construct a 5-chromatic unit-distance graph on 449 vertices. Previously, the smallest known 5-chromatic unit-distance graph had 509 vertices. Our graph is a subgraph of a graph obtained by a simple greedy construction applied to a 14-vertex seed graph consisting of two heptagrams.",
+   "abs": "https://arxiv.org/abs/2611.28518",
+   "pdf": "https://arxiv.org/pdf/2611.28518"
+  },
+  {
+   "id": "2611.30248",
+   "type": "new",
+   "title": "Hypergraph Ramsey Numbers via Oriented Palette Constructions",
+   "authors": [
+    "Hanzhi Bai",
+    "Xinyu Hu",
+    "Kaidi Liu",
+    "Guanghui Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "25 pages",
+   "abstract": "Given a family $\\mathcal F$ of $k$-graphs, the Ramsey number $r_k(\\mathcal F,n)$ is the minimum $N$ such that every red/blue coloring of the edges of $K_N^{(k)}$ yields either a red copy of some $F\\in\\mathcal F$ or a blue copy of $K_n^{(k)}$. In particular, if $\\mathcal F=\\{F\\}$, we write $r_k(F,n)$. In this paper, we use oriented palette constructions and the hypergraph container method to obtain a lower bound on $r_k(\\mathcal F,n)$ for special families $\\mathcal F$. More precisely, we independently label lower-dimensional faces and use the palette to exclude prescribed red configurations, while a container argument controls the size of blue cliques. As a first application of our theorem, we obtain \\(r_k(B^{(k)},n)>2^{\\Omega_k(n\\log n)}\\). Combined with the upper bound due to Mubayi and Suk, this yields \\(r_k(B^{(k)},n)=2^{\\Theta_k(n\\log n)}\\), where \\(B^{(k)}\\) is the half-graph. This answers in the affirmative a question posed by Mubayi and Suk. As a second application of our theorem, we show $r_k(k+1,3;n)=2^{\\Theta_k(n^{k-2}\\log n)}$, which, together with a new stepping-up lemma developed in this paper, further yields $r_k(k+1,t;n)=\\twr_{t-1}(\\Theta_{k,t}(n^{k-t+1}\\log n))$ for every fixed $k\\ge6$ and $4\\le t\\le k-2$, where $\\twr_1(x)=x$ and $\\twr_{j+1}(x)=2^{\\twr_j(x)}$. Here $r_k(k+1,t;n)$ denotes the minimum $N$ such that every red/blue coloring of the $k$-subsets of an $N$-vertex set contains either $k+1$ vertices spanning at least $t$ red edges or a blue clique of order $n$. As a third application of our theorem, we show that $r_k(F_{\\ell,k,d},n)>2^{\\Omega_{k,\\ell,d}(n^{k-d-2}\\log n)}$ for all fixed integers $k\\ge4$, $1\\le d\\le k-3$, and $\\ell\\ge2k+1$ with $k\\nmid\\ell$, where $F_{\\ell,k,d}$ is obtained from the $k$-uniform tight cycle of length $\\ell$ by deleting $d$ consecutive edges.",
+   "abs": "https://arxiv.org/abs/2611.30248",
+   "pdf": "https://arxiv.org/pdf/2611.30248"
+  },
+  {
+   "id": "2611.29686",
+   "type": "cross",
+   "title": "Distinct Distances under Well-behaved Norms",
+   "authors": [
+    "Lillian MacArthur",
+    "Adam Sheffer"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "16 pages, 4 figures",
+   "abstract": "We improve our understanding of the Erdos' distinct distances problem under non-Euclidean norms, in two ways: (i) For norms that are definable in an o-minimal structure and whose non-line bisectors have a finite intersection, we obtain a lower bound of \\(\\Omega(n^{5/6})\\) for the minimum number of distinct distances. In particular, this improves the current best bound of \\(\\Omega(n^{4/5})\\) for all \\(\\ell_{p}\\) norms with non-integer \\(p > 1\\). (ii) We derive the stronger bound \\(\\Omega(n^{6/7-\\epsilon})\\) under all semi-algebraic smooth norms. Our proof technique is based on deriving properties of bisectors under various norms.",
+   "abs": "https://arxiv.org/abs/2611.29686",
+   "pdf": "https://arxiv.org/pdf/2611.29686"
+  },
+  {
+   "id": "2611.30801",
+   "type": "cross",
+   "title": "Free energy of the bipartite random assignment problem",
+   "authors": [
+    "Jacob Shkrob"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "",
+   "abstract": "We compute the limiting free energy of the bipartite random assignment problem for every pseudodimension $d>0$ and every inverse temperature $\\lambda > 0$ at the scale $n^{1/d}$. We show that the limit is given by a rigorous replica-symmetric formula determined by the unique solution of a recursive distributional equation on a Poisson-weighted infinite tree, confirming conjectures of Aldous and Talagrand. As a consequence, for a fixed inverse temperature $\\lambda > 0$, we deduce exponential concentration of the cost of a Gibbs assignment and determine the exponential growth rate of the number of near-optimal assignments.",
+   "abs": "https://arxiv.org/abs/2611.30801",
+   "pdf": "https://arxiv.org/pdf/2611.30801"
+  },
+  {
+   "id": "2611.30861",
+   "type": "new",
+   "title": "The spectrum of codegree Turán densities of 3-graphs",
+   "authors": [
+    "Jun Gao",
+    "Oleg Pikhurko",
+    "Mingyuan Rong",
+    "Shumin Sun"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages",
+   "abstract": "The \\emph{minimum codegree} $\\delta_{k-1}(H)$ of a $k$-uniform hypergraph (in short, $k$-graph) $H$ is the smallest number of edges containing a $(k-1)$-set of vertices. For a family $\\mathcal{F}$ of $k$-graphs, its \\emph{codegree Turán density} $\\gamma(\\mathcal{F})$ is the asymptotic maximum of $\\delta_{k-1}(H)/|V(H)|$ over growing $\\mathcal{F}$-free $k$-graphs $H$. We prove that every real number $\\alpha\\in[0,1)$ is the codegree Turán density of an infinite family $\\mathcal{F}_\\alpha$ of $3$-graphs, and this family can be chosen so that $\\gamma(\\mathcal{F}')>\\alpha$ for every finite subfamily $\\mathcal{F}'\\subseteq\\mathcal{F}_\\alpha$. This resolves the $3$-graph case of a conjecture of Mubayi and Zhao, the only case that remained open after recent work of Lin and Zhou. (Li and Liu earlier determined the codegree Turán spectrum in every uniformity $k\\ge 4$ and, very recently, they determined the spectrum for $k=3$ independently of us.) We also consider \\emph{positive codegree Turán density}, defined analogously by taking the minimum only over $(k-1)$-sets contained in at least one edge. We prove that there is an absolute constant $c<1$ such that, for every integer $k\\geq3$, every real number in $[c,1)$ is the positive codegree Turán density of a $k$-graph family. This is done by presenting a construction with a relatively short proof, without optimising the value of $c$.",
+   "abs": "https://arxiv.org/abs/2611.30861",
+   "pdf": "https://arxiv.org/pdf/2611.30861"
+  },
+  {
+   "id": "2611.29517",
+   "type": "new",
+   "title": "The Eulerian transformation preserves log-convexity",
+   "authors": [
+    "Huihua Gao",
+    "Xin-Bei Liu",
+    "Weilin Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In their 2007 paper on the log-convexity of combinatorial sequences, Liu and Wang conjectured that the Eulerian transformation preserves log-convexity. We completely solve their conjecture by showing that this transformation preserves strong $q$-log-convexity. More generally, we provide a sufficient condition for a linear transformation, defined by a triangular array satisfying a certain three-term recurrence relation, to preserve strong $q$-log-convexity. As applications, we show that both the $r$-colored Eulerian transformation and the $m$-Stirling Eulerian transformation preserve strong $q$-log-convexity. In particular, we confirm a conjecture due to Liu and Zhu, which states that the Eulerian transformation of type $B$ preserves log-convexity.",
+   "abs": "https://arxiv.org/abs/2611.29517",
+   "pdf": "https://arxiv.org/pdf/2611.29517"
+  },
+  {
+   "id": "2611.28360",
+   "type": "new",
+   "title": "Triangle decompositions of two-dimensional simplicial complexes",
+   "authors": [
+    "Michelle Delcourt",
+    "Thomas Lesgourgues",
+    "Luke Postle"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "We study fractional triangle decompositions of two-dimensional simplicial complexes, unifying the settings of Nash-Williams' conjecture on triangle decompositions and the high-dimensional Dirac problem for Steiner triple systems. We prove that every sufficiently large two-dimensional simplicial complex with minimum degree at least $(1-d_1)n$ and maximum missing codegree at most $d_2n$ admits a fractional triangle decomposition, provided $d_1/0.21+d_2/0.27\\leq 1$. As an immediate consequence, we prove the asymptotic form of Lee's high-dimensional Dirac conjecture: every sufficiently large admissible $3$-uniform hypergraph with minimum codegree at least $(3/4+\\varepsilon)n$ contains a Steiner triple system. We also provide constructions establishing lower bounds on this fractional decomposition threshold problem.",
+   "abs": "https://arxiv.org/abs/2611.28360",
+   "pdf": "https://arxiv.org/pdf/2611.28360"
+  },
+  {
+   "id": "2611.28392",
+   "type": "cross",
+   "title": "Improved bounds for the binary Chowla conjecture",
+   "authors": [
+    "Jared Duker Lichtman"
+   ],
+   "categories": [
+    "math.NT",
+    "math.CO"
+   ],
+   "primary": "math.NT",
+   "comments": "36 pages",
+   "abstract": "For the Möbius function $\\mu$ and every fixed $0 < \\epsilon < 1$, we prove \\[ \\sum_{n \\le x} \\mu(n) \\mu(n + 1) \\ll_{\\epsilon} \\frac{x}{(\\log x)^{1 - \\epsilon}}. \\] This improves on OpenAI's recent bound of $x/(\\log x)^c$, where $c > 0$ is a tiny absolute constant. The proof echoes the graph expansion framework of Helfgott, Radziwill, and Pilatte on the logarithmic Chowla conjecture, earlier Fourier analytic methods of Matomäki, Radziwill, and Tao on the Chowla conjecture on average, as well as work of Teräväinen and the author for Möbius on shifted primes. This also yields an improved result, \\[ \\sum_{p \\le x} \\mu(p + 2) \\ll_{\\epsilon} \\frac{\\pi(x)}{(\\log x)^{1/2 - \\epsilon}}. \\] Specifically, we refine the determinant approach from the Poisson-Dirichlet law for prime predecessors. We replace the averaged prime weights of Lü-Wang-Wu with an exact partition of prime intervals. Once sieving out exceptional integers, this enables uniform cancellation with arbitrary log power savings.",
+   "abs": "https://arxiv.org/abs/2611.28392",
+   "pdf": "https://arxiv.org/pdf/2611.28392"
+  },
+  {
+   "id": "2611.29860",
+   "type": "new",
+   "title": "Cylindrical dimers and monomial immanants",
+   "authors": [
+    "Pavlo Pylyavskyy"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "40 pages, 21 figures",
+   "abstract": "For a bipartite graph on a cylinder, group its perfect matchings by homological height and sum their weights in each group. We prove that every minor of the resulting Toeplitz matrix has nonnegative coefficients in the edge weights, settling a question recorded by Lai. We first prove conjectures of Galashin and the author concerning directed cycles in cylindrical networks, and then deduce the dimer theorem from them. A related, stronger positivity property for superpositions of cylindrical matchings turns out to be equivalent to Stembridge's interval-product conjecture on monomial immanants. Using annular webs, we prove this conjecture for partitions with at most four columns. A stretching argument extends this to all partitions with parts in $\\{n,2n,3n,4n\\}$.",
+   "abs": "https://arxiv.org/abs/2611.29860",
+   "pdf": "https://arxiv.org/pdf/2611.29860"
+  },
+  {
+   "id": "2611.29782",
+   "type": "new",
+   "title": "Commutative bishuffle algebras and Pattern Avoidance",
+   "authors": [
+    "Anton Khoroshkin"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC",
+    "math.QA"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "This paper introduces the notion of a commutative bishuffle algebra, that linearizes classical pattern avoidance. The free commutative bishuffle algebra on one generator has a basis of permutations, divisibility of monomials is pattern containment, and the classes of permutations avoiding given patterns are the monomial bases of its quotients by monomial ideals. This free algebra is not Noetherian, but we show that its quotient by the antisymmetrizer $e_k$ is Noetherian for every $k$, and we conjecture that the same holds for its quotient by any nonzero ideal stable under the symmetric groups, in analogy with the Specht problem. We develop Gröbner bases for ideals of the free algebra and prove that the elements $e_k\\oplus\\tau$, with $\\tau$ ranging over any set of permutations, form a Gröbner basis for the lexicographic ordering and for its opposite. This gives an algebraic form of the theorem of Backelin, West and Xin: the permutations avoiding all $k\\cdots21\\oplus\\tau$ and those avoiding all $12\\cdots k\\oplus\\tau$ are two monomial bases of one and the same quotient.",
+   "abs": "https://arxiv.org/abs/2611.29782",
+   "pdf": "https://arxiv.org/pdf/2611.29782"
+  },
+  {
+   "id": "2611.30721",
+   "type": "new",
+   "title": "Partition rank and analytic rank over finite field",
+   "authors": [
+    "Qiyuan Chen",
+    "Ke Ye"
+   ],
+   "categories": [
+    "math.CO",
+    "math.AC"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages. Comments are welcome!",
+   "abstract": "We prove that the partition rank and the analytic rank of a tensor over any finite field are equivalent up to a constant depending only on the order of the tensor. The proof combines Milićević's theorem on dense multilinear varieties with the differential Schur complement of Moshkovitz and Zhu. The new ingredient is a method for approximately eliminating multilinear equations.",
+   "abs": "https://arxiv.org/abs/2611.30721",
+   "pdf": "https://arxiv.org/pdf/2611.30721"
+  },
+  {
+   "id": "2611.29166",
+   "type": "new",
+   "title": "Improved Lower Bound on the Hadwiger-Debrunner Numbers",
+   "authors": [
+    "Chaya Keller"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG"
+   ],
+   "primary": "math.CO",
+   "comments": "26 pages, 3 figures",
+   "abstract": "The celebrated $(p,q)$-theorem of Alon and Kleitman asserts that for any $d \\in \\mathbb{N}$ and any $p \\geq q \\geq d+1$, every family of convex sets in $\\mathbb{R}^d$ in which among any $p$ sets, some $q$ intersect, can be pierced by $c(p,q,d)$ points. The minimum numbers $c(p,q,d)$ are called the Hadwiger-Debrunner numbers and denoted $\\mathrm{HD}_d(p,q)$ and determining them is a longstanding open problem. We prove that for any $d \\geq 2$, $\\mathrm{HD}_d(p,d+1) \\geq p^{d-o(1)}$, and more generally, $\\mathrm{HD}_d(p,q) \\geq p^{\\frac{q-1}{q-d}-o(1)}$. Our bound is obtained by a family of parallelotopes, and is tight up to polylogarithmic factors among all families that have a bounded VC dimension. The proof uses the hypergraph container method.",
+   "abs": "https://arxiv.org/abs/2611.29166",
+   "pdf": "https://arxiv.org/pdf/2611.29166"
+  },
+  {
+   "id": "2611.28470",
+   "type": "new",
+   "title": "Totally odd clique immersions in graphs with bounded independence number",
+   "authors": [
+    "Sebastián Bustamante"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "We prove that every $n$-vertex graph with at least one edge and independence number at most an integer $a\\ge2$, where $n\\ge a$, contains a totally odd strong immersion of \\[ K_{\\left\\lceil (n+a-1)/(2a-3/2) \\right\\rceil}, \\] with every branch path of length at most $2a-1$. We also prove that every graph $G$ with independence number at most $a$ and no totally odd strong $K_t$-immersion with branch paths of length at most $2a-1$ satisfies \\[ \\chi(G)\\le\\left\\lfloor \\frac{(2a-3/2)(t-1)-a+2}{2} \\right\\rfloor \\] where $t\\ge2$. These bounds reduce the leading denominator coefficient in the general order bound from $9/4$ to $2$ and the colouring coefficient for independence number two from $3/2$ to $5/4$.",
+   "abs": "https://arxiv.org/abs/2611.28470",
+   "pdf": "https://arxiv.org/pdf/2611.28470"
+  },
+  {
+   "id": "2611.28938",
+   "type": "new",
+   "title": "Independent and end-faithful spanning trees in infinite graphs",
+   "authors": [
+    "Rodrigo Santos Monteiro"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Spanning trees rooted at the same vertex are independent if, for each vertex other than the root, the paths from the root to that vertex are pairwise distinct and internally vertex-disjoint. Zehavi and Itai conjectured that, for every positive integer $k$, every finite $k$-connected graph has $k$ independent spanning trees rooted at any prescribed vertex. We show that every $2$-connected graph, finite or infinite, has two independent spanning trees rooted at any prescribed vertex. For locally finite $2$-connected graphs, both trees can be chosen end-faithful. We also prove that every locally finite $3$-connected chordal graph has three independent end-faithful spanning trees. Counterexamples show that local finiteness is essential for the version with independent end-faithful spanning trees. We further show that every $3$-connected graph with a universal vertex or a finite vertex cover has three independent spanning trees rooted at any prescribed vertex.",
+   "abs": "https://arxiv.org/abs/2611.28938",
+   "pdf": "https://arxiv.org/pdf/2611.28938"
+  },
+  {
+   "id": "2611.29111",
+   "type": "new",
+   "title": "When do local bounds permit optimal edge-colorings?",
+   "authors": [
+    "Xuli Qi",
+    "Minli Yu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a multigraph with maximum degree $\\Delta(G)$, maximum multiplicity $\\mu(G)$, and chromatic index $\\chi'(G)$. A proper edge-coloring is locally bounded if each edge $e$ in $G$ with endvertices $u$ and $v$ is assigned a color at most $\\max\\{d_G(u)+\\mu_G(u),d_G(v)+\\mu_G(v)\\}$, where $d_G(w)$ and $\\mu_G(w)$ respectively denote the degree of $w$ and the maximum multiplicity of an edge incident with $w$. The well-known Vizing's theorem guarantees a proper edge-coloring with at most $\\Delta(G)+\\mu(G)$ colors. Recently, the local version of this theorem was established for simple graphs by Christiansen, resolving a conjecture posed by Bonamy, Delcourt, Lang, and Postle, and extended to multigraphs by Conley, Grebík, and Pikhurko. In this paper, we define the local chromatic index of $G$, denoted by $\\chi'_{loc}(G)$, as the least positive integer $k$ for which $G$ admits a locally bounded proper edge-coloring with colors in $\\{1,2,...,k\\}$. Thus $\\Delta(G)\\le\\chi'(G)\\le\\chi'_{loc}(G)\\le\\Delta(G)+\\mu(G)$. We give equivalent characterizations and sufficient conditions for the equality $\\chi'_{loc}(G)=\\chi'(G)$, identifying when the local bounds in Vizing's theorem can be satisfied using the minimum possible number of colors. In particular, we prove this equality for every regular multigraph, every multigraph $G$ with $\\Delta(G)\\le 4$, and every simple graph in which the vertices of degree at least five induce a subgraph of maximum degree at most two. Moreover, we construct a simple graph $G$ with $\\chi'(G)=\\Delta(G)=5$ and $\\chi'_{loc}(G)=6$, showing that these local bounds can force the use of an additional color even in simple graphs. Consequently, five is the smallest possible maximum degree for which satisfying these local bounds can require more than $\\chi'(G)$ colors.",
+   "abs": "https://arxiv.org/abs/2611.29111",
+   "pdf": "https://arxiv.org/pdf/2611.29111"
+  },
+  {
+   "id": "2611.28562",
+   "type": "cross",
+   "title": "The Schürmann-Vallentin lattice $\\mathsf{L}_6^{c}$ gives the thinnest lattice sphere covering in dimension six",
+   "authors": [
+    "Alexey Garber"
+   ],
+   "categories": [
+    "math.MG",
+    "math.CO"
+   ],
+   "primary": "math.MG",
+   "comments": "37 pages, accompanying computational package available at this https URL",
+   "abstract": "We prove that the lattice $\\mathsf{L}_6^{c}$ discovered by Schürmann and Vallentin in 2006 is the unique (up to similarity) six-dimensional lattice that gives the thinnest lattice sphere covering.",
+   "abs": "https://arxiv.org/abs/2611.28562",
+   "pdf": "https://arxiv.org/pdf/2611.28562"
+  },
+  {
+   "id": "2611.30110",
+   "type": "new",
+   "title": "A Constructive Lower Bound for the Growth Constant of Ternary Cap Sets",
+   "authors": [
+    "ZeHua Lu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "29 pages, ancillary files contain reproducible data and code",
+   "abstract": "Let $r_3(d)$ denote the maximum size of a cap set in $\\mathbb{F}_3^d$. We prove that the exponential growth constant $\\Lambda = \\lim_{d\\to\\infty} r_3(d)^{1/d}$ is strictly greater than $2.22920646813$. The main advance comes from combining two-color recursive synchronization with cross-layer joint filling of a seven-dimensional local alphabet that contains collinear triples (lines). By encoding marked positions as $14$-step closed walks on a two-state directed graph, any zero-sum triple with a fixed outermost color is forced to choose the identical closed walk---and hence the identical record---at every recursive layer, at a net cost of $1000$ dimensions per level. Because the open seven-dimensional coordinates are deferred to the outermost layer, all positions of the same type across all layers can be pooled per record and filled jointly via grouped binary-flag nodes. A $2\\times 2$ transfer matrix governs the weighted record count, and spectral dominance over two tilted tail matrices converts this count into a capacity lower bound. Feeding each resulting bound back into the filling parameters iteratively amplifies the growth rate, while a companion-path score exclusion test further enlarges the admissible walk family. The final bound is certified by finite enumeration and exact integer comparisons.",
+   "abs": "https://arxiv.org/abs/2611.30110",
+   "pdf": "https://arxiv.org/pdf/2611.30110"
+  },
+  {
+   "id": "2611.29344",
+   "type": "new",
+   "title": "A new upper bound for the Erdős--Szekeres conjecture",
+   "authors": [
+    "Yifan Hu",
+    "Guokuan Shao",
+    "Guozhen Shen"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 4 figures",
+   "abstract": "Let $\\mathrm{ES}(n)$ denote the smallest integer such that every set of $\\mathrm{ES}(n)$ points in the plane in general position contains $n$ points in convex position. In 1935, Erdős and Szekeres conjectured that $\\mathrm{ES}(n)=2^{n-2}+1$, and in 1960, they established the corresponding lower bound. A breakthrough on the upper bound was achieved by Suk in 2017, who proved that \\[ \\mathrm{ES}(n)\\leqslant2^{n+O(n^{2/3}\\log n)}. \\] In this article, we further improve the upper bound by showing that \\[ \\mathrm{ES}(n)\\leqslant2^{n+O(n^{1/3})}. \\]",
+   "abs": "https://arxiv.org/abs/2611.29344",
+   "pdf": "https://arxiv.org/pdf/2611.29344"
+  },
+  {
+   "id": "2611.30512",
+   "type": "new",
+   "title": "A one-third bound for domination in cubic graphs of girth at least six",
+   "authors": [
+    "Kun Cheng",
+    "Changlong Shen",
+    "Leilei Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "19 pages, 2 figures",
+   "abstract": "A set $S\\subseteq V(G)$ is a dominating set of a graph $G$ if every vertex outside $S$ has a neighbor in $S$. The domination number $\\gamma(G)$ is the minimum size of a dominating set of $G$. In 2010, Verstraëte conjectured that every cubic graph $G$ of order $n$ and girth at least six satisfies $\\gamma(G)\\le n/3$. More recently, Dorbec and Henning established this bound under the additional assumption that $G$ contains neither a $7$-cycle nor an $8$-cycle. We prove Verstraëte's conjecture in full. As a corollary, we settle the $C_4$-free case of Kostochka's conjecture, which asserts that the same bound holds for all cubic bipartite graphs.",
+   "abs": "https://arxiv.org/abs/2611.30512",
+   "pdf": "https://arxiv.org/pdf/2611.30512"
+  },
+  {
+   "id": "2611.29504",
+   "type": "new",
+   "title": "The maximum number of edges in minimal $k$-extendable bipartite graphs",
+   "authors": [
+    "Xiaoling He"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "A connected graph of order at least $2k+2$ is {\\em $k$-extendable} if it has a matching of size $k$ and every such matching extends to a perfect matching. In particular, a 1-extendable graph is also called a {\\em matching covered graph}. A $k$-extendable graph $G$ is {\\em minimal} if $G-e$ is not $k$-extendable for every $e\\in E(G)$. Lovász and Plummer [J. Combin. Theory Ser. B 23 (1977), 127--138] proved that every minimal matching covered bipartite graph $G$ with $|V(G)|\\ge6$ satisfies $|E(G)|\\le(3|V(G)|-6)/2$, and this bound is sharp for every even order at least 6. Fabres, Kothari and Carvalho [J. Graph Theory 96 (2021), 490--509] proved that every minimal 2-extendable bipartite graph $G$ with $|V(G)|\\ge12$ satisfies $|E(G)|\\le(5|V(G)|-20)/2$. Very recently, Mallik, Diwan and Kothari [J. Combin. 17 (2026), 559--606] characterized minimal matching covered bipartite graphs $G$ with $|E(G)|=(3|V(G)|-6)/2$ in terms of special trees. They also conjectured that, for every integer $k\\ge1$, there exists an integer $N_k\\le4k^2+2k$ such that every minimal $k$-extendable bipartite graph $G$ with $|V(G)|\\ge N_k$ satisfies $|E(G)|\\le(2k+1)(|V(G)|-2k)/2$. In this paper, we confirm this conjecture for $k\\ge3$ and prove that the upper bound is sharp for every even order at least $6k$ ($k\\ge3$).",
+   "abs": "https://arxiv.org/abs/2611.29504",
+   "pdf": "https://arxiv.org/pdf/2611.29504"
+  },
+  {
+   "id": "2611.28703",
+   "type": "new",
+   "title": "On non-canonical maximum cliques in the block graphs of orthogonal arrays",
+   "authors": [
+    "Tao Feng",
+    "Sergey Goryainov",
+    "Elena V. Konstantinova",
+    "Letian Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "In this note, we prove an Erdős-Ko-Rado characterisation of maximum intersecting families of columns of certain orthogonal arrays. This solves a problem of Chris Godsil and Karen Meagher and implies that, in all orthogonal arrays OA$(m,(m-1)^2)$, every non-canonical maximum intersecting family of columns necessarily has the structure of an affine plane.",
+   "abs": "https://arxiv.org/abs/2611.28703",
+   "pdf": "https://arxiv.org/pdf/2611.28703"
+  },
+  {
+   "id": "2611.29486",
+   "type": "new",
+   "title": "An asymptotic form of Thomasse's directed path conjecture",
+   "authors": [
+    "Xinyao Ren",
+    "Yisai Xue",
+    "Ai Yang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "7 pages",
+   "abstract": "Thomassé conjectured that every oriented graph of minimum out-degree $d$ contains a directed path of length $2d$. We resolve this conjecture asymptotically by proving that every such graph contains a directed path of length at least $2d-O(d\\log\\log d/\\log d)$.",
+   "abs": "https://arxiv.org/abs/2611.29486",
+   "pdf": "https://arxiv.org/pdf/2611.29486"
+  },
+  {
+   "id": "2611.28063",
+   "type": "new",
+   "title": "The Rotation Strategy Wins Penney's game for Permutations",
+   "authors": [
+    "Himaghna Roy Choudhury"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 5 tables",
+   "abstract": "In Penney's game for permutations, two players choose distinct patterns of the same length $k$, and independent random variables with a common continuous distribution are observed until the relative order of $k$ consecutive observations matches one of the patterns; the player who chose that pattern wins. Elizalde and Lin conjectured that the second player wins with probability greater than one half by answering the pattern $a_1a_2\\cdots a_k$ with its rotation $a_ka_1\\cdots a_{k-1}$. We prove that this conjecture holds for every $k\\ge3$. We also show that for $k\\ge8$ the rotation wins with probability at least $1/2+0.0053/(k+1)$. The proof writes the advantage of the second player in terms of clusters, which are chains of overlapping marked occurrences of the two patterns weighted by $\\pm1$. We show that, for each ordering of the observations, the weights of its clusters sum to $-1$, $0$, or $1$. This gives an explicit bound on the contribution of arbitrarily long clusters, which proves the result analytically for $k\\ge8$, and exact rational computations prove it for $3\\le k\\le7$.",
+   "abs": "https://arxiv.org/abs/2611.28063",
+   "pdf": "https://arxiv.org/pdf/2611.28063"
+  },
+  {
+   "id": "2611.29161",
+   "type": "new",
+   "title": "Rough structure. I. Exclusion among series-parallel graphs",
+   "authors": [
+    "Maria Chudnovsky",
+    "Julien Codsi",
+    "Alex Divoux",
+    "Paul Seymour",
+    "Liana Yepremyan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "32 pages, 19 figures",
+   "abstract": "This is the first in a series of papers about rough structure theorems: graph properties that are implied by the exclusion of some graph as a minor, and imply the exclusion of some larger graph of the same type. Here we look at the structure of the series-parallel graphs that do not contain a given series-parallel graph as a minor. We prove that for every series-parallel graph $H$, there exists $m$ such that every simple two-connected series-parallel graph that does not contain $H$ as a minor admits a tree-decomposition of height at most $m$, where each \"torso\" is either an outerplanar graph or a planar dual of one. We prove similar theorems about the series-parallel graphs that exclude an outerplanar graph, the series-parallel graphs that exclude a dual of an outerplanar graph, the graphs of tree-width three that exclude a series-parallel graph, and the general graphs that exclude a fan.",
+   "abs": "https://arxiv.org/abs/2611.29161",
+   "pdf": "https://arxiv.org/pdf/2611.29161"
+  }
+ ],
+ "surveys": [],
+ "listed_new": 74,
+ "listed_cross": 38
+}
