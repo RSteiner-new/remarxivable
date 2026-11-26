@@ -1,0 +1,557 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T07:06:07Z",
+ "status": "final",
+ "source": "https://arxiv.org/list/math.CO/new",
+ "screened": 68,
+ "screened_new": 45,
+ "screened_cross": 23,
+ "scored": 68,
+ "shown": 30,
+ "order": "random",
+ "papers": [
+  {
+   "id": "2611.33136",
+   "type": "new",
+   "title": "A canonical Euclidean Gallai theorem",
+   "authors": [
+    "Benedict Randall Shaw"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages",
+   "abstract": "In this note, we prove a canonical Euclidean Gallai theorem: for any finite set of points $S\\subset \\mathbb{R}^d$, any colouring of $\\mathbb{R}^d$ contains a scaled (and possibly rotated) copy of $S$ that is either monochromatic or rainbow.",
+   "abs": "https://arxiv.org/abs/2611.33136",
+   "pdf": "https://arxiv.org/pdf/2611.33136"
+  },
+  {
+   "id": "2611.31290",
+   "type": "new",
+   "title": "Ramsey numbers of fixed-length cycles, paths and stars in set-colored triple systems",
+   "authors": [
+    "Xuanyu Cao",
+    "Chunxiang Wang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "28 pages",
+   "abstract": "Let $R_3(H;r,s,t)$ be the least order of a complete triple system in which every assignment of $s$ of $r$ colors to each triple forces a copy of $H$ whose edges share at least $t$ colors. Fix $r\\ge s\\ge t\\ge1$ and let $n$ count edges. We prove that the Ramsey numbers of the linear path and the linear cycle of fixed length $n$ are both $\\gamma n+o(n)$ as $n\\to\\infty$, with $\\gamma=2$ if and only if $r=s$. For tight paths the corresponding formula is $\\tau n+o(n)$, with the same coefficient for tight cycles when $3\\mid n$. To obtain exactly $n$ edges in a linear cycle, we choose the parity of the connections and vary the lengths of the paths they join. For a linear star $S_n$, whose edges meet only at the center, $R_3(S_n;r,s,t)=cn+O(n^{2/3})$ for fixed colors. For fixed $n\\ge2$ and $s,t$ as $r\\to\\infty$, it is asymptotic to $\\sqrt{6a_n\\binom{r}{t}/\\binom{s}{t}}$, where $a_n=n(n-1)$ for odd $n$ and $a_n=n(2n-3)/2$ for even $n$. For a tight star, whose edges share a pair, the leading term is $(n-1)\\binom{r}{t}/\\binom{s}{t}$ in both regimes. For a fixed linear path of $n\\ge3$ edges and fixed $s\\ge t\\ge2$, the upper bound is $(2000h/1307+o(1))\\binom{r}{t}/\\binom{s}{t}$ as $r\\to\\infty$, where $h=\\lfloor(n-1)/2\\rfloor$.",
+   "abs": "https://arxiv.org/abs/2611.31290",
+   "pdf": "https://arxiv.org/pdf/2611.31290"
+  },
+  {
+   "id": "2611.32557",
+   "type": "new",
+   "title": "A Proof of the Balister-Győri-Schelp Conjecture on Perfect Matchings with Prescribed Differences",
+   "authors": [
+    "Aryeh Lev Zabokritskiy (Yohananov)"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 1 figure",
+   "abstract": "We prove the conjecture of Balister, Győri and Schelp on perfect matchings with prescribed differences. Let $n\\ge 2$ and let $d_1,\\dots,d_{2^{n-1}}$ be nonzero vectors in $\\mathbb{F}_2^n$, with repetitions allowed. The space $\\mathbb{F}_2^n$ can be partitioned into pairs $\\{x_i,y_i\\}$ with $x_i+y_i=d_i$ for every $i$ if and only if $\\sum_i d_i=0$.",
+   "abs": "https://arxiv.org/abs/2611.32557",
+   "pdf": "https://arxiv.org/pdf/2611.32557"
+  },
+  {
+   "id": "2611.33120",
+   "type": "new",
+   "title": "Efficient reconfiguration, polynomial decompositions and approximate counting",
+   "authors": [
+    "Peter Keevash",
+    "Jeck Lim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "39 pages, 1 figure",
+   "abstract": "We consider reconfigurations of integer assignments to planar lattice regions that preserve specified line totals, which are motivated by questions of combinatorial construction, algorithmic sampling and approximate counting. An elementary prototype is provided by contingency tables, i.e. two-dimensional grids of non-negative integers with prescribed row and column sums, which can be reconfigured by basic switches of the form $\\left(\\begin{smallmatrix}1&-1\\\\-1&1\\end{smallmatrix}\\right)$. More difficult combinatorial instances include reconfiguration of Latin squares or queens configurations. Our main technical ingredient is the following polynomial decomposition lemma. Fix a positive integer $k$. Let $F(x)\\in \\mathbb{Z}[x]$ be a polynomial of degree at most $n$ such that $(1-x)^k\\mid F(x)$ and the sum of the absolute values of the coefficients of $F$ is $m$. We prove that $F$ can be written as a sum of $O(m+n)$ basic polynomials of degree at most $n$ of the form $\\pm x^a(1-x^{a_1})\\cdots (1-x^{a_k})$ where $a,a_1,\\ldots,a_k$ are non-negative integers. The proof uses the existence of a miraculous high-dimensional coupling of signed distributions on cross polytopes that has independent interest. We will apply this lemma to questions of combinatorial construction in other papers; in this paper we illustrate its application to approximate counting.",
+   "abs": "https://arxiv.org/abs/2611.33120",
+   "pdf": "https://arxiv.org/pdf/2611.33120"
+  },
+  {
+   "id": "2611.32999",
+   "type": "new",
+   "title": "Triangle-free planar graphs need not be POSH",
+   "authors": [
+    "Mykhaylo Tyomkyn"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "5 pages including figures",
+   "abstract": "We show that a triangle-free planar graph need not be partial one-sided Hamiltonian. This disproves a conjecture of Felsner, Schrezenmaier, Schröder and Steiner.",
+   "abs": "https://arxiv.org/abs/2611.32999",
+   "pdf": "https://arxiv.org/pdf/2611.32999"
+  },
+  {
+   "id": "2611.31828",
+   "type": "new",
+   "title": "A logarithmic saving in the sum-free subset problem",
+   "authors": [
+    "Xiaolu Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For every sufficiently large $n$ there is a set of $n$ positive integers, all at most $n^2$, whose largest sum-free subset has size at most $n/3+O(n/\\log n)$. We bound the number of small divisible elements in a dense set with few Schur triples. A fixed-accuracy cyclic model gives a rotation, and the original integer triple count controls its density at the required scale.",
+   "abs": "https://arxiv.org/abs/2611.31828",
+   "pdf": "https://arxiv.org/pdf/2611.31828"
+  },
+  {
+   "id": "2611.33108",
+   "type": "new",
+   "title": "Large blow-ups of uniform hypergraphs",
+   "authors": [
+    "Dhruv Mubayi"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let \\(k\\ge2\\), let \\(H\\) be a fixed \\(k\\)-uniform hypergraph on \\(h\\) vertices with at least one edge, and let \\(a>0\\). We prove that every sufficiently large \\(n\\)-vertex \\(k\\)-uniform hypergraph with at least \\(a n^h\\) copies of \\(H\\) contains a blow-up of \\(H\\) with at least \\(b(\\log n)^{1/(k-1)}\\) vertices in each part, where \\(b=b(H,a)>0\\). The exponent of $\\log n$ is best possible. This answers a question of Rödl and Schacht and proves a conjecture of Bollobás, Erdős and Simonovits from 1976. For fixed \\(q\\ge2\\) and \\(0<\\alpha<1/2\\), it follows that every \\(q\\)-coloring of the \\(k\\)-subsets of \\([n]\\) contains a set of order \\((\\log n)^{1/(k-1)}\\) on which one color has density at least \\(1-\\alpha\\). For triples this recovers the sharp bound of Conlon, Fox and Sudakov. For \\(k\\ge4\\), this improves their general exponent to the optimal value \\(1/(k-1)\\) and answers a 1990 question of Erdős for which he offered a \\$500 prize.",
+   "abs": "https://arxiv.org/abs/2611.33108",
+   "pdf": "https://arxiv.org/pdf/2611.33108"
+  },
+  {
+   "id": "2611.32376",
+   "type": "new",
+   "title": "A proof of the toughness conjecture for Kneser graphs",
+   "authors": [
+    "Guang Li",
+    "Wenqian Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "As a measure of the connectivity of graphs, Chvátal \\cite{Chvatal} introduced the concept of toughness. For integers $k\\geq2$ and $n\\geq2k+1$, the Kneser graph $\\KG(n,k)$ has all the $k$-subsets of $[n]=\\{1,\\ldots,n\\}$ as its vertices, and two vertices are adjacent if they are disjoint. Cioabă and Wong~\\cite{CW} determined the toughness of $\\KG(n,2)$. Park et al.~\\cite{Park} determined the toughness of $\\KG(n,k)$ when $k=3,4$ and $k\\geq5$ for large $n$. They \\cite{Park} proposed a conjecture for $k\\geq5$ and other values of $n$. In this paper, we resolve this conjecture.",
+   "abs": "https://arxiv.org/abs/2611.32376",
+   "pdf": "https://arxiv.org/pdf/2611.32376"
+  },
+  {
+   "id": "2611.32559",
+   "type": "new",
+   "title": "On unique realisations of graphs under symmetry constraints",
+   "authors": [
+    "James Cruickshank",
+    "Csaba Király",
+    "Bernd Schulze",
+    "Shin-ichi Tanigawa"
+   ],
+   "categories": [
+    "math.CO",
+    "math.MG"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages, 5 figures",
+   "abstract": "Global rigidity asks whether a realisation of a graph is uniquely determined, up to Euclidean congruence, by its edge lengths. In this paper, we study global rigidity of bar-joint frameworks under finite point-group symmetry constraints. A framework is called forced-symmetric globally rigid in $d$-space if every realisation of the graph in $\\mathbb R^d$ with the same edge lengths and the same prescribed symmetry is congruent to it. We establish symmetric extensions of two fundamental results on global rigidity. Our first result extends Hendrickson's necessary condition to the forced-symmetric setting. For symmetry-generic frameworks with an arbitrary finite point group acting freely on the vertices and with at least $d+2$ vertex orbits, we prove that forced-symmetric global rigidity implies forced-symmetric redundant rigidity. Our second result extends the classical characterisation of generic global rigidity for body-bar frameworks due to Connelly, Jordán and Whiteley. For the symmetric body-bar model considered here, we show that forced-symmetric global rigidity is a generic property and obtain a combinatorial characterisation in every dimension.",
+   "abs": "https://arxiv.org/abs/2611.32559",
+   "pdf": "https://arxiv.org/pdf/2611.32559"
+  },
+  {
+   "id": "2611.31879",
+   "type": "new",
+   "title": "Modular Schur functions and Macdonald characters",
+   "authors": [
+    "Naihuan JIng",
+    "Ning Liu"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "71 pages",
+   "abstract": "Modular Schur functions arose from the problem of determining the characters of simple polynomial representations of the general linear group in positive characteristic. We prove three results about these functions. (i) In finitely many variables, we obtain two bases for a space of symmetric polynomials with bounded degree in each variable, one consisting of modular Schur polynomials and the other of products of truncated complete symmetric polynomials. (ii) We determine the signs of the nonzero Schur coefficients of modular Schur functions, show that their absolute values are at most the factorial of the block weight, and characterize equality. (iii) Over an infinite field of prime characteristic, a modular Schur polynomial is a simple polynomial character exactly when its indexing partition satisfies the Carter condition, provided the number of variables is at least the degree. Thus we prove three conjectures formulated by Walker (1994). We also use the Heisenberg operators from the Schur coefficient calculation to prove positivity for Macdonald characters. After centering the Macdonald parameters at one and negating the auxiliary variables, the normalized power-sum matrix entries of the Macdonald creation operator have nonnegative integer coefficients, which yields nonnegative rational coefficients for normalized Macdonald characters. The result for the creation operator confirms a conjecture of Ben Dali and D'Adderio (2024).",
+   "abs": "https://arxiv.org/abs/2611.31879",
+   "pdf": "https://arxiv.org/pdf/2611.31879"
+  },
+  {
+   "id": "2611.32833",
+   "type": "new",
+   "title": "Even Quartets and the Maximum Density of a Simplical 3-Cocycle",
+   "authors": [
+    "John Mackey"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.CG"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Colour the triples of an $n$-element set red or blue, and call a four-set even if it contains an even number of red triples. We prove that the minimum number of even four-sets is $\\frac5{16}\\binom n4-\\Theta(n^3)$. In particular, the maximum asymptotic density of a simplicial $3$-cocycle over the field of two elements is $11/16$. The classical two-part matrix construction attains the limiting bound. We prove that it also determines the unique limiting distribution of quartet parities on every fixed number of vertices. Writing $m_n$ for the minimum density, we bound the limit inferior and limit superior of $n(5/16-m_n)$ between $0.75$ and $0.752427$. The lower bound on even quartets follows from an exact rational inequality on eight vertices. A perturbation of the construction explains all $72$ cases of equality in this finite inequality, of which only $22$ survive in an extremal limit.",
+   "abs": "https://arxiv.org/abs/2611.32833",
+   "pdf": "https://arxiv.org/pdf/2611.32833"
+  },
+  {
+   "id": "2611.32276",
+   "type": "new",
+   "title": "Weak oddness to resistance ratios in snarks",
+   "authors": [
+    "Imran Allie"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "11 pages, figures are self-contained",
+   "abstract": "Let $G$ be a bridgeless cubic graph. If $G$ is not 3-edge-colourable, we call it a \\textit{snark}. The \\textit{resistance} of $G$, denoted $r(G)$, is the minimum number of edges which can be removed from $G$ in order to render $G$ 3-edge-colourable. The \\textit{oddness} of $G$, denoted $\\omega(G)$, is the minimum number of odd components in any 2-factor of $G$. The \\textit{weak oddness} of $G$, denoted $\\omega'(G)$, is the minimum number of odd components in any even factor of $G$. In their comprehensive survey paper on measurements of uncolourability in cubic graphs, Fiol et al. conjectured the following two statements for a snark $G$: $\\omega(G) \\leq 2r(G)$ and $\\omega'(G) \\leq 2r(G)$ \\cite{FiolMazzuoccoloSteffen2018}. Previously, we disproved the former by proving that the ratio of oddness to weak oddness, and hence the ratio of oddness to resistance, can in fact be arbitrarily large \\cite{Allie2019}. In this paper, we prove a slightly stronger version of the latter: $\\omega'(G) < 2r(G)$. The proof centres around substructures in $G$, given a minimal colouring $f$, which we call \\textit{meta-Kempe chains}.",
+   "abs": "https://arxiv.org/abs/2611.32276",
+   "pdf": "https://arxiv.org/pdf/2611.32276"
+  },
+  {
+   "id": "2611.33154",
+   "type": "new",
+   "title": "Dominoes tiling a common figure",
+   "authors": [
+    "Peter Keevash",
+    "Jeck Lim"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "42 pages, 4 figures",
+   "abstract": "Call a two-element subset of $\\mathbb{Z}^2$ a domino. Given finitely many dominoes $D_1,\\ldots,D_k$, we show that there exists a finite non-empty $B\\subset \\mathbb{Z}^2$ such that $B$ can be partitioned into disjoint translates of $D_i$ for all $i$. The proof uses a new absorption mechanism for perfect matchings in algebraically defined hypergraphs.",
+   "abs": "https://arxiv.org/abs/2611.33154",
+   "pdf": "https://arxiv.org/pdf/2611.33154"
+  },
+  {
+   "id": "2611.32794",
+   "type": "new",
+   "title": "Spanning cyclability of split graphs",
+   "authors": [
+    "Jingfan Zai",
+    "Wenjing Lv",
+    "Eminjan Sabir"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "17 pages",
+   "abstract": "For a positive integer $k$, a graph $G$ is called $k$-spanning cyclable (resp. $k$-edge spanning cyclable) if, given any $k$ distinct vertices $v_1, v_2, \\ldots, v_k$ (resp. $k$ independent edges $e_1, e_2, \\ldots, e_k$) of $G$, there exist $k$ vertex-disjoint cycles $C_1, C_2, \\ldots, C_k$ in $G$ such that $v_i \\in V(C_i)$ (resp. $e_i \\in E(C_i)$) for each $i$ and $V(C_1) \\cup \\cdots \\cup V(C_k) = V(G)$. In particular, the notion of 1-spanning cyclable coincides with the existence of a Hamiltonian cycle, and a Hamilton-connected graph is necessarily 1-edge spanning cyclable. For a positive integer $r \\ge 3$, a graph $G$ is $K_{1,r}$-free if $G$ does not have an induced subgraph isomorphic to $K_{1,r}$, and $K_{1,4} + e$ denotes the graph obtained by adding an edge $e$ between two nonadjacent vertices of $K_{1,4}$. There are several interesting conjectures and sparse results relative to these conjectures on Hamiltonian properties of $K_{1,r}$-free split graphs, whose vertex set can be partitioned into a maximum clique $W$ and an independent set $J$. In this paper, we extend some of these results by proving the following: (1) every $(k+1)$-connected $K_{1,3}$-free split graph of order at least $4k-1$ is $k$-spanning cyclable for $k \\ge 1$; in particular, every 2-connected $K_{1,3}$-free split graph of order at least 3 is Hamiltonian; (2) every $2k$-connected $K_{1,3}$-free split graph is $k$-edge spanning cyclable for $k \\ge 2$; (3) every $(k+1)$-connected $\\{K_{1,4}, K_{1,4}+e\\}$-free split graph with $|W| \\ge |J| \\ge 3k+5$ is $k$-spanning cyclable for $k \\ge 1$; in particular, every 2-connected $\\{K_{1,4}, K_{1,4}+e\\}$-free split graph with $|W| \\ge |J| \\ge 8$ is Hamiltonian; (4) every $2k$-connected $\\{K_{1,4}, K_{1,4}+e\\}$-free split graph with order at least $4k+9$ is $k$-edge spanning cyclable for $k \\ge 2$.",
+   "abs": "https://arxiv.org/abs/2611.32794",
+   "pdf": "https://arxiv.org/pdf/2611.32794"
+  },
+  {
+   "id": "2611.31963",
+   "type": "new",
+   "title": "Blow-up size for the noncommutative rank of linear symbolic matrices with low-rank coefficients",
+   "authors": [
+    "Yuni Iwamasa"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "24 pages",
+   "abstract": "The noncommutative rank (nc-rank) of a linear symbolic matrix $A = A_0 x_0 + A_1 x_1 + \\dots + A_m x_m$ is the supremum of $1/k$ times the rank of the $k$-th blow-up $\\sum_i A_i \\otimes X_i$ of $A$, where $X_i$ are $k \\times k$ matrices consisting of distinct variables. In this paper, we show that the blow-up size needed to attain the nc-rank is bounded by the ranks of the coefficient matrices. More precisely, if $A_1, \\dots, A_m$ have rank at most $r$, with no restriction on $A_0$, then the $k$-th blow-up attains the nc-rank for every $k \\geq r$. This holds for rectangular matrices over an arbitrary field, and unifies and extends the known results that $k = 1$ suffices for rank-one coefficients (Lovász, 1989; Ivanyos, Karpinski, and Saxena, 2010) and that $k = 2$ suffices for skew-symmetric coefficients of rank two (Oki and Soma, 2025). We present two applications. First, if $r$ is a constant, then the nc-rank of an $n \\times n$ linear symbolic matrix can be computed by a randomized algorithm with $O(m n^2 + n^\\omega)$ arithmetic operations over a sufficiently large field, where $\\omega$ is the matrix multiplication exponent. Second, the hierarchy of polytopes introduced by Hirai (2026), which converges to the nc-independent set polytope, stabilizes at the $r$-th level; this is based on a counterpart of our main result for the degree of the Dieudonné determinant.",
+   "abs": "https://arxiv.org/abs/2611.31963",
+   "pdf": "https://arxiv.org/pdf/2611.31963"
+  },
+  {
+   "id": "2611.32366",
+   "type": "new",
+   "title": "A Sylow reduction for isomorphisms of Cayley graphs on abelian groups of cube-free order",
+   "authors": [
+    "Tingzeng Wu",
+    "Liang Qin",
+    "Yong Yu",
+    "Xing Gao"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "20 pages",
+   "abstract": "The isomorphism problem for Cayley graphs is one of the fundamental problems in algebraic combinatorics. Dobson studied this isomorphism problem and asked whether, assuming that the group generated by the left regular representation and its conjugate under an isomorphism admits a complete sequence of normal block systems, the isomorphism problem for Cayley digraphs on a finite abelian group of cube-free order can be reduced to the corresponding problem on its Sylow subgroups. We answer this question affirmatively. We first prove that color-preserving isomorphisms preserving the fiber partition on direct products $A\\times H$ of abelian groups of coprime orders, where $|H|$ is a prime or the square of a prime, have a product decomposition property. Applying this property successively to the Sylow subgroups of a cube-free-order abelian group $G$, we show that if two colored binary Cayley structures on $G$ are connected by a color-preserving isomorphism $f$ for which $\\langle G_L,f^{-1}G_Lf\\rangle$ admits a complete sequence of block systems, then they are also connected by a color-preserving Sylow coordinate isomorphism. This yields the corresponding Sylow reduction for solving sets.",
+   "abs": "https://arxiv.org/abs/2611.32366",
+   "pdf": "https://arxiv.org/pdf/2611.32366"
+  },
+  {
+   "id": "2611.32465",
+   "type": "new",
+   "title": "A sharp form of Welsh's log-concavity inequality for chromatic polynomials",
+   "authors": [
+    "Meiqiao Zhang",
+    "Fengming Dong"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a simple graph of order $n\\ge 1$, and let $P_G(x)$ be its chromatic polynomial. In the early 1970s, Welsh conjectured that $P_G(k)^2 \\ge P_G(k-1)P_G(k+1)$ holds for any positive integer $k$. This conjecture was also independently proposed by Brenti in 1992, while in 1997, Seymour disproved it for $k=6$ by constructing an infinite family of graphs of sufficiently large order as counterexamples. In 2005, Dong, Koh and Teo conjectured that $P_G(x)^2 \\ge P_G(x-1)P_G(x+1)$ holds for all real $x\\ge n$. In this paper, we prove that the inequality holds for all real $x\\ge n-1$. Equality holds if and only if $n\\ge 2$, $G$ is complete, and $x=n-1$. Moreover, the bound $x\\ge n-1$ is best possible for every $n\\ge 2$.",
+   "abs": "https://arxiv.org/abs/2611.32465",
+   "pdf": "https://arxiv.org/pdf/2611.32465"
+  },
+  {
+   "id": "2611.32594",
+   "type": "new",
+   "title": "On some off-diagonal hypergraph Ramsey problems",
+   "authors": [
+    "Eion Mulrenin",
+    "Cosmin Pohoata"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages",
+   "abstract": "We give a new short proof of a theorem of Fox and He that the $3$-uniform Ramsey number $r_3(K_4^-, K_n)$ is at least $2^{\\Omega(n \\log n)}$. The construction exploits a new connection with a directed graph recently introduced by Bradač in his work on off-diagonal graph Ramsey numbers. Moreover, it generalizes naturally to give sharp bounds for several extensions of this problem in higher uniformity, answering questions raised by Mubayi and Suk.",
+   "abs": "https://arxiv.org/abs/2611.32594",
+   "pdf": "https://arxiv.org/pdf/2611.32594"
+  },
+  {
+   "id": "2611.33087",
+   "type": "cross",
+   "title": "The tower transition in majority bootstrap percolation",
+   "authors": [
+    "Vyacheslav Koval",
+    "Yuval Peres"
+   ],
+   "categories": [
+    "math.PR",
+    "math.CO"
+   ],
+   "primary": "math.PR",
+   "comments": "19 pages, 9 figures",
+   "abstract": "How large must a high-dimensional torus be for majority bootstrap percolation to fill it at a given density below one half? For a torus of side length $n\\ge3$, let $H(n)$ be the smallest $h$ such that a tower of $h$ twos has value at least $n$. If $H(n)/d\\to\\rho\\in[0,1]$, the critical density on the $d$-dimensional torus tends to $(1-\\rho)/(2-\\rho)$. In particular, the smallest side length $n$ for which the critical density is at most $1/4$ satisfies $H(n)\\sim 2d/3$. The same curve holds for ordinary boxes of side at least $d$. For boxes with $n/d\\to a>0$ we obtain the limiting density $\\max\\{1/2,1-2^{-1/a}\\}$. We determine the first correction to the tower curve away from $\\rho=1$.",
+   "abs": "https://arxiv.org/abs/2611.33087",
+   "pdf": "https://arxiv.org/pdf/2611.33087"
+  },
+  {
+   "id": "2611.31300",
+   "type": "new",
+   "title": "Power-Law Lower Bounds for Edges in Odd Induced Subgraphs",
+   "authors": [
+    "Xiaoyu Liu"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For a finite simple graph $G$, let $g(G)$ denote the maximum number of edges in an induced subgraph of $G$ in which every vertex has odd degree. Motivated by Scott's question of whether $g(G) \\geq cm$ for every graph with $m$ edges, we prove that $g(G) \\geq cm^{4/7}$ for every finite simple graph with $m \\geq 1$ edges, where $c > 0$ is an absolute constant. For bipartite graphs, we obtain the stronger bound $g(B) \\geq cm^{2/3}$.",
+   "abs": "https://arxiv.org/abs/2611.31300",
+   "pdf": "https://arxiv.org/pdf/2611.31300"
+  },
+  {
+   "id": "2611.31759",
+   "type": "new",
+   "title": "Normal edge-transitive bi-Cayley graphs of prime valency over nonabelian simple groups",
+   "authors": [
+    "Zai Ping Lu",
+    "Hai Ze Wang"
+   ],
+   "categories": [
+    "math.CO",
+    "math.GR"
+   ],
+   "primary": "math.CO",
+   "comments": "16 pages",
+   "abstract": "Let $\\Gamma$ be a connected graph of prime valency admitting a nonabelian simple group $R$ that acts semiregularly on the vertices with exactly two orbits. We prove that if the normalizer of $R$ in $Aut(\\Gamma)$ is edge-transitive, then $\\Gamma$ is bipartite and $R$ is characteristic in $Aut(\\Gamma)$. We derive consequences for Cayley graphs and a criterion for semisymmetry. As an application, we construct bi-Cayley graphs over $A_p$ from the conjugates of a $3$-cycle under a cyclic group of order $p$, where $p>5$ is prime. These graphs are semisymmetric precisely when the support of the $3$-cycle is not a three-term arithmetic progression in $\\mathbb{F}_p$.",
+   "abs": "https://arxiv.org/abs/2611.31759",
+   "pdf": "https://arxiv.org/pdf/2611.31759"
+  },
+  {
+   "id": "2611.32684",
+   "type": "new",
+   "title": "Schnyder Woods and the Chromatic Polynomial",
+   "authors": [
+    "Aatman Supkar",
+    "Upamanyu Yaddanapudi"
+   ],
+   "categories": [
+    "math.CO",
+    "cs.DM"
+   ],
+   "primary": "math.CO",
+   "comments": "13 pages, 4 figures",
+   "abstract": "Let $\\chi_G(q)$ be the chromatic polynomial of a graph $G$. Analogous to the classical results of Greene and Zaslavsky interpreting $(-1)^{n-1}\\chi_G'(0)$ and $(-1)^n\\chi_G'(1)$ as counting certain orientations of $G$, we show that if $G$ is a triangulation, $\\frac{1}{2}(-1)^{n-1}\\chi_G'(2)$ counts the number of Schnyder woods on a plane embedding of $G$. We also generalise this result to graphs obtained by removing certain edges of $G$.",
+   "abs": "https://arxiv.org/abs/2611.32684",
+   "pdf": "https://arxiv.org/pdf/2611.32684"
+  },
+  {
+   "id": "2611.32872",
+   "type": "cross",
+   "title": "A short proof of Seymour's Second Neighborhood Conjecture",
+   "authors": [
+    "Romain Bourneuf",
+    "Pierre Charbit",
+    "Samuel Coulomb",
+    "Stéphan Thomassé"
+   ],
+   "categories": [
+    "cs.DM",
+    "math.CO"
+   ],
+   "primary": "cs.DM",
+   "comments": "",
+   "abstract": "We give a short alternative proof of Seymour's Second Neighborhood Conjecture, recently proved by OpenAI. Our proof combines their reduction with a different argument showing that every nontrivial oriented graph $G$ contains a nonempty set $X$ such that $X^+\\ne V(G)$ and $|(X^+)^+\\setminus X^+|\\geq|X^+\\setminus X|$, where $X^+=N_G^+[X]$.",
+   "abs": "https://arxiv.org/abs/2611.32872",
+   "pdf": "https://arxiv.org/pdf/2611.32872"
+  },
+  {
+   "id": "2611.31443",
+   "type": "new",
+   "title": "Cycle popping and positivity in linear Laurent phenomenon algebras",
+   "authors": [
+    "Ross Glew",
+    "Pavlo Pylyavskyy"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RA"
+   ],
+   "primary": "math.CO",
+   "comments": "21 pages, 12 figures",
+   "abstract": "We prove that every monomial in the cluster variables of a linear Laurent phenomenon algebra is a nonnegative combination of cluster monomials, as conjectured by Lam and the second author. The proof uses Wilson's cycle popping. We also give a new proof of Laurent positivity in linear Laurent phenomenon algebras, previously established by the first author.",
+   "abs": "https://arxiv.org/abs/2611.31443",
+   "pdf": "https://arxiv.org/pdf/2611.31443"
+  },
+  {
+   "id": "2611.32763",
+   "type": "new",
+   "title": "An Asymptotically Sharp Form of the Overfull Conjecture",
+   "authors": [
+    "Guantao Chen",
+    "Songling Shan"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "Let $G$ be a simple graph with maximum degree $\\Delta$. A subgraph $H$ of $G$ is \\emph{$\\Delta$-overfull} if $|E(H)|>\\Delta\\lfloor |V(H)|/2\\rfloor$. The Overfull Conjecture, proposed by Chetwynd and Hilton in 1986, states that a graph $G$ with $\\Delta>|V(G)|/3$ is of class~2 if and only if it contains a $\\Delta$-overfull subgraph. This conjecture would give a polynomial-time algorithm for determining the chromatic index in this degree range and would imply several longstanding conjectures on critical graphs. In this paper, we prove that, for every $\\varepsilon>0$, a sufficiently large graph $G$ with $\\Delta\\ge(1/4+\\varepsilon)|V(G)|$ is of class~2 if and only if it contains a $\\Delta$-overfull subgraph. Consequently, the chromatic index can be determined in polynomial time in this range. We also obtain the Just-overfull and Vertex-splitting Conjectures for large graphs, and Vizing's Independence Number, Average Degree, and $2$-Factor Conjectures in the same degree range. The coefficient $1/4$ is asymptotically best possible: for every odd integer $\\Delta\\ge3$, we construct a connected class~2 graph on $4\\Delta+5$ vertices with maximum degree $\\Delta$ and no $\\Delta$-overfull subgraph.",
+   "abs": "https://arxiv.org/abs/2611.32763",
+   "pdf": "https://arxiv.org/pdf/2611.32763"
+  },
+  {
+   "id": "2611.32429",
+   "type": "new",
+   "title": "Homothetic Copies of Polytopes and Binomial Barcodes",
+   "authors": [
+    "Site Mou"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "27 pages, 8 figures",
+   "abstract": "Let $X\\subset\\mathbb{R}^d$ be a finite full-dimensional configuration, and put $F_X(N)=\\max_{S\\subset\\mathbb{R}^d, |S|=N}\\#\\{(\\mathbf{v},\\lambda)\\in\\mathbb{R}^d\\times(0,\\infty):\\mathbf{v}+\\lambda X\\subseteq S\\}$. Elekes and Erdős posed the problem of estimating $F_X(N)$. In this article, we determine its exact value when $X$ is the vertex set of a simplex. For several other classes of configurations, we obtain sharp asymptotic bounds and exact extremal values. We also introduce binomial barcodes for order polytopes and a recursive criterion for their effectiveness. In particular, if $X$ is the vertex set of the three-dimensional cube, then, for $n\\ge 1$, $F_X(n^3)=\\sum_{j=1}^{n-1}j^3=\\left(\\frac{n(n-1)}{2}\\right)^2$.",
+   "abs": "https://arxiv.org/abs/2611.32429",
+   "pdf": "https://arxiv.org/pdf/2611.32429"
+  },
+  {
+   "id": "2611.32669",
+   "type": "new",
+   "title": "Erdős Distance Results for $k$-Degenerate Graphs with $m$ Edges",
+   "authors": [
+    "Luv Barnwal",
+    "Yuda Chen",
+    "Eon Lee",
+    "Eyvindur Palsson",
+    "Braiden Pulver",
+    "Steven Senger"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "15 pages, 1 table",
+   "abstract": "The Erdős distinct distances problem asks how many distinct distances $N$ points must determine. In the plane, Guth and Katz determined the optimal power of $N$. A natural generalization fixes a finite graph $G$ with $m$ edges and records, over all injective embeddings of $G$ into a finite point set $P \\subset \\mathbb{R}^d$, the vectors of edge-lengths realized; we write $\\Delta_G^\\circ(P)$ for this set of edge-distance vectors. Taking $G$ to be a single edge recovers the classical problem. In the plane, the exponent $|V(G)|-1$ is known up to an arbitrarily small loss for every connected graph. A graph is $k$-degenerate if its vertices can be ordered so that each has at most $k$ neighbors among those preceding it. We show that if $G$ is $k$-degenerate, then for every $d \\ge \\max(2k,3)$ and every $\\varepsilon > 0$, $|\\Delta_G^\\circ(P)| \\gtrsim_{G,d,\\varepsilon} N^{m/(d-1)-\\varepsilon}$ for $|P|=N\\ge |V(G)|$. For a connected graph with $m/(|V(G)|-1)>2(d-1)/d$, the exponent $m/(d-1)$ exceeds the spanning-tree exponent predicted by the pinned-distance conjecture. Our result is motivated by the threshold $\\frac{d+k}{2}$ obtained by Borges, Foster, Ou, Palsson, and Romero Acosta for edge lengths of $k$-degenerate graphs in fractal sets. The proof combines a bisector-energy estimate for pinned $k$-stars with an entropy argument of Katz--Tardos type, applied along a construction order of $G$ and combined with an induction on the dimension.",
+   "abs": "https://arxiv.org/abs/2611.32669",
+   "pdf": "https://arxiv.org/pdf/2611.32669"
+  },
+  {
+   "id": "2611.31409",
+   "type": "new",
+   "title": "RSK with a twist, mirabolic Steinberg variety, and Pak--Postnikov representations",
+   "authors": [
+    "Son Nguyen"
+   ],
+   "categories": [
+    "math.CO",
+    "math.RT"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "There is a beautiful interplay between the classical Robinson--Schensted correspondence and the Steinberg variety, which is the union of conormal components of $Fl(V) \\times Fl(V)$. The irreducible components of the Steinberg variety gives the geometric interpretation of RS, and Pak--Postnikov description of RS as U,D operators is the combinatorics shadow of the $S_n\\times S_n$-representation inside the top homology of the Steinberg variety. We study the conormal components of $Fl(V) \\times Fl(V) \\times L(\\lambda)$, where $L(\\lambda)$ is an irreducible representation of $GL(V)$. We show that there are only three families of $L(\\lambda)$ such that $Fl(V)\\times Fl(V) \\times L(\\lambda)$ has finitely many orbits. These families are determinant twists of classical RS, Travkin's mirabolic RSK and its Fourier dual. We extend the combinatorial interpretation of RS in terms of U,D operators to mirabolic RSK. Finally, we give a filtration of the top homology of the mirabolic Steinberg variety in which each graded piece is a Pak--Postnikov $S_n \\times S_n$-representations.",
+   "abs": "https://arxiv.org/abs/2611.31409",
+   "pdf": "https://arxiv.org/pdf/2611.31409"
+  },
+  {
+   "id": "2611.32730",
+   "type": "new",
+   "title": "A degree-sum condition for paths through prescribed vertices",
+   "authors": [
+    "Kun Cheng",
+    "Leilei Zhang"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "9 pages. Submitted to Discrete Mathematics",
+   "abstract": "Let $G$ be a graph of order $n$ and let $S\\subseteq V(G)$. Denote by $\\kappa(S)$ the minimum size of a vertex set separating two vertices of $S$, and by $\\sigma_p(S)$ the minimum degree sum over all independent sets of $p$ vertices in $S$. We prove that if $\\kappa(S)\\ge k\\ge2$ and $\\sigma_p(S)\\ge n+(p-1)^2$ for every integer $p\\ge k$, then any two distinct vertices of $S$ are joined by a path containing all vertices of $S$. This gives a path version of Ota's theorem on cycles containing a prescribed set of vertices. As an application, we prove a conjecture of Faudree, Faudree, Gould, Jacobson and Magnant: for $k\\ge3$, every $k$-connected graph $G$ of order $n$ satisfying $\\delta(G)>(n+k^2-2k)/k$ and $\\delta(G)\\ge\\alpha(G)+k-2$ is hamiltonian-connected.",
+   "abs": "https://arxiv.org/abs/2611.32730",
+   "pdf": "https://arxiv.org/pdf/2611.32730"
+  },
+  {
+   "id": "2611.31599",
+   "type": "new",
+   "title": "Major progress on hamiltonian saturation in hypergraphs",
+   "authors": [
+    "Andrzej Żak",
+    "Andrzej Ruciński"
+   ],
+   "categories": [
+    "math.CO"
+   ],
+   "primary": "math.CO",
+   "comments": "",
+   "abstract": "For $1\\leq \\ell< k$, an \\emph{$\\ell$-overlapping $k$-cycle} is a $k$-uniform hypergraph in which, for some cyclic vertex ordering, every edge consists of $k$ consecutive vertices and every two consecutive edges share exactly $\\ell$ vertices. A $k$-uniform hypergraph $H$ is $\\ell$-\\emph{hamiltonian saturated} if $H$ does not contain an $\\ell$-overlapping Hamilton $k$-cycle but every hypergraph obtained from $H$ by adding a new edge does contain such a cycle. For $n$ divisible by $k-\\ell$, let sat$(n,k,\\ell)$ be the smallest number of edges in an $\\ell$-hamiltonian saturated $k$-uniform hypergraph on $n$ vertices. In the case of graphs Clark and Entringer showed in 1983 that, for sufficiently large $n$, sat$(n,2,1)=\\lceil \\frac{3n}2\\rceil$. By ad hoc methods, the present authors proved previously that sat$(n,k,\\ell)=\\Theta(n^{\\ell})$ for some rather narrow and scattered ranges of $\\ell$. In this paper we present a unified proof of this equality for all $k$ and $\\ell>k/2$.",
+   "abs": "https://arxiv.org/abs/2611.31599",
+   "pdf": "https://arxiv.org/pdf/2611.31599"
+  }
+ ],
+ "surveys": [
+  {
+   "id": "2611.32607",
+   "type": "cross",
+   "title": "Sparse Additive Spanners and the Cost Spectra of Group Actions",
+   "authors": [
+    "Itai Benjamini"
+   ],
+   "categories": [
+    "math.GR",
+    "math.CO"
+   ],
+   "primary": "math.GR",
+   "comments": "Into the abyss with open eyes",
+   "abstract": "How sparse can a Cayley graph become if we retain all its vertices and allow distances to increase by at most a fixed additive constant? We study invariant random spanning subgraphs, measuring sparsity by the expected degree at a vertex. On the square grid, a random translate of a sparse mesh brings the mean degree arbitrarily close to two. If the choice must be made equivariantly from independent vertex labels, every edge is forced. In this expository note we follow these two answers through other groups. Geometry alone forces a positive gap on each non-elementary hyperbolic Cayley graph, while on one four-regular nilpotent Cayley graph the choice of action realizes every additive cost in $[1,2]$. The minimum of the action spectrum recovers the geometric cost. Open problems are presented in the end.",
+   "abs": "https://arxiv.org/abs/2611.32607",
+   "pdf": "https://arxiv.org/pdf/2611.32607"
+  }
+ ],
+ "listed_new": 45,
+ "listed_cross": 23
+}
